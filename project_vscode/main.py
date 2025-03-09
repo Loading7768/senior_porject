@@ -5,18 +5,19 @@ from random import randint
 import json
 
 # 設定最少要擷取的推文數
-MINIMUM_TWEETS = 500
+MINIMUM_TWEETS = 1000
 # 設定查詢條件，這裡是搜尋 Elon Musk 在 2018-01-01 到 2020-01-01 之間的英文推文
 # QUERY = '(from:elonmusk) lang:en until:2020-01-01 since:2018-01-01'
-QUERY = 'dogecoin'  # 可以改為其他關鍵字來搜尋不同內容
-# QUERY = '(dogecoin) lang:en until:2024-12-31 since:2024-01-01'
+# QUERY = 'dogecoin'  # 可以改為其他關鍵字來搜尋不同內容
+QUERY = '(dogecoin) lang:en until:2024-12-29 since:2024-01-01'
 
 # 定義函式來獲取推文
 def get_tweets(tweets):
     if tweets is None:
         # 第一次獲取推文
         print(f'{datetime.now()} - Getting tweets...')
-        tweets = client.search_tweet(QUERY, product='Top')
+        # 在 Latest 的欄位內搜尋 (Top, Latest, People, Media, Lists)
+        tweets = client.search_tweet(QUERY, product='Latest')
     else:
         # 如果已經有推文，則等待一段隨機時間後再獲取下一批推文
         wait_time = randint(5, 10) # 5s ~ 10s
