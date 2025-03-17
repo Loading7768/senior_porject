@@ -1,6 +1,6 @@
 import asyncio
 from twikit import Client, TooManyRequests
-import time
+# import time
 from datetime import datetime
 from random import randint
 import json
@@ -12,7 +12,7 @@ MINIMUM_TWEETS = 10000
 # 設定查詢條件，這裡是搜尋 Elon Musk 在 2018-01-01 到 2020-01-01 之間的英文推文
 # QUERY = '(from:elonmusk) lang:en until:2020-01-01 since:2018-01-01'
 # 可以改為其他關鍵字來搜尋不同內容
-QUERY = 'dogecoin lang:en until:2025-03-15 since:2025-03-14'
+QUERY = 'dogecoin lang:en until:2025-03-10 since:2025-03-09'
 timestamp = []
 
 # 定義 **異步** 函式來獲取推文
@@ -46,6 +46,7 @@ async def main():
     tweets = None
 
     # 設定開始時間的 timestamp
+    # strftime  把 datetime 的時間用固定的格式轉成 string
     timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "Start"])
 
     while founded_count < MINIMUM_TWEETS:
@@ -58,7 +59,8 @@ async def main():
             wait_time = (rate_limit_reset - datetime.now()).total_seconds()
 
             # 設定 timestamp
-            timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "TooManyRequests"])
+            timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"TooManyRequests - Got {founded_count} tweets"])
+            timestamp.append(["Waiting until ", datetime.strftime(rate_limit_reset, '%Y-%m-%d %H:%M:%S')])
 
             await asyncio.sleep(wait_time)  # `await` 讓程式非同步等待
             continue
@@ -72,23 +74,14 @@ async def main():
             await asyncio.sleep(600)  # `await` 讓程式非同步等待
             continue
 
-
-
-        # '''以下為測試檔案是否正常'''
         if not tweets:
             # 如果沒有推文了，結束爬取
             print(f'{datetime.now()} - No more tweets found')
             break
 
-        # 確保資料夾存在
-        # if not os.path.exists('./data'):
-        #     os.makedirs('./data', exist_ok=True)
 
-        #     # 設定 timestamp
-        #     timestamp[timestamp_count][0] = datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S')
-        #     timestamp[timestamp_count][1] = "not os.path.exists"
-        #     timestamp_count += 1
-
+        
+        # '''以下為測試檔案是否正常'''
         filename = os.path.join("data", "data.json")  # 避免無效字元
 
         # 將 data.json 中的資料讀到 data_json 中
@@ -110,7 +103,7 @@ async def main():
             print(f"測試-寫入檔案失敗: {e}")
 
             # 設定 timestamp
-            timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "Test-WrittingError-OSError"])
+            timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"Test-WrittingError-OSError - {e}"])
 
         # 抓出 data.json 中最後一筆資料的 tweet_count
         try:
@@ -147,7 +140,7 @@ async def main():
                 print(f"寫入檔案失敗: {e}")
 
                 # 設定 timestamp
-                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "WrittingError-OSError"])
+                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"WrittingError-OSError - {e}"])
 
                 continue
 
@@ -156,6 +149,10 @@ async def main():
     # 爬取結束
     print(f'{datetime.now()} - Done! Got {founded_count} tweets found')
 
+    # 設定開始時間的 timestamp
+    timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "End"])
+
+    print("\n以下為 timestamp: ")
     for i in timestamp:
         print(i[0] + ' ' + i[1])
 

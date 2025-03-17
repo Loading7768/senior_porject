@@ -1,0 +1,140 @@
+QUERY = 'dogecoin lang:en until:2025-03-15 since:2025-03-09'
+執行時間：2025-03-16 xx:xx:xx ~ 2025-03-16 19:56:10 (應該約 2-3 小時)
+推文數量：5503
+推文時間：2025-03-14 12:26:53 ~ 2025-03-15 23:59:15 (GMT+0)
+
+QUERY = 'dogecoin lang:en until:2025-03-15 since:2025-03-14'
+執行時間：2025-03-16 22:48:07 ~ 2025-03-16 23:25:01
+推文數量：1570
+推文時間：2025-03-14 12:26:53 ~ 2025-03-14 23:59:17 (GMT+0)
+Timestamp：
+    2025-03-16 22:54:55 TooManyRequests
+    2025-03-16 23:10:31 TooManyRequests
+
+QUERY = 'dogecoin lang:en until:2025-03-14 since:2025-03-13'
+執行時間：2025-03-16 23:48:11 ~ 2025-03-16 23:51:34
+推文數量：282
+推文時間：2025-03-13 20:57:04 ~ 2025-03-13 23:59:23 (GMT+0)
+Timestamp：
+    2025-03-16 23:48:11 Start
+    2025-03-16 23:51:34 End
+
+QUERY = 'dogecoin lang:en until:2025-03-14 since:2025-03-13' (Top)
+執行時間：2025-03-17 10:00:10 ~ 2025-03-17 10:02:10
+推文數量：178
+推文時間：2025-03-13 xx:xx:xx ~ 2025-03-13 xx:xx:xx (GMT+0)
+Timestamp：
+    2025-03-17 10:00:10 Start
+    2025-03-17 10:02:10 End
+
+QUERY = 'dogecoin lang:en until:2025-03-13 since:2025-03-12'
+執行時間：2025-03-17 10:13:10 ~ 2025-03-17 11:19:42 (1 hr 6 min)
+推文數量：2938 (24 WrittingError)
+推文時間：2025-03-12 00:00:01 ~ 2025-03-12 23:59:58 (GMT+0)
+Timestamp：
+    2025-03-17 10:13:10 Start
+    2025-03-17 10:13:35 TooManyRequests
+    2025-03-17 10:21:49 TooManyRequests
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:32 WrittingError-OSError
+    2025-03-17 10:36:56 TooManyRequests
+    2025-03-17 10:52:03 TooManyRequests
+    2025-03-17 11:01:13 WrittingError-OSError
+    2025-03-17 11:03:52 WrittingError-OSError
+    2025-03-17 11:03:52 WrittingError-OSError
+    2025-03-17 11:03:52 WrittingError-OSError
+    2025-03-17 11:07:40 TooManyRequests
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:16:27 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:18:42 WrittingError-OSError
+    2025-03-17 11:19:42 End
+
+QUERY = 'dogecoin lang:en until:2025-03-12 since:2025-03-11'
+執行時間：2025-03-17 11:28:10 ~ 2025-03-17 12:35:02 (1 hr 8 min)
+推文數量：2976 (7 WrittingError)
+推文時間：2025-03-11 00:00:02 ~ 2025-03-11 23:58:36 (GMT+0)
+Timestamp：
+    2025-03-17 11:28:10 Start
+    2025-03-17 11:36:11 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 11:36:11 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 11:37:02 TooManyRequests - Got 873 tweets
+    Waiting until  2025-03-17 11:45:20
+    2025-03-17 11:52:46 TooManyRequests - Got 1522 tweets
+    Waiting until  2025-03-17 12:00:26
+    2025-03-17 12:07:22 TooManyRequests - Got 2076 tweets
+    Waiting until  2025-03-17 12:15:34
+    2025-03-17 12:22:57 TooManyRequests - Got 2625 tweets
+    Waiting until  2025-03-17 12:30:41
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:32:06 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'  
+    2025-03-17 12:33:01 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json' 
+
+QUERY = 'dogecoin lang:en until:2025-03-11 since:2025-03-10'
+執行時間：2025-03-17 20:03:44 ~ 2025-03-17 21:21:41 (1 hr 18 min)
+推文數量：3133 (14 WrittingError)
+推文時間：2025-03-10 00:00:01 ~ 2025-03-10 23:59:54 (GMT+0)
+Timestamp：
+    2025-03-17 20:03:44 Start
+    2025-03-17 20:10:24 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 20:10:41 TooManyRequests - Got 546 tweets
+    Waiting until  2025-03-17 20:18:46
+    2025-03-17 20:26:19 TooManyRequests - Got 1159 tweets
+    Waiting until  2025-03-17 20:33:54
+    2025-03-17 20:41:24 TooManyRequests - Got 1706 tweets
+    Waiting until  2025-03-17 20:49:01
+    2025-03-17 20:52:12 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 20:53:13 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 20:53:13 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 20:53:13 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 20:56:59 TooManyRequests - Got 2320 tweets
+    Waiting until  2025-03-17 21:04:06
+    2025-03-17 21:11:52 TooManyRequests - Got 2981 tweets
+    Waiting until  2025-03-17 21:19:15
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:20:52 WrittingError-OSError - [Errno 22] Invalid argument: './data/data.json'
+    2025-03-17 21:21:41 End

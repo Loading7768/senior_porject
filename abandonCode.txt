@@ -33,3 +33,10 @@
         # with open('tweets.csv', 'a', newline='', encoding="utf-8-sig") as file:
         #     writer = csv.writer(file)
         #     writer.writerow(tweet_data)
+
+        # 確保資料夾存在
+        # if not os.path.exists('./data'):
+        #     os.makedirs('./data', exist_ok=True)
+
+        #     # 設定 timestamp
+        #     timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "not os.path.exists"])
