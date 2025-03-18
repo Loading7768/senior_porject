@@ -264,7 +264,7 @@ Timestamp：
     2025-03-18 17:19:17 End
 
 QUERY = 'dogecoin lang:en until:2025-03-06 since:2025-03-05'
-執行時間：2025-03-18 18:38:04 ~ 2025-03-18 19:57:22
+執行時間：2025-03-18 18:38:04 ~ 2025-03-18 19:57:22 (1 hr 19 min)
 推文數量：3410 (-21 WrittingError)
 推文時間：Wed Mar 05 00:00:12 +0000 2025 ~ Wed Mar 05 23:59:58 +0000 2025 (GMT+0)
 Timestamp：
@@ -314,5 +314,13 @@ Timestamp：
 	Waiting until  2025-03-18 20:23:26
 	2025-03-18 20:25:11 End
 
-
+QUERY = 'dogecoin lang:en until:2025-03-14 since:2025-03-13'
+SEARCH = 'Latest'
+執行時間：2025-03-18 22:10:37 ~ 2025-03-18 22:13:54 (0 hr 3 min)
+推文數量：273 (0 WrittingError)
+推文時間：Thu Mar 13 20:57:04 +0000 2025 ~ Thu Mar 13 23:59:02 +0000 2025 (GMT+0)
+Timestamp：
+	2025-03-18 22:10:37 Start
+	2025-03-18 22:10:38 FileNotFoundError
+	2025-03-18 22:13:54 End
 

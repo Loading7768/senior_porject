@@ -10,9 +10,9 @@ import httpx
 
 
 '''可修改參數'''
-MINIMUM_TWEETS = 10  # 設定最少要擷取的推文數
+MINIMUM_TWEETS = 10000  # 設定最少要擷取的推文數
 
-QUERY = 'dogecoin lang:en until:2025-03-05 since:2025-03-04'  # 可以改為其他關鍵字來搜尋不同內容
+QUERY = 'dogecoin lang:en until:2025-03-04 since:2025-03-03'  # 可以改為其他關鍵字來搜尋不同內容
 
 COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
 
@@ -161,13 +161,32 @@ async def main():
     # 設定開始時間的 timestamp
     timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "End"])
 
+    # 計算總共執行時間 (? hr ? min)
+    # timestamp[?][0][11] timestamp[?][0][12] 是 hr   timestamp[?][0][14] timestamp[?][0][15] 是 min
+    hrStart = int(timestamp[0][0][11]) * 10 + int(timestamp[0][0][12])
+    minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
+    hrEnd = int(timestamp[-1][0][11]) * 10 + int(timestamp[-1][0][12])
+    minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
+
+    if hrEnd < hrStart:
+        totalHr = (24 - hrStart) + hrEnd
+    else:
+        totalHr = hrEnd - hrStart
+    
+    if minEnd < minStart:
+        totalMin = (60 - minStart) + minEnd
+    else:
+        totalMin = minEnd - minStart
+
+
     # 把資料存入 analysis.txt 裡
     analysisFile = '../analysis.txt'
     with open(filename, 'r', encoding='utf-8-sig') as file:
         data_json = json.load(file)
     with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
         txtfile.write(f"QUERY = '{QUERY}'\n")
-        txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]}\n')
+        txtfile.write(f"SEARCH = '{SEARCH}'\n")
+        txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]} ({totalHr} hr {totalMin} min)\n')  
         txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({data_json[COIN_NAME][-1]['tweet_count'] - founded_count} WrittingError)\n')
         txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
         txtfile.write(f'Timestamp：\n')
