@@ -7,12 +7,20 @@ import json
 import os
 import httpx
 
-# 設定最少要擷取的推文數
-MINIMUM_TWEETS = 10000
-# 設定查詢條件，這裡是搜尋 Elon Musk 在 2018-01-01 到 2020-01-01 之間的英文推文
-# QUERY = '(from:elonmusk) lang:en until:2020-01-01 since:2018-01-01'
-# 可以改為其他關鍵字來搜尋不同內容
-QUERY = 'dogecoin lang:en until:2025-03-10 since:2025-03-09'
+
+
+'''可修改參數'''
+MINIMUM_TWEETS = 10  # 設定最少要擷取的推文數
+
+QUERY = 'dogecoin lang:en until:2025-03-05 since:2025-03-04'  # 可以改為其他關鍵字來搜尋不同內容
+
+COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
+
+SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media, Lists)
+'''可修改參數'''
+
+
+
 timestamp = []
 
 # 定義 **異步** 函式來獲取推文
@@ -20,8 +28,7 @@ async def get_tweets(client, tweets):
     if tweets is None:
         # 第一次獲取推文
         print(f'{datetime.now()} - Getting tweets...')
-        # 在 Latest 的欄位內搜尋 (Top, Latest, People, Media, Lists)
-        tweets = await client.search_tweet(QUERY, product='Latest')
+        tweets = await client.search_tweet(QUERY, product=SEARCH)
     else:
         # 如果已經有推文，則等待一段隨機時間後再獲取下一批推文
         wait_time = randint(5, 10)  # 5s ~ 10s
@@ -81,7 +88,7 @@ async def main():
 
 
         
-        # '''以下為測試檔案是否正常'''
+        '''以下為測試檔案是否正常'''
         filename = os.path.join("data", "data.json")  # 避免無效字元
 
         # 將 data.json 中的資料讀到 data_json 中
@@ -89,7 +96,9 @@ async def main():
             with open(filename, 'r', encoding='utf-8-sig') as file:
                 data_json = json.load(file)
         except (FileNotFoundError, json.JSONDecodeError):
-            data_json = {"dogecoin": []}  # 如果檔案不存在，初始化為空字典
+            data_json = {COIN_NAME: []}  # 如果檔案不存在，初始化為空字典
+            with open(filename, 'w', encoding='utf-8-sig') as file:
+                json.dump(data_json, file, indent=4, ensure_ascii=False)
 
             # 設定 timestamp
             timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "FileNotFoundError"])
@@ -107,10 +116,10 @@ async def main():
 
         # 抓出 data.json 中最後一筆資料的 tweet_count
         try:
-            tweet_count = data_json['dogecoin'][-1]['tweet_count']
+            tweet_count = data_json[COIN_NAME][-1]['tweet_count']
         except (IndexError, KeyError):
             tweet_count = 0
-        # '''以上為測試檔案是否正常'''
+        '''以上為測試檔案是否正常'''
 
 
 
@@ -129,12 +138,12 @@ async def main():
             }
 
             # 將新的 tweet 加入 data_json 裡的 dogecoin 字典中
-            data_json['dogecoin'].append(tweet_dict)
+            data_json[COIN_NAME].append(tweet_dict)
 
             # 將推文資訊寫入 data.json 檔案
             # ensure_ascii=False 直接輸出原本的字元，不會轉成 Unicode 編碼
             try:
-                with open('./data/data.json', 'w', encoding='utf-8-sig') as file:
+                with open(filename, 'w', encoding='utf-8-sig') as file:
                     json.dump(data_json, file, indent=4, ensure_ascii=False)
             except OSError as e:
                 print(f"寫入檔案失敗: {e}")
@@ -152,9 +161,19 @@ async def main():
     # 設定開始時間的 timestamp
     timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "End"])
 
-    print("\n以下為 timestamp: ")
-    for i in timestamp:
-        print(i[0] + ' ' + i[1])
+    # 把資料存入 analysis.txt 裡
+    analysisFile = '../analysis.txt'
+    with open(filename, 'r', encoding='utf-8-sig') as file:
+        data_json = json.load(file)
+    with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
+        txtfile.write(f"QUERY = '{QUERY}'\n")
+        txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]}\n')
+        txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({data_json[COIN_NAME][-1]['tweet_count'] - founded_count} WrittingError)\n')
+        txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
+        txtfile.write(f'Timestamp：\n')
+        for i in timestamp:
+            txtfile.write(f'\t{i[0]} {i[1]}\n')
+        txtfile.write('\n')
 
 # **執行 `main()`**，確保程式運行在 **異步模式**
 asyncio.run(main())
