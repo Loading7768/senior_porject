@@ -324,3 +324,147 @@ Timestamp：
 	2025-03-18 22:10:38 FileNotFoundError
 	2025-03-18 22:13:54 End
 
+QUERY = 'dogecoin lang:en until:2025-03-04 since:2025-03-03'
+SEARCH = 'Latest'
+執行時間：2025-03-18 22:14:47 ~ 2025-03-18 23:54:21 (1 hr 40 min)
+推文數量：4534 (11 WrittingError)
+推文時間：Mon Mar 03 00:00:00 +0000 2025 ~ Mon Mar 03 23:59:41 +0000 2025 (GMT+0)
+Timestamp：
+	2025-03-18 22:14:47 Start
+	2025-03-18 22:14:48 TooManyRequests - Got 0 tweets
+	Waiting until  2025-03-18 22:16:16
+	2025-03-18 22:16:16 FileNotFoundError
+	2025-03-18 22:23:09 TooManyRequests - Got 711 tweets
+	Waiting until  2025-03-18 22:31:16
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:36:51 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 22:38:27 TooManyRequests - Got 1403 tweets
+	Waiting until  2025-03-18 22:46:22
+	2025-03-18 22:53:32 TooManyRequests - Got 2054 tweets
+	Waiting until  2025-03-18 23:01:28
+	2025-03-18 23:07:22 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 23:07:22 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 23:07:22 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 23:07:22 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-18 23:08:58 TooManyRequests - Got 2757 tweets
+	Waiting until  2025-03-18 23:16:37
+	2025-03-18 23:24:19 TooManyRequests - Got 3329 tweets
+	Waiting until  2025-03-18 23:31:44
+	2025-03-18 23:39:40 TooManyRequests - Got 3914 tweets
+	Waiting until  2025-03-18 23:46:52
+	2025-03-18 23:54:21 End
+
+QUERY = 'dogecoin lang:en until:2025-03-03 since:2025-03-02'
+SEARCH = 'Latest'
+執行時間：2025-03-18 23:57:01 ~ 2025-03-19 01:38:25 (1 hr 41 min)
+推文數量：4269 (81 WrittingError)
+推文時間：Sun Mar 02 00:00:01 +0000 2025 ~ Sun Mar 02 23:59:57 +0000 2025 (GMT+0)
+Timestamp：
+	2025-03-18 23:57:01 Start
+	2025-03-18 23:57:02 FileNotFoundError
+	2025-03-18 23:57:37 TooManyRequests - Got 32 tweets
+	Waiting until  2025-03-19 00:02:02 
+	2025-03-19 00:09:36 TooManyRequests - Got 675 tweets
+	Waiting until  2025-03-19 00:17:10
+	2025-03-19 00:24:06 TooManyRequests - Got 1309 tweets
+	Waiting until  2025-03-19 00:32:16
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:38:49 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:39:31 TooManyRequests - Got 1977 tweets
+	Waiting until  2025-03-19 00:47:26
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:49:24 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:50:33 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:50:33 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:52:38 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:52:38 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:53:59 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:53:59 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:53:59 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:53:59 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 00:55:14 TooManyRequests - Got 2688 tweets
+	Waiting until  2025-03-19 01:02:34
+	2025-03-19 01:05:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:05:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:06:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:06:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:06:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:06:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:06:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:06:36 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:08:56 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:10:12 TooManyRequests - Got 3356 tweets
+	Waiting until  2025-03-19 01:17:41
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:18:53 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:20:02 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:22:39 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:22:39 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:22:39 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:22:39 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:22:39 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:22:39 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:24:55 TooManyRequests - Got 3937 tweets
+	Waiting until  2025-03-19 01:32:51
+	2025-03-19 01:35:40 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:35:47 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:35:47 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:35:47 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:07 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:07 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:07 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:07 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:07 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:07 WrittingError-OSError - [Errno 22] Invalid argument: 'data\\data.json'
+	2025-03-19 01:38:25 End
+

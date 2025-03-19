@@ -10,9 +10,9 @@ import httpx
 
 
 '''可修改參數'''
-MINIMUM_TWEETS = 10000  # 設定最少要擷取的推文數
+MINIMUM_TWEETS = 500  # 設定最少要擷取的推文數
 
-QUERY = 'dogecoin lang:en until:2025-03-04 since:2025-03-03'  # 可以改為其他關鍵字來搜尋不同內容
+QUERY = 'dogecoin lang:en until:2025-03-02 since:2025-03-01'  # 可以改為其他關鍵字來搜尋不同內容
 
 COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
 
@@ -67,7 +67,26 @@ async def main():
 
             # 設定 timestamp
             timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"TooManyRequests - Got {founded_count} tweets"])
-            timestamp.append(["Waiting until ", datetime.strftime(rate_limit_reset, '%Y-%m-%d %H:%M:%S')])
+            # 計算總共需等待時間 (? min ? sec)
+            # # timestamp[?][0][14] timestamp[?][0][15] 是 min   timestamp[?][0][17] timestamp[?][0][18] 是 hr   
+            # minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
+            # secStart = int(timestamp[0][0][17]) * 10 + int(timestamp[0][0][18])
+            # minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
+            # secEnd = int(timestamp[-1][0][17]) * 10 + int(timestamp[-1][0][18])
+
+            # if minEnd < minStart:
+            #     totalMin = (60 - minStart) + minEnd
+            # else:
+            #     totalMin = minEnd - minStart
+
+            # if secEnd < secStart:
+            #     totalSec = (60 - secStart) + secEnd
+            # else:
+            #     totalSec = secEnd - secStart
+            totalMin = int(wait_time) // 60
+            totalSec = int(wait_time) % 60
+
+            timestamp.append(["Waiting until ", f"{datetime.strftime(rate_limit_reset, '%Y-%m-%d %H:%M:%S')} ({totalMin} min {totalSec} sec)"])
 
             await asyncio.sleep(wait_time)  # `await` 讓程式非同步等待
             continue
@@ -167,16 +186,22 @@ async def main():
     minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
     hrEnd = int(timestamp[-1][0][11]) * 10 + int(timestamp[-1][0][12])
     minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
+    carry = False   
+
+    if minEnd < minStart:
+        totalMin = (60 - minStart) + minEnd
+        carry = True
+    else:
+        totalMin = minEnd - minStart
 
     if hrEnd < hrStart:
         totalHr = (24 - hrStart) + hrEnd
     else:
         totalHr = hrEnd - hrStart
     
-    if minEnd < minStart:
-        totalMin = (60 - minStart) + minEnd
-    else:
-        totalMin = minEnd - minStart
+    if carry:
+        totalHr - 1
+    
 
 
     # 把資料存入 analysis.txt 裡
@@ -187,7 +212,7 @@ async def main():
         txtfile.write(f"QUERY = '{QUERY}'\n")
         txtfile.write(f"SEARCH = '{SEARCH}'\n")
         txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]} ({totalHr} hr {totalMin} min)\n')  
-        txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({data_json[COIN_NAME][-1]['tweet_count'] - founded_count} WrittingError)\n')
+        txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({founded_count - data_json[COIN_NAME][-1]['tweet_count']} WrittingError)\n')
         txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
         txtfile.write(f'Timestamp：\n')
         for i in timestamp:
