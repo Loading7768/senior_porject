@@ -67,22 +67,8 @@ async def main():
 
             # 設定 timestamp
             timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"TooManyRequests - Got {founded_count} tweets"])
+            
             # 計算總共需等待時間 (? min ? sec)
-            # # timestamp[?][0][14] timestamp[?][0][15] 是 min   timestamp[?][0][17] timestamp[?][0][18] 是 hr   
-            # minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
-            # secStart = int(timestamp[0][0][17]) * 10 + int(timestamp[0][0][18])
-            # minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
-            # secEnd = int(timestamp[-1][0][17]) * 10 + int(timestamp[-1][0][18])
-
-            # if minEnd < minStart:
-            #     totalMin = (60 - minStart) + minEnd
-            # else:
-            #     totalMin = minEnd - minStart
-
-            # if secEnd < secStart:
-            #     totalSec = (60 - secStart) + secEnd
-            # else:
-            #     totalSec = secEnd - secStart
             totalMin = int(wait_time) // 60
             totalSec = int(wait_time) % 60
 
@@ -186,7 +172,7 @@ async def main():
     minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
     hrEnd = int(timestamp[-1][0][11]) * 10 + int(timestamp[-1][0][12])
     minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
-    carry = False   
+    carry = False  # 如果 min 有進位的話  totalHr -= 1
 
     if minEnd < minStart:
         totalMin = (60 - minStart) + minEnd
@@ -200,7 +186,7 @@ async def main():
         totalHr = hrEnd - hrStart
     
     if carry:
-        totalHr - 1
+        totalHr -= 1
     
 
 
