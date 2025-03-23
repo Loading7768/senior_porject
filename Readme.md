@@ -22,9 +22,9 @@
         4. 開始執行
 
     執行後：
-        1. 可在 data.json 裡看到抓到的推文
+        1. 可在 data{編號}.json 裡看到抓到的推文
         2. 可在 analysis.txt 裡看到執行的基本資料與重要 timestamp
-        3. 複製一個 data.json 的副本 (data copy.json) 並更改為適當的檔名後 (ex. DOGE_20250307)，移動副本至適當資料夾中
-        4. 將執行後的 data.json 清空 (不需留任何 json 格式)
-        5. 若 data.json 的 tweet_count 沒有從 1 開始，可用 resetCount.py 來修正
+        3. 更改為適當的檔名後 (ex. DOGE_20250307)，移動副本至適當資料夾中
+        4. 將執行後的 data{編號}.json 刪除 (不需留任何 json 格式)
+        5. 若 data{編號}.json 的 tweet_count 沒有從 1 開始，可用 resetCount.py 來修正
         6. 可繼續執行
