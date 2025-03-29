@@ -14,11 +14,13 @@ MINIMUM_TWEETS = 10000  # 設定最少要擷取的推文數
 
 COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
 
+COIN_SHORT_NAME = "DOGE"  # 要當成檔案名的 memecoin 名稱
+
 SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media, Lists)
 
-START_YEAR = 2025  # 開始的年份
+START_YEAR = 2024  # 開始的年份
 
-START_MONTH = 2  # 開始的月份
+START_MONTH = 12  # 開始的月份
 
 START_DAY = 1  # 開始的日期
 
@@ -104,7 +106,17 @@ async def main():
 
             
             '''以下為測試檔案是否正常'''
-            filename = f"./data/data{day_count}.json"  # 避免無效字元
+            # 設定檔案名稱
+            if START_MONTH < 10:
+                if day_count + START_DAY < 10:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}0{day_count + START_DAY}.json"
+                else:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}{day_count + START_DAY}.json"
+            else:
+                if day_count + START_DAY < 10:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}0{day_count + START_DAY}.json"
+                else:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}{day_count + START_DAY}.json"
 
             # 將 data.json 中的資料讀到 data_json 中
             try:
