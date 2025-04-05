@@ -10,7 +10,7 @@ import httpx
 
 # 若要直接修改 QUERY 在 58 行
 '''可修改參數'''
-MINIMUM_TWEETS = 10000  # 設定最少要擷取的推文數
+MINIMUM_TWEETS = 20000  # 設定最少要擷取的推文數
 
 COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
 
@@ -20,11 +20,11 @@ SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media,
 
 START_YEAR = 2024  # 開始的年份
 
-START_MONTH = 12  # 開始的月份
+START_MONTH = 11  # 開始的月份
 
-START_DAY = 1  # 開始的日期
+START_DAY = 15  # 開始的日期
 
-DAY_COUNT = 5  # 要連續找幾天
+DAY_COUNT = 3  # 要連續找幾天
 '''可修改參數'''
 
 
@@ -46,6 +46,12 @@ async def get_tweets(client, tweets, query):
 
     return tweets
 
+# 用 asyncio.Lock() 來確保同一時間只有一個協程能寫入檔案
+lock = asyncio.Lock()
+async def save_json(data_json, filename):
+    async with lock:
+        with open(filename, 'w', encoding='utf-8-sig') as file:
+            json.dump(data_json, file, indent=4, ensure_ascii=False)
 
 # 定義 **異步** 主函式
 async def main():
@@ -56,6 +62,8 @@ async def main():
     client = Client(language='en-US')
     client.load_cookies('cookies.json')  # 這裡 **不用 await**，因為是同步函式
 
+    # 設定目前是否達到此帳號抓文的上限
+    TooManyRequests_bool = False
     for day_count in range(DAY_COUNT):
         QUERY = f'dogecoin lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
 
@@ -64,11 +72,25 @@ async def main():
         tweets = None
 
         timestamp = []
+        start_time = datetime.now()
+        TooManyRequests_last = start_time
         # 設定開始時間的 timestamp
         # strftime  把 datetime 的時間用固定的格式轉成 string
         timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "Start"])
 
         while founded_count < MINIMUM_TWEETS:
+            # 設定檔案名稱
+            if START_MONTH < 10:
+                if day_count + START_DAY < 10:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}0{day_count + START_DAY}.json"
+                else:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}{day_count + START_DAY}.json"
+            else:
+                if day_count + START_DAY < 10:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}0{day_count + START_DAY}.json"
+                else:
+                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}{day_count + START_DAY}.json"
+            
             try:
                 tweets = await get_tweets(client, tweets, QUERY)  # `await` 確保非同步運行
             except TooManyRequests as e:
@@ -76,7 +98,7 @@ async def main():
                 rate_limit_reset = datetime.fromtimestamp(e.rate_limit_reset)
                 print(f'{datetime.now()} - Rate limit reached. Waiting until {rate_limit_reset}')
                 wait_time = (rate_limit_reset - datetime.now()).total_seconds()
-
+                
                 # 設定 timestamp
                 timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"TooManyRequests - Got {founded_count} tweets"])
                 
@@ -85,6 +107,17 @@ async def main():
                 totalSec = int(wait_time) % 60
 
                 timestamp.append(["Waiting until ", f"{datetime.strftime(rate_limit_reset, '%Y-%m-%d %H:%M:%S')} ({totalMin} min {totalSec} sec)"])
+                
+                # 如果在 10 分鐘內 ToMaanyRequests 兩次 => 代表此帳號今天的抓文達上限 => 立刻 break
+                difference = datetime.now() - TooManyRequests_last
+                if difference.total_seconds() / 60 < 10 and TooManyRequests_last != start_time:
+                    timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"TooManyRequests - TwiceBreak"])
+                    TooManyRequests_bool = True
+                    print(f"{datetime.now()} - This account rate limit reached - TooManyRequests twice")
+                    break
+
+                # 紀錄本次 ToManyRequests 的時間 來當作下一次的參考時間
+                TooManyRequests_last = datetime.now()
 
                 await asyncio.sleep(wait_time)  # `await` 讓程式非同步等待
                 continue
@@ -106,18 +139,6 @@ async def main():
 
             
             '''以下為測試檔案是否正常'''
-            # 設定檔案名稱
-            if START_MONTH < 10:
-                if day_count + START_DAY < 10:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}0{day_count + START_DAY}.json"
-                else:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}{day_count + START_DAY}.json"
-            else:
-                if day_count + START_DAY < 10:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}0{day_count + START_DAY}.json"
-                else:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}{day_count + START_DAY}.json"
-
             # 將 data.json 中的資料讀到 data_json 中
             try:
                 with open(filename, 'r', encoding='utf-8-sig') as file:
@@ -170,8 +191,7 @@ async def main():
                 # 將推文資訊寫入 data.json 檔案
                 # ensure_ascii=False 直接輸出原本的字元，不會轉成 Unicode 編碼
                 try:
-                    with open(filename, 'w', encoding='utf-8-sig') as file:
-                        json.dump(data_json, file, indent=4, ensure_ascii=False)
+                    await asyncio.gather(save_json(data_json, filename))
                 except OSError as e:
                     print(f"寫入檔案失敗: {e}")
 
@@ -212,20 +232,24 @@ async def main():
         
 
 
-        # 把資料存入 analysis.txt 裡
-        analysisFile = '../analysis.txt'
-        with open(filename, 'r', encoding='utf-8-sig') as file:
-            data_json = json.load(file)
-        with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
-            txtfile.write(f"QUERY = '{QUERY}'\n")
-            txtfile.write(f"SEARCH = '{SEARCH}'\n")
-            txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]} ({totalHr} hr {totalMin} min)\n')  
-            txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({founded_count - data_json[COIN_NAME][-1]['tweet_count']} WrittingError)\n')
-            txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
-            txtfile.write(f'Timestamp：\n')
-            for i in timestamp:
-                txtfile.write(f'\t{i[0]} {i[1]}\n')
-            txtfile.write('\n')
+        # 在有抓到資料的前提下 把資料存入 analysis.txt 裡
+        if founded_count > 0:
+            analysisFile = '../analysis.txt'
+            with open(filename, 'r', encoding='utf-8-sig') as file:
+                data_json = json.load(file)
+            with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
+                txtfile.write(f"QUERY = '{QUERY}'\n")
+                txtfile.write(f"SEARCH = '{SEARCH}'\n")
+                txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]} ({totalHr} hr {totalMin} min)\n')  
+                txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({founded_count - data_json[COIN_NAME][-1]['tweet_count']} WrittingError)\n')
+                txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
+                txtfile.write(f'Timestamp：\n')
+                for i in timestamp:
+                    txtfile.write(f'\t{i[0]} {i[1]}\n')
+                txtfile.write('\n')
+
+        if TooManyRequests_bool:
+            break
 
         wait_time_last = randint(5, 10)  # 5s ~ 10s
         print(f'{datetime.now()} - Waiting to next day after {wait_time_last} seconds ...')
