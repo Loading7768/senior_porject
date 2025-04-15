@@ -1,16 +1,23 @@
 import asyncio
+
 from twikit import Client, TooManyRequests
-# import time
-from datetime import datetime
-from random import randint
 import json
-# import os
 import httpx
 
+from random import randint, uniform
+import random
+from datetime import datetime, timedelta
 
-# 若要直接修改 QUERY 在 58 行
+import smtplib
+from email.mime.text import MIMEText
+from email.header import Header
+
+import winsound
+
+
+# 若要直接修改 QUERY 在約 170 行
 '''可修改參數'''
-MINIMUM_TWEETS = 20000  # 設定最少要擷取的推文數
+MINIMUM_TWEETS = 10  # 設定最少要擷取的推文數
 
 COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
 
@@ -18,13 +25,21 @@ COIN_SHORT_NAME = "DOGE"  # 要當成檔案名的 memecoin 名稱
 
 SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media, Lists)
 
-START_YEAR = 2024  # 開始的年份
+START_YEAR = 2025  # 開始的年份
 
-START_MONTH = 11  # 開始的月份
+START_MONTH = 3  # 開始的月份
 
-START_DAY = 15  # 開始的日期
+START_DAY = 16 # 開始的日期
 
-DAY_COUNT = 3  # 要連續找幾天
+DAY_COUNT = 1   # 要連續找幾天
+
+CHANGE_MONTH = 0 # 在哪個日期結束後有跨月 沒有填 0   ex. 如果要找的日期包含 1/31 則需要填 31
+
+# 如果不需要程式執行完成後傳 gmail 給你 則留空字串
+# 若要使用且帳號有啟用兩步驟驗證的話 PASSWORD 需要使用自行創建的「應用程式密碼」
+GMAIL = ""
+
+PASSWORD = ""
 '''可修改參數'''
 
 
@@ -39,12 +54,21 @@ async def get_tweets(client, tweets, query):
         tweets = await client.search_tweet(query, product=SEARCH)
     else:
         # 如果已經有推文，則等待一段隨機時間後再獲取下一批推文
-        wait_time = randint(5, 10)  # 5s ~ 10s
+        base = randint(4, 7)
+        wait_time = base + uniform(0.2, 1.5)  # 更自然的等待
         print(f'{datetime.now()} - Getting next tweets after {wait_time} seconds ...')
         await asyncio.sleep(wait_time)  # `await` 讓程式非同步等待
         tweets = await tweets.next()
+    
+    # 低機率的長時間等待 模擬人突然去忙別的事
+    if random.random() < 0.05:  # 5% 機率
+        break_time = randint(60, 180)  # 等 1 到 3 分鐘
+        print(f'{datetime.now()} - Taking a short break for {break_time} seconds...')
+        await asyncio.sleep(break_time)
 
     return tweets
+
+
 
 # 用 asyncio.Lock() 來確保同一時間只有一個協程能寫入檔案
 lock = asyncio.Lock()
@@ -52,6 +76,93 @@ async def save_json(data_json, filename):
     async with lock:
         with open(filename, 'w', encoding='utf-8-sig') as file:
             json.dump(data_json, file, indent=4, ensure_ascii=False)
+
+
+
+# 先把分析資料存在 analysis_temp.txt  以防止程式中途發生錯誤  
+async def write_analysis_temp(founded_count, filename, QUERY, timestamp):
+    # 計算總共執行時間 (? hr ? min)
+
+    # timestamp[?][0][11] timestamp[?][0][12] 是 hr   timestamp[?][0][14] timestamp[?][0][15] 是 min
+    hrStart = int(timestamp[0][0][11]) * 10 + int(timestamp[0][0][12])
+    minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
+
+    endTime = []
+    if founded_count >= MINIMUM_TWEETS:  # 代表這輪已執行完成
+        hrEnd = int(timestamp[-1][0][11]) * 10 + int(timestamp[-1][0][12])
+        minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
+        carry = False  # 如果 min 有進位的話  totalHr -= 1
+        endTime.append(timestamp[-1][0])
+    else:  # 用目前的時間計算總共執行時間
+        endTime.append(datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'))
+        hrEnd = int(endTime[0][11]) * 10 + int(endTime[0][12])
+        minEnd = int(endTime[0][14]) * 10 + int(endTime[0][15])
+        carry = False  # 如果 min 有進位的話  totalHr -= 1
+
+    if minEnd < minStart:
+        totalMin = (60 - minStart) + minEnd
+        carry = True
+    else:
+        totalMin = minEnd - minStart
+
+    if hrEnd < hrStart:
+        totalHr = (24 - hrStart) + hrEnd
+    else:
+        totalHr = hrEnd - hrStart
+    
+    if carry:
+        totalHr -= 1
+
+
+    if founded_count > 0:
+        analysisFile = 'analysis_temp.txt'
+        with open(filename, 'r', encoding='utf-8-sig') as file:
+            data_json = json.load(file)
+        with open(analysisFile, 'w', encoding='utf-8-sig') as txtfile:
+            txtfile.write(f"QUERY = '{QUERY}'\n")
+            txtfile.write(f"SEARCH = '{SEARCH}'\n")
+            txtfile.write(f'執行時間：{timestamp[0][0]} ~ {endTime[0]} ({totalHr} hr {totalMin} min)\n')  
+            txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({founded_count - data_json[COIN_NAME][-1]['tweet_count']} WrittingError)\n')
+            txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
+            txtfile.write(f'Timestamp：\n')
+            for i in timestamp:
+                txtfile.write(f'\t{i[0]} {i[1]}\n')
+            txtfile.write('\n')
+
+
+
+async def send_email(subject, body, receiver_email):
+    """發送電子郵件"""
+    sender_email = GMAIL  # 你的電子郵件地址
+    sender_password = PASSWORD  # 你的電子郵件密碼 (注意安全)
+
+    # 如果有帳密有其中一個是空白 則不執行
+    if sender_email != "" or sender_password != "":
+        # 設定 SMTP 伺服器和端口 (以 Gmail 為例，請根據你的郵件服務提供商修改)
+        smtp_server = "smtp.gmail.com"
+        smtp_port = 465  # 使用 SSL
+
+        try:
+            # 建立 MIMEText 物件來設定郵件內容
+            message = MIMEText(body, 'plain', 'utf-8')
+            message['From'] = sender_email
+            message['To'] = receiver_email
+            message['Subject'] = Header(subject, 'utf-8')
+
+            # 連接 SMTP 伺服器 (使用 SSL 加密)
+            with smtplib.SMTP_SSL(smtp_server, smtp_port) as server:
+                # 登入郵件伺服器
+                server.login(sender_email, sender_password)
+                # 發送郵件
+                server.sendmail(sender_email, receiver_email, message.as_string())
+            print(f"郵件已成功發送至 {receiver_email}")
+
+        except Exception as e:
+            print(f"發送郵件失敗: {e}")
+    else:
+        print("帳號或密碼空白")
+
+
 
 # 定義 **異步** 主函式
 async def main():
@@ -64,8 +175,19 @@ async def main():
 
     # 設定目前是否達到此帳號抓文的上限
     TooManyRequests_bool = False
+    global START_MONTH, START_DAY
     for day_count in range(DAY_COUNT):
-        QUERY = f'dogecoin lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
+        if CHANGE_MONTH != 0 and (day_count + START_DAY) == CHANGE_MONTH:  # 如果是跨月前一天 就直接改 until 的值就好
+            QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH + 1}-01 since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
+            print(QUERY)
+        elif CHANGE_MONTH != 0 and (day_count + START_DAY) == (CHANGE_MONTH + 1):  # 如果已經跨月 要重設 START_MONTH, START_DAY
+            START_MONTH += 1
+            START_DAY = 1 - day_count  # - day_count 是為了配合下面的程式碼 讓日期維持正確的狀態
+            QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
+            print(QUERY)
+        else:
+            QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
+            print(QUERY)
 
         # 設定推文計數
         founded_count = 0
@@ -80,16 +202,12 @@ async def main():
 
         while founded_count < MINIMUM_TWEETS:
             # 設定檔案名稱
-            if START_MONTH < 10:
-                if day_count + START_DAY < 10:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}0{day_count + START_DAY}.json"
-                else:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}0{START_MONTH}{day_count + START_DAY}.json"
-            else:
-                if day_count + START_DAY < 10:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}0{day_count + START_DAY}.json"
-                else:
-                    filename = f"./data/{COIN_SHORT_NAME}_{START_YEAR}{START_MONTH}{day_count + START_DAY}.json"
+            start_date = datetime(START_YEAR, START_MONTH, START_DAY)
+            target_date = start_date + timedelta(days=day_count)  # 等同於 day_count + START_DAY
+
+            # 格式化為檔名 (可把個位數前面補零)
+            date_str = target_date.strftime('%Y%m%d')  # 例：20210420
+            filename = f"./data/{COIN_SHORT_NAME}_{date_str}.json"
             
             try:
                 tweets = await get_tweets(client, tweets, QUERY)  # `await` 確保非同步運行
@@ -130,10 +248,20 @@ async def main():
 
                 await asyncio.sleep(600)  # `await` 讓程式非同步等待
                 continue
+            except httpx.ReadTimeout as e:
+                # 表示程式在嘗試從伺服器讀取資料時超時
+                print(f'{datetime.now()} - Read timeout occurred: {e}. Retrying in a few seconds...')
+                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"httpx.ReadTimeout - {e}"])
+                await asyncio.sleep(randint(5, 15)) # 等待一段時間後重試
+
+                continue
 
             if not tweets:
                 # 如果沒有推文了，結束爬取
                 print(f'{datetime.now()} - No more tweets found')
+
+                # 設定 timestamp
+                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "No more tweets found"])
                 break
 
 
@@ -191,14 +319,18 @@ async def main():
                 # 將推文資訊寫入 data.json 檔案
                 # ensure_ascii=False 直接輸出原本的字元，不會轉成 Unicode 編碼
                 try:
-                    await asyncio.gather(save_json(data_json, filename))
+                    await save_json(data_json, filename)
+                    # await asyncio.sleep(0.3)
                 except OSError as e:
-                    print(f"寫入檔案失敗: {e}")
+                    print(f"寫入檔案失敗: {e}, 檔案名: {filename}, 長度: {len(filename)}")
 
                     # 設定 timestamp
                     timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"WritingError-OSError - {e}"])
 
                     continue
+                
+                # 把資料存到 analysis_temp.txt
+                await write_analysis_temp(founded_count, filename, QUERY, timestamp)
 
             print(f'{datetime.now()} - Got {founded_count} tweets')
 
@@ -208,52 +340,36 @@ async def main():
         # 設定開始時間的 timestamp
         timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "End"])
 
-        # 計算總共執行時間 (? hr ? min)
-        # timestamp[?][0][11] timestamp[?][0][12] 是 hr   timestamp[?][0][14] timestamp[?][0][15] 是 min
-        hrStart = int(timestamp[0][0][11]) * 10 + int(timestamp[0][0][12])
-        minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
-        hrEnd = int(timestamp[-1][0][11]) * 10 + int(timestamp[-1][0][12])
-        minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
-        carry = False  # 如果 min 有進位的話  totalHr -= 1
-
-        if minEnd < minStart:
-            totalMin = (60 - minStart) + minEnd
-            carry = True
-        else:
-            totalMin = minEnd - minStart
-
-        if hrEnd < hrStart:
-            totalHr = (24 - hrStart) + hrEnd
-        else:
-            totalHr = hrEnd - hrStart
-        
-        if carry:
-            totalHr -= 1
+        # 把資料存到 analysis_temp.txt  並算出最終的執行時間
+        await write_analysis_temp(founded_count, filename, QUERY, timestamp)
         
 
 
         # 在有抓到資料的前提下 把資料存入 analysis.txt 裡
         if founded_count > 0:
-            analysisFile = '../analysis.txt'
-            with open(filename, 'r', encoding='utf-8-sig') as file:
-                data_json = json.load(file)
+            analysisFile = 'analysis.txt'
+            analysisTempFile = 'analysis_temp.txt'
+            with open(analysisTempFile, 'r', encoding='utf-8-sig') as file:
+                analysis_temp = file.read()
             with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
-                txtfile.write(f"QUERY = '{QUERY}'\n")
-                txtfile.write(f"SEARCH = '{SEARCH}'\n")
-                txtfile.write(f'執行時間：{timestamp[0][0]} ~ {timestamp[-1][0]} ({totalHr} hr {totalMin} min)\n')  
-                txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({founded_count - data_json[COIN_NAME][-1]['tweet_count']} WrittingError)\n')
-                txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
-                txtfile.write(f'Timestamp：\n')
-                for i in timestamp:
-                    txtfile.write(f'\t{i[0]} {i[1]}\n')
-                txtfile.write('\n')
+                txtfile.write(analysis_temp)
 
         if TooManyRequests_bool:
             break
-
+        
+        base = randint(4, 7)  # 基礎時間 4s ~ 7s
+        wait_time_last = base + uniform(0.2, 1.5)  # 加一點小的隨機毫秒
         wait_time_last = randint(5, 10)  # 5s ~ 10s
         print(f'{datetime.now()} - Waiting to next day after {wait_time_last} seconds ...')
         await asyncio.sleep(wait_time_last)
+    
+    # 傳送程式執行完成通知給 gamil
+    subject = "Python 程式執行完成通知"
+    body = f"您的 Python 程式已於 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 成功執行完成！"
+    await send_email(subject, body, GMAIL)
+
+    # 使程式執行完成後發出提示音
+    winsound.MessageBeep()
 
 # **執行 `main()`**，確保程式運行在 **異步模式**
 asyncio.run(main())
