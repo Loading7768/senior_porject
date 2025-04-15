@@ -18,13 +18,12 @@
                     "auth_token": "你的 auth_token 值",
                     "ct0": "你的 ct0 值"
                 }
-        3. 在 main.py 裡的可修改參數中設定好需要的參數
+        3. 在 main.py 裡的 "可修改參數" 中設定好需要的參數
         4. 開始執行
 
     執行後：
-        1. 可在 data{編號}.json 裡看到抓到的推文
+        1. 可在 {名稱}_{日期}.json 裡看到抓到的推文，並移動副本至適當資料夾中
         2. 可在 analysis.txt 裡看到執行的基本資料與重要 timestamp
-        3. 更改為適當的檔名後 (ex. DOGE_20250307)，移動副本至適當資料夾中
-        4. 將執行後的 data{編號}.json 刪除 (不需留任何 json 格式)
-        5. 若 data{編號}.json 的 tweet_count 沒有從 1 開始，可用 resetCount.py 來修正
+        3. 若執行過程中應出現錯誤而中止 可去 analysis_temp.txt 裡查看目前的執行分析
+        5. 若 json 的 tweet_count 沒有從 1 開始，可用 resetCount.py 來修正
         6. 可繼續執行

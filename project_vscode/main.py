@@ -15,7 +15,7 @@ from email.header import Header
 import winsound
 
 
-# 若要直接修改 QUERY 在約 170 行
+# 若要直接修改 QUERY 在約 180 行
 '''可修改參數'''
 MINIMUM_TWEETS = 10  # 設定最少要擷取的推文數
 
@@ -33,7 +33,7 @@ START_DAY = 16 # 開始的日期
 
 DAY_COUNT = 1   # 要連續找幾天
 
-CHANGE_MONTH = 0 # 在哪個日期結束後有跨月 沒有填 0   ex. 如果要找的日期包含 1/31 則需要填 31
+CHANGE_MONTH = 0 # 在哪個日期結束後有跨月 沒有填 0   ex. 如果要找的日期為 1/30 - 2/2 而其中包含 1/31 則需要填 31
 
 # 如果不需要程式執行完成後傳 gmail 給你 則留空字串
 # 若要使用且帳號有啟用兩步驟驗證的話 PASSWORD 需要使用自行創建的「應用程式密碼」
@@ -87,7 +87,7 @@ async def write_analysis_temp(founded_count, filename, QUERY, timestamp):
     hrStart = int(timestamp[0][0][11]) * 10 + int(timestamp[0][0][12])
     minStart = int(timestamp[0][0][14]) * 10 + int(timestamp[0][0][15])
 
-    endTime = []
+    endTime = []  # 用來記錄執行結束時間 或 目前時間
     if founded_count >= MINIMUM_TWEETS:  # 代表這輪已執行完成
         hrEnd = int(timestamp[-1][0][11]) * 10 + int(timestamp[-1][0][12])
         minEnd = int(timestamp[-1][0][14]) * 10 + int(timestamp[-1][0][15])
@@ -131,8 +131,8 @@ async def write_analysis_temp(founded_count, filename, QUERY, timestamp):
 
 
 
+ # 發送電子郵件
 async def send_email(subject, body, receiver_email):
-    """發送電子郵件"""
     sender_email = GMAIL  # 你的電子郵件地址
     sender_password = PASSWORD  # 你的電子郵件密碼 (注意安全)
 
@@ -193,6 +193,9 @@ async def main():
         founded_count = 0
         tweets = None
 
+        # 將 action 都先設為有抓到推文
+        action = "get"
+
         timestamp = []
         start_time = datetime.now()
         TooManyRequests_last = start_time
@@ -211,6 +214,7 @@ async def main():
             
             try:
                 tweets = await get_tweets(client, tweets, QUERY)  # `await` 確保非同步運行
+                action = "get"
             except TooManyRequests as e:
                 # 如果 MINIMUM_TWEETS 太大導致達到 API 限制，等待直到限制解除
                 rate_limit_reset = datetime.fromtimestamp(e.rate_limit_reset)
@@ -226,9 +230,9 @@ async def main():
 
                 timestamp.append(["Waiting until ", f"{datetime.strftime(rate_limit_reset, '%Y-%m-%d %H:%M:%S')} ({totalMin} min {totalSec} sec)"])
                 
-                # 如果在 10 分鐘內 ToMaanyRequests 兩次 => 代表此帳號今天的抓文達上限 => 立刻 break
-                difference = datetime.now() - TooManyRequests_last
-                if difference.total_seconds() / 60 < 10 and TooManyRequests_last != start_time:
+                # 如果在 action == "limit" 表示上一個動作也是 rate limit reached => 代表此帳號今天的抓文達上限 => 立刻 break
+                # difference = datetime.now() - TooManyRequests_last
+                if action == "limit" and TooManyRequests_last != start_time:
                     timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"TooManyRequests - TwiceBreak"])
                     TooManyRequests_bool = True
                     print(f"{datetime.now()} - This account rate limit reached - TooManyRequests twice")
@@ -237,6 +241,7 @@ async def main():
                 # 紀錄本次 ToManyRequests 的時間 來當作下一次的參考時間
                 TooManyRequests_last = datetime.now()
 
+                action = "limit"
                 await asyncio.sleep(wait_time)  # `await` 讓程式非同步等待
                 continue
             except httpx.ConnectTimeout:
@@ -320,7 +325,6 @@ async def main():
                 # ensure_ascii=False 直接輸出原本的字元，不會轉成 Unicode 編碼
                 try:
                     await save_json(data_json, filename)
-                    # await asyncio.sleep(0.3)
                 except OSError as e:
                     print(f"寫入檔案失敗: {e}, 檔案名: {filename}, 長度: {len(filename)}")
 
