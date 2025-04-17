@@ -15,7 +15,9 @@ from email.header import Header
 import winsound
 
 
-# 若要直接修改 QUERY 在約 180 行
+# 若要直接修改 QUERY 在 196 行  並把 183 - 193 行註解
+# 但 START_YEAR, START_MONTH, START_DAY 仍要填寫  為了建 json 檔名
+# 而 DAY_COUNT = 1, CHANGE_MONTH = 0 即可
 '''可修改參數'''
 MINIMUM_TWEETS = 10  # 設定最少要擷取的推文數
 
@@ -190,6 +192,9 @@ async def main():
         else:
             QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
             print(QUERY)
+        
+        '''直接修改 QUERY'''
+        # QUERY = '"official trump" lang:en until:2025-01-20 since:2025-01-19'
 
         # 設定推文計數
         founded_count = 0

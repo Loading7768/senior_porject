@@ -5374,3 +5374,186 @@ Timestamp：
 	2025-04-16 14:38:31 TooManyRequests - TwiceBreak
 	2025-04-16 14:38:31 End
 
+QUERY = 'dogecoin lang:en until:2021-4-28 since:2021-4-27'
+SEARCH = 'Latest'
+執行時間：2025-04-16 23:34:12 ~ 2025-04-17 14:21:25 (14 hr 47 min)
+推文數量：12276 (57 WrittingError)
+推文時間：Tue Apr 27 00:00:03 +0000 2021 ~ Tue Apr 27 23:59:59 +0000 2021 (GMT+0)
+Timestamp：
+	2025-04-16 23:34:12 Start
+	2025-04-16 23:34:13 FileNotFoundError
+	2025-04-17 09:18:56 TooManyRequests - Got 1013 tweets
+	Waiting until  2025-04-17 09:20:34 (1 min 37 sec)
+	2025-04-17 09:29:07 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:29:07 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:29:07 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:29:07 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:29:35 TooManyRequests - Got 1643 tweets
+	Waiting until  2025-04-17 09:35:40 (6 min 4 sec)
+	2025-04-17 09:47:49 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:47:49 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:47:49 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:47:49 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:47:49 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:48:18 TooManyRequests - Got 2172 tweets
+	Waiting until  2025-04-17 09:50:47 (2 min 28 sec)
+	2025-04-17 09:55:03 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 09:56:54 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:05:35 TooManyRequests - Got 2832 tweets
+	Waiting until  2025-04-17 10:05:52 (0 min 16 sec)
+	2025-04-17 10:14:59 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:14:59 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:14:59 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:20:37 TooManyRequests - Got 3488 tweets
+	Waiting until  2025-04-17 10:20:57 (0 min 19 sec)
+	2025-04-17 10:30:10 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:40:57 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:47:42 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:49:51 TooManyRequests - Got 4759 tweets
+	Waiting until  2025-04-17 10:51:59 (2 min 7 sec)
+	2025-04-17 10:53:24 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:53:24 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:53:24 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:53:24 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:53:24 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:53:24 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:12 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:12 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:12 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 10:55:39 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:00:30 TooManyRequests - Got 5413 tweets
+	Waiting until  2025-04-17 11:07:03 (6 min 32 sec)
+	2025-04-17 11:13:32 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:13:32 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:13:32 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:13:32 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:13:32 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:13:32 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210427.json'
+	2025-04-17 11:17:13 TooManyRequests - Got 5952 tweets
+	Waiting until  2025-04-17 11:22:09 (4 min 55 sec)
+	2025-04-17 11:33:18 TooManyRequests - Got 6470 tweets
+	Waiting until  2025-04-17 11:37:14 (3 min 55 sec)
+	2025-04-17 11:47:38 TooManyRequests - Got 7004 tweets
+	Waiting until  2025-04-17 11:52:20 (4 min 41 sec)
+	2025-04-17 12:07:15 TooManyRequests - Got 7592 tweets
+	Waiting until  2025-04-17 12:07:27 (0 min 11 sec)
+	2025-04-17 12:19:24 TooManyRequests - Got 8127 tweets
+	Waiting until  2025-04-17 12:22:31 (3 min 6 sec)
+	2025-04-17 12:36:44 TooManyRequests - Got 8753 tweets
+	Waiting until  2025-04-17 12:37:38 (0 min 53 sec)
+	2025-04-17 12:47:16 TooManyRequests - Got 9380 tweets
+	Waiting until  2025-04-17 12:52:45 (5 min 28 sec)
+	2025-04-17 13:21:35 TooManyRequests - Got 10466 tweets
+	Waiting until  2025-04-17 13:23:31 (1 min 55 sec)
+	2025-04-17 14:21:25 No more tweets found
+	2025-04-17 14:21:25 End
+
+QUERY = 'dogecoin lang:en until:2021-4-29 since:2021-4-28'
+SEARCH = 'Latest'
+執行時間：2025-04-17 14:21:31 ~ 2025-04-17 14:41:22 (0 hr 20 min)
+推文數量：654 (0 WrittingError)
+推文時間：Wed Apr 28 23:10:27 +0000 2021 ~ Wed Apr 28 23:59:59 +0000 2021 (GMT+0)
+Timestamp：
+	2025-04-17 14:21:31 Start
+	2025-04-17 14:23:55 FileNotFoundError
+	2025-04-17 14:41:22 No more tweets found
+	2025-04-17 14:41:22 End
+
+QUERY = 'dogecoin lang:en until:2021-4-30 since:2021-4-29'
+SEARCH = 'Latest'
+執行時間：2025-04-17 14:41:30 ~ 2025-04-17 20:14:32 (5 hr 33 min)
+推文數量：11097 (3 WrittingError)
+推文時間：Thu Apr 29 02:37:07 +0000 2021 ~ Thu Apr 29 23:59:59 +0000 2021 (GMT+0)
+Timestamp：
+	2025-04-17 14:41:30 Start
+	2025-04-17 14:41:31 FileNotFoundError
+	2025-04-17 14:52:09 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210429.json'
+	2025-04-17 14:52:09 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210429.json'
+	2025-04-17 14:52:09 WritingError-OSError - [Errno 22] Invalid argument: './data/DOGE_20210429.json'
+	2025-04-17 15:10:01 TooManyRequests - Got 1205 tweets
+	Waiting until  2025-04-17 15:11:17 (1 min 15 sec)
+	2025-04-17 15:25:43 TooManyRequests - Got 1837 tweets
+	Waiting until  2025-04-17 15:26:24 (0 min 40 sec)
+	2025-04-17 15:39:28 TooManyRequests - Got 2495 tweets
+	Waiting until  2025-04-17 15:41:31 (2 min 2 sec)
+	2025-04-17 15:54:18 TooManyRequests - Got 3172 tweets
+	Waiting until  2025-04-17 15:56:36 (2 min 17 sec)
+	2025-04-17 16:05:48 TooManyRequests - Got 3780 tweets
+	Waiting until  2025-04-17 16:11:42 (5 min 53 sec)
+	2025-04-17 16:21:21 TooManyRequests - Got 4446 tweets
+	Waiting until  2025-04-17 16:26:46 (5 min 24 sec)
+	2025-04-17 16:38:18 TooManyRequests - Got 5022 tweets
+	Waiting until  2025-04-17 16:41:51 (3 min 32 sec)
+	2025-04-17 17:10:26 TooManyRequests - Got 6329 tweets
+	Waiting until  2025-04-17 17:11:59 (1 min 32 sec)
+	2025-04-17 17:21:30 TooManyRequests - Got 6903 tweets
+	Waiting until  2025-04-17 17:27:07 (5 min 36 sec)
+	2025-04-17 17:40:00 TooManyRequests - Got 7491 tweets
+	Waiting until  2025-04-17 17:42:14 (2 min 13 sec)
+	2025-04-17 17:55:09 TooManyRequests - Got 7976 tweets
+	Waiting until  2025-04-17 17:57:19 (2 min 9 sec)
+	2025-04-17 18:24:59 TooManyRequests - Got 9162 tweets
+	Waiting until  2025-04-17 18:28:38 (3 min 38 sec)
+	2025-04-17 18:56:10 TooManyRequests - Got 10420 tweets
+	Waiting until  2025-04-17 18:58:57 (2 min 46 sec)
+	2025-04-17 19:19:26 TooManyRequests - Got 11060 tweets
+	Waiting until  2025-04-17 19:29:10 (9 min 43 sec)
+	2025-04-17 19:29:28 TooManyRequests - Got 11073 tweets
+	Waiting until  2025-04-17 19:44:16 (14 min 47 sec)
+	2025-04-17 19:44:34 TooManyRequests - Got 11086 tweets
+	Waiting until  2025-04-17 19:59:22 (14 min 47 sec)
+	2025-04-17 19:59:36 TooManyRequests - Got 11100 tweets
+	Waiting until  2025-04-17 20:14:26 (14 min 49 sec)
+	2025-04-17 20:14:32 TooManyRequests - Got 11100 tweets
+	Waiting until  2025-04-17 20:29:32 (14 min 59 sec)
+	2025-04-17 20:14:32 TooManyRequests - TwiceBreak
+	2025-04-17 20:14:32 End
+
+QUERY = '"official trump" lang:en until:2025-01-20 since:2025-01-19'
+SEARCH = 'Latest'
+執行時間：2025-04-17 22:39:17 ~ 2025-04-17 23:49:52 (1 hr 10 min)
+推文數量：2703 (0 WrittingError)
+推文時間：Sun Jan 19 00:00:03 +0000 2025 ~ Sun Jan 19 23:59:40 +0000 2025 (GMT+0)
+Timestamp：
+	2025-04-17 22:39:17 Start
+	2025-04-17 22:39:19 FileNotFoundError
+	2025-04-17 22:45:27 TooManyRequests - Got 678 tweets
+	Waiting until  2025-04-17 22:54:18 (8 min 50 sec)
+	2025-04-17 23:00:26 TooManyRequests - Got 1199 tweets
+	Waiting until  2025-04-17 23:09:25 (8 min 58 sec)
+	2025-04-17 23:15:38 TooManyRequests - Got 1756 tweets
+	Waiting until  2025-04-17 23:24:30 (8 min 51 sec)
+	2025-04-17 23:37:09 TooManyRequests - Got 2320 tweets
+	Waiting until  2025-04-17 23:39:37 (2 min 27 sec)
+	2025-04-17 23:49:52 No more tweets found
+	2025-04-17 23:49:52 End
+
