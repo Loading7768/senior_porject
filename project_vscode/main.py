@@ -173,6 +173,8 @@ async def main():
     client = Client(language='en-US')
     client.load_cookies('cookies.json')  # 這裡 **不用 await**，因為是同步函式
 
+    body = ""
+
     # 設定目前是否達到此帳號抓文的上限
     TooManyRequests_bool = False
     global START_MONTH, START_DAY
@@ -253,10 +255,10 @@ async def main():
 
                 await asyncio.sleep(600)  # `await` 讓程式非同步等待
                 continue
-            except httpx.ReadTimeout as e:
+            except httpx.ReadTimeout: # as e 讀不出東西
                 # 表示程式在嘗試從伺服器讀取資料時超時
-                print(f'{datetime.now()} - Read timeout occurred: {e}. Retrying in a few seconds...')
-                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"httpx.ReadTimeout - {e}"])
+                print(f'{datetime.now()} - Read timeout occurred. Retrying in a few seconds...')
+                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"httpx.ReadTimeout"])
                 await asyncio.sleep(randint(5, 15)) # 等待一段時間後重試
 
                 continue
@@ -357,6 +359,7 @@ async def main():
                 analysis_temp = file.read()
             with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
                 txtfile.write(analysis_temp)
+        body = body + f"{analysis_temp}\n\n"
 
         if TooManyRequests_bool:
             break
@@ -369,7 +372,7 @@ async def main():
     
     # 傳送程式執行完成通知給 gamil
     subject = "Python 程式執行完成通知"
-    body = f"您的 Python 程式已於 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 成功執行完成！"
+    body = f"您的 Python 程式已於 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 成功執行完成！\n\n" + body
     await send_email(subject, body, GMAIL)
 
     # 使程式執行完成後發出提示音
