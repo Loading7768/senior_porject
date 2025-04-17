@@ -15,15 +15,17 @@ from email.header import Header
 import winsound
 
 
-# 若要直接修改 QUERY 在 196 行  並把 183 - 193 行註解
+# 若要直接修改 QUERY 在 198 行  並把 185 - 195 行註解
 # 但 START_YEAR, START_MONTH, START_DAY 仍要填寫  為了建 json 檔名
 # 而 DAY_COUNT = 1, CHANGE_MONTH = 0 即可
 '''可修改參數'''
 MINIMUM_TWEETS = 10  # 設定最少要擷取的推文數
 
-COIN_NAME = "dogecoin"  # 目前要爬的 memecoin
+COIN_NAME = "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"  # 目前要爬的 memecoin
 
-COIN_SHORT_NAME = "DOGE"  # 要當成檔案名的 memecoin 名稱
+COIN_SHORT_NAME = "TRUMP"  # 要當成檔案名的 memecoin 名稱
+
+JSON_DICT_NAME = "trump"  # 設定推文所存的 json 檔中字典的名稱
 
 SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media, Lists)
 
@@ -124,8 +126,8 @@ async def write_analysis_temp(founded_count, filename, QUERY, timestamp):
             txtfile.write(f"QUERY = '{QUERY}'\n")
             txtfile.write(f"SEARCH = '{SEARCH}'\n")
             txtfile.write(f'執行時間：{timestamp[0][0]} ~ {endTime[0]} ({totalHr} hr {totalMin} min)\n')  
-            txtfile.write(f'推文數量：{data_json[COIN_NAME][-1]['tweet_count']} ({founded_count - data_json[COIN_NAME][-1]['tweet_count']} WrittingError)\n')
-            txtfile.write(f'推文時間：{data_json[COIN_NAME][-1]['created_at']} ~ {data_json[COIN_NAME][0]['created_at']} (GMT+0)\n')
+            txtfile.write(f'推文數量：{data_json[JSON_DICT_NAME][-1]['tweet_count']} ({founded_count - data_json[JSON_DICT_NAME][-1]['tweet_count']} WrittingError)\n')
+            txtfile.write(f'推文時間：{data_json[JSON_DICT_NAME][-1]['created_at']} ~ {data_json[JSON_DICT_NAME][0]['created_at']} (GMT+0)\n')
             txtfile.write(f'Timestamp：\n')
             for i in timestamp:
                 txtfile.write(f'\t{i[0]} {i[1]}\n')
@@ -283,8 +285,13 @@ async def main():
             try:
                 with open(filename, 'r', encoding='utf-8-sig') as file:
                     data_json = json.load(file)
+                
+                 # 加入這行確保 key 存在
+                if JSON_DICT_NAME not in data_json:
+                    data_json[JSON_DICT_NAME] = []
+
             except (FileNotFoundError, json.JSONDecodeError):
-                data_json = {COIN_NAME: []}  # 如果檔案不存在，初始化為空字典
+                data_json = {JSON_DICT_NAME: []}  # 如果檔案不存在，初始化為空字典
                 with open(filename, 'w', encoding='utf-8-sig') as file:
                     json.dump(data_json, file, indent=4, ensure_ascii=False)
 
@@ -304,7 +311,7 @@ async def main():
 
             # 抓出 data.json 中最後一筆資料的 tweet_count
             try:
-                tweet_count = data_json[COIN_NAME][-1]['tweet_count']
+                tweet_count = data_json[JSON_DICT_NAME][-1]['tweet_count']
             except (IndexError, KeyError):
                 tweet_count = 0
             '''以上為測試檔案是否正常'''
@@ -326,7 +333,7 @@ async def main():
                 }
 
                 # 將新的 tweet 加入 data_json 裡的 dogecoin 字典中
-                data_json[COIN_NAME].append(tweet_dict)
+                data_json[JSON_DICT_NAME].append(tweet_dict)
 
                 # 將推文資訊寫入 data.json 檔案
                 # ensure_ascii=False 直接輸出原本的字元，不會轉成 Unicode 編碼
