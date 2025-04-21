@@ -177,7 +177,7 @@ async def main():
     client = Client(language='en-US')
     client.load_cookies('cookies.json')  # 這裡 **不用 await**，因為是同步函式
 
-    body = ""
+    body = ""  # 用來記錄每一輪的 analysis 來傳 email
 
     # 設定目前是否達到此帳號抓文的上限
     TooManyRequests_bool = False
@@ -214,11 +214,12 @@ async def main():
 
         while founded_count < MINIMUM_TWEETS:
             # 設定檔案名稱
-            start_date = datetime(START_YEAR, START_MONTH, START_DAY)
-            target_date = start_date + timedelta(days=day_count)  # 等同於 day_count + START_DAY
+            print(f"{START_YEAR} {START_MONTH} {START_DAY}")
+            start_date = datetime(START_YEAR, START_MONTH, day_count + START_DAY)
+            # target_date = start_date + timedelta(days=day_count)  # 等同於 day_count + START_DAY
 
             # 格式化為檔名 (可把個位數前面補零)
-            date_str = target_date.strftime('%Y%m%d')  # 例：20210420
+            date_str = start_date.strftime('%Y%m%d')  # 例：20210420
             filename = f"./data/{COIN_SHORT_NAME}_{date_str}.json"
             
             try:
@@ -364,6 +365,7 @@ async def main():
 
 
         # 在有抓到資料的前提下 把資料存入 analysis.txt 裡
+        analysis_temp = ""
         if founded_count > 0:
             analysisFile = 'analysis.txt'
             analysisTempFile = 'analysis_temp.txt'
@@ -371,7 +373,11 @@ async def main():
                 analysis_temp = file.read()
             with open(analysisFile, 'a', encoding='utf-8-sig') as txtfile:
                 txtfile.write(analysis_temp)
-        body = body + f"{analysis_temp}\n\n"
+        
+        if analysis_temp != "":
+            body = body + f"{analysis_temp}\n\n"
+        else:  # 如果一整天都沒有抓到推文
+            body = body + f"{QUERY}\n本日找不到推文\n\n"
 
         if TooManyRequests_bool:
             break
