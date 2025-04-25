@@ -214,9 +214,7 @@ async def main():
 
         while founded_count < MINIMUM_TWEETS:
             # 設定檔案名稱
-            print(f"{START_YEAR} {START_MONTH} {START_DAY}")
             start_date = datetime(START_YEAR, START_MONTH, day_count + START_DAY)
-            # target_date = start_date + timedelta(days=day_count)  # 等同於 day_count + START_DAY
 
             # 格式化為檔名 (可把個位數前面補零)
             date_str = start_date.strftime('%Y%m%d')  # 例：20210420
@@ -327,6 +325,7 @@ async def main():
                 tweet_dict = {
                     'tweet_count': tweet_count,
                     'username': tweet.user.name,  # 使用者名稱
+                    'user_account': tweet.user.screen_name,  # 使用者帳戶名
                     'text': tweet.text,  # 推文內容
                     'created_at': tweet.created_at,  # 發布時間 (這裡是 GMT+0 的時間)
                     'retweet': tweet.retweet_count,  # 轉推數

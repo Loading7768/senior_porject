@@ -1,4 +1,4 @@
-使用手冊：
+使用手冊(抓推文)：
 
     執行前：
         1. 將終端機的檔案變更為 senior_project\project_vscode>
@@ -27,3 +27,18 @@
         3. 若執行過程中應出現錯誤而中止 可去 analysis_temp.txt 裡查看目前的執行分析
         5. 若 json 的 tweet_count 沒有從 1 開始，可用 resetCount.py 來修正
         6. 可繼續執行
+
+使用手冊(Kmeans)：
+
+    先將終端機的檔案變更為 senior_project\Kmeans>
+
+    BERT_best_cluster.py：
+        1. 設定好 "可修改參數"
+            (1) 此程式可以把一整個資料夾中的 json 檔合在一起
+            (2) 用合在一起後的 json 檔來判斷分多少群比較適合
+        2. 執行完成可在 Keams/data/combined 裡看到合併一起的 json 檔
+        3. 可把執行完成後的 plt.figure 儲存起來
+
+    BERT.py：
+        1. 設定好 "可修改參數"
+        2. 執行完成可在 Keams/data/culstered 裡看到分好群的 json 檔
