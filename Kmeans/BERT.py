@@ -1,6 +1,7 @@
 import json
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
+from collections import Counter
 
 
 
@@ -44,3 +45,13 @@ with open(newFile, "w", encoding="utf-8-sig") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
 print(f"✅ 分群完成，已儲存為 {newFile}")
+
+# 先收集所有的 cluster 標籤
+cluster_labels = [tweet["cluster"] for tweet in tweets]
+
+# 統計每個 cluster 出現的次數
+cluster_counts = Counter(cluster_labels)
+
+# 印出每個 cluster 的數量
+for cluster_id, count in sorted(cluster_counts.items()):
+    print(f"Cluster {cluster_id}: {count} tweets")
