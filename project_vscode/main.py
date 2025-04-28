@@ -125,10 +125,10 @@ async def write_analysis_temp(founded_count, filename, QUERY, timestamp):
         with open(analysisFile, 'w', encoding='utf-8-sig') as txtfile:
             txtfile.write(f"QUERY = '{QUERY}'\n")
             txtfile.write(f"SEARCH = '{SEARCH}'\n")
-            txtfile.write(f'執行時間：{timestamp[0][0]} ~ {endTime[0]} ({totalHr} hr {totalMin} min)\n')  
-            txtfile.write(f'推文數量：{data_json[JSON_DICT_NAME][-1]['tweet_count']} ({founded_count - data_json[JSON_DICT_NAME][-1]['tweet_count']} WrittingError)\n')
-            txtfile.write(f'推文時間：{data_json[JSON_DICT_NAME][-1]['created_at']} ~ {data_json[JSON_DICT_NAME][0]['created_at']} (GMT+0)\n')
-            txtfile.write(f'Timestamp：\n')
+            txtfile.write(f"執行時間：{timestamp[0][0]} ~ {endTime[0]} ({totalHr} hr {totalMin} min)\n")  
+            txtfile.write(f"推文數量：{data_json[JSON_DICT_NAME][-1]['tweet_count']} ({founded_count - data_json[JSON_DICT_NAME][-1]['tweet_count']} WrittingError)\n")
+            txtfile.write(f"推文時間：{data_json[JSON_DICT_NAME][-1]['created_at']} ~ {data_json[JSON_DICT_NAME][0]['created_at']} (GMT+0)\n")
+            txtfile.write(f"Timestamp：\n")
             for i in timestamp:
                 txtfile.write(f'\t{i[0]} {i[1]}\n')
             txtfile.write('\n')
