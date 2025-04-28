@@ -5953,41 +5953,87 @@ Timestamp：
 	2025-04-27 13:38:30 httpx.ReadTimeout
 	2025-04-28 00:48:35 End
 
-	QUERY = 'dogecoin lang:en until:2021-5-6 since:2021-5-5'
-	SEARCH = 'Latest'
-	執行時間：2025-04-28 00:48:40 ~ 2025-04-28 08:55:39 (8 hr 7 min)
-	推文數量：20270 (0 WrittingError)
-	推文時間：Wed May 05 13:50:16 +0000 2021 ~ Wed May 05 23:59:57 +0000 2021 (GMT+0)
-	Timestamp：
-		2025-04-28 00:48:40 Start
-		2025-04-28 00:48:41 FileNotFoundError
-		2025-04-28 00:53:24 TooManyRequests - Got 570 tweets
-		Waiting until  2025-04-28 00:55:43 (2 min 18 sec)
-		2025-04-28 01:07:02 TooManyRequests - Got 1294 tweets
-		Waiting until  2025-04-28 01:10:49 (3 min 46 sec)
-		2025-04-28 01:20:23 TooManyRequests - Got 1951 tweets
-		Waiting until  2025-04-28 01:25:57 (5 min 33 sec)
-		2025-04-28 01:33:35 TooManyRequests - Got 2654 tweets
-		Waiting until  2025-04-28 01:41:04 (7 min 28 sec)
-		2025-04-28 01:48:15 TooManyRequests - Got 3320 tweets
-		Waiting until  2025-04-28 01:56:09 (7 min 53 sec)
-		2025-04-28 02:40:07 TooManyRequests - Got 5155 tweets
-		Waiting until  2025-04-28 02:42:39 (2 min 31 sec)
-		2025-04-28 02:54:20 TooManyRequests - Got 5825 tweets
-		Waiting until  2025-04-28 02:57:44 (3 min 23 sec)
-		2025-04-28 03:11:40 TooManyRequests - Got 6538 tweets
-		Waiting until  2025-04-28 03:12:51 (1 min 10 sec)
-		2025-04-28 03:22:58 TooManyRequests - Got 7238 tweets
-		Waiting until  2025-04-28 03:27:58 (4 min 59 sec)
-		2025-04-28 03:39:23 TooManyRequests - Got 7845 tweets
-		Waiting until  2025-04-28 03:43:03 (3 min 39 sec)
-		2025-04-28 04:40:43 TooManyRequests - Got 10487 tweets
-		Waiting until  2025-04-28 04:43:43 (2 min 59 sec)
-		2025-04-28 04:58:09 TooManyRequests - Got 11203 tweets
-		Waiting until  2025-04-28 04:58:48 (0 min 38 sec)
-		2025-04-28 05:44:05 TooManyRequests - Got 13254 tweets
-		Waiting until  2025-04-28 05:45:04 (0 min 58 sec)
-		2025-04-28 06:45:07 TooManyRequests - Got 15583 tweets
-		Waiting until  2025-04-28 06:45:18 (0 min 10 sec)
-	
-	
+QUERY = 'dogecoin lang:en until:2021-5-6 since:2021-5-5'
+SEARCH = 'Latest'
+執行時間：2025-04-28 00:48:40 ~ 2025-04-28 08:55:39 (8 hr 7 min)
+推文數量：20270 (0 WrittingError)
+推文時間：Wed May 05 13:50:16 +0000 2021 ~ Wed May 05 23:59:57 +0000 2021 (GMT+0)
+Timestamp：
+	2025-04-28 00:48:40 Start
+	2025-04-28 00:48:41 FileNotFoundError
+	2025-04-28 00:53:24 TooManyRequests - Got 570 tweets
+	Waiting until  2025-04-28 00:55:43 (2 min 18 sec)
+	2025-04-28 01:07:02 TooManyRequests - Got 1294 tweets
+	Waiting until  2025-04-28 01:10:49 (3 min 46 sec)
+	2025-04-28 01:20:23 TooManyRequests - Got 1951 tweets
+	Waiting until  2025-04-28 01:25:57 (5 min 33 sec)
+	2025-04-28 01:33:35 TooManyRequests - Got 2654 tweets
+	Waiting until  2025-04-28 01:41:04 (7 min 28 sec)
+	2025-04-28 01:48:15 TooManyRequests - Got 3320 tweets
+	Waiting until  2025-04-28 01:56:09 (7 min 53 sec)
+	2025-04-28 02:40:07 TooManyRequests - Got 5155 tweets
+	Waiting until  2025-04-28 02:42:39 (2 min 31 sec)
+	2025-04-28 02:54:20 TooManyRequests - Got 5825 tweets
+	Waiting until  2025-04-28 02:57:44 (3 min 23 sec)
+	2025-04-28 03:11:40 TooManyRequests - Got 6538 tweets
+	Waiting until  2025-04-28 03:12:51 (1 min 10 sec)
+	2025-04-28 03:22:58 TooManyRequests - Got 7238 tweets
+	Waiting until  2025-04-28 03:27:58 (4 min 59 sec)
+	2025-04-28 03:39:23 TooManyRequests - Got 7845 tweets
+	Waiting until  2025-04-28 03:43:03 (3 min 39 sec)
+	2025-04-28 04:40:43 TooManyRequests - Got 10487 tweets
+	Waiting until  2025-04-28 04:43:43 (2 min 59 sec)
+	2025-04-28 04:58:09 TooManyRequests - Got 11203 tweets
+	Waiting until  2025-04-28 04:58:48 (0 min 38 sec)
+	2025-04-28 05:44:05 TooManyRequests - Got 13254 tweets
+	Waiting until  2025-04-28 05:45:04 (0 min 58 sec)
+	2025-04-28 06:45:07 TooManyRequests - Got 15583 tweets
+	Waiting until  2025-04-28 06:45:18 (0 min 10 sec)
+
+QUERY = 'dogecoin lang:en until:2021-5-6 since:2021-5-5'
+SEARCH = 'Latest'
+執行時間：2025-04-28 09:02:15 ~ 2025-04-28 19:15:01 (10 hr 13 min)
+推文數量：24076 (0 WrittingError)
+推文時間：Wed May 05 12:11:07 +0000 2021 ~ Wed May 05 23:59:57 +0000 2021 (GMT+0)
+Timestamp：
+	2025-04-28 09:02:15 Start
+	2025-04-28 09:02:16 FileNotFoundError
+	2025-04-28 09:27:01 TooManyRequests - Got 1455 tweets
+	Waiting until  2025-04-28 09:35:54 (8 min 52 sec)
+	2025-04-28 09:46:33 TooManyRequests - Got 2141 tweets
+	Waiting until  2025-04-28 09:51:00 (4 min 26 sec)
+	2025-04-28 10:19:17 TooManyRequests - Got 3405 tweets
+	Waiting until  2025-04-28 10:22:15 (2 min 57 sec)
+	2025-04-28 10:34:20 TooManyRequests - Got 4171 tweets
+	Waiting until  2025-04-28 10:37:20 (2 min 59 sec)
+	2025-04-28 10:46:54 TooManyRequests - Got 4853 tweets
+	Waiting until  2025-04-28 10:52:27 (5 min 32 sec)
+	2025-04-28 10:59:46 TooManyRequests - Got 5529 tweets
+	Waiting until  2025-04-28 11:07:35 (7 min 48 sec)
+	2025-04-28 11:18:50 TooManyRequests - Got 6242 tweets
+	Waiting until  2025-04-28 11:22:42 (3 min 51 sec)
+	2025-04-28 11:50:39 TooManyRequests - Got 7375 tweets
+	Waiting until  2025-04-28 11:54:29 (3 min 49 sec)
+	2025-04-28 12:08:45 TooManyRequests - Got 7961 tweets
+	Waiting until  2025-04-28 12:09:36 (0 min 50 sec)
+	2025-04-28 12:18:39 TooManyRequests - Got 8624 tweets
+	Waiting until  2025-04-28 12:24:43 (6 min 3 sec)
+	2025-04-28 12:36:28 TooManyRequests - Got 9350 tweets
+	Waiting until  2025-04-28 12:39:48 (3 min 19 sec)
+	2025-04-28 12:49:19 TooManyRequests - Got 10089 tweets
+	Waiting until  2025-04-28 12:54:54 (5 min 34 sec)
+	2025-04-28 13:09:36 TooManyRequests - Got 10778 tweets
+	Waiting until  2025-04-28 13:10:01 (0 min 24 sec)
+	2025-04-28 13:24:35 TooManyRequests - Got 11519 tweets
+	Waiting until  2025-04-28 13:25:05 (0 min 29 sec)
+	2025-04-28 14:08:53 TooManyRequests - Got 13540 tweets
+	Waiting until  2025-04-28 14:12:28 (3 min 34 sec)
+	2025-04-28 15:11:50 TooManyRequests - Got 15779 tweets
+	Waiting until  2025-04-28 15:12:51 (1 min 0 sec)
+	2025-04-28 15:41:26 TooManyRequests - Got 17070 tweets
+	Waiting until  2025-04-28 15:43:09 (1 min 42 sec)
+	2025-04-28 15:57:37 TooManyRequests - Got 17794 tweets
+	Waiting until  2025-04-28 15:58:16 (0 min 38 sec)
+	2025-04-28 18:25:41 TooManyRequests - Got 22686 tweets
+	Waiting until  2025-04-28 18:27:25 (1 min 43 sec)
+

@@ -9,7 +9,9 @@ ALL_JSON_DATA = "./data/combined/DOGE_2025_3.json"  # 設定要分群的 json �
 
 CLUSTER_FILENAME = "DOGE_2025_3"  # 設定要設為最終檔案的名稱
 
-CLUSTER_NUMBER = 100  # 設定要分成幾群 (cluster)
+JSON_DICT_NAME = "dogecoin"  # 設定推文所存的 json 檔中字典的名稱
+
+CLUSTER_NUMBER = 30  # 設定要分成幾群 (cluster)
 '''可修改參數'''
 
 
@@ -18,7 +20,7 @@ CLUSTER_NUMBER = 100  # 設定要分成幾群 (cluster)
 with open(ALL_JSON_DATA, "r", encoding="utf-8-sig") as f:
     data = json.load(f)
 
-tweets = data["dogecoin"]
+tweets = data[JSON_DICT_NAME]
 texts = [tweet["text"] for tweet in tweets]
 
 # 使用 BERT 模型
@@ -32,6 +34,9 @@ labels = kmeans.fit_predict(embeddings)
 # 加入分群結果
 for tweet, label in zip(tweets, labels):
     tweet["cluster"] = int(label)
+
+# 根據 cluster 排序
+tweets.sort(key=lambda x: x["cluster"])  # lambda: 建立臨時小函式
 
 # 儲存分群結果
 newFile = f"./data/clustered/clustered_{CLUSTER_NUMBER}_{CLUSTER_FILENAME}.json"

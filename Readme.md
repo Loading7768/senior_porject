@@ -32,11 +32,14 @@
 
     先將終端機的檔案變更為 senior_project\Kmeans>
 
+    combined_data.py：
+        1. 設定好 "可修改參數"
+        2. 把一整個資料夾中的 json 檔合在一起
+        3. 執行完成可在 Keams/data/combined 裡看到合併一起的 json 檔
+
     BERT_best_cluster.py：
         1. 設定好 "可修改參數"
-            (1) 此程式可以把一整個資料夾中的 json 檔合在一起
-            (2) 用合在一起後的 json 檔來判斷分多少群比較適合
-        2. 執行完成可在 Keams/data/combined 裡看到合併一起的 json 檔
+        2. 用合在一起後的 json 檔來判斷分多少群比較適合
         3. 可把執行完成後的 plt.figure 儲存起來
 
     BERT.py：
