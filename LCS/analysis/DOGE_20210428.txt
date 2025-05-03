@@ -1596,17 +1596,6 @@ resemblance: 86.77% in Y
 X = [#twitter #facebook #instagram #linkedin #tiktok #socialmedia #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
 	X tweet_count = [296]
 	X username = [Brett Murphy]
-Y = [#earn #earnmoney #affiliate #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
-	Y tweet_count = [555]
-	Y username = [Brett Murphy]
-Length of LCS: 187
-sequence of LCS = [#er #earmne #alia #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
-Total Length: X = 230, Y = 197 (85.65)
-resemblance: 94.92% in Y
-
-X = [#twitter #facebook #instagram #linkedin #tiktok #socialmedia #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
-	X tweet_count = [296]
-	X username = [Brett Murphy]
 Y = [#socialmediamanager #social #media #twitter #facebook #instagram #pinterest  #bitcoin #dogecoin #affiliatemarketing Check my website for my top recommended #business #tools and #programs https://t.co/XgGrfhA0Ne]
 	Y tweet_count = [550]
 	Y username = [Brett Murphy]
@@ -1614,6 +1603,17 @@ Length of LCS: 128
 sequence of LCS = [#twitter #facebook #instagram #ine #ito #oei #affiliatemarketing Check my website ormy t recone #business #ton #og https://t.co/]
 Total Length: X = 230, Y = 210 (91.30)
 resemblance: 60.95% in Y
+
+X = [#twitter #facebook #instagram #linkedin #tiktok #socialmedia #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
+	X tweet_count = [296]
+	X username = [Brett Murphy]
+Y = [#earn #earnmoney #affiliate #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
+	Y tweet_count = [555]
+	Y username = [Brett Murphy]
+Length of LCS: 187
+sequence of LCS = [#er #earmne #alia #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
+Total Length: X = 230, Y = 197 (85.65)
+resemblance: 94.92% in Y
 
 X = [#twitter #facebook #instagram #linkedin #tiktok #socialmedia #affiliatemarketing Check my #website #makemoney #earnmoney #affiliate #referral #cashback #crypto #shopping #travel #business #bitcoin #dogecoin https://t.co/vBHLD11zwQ]
 	X tweet_count = [296]
@@ -2091,17 +2091,6 @@ resemblance: 60.84% in Y
 X = [#linkedin #twitter #anniversary #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #reddit #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin discount code BRETT for 10% off at https://t.co/QLNZVxmWzL]
 	X tweet_count = [407]
 	X username = [Brett Murphy]
-Y = [#linkedin #twitter #facebook #instagram #giftidea #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
-	Y tweet_count = [490]
-	Y username = [Brett Murphy]
-Length of LCS: 183
-sequence of LCS = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #d #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin ison oe  r o at https://t.co/]
-Total Length: X = 230, Y = 254 (110.43)
-resemblance: 72.05% in Y
-
-X = [#linkedin #twitter #anniversary #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #reddit #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin discount code BRETT for 10% off at https://t.co/QLNZVxmWzL]
-	X tweet_count = [407]
-	X username = [Brett Murphy]
 Y = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #gifting #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin Up to 15% off New Products from #Amazon #Brands https://t.co/rzTTICY6nX]
 	Y tweet_count = [494]
 	Y username = [Brett Murphy]
@@ -2109,6 +2098,17 @@ Length of LCS: 181
 sequence of LCS = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #d #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin t oe  fr o a https://t.co/z]
 Total Length: X = 230, Y = 237 (103.04)
 resemblance: 76.37% in Y
+
+X = [#linkedin #twitter #anniversary #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #reddit #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin discount code BRETT for 10% off at https://t.co/QLNZVxmWzL]
+	X tweet_count = [407]
+	X username = [Brett Murphy]
+Y = [#linkedin #twitter #facebook #instagram #giftidea #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
+	Y tweet_count = [490]
+	Y username = [Brett Murphy]
+Length of LCS: 183
+sequence of LCS = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #d #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin ison oe  r o at https://t.co/]
+Total Length: X = 230, Y = 254 (110.43)
+resemblance: 72.05% in Y
 
 X = [#linkedin #twitter #anniversary #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #reddit #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin discount code BRETT for 10% off at https://t.co/QLNZVxmWzL]
 	X tweet_count = [407]
@@ -2201,17 +2201,6 @@ resemblance: 62.94% in Y
 X = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #shoppingstaronline #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
 	X tweet_count = [453]
 	X username = [Brett Murphy]
-Y = [#linkedin #twitter #facebook #instagram #giftidea #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
-	Y tweet_count = [490]
-	Y username = [Brett Murphy]
-Length of LCS: 244
-sequence of LCS = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
-Total Length: X = 264, Y = 254 (96.21)
-resemblance: 96.06% in Y
-
-X = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #shoppingstaronline #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
-	X tweet_count = [453]
-	X username = [Brett Murphy]
 Y = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #reddit #tumblr #tumblraddict #affiliatemarketing #bitcoin Start your own #blog or #website with #Wordpress and get $25 off your first purchase. https://t.co/NUmzbyKSKU]
 	Y tweet_count = [485]
 	Y username = [Brett Murphy]
@@ -2219,6 +2208,17 @@ Length of LCS: 171
 sequence of LCS = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas # #i #affiliatemarketing #bitcoin aon #log or este tred tors a https://t.co/]
 Total Length: X = 264, Y = 263 (99.62)
 resemblance: 65.02% in Y
+
+X = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #shoppingstaronline #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
+	X tweet_count = [453]
+	X username = [Brett Murphy]
+Y = [#linkedin #twitter #facebook #instagram #giftidea #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
+	Y tweet_count = [490]
+	Y username = [Brett Murphy]
+Length of LCS: 244
+sequence of LCS = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
+Total Length: X = 264, Y = 254 (96.21)
+resemblance: 96.06% in Y
 
 X = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #pinterest #dogecoin #shoppingstaronline #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
 	X tweet_count = [453]
@@ -2333,17 +2333,6 @@ resemblance: 78.26% in Y
 X = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #reddit #tumblr #tumblraddict #affiliatemarketing #bitcoin Start your own #blog or #website with #Wordpress and get $25 off your first purchase. https://t.co/NUmzbyKSKU]
 	X tweet_count = [485]
 	X username = [Brett Murphy]
-Y = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #gifting #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin Up to 15% off New Products from #Amazon #Brands https://t.co/rzTTICY6nX]
-	Y tweet_count = [494]
-	Y username = [Brett Murphy]
-Length of LCS: 164
-sequence of LCS = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas # #i #affiliatemarketing #bitcoin  o  o ew rdt fr  ras https://t.co/z]
-Total Length: X = 263, Y = 237 (90.11)
-resemblance: 69.20% in Y
-
-X = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #reddit #tumblr #tumblraddict #affiliatemarketing #bitcoin Start your own #blog or #website with #Wordpress and get $25 off your first purchase. https://t.co/NUmzbyKSKU]
-	X tweet_count = [485]
-	X username = [Brett Murphy]
 Y = [#linkedin #twitter #facebook #instagram #giftidea #tiktok #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin #amazon #Onlineshopping for Overstock Deals: Featured Stores at https://t.co/EjBqrch76j]
 	Y tweet_count = [490]
 	Y username = [Brett Murphy]
@@ -2351,6 +2340,17 @@ Length of LCS: 171
 sequence of LCS = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas # #i #affiliatemarketing #bitcoin aon #log or esto a etur rs a https://t.co/]
 Total Length: X = 263, Y = 254 (96.58)
 resemblance: 67.32% in Y
+
+X = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #reddit #tumblr #tumblraddict #affiliatemarketing #bitcoin Start your own #blog or #website with #Wordpress and get $25 off your first purchase. https://t.co/NUmzbyKSKU]
+	X tweet_count = [485]
+	X username = [Brett Murphy]
+Y = [#linkedin #twitter #facebook #instagram #tiktok #socialmedia #gifting #pinterest #dogecoin #deal #gift #gifts #giftideas #shop #shopping #affiliatemarketing #bitcoin Up to 15% off New Products from #Amazon #Brands https://t.co/rzTTICY6nX]
+	Y tweet_count = [494]
+	Y username = [Brett Murphy]
+Length of LCS: 164
+sequence of LCS = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas # #i #affiliatemarketing #bitcoin  o  o ew rdt fr  ras https://t.co/z]
+Total Length: X = 263, Y = 237 (90.11)
+resemblance: 69.20% in Y
 
 X = [#twitter #facebook #instagram  #socialmedia #pinterest #dogecoin #deal #gift #gifts #giftideas #reddit #tumblr #tumblraddict #affiliatemarketing #bitcoin Start your own #blog or #website with #Wordpress and get $25 off your first purchase. https://t.co/NUmzbyKSKU]
 	X tweet_count = [485]
