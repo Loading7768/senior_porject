@@ -218,7 +218,29 @@ if __name__ == "__main__":
             total_compare = process_tweet_group(tweets, json_output)
 
     
-
+    print()
     print(f"✅ 已儲存 JSON 結果到 {json_output_path}")
     print(f"實際寫入的全部結果數：{total_compare}")
     print(f"✅ 已輸出結果到 {txtname}")
+
+
+
+    # 建立一個字典記錄每個帳號有多少重複推文
+    repetitive_counts = defaultdict(int)
+
+    # 當你從 LCS 對比結果中抓出重複推文時
+    # 你可以記錄帳號出現的次數
+    with open(json_output_path, 'r', encoding="utf-8-sig") as file:
+        data_json = json.load(file)
+
+    for tweet in data_json:
+        X_user = tweet["X_username"]
+        Y_user = tweet["Y_username"]
+        repetitive_counts[X_user] += 1
+        repetitive_counts[Y_user] += 1
+
+    # 印出出現次數大於 10 的帳號
+    print()
+    for user, count in sorted(repetitive_counts.items(), key=lambda x: x[1], reverse=True):
+        if count > 10:
+            print(f"🤖 疑似洗版帳號：{user}，重複出現次數：{count}")
