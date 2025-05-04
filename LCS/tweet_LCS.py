@@ -6,8 +6,9 @@ from collections import defaultdict
 
 
 '''可修改參數'''
-FILENAME = "../Kmeans/data/clustered/clustered_30_DOGE_20210428.json"  # 選擇要對哪個檔案執行
-#"../project_vscode/data/DOGE/2021/4/DOGE_20210428_Latest654.json"
+FILENAME = "../Kmeans/data/clustered/clustered_30_DOGE_20210428.json" # 選擇要對哪個檔案執行
+# "../project_vscode/data/DOGE/2021/4/DOGE_20210428_Latest654.json" 
+# 
 
 ANALYSIS_NAME = "DOGE_20210428_test"  # 設定要存的 txt 名稱
 
@@ -19,9 +20,14 @@ LENGTH_RATIO = 80  # 設定 Y(被比對的推文) 的長度相對於 X(當基準
 # 這是要確認兩篇推文的長度落在合理範圍內，推文 Y 的長度至少有 X 的 80% 長（不能太短）
 
 TOKEN_OVERLAP_THRESHOLD = 30  # 設定 token_overlap 的臨界值   30 => 30%
+
+IS_CLUSTERED = True  # 設定是否要用有分群的檔案來比對
 '''可修改參數'''
 
-txtname = f"../LCS/analysis/{ANALYSIS_NAME}_clustered.txt"
+if IS_CLUSTERED:
+    txtname = f"../LCS/analysis/{ANALYSIS_NAME}_clustered.txt"
+else:
+    txtname = f"../LCS/analysis/{ANALYSIS_NAME}.txt"
 
 def lcs(X, Y):
     m = len(X)
@@ -115,37 +121,78 @@ if __name__ == "__main__":
     with open(txtname, 'w', encoding="utf-8-sig") as filetxt:
         filetxt.write("")
 
-    # defaultdict: Python 的一種特殊字典
-    # 當你存取一個不存在的 key 時，它會自動建立對應的預設值  ex. clusters["0"] 若原本不存在，會自動被建立成 []（空 list）
-    clusters = defaultdict(list)
-    for tweet in tweets:
-        clusters[tweet["cluster"]].append(tweet)  # 把推文加入對應的群集  ex. clusters[0].append(推文)
+    if IS_CLUSTERED:
+        # defaultdict: Python 的一種特殊字典
+        # 當你存取一個不存在的 key 時，它會自動建立對應的預設值  ex. clusters["0"] 若原本不存在，會自動被建立成 []（空 list）
+        clusters = defaultdict(list)
+        for tweet in tweets:
+            clusters[tweet["cluster"]].append(tweet)  # 把推文加入對應的群集  ex. clusters[0].append(推文)
 
-    total_compare = 0  # 計算總共寫入的結果數
-    # .items() 來一次取得 key（cluster_id）與對應的 value（cluster_tweets，一個 list）
-    for cluster_id, cluster_tweets in clusters.items():
-        print(f"正在處理 Cluster {cluster_id}，共 {len(cluster_tweets)} 筆")
+        total_compare = 0  # 計算總共寫入的結果數
+        # .items() 來一次取得 key（cluster_id）與對應的 value（cluster_tweets，一個 list）
+        for cluster_id, cluster_tweets in clusters.items():
+            print(f"正在處理 Cluster {cluster_id}，共 {len(cluster_tweets)} 筆")
 
-        if len(cluster_tweets) < 2:
-            continue  # 不需要比對
+            if len(cluster_tweets) < 2:
+                continue  # 不需要比對
 
-        # txtname = f"../LCS/analysis/{ANALYSIS_NAME}_cluster{cluster_id}.txt"
+            writed_compare = 0  # 實際寫入的結果數
+            try:
+                with open(txtname, 'a', encoding="utf-8-sig") as filetxt:
+                    filetxt.write(f"cluster {cluster_id}, 共 {len(cluster_tweets)} 筆\n")
+                    with Pool(processes=cpu_count()) as pool:  # Pool(processes=cpu_count()): 建立一個「工作池」來開啟多個 CPU 核心跑比對
+                        
+                        # pool.imap_unordered(compare_pair, pairs): 將 pairs 中的每組 (i, j, tweets) 傳進 compare_pair 函式處理，並行處理，誰先完成就先送回來
+                        for res in tqdm(pool.imap_unordered(compare_pair, generate_pairs(cluster_tweets)),
+                                        total=(len(cluster_tweets) * (len(cluster_tweets) - 1)) // 2,  # 產生所有從 n 個元素中選出 2 個不重複且無順序的組合  [C(n, 2) = (n(n - 1)) / 2]
+                                        desc=f"比對中 (Cluster {cluster_id})"):  # tqdm(...): 進度條
+                            
+                            if res is None:  # 如果是 None，代表比對不通過被過濾掉
+                                continue  # 不寫進 txt 檔
+
+                            writed_compare += 1
+                            total_compare += 1
+                            X, Y = res["X"], res["Y"]
+
+                            # 將符合標準的比對結果寫進 txt 檔
+                            filetxt.write(f"X = [{repr(X['text'])[1:-1]}]\n")  # repr(): 讓 \n 保持為 \n 輸出
+                            filetxt.write(f"\tX tweet_count = [{X['tweet_count']}]\n")
+                            filetxt.write(f"\tX username = [{X['username']}]\n")
+
+                            filetxt.write(f"Y = [{repr(Y['text'])[1:-1]}]\n")
+                            filetxt.write(f"\tY tweet_count = [{Y['tweet_count']}]\n")
+                            filetxt.write(f"\tY username = [{Y['username']}]\n")
+
+                            filetxt.write(f"Length of LCS: {res['length']}\n")
+                            filetxt.write(f"sequence of LCS = [{repr(res['sequence'])[1:-1]}]\n")
+                            filetxt.write(f"Total Length: X = {len(X['text'])}, Y = {len(Y['text'])} "
+                                            f"({(len(Y['text']) / len(X['text'])) * 100:.2f})\n")
+                            filetxt.write(f"resemblance: {(res['length'] / len(Y['text'])) * 100:.2f}% in Y\n\n")
+
+            except KeyboardInterrupt:
+                print("\n🛑 偵測到 Ctrl+C 中斷，已安全停止程序。")
+            
+            print(f"實際寫入的結果數：{writed_compare}\n")
+
+        print(f"實際寫入的全部結果數：{total_compare}")
+        print(f"✅ 已輸出結果到 {txtname}")
+
+
+    else:
         writed_compare = 0  # 實際寫入的結果數
         try:
-            with open(txtname, 'a', encoding="utf-8-sig") as filetxt:
-                filetxt.write(f"cluster {cluster_id}, 共 {len(cluster_tweets)} 筆\n")
+            with open(txtname, 'w', encoding="utf-8-sig") as filetxt:
                 with Pool(processes=cpu_count()) as pool:  # Pool(processes=cpu_count()): 建立一個「工作池」來開啟多個 CPU 核心跑比對
                     
                     # pool.imap_unordered(compare_pair, pairs): 將 pairs 中的每組 (i, j, tweets) 傳進 compare_pair 函式處理，並行處理，誰先完成就先送回來
-                    for res in tqdm(pool.imap_unordered(compare_pair, generate_pairs(cluster_tweets)),
-                                    total=(len(cluster_tweets) * (len(cluster_tweets) - 1)) // 2,  # 產生所有從 n 個元素中選出 2 個不重複且無順序的組合  [C(n, 2) = (n(n - 1)) / 2]
-                                    desc=f"比對中 (Cluster {cluster_id})"):  # tqdm(...): 進度條
+                    for res in tqdm(pool.imap_unordered(compare_pair, generate_pairs(tweets)),
+                                    total=(len(tweets) * (len(tweets) - 1)) // 2,  # 產生所有從 n 個元素中選出 2 個不重複且無順序的組合  [C(n, 2) = (n(n - 1)) / 2]
+                                    desc="比對中"):  # tqdm(...): 進度條
                         
                         if res is None:  # 如果是 None，代表比對不通過被過濾掉
                             continue  # 不寫進 txt 檔
 
                         writed_compare += 1
-                        total_compare += 1
                         X, Y = res["X"], res["Y"]
 
                         # 將符合標準的比對結果寫進 txt 檔
@@ -165,8 +212,6 @@ if __name__ == "__main__":
 
         except KeyboardInterrupt:
             print("\n🛑 偵測到 Ctrl+C 中斷，已安全停止程序。")
-        
-        print(f"實際寫入的結果數：{writed_compare}\n")
 
-    print(f"實際寫入的全部結果數：{total_compare}")
-    print(f"✅ 已輸出結果到 {txtname}")
+        print(f"實際寫入的結果數：{writed_compare}")
+        print(f"✅ 已輸出結果到 {txtname}")
