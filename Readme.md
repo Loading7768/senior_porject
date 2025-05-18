@@ -37,7 +37,7 @@
         2. 把一整個資料夾中的 json 檔合在一起
         3. 執行完成可在 Keams/data/combined 裡看到合併一起的 json 檔
 
-    BERT_best_cluster.py：
+    BERT_best_cluster.py：(不一定要執行)
         1. 設定好 "可修改參數"
         2. 用合在一起後的 json 檔來判斷分多少群比較適合
         3. 可把執行完成後的 plt.figure 儲存起來
@@ -45,3 +45,37 @@
     BERT.py：
         1. 設定好 "可修改參數"
         2. 執行完成可在 Keams/data/culstered 裡看到分好群的 json 檔
+
+使用手冊(LCS)：(已放棄使用)
+
+    先將終端機的檔案變更為 senior_project\LCS>
+
+    tweet_LCS.py：
+        1. 需先至 Kmeans 裡將要比對的檔案分群 (若檔案數很小可不用 ex. 1000 筆推文內)
+        2. 設定好 "可修改參數"
+        3. 執行完成可在 LCS/data/analysis 裡看到符合比對標準的推文 txt 檔
+
+使用手冊(Dice)：
+
+    先將終端機的檔案變更為 senior_project\Dice>
+
+    pip install nltk
+
+    dice.py：
+        1. 設定好 "可修改參數"
+        2. 如果是第一次執行 需要載
+            nltk.download('punkt')
+            nltk.download('stopwords')
+            nltk.download('punkt_tab')
+        3. 執行完成可在 Dice/analysis 裡看到符合比對標準的推文 txt, json 檔
+        4. 在 Dice/robot_account 裡有可能是機器人的帳號
+
+使用手冊(Sentiment)：
+
+    先將終端機的檔案變更為 senior_project\Sentiment>
+
+    pip install transformers scipy tqdm
+
+    sentiment_analysis.py：
+        1. 設定好 "可修改參數"
+        2. 執行完成可在 Sentiment/analysis 裡看到新增加 "sentiment": sentiment 的推文 json 檔，以及詳細分類評分在 txt 檔中 
