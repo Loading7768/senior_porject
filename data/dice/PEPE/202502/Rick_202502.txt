@@ -1,0 +1,22 @@
+﻿X = [$PEPE hopefully, more downn\n\n#pepe @pepecoineth https://t.co/19CNz7Ddyx]
+X_token = [pepe, hopefully, downn, pepe, pepecoineth, https]
+	X tweet_count = [21]
+	X username = [Rick]
+Y = [$PEPE hopefully,\n\nbut i didn't enter. #nfa #pepe @pepecoineth https://t.co/ZrEJpufgFd]
+Y_token = [pepe, hopefully, enter, nfa, pepe, pepecoineth, https]
+	Y tweet_count = [28]
+	Y username = [Rick]
+Total Length: X = 71, Y = 85 (Y / X = 119.72  X / Y = 83.53)
+Dice Coefficient: 72.73% 
+
+X = [$PEPE short trade. #pepe @pepecoineth https://t.co/mlXOCfL4uf]
+X_token = [pepe, short, trade, pepe, pepecoineth, https]
+	X tweet_count = [31]
+	X username = [Rick]
+Y = [$PEPE long trade. #pepe @pepecoineth https://t.co/XqoGa05zpm]
+Y_token = [pepe, long, trade, pepe, pepecoineth, https]
+	Y tweet_count = [32]
+	Y username = [Rick]
+Total Length: X = 61, Y = 60 (Y / X = 98.36  X / Y = 101.67)
+Dice Coefficient: 80.00% 
+

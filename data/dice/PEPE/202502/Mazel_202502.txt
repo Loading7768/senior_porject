@@ -1,0 +1,44 @@
+﻿X = [@venturefounder $pepe coded https://t.co/QHMXtti1yq]
+X_token = [venturefounder, pepe, coded, https]
+	X tweet_count = [1]
+	X username = [Mazel]
+Y = [@drwasho $PEPE coded https://t.co/XKOs8V9B85]
+Y_token = [drwasho, pepe, coded, https]
+	Y tweet_count = [5]
+	Y username = [Mazel]
+Total Length: X = 51, Y = 44 (Y / X = 86.27  X / Y = 115.91)
+Dice Coefficient: 75.00% 
+
+X = [@venturefounder $pepe coded https://t.co/QHMXtti1yq]
+X_token = [venturefounder, pepe, coded, https]
+	X tweet_count = [1]
+	X username = [Mazel]
+Y = [@digitalartchick $pepe coded https://t.co/HbWKBkToT9]
+Y_token = [digitalartchick, pepe, coded, https]
+	Y tweet_count = [21]
+	Y username = [Mazel]
+Total Length: X = 51, Y = 52 (Y / X = 101.96  X / Y = 98.08)
+Dice Coefficient: 75.00% 
+
+X = [@drwasho $PEPE coded https://t.co/XKOs8V9B85]
+X_token = [drwasho, pepe, coded, https]
+	X tweet_count = [5]
+	X username = [Mazel]
+Y = [@digitalartchick $pepe coded https://t.co/HbWKBkToT9]
+Y_token = [digitalartchick, pepe, coded, https]
+	Y tweet_count = [21]
+	Y username = [Mazel]
+Total Length: X = 44, Y = 52 (Y / X = 118.18  X / Y = 84.62)
+Dice Coefficient: 75.00% 
+
+X = [@digitalartchick $pepe coded https://t.co/HbWKBkToT9]
+X_token = [digitalartchick, pepe, coded, https]
+	X tweet_count = [21]
+	X username = [Mazel]
+Y = [@polaris_xbt @honey_xbt Also $pepe coded https://t.co/quIMQHsdJu]
+Y_token = [also, pepe, coded, https]
+	Y tweet_count = [22]
+	Y username = [Mazel]
+Total Length: X = 52, Y = 64 (Y / X = 123.08  X / Y = 81.25)
+Dice Coefficient: 75.00% 
+

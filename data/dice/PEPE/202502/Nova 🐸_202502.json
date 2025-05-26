@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@EricTrump You have $PEPE too right?",
+        "X_token": "erictrump, pepe, right",
+        "X_tweet_count": 4,
+        "X_username": "Nova 🐸",
+        "Y_text": "We are up only from here right? $PEPE",
+        "Y_token": "right, pepe",
+        "Y_tweet_count": 5,
+        "Y_username": "Nova 🐸",
+        "X_length": 36,
+        "Y_length": 37,
+        "Y_length_percent_of_X": 102.78,
+        "X_length_percent_of_Y": 97.3,
+        "dice_coefficient": 80.0
+    }
+]

@@ -1,0 +1,44 @@
+﻿X = [❌  You missed $ETH\n❌  You missed $ADA\n❌  You missed $BNB\n❌  You missed $LINK\n❌  You missed $DOT\n❌  You missed $SHIB\n❌  You missed $GMX\n❌  You missed $BONK\n❌  You missed $WIF\n❌  You missed $PEPE\n❌  You missed $HBAR\n❌  You missed $XRP\n❌  You missed $SOL\n❌  You missed]
+X_token = [missed, eth, missed, ada, missed, bnb, missed, link, missed, dot, missed, shib, missed, gmx, missed, bonk, missed, wif, missed, pepe, missed, hbar, missed, xrp, missed, sol, missed]
+	X tweet_count = [5]
+	X username = [Rafol]
+Y = [❌  You missed $ETH\n❌  You missed $ADA\n❌  You missed $BNB\n❌  You missed $LINK\n❌  You missed $DOT\n❌  You missed $SHIB\n❌  You missed $GMX\n❌  You missed $BONK\n❌  You missed $WIF\n❌  You missed $PEPE\n❌  You missed $HBAR\n❌  You missed $XRP\n❌  You missed $SOL\n❌  You missed https://t.co/sazZUS6q3O]
+Y_token = [missed, eth, missed, ada, missed, bnb, missed, link, missed, dot, missed, shib, missed, gmx, missed, bonk, missed, wif, missed, pepe, missed, hbar, missed, xrp, missed, sol, missed, https]
+	Y tweet_count = [12]
+	Y username = [Rafol]
+Total Length: X = 265, Y = 289 (Y / X = 109.06  X / Y = 91.70)
+Dice Coefficient: 96.55% 
+
+X = [Which do you think is the most powerful #Crypto community?\n\n$KAS 💚\n$XRP 🖤\n$HBAR 🖤\n$RIO 🖤\n$BLOCX 💙\n$DNX 💙\n$PROPS 🖤\n$QUBIC 💚\n$SUN 💚\n$CAM 💜\n$OCTA 💜\n$SHIBA 🐶\n$DOGE 🐶\n$PEPE 🐸\n$BRETT 🐸\n$TAO 🤖\n$MUMU 🐮\n$REDO 🐶\n$VRA ❤️\n#MIGGLES 😺\n$TRUMP 🤡\n$ALPH ❤️\n$HOOT 🦉 https://t.co/1n880h1IbE]
+X_token = [think, powerful, crypto, community, kas, xrp, hbar, rio, blocx, dnx, props, qubic, sun, cam, octa, shiba, doge, pepe, brett, tao, mumu, redo, vra, miggles, trump, alph, hoot, https]
+	X tweet_count = [10]
+	X username = [Rafol]
+Y = [Which #Crypto community has the most warriors?\n\n$KAS 💚\n$XRP 🖤\n$HBAR 🖤\n$RIO 🖤\n$BLOCX 💙\n$DNX 💙\n$PROPS 🖤\n$QUBIC 💚\n$SUN 💚\n$CAM 💜\n$OCTA 💜\n$SHIBA 🐶\n$DOGE 🐶\n$PEPE 🐸\n$BRETT 🐸\n$TAO 🤖\n$MUMU 🐮\n$REDO 🐶\n$VRA ❤️\n#MIGGLES 😺\n$TRUMP 🤡\n$ALPH ❤️\n$HOOT 🦉 https://t.co/ivoSO3IvHw]
+Y_token = [crypto, community, warriors, kas, xrp, hbar, rio, blocx, dnx, props, qubic, sun, cam, octa, shiba, doge, pepe, brett, tao, mumu, redo, vra, miggles, trump, alph, hoot, https]
+	Y tweet_count = [13]
+	Y username = [Rafol]
+Total Length: X = 270, Y = 258 (Y / X = 95.56  X / Y = 104.65)
+Dice Coefficient: 94.55% 
+
+X = [Which do you think is the most powerful #Crypto community?\n\n$KAS 💚\n$XRP 🖤\n$HBAR 🖤\n$RIO 🖤\n$BLOCX 💙\n$DNX 💙\n$PROPS 🖤\n$QUBIC 💚\n$SUN 💚\n$CAM 💜\n$OCTA 💜\n$SHIBA 🐶\n$DOGE 🐶\n$PEPE 🐸\n$BRETT 🐸\n$TAO 🤖\n$MUMU 🐮\n$REDO 🐶\n$VRA ❤️\n#MIGGLES 😺\n$TRUMP 🤡\n$ALPH ❤️\n$HOOT 🦉 https://t.co/1n880h1IbE]
+X_token = [think, powerful, crypto, community, kas, xrp, hbar, rio, blocx, dnx, props, qubic, sun, cam, octa, shiba, doge, pepe, brett, tao, mumu, redo, vra, miggles, trump, alph, hoot, https]
+	X tweet_count = [10]
+	X username = [Rafol]
+Y = [Pick 3 of the strongest #Crypto communities 👇\n\n$KAS 💚\n$XRP 🖤\n$HBAR 🖤\n$RIO 🖤\n$BLOCX 💙\n$DNX 💙\n$PROPS 🖤\n$QUBIC 💚\n$SOL 💚\n$CAM 💜\n$OCTA 💜\n$SHIBA 🐶\n$DOGE 🐶\n$PEPE 🐸\n$BRETT 🐸\n$TAO 🤖\n$MUMU 🐮\n$REDO 🐶\n$VRA ❤️\n#MIGGLES 😺\n$TRUMP 🤡\n$ALPH ❤️\n$HOOT 🦉 https://t.co/YQaNCqlyP4]
+Y_token = [pick, 3, strongest, crypto, communities, kas, xrp, hbar, rio, blocx, dnx, props, qubic, sol, cam, octa, shiba, doge, pepe, brett, tao, mumu, redo, vra, miggles, trump, alph, hoot, https]
+	Y tweet_count = [14]
+	Y username = [Rafol]
+Total Length: X = 270, Y = 257 (Y / X = 95.19  X / Y = 105.06)
+Dice Coefficient: 84.21% 
+
+X = [Which #Crypto community has the most warriors?\n\n$KAS 💚\n$XRP 🖤\n$HBAR 🖤\n$RIO 🖤\n$BLOCX 💙\n$DNX 💙\n$PROPS 🖤\n$QUBIC 💚\n$SUN 💚\n$CAM 💜\n$OCTA 💜\n$SHIBA 🐶\n$DOGE 🐶\n$PEPE 🐸\n$BRETT 🐸\n$TAO 🤖\n$MUMU 🐮\n$REDO 🐶\n$VRA ❤️\n#MIGGLES 😺\n$TRUMP 🤡\n$ALPH ❤️\n$HOOT 🦉 https://t.co/ivoSO3IvHw]
+X_token = [crypto, community, warriors, kas, xrp, hbar, rio, blocx, dnx, props, qubic, sun, cam, octa, shiba, doge, pepe, brett, tao, mumu, redo, vra, miggles, trump, alph, hoot, https]
+	X tweet_count = [13]
+	X username = [Rafol]
+Y = [Pick 3 of the strongest #Crypto communities 👇\n\n$KAS 💚\n$XRP 🖤\n$HBAR 🖤\n$RIO 🖤\n$BLOCX 💙\n$DNX 💙\n$PROPS 🖤\n$QUBIC 💚\n$SOL 💚\n$CAM 💜\n$OCTA 💜\n$SHIBA 🐶\n$DOGE 🐶\n$PEPE 🐸\n$BRETT 🐸\n$TAO 🤖\n$MUMU 🐮\n$REDO 🐶\n$VRA ❤️\n#MIGGLES 😺\n$TRUMP 🤡\n$ALPH ❤️\n$HOOT 🦉 https://t.co/YQaNCqlyP4]
+Y_token = [pick, 3, strongest, crypto, communities, kas, xrp, hbar, rio, blocx, dnx, props, qubic, sol, cam, octa, shiba, doge, pepe, brett, tao, mumu, redo, vra, miggles, trump, alph, hoot, https]
+	Y tweet_count = [14]
+	Y username = [Rafol]
+Total Length: X = 258, Y = 257 (Y / X = 99.61  X / Y = 100.39)
+Dice Coefficient: 85.71% 
+

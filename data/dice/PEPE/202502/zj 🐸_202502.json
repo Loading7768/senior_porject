@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "$PEPE is the next Bitcoin. https://t.co/To7xXhWoKj",
+        "X_token": "pepe, next, bitcoin, https",
+        "X_tweet_count": 10,
+        "X_username": "zj 🐸",
+        "Y_text": "The next 100x is $PEPE https://t.co/MRwA9YVkoT",
+        "Y_token": "next, 100x, pepe, https",
+        "Y_tweet_count": 14,
+        "Y_username": "zj 🐸",
+        "X_length": 50,
+        "Y_length": 46,
+        "Y_length_percent_of_X": 92.0,
+        "X_length_percent_of_Y": 108.7,
+        "dice_coefficient": 75.0
+    }
+]

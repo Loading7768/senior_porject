@@ -1,0 +1,11 @@
+﻿X = [REPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\n🐸]
+X_token = [repeat, selling, pepe, repeat, selling, pepe, repeat, selling, pepe, repeat, selling, pepe, repeat, selling, pepe]
+	X tweet_count = [20]
+	X username = [Purre]
+Y = [REPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\nREPEAT AFTER ME NOT SELLING $PEPE\n\n🐸 https://t.co/bdcPuInVjG]
+Y_token = [repeat, selling, pepe, repeat, selling, pepe, repeat, selling, pepe, repeat, selling, pepe, repeat, selling, pepe, https]
+	Y tweet_count = [28]
+	Y username = [Purre]
+Total Length: X = 176, Y = 200 (Y / X = 113.64  X / Y = 88.00)
+Dice Coefficient: 85.71% 
+

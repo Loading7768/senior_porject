@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@JakeGagain Thanks Jake!\nThe boys club representing\n$pepe\n$wolf\n$andy\n$brett https://t.co/yUOmzIAJ8N",
+        "X_token": "jakegagain, thanks, jake, boys, club, representing, pepe, wolf, andy, brett, https",
+        "X_tweet_count": 6,
+        "X_username": "Rogerdoger56",
+        "Y_text": "@Wojakwojowski Just surviving over here at the boys club 😉\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/3upVqHH5Tn",
+        "Y_token": "wojakwojowski, surviving, boys, club, pepe, wolf, andy, brett, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Rogerdoger56",
+        "X_length": 100,
+        "Y_length": 107,
+        "Y_length_percent_of_X": 107.0,
+        "X_length_percent_of_Y": 93.46,
+        "dice_coefficient": 70.0
+    },
+    {
+        "X_text": "@misterrcrypto Can't go wrong with the boys club\n$pepe\n$wolf\n$andy\n$brett https://t.co/6Pbib8yRQU",
+        "X_token": "misterrcrypto, ca, go, wrong, boys, club, pepe, wolf, andy, brett, https",
+        "X_tweet_count": 9,
+        "X_username": "Rogerdoger56",
+        "Y_text": "@Wojakwojowski Just surviving over here at the boys club 😉\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/3upVqHH5Tn",
+        "Y_token": "wojakwojowski, surviving, boys, club, pepe, wolf, andy, brett, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Rogerdoger56",
+        "X_length": 97,
+        "Y_length": 107,
+        "Y_length_percent_of_X": 110.31,
+        "X_length_percent_of_Y": 90.65,
+        "dice_coefficient": 70.0
+    },
+    {
+        "X_text": "@henokcrypto Just another work day 👍\nThe boys club\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/UyjPrdDcNE",
+        "X_token": "henokcrypto, another, work, day, boys, club, pepe, wolf, andy, brett, https",
+        "X_tweet_count": 19,
+        "X_username": "Rogerdoger56",
+        "Y_text": "@Wojakwojowski Just surviving over here at the boys club 😉\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/3upVqHH5Tn",
+        "Y_token": "wojakwojowski, surviving, boys, club, pepe, wolf, andy, brett, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Rogerdoger56",
+        "X_length": 99,
+        "Y_length": 107,
+        "Y_length_percent_of_X": 108.08,
+        "X_length_percent_of_Y": 92.52,
+        "dice_coefficient": 70.0
+    }
+]

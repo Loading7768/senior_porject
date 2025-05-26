@@ -1,0 +1,62 @@
+[
+    {
+        "X_text": "@xohovn Gmegg $okayeg is the frog of base. Popular twitch emote used by forsen, originated from 4chan like $pepe and $apu. The cult has a mission to spread egg and warn of eggflation. We egg on and egg in our raids https://t.co/gCAzhulZl9",
+        "X_token": "xohovn, gmegg, okayeg, frog, base, popular, twitch, emote, used, forsen, originated, 4chan, like, pepe, apu, cult, mission, spread, egg, warn, eggflation, egg, egg, raids, https",
+        "X_tweet_count": 3,
+        "X_username": "Jake®️",
+        "Y_text": "@crypto_beast7 @base Gmegg $okayeg is the frog of base. Popular twitch emote used by forsen, originated from 4chan like $pepe and $apu. The cult has a mission to spread egg and warn of eggflation. We egg on and egg in our raids https://t.co/dJRaWTWk0v",
+        "Y_token": "base, gmegg, okayeg, frog, base, popular, twitch, emote, used, forsen, originated, 4chan, like, pepe, apu, cult, mission, spread, egg, warn, eggflation, egg, egg, raids, https",
+        "Y_tweet_count": 5,
+        "Y_username": "Jake®️",
+        "X_length": 238,
+        "Y_length": 251,
+        "Y_length_percent_of_X": 105.46,
+        "X_length_percent_of_Y": 94.82,
+        "dice_coefficient": 97.78
+    },
+    {
+        "X_text": "@xohovn Gmegg $okayeg is the frog of base. Popular twitch emote used by forsen, originated from 4chan like $pepe and $apu. The cult has a mission to spread egg and warn of eggflation. We egg on and egg in our raids https://t.co/gCAzhulZl9",
+        "X_token": "xohovn, gmegg, okayeg, frog, base, popular, twitch, emote, used, forsen, originated, 4chan, like, pepe, apu, cult, mission, spread, egg, warn, eggflation, egg, egg, raids, https",
+        "X_tweet_count": 3,
+        "X_username": "Jake®️",
+        "Y_text": "@1CrypticPoet @base @krakenfx Gmegg $okayeg is the frog of base. Popular twitch emote used by forsen, originated from 4chan like $pepe and $apu. The cult has a mission to spread egg and warn of eggflation. We egg on and egg in our raids https://t.co/01Fzfn3613",
+        "Y_token": "1crypticpoet, base, krakenfx, gmegg, okayeg, frog, base, popular, twitch, emote, used, forsen, originated, 4chan, like, pepe, apu, cult, mission, spread, egg, warn, eggflation, egg, egg, raids, https",
+        "Y_tweet_count": 19,
+        "Y_username": "Jake®️",
+        "X_length": 238,
+        "Y_length": 260,
+        "Y_length_percent_of_X": 109.24,
+        "X_length_percent_of_Y": 91.54,
+        "dice_coefficient": 93.62
+    },
+    {
+        "X_text": "@crypto_beast7 @base Gmegg $okayeg is the frog of base. Popular twitch emote used by forsen, originated from 4chan like $pepe and $apu. The cult has a mission to spread egg and warn of eggflation. We egg on and egg in our raids https://t.co/dJRaWTWk0v",
+        "X_token": "base, gmegg, okayeg, frog, base, popular, twitch, emote, used, forsen, originated, 4chan, like, pepe, apu, cult, mission, spread, egg, warn, eggflation, egg, egg, raids, https",
+        "X_tweet_count": 5,
+        "X_username": "Jake®️",
+        "Y_text": "@1CrypticPoet @base @krakenfx Gmegg $okayeg is the frog of base. Popular twitch emote used by forsen, originated from 4chan like $pepe and $apu. The cult has a mission to spread egg and warn of eggflation. We egg on and egg in our raids https://t.co/01Fzfn3613",
+        "Y_token": "1crypticpoet, base, krakenfx, gmegg, okayeg, frog, base, popular, twitch, emote, used, forsen, originated, 4chan, like, pepe, apu, cult, mission, spread, egg, warn, eggflation, egg, egg, raids, https",
+        "Y_tweet_count": 19,
+        "Y_username": "Jake®️",
+        "X_length": 251,
+        "Y_length": 260,
+        "Y_length_percent_of_X": 103.59,
+        "X_length_percent_of_Y": 96.54,
+        "dice_coefficient": 95.65
+    },
+    {
+        "X_text": "@pepe @WhiteHouse Shadilay $pepe https://t.co/JpFhSK1XBQ",
+        "X_token": "pepe, whitehouse, shadilay, pepe, https",
+        "X_tweet_count": 16,
+        "X_username": "Jake®️",
+        "Y_text": "@captainpepe0x69 Shadilay $pepe https://t.co/GCzebgwt8Q",
+        "Y_token": "captainpepe0x69, shadilay, pepe, https",
+        "Y_tweet_count": 24,
+        "Y_username": "Jake®️",
+        "X_length": 56,
+        "Y_length": 55,
+        "Y_length_percent_of_X": 98.21,
+        "X_length_percent_of_Y": 101.82,
+        "dice_coefficient": 75.0
+    }
+]

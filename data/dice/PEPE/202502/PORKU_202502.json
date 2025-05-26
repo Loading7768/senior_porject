@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "$PORK IS PINK 🐷 \n\nYES HE IS ZE PINK $PEPE 🐸 https://t.co/24D3CO3lfL",
+        "X_token": "pork, pink, yes, ze, pink, pepe, https",
+        "X_tweet_count": 7,
+        "X_username": "PORKU",
+        "Y_text": "WE LIKE THE PINK $PEPE \n\nWE LIKE THE $PORK https://t.co/8zkS8jLgED",
+        "Y_token": "like, pink, pepe, like, pork, https",
+        "Y_tweet_count": 19,
+        "Y_username": "PORKU",
+        "X_length": 67,
+        "Y_length": 66,
+        "Y_length_percent_of_X": 98.51,
+        "X_length_percent_of_Y": 101.52,
+        "dice_coefficient": 72.73
+    }
+]

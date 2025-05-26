@@ -1,0 +1,55 @@
+﻿X = [@bull_ontherun $pepe road  too .0005+++]
+X_token = [pepe, road]
+	X tweet_count = [1]
+	X username = [flex 🐸 🐻]
+Y = [@rekt_tekashi $pepe 🚀🚀🚀🚀🚀🚀 road too .0005]
+Y_token = [pepe, road]
+	Y tweet_count = [5]
+	Y username = [flex 🐸 🐻]
+Total Length: X = 39, Y = 41 (Y / X = 105.13  X / Y = 95.12)
+Dice Coefficient: 100.00% 
+
+X = [@bull_ontherun $pepe road  too .0005+++]
+X_token = [pepe, road]
+	X tweet_count = [1]
+	X username = [flex 🐸 🐻]
+Y = [@RoccobullboTTom $pepe road too .0005++]
+Y_token = [roccobullbottom, pepe, road]
+	Y tweet_count = [21]
+	Y username = [flex 🐸 🐻]
+Total Length: X = 39, Y = 39 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 80.00% 
+
+X = [@bull_ontherun $pepe road  too .0005+++]
+X_token = [pepe, road]
+	X tweet_count = [1]
+	X username = [flex 🐸 🐻]
+Y = [@ChandlerCharts $pepe road too .0005+]
+Y_token = [chandlercharts, pepe, road]
+	Y tweet_count = [22]
+	Y username = [flex 🐸 🐻]
+Total Length: X = 39, Y = 37 (Y / X = 94.87  X / Y = 105.41)
+Dice Coefficient: 80.00% 
+
+X = [@rekt_tekashi $pepe 🚀🚀🚀🚀🚀🚀 road too .0005]
+X_token = [pepe, road]
+	X tweet_count = [5]
+	X username = [flex 🐸 🐻]
+Y = [@RoccobullboTTom $pepe road too .0005++]
+Y_token = [roccobullbottom, pepe, road]
+	Y tweet_count = [21]
+	Y username = [flex 🐸 🐻]
+Total Length: X = 41, Y = 39 (Y / X = 95.12  X / Y = 105.13)
+Dice Coefficient: 80.00% 
+
+X = [@rekt_tekashi $pepe 🚀🚀🚀🚀🚀🚀 road too .0005]
+X_token = [pepe, road]
+	X tweet_count = [5]
+	X username = [flex 🐸 🐻]
+Y = [@ChandlerCharts $pepe road too .0005+]
+Y_token = [chandlercharts, pepe, road]
+	Y tweet_count = [22]
+	Y username = [flex 🐸 🐻]
+Total Length: X = 41, Y = 37 (Y / X = 90.24  X / Y = 110.81)
+Dice Coefficient: 80.00% 
+

@@ -1,0 +1,11 @@
+﻿X = [@Plazma0x $PEPE is for the people]
+X_token = [plazma0x, pepe, people]
+	X tweet_count = [2]
+	X username = [J]
+Y = [@Plazma0x $pepe is for the people]
+Y_token = [plazma0x, pepe, people]
+	Y tweet_count = [9]
+	Y username = [J]
+Total Length: X = 33, Y = 33 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 100.00% 
+

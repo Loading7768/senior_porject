@@ -1,0 +1,44 @@
+﻿X = [@PepeOnAbs @TomsMetaverse @bearish_af $PEPE is all you need chiefs]
+X_token = [pepeonabs, tomsmetaverse, pepe, need, chiefs]
+	X tweet_count = [2]
+	X username = [TylerIalJ1]
+Y = [@PepeOnAbs @RickyDoggin $PEPE is the all you need chiefs]
+Y_token = [pepeonabs, rickydoggin, pepe, need, chiefs]
+	Y tweet_count = [5]
+	Y username = [TylerIalJ1]
+Total Length: X = 66, Y = 56 (Y / X = 84.85  X / Y = 117.86)
+Dice Coefficient: 80.00% 
+
+X = [@PepeOnAbs @Cointelegraph $PEPE is the ticker]
+X_token = [pepeonabs, cointelegraph, pepe, ticker]
+	X tweet_count = [9]
+	X username = [TylerIalJ1]
+Y = [@PepeOnAbs @Cointelegraph Don’t snooze on $PEPE]
+Y_token = [pepeonabs, cointelegraph, snooze, pepe]
+	Y tweet_count = [11]
+	Y username = [TylerIalJ1]
+Total Length: X = 45, Y = 47 (Y / X = 104.44  X / Y = 95.74)
+Dice Coefficient: 75.00% 
+
+X = [@PepeOnAbs @Cointelegraph $PEPE is the ticker]
+X_token = [pepeonabs, cointelegraph, pepe, ticker]
+	X tweet_count = [9]
+	X username = [TylerIalJ1]
+Y = [@PepeOnAbs @TheMoonCarl $PEPE is the ticker]
+Y_token = [pepeonabs, themooncarl, pepe, ticker]
+	Y tweet_count = [14]
+	Y username = [TylerIalJ1]
+Total Length: X = 45, Y = 43 (Y / X = 95.56  X / Y = 104.65)
+Dice Coefficient: 75.00% 
+
+X = [@PepeOnAbs @Cryptozins @kanyewest To the moon 🌕 $PEPE]
+X_token = [pepeonabs, cryptozins, kanyewest, moon, pepe]
+	X tweet_count = [13]
+	X username = [TylerIalJ1]
+Y = [@PepeOnAbs @Cryptozins @kanyewest $pepe to the moon]
+Y_token = [pepeonabs, cryptozins, kanyewest, pepe, moon]
+	Y tweet_count = [15]
+	Y username = [TylerIalJ1]
+Total Length: X = 53, Y = 51 (Y / X = 96.23  X / Y = 103.92)
+Dice Coefficient: 100.00% 
+

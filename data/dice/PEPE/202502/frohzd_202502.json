@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "Me rn\n\n$PEPE https://t.co/qF3tpF3xz3",
+        "X_token": "rn, pepe, https",
+        "X_tweet_count": 13,
+        "X_username": "frohzd",
+        "Y_text": "CT rn \n\n$PEPE https://t.co/HDiacKg687",
+        "Y_token": "ct, rn, pepe, https",
+        "Y_tweet_count": 19,
+        "Y_username": "frohzd",
+        "X_length": 36,
+        "Y_length": 37,
+        "Y_length_percent_of_X": 102.78,
+        "X_length_percent_of_Y": 97.3,
+        "dice_coefficient": 85.71
+    }
+]

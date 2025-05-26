@@ -1,0 +1,11 @@
+﻿X = [@1995 @Pepe0x69_kc thats right! $ANDY $WOLF $PEPE $MaxETH]
+X_token = [1995, thats, right, andy, wolf, pepe, maxeth]
+	X tweet_count = [7]
+	X username = [Jeff]
+Y = [@1995 the #BoysClub is where it is at $ANDY $WOLF $PePE $Brett $MaxETH]
+Y_token = [1995, boysclub, andy, wolf, pepe, brett, maxeth]
+	Y tweet_count = [12]
+	Y username = [Jeff]
+Total Length: X = 57, Y = 70 (Y / X = 122.81  X / Y = 81.43)
+Dice Coefficient: 71.43% 
+

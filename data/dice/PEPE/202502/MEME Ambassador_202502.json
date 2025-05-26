@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@realannapaulina Buy Pepe coin https://t.co/iIvOp2rVOx",
+        "X_token": "realannapaulina, buy, pepe, coin, https",
+        "X_tweet_count": 5,
+        "X_username": "MEME Ambassador",
+        "Y_text": "@bennyjohnson Buy PEPE coin https://t.co/AXE9ogFeLy",
+        "Y_token": "bennyjohnson, buy, pepe, coin, https",
+        "Y_tweet_count": 14,
+        "Y_username": "MEME Ambassador",
+        "X_length": 54,
+        "Y_length": 51,
+        "Y_length_percent_of_X": 94.44,
+        "X_length_percent_of_Y": 105.88,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "@realannapaulina Buy Pepe coin https://t.co/iIvOp2rVOx",
+        "X_token": "realannapaulina, buy, pepe, coin, https",
+        "X_tweet_count": 5,
+        "X_username": "MEME Ambassador",
+        "Y_text": "@mcrs987 Buy Pepe coin https://t.co/4sUGNkS8TC",
+        "Y_token": "mcrs987, buy, pepe, coin, https",
+        "Y_tweet_count": 16,
+        "Y_username": "MEME Ambassador",
+        "X_length": 54,
+        "Y_length": 46,
+        "Y_length_percent_of_X": 85.19,
+        "X_length_percent_of_Y": 117.39,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "@bennyjohnson Buy PEPE coin https://t.co/AXE9ogFeLy",
+        "X_token": "bennyjohnson, buy, pepe, coin, https",
+        "X_tweet_count": 14,
+        "X_username": "MEME Ambassador",
+        "Y_text": "@mcrs987 Buy Pepe coin https://t.co/4sUGNkS8TC",
+        "Y_token": "mcrs987, buy, pepe, coin, https",
+        "Y_tweet_count": 16,
+        "Y_username": "MEME Ambassador",
+        "X_length": 51,
+        "Y_length": 46,
+        "Y_length_percent_of_X": 90.2,
+        "X_length_percent_of_Y": 110.87,
+        "dice_coefficient": 80.0
+    }
+]

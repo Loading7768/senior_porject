@@ -1,0 +1,33 @@
+﻿X = [I want to be one of #MrRight's heroes. I'm joining the #resistance. #MemeCoins are not #toys.\n@MrRightSolana\n$SOL $BTC $ETH $XRP $DOGE #Solana $PEPE $LTC $Eigen $Shiba $Bome $Neiro $pnut $Goat $ethfi $Trump $vine  #WrestleMania\u202f\u202f\u202f #ajafey #SB19 #Derby #VidaXLingOrm #b0202]
+X_token = [want, one, mrright, heroes, joining, resistance, memecoins, toys, mrrightsolana, sol, btc, eth, xrp, doge, solana, pepe, ltc, eigen, shiba, bome, neiro, pnut, goat, ethfi, trump, vine, wrestlemania, ajafey, sb19, derby, vidaxlingorm, b0202]
+	X tweet_count = [1]
+	X username = [Blue]
+Y = [Resistance #MrRight..\n@MrRightSolana\nhttps://t.co/LGzhizKt9a \n$SOL $BTC $ETH $XRP $DOGE #Solana $PEPE $LTC $Eigen $Shiba $Bome $Neiro $pnut $Goat $ethfi $Trump $vine   #CHUANGAsia #WrestleMania\u202f\u202f\u202f #ajafey #SB19 #Derby #VidaXLingOrm #b0202 #bcstorm #Hearts2Hearts #Makeup]
+Y_token = [resistance, mrright, mrrightsolana, https, sol, btc, eth, xrp, doge, solana, pepe, ltc, eigen, shiba, bome, neiro, pnut, goat, ethfi, trump, vine, chuangasia, wrestlemania, ajafey, sb19, derby, vidaxlingorm, b0202, bcstorm, hearts2hearts, makeup]
+	Y tweet_count = [2]
+	Y username = [Blue]
+Total Length: X = 272, Y = 270 (Y / X = 99.26  X / Y = 100.74)
+Dice Coefficient: 82.54% 
+
+X = [@BaseGirl_25 @rdginvest @base $TITANX #x28 #Base 🔥🔥🔥\n\n$BRETT #MIGGLES $PONCHO $BEPE #DOGINME $BENJI $KEYCAT $BEATS $DOOMER $AERO $DEGEN $VIRTUALS $SKI $TOSHI $PEPE $BMX $WHIRL $MOCHI #B3 $LUM $TYBG $MFERS $AIXBT \nhttps://t.co/z8PHN7h3ta]
+X_token = [rdginvest, base, titanx, x28, base, brett, miggles, poncho, bepe, doginme, benji, keycat, beats, doomer, aero, degen, virtuals, ski, toshi, pepe, bmx, whirl, mochi, b3, lum, tybg, mfers, aixbt, https]
+	X tweet_count = [14]
+	X username = [Blue]
+Y = [@PumpUranus $URANUS\nFAIR LAUNCH memeFI.\n50% Buy and Burn\nMassive reflections\n\n$VIRTUALS $SKI $TOSHI $PEPE $BRETT #MIGGLES $PONCHO $BEPE #DOGINME $BENJI $KEYCAT $TITANX $BEATS $BOOMER $AERO $DEGEN\n$BMX $WHIRL $MOCHI #B3 $LUM $MFER\n$TYBG $AIXBT]
+Y_token = [pumpuranus, uranus, fair, launch, memefi, 50, buy, burn, massive, reflections, virtuals, ski, toshi, pepe, brett, miggles, poncho, bepe, doginme, benji, keycat, titanx, beats, boomer, aero, degen, bmx, whirl, mochi, b3, lum, mfer, tybg, aixbt]
+	Y tweet_count = [20]
+	Y username = [Blue]
+Total Length: X = 236, Y = 242 (Y / X = 102.54  X / Y = 97.52)
+Dice Coefficient: 70.97% 
+
+X = [Return to $pepe https://t.co/Y5MQf39fvA]
+X_token = [return, pepe, https]
+	X tweet_count = [15]
+	X username = [Blue]
+Y = [Return to $pepe https://t.co/ABJ5G26Vx2]
+Y_token = [return, pepe, https]
+	Y tweet_count = [18]
+	Y username = [Blue]
+Total Length: X = 39, Y = 39 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 100.00% 
+

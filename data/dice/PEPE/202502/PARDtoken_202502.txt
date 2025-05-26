@@ -1,0 +1,66 @@
+﻿X = [@ZakaCrypto Time to buy $PEPE and $LEOC]
+X_token = [zakacrypto, time, buy, pepe, leoc]
+	X tweet_count = [3]
+	X username = [PARDtoken]
+Y = [@mrbrown_nft buy $PEPE and $LEOC]
+Y_token = [buy, pepe, leoc]
+	Y tweet_count = [5]
+	Y username = [PARDtoken]
+Total Length: X = 39, Y = 32 (Y / X = 82.05  X / Y = 121.88)
+Dice Coefficient: 75.00% 
+
+X = [@alqsyy $PEPE, $SNAI and invest in $LEOC in future]
+X_token = [alqsyy, pepe, snai, invest, leoc, future]
+	X tweet_count = [19]
+	X username = [PARDtoken]
+Y = [@itsFoxCrypto $SNAI, $PEPE and $LEOC in future]
+Y_token = [itsfoxcrypto, snai, pepe, leoc, future]
+	Y tweet_count = [32]
+	Y username = [PARDtoken]
+Total Length: X = 50, Y = 46 (Y / X = 92.00  X / Y = 108.70)
+Dice Coefficient: 72.73% 
+
+X = [@ApeCryptos $PEPE, $SNAI and $LEOC very soon]
+X_token = [apecryptos, pepe, snai, leoc, soon]
+	X tweet_count = [23]
+	X username = [PARDtoken]
+Y = [@MonstersCoins $PEPE, $SNAI and $LEOC soon]
+Y_token = [monsterscoins, pepe, snai, leoc, soon]
+	Y tweet_count = [28]
+	Y username = [PARDtoken]
+Total Length: X = 44, Y = 42 (Y / X = 95.45  X / Y = 104.76)
+Dice Coefficient: 80.00% 
+
+X = [@ApeCryptos $PEPE, $SNAI and $LEOC very soon]
+X_token = [apecryptos, pepe, snai, leoc, soon]
+	X tweet_count = [23]
+	X username = [PARDtoken]
+Y = [@Madisondegen $PEPE, $SNAI and $LEOC soon]
+Y_token = [madisondegen, pepe, snai, leoc, soon]
+	Y tweet_count = [30]
+	Y username = [PARDtoken]
+Total Length: X = 44, Y = 41 (Y / X = 93.18  X / Y = 107.32)
+Dice Coefficient: 80.00% 
+
+X = [@MonstersCoins $PEPE and $SNAI ( $LEOC also)]
+X_token = [monsterscoins, pepe, snai, leoc, also]
+	X tweet_count = [24]
+	X username = [PARDtoken]
+Y = [@MonstersCoins $PEPE, $SNAI and $LEOC soon]
+Y_token = [monsterscoins, pepe, snai, leoc, soon]
+	Y tweet_count = [28]
+	Y username = [PARDtoken]
+Total Length: X = 44, Y = 42 (Y / X = 95.45  X / Y = 104.76)
+Dice Coefficient: 80.00% 
+
+X = [@MonstersCoins $PEPE, $SNAI and $LEOC soon]
+X_token = [monsterscoins, pepe, snai, leoc, soon]
+	X tweet_count = [28]
+	X username = [PARDtoken]
+Y = [@Madisondegen $PEPE, $SNAI and $LEOC soon]
+Y_token = [madisondegen, pepe, snai, leoc, soon]
+	Y tweet_count = [30]
+	Y username = [PARDtoken]
+Total Length: X = 42, Y = 41 (Y / X = 97.62  X / Y = 102.44)
+Dice Coefficient: 80.00% 
+

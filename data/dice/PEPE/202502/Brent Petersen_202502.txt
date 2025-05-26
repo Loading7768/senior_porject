@@ -1,0 +1,11 @@
+﻿X = [@micahbullis @pepecoineth @fefecoinerc You only need two $FEFE and $PEPE https://t.co/U3X49hihZH]
+X_token = [micahbullis, pepecoineth, fefecoinerc, need, two, fefe, pepe, https]
+	X tweet_count = [5]
+	X username = [Brent Petersen]
+Y = [@micahbullis You only need these two: $PEPE and $FEFE. https://t.co/JwAbiav5pk]
+Y_token = [micahbullis, need, two, pepe, fefe, https]
+	Y tweet_count = [8]
+	Y username = [Brent Petersen]
+Total Length: X = 96, Y = 78 (Y / X = 81.25  X / Y = 123.08)
+Dice Coefficient: 85.71% 
+

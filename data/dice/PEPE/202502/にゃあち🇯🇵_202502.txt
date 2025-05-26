@@ -1,0 +1,1078 @@
+﻿X = [$CAR  ←“From now on, it’s savings time until it reaches $0.05.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [car, savings, time, reaches, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [1]
+	X username = [にゃあち🇯🇵]
+Y = [#hulezhi →$100 target。\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA https://t.co/h7QkPExRWk]
+Y_token = [hulezhi, 100, trump, elonmusk, binance, tst, car, ip, pepe, libra, https]
+	Y tweet_count = [7]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 112 (Y / X = 86.82  X / Y = 115.18)
+Dice Coefficient: 72.73% 
+
+X = [#hulezhi → “You’ll figure out the true identity of Wild Jaggy Man soon.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA https://t.co/geQuVSKsrL]
+X_token = [hulezhi, figure, true, identity, wild, jaggy, man, trump, elonmusk, binance, tst, car, ip, pepe, libra, https]
+	X tweet_count = [4]
+	X username = [にゃあち🇯🇵]
+Y = [#hulezhi →\u3000“I’ve been waiting for you, Edge Man. Now, wait for Wild Jaggy Man.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA https://t.co/wAPT7Tflzx]
+Y_token = [hulezhi, waiting, edge, man, wait, wild, jaggy, trump, elonmusk, binance, tst, car, ip, pepe, libra, https]
+	Y tweet_count = [5]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 162, Y = 169 (Y / X = 104.32  X / Y = 95.86)
+Dice Coefficient: 81.25% 
+
+X = [#hulezhi →\u3000“I’ve been waiting for you, Edge Man. Now, wait for Wild Jaggy Man.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA https://t.co/wAPT7Tflzx]
+X_token = [hulezhi, waiting, edge, man, wait, wild, jaggy, trump, elonmusk, binance, tst, car, ip, pepe, libra, https]
+	X tweet_count = [5]
+	X username = [にゃあち🇯🇵]
+Y = [#hulezhi → “You must not go down in flames with #hulezhi. The Edge Man is coming soon.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA https://t.co/GEfaLXWPEW]
+Y_token = [hulezhi, must, go, flames, hulezhi, edge, man, coming, trump, elonmusk, binance, tst, car, ip, pepe, libra, https]
+	Y tweet_count = [6]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 169, Y = 177 (Y / X = 104.73  X / Y = 95.48)
+Dice Coefficient: 75.00% 
+
+X = [#hulezhi →$100 target。\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA https://t.co/h7QkPExRWk]
+X_token = [hulezhi, 100, trump, elonmusk, binance, tst, car, ip, pepe, libra, https]
+	X tweet_count = [7]
+	X username = [にゃあち🇯🇵]
+Y = [“Surpassing $DOGE… Wait, the world might be different.” #hulezhi\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+Y_token = [surpassing, wait, world, might, hulezhi, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	Y tweet_count = [9]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 112, Y = 130 (Y / X = 116.07  X / Y = 86.15)
+Dice Coefficient: 75.00% 
+
+X = [$PI\n“If it gets listed on two Japanese exchanges, an ATH is guaranteed.”\n\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [pi, gets, listed, two, japanese, exchanges, ath, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [18]
+	X username = [にゃあち🇯🇵]
+Y = [whats $PI !?\n\n“Is it true that it will be listed on a Japanese exchange!?”\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+Y_token = [whats, pi, true, listed, japanese, exchange, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	Y tweet_count = [19]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 144, Y = 145 (Y / X = 100.69  X / Y = 99.31)
+Dice Coefficient: 77.42% 
+
+X = [$PI\n“If it gets listed on two Japanese exchanges, an ATH is guaranteed.”\n\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [pi, gets, listed, two, japanese, exchanges, ath, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [18]
+	X username = [にゃあち🇯🇵]
+Y = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [23]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 144, Y = 126 (Y / X = 87.50  X / Y = 114.29)
+Dice Coefficient: 78.57% 
+
+X = [$PI\n“If it gets listed on two Japanese exchanges, an ATH is guaranteed.”\n\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [pi, gets, listed, two, japanese, exchanges, ath, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [18]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 144, Y = 125 (Y / X = 86.81  X / Y = 115.20)
+Dice Coefficient: 71.43% 
+
+X = [$PI\n“If it gets listed on two Japanese exchanges, an ATH is guaranteed.”\n\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [pi, gets, listed, two, japanese, exchanges, ath, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [18]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 144, Y = 164 (Y / X = 113.89  X / Y = 87.80)
+Dice Coefficient: 70.97% 
+
+X = [whats $PI !?\n\n“Is it true that it will be listed on a Japanese exchange!?”\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [whats, pi, true, listed, japanese, exchange, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [19]
+	X username = [にゃあち🇯🇵]
+Y = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [23]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 145, Y = 126 (Y / X = 86.90  X / Y = 115.08)
+Dice Coefficient: 81.48% 
+
+X = [whats $PI !?\n\n“Is it true that it will be listed on a Japanese exchange!?”\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [whats, pi, true, listed, japanese, exchange, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [19]
+	X username = [にゃあち🇯🇵]
+Y = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [25]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 145, Y = 118 (Y / X = 81.38  X / Y = 122.88)
+Dice Coefficient: 71.43% 
+
+X = [whats $PI !?\n\n“Is it true that it will be listed on a Japanese exchange!?”\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [whats, pi, true, listed, japanese, exchange, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [19]
+	X username = [にゃあち🇯🇵]
+Y = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [26]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 145, Y = 129 (Y / X = 88.97  X / Y = 112.40)
+Dice Coefficient: 71.43% 
+
+X = [whats $PI !?\n\n“Is it true that it will be listed on a Japanese exchange!?”\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [whats, pi, true, listed, japanese, exchange, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [19]
+	X username = [にゃあち🇯🇵]
+Y = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [27]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 145, Y = 129 (Y / X = 88.97  X / Y = 112.40)
+Dice Coefficient: 71.43% 
+
+X = [whats $PI !?\n\n“Is it true that it will be listed on a Japanese exchange!?”\n$BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA]
+X_token = [whats, pi, true, listed, japanese, exchange, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra]
+	X tweet_count = [19]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 145, Y = 125 (Y / X = 86.21  X / Y = 116.00)
+Dice Coefficient: 74.07% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [25]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 118 (Y / X = 93.65  X / Y = 106.78)
+Dice Coefficient: 88.00% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [26]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 129 (Y / X = 102.38  X / Y = 97.67)
+Dice Coefficient: 88.00% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [27]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 129 (Y / X = 102.38  X / Y = 97.67)
+Dice Coefficient: 88.00% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [28]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 151 (Y / X = 119.84  X / Y = 83.44)
+Dice Coefficient: 84.62% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [31]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 146 (Y / X = 115.87  X / Y = 86.30)
+Dice Coefficient: 84.62% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+Y_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [35]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 147 (Y / X = 116.67  X / Y = 85.71)
+Dice Coefficient: 74.07% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 125 (Y / X = 99.21  X / Y = 100.80)
+Dice Coefficient: 83.33% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+Y_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	Y tweet_count = [46]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 152 (Y / X = 120.63  X / Y = 82.89)
+Dice Coefficient: 71.43% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 120 (Y / X = 95.24  X / Y = 105.00)
+Dice Coefficient: 76.92% 
+
+X = [$PAIN will be listed on Binance #Binance\xa0\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, listed, binance, binance, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [23]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 126, Y = 153 (Y / X = 121.43  X / Y = 82.35)
+Dice Coefficient: 76.92% 
+
+X = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [25]
+	X username = [にゃあち🇯🇵]
+Y = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [26]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 118, Y = 129 (Y / X = 109.32  X / Y = 91.47)
+Dice Coefficient: 84.62% 
+
+X = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [25]
+	X username = [にゃあち🇯🇵]
+Y = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [27]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 118, Y = 129 (Y / X = 109.32  X / Y = 91.47)
+Dice Coefficient: 84.62% 
+
+X = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [25]
+	X username = [にゃあち🇯🇵]
+Y = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [31]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 118, Y = 146 (Y / X = 123.73  X / Y = 80.82)
+Dice Coefficient: 81.48% 
+
+X = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [25]
+	X username = [にゃあち🇯🇵]
+Y = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+Y_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [35]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 118, Y = 147 (Y / X = 124.58  X / Y = 80.27)
+Dice Coefficient: 71.43% 
+
+X = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [25]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 118, Y = 125 (Y / X = 105.93  X / Y = 94.40)
+Dice Coefficient: 80.00% 
+
+X = [“$2000 for $PAIN is not far off.”\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [2000, pain, far, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [25]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 118, Y = 120 (Y / X = 101.69  X / Y = 98.33)
+Dice Coefficient: 74.07% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [27]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 129 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 84.62% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [28]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 151 (Y / X = 117.05  X / Y = 85.43)
+Dice Coefficient: 81.48% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [31]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 146 (Y / X = 113.18  X / Y = 88.36)
+Dice Coefficient: 81.48% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+Y_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [35]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 147 (Y / X = 113.95  X / Y = 87.76)
+Dice Coefficient: 71.43% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 125 (Y / X = 96.90  X / Y = 103.20)
+Dice Coefficient: 80.00% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 120 (Y / X = 93.02  X / Y = 107.50)
+Dice Coefficient: 74.07% 
+
+X = [“It will become the $PAIN of cyber hunting.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [become, pain, cyber, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [26]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 153 (Y / X = 118.60  X / Y = 84.31)
+Dice Coefficient: 74.07% 
+
+X = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [27]
+	X username = [にゃあち🇯🇵]
+Y = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [28]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 151 (Y / X = 117.05  X / Y = 85.43)
+Dice Coefficient: 81.48% 
+
+X = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [27]
+	X username = [にゃあち🇯🇵]
+Y = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [31]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 146 (Y / X = 113.18  X / Y = 88.36)
+Dice Coefficient: 81.48% 
+
+X = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [27]
+	X username = [にゃあち🇯🇵]
+Y = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+Y_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [35]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 147 (Y / X = 113.95  X / Y = 87.76)
+Dice Coefficient: 71.43% 
+
+X = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [27]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 125 (Y / X = 96.90  X / Y = 103.20)
+Dice Coefficient: 80.00% 
+
+X = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [27]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 120 (Y / X = 93.02  X / Y = 107.50)
+Dice Coefficient: 74.07% 
+
+X = [“$20 for $PAIN is just a matter of routine.”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [20, pain, matter, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [27]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 129, Y = 153 (Y / X = 118.60  X / Y = 84.31)
+Dice Coefficient: 74.07% 
+
+X = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [28]
+	X username = [にゃあち🇯🇵]
+Y = [“If you choose the wrong stock during this once-a-year super sale, you’ll regret it for a year.”\n@PAIN $PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [choose, wrong, stock, super, sale, regret, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [30]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 151, Y = 187 (Y / X = 123.84  X / Y = 80.75)
+Dice Coefficient: 70.97% 
+
+X = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [28]
+	X username = [にゃあち🇯🇵]
+Y = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [31]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 151, Y = 146 (Y / X = 96.69  X / Y = 103.42)
+Dice Coefficient: 78.57% 
+
+X = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [28]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 151, Y = 125 (Y / X = 82.78  X / Y = 120.80)
+Dice Coefficient: 76.92% 
+
+X = [$PAIN “That’s enough. Accept it and buy.”\n\n“I am talking to you.”\n\n@PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [pain, enough, accept, talking, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [28]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 151, Y = 153 (Y / X = 101.32  X / Y = 98.69)
+Dice Coefficient: 71.43% 
+
+X = [“If you choose the wrong stock during this once-a-year super sale, you’ll regret it for a year.”\n@PAIN $PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [choose, wrong, stock, super, sale, regret, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [30]
+	X username = [にゃあち🇯🇵]
+Y = [“ $PAIN was on a super sale, so my holdings have increased again.”\n\n“You’ve all been pretending not to be interested, waiting for this moment.”\n\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [pain, super, sale, holdings, increased, pretending, interested, waiting, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [32]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 187, Y = 229 (Y / X = 122.46  X / Y = 81.66)
+Dice Coefficient: 74.29% 
+
+X = [“If you choose the wrong stock during this once-a-year super sale, you’ll regret it for a year.”\n@PAIN $PAIN $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [choose, wrong, stock, super, sale, regret, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [30]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 187, Y = 153 (Y / X = 81.82  X / Y = 122.22)
+Dice Coefficient: 70.97% 
+
+X = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [31]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 146, Y = 125 (Y / X = 85.62  X / Y = 116.80)
+Dice Coefficient: 76.92% 
+
+X = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [31]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 146, Y = 120 (Y / X = 82.19  X / Y = 121.67)
+Dice Coefficient: 71.43% 
+
+X = [“I wonder why there is no hesitation when purchasing $PAIN ?”\n@pain $BTC\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [wonder, hesitation, purchasing, pain, pain, btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [31]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 146, Y = 153 (Y / X = 104.79  X / Y = 95.42)
+Dice Coefficient: 71.43% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [36]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 125 (Y / X = 85.03  X / Y = 117.60)
+Dice Coefficient: 88.89% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“ $PI is in beast mode, so I guess we’ll have to wait for that to settle first.”😂\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+Y_token = [pi, beast, mode, guess, wait, settle, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [37]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 174 (Y / X = 118.37  X / Y = 84.48)
+Dice Coefficient: 70.97% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“With $VINE included, the confirmatory signals for trending coins have started.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+Y_token = [vine, included, confirmatory, signals, trending, coins, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [38]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 173 (Y / X = 117.69  X / Y = 84.97)
+Dice Coefficient: 75.00% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+Y_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	Y tweet_count = [42]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 173 (Y / X = 117.69  X / Y = 84.97)
+Dice Coefficient: 70.97% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [44]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 175 (Y / X = 119.05  X / Y = 84.00)
+Dice Coefficient: 72.73% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+Y_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	Y tweet_count = [46]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 152 (Y / X = 103.40  X / Y = 96.71)
+Dice Coefficient: 77.42% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 164 (Y / X = 111.56  X / Y = 89.63)
+Dice Coefficient: 73.33% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 120 (Y / X = 81.63  X / Y = 122.50)
+Dice Coefficient: 75.86% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [50]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 173 (Y / X = 117.69  X / Y = 84.97)
+Dice Coefficient: 70.97% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 153 (Y / X = 104.08  X / Y = 96.08)
+Dice Coefficient: 75.86% 
+
+X = [“Is it about time to move all my assets into $VINE ?”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC\n\n@BSCGemsAlert]
+X_token = [time, move, assets, vine, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [35]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 147, Y = 166 (Y / X = 112.93  X / Y = 88.55)
+Dice Coefficient: 70.97% 
+
+X = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [36]
+	X username = [にゃあち🇯🇵]
+Y = [“I held $VINE from $0.1 to around $0.4. It’s more than 10x away from ATH now.”🤪\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+Y_token = [held, vine, around, 10x, away, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	Y tweet_count = [40]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 125, Y = 153 (Y / X = 122.40  X / Y = 81.70)
+Dice Coefficient: 74.07% 
+
+X = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [36]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+Y_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	Y tweet_count = [46]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 125, Y = 152 (Y / X = 121.60  X / Y = 82.24)
+Dice Coefficient: 85.71% 
+
+X = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [36]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL BUY THE DIP\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, buy, dip, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [49]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 125, Y = 120 (Y / X = 96.00  X / Y = 104.17)
+Dice Coefficient: 84.62% 
+
+X = [“$BTC is about to erupt.”🚀\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [btc, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [36]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 125, Y = 153 (Y / X = 122.40  X / Y = 81.70)
+Dice Coefficient: 84.62% 
+
+X = [“ $PI is in beast mode, so I guess we’ll have to wait for that to settle first.”😂\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [pi, beast, mode, guess, wait, settle, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [37]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 174, Y = 164 (Y / X = 94.25  X / Y = 106.10)
+Dice Coefficient: 70.97% 
+
+X = [“ $PI is in beast mode, so I guess we’ll have to wait for that to settle first.”😂\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [pi, beast, mode, guess, wait, settle, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [37]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 174, Y = 153 (Y / X = 87.93  X / Y = 113.73)
+Dice Coefficient: 73.33% 
+
+X = [“With $VINE included, the confirmatory signals for trending coins have started.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [vine, included, confirmatory, signals, trending, coins, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [38]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+Y_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	Y tweet_count = [46]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 152 (Y / X = 87.86  X / Y = 113.82)
+Dice Coefficient: 72.73% 
+
+X = [“With $VINE included, the confirmatory signals for trending coins have started.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [vine, included, confirmatory, signals, trending, coins, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [38]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 153 (Y / X = 88.44  X / Y = 113.07)
+Dice Coefficient: 70.97% 
+
+X = [“I held $VINE from $0.1 to around $0.4. It’s more than 10x away from ATH now.”🤪\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI]
+X_token = [held, vine, around, 10x, away, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi]
+	X tweet_count = [40]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 153, Y = 164 (Y / X = 107.19  X / Y = 93.29)
+Dice Coefficient: 73.33% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+Y_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	Y tweet_count = [44]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 175 (Y / X = 101.16  X / Y = 98.86)
+Dice Coefficient: 70.59% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+Y_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	Y tweet_count = [46]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 152 (Y / X = 87.86  X / Y = 113.82)
+Dice Coefficient: 75.00% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 164 (Y / X = 94.80  X / Y = 105.49)
+Dice Coefficient: 77.42% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [“I’ve developed the desire to buy $BTC for the first time in my cryptocurrency journey.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE $SHELL]
+Y_token = [developed, desire, buy, btc, first, time, cryptocurrency, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance, shell]
+	Y tweet_count = [48]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 197 (Y / X = 113.87  X / Y = 87.82)
+Dice Coefficient: 70.59% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [50]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 173 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 75.00% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 153 (Y / X = 88.44  X / Y = 113.07)
+Dice Coefficient: 80.00% 
+
+X = [“It is already gaining attention, and there is no doubt that $SHELL is the one.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert]
+X_token = [already, gaining, attention, doubt, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert]
+	X tweet_count = [42]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 166 (Y / X = 95.95  X / Y = 104.22)
+Dice Coefficient: 75.00% 
+
+X = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [44]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+Y_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	Y tweet_count = [46]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 175, Y = 152 (Y / X = 86.86  X / Y = 115.13)
+Dice Coefficient: 76.47% 
+
+X = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [44]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 175, Y = 164 (Y / X = 93.71  X / Y = 106.71)
+Dice Coefficient: 72.73% 
+
+X = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [44]
+	X username = [にゃあち🇯🇵]
+Y = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [50]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 175, Y = 173 (Y / X = 98.86  X / Y = 101.16)
+Dice Coefficient: 70.59% 
+
+X = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [44]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 175, Y = 153 (Y / X = 87.43  X / Y = 114.38)
+Dice Coefficient: 75.00% 
+
+X = [$SHELL\n“A future star overcoming adversity in a lonely market.”\n@myshell_ai \n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC $VINE @BSCGemsAlert]
+X_token = [shell, future, star, overcoming, adversity, lonely, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, vine, bscgemsalert]
+	X tweet_count = [44]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 175, Y = 166 (Y / X = 94.86  X / Y = 105.42)
+Dice Coefficient: 76.47% 
+
+X = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+X_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	X tweet_count = [46]
+	X username = [にゃあち🇯🇵]
+Y = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [47]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 152, Y = 164 (Y / X = 107.89  X / Y = 92.68)
+Dice Coefficient: 77.42% 
+
+X = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+X_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	X tweet_count = [46]
+	X username = [にゃあち🇯🇵]
+Y = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [50]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 152, Y = 173 (Y / X = 113.82  X / Y = 87.86)
+Dice Coefficient: 75.00% 
+
+X = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+X_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	X tweet_count = [46]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 152, Y = 153 (Y / X = 100.66  X / Y = 99.35)
+Dice Coefficient: 86.67% 
+
+X = [“ $SHELL will not stop until it becomes a top stock.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert $VINE]
+X_token = [shell, stop, becomes, top, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, vine]
+	X tweet_count = [46]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 152, Y = 166 (Y / X = 109.21  X / Y = 91.57)
+Dice Coefficient: 75.00% 
+
+X = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [47]
+	X username = [にゃあち🇯🇵]
+Y = [“I’ve developed the desire to buy $BTC for the first time in my cryptocurrency journey.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE $SHELL]
+Y_token = [developed, desire, buy, btc, first, time, cryptocurrency, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance, shell]
+	Y tweet_count = [48]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 164, Y = 197 (Y / X = 120.12  X / Y = 83.25)
+Dice Coefficient: 72.73% 
+
+X = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [47]
+	X username = [にゃあち🇯🇵]
+Y = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [50]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 164, Y = 173 (Y / X = 105.49  X / Y = 94.80)
+Dice Coefficient: 77.42% 
+
+X = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [47]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL   “Challenging the ATH all alone. Once it breaks $0.7, $1 will come at lightning speed.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, challenging, ath, alone, breaks, 1, come, lightning, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [52]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 164, Y = 197 (Y / X = 120.12  X / Y = 83.25)
+Dice Coefficient: 76.47% 
+
+X = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [47]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 164, Y = 153 (Y / X = 93.29  X / Y = 107.19)
+Dice Coefficient: 82.76% 
+
+X = [“ $SHELL will be held until it reaches ATH, so it’s all good.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [shell, held, reaches, ath, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [47]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 164, Y = 166 (Y / X = 101.22  X / Y = 98.80)
+Dice Coefficient: 77.42% 
+
+X = [“I’ve developed the desire to buy $BTC for the first time in my cryptocurrency journey.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE $SHELL]
+X_token = [developed, desire, buy, btc, first, time, cryptocurrency, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance, shell]
+	X tweet_count = [48]
+	X username = [にゃあち🇯🇵]
+Y = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [50]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 197, Y = 173 (Y / X = 87.82  X / Y = 113.87)
+Dice Coefficient: 70.59% 
+
+X = [“I’ve developed the desire to buy $BTC for the first time in my cryptocurrency journey.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE $SHELL]
+X_token = [developed, desire, buy, btc, first, time, cryptocurrency, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance, shell]
+	X tweet_count = [48]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 197, Y = 166 (Y / X = 84.26  X / Y = 118.67)
+Dice Coefficient: 76.47% 
+
+X = [“I’ve developed the desire to buy $BTC for the first time in my cryptocurrency journey.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE $SHELL]
+X_token = [developed, desire, buy, btc, first, time, cryptocurrency, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance, shell]
+	X tweet_count = [48]
+	X username = [にゃあち🇯🇵]
+Y = [“The bell for the start of the altcoin bubble has rung.”\n\n$SHELL\n\n“The answer for which stocks to buy has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert  @BINANCE]
+Y_token = [bell, start, altcoin, bubble, shell, answer, stocks, buy, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [55]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 197, Y = 223 (Y / X = 113.20  X / Y = 88.34)
+Dice Coefficient: 70.27% 
+
+X = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [50]
+	X username = [にゃあち🇯🇵]
+Y = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+Y_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	Y tweet_count = [53]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 153 (Y / X = 88.44  X / Y = 113.07)
+Dice Coefficient: 80.00% 
+
+X = [“The comrades who have completed their duties are coming back.”\n\n$SHELL\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [comrades, completed, duties, coming, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [50]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 173, Y = 166 (Y / X = 95.95  X / Y = 104.22)
+Dice Coefficient: 75.00% 
+
+X = [$SHELL “The top AI-related stock has been decided.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BINANCE @BSCGemsAlert]
+X_token = [shell, top, stock, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, binance, bscgemsalert]
+	X tweet_count = [53]
+	X username = [にゃあち🇯🇵]
+Y = [“A future where exchanges are scrambling to buy $SHELL ’s spot.”\n\n$TRUMP @elonmusk @cz_binance @binance $TST $CAR $IP $PEPE $LIBRA $IP $PI $BTC @BSCGemsAlert @BINANCE]
+Y_token = [future, exchanges, scrambling, buy, shell, trump, elonmusk, binance, tst, car, ip, pepe, libra, ip, pi, btc, bscgemsalert, binance]
+	Y tweet_count = [54]
+	Y username = [にゃあち🇯🇵]
+Total Length: X = 153, Y = 166 (Y / X = 108.50  X / Y = 92.17)
+Dice Coefficient: 80.00% 
+

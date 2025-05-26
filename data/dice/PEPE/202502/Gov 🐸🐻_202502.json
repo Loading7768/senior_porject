@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@pepe Only $PEPE https://t.co/EcE4D4ECNx",
+        "X_token": "pepe, pepe, https",
+        "X_tweet_count": 8,
+        "X_username": "Gov 🐸🐻",
+        "Y_text": "$PEPE it’s coming https://t.co/9WthnSnDuW",
+        "Y_token": "pepe, coming, https",
+        "Y_tweet_count": 12,
+        "Y_username": "Gov 🐸🐻",
+        "X_length": 40,
+        "Y_length": 41,
+        "Y_length_percent_of_X": 102.5,
+        "X_length_percent_of_Y": 97.56,
+        "dice_coefficient": 80.0
+    }
+]

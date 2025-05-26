@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "Zoom out $PEPE 🐸 https://t.co/U0brxHiDK4",
+        "X_token": "zoom, pepe, https",
+        "X_tweet_count": 9,
+        "X_username": "ribbit.pepe",
+        "Y_text": "$PEPE ONLY 🐸 https://t.co/fSqtyxnN5b",
+        "Y_token": "pepe, https",
+        "Y_tweet_count": 28,
+        "Y_username": "ribbit.pepe",
+        "X_length": 40,
+        "Y_length": 36,
+        "Y_length_percent_of_X": 90.0,
+        "X_length_percent_of_Y": 111.11,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "Don’t fade $PEPE 🐸 👑 https://t.co/dm5YXUX1j5",
+        "X_token": "fade, pepe, https",
+        "X_tweet_count": 16,
+        "X_username": "ribbit.pepe",
+        "Y_text": "$PEPE ONLY 🐸 https://t.co/fSqtyxnN5b",
+        "Y_token": "pepe, https",
+        "Y_tweet_count": 28,
+        "Y_username": "ribbit.pepe",
+        "X_length": 44,
+        "Y_length": 36,
+        "Y_length_percent_of_X": 81.82,
+        "X_length_percent_of_Y": 122.22,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "$PEPE is Bitcoin 🐸 https://t.co/PbjUMoPiDn",
+        "X_token": "pepe, bitcoin, https",
+        "X_tweet_count": 22,
+        "X_username": "ribbit.pepe",
+        "Y_text": "$PEPE ONLY 🐸 https://t.co/fSqtyxnN5b",
+        "Y_token": "pepe, https",
+        "Y_tweet_count": 28,
+        "Y_username": "ribbit.pepe",
+        "X_length": 42,
+        "Y_length": 36,
+        "Y_length_percent_of_X": 85.71,
+        "X_length_percent_of_Y": 116.67,
+        "dice_coefficient": 80.0
+    }
+]

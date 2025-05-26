@@ -1,0 +1,11 @@
+﻿X = [@pepe Only $PEPE https://t.co/EcE4D4ECNx]
+X_token = [pepe, pepe, https]
+	X tweet_count = [8]
+	X username = [Gov 🐸🐻]
+Y = [$PEPE it’s coming https://t.co/9WthnSnDuW]
+Y_token = [pepe, coming, https]
+	Y tweet_count = [12]
+	Y username = [Gov 🐸🐻]
+Total Length: X = 40, Y = 41 (Y / X = 102.50  X / Y = 97.56)
+Dice Coefficient: 80.00% 
+

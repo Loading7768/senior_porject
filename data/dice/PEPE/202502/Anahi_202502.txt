@@ -1,0 +1,22 @@
+﻿X = [$b3 is going to $.10 \n\n$sol $sui $xrp $doge $ltc $ada $pepe]
+X_token = [b3, going, sol, sui, xrp, doge, ltc, ada, pepe]
+	X tweet_count = [6]
+	X username = [Anahi]
+Y = [Broccoli is going back to $0.28\n\n#BROCCOLI $sol $xrp $doge $pepe $sui]
+Y_token = [broccoli, going, back, broccoli, sol, xrp, doge, pepe, sui]
+	Y tweet_count = [7]
+	Y username = [Anahi]
+Total Length: X = 59, Y = 69 (Y / X = 116.95  X / Y = 85.51)
+Dice Coefficient: 70.59% 
+
+X = [Broccoli is going back to $0.28\n\n#BROCCOLI $sol $xrp $doge $pepe $sui]
+X_token = [broccoli, going, back, broccoli, sol, xrp, doge, pepe, sui]
+	X tweet_count = [7]
+	X username = [Anahi]
+Y = [Today $Broccoli is going to $.40 M\n\n$xrp $sol $doge $sui $pepe $shib]
+Y_token = [today, broccoli, going, xrp, sol, doge, sui, pepe, shib]
+	Y tweet_count = [8]
+	Y username = [Anahi]
+Total Length: X = 69, Y = 68 (Y / X = 98.55  X / Y = 101.47)
+Dice Coefficient: 82.35% 
+

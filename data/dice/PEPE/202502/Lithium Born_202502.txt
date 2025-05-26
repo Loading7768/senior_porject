@@ -1,0 +1,11 @@
+﻿X = [🔥 The @AstraLabs_Inc 2025 roadmap is next level – $250K quarterly buybacks &amp; massive collabs!\nWe caught $ASTRA under $10M… next stop: $50M ATH → $100M+ 🚀\nStacking: $ASTRA, $PEPE, $INJ, $SHIBA, $TON, $MATIC, $XRP, $BTC, $DOGE, $QNT, $RAY, $FIDA, $AKT, $HEX, $TRUMP, $JWBTC.]
+X_token = [2025, roadmap, next, level, 250k, quarterly, buybacks, amp, massive, collabs, caught, astra, next, stop, 50m, ath, stacking, astra, pepe, inj, shiba, ton, matic, xrp, btc, doge, qnt, ray, fida, akt, hex, trump, jwbtc]
+	X tweet_count = [1]
+	X username = [Lithium Born]
+Y = [🔥 Astra’s 2025 roadmap is NEXT LEVEL – $250K quarterly buybacks + massive partnerships incoming!\nWe caught $ASTRA under $10M, next stop → $50M ATH → $100M market cap! 🚀\nLoading up: $ASTRA, $PEPE, $INJ, $MATIC, $RAY, $FIDA, $BTC, $DOGE, $TON, $SHIBA, $BNB, $QNT, $TRUMP.]
+Y_token = [astra, 2025, roadmap, next, level, 250k, quarterly, buybacks, massive, partnerships, incoming, caught, astra, 10m, next, stop, 50m, ath, 100m, market, cap, loading, astra, pepe, inj, matic, ray, fida, btc, doge, ton, shiba, bnb, qnt, trump]
+	Y tweet_count = [4]
+	Y username = [Lithium Born]
+Total Length: X = 276, Y = 269 (Y / X = 97.46  X / Y = 102.60)
+Dice Coefficient: 76.19% 
+

@@ -1,0 +1,62 @@
+[
+    {
+        "X_text": "@MerlijnTrader $PEPE ABOUT TO BLOW UP!!! https://t.co/eCDxD0f5ye",
+        "X_token": "merlijntrader, pepe, blow, https",
+        "X_tweet_count": 9,
+        "X_username": "Forge",
+        "Y_text": "@ElonMuskDEO $PEPE IS ABOUT TO BLOW!!! https://t.co/qOkpX0p6F6",
+        "Y_token": "elonmuskdeo, pepe, blow, https",
+        "Y_tweet_count": 11,
+        "Y_username": "Forge",
+        "X_length": 64,
+        "Y_length": 62,
+        "Y_length_percent_of_X": 96.88,
+        "X_length_percent_of_Y": 103.23,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@lostlenor $PEPE IS KING!!! https://t.co/Dz6mgroYC6",
+        "X_token": "lostlenor, pepe, king, https",
+        "X_tweet_count": 12,
+        "X_username": "Forge",
+        "Y_text": "@Barbara_KVH $PEPE IS KING!!!! https://t.co/9M4H54BvRl",
+        "Y_token": "pepe, king, https",
+        "Y_tweet_count": 17,
+        "Y_username": "Forge",
+        "X_length": 51,
+        "Y_length": 54,
+        "Y_length_percent_of_X": 105.88,
+        "X_length_percent_of_Y": 94.44,
+        "dice_coefficient": 85.71
+    },
+    {
+        "X_text": "@lostlenor $PEPE IS KING!!! https://t.co/Dz6mgroYC6",
+        "X_token": "lostlenor, pepe, king, https",
+        "X_tweet_count": 12,
+        "X_username": "Forge",
+        "Y_text": "@elonmuskdoge69 $PEPE IS KING!!! https://t.co/A6crwwoYeh",
+        "Y_token": "elonmuskdoge69, pepe, king, https",
+        "Y_tweet_count": 22,
+        "Y_username": "Forge",
+        "X_length": 51,
+        "Y_length": 56,
+        "Y_length_percent_of_X": 109.8,
+        "X_length_percent_of_Y": 91.07,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@Barbara_KVH $PEPE IS KING!!!! https://t.co/9M4H54BvRl",
+        "X_token": "pepe, king, https",
+        "X_tweet_count": 17,
+        "X_username": "Forge",
+        "Y_text": "@elonmuskdoge69 $PEPE IS KING!!! https://t.co/A6crwwoYeh",
+        "Y_token": "elonmuskdoge69, pepe, king, https",
+        "Y_tweet_count": 22,
+        "Y_username": "Forge",
+        "X_length": 54,
+        "Y_length": 56,
+        "Y_length_percent_of_X": 103.7,
+        "X_length_percent_of_Y": 96.43,
+        "dice_coefficient": 85.71
+    }
+]

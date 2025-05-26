@@ -1,0 +1,44 @@
+﻿X = [@MerlijnTrader $PEPE ABOUT TO BLOW UP!!! https://t.co/eCDxD0f5ye]
+X_token = [merlijntrader, pepe, blow, https]
+	X tweet_count = [9]
+	X username = [Forge]
+Y = [@ElonMuskDEO $PEPE IS ABOUT TO BLOW!!! https://t.co/qOkpX0p6F6]
+Y_token = [elonmuskdeo, pepe, blow, https]
+	Y tweet_count = [11]
+	Y username = [Forge]
+Total Length: X = 64, Y = 62 (Y / X = 96.88  X / Y = 103.23)
+Dice Coefficient: 75.00% 
+
+X = [@lostlenor $PEPE IS KING!!! https://t.co/Dz6mgroYC6]
+X_token = [lostlenor, pepe, king, https]
+	X tweet_count = [12]
+	X username = [Forge]
+Y = [@Barbara_KVH $PEPE IS KING!!!! https://t.co/9M4H54BvRl]
+Y_token = [pepe, king, https]
+	Y tweet_count = [17]
+	Y username = [Forge]
+Total Length: X = 51, Y = 54 (Y / X = 105.88  X / Y = 94.44)
+Dice Coefficient: 85.71% 
+
+X = [@lostlenor $PEPE IS KING!!! https://t.co/Dz6mgroYC6]
+X_token = [lostlenor, pepe, king, https]
+	X tweet_count = [12]
+	X username = [Forge]
+Y = [@elonmuskdoge69 $PEPE IS KING!!! https://t.co/A6crwwoYeh]
+Y_token = [elonmuskdoge69, pepe, king, https]
+	Y tweet_count = [22]
+	Y username = [Forge]
+Total Length: X = 51, Y = 56 (Y / X = 109.80  X / Y = 91.07)
+Dice Coefficient: 75.00% 
+
+X = [@Barbara_KVH $PEPE IS KING!!!! https://t.co/9M4H54BvRl]
+X_token = [pepe, king, https]
+	X tweet_count = [17]
+	X username = [Forge]
+Y = [@elonmuskdoge69 $PEPE IS KING!!! https://t.co/A6crwwoYeh]
+Y_token = [elonmuskdoge69, pepe, king, https]
+	Y tweet_count = [22]
+	Y username = [Forge]
+Total Length: X = 54, Y = 56 (Y / X = 103.70  X / Y = 96.43)
+Dice Coefficient: 85.71% 
+

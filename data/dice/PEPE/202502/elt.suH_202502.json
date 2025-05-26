@@ -1,0 +1,62 @@
+[
+    {
+        "X_text": "Milking at its finest is not done. \n\n$Btc $S $PEPE $WIF $Ar $sol $sui $dot $myro $near https://t.co/vSqCfVyjyD",
+        "X_token": "milking, finest, done, btc, pepe, wif, ar, sol, sui, dot, myro, near, https",
+        "X_tweet_count": 4,
+        "X_username": "elt.suH",
+        "Y_text": "Imagine if this shit just played out. \nI'm in a denial!\n\n$btc $S $pepe $wif $Ar $sui $sol $dot $myro $near https://t.co/tFy7bzsJ3Y",
+        "Y_token": "imagine, shit, played, denial, btc, pepe, wif, ar, sui, sol, dot, myro, near, https",
+        "Y_tweet_count": 8,
+        "Y_username": "elt.suH",
+        "X_length": 110,
+        "Y_length": 130,
+        "Y_length_percent_of_X": 118.18,
+        "X_length_percent_of_Y": 84.62,
+        "dice_coefficient": 74.07
+    },
+    {
+        "X_text": "Milking at its finest is not done. \n\n$Btc $S $PEPE $WIF $Ar $sol $sui $dot $myro $near https://t.co/vSqCfVyjyD",
+        "X_token": "milking, finest, done, btc, pepe, wif, ar, sol, sui, dot, myro, near, https",
+        "X_tweet_count": 4,
+        "X_username": "elt.suH",
+        "Y_text": "New targets 88-92k\nBrace yourself.\n\n$btc $S $Pepe $wif $Ar $sol $eth $sui $near $dot $myro https://t.co/WO6saq67Eu",
+        "Y_token": "new, targets, brace, btc, pepe, wif, ar, sol, eth, sui, near, dot, myro, https",
+        "Y_tweet_count": 14,
+        "Y_username": "elt.suH",
+        "X_length": 110,
+        "Y_length": 114,
+        "Y_length_percent_of_X": 103.64,
+        "X_length_percent_of_Y": 96.49,
+        "dice_coefficient": 74.07
+    },
+    {
+        "X_text": "Imagine if this shit just played out. \nI'm in a denial!\n\n$btc $S $pepe $wif $Ar $sui $sol $dot $myro $near https://t.co/tFy7bzsJ3Y",
+        "X_token": "imagine, shit, played, denial, btc, pepe, wif, ar, sui, sol, dot, myro, near, https",
+        "X_tweet_count": 8,
+        "X_username": "elt.suH",
+        "Y_text": "New targets 88-92k\nBrace yourself.\n\n$btc $S $Pepe $wif $Ar $sol $eth $sui $near $dot $myro https://t.co/WO6saq67Eu",
+        "Y_token": "new, targets, brace, btc, pepe, wif, ar, sol, eth, sui, near, dot, myro, https",
+        "Y_tweet_count": 14,
+        "Y_username": "elt.suH",
+        "X_length": 130,
+        "Y_length": 114,
+        "Y_length_percent_of_X": 87.69,
+        "X_length_percent_of_Y": 114.04,
+        "dice_coefficient": 71.43
+    },
+    {
+        "X_text": "This thing fucking us over again?!\n\n$Btc $S $Pepe $wif $Ar $eth $sol $myro $near https://t.co/5ak4xROyvi",
+        "X_token": "thing, fucking, us, btc, pepe, wif, ar, eth, sol, myro, near, https",
+        "X_tweet_count": 21,
+        "X_username": "elt.suH",
+        "Y_text": "This thing aged well. \n$S @SonicLabs \n\n$btc $Ar $Pepe $Wif $Myro $eth $dot $near https://t.co/UVXzAyfJdH",
+        "Y_token": "thing, aged, well, soniclabs, btc, ar, pepe, wif, myro, eth, dot, near, https",
+        "Y_tweet_count": 26,
+        "Y_username": "elt.suH",
+        "X_length": 104,
+        "Y_length": 104,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 72.0
+    }
+]

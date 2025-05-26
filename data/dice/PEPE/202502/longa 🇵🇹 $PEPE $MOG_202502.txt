@@ -1,0 +1,55 @@
+﻿X = [@kmoney_69 Just $pepe and $mog https://t.co/hgbZlBMyYM]
+X_token = [pepe, mog, https]
+	X tweet_count = [3]
+	X username = [longa 🇵🇹 $PEPE $MOG]
+Y = [@elonmusk $pepe and $mog coded https://t.co/W42C3YpJr7]
+Y_token = [elonmusk, pepe, mog, coded, https]
+	Y tweet_count = [5]
+	Y username = [longa 🇵🇹 $PEPE $MOG]
+Total Length: X = 54, Y = 54 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 75.00% 
+
+X = [Normies still think blue chips matter? Wake up. $PEPE isn't just a meme, it's a prophecy.]
+X_token = [normies, still, think, blue, chips, matter, wake, pepe, meme, prophecy]
+	X tweet_count = [7]
+	X username = [longa 🇵🇹 $PEPE $MOG]
+Y = [Normies still think blue chips matter? Wake up. $PEPE isn't just a token, it's a revolution.]
+Y_token = [normies, still, think, blue, chips, matter, wake, pepe, token, revolution]
+	Y tweet_count = [45]
+	Y username = [longa 🇵🇹 $PEPE $MOG]
+Total Length: X = 89, Y = 92 (Y / X = 103.37  X / Y = 96.74)
+Dice Coefficient: 80.00% 
+
+X = [Normies still think BTC is king? 🤡 $PEPE IS THE ONLY CURRENCY THAT MATTERS. While you're HODLing grandpa coins, real chads are riding the green frog to financial enlightenment.]
+X_token = [normies, still, think, btc, king, pepe, currency, matters, hodling, grandpa, coins, real, chads, riding, green, frog, financial, enlightenment]
+	X tweet_count = [10]
+	X username = [longa 🇵🇹 $PEPE $MOG]
+Y = [Normies still think BTC is king? 🤡 $PEPE is the only currency that matters. While you're hodling boomer coins, real chads are riding the green frog to financial enlightenment.]
+Y_token = [normies, still, think, btc, king, pepe, currency, matters, hodling, boomer, coins, real, chads, riding, green, frog, financial, enlightenment]
+	Y tweet_count = [72]
+	Y username = [longa 🇵🇹 $PEPE $MOG]
+Total Length: X = 176, Y = 175 (Y / X = 99.43  X / Y = 100.57)
+Dice Coefficient: 94.44% 
+
+X = [Normies still sleeping on $PEPE while real chads print generational wealth. Your loss is my gain. When this rocket launches, I'll be sipping champagne and you'll be crying into your spreadsheets.]
+X_token = [normies, still, sleeping, pepe, real, chads, print, generational, wealth, loss, gain, rocket, launches, sipping, champagne, crying, spreadsheets]
+	X tweet_count = [26]
+	X username = [longa 🇵🇹 $PEPE $MOG]
+Y = [Normies still sleeping on $PEPE while real chads are building generational wealth. Your loss is my gain. When this rocket launches, I'll be sipping champagne and you'll be crying into your ramen.]
+Y_token = [normies, still, sleeping, pepe, real, chads, building, generational, wealth, loss, gain, rocket, launches, sipping, champagne, crying, ramen]
+	Y tweet_count = [71]
+	Y username = [longa 🇵🇹 $PEPE $MOG]
+Total Length: X = 195, Y = 195 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 88.24% 
+
+X = [Market's bleeding red, but $PEPE stands green. While normies cry about their -7% bags, true chads know the frog never dies. Your loss is my gain.]
+X_token = [market, bleeding, red, pepe, stands, green, normies, cry, bags, true, chads, know, frog, never, dies, loss, gain]
+	X tweet_count = [37]
+	X username = [longa 🇵🇹 $PEPE $MOG]
+Y = [Market's bleeding red, but $PEPE stands green. While normies cry about their -4% bags, real chads know the frog doesn't bow to market tantrums. Your loss is my gain.]
+Y_token = [market, bleeding, red, pepe, stands, green, normies, cry, bags, real, chads, know, frog, bow, market, tantrums, loss, gain]
+	Y tweet_count = [56]
+	Y username = [longa 🇵🇹 $PEPE $MOG]
+Total Length: X = 145, Y = 165 (Y / X = 113.79  X / Y = 87.88)
+Dice Coefficient: 82.35% 
+

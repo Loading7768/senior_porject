@@ -1,0 +1,44 @@
+﻿X = [Milking at its finest is not done. \n\n$Btc $S $PEPE $WIF $Ar $sol $sui $dot $myro $near https://t.co/vSqCfVyjyD]
+X_token = [milking, finest, done, btc, pepe, wif, ar, sol, sui, dot, myro, near, https]
+	X tweet_count = [4]
+	X username = [elt.suH]
+Y = [Imagine if this shit just played out. \nI'm in a denial!\n\n$btc $S $pepe $wif $Ar $sui $sol $dot $myro $near https://t.co/tFy7bzsJ3Y]
+Y_token = [imagine, shit, played, denial, btc, pepe, wif, ar, sui, sol, dot, myro, near, https]
+	Y tweet_count = [8]
+	Y username = [elt.suH]
+Total Length: X = 110, Y = 130 (Y / X = 118.18  X / Y = 84.62)
+Dice Coefficient: 74.07% 
+
+X = [Milking at its finest is not done. \n\n$Btc $S $PEPE $WIF $Ar $sol $sui $dot $myro $near https://t.co/vSqCfVyjyD]
+X_token = [milking, finest, done, btc, pepe, wif, ar, sol, sui, dot, myro, near, https]
+	X tweet_count = [4]
+	X username = [elt.suH]
+Y = [New targets 88-92k\nBrace yourself.\n\n$btc $S $Pepe $wif $Ar $sol $eth $sui $near $dot $myro https://t.co/WO6saq67Eu]
+Y_token = [new, targets, brace, btc, pepe, wif, ar, sol, eth, sui, near, dot, myro, https]
+	Y tweet_count = [14]
+	Y username = [elt.suH]
+Total Length: X = 110, Y = 114 (Y / X = 103.64  X / Y = 96.49)
+Dice Coefficient: 74.07% 
+
+X = [Imagine if this shit just played out. \nI'm in a denial!\n\n$btc $S $pepe $wif $Ar $sui $sol $dot $myro $near https://t.co/tFy7bzsJ3Y]
+X_token = [imagine, shit, played, denial, btc, pepe, wif, ar, sui, sol, dot, myro, near, https]
+	X tweet_count = [8]
+	X username = [elt.suH]
+Y = [New targets 88-92k\nBrace yourself.\n\n$btc $S $Pepe $wif $Ar $sol $eth $sui $near $dot $myro https://t.co/WO6saq67Eu]
+Y_token = [new, targets, brace, btc, pepe, wif, ar, sol, eth, sui, near, dot, myro, https]
+	Y tweet_count = [14]
+	Y username = [elt.suH]
+Total Length: X = 130, Y = 114 (Y / X = 87.69  X / Y = 114.04)
+Dice Coefficient: 71.43% 
+
+X = [This thing fucking us over again?!\n\n$Btc $S $Pepe $wif $Ar $eth $sol $myro $near https://t.co/5ak4xROyvi]
+X_token = [thing, fucking, us, btc, pepe, wif, ar, eth, sol, myro, near, https]
+	X tweet_count = [21]
+	X username = [elt.suH]
+Y = [This thing aged well. \n$S @SonicLabs \n\n$btc $Ar $Pepe $Wif $Myro $eth $dot $near https://t.co/UVXzAyfJdH]
+Y_token = [thing, aged, well, soniclabs, btc, ar, pepe, wif, myro, eth, dot, near, https]
+	Y tweet_count = [26]
+	Y username = [elt.suH]
+Total Length: X = 104, Y = 104 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 72.00% 
+

@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "Ready $PEPE frens? https://t.co/EIkVNmg2xz",
+        "X_token": "ready, pepe, frens, https",
+        "X_tweet_count": 16,
+        "X_username": "Moon",
+        "Y_text": "Turn up $PEPE frens! 🐸 https://t.co/Vx9xlKJHTu",
+        "Y_token": "turn, pepe, frens, https",
+        "Y_tweet_count": 45,
+        "Y_username": "Moon",
+        "X_length": 42,
+        "Y_length": 46,
+        "Y_length_percent_of_X": 109.52,
+        "X_length_percent_of_Y": 91.3,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "It’s $PEPE Friday! 🐸 https://t.co/uZm2VWMZQX",
+        "X_token": "pepe, friday, https",
+        "X_tweet_count": 32,
+        "X_username": "Moon",
+        "Y_text": "It’s $PEPE Friday! https://t.co/74Bjegmeqx",
+        "Y_token": "pepe, friday, https",
+        "Y_tweet_count": 69,
+        "Y_username": "Moon",
+        "X_length": 44,
+        "Y_length": 42,
+        "Y_length_percent_of_X": 95.45,
+        "X_length_percent_of_Y": 104.76,
+        "dice_coefficient": 100.0
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "Always $Pepe",
+        "X_token": "always, pepe",
+        "X_tweet_count": 17,
+        "X_username": "Universal Mind",
+        "Y_text": "Always $Pepe",
+        "Y_token": "always, pepe",
+        "Y_tweet_count": 26,
+        "Y_username": "Universal Mind",
+        "X_length": 12,
+        "Y_length": 12,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 100.0
+    }
+]

@@ -1,0 +1,11 @@
+﻿X = [@coinbase Buy $PEPE UK people]
+X_token = [coinbase, buy, pepe, uk, people]
+	X tweet_count = [5]
+	X username = [Dipperdip]
+Y = [@coinbase UK people buy $PEPE now!]
+Y_token = [coinbase, uk, people, buy, pepe]
+	Y tweet_count = [6]
+	Y username = [Dipperdip]
+Total Length: X = 29, Y = 34 (Y / X = 117.24  X / Y = 85.29)
+Dice Coefficient: 100.00% 
+

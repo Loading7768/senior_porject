@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@Plazma0x $Pepe to a dollar https://t.co/7jGyMeGMFW",
+        "X_token": "plazma0x, pepe, dollar, https",
+        "X_tweet_count": 39,
+        "X_username": "Pepe Onlyfrens",
+        "Y_text": "@WatcherGuru $PEPE to a dollar https://t.co/RdEDKpFv4T",
+        "Y_token": "watcherguru, pepe, dollar, https",
+        "Y_tweet_count": 40,
+        "Y_username": "Pepe Onlyfrens",
+        "X_length": 51,
+        "Y_length": 54,
+        "Y_length_percent_of_X": 105.88,
+        "X_length_percent_of_Y": 94.44,
+        "dice_coefficient": 75.0
+    }
+]

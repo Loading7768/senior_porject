@@ -1,0 +1,33 @@
+﻿X = [+464 new $PEPE holders today.\n\nThe final bear trap.\n\n💚🐸 https://t.co/v5YKUSlcLw]
+X_token = [new, pepe, holders, today, final, bear, trap, https]
+	X tweet_count = [4]
+	X username = [Plazma]
+Y = [-66 $PEPE holders today.\n\nThe final capitulation.\n\n💚🐸 https://t.co/xG9II6bFiU]
+Y_token = [pepe, holders, today, final, capitulation, https]
+	Y tweet_count = [55]
+	Y username = [Plazma]
+Total Length: X = 79, Y = 77 (Y / X = 97.47  X / Y = 102.60)
+Dice Coefficient: 71.43% 
+
+X = [In my opinion, its a great time to add $PEPE. You can thank me later.]
+X_token = [opinion, great, time, add, pepe, thank, later]
+	X tweet_count = [5]
+	X username = [Plazma]
+Y = [@EricTrump In my opinion, its a great time to add $PEPE. You can thank me later.]
+Y_token = [erictrump, opinion, great, time, add, pepe, thank, later]
+	Y tweet_count = [6]
+	Y username = [Plazma]
+Total Length: X = 69, Y = 80 (Y / X = 115.94  X / Y = 86.25)
+Dice Coefficient: 93.33% 
+
+X = [+504 new $PEPE holders today.\n\nNothing but greatness ahead for $PEPE.\n\n💚🐸 https://t.co/wN2bjx2jB7]
+X_token = [new, pepe, holders, today, nothing, greatness, ahead, pepe, https]
+	X tweet_count = [20]
+	X username = [Plazma]
+Y = [+542 new $PEPE holders today.\n\nAs usual nothing is happening on Sunday.\n\n💚🐸 https://t.co/mej8MTPKJl]
+Y_token = [new, pepe, holders, today, usual, nothing, happening, sunday, https]
+	Y tweet_count = [54]
+	Y username = [Plazma]
+Total Length: X = 97, Y = 99 (Y / X = 102.06  X / Y = 97.98)
+Dice Coefficient: 70.59% 
+

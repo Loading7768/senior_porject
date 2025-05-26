@@ -1,0 +1,11 @@
+﻿X = [$PEPE is the next Bitcoin. https://t.co/To7xXhWoKj]
+X_token = [pepe, next, bitcoin, https]
+	X tweet_count = [10]
+	X username = [zj 🐸]
+Y = [The next 100x is $PEPE https://t.co/MRwA9YVkoT]
+Y_token = [next, 100x, pepe, https]
+	Y tweet_count = [14]
+	Y username = [zj 🐸]
+Total Length: X = 50, Y = 46 (Y / X = 92.00  X / Y = 108.70)
+Dice Coefficient: 75.00% 
+

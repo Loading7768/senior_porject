@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "@CryptoKaleo Time to be more bullish on \n\n$PEPE $HOPPY and $BOPPY",
+        "X_token": "cryptokaleo, time, bullish, pepe, hoppy, boppy",
+        "X_tweet_count": 1,
+        "X_username": "BOPPY ARMY 🟨🦇",
+        "Y_text": "@nordin_eth $PEPE $HOPPY and $BOPPY looking so bullish",
+        "Y_token": "pepe, hoppy, boppy, looking, bullish",
+        "Y_tweet_count": 15,
+        "Y_username": "BOPPY ARMY 🟨🦇",
+        "X_length": 65,
+        "Y_length": 54,
+        "Y_length_percent_of_X": 83.08,
+        "X_length_percent_of_Y": 120.37,
+        "dice_coefficient": 72.73
+    },
+    {
+        "X_text": "@nordin_eth $PEPE $HOPPY and $BOPPY looking so bullish",
+        "X_token": "pepe, hoppy, boppy, looking, bullish",
+        "X_tweet_count": 15,
+        "X_username": "BOPPY ARMY 🟨🦇",
+        "Y_text": "@JakeGagain $PEPE $HOPPY and $BOPPY are looking very strong",
+        "Y_token": "jakegagain, pepe, hoppy, boppy, looking, strong",
+        "Y_tweet_count": 17,
+        "Y_username": "BOPPY ARMY 🟨🦇",
+        "X_length": 54,
+        "Y_length": 59,
+        "Y_length_percent_of_X": 109.26,
+        "X_length_percent_of_Y": 91.53,
+        "dice_coefficient": 72.73
+    }
+]

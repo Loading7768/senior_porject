@@ -1,0 +1,22 @@
+﻿X = [@pepe @elonmusk Only mog coin and Pepe I don’t lost today]
+X_token = [pepe, elonmusk, mog, coin, pepe, lost, today]
+	X tweet_count = [2]
+	X username = [Wellnesskoenig 💛 ETH ORDi Binance 💛Mog only 🫵😹]
+Y = [@elonmusk Only mog coin I don’t lost today and Pepe]
+Y_token = [elonmusk, mog, coin, lost, today, pepe]
+	Y tweet_count = [3]
+	Y username = [Wellnesskoenig 💛 ETH ORDi Binance 💛Mog only 🫵😹]
+Total Length: X = 57, Y = 51 (Y / X = 89.47  X / Y = 111.76)
+Dice Coefficient: 100.00% 
+
+X = [@MonstersCoins $pepe\n$mog\n$melania\n$chillguy\n$coke\n$milkbag\n$kacy\n$jailstool\n$hammy \n$larry\n$allstar\n$mandy\n$happydad\n$lfgo\n$crumbs\n$medusa\n$gta6\n$outie\n$opk\n$peaches\n$popgoat\n$deepai\n$legacy]
+X_token = [monsterscoins, pepe, mog, melania, chillguy, coke, milkbag, kacy, jailstool, hammy, larry, allstar, mandy, happydad, lfgo, crumbs, medusa, gta6, outie, opk, peaches, popgoat, deepai, legacy]
+	X tweet_count = [4]
+	X username = [Wellnesskoenig 💛 ETH ORDi Binance 💛Mog only 🫵😹]
+Y = [@1000xgirl $pepe\n$mog\n$melania\n$chillguy\n$coke\n$milkbag\n$kacy\n$jailstool\n$hammy \n$larry\n$allstar\n$mandy\n$happydad\n$lfgo\n$crumbs\n$medusa\n$gta6\n$outie\n$opk\n$peaches\n$popgoat\n$deepai\n$legacy]
+Y_token = [1000xgirl, pepe, mog, melania, chillguy, coke, milkbag, kacy, jailstool, hammy, larry, allstar, mandy, happydad, lfgo, crumbs, medusa, gta6, outie, opk, peaches, popgoat, deepai, legacy]
+	Y tweet_count = [5]
+	Y username = [Wellnesskoenig 💛 ETH ORDi Binance 💛Mog only 🫵😹]
+Total Length: X = 191, Y = 187 (Y / X = 97.91  X / Y = 102.14)
+Dice Coefficient: 95.83% 
+

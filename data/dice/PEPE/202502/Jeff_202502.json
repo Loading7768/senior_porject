@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@1995 @Pepe0x69_kc thats right! $ANDY $WOLF $PEPE $MaxETH",
+        "X_token": "1995, thats, right, andy, wolf, pepe, maxeth",
+        "X_tweet_count": 7,
+        "X_username": "Jeff",
+        "Y_text": "@1995 the #BoysClub is where it is at $ANDY $WOLF $PePE $Brett $MaxETH",
+        "Y_token": "1995, boysclub, andy, wolf, pepe, brett, maxeth",
+        "Y_tweet_count": 12,
+        "Y_username": "Jeff",
+        "X_length": 57,
+        "Y_length": 70,
+        "Y_length_percent_of_X": 122.81,
+        "X_length_percent_of_Y": 81.43,
+        "dice_coefficient": 71.43
+    }
+]

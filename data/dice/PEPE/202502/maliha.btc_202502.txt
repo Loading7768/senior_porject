@@ -1,0 +1,11 @@
+﻿X = [💡 AI is the future, and $ASTRA is leading the charge! Vision + execution = massive potential! 🚀💎\n@AstraLabs_Inc\n\n$BTC $ETH $XRP $BNB $SOL $DOGE $USDT $ADA $TRX $AVAX $LINK $SHIB $DOT $XLM $HBAR $QNT $VET $NEAR $FIL $APT $PEPE $UNI $LTC $TON $SUI $BCH $HYPE]
+X_token = [ai, future, astra, leading, charge, vision, execution, massive, potential, btc, eth, xrp, bnb, sol, doge, usdt, ada, trx, avax, link, shib, dot, xlm, hbar, qnt, vet, near, fil, apt, pepe, uni, ltc, ton, sui, bch, hype]
+	X tweet_count = [3]
+	X username = [maliha.btc]
+Y = [$ASTRA is building the foundation for the next wave of DeFi innovation—2025 will be massive! 🚀🔥\n\n$SOL $XRP $BTC $ETH $BNB $DOGE $USDT $USDC $ADA $TRX $AVAX $LINK $DOT $HBAR $SHIB $XLM $SUI $BCH $UNI $PEPE $LTC $HYPE]
+Y_token = [astra, building, foundation, next, wave, defi, massive, sol, xrp, btc, eth, bnb, doge, usdt, usdc, ada, trx, avax, link, dot, hbar, shib, xlm, sui, bch, uni, pepe, ltc, hype]
+	Y tweet_count = [9]
+	Y username = [maliha.btc]
+Total Length: X = 256, Y = 215 (Y / X = 83.98  X / Y = 119.07)
+Dice Coefficient: 70.77% 
+

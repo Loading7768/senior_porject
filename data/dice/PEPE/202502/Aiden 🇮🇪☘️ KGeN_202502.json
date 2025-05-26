@@ -1,0 +1,62 @@
+[
+    {
+        "X_text": "@EricTrump SEND ITTT\n$PEPE $ETH https://t.co/z06JET7hlq",
+        "X_token": "erictrump, send, ittt, pepe, eth, https",
+        "X_tweet_count": 6,
+        "X_username": "Aiden 🇮🇪☘️ KGeN",
+        "Y_text": "@EricTrump LFGGG SEND IT\n$PEPE $ETH https://t.co/JuTDP6bxHa",
+        "Y_token": "erictrump, lfggg, send, pepe, eth, https",
+        "Y_tweet_count": 7,
+        "Y_username": "Aiden 🇮🇪☘️ KGeN",
+        "X_length": 55,
+        "Y_length": 59,
+        "Y_length_percent_of_X": 107.27,
+        "X_length_percent_of_Y": 93.22,
+        "dice_coefficient": 83.33
+    },
+    {
+        "X_text": "@EricTrump SEND ITTT\n$PEPE $ETH https://t.co/z06JET7hlq",
+        "X_token": "erictrump, send, ittt, pepe, eth, https",
+        "X_tweet_count": 6,
+        "X_username": "Aiden 🇮🇪☘️ KGeN",
+        "Y_text": "@EricTrump SEND ITTTT \n$ETH $PEPE https://t.co/8axU80czQS",
+        "Y_token": "erictrump, send, itttt, eth, pepe, https",
+        "Y_tweet_count": 8,
+        "Y_username": "Aiden 🇮🇪☘️ KGeN",
+        "X_length": 55,
+        "Y_length": 57,
+        "Y_length_percent_of_X": 103.64,
+        "X_length_percent_of_Y": 96.49,
+        "dice_coefficient": 83.33
+    },
+    {
+        "X_text": "@EricTrump LFGGG SEND IT\n$PEPE $ETH https://t.co/JuTDP6bxHa",
+        "X_token": "erictrump, lfggg, send, pepe, eth, https",
+        "X_tweet_count": 7,
+        "X_username": "Aiden 🇮🇪☘️ KGeN",
+        "Y_text": "@EricTrump SEND ITTTT \n$ETH $PEPE https://t.co/8axU80czQS",
+        "Y_token": "erictrump, send, itttt, eth, pepe, https",
+        "Y_tweet_count": 8,
+        "Y_username": "Aiden 🇮🇪☘️ KGeN",
+        "X_length": 59,
+        "Y_length": 57,
+        "Y_length_percent_of_X": 96.61,
+        "X_length_percent_of_Y": 103.51,
+        "dice_coefficient": 83.33
+    },
+    {
+        "X_text": "@MustStopMurad You mean $PEPE https://t.co/h2wid1WTG7",
+        "X_token": "muststopmurad, mean, pepe, https",
+        "X_tweet_count": 23,
+        "X_username": "Aiden 🇮🇪☘️ KGeN",
+        "Y_text": "@MustStopMurad He means $PEPE https://t.co/nAFSqJJQN9",
+        "Y_token": "muststopmurad, means, pepe, https",
+        "Y_tweet_count": 37,
+        "Y_username": "Aiden 🇮🇪☘️ KGeN",
+        "X_length": 53,
+        "Y_length": 53,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 75.0
+    }
+]

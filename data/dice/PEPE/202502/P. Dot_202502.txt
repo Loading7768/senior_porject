@@ -1,0 +1,11 @@
+﻿X = [Even $Pepe homies will sell for $Pi https://t.co/zVtyh866oi]
+X_token = [even, pepe, homies, sell, pi, https]
+	X tweet_count = [30]
+	X username = [P. Dot]
+Y = [Even $Pepe has been mining $Pi https://t.co/jFGOdkvzvg]
+Y_token = [even, pepe, mining, pi, https]
+	Y tweet_count = [40]
+	Y username = [P. Dot]
+Total Length: X = 59, Y = 54 (Y / X = 91.53  X / Y = 109.26)
+Dice Coefficient: 72.73% 
+

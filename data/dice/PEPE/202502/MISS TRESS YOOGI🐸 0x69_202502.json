@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "Facts. Buy $PEPE https://t.co/PoSb2oD5kC",
+        "X_token": "facts, buy, pepe, https",
+        "X_tweet_count": 8,
+        "X_username": "MISS TRESS YOOGI🐸 0x69",
+        "Y_text": "FACTS\n\nONLY $PEPE 🐸 https://t.co/LLfu2ov9dw",
+        "Y_token": "facts, pepe, https",
+        "Y_tweet_count": 18,
+        "Y_username": "MISS TRESS YOOGI🐸 0x69",
+        "X_length": 40,
+        "Y_length": 43,
+        "Y_length_percent_of_X": 107.5,
+        "X_length_percent_of_Y": 93.02,
+        "dice_coefficient": 85.71
+    }
+]

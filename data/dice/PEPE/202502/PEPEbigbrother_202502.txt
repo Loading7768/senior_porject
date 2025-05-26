@@ -1,0 +1,33 @@
+﻿X = [@kmoney_69 $pepe $mog coded 🫵😹🐸]
+X_token = [pepe, mog, coded]
+	X tweet_count = [24]
+	X username = [PEPEbigbrother]
+Y = [$pepe and $mog coded \n\n🫵😹🐸]
+Y_token = [pepe, mog, coded]
+	Y tweet_count = [25]
+	Y username = [PEPEbigbrother]
+Total Length: X = 31, Y = 26 (Y / X = 83.87  X / Y = 119.23)
+Dice Coefficient: 100.00% 
+
+X = [@kmoney_69 $pepe $mog coded 🫵😹🐸]
+X_token = [pepe, mog, coded]
+	X tweet_count = [24]
+	X username = [PEPEbigbrother]
+Y = [@elonmusk $pepe and $mog coded]
+Y_token = [elonmusk, pepe, mog, coded]
+	Y tweet_count = [26]
+	Y username = [PEPEbigbrother]
+Total Length: X = 31, Y = 30 (Y / X = 96.77  X / Y = 103.33)
+Dice Coefficient: 85.71% 
+
+X = [$pepe and $mog coded \n\n🫵😹🐸]
+X_token = [pepe, mog, coded]
+	X tweet_count = [25]
+	X username = [PEPEbigbrother]
+Y = [@elonmusk $pepe and $mog coded]
+Y_token = [elonmusk, pepe, mog, coded]
+	Y tweet_count = [26]
+	Y username = [PEPEbigbrother]
+Total Length: X = 26, Y = 30 (Y / X = 115.38  X / Y = 86.67)
+Dice Coefficient: 85.71% 
+

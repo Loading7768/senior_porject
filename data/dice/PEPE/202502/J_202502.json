@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@Plazma0x $PEPE is for the people",
+        "X_token": "plazma0x, pepe, people",
+        "X_tweet_count": 2,
+        "X_username": "J",
+        "Y_text": "@Plazma0x $pepe is for the people",
+        "Y_token": "plazma0x, pepe, people",
+        "Y_tweet_count": 9,
+        "Y_username": "J",
+        "X_length": 33,
+        "Y_length": 33,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 100.0
+    }
+]

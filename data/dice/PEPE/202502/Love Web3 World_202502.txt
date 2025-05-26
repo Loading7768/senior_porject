@@ -1,0 +1,154 @@
+﻿X = [Send $PEPE to hit $100 billion market cap.]
+X_token = [send, pepe, hit, 100, billion, market, cap]
+	X tweet_count = [4]
+	X username = [Love Web3 World]
+Y = [$PEPE is diamond to hit $100 billion market cap.]
+Y_token = [pepe, diamond, hit, 100, billion, market, cap]
+	Y tweet_count = [5]
+	Y username = [Love Web3 World]
+Total Length: X = 42, Y = 48 (Y / X = 114.29  X / Y = 87.50)
+Dice Coefficient: 85.71% 
+
+X = [Send $PEPE to hit $100 billion market cap.]
+X_token = [send, pepe, hit, 100, billion, market, cap]
+	X tweet_count = [4]
+	X username = [Love Web3 World]
+Y = [Make $PEPE grab again to hit $100 billion market cap]
+Y_token = [make, pepe, grab, hit, 100, billion, market, cap]
+	Y tweet_count = [8]
+	Y username = [Love Web3 World]
+Total Length: X = 42, Y = 52 (Y / X = 123.81  X / Y = 80.77)
+Dice Coefficient: 80.00% 
+
+X = [Send $PEPE to hit $100 billion market cap.]
+X_token = [send, pepe, hit, 100, billion, market, cap]
+	X tweet_count = [4]
+	X username = [Love Web3 World]
+Y = [$PEPE is loading to hit $100 billion market cap.]
+Y_token = [pepe, loading, hit, 100, billion, market, cap]
+	Y tweet_count = [10]
+	Y username = [Love Web3 World]
+Total Length: X = 42, Y = 48 (Y / X = 114.29  X / Y = 87.50)
+Dice Coefficient: 85.71% 
+
+X = [Send $PEPE to hit $100 billion market cap.]
+X_token = [send, pepe, hit, 100, billion, market, cap]
+	X tweet_count = [4]
+	X username = [Love Web3 World]
+Y = [Send $PEPE to hit $100 billion market cap]
+Y_token = [send, pepe, hit, 100, billion, market, cap]
+	Y tweet_count = [17]
+	Y username = [Love Web3 World]
+Total Length: X = 42, Y = 41 (Y / X = 97.62  X / Y = 102.44)
+Dice Coefficient: 100.00% 
+
+X = [$PEPE is diamond to hit $100 billion market cap.]
+X_token = [pepe, diamond, hit, 100, billion, market, cap]
+	X tweet_count = [5]
+	X username = [Love Web3 World]
+Y = [Send $PEPE to hit the magical digit $100 billion market cap.]
+Y_token = [send, pepe, hit, magical, digit, 100, billion, market, cap]
+	Y tweet_count = [6]
+	Y username = [Love Web3 World]
+Total Length: X = 48, Y = 60 (Y / X = 125.00  X / Y = 80.00)
+Dice Coefficient: 75.00% 
+
+X = [$PEPE is diamond to hit $100 billion market cap.]
+X_token = [pepe, diamond, hit, 100, billion, market, cap]
+	X tweet_count = [5]
+	X username = [Love Web3 World]
+Y = [Make $PEPE grab again to hit $100 billion market cap]
+Y_token = [make, pepe, grab, hit, 100, billion, market, cap]
+	Y tweet_count = [8]
+	Y username = [Love Web3 World]
+Total Length: X = 48, Y = 52 (Y / X = 108.33  X / Y = 92.31)
+Dice Coefficient: 80.00% 
+
+X = [$PEPE is diamond to hit $100 billion market cap.]
+X_token = [pepe, diamond, hit, 100, billion, market, cap]
+	X tweet_count = [5]
+	X username = [Love Web3 World]
+Y = [$PEPE is loading to hit $100 billion market cap.]
+Y_token = [pepe, loading, hit, 100, billion, market, cap]
+	Y tweet_count = [10]
+	Y username = [Love Web3 World]
+Total Length: X = 48, Y = 48 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 85.71% 
+
+X = [$PEPE is diamond to hit $100 billion market cap.]
+X_token = [pepe, diamond, hit, 100, billion, market, cap]
+	X tweet_count = [5]
+	X username = [Love Web3 World]
+Y = [Send $PEPE to hit $100 billion market cap]
+Y_token = [send, pepe, hit, 100, billion, market, cap]
+	Y tweet_count = [17]
+	Y username = [Love Web3 World]
+Total Length: X = 48, Y = 41 (Y / X = 85.42  X / Y = 117.07)
+Dice Coefficient: 85.71% 
+
+X = [Send $PEPE to hit the magical digit $100 billion market cap.]
+X_token = [send, pepe, hit, magical, digit, 100, billion, market, cap]
+	X tweet_count = [6]
+	X username = [Love Web3 World]
+Y = [Make $PEPE grab again to hit $100 billion market cap]
+Y_token = [make, pepe, grab, hit, 100, billion, market, cap]
+	Y tweet_count = [8]
+	Y username = [Love Web3 World]
+Total Length: X = 60, Y = 52 (Y / X = 86.67  X / Y = 115.38)
+Dice Coefficient: 70.59% 
+
+X = [Send $PEPE to hit the magical digit $100 billion market cap.]
+X_token = [send, pepe, hit, magical, digit, 100, billion, market, cap]
+	X tweet_count = [6]
+	X username = [Love Web3 World]
+Y = [$PEPE is loading to hit $100 billion market cap.]
+Y_token = [pepe, loading, hit, 100, billion, market, cap]
+	Y tweet_count = [10]
+	Y username = [Love Web3 World]
+Total Length: X = 60, Y = 48 (Y / X = 80.00  X / Y = 125.00)
+Dice Coefficient: 75.00% 
+
+X = [Make $PEPE grab again to hit $100 billion market cap]
+X_token = [make, pepe, grab, hit, 100, billion, market, cap]
+	X tweet_count = [8]
+	X username = [Love Web3 World]
+Y = [$PEPE is loading to hit $100 billion market cap.]
+Y_token = [pepe, loading, hit, 100, billion, market, cap]
+	Y tweet_count = [10]
+	Y username = [Love Web3 World]
+Total Length: X = 52, Y = 48 (Y / X = 92.31  X / Y = 108.33)
+Dice Coefficient: 80.00% 
+
+X = [$PEPE is loading to hit $100 billion market cap.]
+X_token = [pepe, loading, hit, 100, billion, market, cap]
+	X tweet_count = [10]
+	X username = [Love Web3 World]
+Y = [Send $PEPE to hit $100 billion market cap]
+Y_token = [send, pepe, hit, 100, billion, market, cap]
+	Y tweet_count = [17]
+	Y username = [Love Web3 World]
+Total Length: X = 48, Y = 41 (Y / X = 85.42  X / Y = 117.07)
+Dice Coefficient: 85.71% 
+
+X = [$PEPE is going to hit $0.005.]
+X_token = [pepe, going, hit]
+	X tweet_count = [15]
+	X username = [Love Web3 World]
+Y = [$PEPE is going to hit $0.005.]
+Y_token = [pepe, going, hit]
+	Y tweet_count = [16]
+	Y username = [Love Web3 World]
+Total Length: X = 29, Y = 29 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 100.00% 
+
+X = [Send $PEPE to hit $0.01]
+X_token = [send, pepe, hit]
+	X tweet_count = [23]
+	X username = [Love Web3 World]
+Y = [Send $PEPE to hit $0.005.]
+Y_token = [send, pepe, hit]
+	Y tweet_count = [24]
+	Y username = [Love Web3 World]
+Total Length: X = 23, Y = 25 (Y / X = 108.70  X / Y = 92.00)
+Dice Coefficient: 100.00% 
+

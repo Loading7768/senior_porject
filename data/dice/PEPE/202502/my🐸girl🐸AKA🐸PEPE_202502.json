@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "Starting scale long in beta $eth\n$eth $ens $arb $shiba $pepe",
+        "X_token": "starting, scale, long, beta, eth, eth, ens, arb, shiba, pepe",
+        "X_tweet_count": 11,
+        "X_username": "my🐸girl🐸AKA🐸PEPE",
+        "Y_text": "Scalping here some beta $eth\n$eth $pepe $arb $shiba $ens",
+        "Y_token": "scalping, beta, eth, eth, pepe, arb, shiba, ens",
+        "Y_tweet_count": 15,
+        "Y_username": "my🐸girl🐸AKA🐸PEPE",
+        "X_length": 60,
+        "Y_length": 56,
+        "Y_length_percent_of_X": 93.33,
+        "X_length_percent_of_Y": 107.14,
+        "dice_coefficient": 75.0
+    }
+]

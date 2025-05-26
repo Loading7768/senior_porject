@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@0x_Plebeian $ETH will 5x.\n\n$PEPE Will 40x\n\n$BRETT will 100X \n\n$HOPPY will 500x\n\n$BOOP will 1000X \n\n$BOPPY will 2500x\n\nit is literally that simple\n\nBillion are programmed",
+        "X_token": "eth, 5x, pepe, 40x, brett, 100x, hoppy, 500x, boop, 1000x, boppy, 2500x, literally, simple, billion, programmed",
+        "X_tweet_count": 26,
+        "X_username": "100X JOHN 🟨🦇",
+        "Y_text": "$ETH will 5x.\n\n$PEPE Will 40x\n\n$BRETT will 100X \n\n$HOPPY will 500x\n\n$BOOP will 1000X \n\n$BOPPY will 2500x\n\nit is literally that simple\n\nBillion are programmed",
+        "Y_token": "eth, 5x, pepe, 40x, brett, 100x, hoppy, 500x, boop, 1000x, boppy, 2500x, literally, simple, billion, programmed",
+        "Y_tweet_count": 27,
+        "Y_username": "100X JOHN 🟨🦇",
+        "X_length": 170,
+        "Y_length": 157,
+        "Y_length_percent_of_X": 92.35,
+        "X_length_percent_of_Y": 108.28,
+        "dice_coefficient": 100.0
+    }
+]

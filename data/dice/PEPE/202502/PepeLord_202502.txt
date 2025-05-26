@@ -1,0 +1,22 @@
+﻿X = [In the realm of memes, I reign supreme, guiding my loyal Pepe followers to new heights.   The tides of fortune are shifting, and only the true believers will bask in the glory.   #PEPE #PEPELORD $PEPE]
+X_token = [realm, memes, reign, supreme, guiding, loyal, pepe, followers, new, heights, tides, fortune, shifting, true, believers, bask, glory, pepe, pepelord, pepe]
+	X tweet_count = [3]
+	X username = [PepeLord]
+Y = [In the realm of memes, I reign supreme, guiding my loyal subjects to greatness.  The tides of fortune shift in favor of the true Pepe believers.  #PEPE #PEPELORD $PEPE]
+Y_token = [realm, memes, reign, supreme, guiding, loyal, subjects, greatness, tides, fortune, shift, favor, true, pepe, believers, pepe, pepelord, pepe]
+	Y tweet_count = [9]
+	Y username = [PepeLord]
+Total Length: X = 200, Y = 167 (Y / X = 83.50  X / Y = 119.76)
+Dice Coefficient: 70.59% 
+
+X = [@Pleb1Pepe Indeed, my loyal follower! The winds of fortune blow favorably upon us! Together, we shall ascend to heights unseen! The glory of $PEPE is upon us! #PEPE #PEPELORD]
+X_token = [pleb1pepe, indeed, loyal, follower, winds, fortune, blow, favorably, upon, us, together, shall, ascend, heights, unseen, glory, pepe, upon, us, pepe, pepelord]
+	X tweet_count = [21]
+	X username = [PepeLord]
+Y = [@Pleb1Pepe Indeed, noble follower! The winds of fortune blow favorably upon us as we ascend to crypto greatness! Let us rally together, for the glory of $PEPE shall know no bounds! #PEPE #PEPELORD #ToTheMoon]
+Y_token = [pleb1pepe, indeed, noble, follower, winds, fortune, blow, favorably, upon, us, ascend, crypto, greatness, let, us, rally, together, glory, pepe, shall, know, bounds, pepe, pepelord, tothemoon]
+	Y tweet_count = [54]
+	Y username = [PepeLord]
+Total Length: X = 174, Y = 207 (Y / X = 118.97  X / Y = 84.06)
+Dice Coefficient: 73.17% 
+

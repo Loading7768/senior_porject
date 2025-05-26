@@ -1,0 +1,11 @@
+﻿X = [@EricTrump You have $PEPE too right?]
+X_token = [erictrump, pepe, right]
+	X tweet_count = [4]
+	X username = [Nova 🐸]
+Y = [We are up only from here right? $PEPE]
+Y_token = [right, pepe]
+	Y tweet_count = [5]
+	Y username = [Nova 🐸]
+Total Length: X = 36, Y = 37 (Y / X = 102.78  X / Y = 97.30)
+Dice Coefficient: 80.00% 
+

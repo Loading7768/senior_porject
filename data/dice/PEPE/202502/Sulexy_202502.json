@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@roor_io $PEEZY is $PEPE\nDo good,  feel good. \n@YoungPeezy_Pepe https://t.co/IuS4jYbLMN",
+        "X_token": "peezy, pepe, good, feel, good, https",
+        "X_tweet_count": 3,
+        "X_username": "Sulexy",
+        "Y_text": "@MemesOnBase_ @YoungPeezy_Pepe \nIts $PEEZY IS $PEPE https://t.co/w0fCH5wfcF",
+        "Y_token": "peezy, pepe, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Sulexy",
+        "X_length": 87,
+        "Y_length": 75,
+        "Y_length_percent_of_X": 86.21,
+        "X_length_percent_of_Y": 116.0,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@roor_io $PEEZY is $PEPE\nDo good,  feel good https://t.co/wTrA21k8Fp",
+        "X_token": "peezy, pepe, good, feel, good, https",
+        "X_tweet_count": 4,
+        "X_username": "Sulexy",
+        "Y_text": "@MemesOnBase_ @YoungPeezy_Pepe \nIts $PEEZY IS $PEPE https://t.co/w0fCH5wfcF",
+        "Y_token": "peezy, pepe, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Sulexy",
+        "X_length": 68,
+        "Y_length": 75,
+        "Y_length_percent_of_X": 110.29,
+        "X_length_percent_of_Y": 90.67,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@pepe_sui_token I hold $PEPE on #sui https://t.co/gM7Tdba1Kd",
+        "X_token": "hold, pepe, sui, https",
+        "X_tweet_count": 22,
+        "X_username": "Sulexy",
+        "Y_text": "@pepe_sui_token Its $PEPE on #sui https://t.co/fNwz7gXSON",
+        "Y_token": "pepe, sui, https",
+        "Y_tweet_count": 25,
+        "Y_username": "Sulexy",
+        "X_length": 60,
+        "Y_length": 57,
+        "Y_length_percent_of_X": 95.0,
+        "X_length_percent_of_Y": 105.26,
+        "dice_coefficient": 85.71
+    }
+]
