@@ -40,9 +40,9 @@ DAY_COUNT = 1  # 要連續找幾天
 CHANGE_MONTH = 0  # 在哪個日期結束後有跨月 沒有填 0   ex. 如果要找的日期為 1/30 - 2/2 而其中包含 1/31 則需要填 31
 
 # 如果不需要程式執行完成後傳 gmail 給你, 則留空字串
-GMAIL = "nadodebisean@gmail.com"
+GMAIL = ""
 
-PASSWORD = "coxuwrhmmfkvzfvc"  # 帳號有啟用兩步驟驗證的話, PASSWORD 需要使用自行創建的「應用程式密碼」
+PASSWORD = ""  # 帳號有啟用兩步驟驗證的話, PASSWORD 需要使用自行創建的「應用程式密碼」
 '''可修改參數'''
 
 
