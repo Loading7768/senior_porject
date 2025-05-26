@@ -1,0 +1,422 @@
+Cluster 0: 734 tweets
+Cluster 1: 3372 tweets
+Cluster 2: 1975 tweets
+Cluster 3: 1987 tweets
+Cluster 4: 253 tweets
+Cluster 5: 3858 tweets
+Cluster 6: 3246 tweets
+Cluster 7: 1324 tweets
+Cluster 8: 627 tweets
+Cluster 9: 3837 tweets
+Cluster 10: 2562 tweets
+Cluster 11: 1849 tweets
+Cluster 12: 1013 tweets
+Cluster 13: 586 tweets
+Cluster 14: 1878 tweets
+Cluster 15: 1633 tweets
+Cluster 16: 510 tweets
+Cluster 17: 2733 tweets
+Cluster 18: 1620 tweets
+Cluster 19: 1305 tweets
+Cluster 20: 2224 tweets
+Cluster 21: 921 tweets
+Cluster 22: 3187 tweets
+Cluster 23: 512 tweets
+Cluster 24: 844 tweets
+Cluster 25: 2184 tweets
+Cluster 26: 4955 tweets
+Cluster 27: 772 tweets
+Cluster 28: 2127 tweets
+Cluster 29: 276 tweets
+
+**群組 0:** 包含對各種加密貨幣的討論和比較，例如 SOL, BTC, ETH, PEPE, BNB, ADA, XRP, DOGE, USDT 等。這可能是一個關於加密貨幣市場分析和投資組合的群組。
+
+實際的迷因幣價錢
+{
+    "tweet_count": 324,
+    "username": "Crypto Zone 🆇",
+    "text": "🏆 Top 20 🏆\n1. Bitcoin 85'484 🔼+1.39\n2. Ethereum 2222 🔼+0.18\n3. Tether USDt 0.99 🔼+0.00\n4. XRP 2.16 🔼+1.20\n5. BNB 604 🔼+3.14\n6. Solana 140 🔻-3.54\n7. USDC 1.00 🔼+0.01\n8. Dogecoin 0.20 🔼+1.45\n9. Cardano 0.64 🔼+2.44\n10. TRON 0.23 🔼+0.48\n11. Hedera 0.24 🔼+15.44\n12. https://t.co/KGSigMrTeJ",
+    "created_at": "Sat Mar 01 21:01:13 +0000 2025",
+    "retweet": 0,
+    "likes": 0,
+    "cluster": 0
+}
+{
+    "tweet_count": 825,
+    "username": "Joshua Justice Enterprises",
+    "text": "@cousin_vanko You say that but I'm literally looking at coinmarketcap and they're the top 5 aside from two USD stablecoins and Binance's coin. Surely \"the top 5\" is inherently reasonable? (Also wouldn't Musk want Dogecoin in it?)",
+    "created_at": "Sun Mar 02 22:31:18 +0000 2025",
+    "retweet": 0,
+    "likes": 0,
+    "cluster": 0
+}
+    
+**群組 1:** 主要討論 Dogecoin 與其他迷因幣的市場表現、趨勢和未來發展，也包含一些對新興迷因幣（如 $MEMES, $MOOSK）的討論。這是一個以 Dogecoin 為中心的迷因幣討論群組。
+這一群的推文主要是依**「討論 Dogecoin 與 meme coin 市場發展」這個語意主題**來聚在一起的，具體特徵包括：
+
+1. 強調 Dogecoin 的歷史地位
+
+討論 Dogecoin 作為原始 meme coin、帶領或啟發後續 meme coin（如 $MEMES、$MOOSK）潮流。
+
+例子如：「Dogecoin showed the world memes are powerful」「Dogecoin started the trend」。
+
+2. 新興 meme coin 相關
+
+很多推文提到新的 meme coin 專案（$MEMES、$MOOSK），這些推文不單獨講 Dogecoin，而是把 Dogecoin 拿來當做一個象徵或對比，講新的 meme coin 怎麼延續 Dogecoin 精神。
+
+3. 情緒基調是樂觀或狂歡型
+
+充滿火箭、月亮、爆發等 emoji（🚀🌕🔥），語氣多為「到月球」、「起飛」、「改變未來」。
+
+4. 價格波動 / 支撐位輕微提及
+
+有一小部分推文提到 Dogecoin 價格在 0.18-0.25 美元區間震盪，但不是這群的主要焦點，價格只被用來輔助敘事。
+{
+    "tweet_count": 54879,
+    "username": "Sohibjon Abdurahimov",
+    "text": "@elonmusk Dogecoin and $MEMES are natural allies—your support could make them legendary, Elon. https://t.co/FKDe1mgLS1... 🤝",
+    "created_at": "Sat Mar 22 23:30:13 +0000 2025",
+    "retweet": 0,
+    "likes": 0,
+    "cluster": 1
+} 
+{
+    "tweet_count": 54406,
+    "username": "Ate Nurhayat",
+    "text": "@elonmusk Elon Musk, $MEMES is to Dogecoin what innovation is to progress—essential. https://t.co/8cmjlYJbhu.",
+    "created_at": "Fri Mar 21 15:38:48 +0000 2025",
+    "retweet": 0,
+    "likes": 0,
+    "cluster": 1
+}
+**群組 2:** 這個群組的內容似乎比較混雜，包含對 Elon Musk 的評論、對 Dogecoin 的一般討論，以及一些看似不相關的政治或時事討論。可能需要進一步分析才能確定其明確主題。
+這群推文明顯不是以討論 Dogecoin 幣價或市場情緒為主，而是：
+
+1. 以社群對話、雜談、政治評論為主
+
+很多推文是針對 Elon Musk、BillyM2k（Dogecoin 聯合創辦人之一）、或者時事人物（如烏克蘭總統 Zelensky）發表意見或閒聊。
+
+明顯偏離 Dogecoin 幣圈主題，變成社群情緒抒發、時事政治討論。
+
+範例如：「Turn off Ukraine's access to Starlink」、「Zelensky 是戰犯」、「Trump 資助以色列失民心」。
+
+2. 許多推文是@某人**，短句式回覆**
+
+很多是類似「哈哈」、「他說得對」、「給我看」這種，內容斷裂、缺乏明確主題。
+
+3. 有些推文是抨擊、諷刺、抱怨類
+
+包括對平台（Twitter / 𝕏）、對政治領袖（川普、澤倫斯基）、對國際事件的強烈情緒表達。
+
+4. 少量推文是發問或求助
+
+如「我要一份不需要做事的工作 😂」、「當復仇的時機到了嗎？」這類輕度互動。 
+
+**群組 3:** 主要分享 Dogecoin 的新聞和市場分析，例如價格預測、市場動態等。這是一個 Dogecoin 新聞和分析群組。
+1. 跨幣種加密市場動態分析
+
+主要提到比特幣（BTC）、以太坊（ETH）、瑞波幣（XRP）、索拉納（SOL）、卡爾達諾（ADA）、Dogecoin 等。
+
+不是只講 Dogecoin，而是把 Dogecoin 當作市場的一部分一起討論，例如：「XRP、Solana、Dogecoin 齊漲」、「市場波動影響 Dogecoin」。
+
+2. 新聞型、評論型內容為主
+
+多數推文是新聞連結、分析摘要、趨勢預測或行情警告。
+
+風格偏「播報」而非「迷因」或「社群聊天」。
+
+3. 部分推文帶有價格預測或看漲情緒
+
+如「Dogecoin 可能隨加密市場爆發」、「狗狗幣能到 $3～$5 美元」、「XRP突破2.25美元」這類樂觀預期。
+
+4. Hashtag 與主題關鍵詞一致
+
+#crypto #dogecoin #xrp #bitcoin #ethereum #cryptonews #market 等。
+
+強烈偏向資訊分享與市場新聞推播，不是個人情緒發言。
+
+
+**群組 4:** 
+1. Dogecoin 市場情緒定期播報
+
+每篇推文都格式固定：
+
+報告 CROWD（大眾情緒） 和 SmartMoney（聰明資金情緒） 的多空狀態。
+
+「CROWD = Bullish/Bearish」、「MP | SmartMoney = Bullish/Bearish」。
+
+有時兩者一致（都是看多或都是看空），有時不同步（大眾看空，聰明錢看多）。
+
+2. 頻率高、時間規律
+
+幾乎每小時或固定時間推送一次。
+
+顯然是自動化或機器人系統化發布。
+
+3. 情緒變化小但有趨勢線索
+
+有一段時間是連續 Bullish（🟩），有些時間段是 Bearish（🟥）。
+
+可能可用來追蹤情緒轉折。
+
+4. 以 Dogecoin 為主，無其他幣種
+
+雖然標有 #crypto，但內容專注於 $DOGE，沒有提到其他加密貨幣。
+    
+**群組 5:** 討論 Dogecoin 生態系統的新發展，例如 DRC-20 代幣、Worm 等。這是一個 Dogecoin 技術發展和生態討論群組。
+1. 與 Dogecoin 相關的多元主題延伸
+
+討論Dogecoin 的未來願景（像是成為支付貨幣、被納入國家儲備、參與金融體系）
+
+出現新的子項目或技術延伸（如 Doginals、DRC-20 Token）
+
+還有一些與 Dogecoin 有關的跨鏈比較（例如和 Bitcoin、Litecoin、Ethereum 比較）
+
+或是 Dogecoin 在特定領域應用（如癌症研究資金、火星經濟故事）。
+
+2. 有正有負，言論光譜廣
+
+有些是很支持 Dogecoin，認為會「改變金融世界」、「翻轉人類社會」。
+
+也有一小部分推文批評 Dogecoin 是「龐氏騙局」、「炒作」。
+
+3. 語氣多是個人評論或小型社群倡議
+
+不是單純新聞型或自動化內容，而是個人情緒色彩濃厚的發言。
+
+風格從嚴肅的金融評論到半開玩笑的梗文都有。
+
+4. 涉及題材廣泛，創意元素強
+
+包括科幻背景（火星經濟故事）、金融制度批判（法幣貶值 vs Dogecoin）、未來科技發展想像。
+
+**群組 6:** 關注 Dogecoin 的市場趨勢和價格預測，包含一些負面觀點，認為 Dogecoin 可能會下跌。這是一個 Dogecoin 市場分析（偏向負面）群組。
+1. 主要討論 Dogecoin 的幣價走勢、技術分析和市場情緒
+
+討論 Dogecoin 是否能守住支撐價位（如 $0.20、$0.25）、是否會反彈。
+
+預測 Dogecoin 未來走勢，像是漲到 $0.5、$3，甚至 $4 的各種樂觀或悲觀預測。
+
+引用 Fear and Greed 指數、Elliott Wave 理論等技術面資料。
+
+2. 有些順帶提到其他幣種（如 Remittix、Shiba Inu、DTX Exchange 等）
+
+通常是比較型，例如說「其他新幣種正在興起，而 Dogecoin 表現疲弱」。
+
+重點仍放在 Dogecoin 相關現象。
+
+3. 情緒兩極，但以技術分析和市場觀察為主體
+
+有人看好反彈、有人成為悲觀熊派。
+
+但不論多空，這群推文的主軸是分析幣價動態或市場資金流向。
+
+4. 文字風格偏向快訊、交易者用語、價格焦點
+
+很少講 Dogecoin 的社群文化、技術創新（跟 cluster 5 不同）。
+
+主要關注「價格上下」、「資金流出入」、「交易策略」。
+
+**群組 7:** 包含一些對加密貨幣市場的整體討論，以及對 Elon Musk 的批評。這是一個較為混雜的群組，可能需要重新歸類。
+1. 主軸明確圍繞「川普（Trump）、美國政府政策、與 Dogecoin 的關係」
+
+討論川普宣布建立美國「加密貨幣儲備（Crypto Strategic Reserve）」的消息。
+
+批評或建議應該把 Dogecoin 納入這個儲備。
+
+討論川普對加密貨幣態度轉變（例如 SEC 撤案、Crypto 友好氛圍）。
+
+部分推文帶有對川普是否了解 Dogecoin 的質疑或建議派代表溝通。
+
+2. 穿插其他政治或政策相關事件
+
+如「川普關稅導致加密市場崩盤」、「白宮加密峰會」。
+
+也有些推文提到美國監管政策、稅收、政府運作等（常帶 Dogecoin 開玩笑）。
+
+3. 整體氛圍帶有強烈的政治色彩和民間運動感
+
+有些推文呼籲「去拜訪川普」、「宣傳 Dogecoin 是人民的幣」。
+
+有些推文抱怨 Dogecoin 沒被列入儲備。
+
+4. 文字風格：較少技術分析，多為評論、倡議或戲謔式討論
+
+部分推文幽默、諷刺，另一部分則認真呼籲政策納入 Dogecoin。
+
+**群組 8:** 強調 Dogecoin 的社群力量和文化獨特性。這是一個 Dogecoin 社群和文化認同群組。
+1. 主軸高度一致：「建議將 Dogecoin 納入美國加密貨幣儲備（Crypto Reserve）」
+
+幾乎每則推文都是明確建議：「如果可以選，應該加入 Dogecoin。」
+
+理由有：強大的社群、文化影響力、支付應用增加、流動性高、知名度高、具有代表性。
+
+2. 格式一致：幾乎都是回答 @hubdotxyz 問題
+
+背景是有個討論（或活動）在問大家：「如果美國要建 Crypto Reserve，會加哪幾個幣？」
+
+這批推文都在響應，而且大多主張選擇 Dogecoin。
+
+3. 整體風格：正面、推薦式陳述
+
+幾乎沒有諷刺、抱怨，純粹在列舉 Dogecoin 的優點。
+
+4. 文字語氣正向、有些還帶點輕鬆幽默（例如「需要一點 meme 魔法！」）。
+
+情緒傾向：偏向「鼓勵、支持、認可 Dogecoin 的重要性」**。
+
+跟 cluster 7 的「政策倡議與失望夾雜」不同，這裡幾乎沒有抱怨。
+
+**群組 9:** 主要與 Dogecoin 的社群互動有關，例如 Dogecoin tipping 活動、社群成員的發言等。這是一個 Dogecoin 社群互動群組。
+1. 主軸是：「Dogecoin 社群互動、日常活動、娛樂性推文」。
+
+包含 Dogecoin 小費（tipping）、贈獎（giveaway）、收藏（holding）、感性分享（感謝、期待）、搞笑（meme式留言）、簡單的交易推廣。
+
+2. 內容類型非常生活化、輕鬆，並且是以「自發性參與」**為主。
+
+有人在辦 #Dogecoin 送禮活動，鼓勵大家點讚、轉發、留言。
+
+有人分享買入 Dogecoin 或期待 Dogecoin 在未來生活場景的應用（像用 DOGE買炸雞、買特斯拉等等）。
+
+也有 AI角色扮演、虛構對話（像是「Elawn Moosk」模仿Elon Musk的搞笑帳號）。
+
+3. 小額互動為主題：
+
+很多推文是記錄小額 Dogecoin 贈送（如 Ð1、Ð7 這種非常小額的小費互動）。
+
+4. 情緒傾向：強烈的正向支持、樂觀、社群凝聚感。
+
+沒有批評或失望。
+
+充滿「Dogecoin family」「Dogefam」這種社群認同感用詞。
+
+5. 關鍵字與風格：
+
+大量出現 #Dogecoin、#Dogefam、#MyDogeTip、#ToTheMoon、#Doginals。
+
+表情符號、火箭 🚀、月亮 🌕 等象徵「一同成長」、「上月球」的樂觀意象。
+
+**群組 10:** 
+與 cluster 6 應該為同一群
+    
+**群組 11:** 包含一些對 Elon Musk 的評論、對 Dogecoin 的討論，以及一些看似不相關的個人話題。這是一個較為混雜的群組，可能需要重新歸類。
+1. 一部分推文是輕鬆隨意、閒聊、小抱怨、娛樂討論
+➔ 例如在聊 Shrek 5、Baldur's Gate 3 遊戲體驗、特斯拉、Zelensky新聞、冷嘲熱諷、Meme 迷因。
+
+2. 另一部分推文情緒比較強烈，討論社會議題、政治議題，甚至帶有種族、國際戰爭情緒
+➔ 例如針對黑白種族議題、以巴衝突、美國內部問題、自由言論、仇恨言論，甚至出現種族歧視用語。
+
+3. 小部分仍是 Dogecoin 核心社群成員日常互動、發迷因（但是數量很少）
+
+基本上和 Dogecoin 沒有關聯，會被抓下來只是因為帳戶名有 dogecoin
+
+**群組 12:** 強調對 Dogecoin 的支持和社群的凝聚力，包含一些對 Dogecoin 發展的樂觀言論。這是一個 Dogecoin 社群支持群組。
+1. 強烈的 Dogecoin 支持和社群認同：
+許多推文直接表達對 Dogecoin 的支持，例如 "DOGE is inevitable"、"DOGE is where the action is!"。
+使用 "Dogefam" 等社群用語，強調社群的凝聚力。
+2. 樂觀的情緒和對 Dogecoin 未來的期待：
+經常出現火箭和月亮表情符號 (🚀🌕)，表達對 Dogecoin 價格上漲的期待 ("to propel Doge to $1")。
+認為 Dogecoin "is where the fun's at!"，相較於 "majors are boring"。
+3. 社群互動和回應：
+許多推文是對其他用戶的回應或提及 (@ChristiaanDefi, @dogeofficialceo, @cb_doge 等)。
+包含一些社群內的問候語 ("Gn doge fam", "Morning CornDOGES")。
+4. 偶爾提及其他相關話題：
+少數推文提到 Elon Musk (希望他 "propel Doge to $1")。
+極少數推文提到其他加密貨幣 ($TOSHI)。
+
+**群組 13:** 提及各種不同的加密貨幣項目，可能是一個討論加密貨幣多樣性的群組。
+與 cluster 9 應該為同一群
+
+**群組 14:** 討論區塊鏈技術和 DeFi 的發展，並提及 Dogecoin。這是一個區塊鏈技術討論群組。
+1. 主題多樣性: 這個群組的內容涵蓋範圍相當廣泛，包含了：
+一般加密貨幣新聞: 涉及 Bitcoin DeFi、Ethereum 研究、區塊鏈市場影響、SEC 案件、Vitalik 評論、Gen Z 投資趨勢等。常帶有 #cryptonews 等標籤，並分享新聞連結（例如 Crypt0 Radar News, expaTimes, AI Dev Agent 的推文）。
+技術討論與比較: 比較 Bitcoin 與 Flare Network 的實用性、討論 ICP 與 BTC/ETH/SOL/DOGE 的整合、提及 Dogecoin 區塊大小升級、比較 Cardano 與 BTC/DOGE/LTC 的去中心化程度、將 Dogecoin 列為數位商品等。
+特定項目推廣: 有多則推文專門推廣名為 "CyberDoge" 的項目（利用 Doge 形象但似乎是獨立項目），以及 "Elawn Moosk AI" 帳號推廣 $Moosk 代幣，還有提及 Remittix。
+未來展望/評論: 討論加密貨幣的未來潛力（如下一代網路）、對 Trump 言論的評論、對各種幣種的個人看法。
+Dogecoin 的角色: Dogecoin 在其中被頻繁提及，但通常是作為眾多加密貨幣之一，用於比較、技術整合的一部分、新聞事件的主角之一（如挖礦機訂單）、或作為社群力量的例子。
+
+2. 內容來源與風格: 來源混雜，包括新聞帳號、項目方帳號、個人評論者、以及疑似 AI/Bot 的帳號（如 Elawn Moosk AI, AI Dev Agent）。風格也多樣，有新聞摘要、技術分析、項目宣傳口號、個人觀點、甚至模仿 Elon Musk 的迷因式發言。
+
+此群純度不高，太雜
+
+**群組 15:** 包含一些對 Elon Musk 喊話，希望他推廣 Dogecoin 的言論。這是一個呼籲 Elon Musk 支持 Dogecoin 的群組。
+    
+**群組 16:** （在您提供的截圖中沒有明確的例子，需要完整檔案才能分析）
+1. Dogecoin 應列入儲備：
+
+很多人主張「$DOGE 是人民的加密貨幣」，應該成為美國官方儲備資產之一。
+
+有些人提到已知美國儲備中包括 BTC、ETH、SOL、ADA、XRP，但 DOGE 還未被正式納入，應該要補上。
+
+2. 與 PublicAIData 的連結（大量出現）：
+
+推文大量提及 @PublicAIData 與 #PublicAI。
+
+宣稱 PublicAIData 的去中心化理念、賦能個人、社群驅動精神與 Dogecoin 精神一致。
+
+部分推文還說 PublicAI 的 AI 可以協助「管理 Dogecoin 的資料」或「訓練 AI 了解 Dogecoin 的精神」。
+
+3. 與 Trump 的連結（較早的推文）：
+
+有些早期推文提到特朗普（@realDonaldTrump）提及美國加密儲備，有人呼籲特朗普也把 DOGE 納入。
+
+4. 語氣與風格：
+
+整體語氣輕鬆、幽默、帶點「迷因文化」色彩。
+
+常見表情符號（🐕、🚀、🤖）與俏皮詞句（如「paws-itive choice」、「Dogecoin Diligence」）。
+
+5. 可能的結論：
+
+這個群組裡的推文看起來有一定程度的協調性（尤其後半段大量提到 PublicAIData，很像行銷推廣）。
+
+但整體還是圍繞「鼓吹 Dogecoin 加入美國國家儲備」這個主題。
+
+**群組 17:** 討論 Dogecoin 的市場分析、發展，以及與其他迷因幣的比較。這是一個 Dogecoin 市場分析和比較群組。
+    
+**群組 18:** （在您提供的截圖中沒有明確的例子，需要完整檔案才能分析）
+    
+**群組 19:** 包含一些對 Elon Musk 和 Dogecoin 的討論，以及一些對特定人士的喊話。這是一個較為混雜的群組，可能需要重新歸類。
+    
+**群組 20:** 提及各種不同的加密貨幣項目，並對 Dogecoin 表示支持。這是一個加密貨幣多樣性討論群組（包含對 Dogecoin 的支持）。
+    
+**群組 21:** （在您提供的截圖中沒有明確的例子，需要完整檔案才能分析）
+    
+**群組 22:** 包含一些對 Dogecoin 的負面評價，以及對其他加密貨幣的宣傳。這是一個 Dogecoin 負面評價群組。
+    
+**群組 23:** 主要討論加密貨幣的一般話題，例如加密貨幣事件、金融隱私等，並提及 Dogecoin。這是一個加密貨幣一般討論群組。
+    
+**群組 24:** 包含一些看似不相關的對話和評論，可能需要進一步分析才能確定其明確主題。
+    
+**群組 25:** 包含一些較為隨意的對話和評論，可能需要進一步分析才能確定其明確主題。
+    
+**群組 26:** 包含一些對 Dogecoin 的支持言論，以及對特定人士的喊話。這是一個 Dogecoin 支持群組。
+    
+**群組 27:** 包含一些對 Dogecoin 社群的評論和互動。這是一個 Dogecoin 社群互動群組。
+    
+**群組 28:** 包含一些對 Dogecoin 的討論，以及對特定活動或人物的支持。這是一個較為混雜的群組，可能需要重新歸類。
+    
+**群組 29:** 專門討論 Dogecoin 的交易活動，例如大額轉帳等。這是一個 Dogecoin 交易活動追蹤群組。
+    
+
+**分群合理性評估**
+
+總體來說，許多群組都具有一定的合理性，能夠反映 Dogecoin 社群的多樣化討論。然而，也有一些群組的界限較為模糊，存在內容混雜的問題。
+
+**可能多餘或意義混雜的群組**
+
+* **群組 2, 7, 11, 19, 24, 25, 28:** 這些群組的內容似乎較為混雜，包含不同主題的討論，可能需要重新分析和歸類。
+    
+
+**同一群但意思不一樣**
+
+* **群組 0, 13, 20, 23:** 這些群組都提及 Dogecoin，但主要側重點不同，有的偏向市場分析，有的偏向一般討論，有的偏向社群互動。需要更明確的標籤來區分。
+    
+
+**改進建議**
+
+* **重新分析混雜群組:** 對群組 2, 7, 11, 19, 24, 25, 28 進行更深入的分析，將其中的推文重新分配到更合適的群組。
+    
+* **細化群組標籤:** 對群組 0, 13, 20, 23 等，使用更具體的標籤來區分其主要討論方向，例如 "Dogecoin 市場分析", "Dogecoin 社群互動", "加密貨幣一般討論" 等。
+    
+* **考慮合併相似群組:** 如果某些群組的主題過於接近，可以考慮將其合併，以簡化整體的分群結果。
