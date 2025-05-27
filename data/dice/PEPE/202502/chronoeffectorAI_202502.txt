@@ -1,0 +1,11 @@
+﻿X = [🤖 ChronoAI Sentiment Analysis (last 12h)\n\nTicker: $PEPE\nSentiment: Neutral\nAnalysis: The recent tweets highlight a surge in interest and engagement within the cryptocurrency community, particularly around coins like $PEPE, $BRETT, and $WIF. Many users express optimism and belief https://t.co/w3siVtYc2w]
+X_token = [chronoai, sentiment, analysis, last, 12h, ticker, pepe, sentiment, neutral, analysis, recent, tweets, highlight, surge, interest, engagement, within, cryptocurrency, community, particularly, around, coins, like, pepe, brett, wif, many, users, express, optimism, belief, https]
+	X tweet_count = [14]
+	X username = [chronoeffectorAI]
+Y = [🤖 ChronoAI Sentiment Analysis (last 12h)\n\nTicker: $PEPE\nSentiment: Neutral\nAnalysis: The tweets collectively highlight the ongoing interest and speculation within the cryptocurrency community, particularly around meme coins such as $PEPE. There is a mix of optimism and https://t.co/GosZ8NpIw2]
+Y_token = [chronoai, sentiment, analysis, last, 12h, ticker, pepe, sentiment, neutral, analysis, tweets, collectively, highlight, ongoing, interest, speculation, within, cryptocurrency, community, particularly, around, meme, coins, pepe, mix, optimism, https]
+	Y tweet_count = [15]
+	Y username = [chronoeffectorAI]
+Total Length: X = 303, Y = 293 (Y / X = 96.70  X / Y = 103.41)
+Dice Coefficient: 71.70% 
+

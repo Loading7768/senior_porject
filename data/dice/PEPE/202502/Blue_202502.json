@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "I want to be one of #MrRight's heroes. I'm joining the #resistance. #MemeCoins are not #toys.\n@MrRightSolana\n$SOL $BTC $ETH $XRP $DOGE #Solana $PEPE $LTC $Eigen $Shiba $Bome $Neiro $pnut $Goat $ethfi $Trump $vine  #WrestleMania    #ajafey #SB19 #Derby #VidaXLingOrm #b0202",
+        "X_token": "want, one, mrright, heroes, joining, resistance, memecoins, toys, mrrightsolana, sol, btc, eth, xrp, doge, solana, pepe, ltc, eigen, shiba, bome, neiro, pnut, goat, ethfi, trump, vine, wrestlemania, ajafey, sb19, derby, vidaxlingorm, b0202",
+        "X_tweet_count": 1,
+        "X_username": "Blue",
+        "Y_text": "Resistance #MrRight..\n@MrRightSolana\nhttps://t.co/LGzhizKt9a \n$SOL $BTC $ETH $XRP $DOGE #Solana $PEPE $LTC $Eigen $Shiba $Bome $Neiro $pnut $Goat $ethfi $Trump $vine   #CHUANGAsia #WrestleMania    #ajafey #SB19 #Derby #VidaXLingOrm #b0202 #bcstorm #Hearts2Hearts #Makeup",
+        "Y_token": "resistance, mrright, mrrightsolana, https, sol, btc, eth, xrp, doge, solana, pepe, ltc, eigen, shiba, bome, neiro, pnut, goat, ethfi, trump, vine, chuangasia, wrestlemania, ajafey, sb19, derby, vidaxlingorm, b0202, bcstorm, hearts2hearts, makeup",
+        "Y_tweet_count": 2,
+        "Y_username": "Blue",
+        "X_length": 272,
+        "Y_length": 270,
+        "Y_length_percent_of_X": 99.26,
+        "X_length_percent_of_Y": 100.74,
+        "dice_coefficient": 82.54
+    },
+    {
+        "X_text": "@BaseGirl_25 @rdginvest @base $TITANX #x28 #Base 🔥🔥🔥\n\n$BRETT #MIGGLES $PONCHO $BEPE #DOGINME $BENJI $KEYCAT $BEATS $DOOMER $AERO $DEGEN $VIRTUALS $SKI $TOSHI $PEPE $BMX $WHIRL $MOCHI #B3 $LUM $TYBG $MFERS $AIXBT \nhttps://t.co/z8PHN7h3ta",
+        "X_token": "rdginvest, base, titanx, x28, base, brett, miggles, poncho, bepe, doginme, benji, keycat, beats, doomer, aero, degen, virtuals, ski, toshi, pepe, bmx, whirl, mochi, b3, lum, tybg, mfers, aixbt, https",
+        "X_tweet_count": 14,
+        "X_username": "Blue",
+        "Y_text": "@PumpUranus $URANUS\nFAIR LAUNCH memeFI.\n50% Buy and Burn\nMassive reflections\n\n$VIRTUALS $SKI $TOSHI $PEPE $BRETT #MIGGLES $PONCHO $BEPE #DOGINME $BENJI $KEYCAT $TITANX $BEATS $BOOMER $AERO $DEGEN\n$BMX $WHIRL $MOCHI #B3 $LUM $MFER\n$TYBG $AIXBT",
+        "Y_token": "pumpuranus, uranus, fair, launch, memefi, 50, buy, burn, massive, reflections, virtuals, ski, toshi, pepe, brett, miggles, poncho, bepe, doginme, benji, keycat, titanx, beats, boomer, aero, degen, bmx, whirl, mochi, b3, lum, mfer, tybg, aixbt",
+        "Y_tweet_count": 20,
+        "Y_username": "Blue",
+        "X_length": 236,
+        "Y_length": 242,
+        "Y_length_percent_of_X": 102.54,
+        "X_length_percent_of_Y": 97.52,
+        "dice_coefficient": 70.97
+    },
+    {
+        "X_text": "Return to $pepe https://t.co/Y5MQf39fvA",
+        "X_token": "return, pepe, https",
+        "X_tweet_count": 15,
+        "X_username": "Blue",
+        "Y_text": "Return to $pepe https://t.co/ABJ5G26Vx2",
+        "Y_token": "return, pepe, https",
+        "Y_tweet_count": 18,
+        "Y_username": "Blue",
+        "X_length": 39,
+        "Y_length": 39,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 100.0
+    }
+]

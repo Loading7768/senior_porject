@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "Gm $pepe Frens 🤟🐸 https://t.co/wNROjrAOif",
+        "X_token": "gm, pepe, frens, https",
+        "X_tweet_count": 7,
+        "X_username": "PEPE SØUP 🐸",
+        "Y_text": "GM $pepe Bross 🤟🐸☕️🥐 https://t.co/e7MFhElccU",
+        "Y_token": "gm, pepe, bross, https",
+        "Y_tweet_count": 8,
+        "Y_username": "PEPE SØUP 🐸",
+        "X_length": 41,
+        "Y_length": 44,
+        "Y_length_percent_of_X": 107.32,
+        "X_length_percent_of_Y": 93.18,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "Gm $pepe Frens 🤟🐸 https://t.co/wNROjrAOif",
+        "X_token": "gm, pepe, frens, https",
+        "X_tweet_count": 7,
+        "X_username": "PEPE SØUP 🐸",
+        "Y_text": "Gm $pepe Fam 💚👋☕️ https://t.co/QzhdkTB0BY",
+        "Y_token": "gm, pepe, fam, https",
+        "Y_tweet_count": 14,
+        "Y_username": "PEPE SØUP 🐸",
+        "X_length": 41,
+        "Y_length": 41,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "GM $pepe Bross 🤟🐸☕️🥐 https://t.co/e7MFhElccU",
+        "X_token": "gm, pepe, bross, https",
+        "X_tweet_count": 8,
+        "X_username": "PEPE SØUP 🐸",
+        "Y_text": "Gm $pepe Fam 💚👋☕️ https://t.co/QzhdkTB0BY",
+        "Y_token": "gm, pepe, fam, https",
+        "Y_tweet_count": 14,
+        "Y_username": "PEPE SØUP 🐸",
+        "X_length": 44,
+        "Y_length": 41,
+        "Y_length_percent_of_X": 93.18,
+        "X_length_percent_of_Y": 107.32,
+        "dice_coefficient": 75.0
+    }
+]

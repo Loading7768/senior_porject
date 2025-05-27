@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@PepeOnAbs @AkizaCrypto @aixbt_agent $PEPE is all you need chiefs \nDon’t fade this project",
+        "X_token": "pepeonabs, akizacrypto, pepe, need, chiefs, fade, project",
+        "X_tweet_count": 4,
+        "X_username": "Hills Mill",
+        "Y_text": "@PepeOnAbs @kanyewest $PEPE is all you need chiefs \nDon’t fade this meta",
+        "Y_token": "pepeonabs, kanyewest, pepe, need, chiefs, fade, meta",
+        "Y_tweet_count": 8,
+        "Y_username": "Hills Mill",
+        "X_length": 90,
+        "Y_length": 72,
+        "Y_length_percent_of_X": 80.0,
+        "X_length_percent_of_Y": 125.0,
+        "dice_coefficient": 71.43
+    },
+    {
+        "X_text": "@PepeOnAbs @Cointelegraph $PEPE to the moon 🌕",
+        "X_token": "pepeonabs, cointelegraph, pepe, moon",
+        "X_tweet_count": 20,
+        "X_username": "Hills Mill",
+        "Y_text": "@PepeOnAbs @bunya_eth To the fucking moon 🌕 $PEPE",
+        "Y_token": "pepeonabs, fucking, moon, pepe",
+        "Y_tweet_count": 24,
+        "Y_username": "Hills Mill",
+        "X_length": 45,
+        "Y_length": 49,
+        "Y_length_percent_of_X": 108.89,
+        "X_length_percent_of_Y": 91.84,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@PepeOnAbs @PepeCZBinance $PEPE is the real\nTicker",
+        "X_token": "pepeonabs, pepeczbinance, pepe, real, ticker",
+        "X_tweet_count": 21,
+        "X_username": "Hills Mill",
+        "Y_text": "@PepeOnAbs @yupforreal $PEPE is the real ticker",
+        "Y_token": "pepeonabs, yupforreal, pepe, real, ticker",
+        "Y_tweet_count": 23,
+        "Y_username": "Hills Mill",
+        "X_length": 50,
+        "Y_length": 47,
+        "Y_length_percent_of_X": 94.0,
+        "X_length_percent_of_Y": 106.38,
+        "dice_coefficient": 80.0
+    }
+]

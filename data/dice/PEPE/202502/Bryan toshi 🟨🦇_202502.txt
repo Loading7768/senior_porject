@@ -1,0 +1,11 @@
+﻿X = [$PEPE $HOPPY $BOPPY in my opinion is heavily undervalued.\n\nPatience will be rewarded.]
+X_token = [pepe, hoppy, boppy, opinion, heavily, undervalued, patience, rewarded]
+	X tweet_count = [3]
+	X username = [Bryan toshi 🟨🦇]
+Y = [@CryptoFellaTx $PEPE $HOPPY $BOPPY in my opinion is heavily undervalued. \n\nPatience will be rewarded.]
+Y_token = [cryptofellatx, pepe, hoppy, boppy, opinion, heavily, undervalued, patience, rewarded]
+	Y tweet_count = [4]
+	Y username = [Bryan toshi 🟨🦇]
+Total Length: X = 85, Y = 101 (Y / X = 118.82  X / Y = 84.16)
+Dice Coefficient: 94.12% 
+

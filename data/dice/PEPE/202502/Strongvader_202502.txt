@@ -1,0 +1,33 @@
+﻿X = [Waiting.. $PEPE 🚀🐸 https://t.co/AUfBMfpzxi]
+X_token = [waiting, pepe, https]
+	X tweet_count = [3]
+	X username = [Strongvader]
+Y = [Again...  $PEPE https://t.co/KS8YtcVazz]
+Y_token = [pepe, https]
+	Y tweet_count = [5]
+	Y username = [Strongvader]
+Total Length: X = 42, Y = 39 (Y / X = 92.86  X / Y = 107.69)
+Dice Coefficient: 80.00% 
+
+X = [Waiting.. $PEPE 🚀🐸 https://t.co/AUfBMfpzxi]
+X_token = [waiting, pepe, https]
+	X tweet_count = [3]
+	X username = [Strongvader]
+Y = [Waiting... $PEPE https://t.co/2ZnxcOUq7R]
+Y_token = [waiting, pepe, https]
+	Y tweet_count = [6]
+	Y username = [Strongvader]
+Total Length: X = 42, Y = 40 (Y / X = 95.24  X / Y = 105.00)
+Dice Coefficient: 100.00% 
+
+X = [Again...  $PEPE https://t.co/KS8YtcVazz]
+X_token = [pepe, https]
+	X tweet_count = [5]
+	X username = [Strongvader]
+Y = [Waiting... $PEPE https://t.co/2ZnxcOUq7R]
+Y_token = [waiting, pepe, https]
+	Y tweet_count = [6]
+	Y username = [Strongvader]
+Total Length: X = 39, Y = 40 (Y / X = 102.56  X / Y = 97.50)
+Dice Coefficient: 80.00% 
+

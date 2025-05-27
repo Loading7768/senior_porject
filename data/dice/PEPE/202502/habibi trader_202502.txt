@@ -1,0 +1,22 @@
+﻿X = [@basitox1 @barkmeta @RainbowLifePepe $PEPE is the next big thing https://t.co/thWwUYyo8B]
+X_token = [basitox1, barkmeta, rainbowlifepepe, pepe, next, big, thing, https]
+	X tweet_count = [2]
+	X username = [habibi trader]
+Y = [@basitox1 @LexaproTrader @RainbowLifePepe $PEPE is the next big thing https://t.co/i1m5mR4qBr]
+Y_token = [basitox1, lexaprotrader, rainbowlifepepe, pepe, next, big, thing, https]
+	Y tweet_count = [12]
+	Y username = [habibi trader]
+Total Length: X = 88, Y = 93 (Y / X = 105.68  X / Y = 94.62)
+Dice Coefficient: 87.50% 
+
+X = [@joshuavictor121 @The__Solstice $PEPE is the talk of the town https://t.co/Ltb1yrE9b2]
+X_token = [joshuavictor121, pepe, talk, town, https]
+	X tweet_count = [5]
+	X username = [habibi trader]
+Y = [@basitox1 @xelf_sol @RainbowLifePepe $PEPE is the talk of the town https://t.co/Eledux1cm1]
+Y_token = [basitox1, rainbowlifepepe, pepe, talk, town, https]
+	Y tweet_count = [7]
+	Y username = [habibi trader]
+Total Length: X = 85, Y = 90 (Y / X = 105.88  X / Y = 94.44)
+Dice Coefficient: 72.73% 
+

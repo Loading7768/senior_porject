@@ -1,0 +1,62 @@
+[
+    {
+        "X_text": "@PepeOnAbs @TomsMetaverse @bearish_af $PEPE is all you need chiefs",
+        "X_token": "pepeonabs, tomsmetaverse, pepe, need, chiefs",
+        "X_tweet_count": 2,
+        "X_username": "TylerIalJ1",
+        "Y_text": "@PepeOnAbs @RickyDoggin $PEPE is the all you need chiefs",
+        "Y_token": "pepeonabs, rickydoggin, pepe, need, chiefs",
+        "Y_tweet_count": 5,
+        "Y_username": "TylerIalJ1",
+        "X_length": 66,
+        "Y_length": 56,
+        "Y_length_percent_of_X": 84.85,
+        "X_length_percent_of_Y": 117.86,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "@PepeOnAbs @Cointelegraph $PEPE is the ticker",
+        "X_token": "pepeonabs, cointelegraph, pepe, ticker",
+        "X_tweet_count": 9,
+        "X_username": "TylerIalJ1",
+        "Y_text": "@PepeOnAbs @Cointelegraph Don’t snooze on $PEPE",
+        "Y_token": "pepeonabs, cointelegraph, snooze, pepe",
+        "Y_tweet_count": 11,
+        "Y_username": "TylerIalJ1",
+        "X_length": 45,
+        "Y_length": 47,
+        "Y_length_percent_of_X": 104.44,
+        "X_length_percent_of_Y": 95.74,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@PepeOnAbs @Cointelegraph $PEPE is the ticker",
+        "X_token": "pepeonabs, cointelegraph, pepe, ticker",
+        "X_tweet_count": 9,
+        "X_username": "TylerIalJ1",
+        "Y_text": "@PepeOnAbs @TheMoonCarl $PEPE is the ticker",
+        "Y_token": "pepeonabs, themooncarl, pepe, ticker",
+        "Y_tweet_count": 14,
+        "Y_username": "TylerIalJ1",
+        "X_length": 45,
+        "Y_length": 43,
+        "Y_length_percent_of_X": 95.56,
+        "X_length_percent_of_Y": 104.65,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@PepeOnAbs @Cryptozins @kanyewest To the moon 🌕 $PEPE",
+        "X_token": "pepeonabs, cryptozins, kanyewest, moon, pepe",
+        "X_tweet_count": 13,
+        "X_username": "TylerIalJ1",
+        "Y_text": "@PepeOnAbs @Cryptozins @kanyewest $pepe to the moon",
+        "Y_token": "pepeonabs, cryptozins, kanyewest, pepe, moon",
+        "Y_tweet_count": 15,
+        "Y_username": "TylerIalJ1",
+        "X_length": 53,
+        "Y_length": 51,
+        "Y_length_percent_of_X": 96.23,
+        "X_length_percent_of_Y": 103.92,
+        "dice_coefficient": 100.0
+    }
+]

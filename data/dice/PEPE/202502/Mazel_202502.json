@@ -1,0 +1,62 @@
+[
+    {
+        "X_text": "@venturefounder $pepe coded https://t.co/QHMXtti1yq",
+        "X_token": "venturefounder, pepe, coded, https",
+        "X_tweet_count": 1,
+        "X_username": "Mazel",
+        "Y_text": "@drwasho $PEPE coded https://t.co/XKOs8V9B85",
+        "Y_token": "drwasho, pepe, coded, https",
+        "Y_tweet_count": 5,
+        "Y_username": "Mazel",
+        "X_length": 51,
+        "Y_length": 44,
+        "Y_length_percent_of_X": 86.27,
+        "X_length_percent_of_Y": 115.91,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@venturefounder $pepe coded https://t.co/QHMXtti1yq",
+        "X_token": "venturefounder, pepe, coded, https",
+        "X_tweet_count": 1,
+        "X_username": "Mazel",
+        "Y_text": "@digitalartchick $pepe coded https://t.co/HbWKBkToT9",
+        "Y_token": "digitalartchick, pepe, coded, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Mazel",
+        "X_length": 51,
+        "Y_length": 52,
+        "Y_length_percent_of_X": 101.96,
+        "X_length_percent_of_Y": 98.08,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@drwasho $PEPE coded https://t.co/XKOs8V9B85",
+        "X_token": "drwasho, pepe, coded, https",
+        "X_tweet_count": 5,
+        "X_username": "Mazel",
+        "Y_text": "@digitalartchick $pepe coded https://t.co/HbWKBkToT9",
+        "Y_token": "digitalartchick, pepe, coded, https",
+        "Y_tweet_count": 21,
+        "Y_username": "Mazel",
+        "X_length": 44,
+        "Y_length": 52,
+        "Y_length_percent_of_X": 118.18,
+        "X_length_percent_of_Y": 84.62,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "@digitalartchick $pepe coded https://t.co/HbWKBkToT9",
+        "X_token": "digitalartchick, pepe, coded, https",
+        "X_tweet_count": 21,
+        "X_username": "Mazel",
+        "Y_text": "@polaris_xbt @honey_xbt Also $pepe coded https://t.co/quIMQHsdJu",
+        "Y_token": "also, pepe, coded, https",
+        "Y_tweet_count": 22,
+        "Y_username": "Mazel",
+        "X_length": 52,
+        "Y_length": 64,
+        "Y_length_percent_of_X": 123.08,
+        "X_length_percent_of_Y": 81.25,
+        "dice_coefficient": 75.0
+    }
+]

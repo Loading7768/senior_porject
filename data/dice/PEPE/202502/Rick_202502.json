@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "$PEPE hopefully, more downn\n\n#pepe @pepecoineth https://t.co/19CNz7Ddyx",
+        "X_token": "pepe, hopefully, downn, pepe, pepecoineth, https",
+        "X_tweet_count": 21,
+        "X_username": "Rick",
+        "Y_text": "$PEPE hopefully,\n\nbut i didn't enter. #nfa #pepe @pepecoineth https://t.co/ZrEJpufgFd",
+        "Y_token": "pepe, hopefully, enter, nfa, pepe, pepecoineth, https",
+        "Y_tweet_count": 28,
+        "Y_username": "Rick",
+        "X_length": 71,
+        "Y_length": 85,
+        "Y_length_percent_of_X": 119.72,
+        "X_length_percent_of_Y": 83.53,
+        "dice_coefficient": 72.73
+    },
+    {
+        "X_text": "$PEPE short trade. #pepe @pepecoineth https://t.co/mlXOCfL4uf",
+        "X_token": "pepe, short, trade, pepe, pepecoineth, https",
+        "X_tweet_count": 31,
+        "X_username": "Rick",
+        "Y_text": "$PEPE long trade. #pepe @pepecoineth https://t.co/XqoGa05zpm",
+        "Y_token": "pepe, long, trade, pepe, pepecoineth, https",
+        "Y_tweet_count": 32,
+        "Y_username": "Rick",
+        "X_length": 61,
+        "Y_length": 60,
+        "Y_length_percent_of_X": 98.36,
+        "X_length_percent_of_Y": 101.67,
+        "dice_coefficient": 80.0
+    }
+]

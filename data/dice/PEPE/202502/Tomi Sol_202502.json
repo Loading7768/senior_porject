@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@PepeOnAbs @Cryptozins @kanyewest $PEPE to the moon 🌕",
+        "X_token": "pepeonabs, cryptozins, kanyewest, pepe, moon",
+        "X_tweet_count": 5,
+        "X_username": "Tomi Sol",
+        "Y_text": "@PepeOnAbs @Cryptozins @kanyewest Let’s goo to moon 🌕 $PEPE",
+        "Y_token": "pepeonabs, cryptozins, kanyewest, let, goo, moon, pepe",
+        "Y_tweet_count": 8,
+        "Y_username": "Tomi Sol",
+        "X_length": 53,
+        "Y_length": 59,
+        "Y_length_percent_of_X": 111.32,
+        "X_length_percent_of_Y": 89.83,
+        "dice_coefficient": 83.33
+    }
+]

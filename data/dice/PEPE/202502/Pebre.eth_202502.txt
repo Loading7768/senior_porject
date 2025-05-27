@@ -1,0 +1,22 @@
+﻿X = [@ScottiePippen Green $pepe https://t.co/Ah0E0PTeLL]
+X_token = [scottiepippen, green, pepe, https]
+	X tweet_count = [1]
+	X username = [Pebre.eth]
+Y = [Do you love green?\n\n$pepe 💚🐸 https://t.co/DhKHNaPBnF]
+Y_token = [love, green, pepe, https]
+	Y tweet_count = [22]
+	Y username = [Pebre.eth]
+Total Length: X = 50, Y = 52 (Y / X = 104.00  X / Y = 96.15)
+Dice Coefficient: 75.00% 
+
+X = [Buy more $pepe 💚🐸 https://t.co/FFtx7EAGqZ]
+X_token = [buy, pepe, https]
+	X tweet_count = [24]
+	X username = [Pebre.eth]
+Y = [Buy more $pepe 💚🐸 https://t.co/6nkrCuY84e]
+Y_token = [buy, pepe, https]
+	Y tweet_count = [27]
+	Y username = [Pebre.eth]
+Total Length: X = 41, Y = 41 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 100.00% 
+

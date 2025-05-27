@@ -1,0 +1,55 @@
+﻿X = [Top $Meme Coins by #Trading Volume (Last 24H):\n\n1. #TRUMP: $2.17B\n2. #DOGE: $1.82B\n3. #PEPE: $1.48B\n4. #WIF: $0.61B\n5. #PENGU: $0.38B\n\n#TrumpCoin stays on top, but $DOGE and $PEPE are closing the gap.\n$Meme coin wars continue—who's leading next? 👀👇\n\n#crypto https://t.co/fSzqPGuJJV]
+X_token = [top, meme, coins, trading, volume, last, 24h, 1, trump, 2, doge, 3, pepe, 4, wif, 5, pengu, trumpcoin, stays, top, doge, pepe, closing, gap, meme, coin, wars, leading, next, crypto, https]
+	X tweet_count = [1]
+	X username = [CryptOpus]
+Y = [Top $Meme Coins by #Trading Volume (Last 24H):\n\n1. #TRUMP: $2.17B\n2. #DOGE: $1.82B\n3. #PEPE: $1.48B\n4. #WIF: $0.61B\n5. #PENGU: $0.38B\n\n#TrumpCoin stays on top, but $DOGE and $PEPE are closing the gap.\n$Meme coin wars continue—who's leading next? 👀👇\n\n#crypto https://t.co/ZLCEyqEkdJ]
+Y_token = [top, meme, coins, trading, volume, last, 24h, 1, trump, 2, doge, 3, pepe, 4, wif, 5, pengu, trumpcoin, stays, top, doge, pepe, closing, gap, meme, coin, wars, leading, next, crypto, https]
+	Y tweet_count = [2]
+	Y username = [CryptOpus]
+Total Length: X = 281, Y = 281 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 100.00% 
+
+X = [Top $Meme Coins by #Trading Volume (Last 24H):\n\n1. #TRUMP: $4.49B\n2. #DOGE: $1.26B\n3. #PEPE: $0.66B\n4. #WIF: $0.34B\n5. #FARTCOIN: $0.27B\n\n#TrumpCoin continues to dominate while #Dogecoin and $Pepe battle for position. \nWill another contender rise to the top? 👀👇\n\n#crypto https://t.co/nJHs5v1wnL]
+X_token = [top, meme, coins, trading, volume, last, 24h, 1, trump, 2, doge, 3, pepe, 4, wif, 5, fartcoin, trumpcoin, continues, dominate, dogecoin, pepe, battle, position, another, contender, rise, top, crypto, https]
+	X tweet_count = [3]
+	X username = [CryptOpus]
+Y = [Top $Meme Coins by #Trading Volume (Last 24H):\n\n1. #TRUMP: $4.49B\n2. #DOGE: $1.26B\n3. #PEPE: $0.66B\n4. #WIF: $0.34B\n5. #FARTCOIN: $0.27B\n\n#TrumpCoin continues to dominate while #Dogecoin and $Pepe battle for position. \nWill another contender rise to the top? 👀👇\n\n#crypto https://t.co/Z9Af2xrqk9]
+Y_token = [top, meme, coins, trading, volume, last, 24h, 1, trump, 2, doge, 3, pepe, 4, wif, 5, fartcoin, trumpcoin, continues, dominate, dogecoin, pepe, battle, position, another, contender, rise, top, crypto, https]
+	Y tweet_count = [4]
+	Y username = [CryptOpus]
+Total Length: X = 294, Y = 294 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 100.00% 
+
+X = [Liquidation TOP10 (1 Hour)\n$BTC    $10.97M   \n$ETH    $3.11M    \n$XRP    $1.44M    \n$DOGE   $1.40M    \n$SOL    $891.87K  \n$SUI    $316.11K  \n$LTC    $293.68K  \n$PEPE   $284.11K  \nCOW    $275.88K  \nKAITO  $274.43K  \n\n#crypto]
+X_token = [liquidation, top10, 1, hour, btc, eth, xrp, doge, sol, sui, ltc, pepe, cow, kaito, crypto]
+	X tweet_count = [15]
+	X username = [CryptOpus]
+Y = [Liquidation TOP10 (1 Hour)\n$BTC    $64.65M   \n$ETH    $9.28M    \n$XRP    $4.50M    \n$SOL    $3.25M    \n$DOGE   $1.98M    \n$ADA    $603.45K  \n$SUI    $516.33K  \nKAITO  $430.62K  \n$PEPE   $404.77K  \n$LTC    $390.01K  \n\n#crypto]
+Y_token = [liquidation, top10, 1, hour, btc, eth, xrp, sol, doge, ada, sui, kaito, pepe, ltc, crypto]
+	Y tweet_count = [16]
+	Y username = [CryptOpus]
+Total Length: X = 223, Y = 224 (Y / X = 100.45  X / Y = 99.55)
+Dice Coefficient: 93.33% 
+
+X = [Liquidation TOP10 (1 Hour)\n$BTC    $10.97M   \n$ETH    $3.11M    \n$XRP    $1.44M    \n$DOGE   $1.40M    \n$SOL    $891.87K  \n$SUI    $316.11K  \n$LTC    $293.68K  \n$PEPE   $284.11K  \nCOW    $275.88K  \nKAITO  $274.43K  \n\n#crypto]
+X_token = [liquidation, top10, 1, hour, btc, eth, xrp, doge, sol, sui, ltc, pepe, cow, kaito, crypto]
+	X tweet_count = [15]
+	X username = [CryptOpus]
+Y = [Liquidation TOP10 (4 Hour)\n$BTC    $69.58M   \n$ETH    $34.61M   \n$SOL    $2.73M    \n$XRP    $2.41M    \n$DOGE   $2.04M    \n$SUI    $1.03M    \nKAITO  $1.01M    \n$ADA    $814.72K  \nTAO    $806.29K  \n$PEPE   $743.52K  \n\n#crypto]
+Y_token = [liquidation, top10, 4, hour, btc, eth, sol, xrp, doge, sui, kaito, ada, tao, pepe, crypto]
+	Y tweet_count = [17]
+	Y username = [CryptOpus]
+Total Length: X = 223, Y = 223 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 80.00% 
+
+X = [Liquidation TOP10 (1 Hour)\n$BTC    $64.65M   \n$ETH    $9.28M    \n$XRP    $4.50M    \n$SOL    $3.25M    \n$DOGE   $1.98M    \n$ADA    $603.45K  \n$SUI    $516.33K  \nKAITO  $430.62K  \n$PEPE   $404.77K  \n$LTC    $390.01K  \n\n#crypto]
+X_token = [liquidation, top10, 1, hour, btc, eth, xrp, sol, doge, ada, sui, kaito, pepe, ltc, crypto]
+	X tweet_count = [16]
+	X username = [CryptOpus]
+Y = [Liquidation TOP10 (4 Hour)\n$BTC    $69.58M   \n$ETH    $34.61M   \n$SOL    $2.73M    \n$XRP    $2.41M    \n$DOGE   $2.04M    \n$SUI    $1.03M    \nKAITO  $1.01M    \n$ADA    $814.72K  \nTAO    $806.29K  \n$PEPE   $743.52K  \n\n#crypto]
+Y_token = [liquidation, top10, 4, hour, btc, eth, sol, xrp, doge, sui, kaito, ada, tao, pepe, crypto]
+	Y tweet_count = [17]
+	Y username = [CryptOpus]
+Total Length: X = 224, Y = 223 (Y / X = 99.55  X / Y = 100.45)
+Dice Coefficient: 86.67% 
+

@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@kmoney_69 $pepe $mog coded 🫵😹🐸",
+        "X_token": "pepe, mog, coded",
+        "X_tweet_count": 24,
+        "X_username": "PEPEbigbrother",
+        "Y_text": "$pepe and $mog coded \n\n🫵😹🐸",
+        "Y_token": "pepe, mog, coded",
+        "Y_tweet_count": 25,
+        "Y_username": "PEPEbigbrother",
+        "X_length": 31,
+        "Y_length": 26,
+        "Y_length_percent_of_X": 83.87,
+        "X_length_percent_of_Y": 119.23,
+        "dice_coefficient": 100.0
+    },
+    {
+        "X_text": "@kmoney_69 $pepe $mog coded 🫵😹🐸",
+        "X_token": "pepe, mog, coded",
+        "X_tweet_count": 24,
+        "X_username": "PEPEbigbrother",
+        "Y_text": "@elonmusk $pepe and $mog coded",
+        "Y_token": "elonmusk, pepe, mog, coded",
+        "Y_tweet_count": 26,
+        "Y_username": "PEPEbigbrother",
+        "X_length": 31,
+        "Y_length": 30,
+        "Y_length_percent_of_X": 96.77,
+        "X_length_percent_of_Y": 103.33,
+        "dice_coefficient": 85.71
+    },
+    {
+        "X_text": "$pepe and $mog coded \n\n🫵😹🐸",
+        "X_token": "pepe, mog, coded",
+        "X_tweet_count": 25,
+        "X_username": "PEPEbigbrother",
+        "Y_text": "@elonmusk $pepe and $mog coded",
+        "Y_token": "elonmusk, pepe, mog, coded",
+        "Y_tweet_count": 26,
+        "Y_username": "PEPEbigbrother",
+        "X_length": 26,
+        "Y_length": 30,
+        "Y_length_percent_of_X": 115.38,
+        "X_length_percent_of_Y": 86.67,
+        "dice_coefficient": 85.71
+    }
+]

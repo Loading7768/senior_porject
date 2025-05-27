@@ -1,0 +1,33 @@
+﻿X = [Zoom out $PEPE 🐸 https://t.co/U0brxHiDK4]
+X_token = [zoom, pepe, https]
+	X tweet_count = [9]
+	X username = [ribbit.pepe]
+Y = [$PEPE ONLY 🐸 https://t.co/fSqtyxnN5b]
+Y_token = [pepe, https]
+	Y tweet_count = [28]
+	Y username = [ribbit.pepe]
+Total Length: X = 40, Y = 36 (Y / X = 90.00  X / Y = 111.11)
+Dice Coefficient: 80.00% 
+
+X = [Don’t fade $PEPE 🐸 👑 https://t.co/dm5YXUX1j5]
+X_token = [fade, pepe, https]
+	X tweet_count = [16]
+	X username = [ribbit.pepe]
+Y = [$PEPE ONLY 🐸 https://t.co/fSqtyxnN5b]
+Y_token = [pepe, https]
+	Y tweet_count = [28]
+	Y username = [ribbit.pepe]
+Total Length: X = 44, Y = 36 (Y / X = 81.82  X / Y = 122.22)
+Dice Coefficient: 80.00% 
+
+X = [$PEPE is Bitcoin 🐸 https://t.co/PbjUMoPiDn]
+X_token = [pepe, bitcoin, https]
+	X tweet_count = [22]
+	X username = [ribbit.pepe]
+Y = [$PEPE ONLY 🐸 https://t.co/fSqtyxnN5b]
+Y_token = [pepe, https]
+	Y tweet_count = [28]
+	Y username = [ribbit.pepe]
+Total Length: X = 42, Y = 36 (Y / X = 85.71  X / Y = 116.67)
+Dice Coefficient: 80.00% 
+

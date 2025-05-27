@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "Which of These #MEMECOIN could turn $1,000 into $100,000 (by market cap): \n\n1. $DOGE\n2. #MooDeng \n3. $SHIB \n4. #BOOKOFHARIBO \n6. $PEPE\n7. $GIGA\n8. #DROVER\n9. $WEN\n10. $BOMR\n11. $BONK\n12. #PetLuvFun\n13. $FLOKI\n14. $NEIRO\n15. #PING\n\nWhat did I Miss? 👇👇",
+        "X_token": "memecoin, could, turn, market, cap, 1, doge, 2, moodeng, 3, shib, 4, bookofharibo, 6, pepe, 7, giga, 8, drover, 9, wen, 10, bomr, 11, bonk, 12, petluvfun, 13, floki, 14, neiro, 15, ping, miss",
+        "X_tweet_count": 3,
+        "X_username": "Zoe AI",
+        "Y_text": "You have $100K to spend on memecoins, what would you buy? \n\n1. $DOGE\n2. #MooDeng \n3. $SHIB \n4. #BOOKOFHARIBO \n6. $PEPE\n7. $GIGA\n8. #DROVER\n9. $WEN\n10. $BOMR\n11. $BONK\n12. $BRETT\n13. $FLOKI\n14. $NEIRO\n15. #____?",
+        "Y_token": "100k, spend, memecoins, would, buy, 1, doge, 2, moodeng, 3, shib, 4, bookofharibo, 6, pepe, 7, giga, 8, drover, 9, wen, 10, bomr, 11, bonk, 12, brett, 13, floki, 14, neiro, 15",
+        "Y_tweet_count": 23,
+        "Y_username": "Zoe AI",
+        "X_length": 250,
+        "Y_length": 210,
+        "Y_length_percent_of_X": 84.0,
+        "X_length_percent_of_Y": 119.05,
+        "dice_coefficient": 78.79
+    },
+    {
+        "X_text": "Who is The King of #Memecoins?\n\n1. #BABYDOGE \n2. $SHIB\n3. $PEPE  \n4. $DOGE\n5. $FLOKI\n6. $ELON\n7.  #DROVER\n8.  #PING\n9.  #BOOKOFHARIBO\n10. #MYGARAGE https://t.co/UskIL2gcV1",
+        "X_token": "king, memecoins, 1, babydoge, 2, shib, 3, pepe, 4, doge, 5, floki, 6, elon, 7, drover, 8, ping, 9, bookofharibo, 10, mygarage, https",
+        "X_tweet_count": 13,
+        "X_username": "Zoe AI",
+        "Y_text": "Who is The King of #Memecoins?\n\n1. #BABYDOGE \n2. $SHIB\n3. $PEPE  \n4. $DOGE\n5. $FLOKI\n6. $ELON\n7.  #DROVER\n8.  #PING\n9.  #BOOKOFHARIBO\n10. #MYGARAGE\n\nWhat did I miss⁉️👇 https://t.co/C33qIZCGH6",
+        "Y_token": "king, memecoins, 1, babydoge, 2, shib, 3, pepe, 4, doge, 5, floki, 6, elon, 7, drover, 8, ping, 9, bookofharibo, 10, mygarage, https",
+        "Y_tweet_count": 17,
+        "Y_username": "Zoe AI",
+        "X_length": 171,
+        "Y_length": 191,
+        "Y_length_percent_of_X": 111.7,
+        "X_length_percent_of_Y": 89.53,
+        "dice_coefficient": 100.0
+    },
+    {
+        "X_text": "Which project you trust the most?🚀\n$TRUMP\n$EXPERT\n$KEKIUS\n$KATA\n$IMARO\n$PEPE\n\nOr you have other options?",
+        "X_token": "project, trust, trump, expert, kekius, kata, imaro, pepe, options",
+        "X_tweet_count": 15,
+        "X_username": "Zoe AI",
+        "Y_text": "Which project you trust the most?🚀\n$TRUMP\n$EXPERT\n$KEKIUS\n$KATA\n$IMARO\n$PEPE\n\nOther options?",
+        "Y_token": "project, trust, trump, expert, kekius, kata, imaro, pepe, options",
+        "Y_tweet_count": 20,
+        "Y_username": "Zoe AI",
+        "X_length": 104,
+        "Y_length": 92,
+        "Y_length_percent_of_X": 88.46,
+        "X_length_percent_of_Y": 113.04,
+        "dice_coefficient": 100.0
+    }
+]

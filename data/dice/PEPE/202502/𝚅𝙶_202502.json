@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "Close this one up. $pepe https://t.co/RIoVDAk9nF",
+        "X_token": "close, one, pepe, https",
+        "X_tweet_count": 2,
+        "X_username": "𝚅𝙶",
+        "Y_text": "Closing this one up. \n\n$pepe https://t.co/lHmzjQpG1O",
+        "Y_token": "closing, one, pepe, https",
+        "Y_tweet_count": 3,
+        "Y_username": "𝚅𝙶",
+        "X_length": 48,
+        "Y_length": 52,
+        "Y_length_percent_of_X": 108.33,
+        "X_length_percent_of_Y": 92.31,
+        "dice_coefficient": 75.0
+    }
+]

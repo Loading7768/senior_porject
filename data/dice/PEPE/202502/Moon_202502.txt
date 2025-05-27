@@ -1,0 +1,22 @@
+﻿X = [Ready $PEPE frens? https://t.co/EIkVNmg2xz]
+X_token = [ready, pepe, frens, https]
+	X tweet_count = [16]
+	X username = [Moon]
+Y = [Turn up $PEPE frens! 🐸 https://t.co/Vx9xlKJHTu]
+Y_token = [turn, pepe, frens, https]
+	Y tweet_count = [45]
+	Y username = [Moon]
+Total Length: X = 42, Y = 46 (Y / X = 109.52  X / Y = 91.30)
+Dice Coefficient: 75.00% 
+
+X = [It’s $PEPE Friday! 🐸 https://t.co/uZm2VWMZQX]
+X_token = [pepe, friday, https]
+	X tweet_count = [32]
+	X username = [Moon]
+Y = [It’s $PEPE Friday! https://t.co/74Bjegmeqx]
+Y_token = [pepe, friday, https]
+	Y tweet_count = [69]
+	Y username = [Moon]
+Total Length: X = 44, Y = 42 (Y / X = 95.45  X / Y = 104.76)
+Dice Coefficient: 100.00% 
+

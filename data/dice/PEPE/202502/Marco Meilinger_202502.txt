@@ -1,0 +1,22 @@
+﻿X = [@HBAcrypto $pepe is king 🐸👑]
+X_token = [hbacrypto, pepe, king]
+	X tweet_count = [1]
+	X username = [Marco Meilinger]
+Y = [@HBAcrypto $pepe only 🐸🚀]
+Y_token = [hbacrypto, pepe]
+	Y tweet_count = [18]
+	Y username = [Marco Meilinger]
+Total Length: X = 27, Y = 24 (Y / X = 88.89  X / Y = 112.50)
+Dice Coefficient: 80.00% 
+
+X = [@ElonMuskPDA $pepe pump incoming 🐸🚀]
+X_token = [elonmuskpda, pepe, pump, incoming]
+	X tweet_count = [10]
+	X username = [Marco Meilinger]
+Y = [@ElonMuskPDA $pepe pump soon 🐸🚀]
+Y_token = [elonmuskpda, pepe, pump, soon]
+	Y tweet_count = [20]
+	Y username = [Marco Meilinger]
+Total Length: X = 35, Y = 31 (Y / X = 88.57  X / Y = 112.90)
+Dice Coefficient: 75.00% 
+

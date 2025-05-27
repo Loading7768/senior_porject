@@ -1,0 +1,44 @@
+﻿X = [@EricTrump SEND ITTT\n$PEPE $ETH https://t.co/z06JET7hlq]
+X_token = [erictrump, send, ittt, pepe, eth, https]
+	X tweet_count = [6]
+	X username = [Aiden 🇮🇪☘️ KGeN]
+Y = [@EricTrump LFGGG SEND IT\n$PEPE $ETH https://t.co/JuTDP6bxHa]
+Y_token = [erictrump, lfggg, send, pepe, eth, https]
+	Y tweet_count = [7]
+	Y username = [Aiden 🇮🇪☘️ KGeN]
+Total Length: X = 55, Y = 59 (Y / X = 107.27  X / Y = 93.22)
+Dice Coefficient: 83.33% 
+
+X = [@EricTrump SEND ITTT\n$PEPE $ETH https://t.co/z06JET7hlq]
+X_token = [erictrump, send, ittt, pepe, eth, https]
+	X tweet_count = [6]
+	X username = [Aiden 🇮🇪☘️ KGeN]
+Y = [@EricTrump SEND ITTTT \n$ETH $PEPE https://t.co/8axU80czQS]
+Y_token = [erictrump, send, itttt, eth, pepe, https]
+	Y tweet_count = [8]
+	Y username = [Aiden 🇮🇪☘️ KGeN]
+Total Length: X = 55, Y = 57 (Y / X = 103.64  X / Y = 96.49)
+Dice Coefficient: 83.33% 
+
+X = [@EricTrump LFGGG SEND IT\n$PEPE $ETH https://t.co/JuTDP6bxHa]
+X_token = [erictrump, lfggg, send, pepe, eth, https]
+	X tweet_count = [7]
+	X username = [Aiden 🇮🇪☘️ KGeN]
+Y = [@EricTrump SEND ITTTT \n$ETH $PEPE https://t.co/8axU80czQS]
+Y_token = [erictrump, send, itttt, eth, pepe, https]
+	Y tweet_count = [8]
+	Y username = [Aiden 🇮🇪☘️ KGeN]
+Total Length: X = 59, Y = 57 (Y / X = 96.61  X / Y = 103.51)
+Dice Coefficient: 83.33% 
+
+X = [@MustStopMurad You mean $PEPE https://t.co/h2wid1WTG7]
+X_token = [muststopmurad, mean, pepe, https]
+	X tweet_count = [23]
+	X username = [Aiden 🇮🇪☘️ KGeN]
+Y = [@MustStopMurad He means $PEPE https://t.co/nAFSqJJQN9]
+Y_token = [muststopmurad, means, pepe, https]
+	Y tweet_count = [37]
+	Y username = [Aiden 🇮🇪☘️ KGeN]
+Total Length: X = 53, Y = 53 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 75.00% 
+

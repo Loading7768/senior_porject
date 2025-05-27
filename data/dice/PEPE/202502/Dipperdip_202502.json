@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@coinbase Buy $PEPE UK people",
+        "X_token": "coinbase, buy, pepe, uk, people",
+        "X_tweet_count": 5,
+        "X_username": "Dipperdip",
+        "Y_text": "@coinbase UK people buy $PEPE now!",
+        "Y_token": "coinbase, uk, people, buy, pepe",
+        "Y_tweet_count": 6,
+        "Y_username": "Dipperdip",
+        "X_length": 29,
+        "Y_length": 34,
+        "Y_length_percent_of_X": 117.24,
+        "X_length_percent_of_Y": 85.29,
+        "dice_coefficient": 100.0
+    }
+]

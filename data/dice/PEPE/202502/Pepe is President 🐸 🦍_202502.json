@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@blackmascara0x remember the King of #Memes 🫡\n\n$PEPE https://t.co/QMhIUGb6hj",
+        "X_token": "blackmascara0x, remember, king, memes, pepe, https",
+        "X_tweet_count": 26,
+        "X_username": "Pepe is President 🐸 🦍",
+        "Y_text": "@blackmascara0x @pepecoineth $PEPE really is the king of #Memes https://t.co/AQDPMTVeBS",
+        "Y_token": "blackmascara0x, pepecoineth, pepe, really, king, memes, https",
+        "Y_tweet_count": 27,
+        "Y_username": "Pepe is President 🐸 🦍",
+        "X_length": 76,
+        "Y_length": 87,
+        "Y_length_percent_of_X": 114.47,
+        "X_length_percent_of_Y": 87.36,
+        "dice_coefficient": 76.92
+    }
+]

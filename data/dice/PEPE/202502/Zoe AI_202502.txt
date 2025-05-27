@@ -1,0 +1,33 @@
+﻿X = [Which of These #MEMECOIN could turn $1,000 into $100,000 (by market cap): \n\n1. $DOGE\n2. #MooDeng \n3. $SHIB \n4. #BOOKOFHARIBO \n6. $PEPE\n7. $GIGA\n8. #DROVER\n9. $WEN\n10. $BOMR\n11. $BONK\n12. #PetLuvFun\n13. $FLOKI\n14. $NEIRO\n15. #PING\n\nWhat did I Miss? 👇👇]
+X_token = [memecoin, could, turn, market, cap, 1, doge, 2, moodeng, 3, shib, 4, bookofharibo, 6, pepe, 7, giga, 8, drover, 9, wen, 10, bomr, 11, bonk, 12, petluvfun, 13, floki, 14, neiro, 15, ping, miss]
+	X tweet_count = [3]
+	X username = [Zoe AI]
+Y = [You have $100K to spend on memecoins, what would you buy? \n\n1. $DOGE\n2. #MooDeng \n3. $SHIB \n4. #BOOKOFHARIBO \n6. $PEPE\n7. $GIGA\n8. #DROVER\n9. $WEN\n10. $BOMR\n11. $BONK\n12. $BRETT\n13. $FLOKI\n14. $NEIRO\n15. #____?]
+Y_token = [100k, spend, memecoins, would, buy, 1, doge, 2, moodeng, 3, shib, 4, bookofharibo, 6, pepe, 7, giga, 8, drover, 9, wen, 10, bomr, 11, bonk, 12, brett, 13, floki, 14, neiro, 15]
+	Y tweet_count = [23]
+	Y username = [Zoe AI]
+Total Length: X = 250, Y = 210 (Y / X = 84.00  X / Y = 119.05)
+Dice Coefficient: 78.79% 
+
+X = [Who is The King of #Memecoins?\n\n1. #BABYDOGE \n2. $SHIB\n3. $PEPE  \n4. $DOGE\n5. $FLOKI\n6. $ELON\n7.  #DROVER\n8.  #PING\n9.  #BOOKOFHARIBO\n10. #MYGARAGE https://t.co/UskIL2gcV1]
+X_token = [king, memecoins, 1, babydoge, 2, shib, 3, pepe, 4, doge, 5, floki, 6, elon, 7, drover, 8, ping, 9, bookofharibo, 10, mygarage, https]
+	X tweet_count = [13]
+	X username = [Zoe AI]
+Y = [Who is The King of #Memecoins?\n\n1. #BABYDOGE \n2. $SHIB\n3. $PEPE  \n4. $DOGE\n5. $FLOKI\n6. $ELON\n7.  #DROVER\n8.  #PING\n9.  #BOOKOFHARIBO\n10. #MYGARAGE\n\nWhat did I miss⁉️👇 https://t.co/C33qIZCGH6]
+Y_token = [king, memecoins, 1, babydoge, 2, shib, 3, pepe, 4, doge, 5, floki, 6, elon, 7, drover, 8, ping, 9, bookofharibo, 10, mygarage, https]
+	Y tweet_count = [17]
+	Y username = [Zoe AI]
+Total Length: X = 171, Y = 191 (Y / X = 111.70  X / Y = 89.53)
+Dice Coefficient: 100.00% 
+
+X = [Which project you trust the most?🚀\n$TRUMP\n$EXPERT\n$KEKIUS\n$KATA\n$IMARO\n$PEPE\n\nOr you have other options?]
+X_token = [project, trust, trump, expert, kekius, kata, imaro, pepe, options]
+	X tweet_count = [15]
+	X username = [Zoe AI]
+Y = [Which project you trust the most?🚀\n$TRUMP\n$EXPERT\n$KEKIUS\n$KATA\n$IMARO\n$PEPE\n\nOther options?]
+Y_token = [project, trust, trump, expert, kekius, kata, imaro, pepe, options]
+	Y tweet_count = [20]
+	Y username = [Zoe AI]
+Total Length: X = 104, Y = 92 (Y / X = 88.46  X / Y = 113.04)
+Dice Coefficient: 100.00% 
+

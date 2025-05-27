@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@micahbullis @pepecoineth @fefecoinerc You only need two $FEFE and $PEPE https://t.co/U3X49hihZH",
+        "X_token": "micahbullis, pepecoineth, fefecoinerc, need, two, fefe, pepe, https",
+        "X_tweet_count": 5,
+        "X_username": "Brent Petersen",
+        "Y_text": "@micahbullis You only need these two: $PEPE and $FEFE. https://t.co/JwAbiav5pk",
+        "Y_token": "micahbullis, need, two, pepe, fefe, https",
+        "Y_tweet_count": 8,
+        "Y_username": "Brent Petersen",
+        "X_length": 96,
+        "Y_length": 78,
+        "Y_length_percent_of_X": 81.25,
+        "X_length_percent_of_Y": 123.08,
+        "dice_coefficient": 85.71
+    }
+]

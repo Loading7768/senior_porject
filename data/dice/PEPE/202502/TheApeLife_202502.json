@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@cryptojourneyrs @AI_Meme_Intern @pepe_sui_token We are ready for takeoff! 🚀\n\n$Pepe on $SUI\n\nCA: 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25::pepe::PEPE https://t.co/GLQkFHnjPn",
+        "X_token": "cryptojourneyrs, ready, takeoff, pepe, sui, ca, 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25, https",
+        "X_tweet_count": 7,
+        "X_username": "TheApeLife",
+        "Y_text": "@DEXWireTeam @pepe_sui_token @DEXWireNews READY TO SEND! 🚀\n\n$PEPE ON $SUI\n\nCA: 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25::pepe::PEPE https://t.co/CWAv1hvPUT",
+        "Y_token": "dexwireteam, dexwirenews, ready, send, pepe, sui, ca, 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25, https",
+        "Y_tweet_count": 33,
+        "Y_username": "TheApeLife",
+        "X_length": 199,
+        "Y_length": 181,
+        "Y_length_percent_of_X": 90.95,
+        "X_length_percent_of_Y": 109.94,
+        "dice_coefficient": 70.59
+    },
+    {
+        "X_text": "@NiraNew84 @pepe_sui_token I see it 👀\n\n$Pepe on $Sui https://t.co/V0Fe2kjHku",
+        "X_token": "niranew84, see, pepe, sui, https",
+        "X_tweet_count": 12,
+        "X_username": "TheApeLife",
+        "Y_text": "@NiraNew84 @anndylian @pepe_sui_token Don't fade $Pepe on $Sui https://t.co/I6N1Xb00gN",
+        "Y_token": "niranew84, anndylian, fade, pepe, sui, https",
+        "Y_tweet_count": 13,
+        "Y_username": "TheApeLife",
+        "X_length": 76,
+        "Y_length": 86,
+        "Y_length_percent_of_X": 113.16,
+        "X_length_percent_of_Y": 88.37,
+        "dice_coefficient": 72.73
+    },
+    {
+        "X_text": "@isendfar 100x loading ...\n\nThe ticker is $Pepe on $SUI\n@pepe_sui_token \n\nCa: 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25::pepe::PEPE https://t.co/B3FItmL61l",
+        "X_token": "isendfar, 100x, loading, ticker, pepe, sui, ca, 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25, https",
+        "X_tweet_count": 14,
+        "X_username": "TheApeLife",
+        "Y_text": "@EricTrump We are loading heavy!! 💯\n\n@pepe_sui_token \n$Pepe on $SUI\n\nCA: 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25::pepe::PEPE https://t.co/VAzkpRXYOD",
+        "Y_token": "erictrump, loading, heavy, pepe, sui, ca, 0x288710173f12f677ac38b0c2b764a0fea8108cb5e32059c3dd8f650d65e2cb25, https",
+        "Y_tweet_count": 26,
+        "Y_username": "TheApeLife",
+        "X_length": 180,
+        "Y_length": 175,
+        "Y_length_percent_of_X": 97.22,
+        "X_length_percent_of_Y": 102.86,
+        "dice_coefficient": 70.59
+    }
+]

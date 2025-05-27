@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "When you own memecoins $doge $shib $spa $swftc $pepe https://t.co/2xnDUllUCf",
+        "X_token": "memecoins, doge, shib, spa, swftc, pepe, https",
+        "X_tweet_count": 10,
+        "X_username": "Golden Age Finance",
+        "Y_text": "$trump are we back? \n$shib $pepe $doge $vine $spa $swftc https://t.co/JVZXvbP6Ku",
+        "Y_token": "trump, back, shib, pepe, doge, vine, spa, swftc, https",
+        "Y_tweet_count": 18,
+        "Y_username": "Golden Age Finance",
+        "X_length": 76,
+        "Y_length": 80,
+        "Y_length_percent_of_X": 105.26,
+        "X_length_percent_of_Y": 95.0,
+        "dice_coefficient": 75.0
+    },
+    {
+        "X_text": "And just like that the market is GREEN. Did you sell???\n$btc $eth $sol $doge $pepe $shib https://t.co/NwnNEPW0Wc",
+        "X_token": "like, market, green, sell, btc, eth, sol, doge, pepe, shib, https",
+        "X_tweet_count": 29,
+        "X_username": "Golden Age Finance",
+        "Y_text": "Will you be the next fool to sell on a 20-30% dip? \n$btc $eth $sol $doge $shib $pepe https://t.co/Q4q2bl6cOe",
+        "Y_token": "next, fool, sell, dip, btc, eth, sol, doge, shib, pepe, https",
+        "Y_tweet_count": 32,
+        "Y_username": "Golden Age Finance",
+        "X_length": 112,
+        "Y_length": 108,
+        "Y_length_percent_of_X": 96.43,
+        "X_length_percent_of_Y": 103.7,
+        "dice_coefficient": 72.73
+    }
+]

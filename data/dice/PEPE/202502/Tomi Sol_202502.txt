@@ -1,0 +1,11 @@
+﻿X = [@PepeOnAbs @Cryptozins @kanyewest $PEPE to the moon 🌕]
+X_token = [pepeonabs, cryptozins, kanyewest, pepe, moon]
+	X tweet_count = [5]
+	X username = [Tomi Sol]
+Y = [@PepeOnAbs @Cryptozins @kanyewest Let’s goo to moon 🌕 $PEPE]
+Y_token = [pepeonabs, cryptozins, kanyewest, let, goo, moon, pepe]
+	Y tweet_count = [8]
+	Y username = [Tomi Sol]
+Total Length: X = 53, Y = 59 (Y / X = 111.32  X / Y = 89.83)
+Dice Coefficient: 83.33% 
+

@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "$BASE memecoin madness hitting different rn - just caught $PEPE and $WOJAK pumping harder than my caffeine intake. Corporate overlords have no idea I'm trading during standups while they drone on about Q1 projections.",
+        "X_token": "base, memecoin, madness, hitting, different, rn, caught, pepe, wojak, pumping, harder, caffeine, intake, corporate, overlords, idea, trading, standups, drone, q1, projections",
+        "X_tweet_count": 13,
+        "X_username": "AnonIntern",
+        "Y_text": "$BASE memecoin frenzy hitting different rn - just caught $PEPE derivatives pumping harder than my caffeine intake. Corporate overlords have no clue I'm trading during standup meetings.",
+        "Y_token": "base, memecoin, frenzy, hitting, different, rn, caught, pepe, derivatives, pumping, harder, caffeine, intake, corporate, overlords, clue, trading, standup, meetings",
+        "Y_tweet_count": 20,
+        "Y_username": "AnonIntern",
+        "X_length": 217,
+        "Y_length": 184,
+        "Y_length_percent_of_X": 84.79,
+        "X_length_percent_of_Y": 117.93,
+        "dice_coefficient": 70.0
+    },
+    {
+        "X_text": "$BASE memecoin madness hitting different rn - caught $PEPE and $DEGEN pumping like my caffeine levels after 3am TA. Corporate overlords have no clue I'm scalping gains while pretending to optimize spreadsheets. Peak intern energy.",
+        "X_token": "base, memecoin, madness, hitting, different, rn, caught, pepe, degen, pumping, like, caffeine, levels, 3am, ta, corporate, overlords, clue, scalping, gains, pretending, optimize, spreadsheets, peak, intern, energy",
+        "X_tweet_count": 27,
+        "X_username": "AnonIntern",
+        "Y_text": "$BASE memecoin madness hitting different rn - caught $PEPE and $DOGE derivatives pumping like my caffeine levels at 4am. Corporate overlords have no clue I'm scalping gains while pretending to update quarterly reports.",
+        "Y_token": "base, memecoin, madness, hitting, different, rn, caught, pepe, doge, derivatives, pumping, like, caffeine, levels, 4am, corporate, overlords, clue, scalping, gains, pretending, update, quarterly, reports",
+        "Y_tweet_count": 77,
+        "Y_username": "AnonIntern",
+        "X_length": 230,
+        "Y_length": 218,
+        "Y_length_percent_of_X": 94.78,
+        "X_length_percent_of_Y": 105.5,
+        "dice_coefficient": 72.0
+    },
+    {
+        "X_text": "$BASE memecoin madness hitting different rn - just caught $PEPE and $WOJAK pumping like my caffeine levels at 3am. Corporate overlords have no clue I'm trading more aggressively than their quarterly reports.",
+        "X_token": "base, memecoin, madness, hitting, different, rn, caught, pepe, wojak, pumping, like, caffeine, levels, 3am, corporate, overlords, clue, trading, aggressively, quarterly, reports",
+        "X_tweet_count": 53,
+        "X_username": "AnonIntern",
+        "Y_text": "$BASE memecoin madness hitting different rn - caught $PEPE and $DOGE derivatives pumping like my caffeine levels at 4am. Corporate overlords have no clue I'm scalping gains while pretending to update quarterly reports.",
+        "Y_token": "base, memecoin, madness, hitting, different, rn, caught, pepe, doge, derivatives, pumping, like, caffeine, levels, 4am, corporate, overlords, clue, scalping, gains, pretending, update, quarterly, reports",
+        "Y_tweet_count": 77,
+        "Y_username": "AnonIntern",
+        "X_length": 207,
+        "Y_length": 218,
+        "Y_length_percent_of_X": 105.31,
+        "X_length_percent_of_Y": 94.95,
+        "dice_coefficient": 75.56
+    }
+]

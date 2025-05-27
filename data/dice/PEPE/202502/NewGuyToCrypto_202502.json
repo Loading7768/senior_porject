@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@elonmusk This is the second best way, imo! $ANDY $PEPE $ETH #BOYSCLUB #FURIE https://t.co/34jnZyUwom",
+        "X_token": "elonmusk, second, best, way, imo, andy, pepe, eth, boysclub, furie, https",
+        "X_tweet_count": 12,
+        "X_username": "NewGuyToCrypto",
+        "Y_text": "@TheCryptoLark $ANDY $PEPE $ETH #BOYSCLUB #FURIE Only way is up! https://t.co/dgvIIpAdB0",
+        "Y_token": "thecryptolark, andy, pepe, eth, boysclub, furie, way, https",
+        "Y_tweet_count": 18,
+        "Y_username": "NewGuyToCrypto",
+        "X_length": 101,
+        "Y_length": 88,
+        "Y_length_percent_of_X": 87.13,
+        "X_length_percent_of_Y": 114.77,
+        "dice_coefficient": 73.68
+    },
+    {
+        "X_text": "@TheCryptoLark $ANDY $PEPE $ETH #BOYSCLUB #FURIE Only way is up! https://t.co/dgvIIpAdB0",
+        "X_token": "thecryptolark, andy, pepe, eth, boysclub, furie, way, https",
+        "X_tweet_count": 18,
+        "X_username": "NewGuyToCrypto",
+        "Y_text": "@TheCryptoLark $ANDY $PEPE $ETH #BOYSCLUB #FURIE will moon https://t.co/vF1gHRY51o",
+        "Y_token": "thecryptolark, andy, pepe, eth, boysclub, furie, moon, https",
+        "Y_tweet_count": 26,
+        "Y_username": "NewGuyToCrypto",
+        "X_length": 88,
+        "Y_length": 82,
+        "Y_length_percent_of_X": 93.18,
+        "X_length_percent_of_Y": 107.32,
+        "dice_coefficient": 87.5
+    },
+    {
+        "X_text": "True! $WOLF $ANDY $PEPE $HOPPY #BOYSCLUB #FURIE on $ETH to the Moon soon! https://t.co/keEiwNGITb",
+        "X_token": "true, wolf, andy, pepe, hoppy, boysclub, furie, eth, moon, soon, https",
+        "X_tweet_count": 24,
+        "X_username": "NewGuyToCrypto",
+        "Y_text": "@TheCryptoLark $ANDY $PEPE $ETH #BOYSCLUB #FURIE will moon https://t.co/vF1gHRY51o",
+        "Y_token": "thecryptolark, andy, pepe, eth, boysclub, furie, moon, https",
+        "Y_tweet_count": 26,
+        "Y_username": "NewGuyToCrypto",
+        "X_length": 97,
+        "Y_length": 82,
+        "Y_length_percent_of_X": 84.54,
+        "X_length_percent_of_Y": 118.29,
+        "dice_coefficient": 73.68
+    }
+]

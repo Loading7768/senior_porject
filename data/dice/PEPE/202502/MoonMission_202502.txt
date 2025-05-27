@@ -1,0 +1,22 @@
+﻿X = [@ChandlerCharts $Pepe is the One]
+X_token = [chandlercharts, pepe, one]
+	X tweet_count = [4]
+	X username = [MoonMission]
+Y = [$Pepe is the One and Only!]
+Y_token = [pepe, one]
+	Y tweet_count = [17]
+	Y username = [MoonMission]
+Total Length: X = 32, Y = 26 (Y / X = 81.25  X / Y = 123.08)
+Dice Coefficient: 80.00% 
+
+X = [$PEPE to a penny.]
+X_token = [pepe, penny]
+	X tweet_count = [13]
+	X username = [MoonMission]
+Y = [$PEPE TO A PENNY]
+Y_token = [pepe, penny]
+	Y tweet_count = [15]
+	Y username = [MoonMission]
+Total Length: X = 17, Y = 16 (Y / X = 94.12  X / Y = 106.25)
+Dice Coefficient: 100.00% 
+

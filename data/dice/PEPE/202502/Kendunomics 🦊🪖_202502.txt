@@ -1,0 +1,22 @@
+﻿X = [@kanyewest Adults buy memes on ETHEREUM\n\nSo just $Apeman\n\n@ApeManCTO $pepe $mog https://t.co/Pm6X0KvWeL]
+X_token = [kanyewest, adults, buy, memes, ethereum, apeman, apemancto, pepe, mog, https]
+	X tweet_count = [4]
+	X username = [Kendunomics 🦊🪖]
+Y = [@cryptoskullx Adults build memes on ETH\n\nSo just $Apeman \n\n@ApeManCTO $pepe $mog https://t.co/H4ZqL8F7Re]
+Y_token = [cryptoskullx, adults, build, memes, eth, apeman, apemancto, pepe, mog, https]
+	Y tweet_count = [15]
+	Y username = [Kendunomics 🦊🪖]
+Total Length: X = 103, Y = 104 (Y / X = 100.97  X / Y = 99.04)
+Dice Coefficient: 70.00% 
+
+X = [@digitalartchick It do , it do.\n\nAdults build there memes on ETH so just $Apeman \n\n$pepe $mog @ApeManCTO]
+X_token = [digitalartchick, adults, build, memes, eth, apeman, pepe, mog, apemancto]
+	X tweet_count = [9]
+	X username = [Kendunomics 🦊🪖]
+Y = [@cryptoskullx Adults build memes on ETH\n\nSo just $Apeman \n\n@ApeManCTO $pepe $mog https://t.co/H4ZqL8F7Re]
+Y_token = [cryptoskullx, adults, build, memes, eth, apeman, apemancto, pepe, mog, https]
+	Y tweet_count = [15]
+	Y username = [Kendunomics 🦊🪖]
+Total Length: X = 104, Y = 104 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 84.21% 
+

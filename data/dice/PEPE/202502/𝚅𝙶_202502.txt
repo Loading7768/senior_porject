@@ -1,0 +1,11 @@
+﻿X = [Close this one up. $pepe https://t.co/RIoVDAk9nF]
+X_token = [close, one, pepe, https]
+	X tweet_count = [2]
+	X username = [𝚅𝙶]
+Y = [Closing this one up. \n\n$pepe https://t.co/lHmzjQpG1O]
+Y_token = [closing, one, pepe, https]
+	Y tweet_count = [3]
+	Y username = [𝚅𝙶]
+Total Length: X = 48, Y = 52 (Y / X = 108.33  X / Y = 92.31)
+Dice Coefficient: 75.00% 
+

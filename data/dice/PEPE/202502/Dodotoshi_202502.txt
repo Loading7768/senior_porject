@@ -1,0 +1,55 @@
+﻿X = [@Z_Humphries Look up $Wolf and $Pepe https://t.co/5LKEDOAXGi]
+X_token = [look, wolf, pepe, https]
+	X tweet_count = [4]
+	X username = [Dodotoshi]
+Y = [@blockchaingob69 $Pepe then $Wolf https://t.co/gkgzKpqI7p]
+Y_token = [blockchaingob69, pepe, wolf, https]
+	Y tweet_count = [13]
+	Y username = [Dodotoshi]
+Total Length: X = 60, Y = 57 (Y / X = 95.00  X / Y = 105.26)
+Dice Coefficient: 75.00% 
+
+X = [@micahbullis @henokcrypto @fefecoinerc $FEFE FROM MINDVISCOSITY\n$PEPE FROM BOYSCLUB]
+X_token = [micahbullis, henokcrypto, fefecoinerc, fefe, mindviscosity, pepe, boysclub]
+	X tweet_count = [19]
+	X username = [Dodotoshi]
+Y = [@micahbullis @digitalartchick $Fefe Mindviscosity\n\n$Pepe Boysclub https://t.co/Zp31bs4lYt]
+Y_token = [micahbullis, digitalartchick, fefe, mindviscosity, pepe, boysclub, https]
+	Y tweet_count = [31]
+	Y username = [Dodotoshi]
+Total Length: X = 83, Y = 89 (Y / X = 107.23  X / Y = 93.26)
+Dice Coefficient: 71.43% 
+
+X = [SALVADOR IS BACK SEND THE MEMES GREEN CANDLES GREEN FROGS $Pepe n $Fefe different books same artist\n\n@fefecoinerc @pepecoineth https://t.co/kcr9NduviW]
+X_token = [salvador, back, send, memes, green, candles, green, frogs, pepe, n, fefe, different, books, artist, fefecoinerc, pepecoineth, https]
+	X tweet_count = [37]
+	X username = [Dodotoshi]
+Y = [@MacroCRG $Pepe N $Fefe both frogs from the same artist different books.\n\nFrogs print green candles https://t.co/CqhqpxDWer]
+Y_token = [macrocrg, pepe, n, fefe, frogs, artist, different, books, frogs, print, green, candles, https]
+	Y tweet_count = [63]
+	Y username = [Dodotoshi]
+Total Length: X = 150, Y = 123 (Y / X = 82.00  X / Y = 121.95)
+Dice Coefficient: 71.43% 
+
+X = [@MustStopMurad $Pepe n $Fefe\n\nDifferent frogs Same Artist\n\nPepe Boysclub book\nFefe Mindviscosity book\n\nFOCUS ON THE CULTS https://t.co/vKv43Mr67k]
+X_token = [muststopmurad, pepe, n, fefe, different, frogs, artist, pepe, boysclub, book, fefe, mindviscosity, book, focus, cults, https]
+	X tweet_count = [44]
+	X username = [Dodotoshi]
+Y = [@SHIBMortal $PEPE BOYSCLUB BOOK\n$FEFE MINDVISCOSITY BOOK\n\nDIFFERENT FROGS SAME ARTIST BOYS!!! https://t.co/ttPngnl6kD]
+Y_token = [shibmortal, pepe, boysclub, book, fefe, mindviscosity, book, different, frogs, artist, boys, https]
+	Y tweet_count = [70]
+	Y username = [Dodotoshi]
+Total Length: X = 145, Y = 117 (Y / X = 80.69  X / Y = 123.93)
+Dice Coefficient: 75.00% 
+
+X = [@jewelsindefi @micahbullis $FEFE N $PEPE\n\nBOYSCLUB N MINDVISCOSITY \n\nSAME ARTIST DIFF BOOKS! 🫡 https://t.co/Fb9d6dWg0H]
+X_token = [jewelsindefi, micahbullis, fefe, n, pepe, boysclub, n, mindviscosity, artist, diff, books, https]
+	X tweet_count = [59]
+	X username = [Dodotoshi]
+Y = [@cryptojourneyrs $PEPE N $FEFE\n\nPEPE BOYSCLUB\n\nFEFE MINDVISCOSITY\n\nSAME ARTIST BABY https://t.co/Q2T7efzWo4]
+Y_token = [cryptojourneyrs, pepe, n, fefe, pepe, boysclub, fefe, mindviscosity, artist, baby, https]
+	Y tweet_count = [66]
+	Y username = [Dodotoshi]
+Total Length: X = 118, Y = 107 (Y / X = 90.68  X / Y = 110.28)
+Dice Coefficient: 70.00% 
+

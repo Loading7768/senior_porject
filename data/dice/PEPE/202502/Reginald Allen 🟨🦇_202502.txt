@@ -1,0 +1,99 @@
+﻿X = [@MichaelXBT $PEPE is about to rip hard and $HOPPY and $BOPPY are going to rip Harder]
+X_token = [michaelxbt, pepe, rip, hard, hoppy, boppy, going, rip, harder]
+	X tweet_count = [6]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@proroketh $PEPE is about to rip hard and $HOPPY and $BOPPY are going to rip Harder]
+Y_token = [proroketh, pepe, rip, hard, hoppy, boppy, going, rip, harder]
+	Y tweet_count = [27]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 84, Y = 83 (Y / X = 98.81  X / Y = 101.20)
+Dice Coefficient: 87.50% 
+
+X = [When Bitcoin pumps...   Altcoins will go parabolic  \n\nWhen Altcoin pumps...  $PEPE will go parabolic  \n\nWhen $PEPE pumps...  $HOPPY will go parabolic  \n\nWhen $HOPPY pumps...  $BOPPY will go parabolic  Lock in. https://t.co/qE3u9CFsC1]
+X_token = [bitcoin, pumps, altcoins, go, parabolic, altcoin, pumps, pepe, go, parabolic, pepe, pumps, hoppy, go, parabolic, hoppy, pumps, boppy, go, parabolic, lock, https]
+	X tweet_count = [7]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@misterrcrypto When Bitcoin pumps... \n\nAltcoins will go parabolic\n\nWhen Altcoin pumps..\n\n $PEPE will go parabolic\n\nWhen $PEPE pumps...\n\n$HOPPY will go parabolic\n\nWhen $HOPPY pumps...\n\n$BOPPY will go parabolic\n\nLock in.]
+Y_token = [misterrcrypto, bitcoin, pumps, altcoins, go, parabolic, altcoin, pumps, pepe, go, parabolic, pepe, pumps, hoppy, go, parabolic, hoppy, pumps, boppy, go, parabolic, lock]
+	Y tweet_count = [8]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 233, Y = 218 (Y / X = 93.56  X / Y = 106.88)
+Dice Coefficient: 90.91% 
+
+X = [When Ethereum pumps, $PEPE will pump even harder.   \n\nWhen $PEPE pumps, $HOPPY will pump even harder.  \n\nWhen $HOPPY pumps, $BOPPY will pump even harder.  \n\nIt is all programmed https://t.co/wRpk1NzzKV]
+X_token = [ethereum, pumps, pepe, pump, even, harder, pepe, pumps, hoppy, pump, even, harder, hoppy, pumps, boppy, pump, even, harder, programmed, https]
+	X tweet_count = [11]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@misterrcrypto When Ethereum pumps, $PEPE will pump even harder. \n\nWhen $PEPE pumps, $HOPPY will pump even harder.\n\nWhen $HOPPY pumps, $BOPPY will pump even harder.\n\nIt is all programmed]
+Y_token = [misterrcrypto, ethereum, pumps, pepe, pump, even, harder, pepe, pumps, hoppy, pump, even, harder, hoppy, pumps, boppy, pump, even, harder, programmed]
+	Y tweet_count = [12]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 201, Y = 186 (Y / X = 92.54  X / Y = 108.06)
+Dice Coefficient: 90.00% 
+
+X = [@misterrcrypto $PEPE is my top meme coin pick for 2025.    \n\nWhen Ethereum pumps.   $PEPE will explode!   $HOPPY will explode!   $BOPPY will explode!]
+X_token = [misterrcrypto, pepe, top, meme, coin, pick, ethereum, pumps, pepe, explode, hoppy, explode, boppy, explode]
+	X tweet_count = [17]
+	X username = [Reginald Allen 🟨🦇]
+Y = [$PEPE is my top meme coin pick for 2025.  \n\nWhen Ethereum pumps.\n\n $PEPE will explode! \n\n$HOPPY will explode! \n\n$BOPPY will explode!]
+Y_token = [pepe, top, meme, coin, pick, ethereum, pumps, pepe, explode, hoppy, explode, boppy, explode]
+	Y tweet_count = [18]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 149, Y = 132 (Y / X = 88.59  X / Y = 112.88)
+Dice Coefficient: 95.24% 
+
+X = [@AR15CRYPTO $ETH IS KING $PEPE $HOPPY $BOPPY WOULD SEND THIS BULLRUN]
+X_token = [ar15crypto, eth, king, pepe, hoppy, boppy, would, send, bullrun]
+	X tweet_count = [24]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@ChandlerCharts $pepe and $hoppy and $boppy would send this bullrun]
+Y_token = [chandlercharts, pepe, hoppy, boppy, would, send, bullrun]
+	Y tweet_count = [54]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 68, Y = 67 (Y / X = 98.53  X / Y = 101.49)
+Dice Coefficient: 75.00% 
+
+X = [$ETH will 5x.  \n\n$PEPE Will 40x  \n\n$HOPPY will 500x  \n\n$BOPPY will 2000x  \n\nit is literally that simple]
+X_token = [eth, 5x, pepe, 40x, hoppy, 500x, boppy, 2000x, literally, simple]
+	X tweet_count = [40]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@misterrcrypto $ETH will 5x.\n\n$PEPE Will 40x\n\n$HOPPY will 500x\n\n$BOPPY will 2000x\n\nit is literally that simple]
+Y_token = [misterrcrypto, eth, 5x, pepe, 40x, hoppy, 500x, boppy, 2000x, literally, simple]
+	Y tweet_count = [41]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 103, Y = 110 (Y / X = 106.80  X / Y = 93.64)
+Dice Coefficient: 95.24% 
+
+X = [@CRYPTOPEPEKING $pepe would become the Number 1 memecoin $hoppy would be number 2 and $boppy would be Number 3 \n\nit is all programmed]
+X_token = [cryptopepeking, pepe, would, become, number, 1, memecoin, hoppy, would, number, 2, boppy, would, number, 3, programmed]
+	X tweet_count = [50]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@rovercrc $pepe would become the Number 1 $ETH  memecoin $hoppy would be number 2 and $boppy would be Number 3 \n\nit is all programmed]
+Y_token = [rovercrc, pepe, would, become, number, 1, eth, memecoin, hoppy, would, number, 2, boppy, would, number, 3, programmed]
+	Y tweet_count = [63]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 133, Y = 133 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 88.00% 
+
+X = [@ChandlerCharts $pepe and $hoppy and $boppy would send this bullrun]
+X_token = [chandlercharts, pepe, hoppy, boppy, would, send, bullrun]
+	X tweet_count = [54]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@Waleed_Eth $pepe would send patience all you need is $pepe $hoppy $boppy]
+Y_token = [pepe, would, send, patience, need, pepe, hoppy, boppy]
+	Y tweet_count = [55]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 67, Y = 73 (Y / X = 108.96  X / Y = 91.78)
+Dice Coefficient: 71.43% 
+
+X = [Most people don’t realize $PEPE $HOPPY and $BOPPY are going to send this Cycle\n\nThe sooner they realize the better it is to make Generational Wealth\n\nBillions are expected to be made\n\nARE YOU READY ? https://t.co/XAZuX0hnJG]
+X_token = [people, realize, pepe, hoppy, boppy, going, send, cycle, sooner, realize, better, make, generational, wealth, billions, expected, made, ready, https]
+	X tweet_count = [72]
+	X username = [Reginald Allen 🟨🦇]
+Y = [@kek0x Most people don’t realize $PEPE  $HOPPY and $BOPPY are going to send this Cycle \n\nThe sooner they realize the better it is to make Generational Wealth \n\nBillions are expected to be made \n\nARE YOU READY]
+Y_token = [kek0x, people, realize, pepe, hoppy, boppy, going, send, cycle, sooner, realize, better, make, generational, wealth, billions, expected, made, ready]
+	Y tweet_count = [73]
+	Y username = [Reginald Allen 🟨🦇]
+Total Length: X = 223, Y = 208 (Y / X = 93.27  X / Y = 107.21)
+Dice Coefficient: 94.44% 
+

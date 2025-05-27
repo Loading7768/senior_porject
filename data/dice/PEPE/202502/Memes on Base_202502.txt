@@ -1,0 +1,352 @@
+﻿X = [Every dip is an opportunity! what’s a good memecoin to buy right now? 🔵🚀\n\n$PEPE  \n$MIGGLES  \n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$DEGEN  \n$UNLUCKY  \n$WODS  \n$LUM  \n$SKI  \n$BRETT\n\n$____?🚀]
+X_token = [every, dip, opportunity, good, memecoin, buy, right, pepe, miggles, keycat, doginme, shibussy, degen, unlucky, wods, lum, ski, brett]
+	X tweet_count = [1]
+	X username = [Memes on Base]
+Y = [🔵 Which @Base memecoin are you holding? 🔥\n\n$BRETT\n$TOSHI\n$DEGEN\n$KEYCAT\n$MFER \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$PEPE  \n$MIGGLES  \n$UNLUCKY  \n$WODS  \n$LUM]
+Y_token = [base, memecoin, holding, brett, toshi, degen, keycat, mfer, doginme, shibussy, ski, pepe, miggles, unlucky, wods, lum]
+	Y tweet_count = [7]
+	Y username = [Memes on Base]
+Total Length: X = 183, Y = 151 (Y / X = 82.51  X / Y = 121.19)
+Dice Coefficient: 70.59% 
+
+X = [Every dip is an opportunity! what’s a good memecoin to buy right now? 🔵🚀\n\n$PEPE  \n$MIGGLES  \n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$DEGEN  \n$UNLUCKY  \n$WODS  \n$LUM  \n$SKI  \n$BRETT\n\n$____?🚀]
+X_token = [every, dip, opportunity, good, memecoin, buy, right, pepe, miggles, keycat, doginme, shibussy, degen, unlucky, wods, lum, ski, brett]
+	X tweet_count = [1]
+	X username = [Memes on Base]
+Y = [Which meme is a good buy now before the breakout? 🔵🚀\n\n$PEPE  \n$MIGGLES  \n$KEYCAT  \n$UNLUCKY  \n$BEATS\n$LUM  \n$SKI \n$DOGINME  \n$SHIBUSSY  \n$DEGEN  \n$BRETT\n\n$____?🚀]
+Y_token = [meme, good, buy, breakout, pepe, miggles, keycat, unlucky, beats, lum, ski, doginme, shibussy, degen, brett]
+	Y tweet_count = [9]
+	Y username = [Memes on Base]
+Total Length: X = 183, Y = 161 (Y / X = 87.98  X / Y = 113.66)
+Dice Coefficient: 72.73% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$PEPE @0x52BasedPepe\n$BEATS @BeatsOnBase\n$MIGGLES @MrMigglesOnBase\n$DEGEN @degentokenbase\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase\n\n#Basememe https://t.co/66xD86Xa1l]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, pepe, 0x52basedpepe, beats, beatsonbase, miggles, mrmigglesonbase, degen, degentokenbase, doginme, doginmeonbase, keycat, keyboardcatbase, basememe, https]
+	X tweet_count = [2]
+	X username = [Memes on Base]
+Y = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n\n#Basememe https://t.co/pG2lwgJfsE]
+Y_token = [memecoins, base, last, 24, hours, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, basememe, https]
+	Y tweet_count = [11]
+	Y username = [Memes on Base]
+Total Length: X = 297, Y = 295 (Y / X = 99.33  X / Y = 100.68)
+Dice Coefficient: 83.33% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$PEPE @0x52BasedPepe\n$BEATS @BeatsOnBase\n$MIGGLES @MrMigglesOnBase\n$DEGEN @degentokenbase\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase\n\n#Basememe https://t.co/66xD86Xa1l]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, pepe, 0x52basedpepe, beats, beatsonbase, miggles, mrmigglesonbase, degen, degentokenbase, doginme, doginmeonbase, keycat, keyboardcatbase, basememe, https]
+	X tweet_count = [2]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n$GmmF @GamemeFi_Token\n$BEATS https://t.co/YeZhml56XD]
+Y_token = [top, trending, base, memecoins, last, 7d, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, gmmf, beats, https]
+	Y tweet_count = [13]
+	Y username = [Memes on Base]
+Total Length: X = 297, Y = 302 (Y / X = 101.68  X / Y = 98.34)
+Dice Coefficient: 72.00% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$PEPE @0x52BasedPepe\n$BEATS @BeatsOnBase\n$MIGGLES @MrMigglesOnBase\n$DEGEN @degentokenbase\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase\n\n#Basememe https://t.co/66xD86Xa1l]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, pepe, 0x52basedpepe, beats, beatsonbase, miggles, mrmigglesonbase, degen, degentokenbase, doginme, doginmeonbase, keycat, keyboardcatbase, basememe, https]
+	X tweet_count = [2]
+	X username = [Memes on Base]
+Y = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$MIGGLES @MrMigglesOnBase\n$BEATS @BeatsOnBase\n$PEPE @0x52BasedPepe\n$TYBG @tybasegod\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase https://t.co/Dln7Zqfzs5]
+Y_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, miggles, mrmigglesonbase, beats, beatsonbase, pepe, 0x52basedpepe, tybg, tybasegod, doginme, doginmeonbase, keycat, keyboardcatbase, https]
+	Y tweet_count = [14]
+	Y username = [Memes on Base]
+Total Length: X = 297, Y = 280 (Y / X = 94.28  X / Y = 106.07)
+Dice Coefficient: 89.36% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$PEPE @0x52BasedPepe\n$BEATS @BeatsOnBase\n$MIGGLES @MrMigglesOnBase\n$DEGEN @degentokenbase\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase\n\n#Basememe https://t.co/66xD86Xa1l]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, pepe, 0x52basedpepe, beats, beatsonbase, miggles, mrmigglesonbase, degen, degentokenbase, doginme, doginmeonbase, keycat, keyboardcatbase, basememe, https]
+	X tweet_count = [2]
+	X username = [Memes on Base]
+Y = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase https://t.co/nZIfZJPQ9B]
+Y_token = [memecoins, base, last, 24, hours, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, https]
+	Y tweet_count = [22]
+	Y username = [Memes on Base]
+Total Length: X = 297, Y = 284 (Y / X = 95.62  X / Y = 104.58)
+Dice Coefficient: 80.85% 
+
+X = [Which memecoins on Base are worth buying today? 🎉🔵\n\n$DOGINME\n$MIGGLES\n$SHIBUSSY\n$SKI\n$DEGEN\n$KEYCAT\n$UNLUCKY\n$LUM\n$BRETT\n$PEPE\n\n$______?]
+X_token = [memecoins, base, worth, buying, today, doginme, miggles, shibussy, ski, degen, keycat, unlucky, lum, brett, pepe]
+	X tweet_count = [3]
+	X username = [Memes on Base]
+Y = [🔵 Which @Base memecoin are you holding? 🔥\n\n$BRETT\n$TOSHI\n$DEGEN\n$KEYCAT\n$MFER \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$PEPE  \n$MIGGLES  \n$UNLUCKY  \n$WODS  \n$LUM]
+Y_token = [base, memecoin, holding, brett, toshi, degen, keycat, mfer, doginme, shibussy, ski, pepe, miggles, unlucky, wods, lum]
+	Y tweet_count = [7]
+	Y username = [Memes on Base]
+Total Length: X = 136, Y = 151 (Y / X = 111.03  X / Y = 90.07)
+Dice Coefficient: 70.97% 
+
+X = [Which memecoins on Base are worth buying today? 🎉🔵\n\n$DOGINME\n$MIGGLES\n$SHIBUSSY\n$SKI\n$DEGEN\n$KEYCAT\n$UNLUCKY\n$LUM\n$BRETT\n$PEPE\n\n$______?]
+X_token = [memecoins, base, worth, buying, today, doginme, miggles, shibussy, ski, degen, keycat, unlucky, lum, brett, pepe]
+	X tweet_count = [3]
+	X username = [Memes on Base]
+Y = [Which memecoin on @Base is worth picking up this weekend? 🔵🚀\n\n$SKI  \n$LUM  \n$SHIBUSSY  \n$KEYCAT    \n$UNLUCKY  \n$DOGINME  \n$BRETT\n$MIGGLES  \n$PEPE  \n$DEGEN\n\n$______?]
+Y_token = [memecoin, base, worth, picking, weekend, ski, lum, shibussy, keycat, unlucky, doginme, brett, miggles, pepe, degen]
+	Y tweet_count = [12]
+	Y username = [Memes on Base]
+Total Length: X = 136, Y = 164 (Y / X = 120.59  X / Y = 82.93)
+Dice Coefficient: 80.00% 
+
+X = [🔥Top Base memecoins By Market Cap! 🚀\n\nWhich one do you think has the most growth potential?\n\n$BRETT @BasedBrett\n$TOSHI @Toshi_base \n$SKI @Ski_CTO \n$DEGEN @degentokenbase \n$MIGGLES @MrMigglesOnBase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial\n$DOGINME @doginmeonbase\n$PEPE https://t.co/bJ9gLbwAv7]
+X_token = [base, memecoins, market, cap, one, think, growth, potential, brett, basedbrett, toshi, ski, degen, degentokenbase, miggles, mrmigglesonbase, keycat, keyboardcatbase, benji, basenjiofficial, doginme, doginmeonbase, pepe, https]
+	X tweet_count = [4]
+	X username = [Memes on Base]
+Y = [🔥Top Base memecoins By Market Cap! 🚀\n\nHave you invested in any of these memecoins yet?\n\n$BRETT @BasedBrett\n$TOSHI @Toshi_base \n$SKI @Ski_CTO \n$DEGEN @degentokenbase \n$MIGGLES @MrMigglesOnBase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial\n$MARSO @MarsoUniverse\n$PEPE https://t.co/tXW8baXvFl]
+Y_token = [base, memecoins, market, cap, invested, memecoins, yet, brett, basedbrett, toshi, ski, degen, degentokenbase, miggles, mrmigglesonbase, keycat, keyboardcatbase, benji, basenjiofficial, marso, marsouniverse, pepe, https]
+	Y tweet_count = [8]
+	Y username = [Memes on Base]
+Total Length: X = 299, Y = 292 (Y / X = 97.66  X / Y = 102.40)
+Dice Coefficient: 78.26% 
+
+X = [🔥Top Base memecoins By Market Cap! 🚀\n\nWhich one do you think has the most growth potential?\n\n$BRETT @BasedBrett\n$TOSHI @Toshi_base \n$SKI @Ski_CTO \n$DEGEN @degentokenbase \n$MIGGLES @MrMigglesOnBase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial\n$DOGINME @doginmeonbase\n$PEPE https://t.co/bJ9gLbwAv7]
+X_token = [base, memecoins, market, cap, one, think, growth, potential, brett, basedbrett, toshi, ski, degen, degentokenbase, miggles, mrmigglesonbase, keycat, keyboardcatbase, benji, basenjiofficial, doginme, doginmeonbase, pepe, https]
+	X tweet_count = [4]
+	X username = [Memes on Base]
+Y = [🔥Top Base memecoins By Market Cap! 🚀\n\nWhich memecoin should we keep an eye on next?\n\n$BRETT @BasedBrett\n$TOSHI @Toshi_base\n$SKI @Ski_CTO \n$DEGEN @degentokenbase  \n$MIGGLES @MrMigglesOnBase\n$PEPE @0x52BasedPepe\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial\n$MARSO]
+Y_token = [base, memecoins, market, cap, memecoin, keep, eye, next, brett, basedbrett, toshi, ski, degen, degentokenbase, miggles, mrmigglesonbase, pepe, 0x52basedpepe, keycat, keyboardcatbase, benji, basenjiofficial, marso]
+	Y tweet_count = [10]
+	Y username = [Memes on Base]
+Total Length: X = 299, Y = 265 (Y / X = 88.63  X / Y = 112.83)
+Dice Coefficient: 72.34% 
+
+X = [Which meme, at its current price, will 100x? 🔵💪\n\n$PEPE  \n$MIGGLES  \n$DEGEN\n$UNLUCKY  \n$WODS  \n$LUM    \n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$BRETT\n\n$___? 🚀]
+X_token = [meme, current, price, 100x, pepe, miggles, degen, unlucky, wods, lum, keycat, doginme, shibussy, ski, brett]
+	X tweet_count = [5]
+	X username = [Memes on Base]
+Y = [🔵 Which @Base memecoin are you holding? 🔥\n\n$BRETT\n$TOSHI\n$DEGEN\n$KEYCAT\n$MFER \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$PEPE  \n$MIGGLES  \n$UNLUCKY  \n$WODS  \n$LUM]
+Y_token = [base, memecoin, holding, brett, toshi, degen, keycat, mfer, doginme, shibussy, ski, pepe, miggles, unlucky, wods, lum]
+	Y tweet_count = [7]
+	Y username = [Memes on Base]
+Total Length: X = 158, Y = 151 (Y / X = 95.57  X / Y = 104.64)
+Dice Coefficient: 70.97% 
+
+X = [Which meme, at its current price, will 100x? 🔵💪\n\n$PEPE  \n$MIGGLES  \n$DEGEN\n$UNLUCKY  \n$WODS  \n$LUM    \n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$BRETT\n\n$___? 🚀]
+X_token = [meme, current, price, 100x, pepe, miggles, degen, unlucky, wods, lum, keycat, doginme, shibussy, ski, brett]
+	X tweet_count = [5]
+	X username = [Memes on Base]
+Y = [Which meme is a good buy now before the breakout? 🔵🚀\n\n$PEPE  \n$MIGGLES  \n$KEYCAT  \n$UNLUCKY  \n$BEATS\n$LUM  \n$SKI \n$DOGINME  \n$SHIBUSSY  \n$DEGEN  \n$BRETT\n\n$____?🚀]
+Y_token = [meme, good, buy, breakout, pepe, miggles, keycat, unlucky, beats, lum, ski, doginme, shibussy, degen, brett]
+	Y tweet_count = [9]
+	Y username = [Memes on Base]
+Total Length: X = 158, Y = 161 (Y / X = 101.90  X / Y = 98.14)
+Dice Coefficient: 73.33% 
+
+X = [Which meme, at its current price, will 100x? 🔵💪\n\n$PEPE  \n$MIGGLES  \n$DEGEN\n$UNLUCKY  \n$WODS  \n$LUM    \n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$BRETT\n\n$___? 🚀]
+X_token = [meme, current, price, 100x, pepe, miggles, degen, unlucky, wods, lum, keycat, doginme, shibussy, ski, brett]
+	X tweet_count = [5]
+	X username = [Memes on Base]
+Y = [Shill me the next 100x meme! I’m buying! 🚀👀\n\n$KEYCAT  \n$SKI \n$PEPE  \n$LUM  \n$SHIBUSSY  \n$DEGEN\n$MIGGLES  \n$DOGINME  \n$UNLUCKY\n$BEATS\n\n$____?🚀]
+Y_token = [shill, next, 100x, meme, buying, keycat, ski, pepe, lum, shibussy, degen, miggles, doginme, unlucky, beats]
+	Y tweet_count = [20]
+	Y username = [Memes on Base]
+Total Length: X = 158, Y = 141 (Y / X = 89.24  X / Y = 112.06)
+Dice Coefficient: 73.33% 
+
+X = [Which memecoin is set to explode this weekend? Drop your predictions! 🚀🔥\n\n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$BRETT\n$PEPE  \n$MIGGLES  \n$DEGEN\n$UNLUCKY  \n$WODS  \n$LUM    \n\n$___? 🚀]
+X_token = [memecoin, set, explode, weekend, drop, predictions, keycat, doginme, shibussy, ski, brett, pepe, miggles, degen, unlucky, wods, lum]
+	X tweet_count = [6]
+	X username = [Memes on Base]
+Y = [🔵 Which @Base memecoin are you holding? 🔥\n\n$BRETT\n$TOSHI\n$DEGEN\n$KEYCAT\n$MFER \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$PEPE  \n$MIGGLES  \n$UNLUCKY  \n$WODS  \n$LUM]
+Y_token = [base, memecoin, holding, brett, toshi, degen, keycat, mfer, doginme, shibussy, ski, pepe, miggles, unlucky, wods, lum]
+	Y tweet_count = [7]
+	Y username = [Memes on Base]
+Total Length: X = 183, Y = 151 (Y / X = 82.51  X / Y = 121.19)
+Dice Coefficient: 72.73% 
+
+X = [Which memecoin is set to explode this weekend? Drop your predictions! 🚀🔥\n\n$KEYCAT  \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$BRETT\n$PEPE  \n$MIGGLES  \n$DEGEN\n$UNLUCKY  \n$WODS  \n$LUM    \n\n$___? 🚀]
+X_token = [memecoin, set, explode, weekend, drop, predictions, keycat, doginme, shibussy, ski, brett, pepe, miggles, degen, unlucky, wods, lum]
+	X tweet_count = [6]
+	X username = [Memes on Base]
+Y = [Which memecoin on @Base is worth picking up this weekend? 🔵🚀\n\n$SKI  \n$LUM  \n$SHIBUSSY  \n$KEYCAT    \n$UNLUCKY  \n$DOGINME  \n$BRETT\n$MIGGLES  \n$PEPE  \n$DEGEN\n\n$______?]
+Y_token = [memecoin, base, worth, picking, weekend, ski, lum, shibussy, keycat, unlucky, doginme, brett, miggles, pepe, degen]
+	Y tweet_count = [12]
+	Y username = [Memes on Base]
+Total Length: X = 183, Y = 164 (Y / X = 89.62  X / Y = 111.59)
+Dice Coefficient: 75.00% 
+
+X = [🔵 Which @Base memecoin are you holding? 🔥\n\n$BRETT\n$TOSHI\n$DEGEN\n$KEYCAT\n$MFER \n$DOGINME  \n$SHIBUSSY  \n$SKI  \n$PEPE  \n$MIGGLES  \n$UNLUCKY  \n$WODS  \n$LUM]
+X_token = [base, memecoin, holding, brett, toshi, degen, keycat, mfer, doginme, shibussy, ski, pepe, miggles, unlucky, wods, lum]
+	X tweet_count = [7]
+	X username = [Memes on Base]
+Y = [Which memecoin on @Base is worth picking up this weekend? 🔵🚀\n\n$SKI  \n$LUM  \n$SHIBUSSY  \n$KEYCAT    \n$UNLUCKY  \n$DOGINME  \n$BRETT\n$MIGGLES  \n$PEPE  \n$DEGEN\n\n$______?]
+Y_token = [memecoin, base, worth, picking, weekend, ski, lum, shibussy, keycat, unlucky, doginme, brett, miggles, pepe, degen]
+	Y tweet_count = [12]
+	Y username = [Memes on Base]
+Total Length: X = 151, Y = 164 (Y / X = 108.61  X / Y = 92.07)
+Dice Coefficient: 77.42% 
+
+X = [🔥Top Base memecoins By Market Cap! 🚀\n\nHave you invested in any of these memecoins yet?\n\n$BRETT @BasedBrett\n$TOSHI @Toshi_base \n$SKI @Ski_CTO \n$DEGEN @degentokenbase \n$MIGGLES @MrMigglesOnBase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial\n$MARSO @MarsoUniverse\n$PEPE https://t.co/tXW8baXvFl]
+X_token = [base, memecoins, market, cap, invested, memecoins, yet, brett, basedbrett, toshi, ski, degen, degentokenbase, miggles, mrmigglesonbase, keycat, keyboardcatbase, benji, basenjiofficial, marso, marsouniverse, pepe, https]
+	X tweet_count = [8]
+	X username = [Memes on Base]
+Y = [🔥Top Base memecoins By Market Cap! 🚀\n\nWhich memecoin should we keep an eye on next?\n\n$BRETT @BasedBrett\n$TOSHI @Toshi_base\n$SKI @Ski_CTO \n$DEGEN @degentokenbase  \n$MIGGLES @MrMigglesOnBase\n$PEPE @0x52BasedPepe\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial\n$MARSO]
+Y_token = [base, memecoins, market, cap, memecoin, keep, eye, next, brett, basedbrett, toshi, ski, degen, degentokenbase, miggles, mrmigglesonbase, pepe, 0x52basedpepe, keycat, keyboardcatbase, benji, basenjiofficial, marso]
+	Y tweet_count = [10]
+	Y username = [Memes on Base]
+Total Length: X = 292, Y = 265 (Y / X = 90.75  X / Y = 110.19)
+Dice Coefficient: 80.00% 
+
+X = [Which meme is a good buy now before the breakout? 🔵🚀\n\n$PEPE  \n$MIGGLES  \n$KEYCAT  \n$UNLUCKY  \n$BEATS\n$LUM  \n$SKI \n$DOGINME  \n$SHIBUSSY  \n$DEGEN  \n$BRETT\n\n$____?🚀]
+X_token = [meme, good, buy, breakout, pepe, miggles, keycat, unlucky, beats, lum, ski, doginme, shibussy, degen, brett]
+	X tweet_count = [9]
+	X username = [Memes on Base]
+Y = [Which meme is a good buy now before the breakout? 🔵🚀\n\n$KEYCAT  \n$SKI \n$PEPE  \n$MIGGLES  \n$DOGINME  \n$UNLUCKY  \n$BEATS\n$LUM  \n$SHIBUSSY  \n$DEGEN  \n\n$____?🚀]
+Y_token = [meme, good, buy, breakout, keycat, ski, pepe, miggles, doginme, unlucky, beats, lum, shibussy, degen]
+	Y tweet_count = [18]
+	Y username = [Memes on Base]
+Total Length: X = 161, Y = 154 (Y / X = 95.65  X / Y = 104.55)
+Dice Coefficient: 96.55% 
+
+X = [Which meme is a good buy now before the breakout? 🔵🚀\n\n$PEPE  \n$MIGGLES  \n$KEYCAT  \n$UNLUCKY  \n$BEATS\n$LUM  \n$SKI \n$DOGINME  \n$SHIBUSSY  \n$DEGEN  \n$BRETT\n\n$____?🚀]
+X_token = [meme, good, buy, breakout, pepe, miggles, keycat, unlucky, beats, lum, ski, doginme, shibussy, degen, brett]
+	X tweet_count = [9]
+	X username = [Memes on Base]
+Y = [Shill me the next 100x meme! I’m buying! 🚀👀\n\n$KEYCAT  \n$SKI \n$PEPE  \n$LUM  \n$SHIBUSSY  \n$DEGEN\n$MIGGLES  \n$DOGINME  \n$UNLUCKY\n$BEATS\n\n$____?🚀]
+Y_token = [shill, next, 100x, meme, buying, keycat, ski, pepe, lum, shibussy, degen, miggles, doginme, unlucky, beats]
+	Y tweet_count = [20]
+	Y username = [Memes on Base]
+Total Length: X = 161, Y = 141 (Y / X = 87.58  X / Y = 114.18)
+Dice Coefficient: 73.33% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n\n#Basememe https://t.co/pG2lwgJfsE]
+X_token = [memecoins, base, last, 24, hours, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, basememe, https]
+	X tweet_count = [11]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n$GmmF @GamemeFi_Token\n$BEATS https://t.co/YeZhml56XD]
+Y_token = [top, trending, base, memecoins, last, 7d, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, gmmf, beats, https]
+	Y tweet_count = [13]
+	Y username = [Memes on Base]
+Total Length: X = 295, Y = 302 (Y / X = 102.37  X / Y = 97.68)
+Dice Coefficient: 84.00% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n\n#Basememe https://t.co/pG2lwgJfsE]
+X_token = [memecoins, base, last, 24, hours, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, basememe, https]
+	X tweet_count = [11]
+	X username = [Memes on Base]
+Y = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$MIGGLES @MrMigglesOnBase\n$BEATS @BeatsOnBase\n$PEPE @0x52BasedPepe\n$TYBG @tybasegod\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase https://t.co/Dln7Zqfzs5]
+Y_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, miggles, mrmigglesonbase, beats, beatsonbase, pepe, 0x52basedpepe, tybg, tybasegod, doginme, doginmeonbase, keycat, keyboardcatbase, https]
+	Y tweet_count = [14]
+	Y username = [Memes on Base]
+Total Length: X = 295, Y = 280 (Y / X = 94.92  X / Y = 105.36)
+Dice Coefficient: 72.34% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n\n#Basememe https://t.co/pG2lwgJfsE]
+X_token = [memecoins, base, last, 24, hours, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, basememe, https]
+	X tweet_count = [11]
+	X username = [Memes on Base]
+Y = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase https://t.co/nZIfZJPQ9B]
+Y_token = [memecoins, base, last, 24, hours, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, https]
+	Y tweet_count = [22]
+	Y username = [Memes on Base]
+Total Length: X = 295, Y = 284 (Y / X = 96.27  X / Y = 103.87)
+Dice Coefficient: 80.85% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n\n#Basememe https://t.co/pG2lwgJfsE]
+X_token = [memecoins, base, last, 24, hours, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, basememe, https]
+	X tweet_count = [11]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial https://t.co/ubNy9fudOA]
+Y_token = [top, trending, base, memecoins, last, 7d, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, benji, basenjiofficial, https]
+	Y tweet_count = [25]
+	Y username = [Memes on Base]
+Total Length: X = 295, Y = 297 (Y / X = 100.68  X / Y = 99.33)
+Dice Coefficient: 76.00% 
+
+X = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n$GmmF @GamemeFi_Token\n$BEATS https://t.co/YeZhml56XD]
+X_token = [top, trending, base, memecoins, last, 7d, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, gmmf, beats, https]
+	X tweet_count = [13]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$SKI @Ski_CTO\n$MIGGLES @MrMigglesOnBase\n$PEPE @0x52BasedPepe\n$AIXBT @aixbt_agent\n$TOSHI @Toshi_base\n$LUM @luminousbase\n$BRETT @BasedBrett\n$BENJI @Basenjiofficial\n$DEGEN @degentokenbase\n$doginme @doginmeonbase\n$GmmF @GamemeFi_Token https://t.co/QzCsykYsCG]
+Y_token = [top, trending, base, memecoins, last, 7d, ski, miggles, mrmigglesonbase, pepe, 0x52basedpepe, aixbt, toshi, lum, luminousbase, brett, basedbrett, benji, basenjiofficial, degen, degentokenbase, doginme, doginmeonbase, gmmf, https]
+	Y tweet_count = [17]
+	Y username = [Memes on Base]
+Total Length: X = 302, Y = 295 (Y / X = 97.68  X / Y = 102.37)
+Dice Coefficient: 82.35% 
+
+X = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$SKI @Ski_CTO\n$AIXBT @aixbt_agent\n$MIGGLES @MrMigglesOnBase\n$BENJI @Basenjiofficial\n$PEPE @0x52BasedPepe\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$HENLO @henlokart\n$BRETT @BasedBrett\n$GmmF @GamemeFi_Token\n$BEATS https://t.co/YeZhml56XD]
+X_token = [top, trending, base, memecoins, last, 7d, toshi, ski, aixbt, miggles, mrmigglesonbase, benji, basenjiofficial, pepe, 0x52basedpepe, degen, degentokenbase, keycat, keyboardcatbase, henlo, henlokart, brett, basedbrett, gmmf, beats, https]
+	X tweet_count = [13]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial https://t.co/ubNy9fudOA]
+Y_token = [top, trending, base, memecoins, last, 7d, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, benji, basenjiofficial, https]
+	Y tweet_count = [25]
+	Y username = [Memes on Base]
+Total Length: X = 302, Y = 297 (Y / X = 98.34  X / Y = 101.68)
+Dice Coefficient: 84.62% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$BRETT @BasedBrett\n$SKI @Ski_CTO\n$MIGGLES @MrMigglesOnBase\n$BEATS @BeatsOnBase\n$PEPE @0x52BasedPepe\n$TYBG @tybasegod\n$doginme @doginmeonbase\n$KEYCAT @KeyboardCatBase https://t.co/Dln7Zqfzs5]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, brett, basedbrett, ski, miggles, mrmigglesonbase, beats, beatsonbase, pepe, 0x52basedpepe, tybg, tybasegod, doginme, doginmeonbase, keycat, keyboardcatbase, https]
+	X tweet_count = [14]
+	X username = [Memes on Base]
+Y = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase https://t.co/nZIfZJPQ9B]
+Y_token = [memecoins, base, last, 24, hours, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, https]
+	Y tweet_count = [22]
+	Y username = [Memes on Base]
+Total Length: X = 280, Y = 284 (Y / X = 101.43  X / Y = 98.59)
+Dice Coefficient: 73.91% 
+
+X = [🔥 The weekly Base meme tier list is here! 🔥\n\nWhich memecoin gets your vote? 👇🐶💎\n\nSound off in the comments! 🚀✨\n\n$BRETT $TOSHI $PEPE $SKI $MIGGLES $DEGEN $DOGINME $BENJI $MARSO $BEATS $GMMF $SHIBUSSY $UNLUCKY https://t.co/RYvD6xBQra]
+X_token = [weekly, base, meme, tier, list, memecoin, gets, vote, sound, comments, brett, toshi, pepe, ski, miggles, degen, doginme, benji, marso, beats, gmmf, shibussy, unlucky, https]
+	X tweet_count = [15]
+	X username = [Memes on Base]
+Y = [🚀 The weekly Base meme tier list has arrived! 🚀\n\nWhich memecoin is your top pick? 👇🐶💎\n\nDrop your votes in the comments! ✨🔥\n\n$TOSHI $PEPE $DEGEN $SKI $MIGGLES $MARSO $BENJI $DOGINME $BRETT $MOCHI $BEATS $GMMF $SHIBUSSY $UNLUCKY https://t.co/kFFgkvEl6R]
+Y_token = [weekly, base, meme, tier, list, arrived, memecoin, top, pick, drop, votes, comments, toshi, pepe, degen, ski, miggles, marso, benji, doginme, brett, mochi, beats, gmmf, shibussy, unlucky, https]
+	Y tweet_count = [21]
+	Y username = [Memes on Base]
+Total Length: X = 231, Y = 250 (Y / X = 108.23  X / Y = 92.40)
+Dice Coefficient: 82.35% 
+
+X = [🔥 Top trending Base Memecoins last 7D 👇\n\n$SKI @Ski_CTO\n$MIGGLES @MrMigglesOnBase\n$PEPE @0x52BasedPepe\n$AIXBT @aixbt_agent\n$TOSHI @Toshi_base\n$LUM @luminousbase\n$BRETT @BasedBrett\n$BENJI @Basenjiofficial\n$DEGEN @degentokenbase\n$doginme @doginmeonbase\n$GmmF @GamemeFi_Token https://t.co/QzCsykYsCG]
+X_token = [top, trending, base, memecoins, last, 7d, ski, miggles, mrmigglesonbase, pepe, 0x52basedpepe, aixbt, toshi, lum, luminousbase, brett, basedbrett, benji, basenjiofficial, degen, degentokenbase, doginme, doginmeonbase, gmmf, https]
+	X tweet_count = [17]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial https://t.co/ubNy9fudOA]
+Y_token = [top, trending, base, memecoins, last, 7d, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, benji, basenjiofficial, https]
+	Y tweet_count = [25]
+	Y username = [Memes on Base]
+Total Length: X = 295, Y = 297 (Y / X = 100.68  X / Y = 99.33)
+Dice Coefficient: 78.43% 
+
+X = [Which meme is a good buy now before the breakout? 🔵🚀\n\n$KEYCAT  \n$SKI \n$PEPE  \n$MIGGLES  \n$DOGINME  \n$UNLUCKY  \n$BEATS\n$LUM  \n$SHIBUSSY  \n$DEGEN  \n\n$____?🚀]
+X_token = [meme, good, buy, breakout, keycat, ski, pepe, miggles, doginme, unlucky, beats, lum, shibussy, degen]
+	X tweet_count = [18]
+	X username = [Memes on Base]
+Y = [Shill me the next 100x meme! I’m buying! 🚀👀\n\n$KEYCAT  \n$SKI \n$PEPE  \n$LUM  \n$SHIBUSSY  \n$DEGEN\n$MIGGLES  \n$DOGINME  \n$UNLUCKY\n$BEATS\n\n$____?🚀]
+Y_token = [shill, next, 100x, meme, buying, keycat, ski, pepe, lum, shibussy, degen, miggles, doginme, unlucky, beats]
+	Y tweet_count = [20]
+	Y username = [Memes on Base]
+Total Length: X = 154, Y = 141 (Y / X = 91.56  X / Y = 109.22)
+Dice Coefficient: 75.86% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase https://t.co/nZIfZJPQ9B]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, https]
+	X tweet_count = [22]
+	X username = [Memes on Base]
+Y = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial https://t.co/ubNy9fudOA]
+Y_token = [top, trending, base, memecoins, last, 7d, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, benji, basenjiofficial, https]
+	Y tweet_count = [25]
+	Y username = [Memes on Base]
+Total Length: X = 284, Y = 297 (Y / X = 104.58  X / Y = 95.62)
+Dice Coefficient: 85.71% 
+
+X = [📈Trending memecoins on Base in the last 24 hours 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase https://t.co/nZIfZJPQ9B]
+X_token = [memecoins, base, last, 24, hours, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, https]
+	X tweet_count = [22]
+	X username = [Memes on Base]
+Y = [What memecoins on Base are you accumulating for profit? 🔵\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$KEYCAT @KeyboardCatBase\n\n$___?🚀]
+Y_token = [memecoins, base, accumulating, profit, toshi, aixbt, pepe, 0x52basedpepe, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, ski, brett, basedbrett, brian, onbasebrian, keycat, keyboardcatbase]
+	Y tweet_count = [26]
+	Y username = [Memes on Base]
+Total Length: X = 284, Y = 275 (Y / X = 96.83  X / Y = 103.27)
+Dice Coefficient: 86.36% 
+
+X = [🔥 Top trending Base Memecoins last 7D 👇\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$KEYCAT @KeyboardCatBase\n$BENJI @Basenjiofficial https://t.co/ubNy9fudOA]
+X_token = [top, trending, base, memecoins, last, 7d, toshi, aixbt, pepe, 0x52basedpepe, ski, brett, basedbrett, brian, onbasebrian, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, keycat, keyboardcatbase, benji, basenjiofficial, https]
+	X tweet_count = [25]
+	X username = [Memes on Base]
+Y = [What memecoins on Base are you accumulating for profit? 🔵\n\n$TOSHI @Toshi_base\n$AIXBT @aixbt_agent\n$PEPE @0x52BasedPepe\n$MIGGLES @MrMigglesOnBase\n$dream @dreamcoinswow\n$DEGEN @degentokenbase\n$SKI @Ski_CTO\n$BRETT @BasedBrett\n$BRIAN @OnBaseBrian\n$KEYCAT @KeyboardCatBase\n\n$___?🚀]
+Y_token = [memecoins, base, accumulating, profit, toshi, aixbt, pepe, 0x52basedpepe, miggles, mrmigglesonbase, dream, dreamcoinswow, degen, degentokenbase, ski, brett, basedbrett, brian, onbasebrian, keycat, keyboardcatbase]
+	Y tweet_count = [26]
+	Y username = [Memes on Base]
+Total Length: X = 297, Y = 275 (Y / X = 92.59  X / Y = 108.00)
+Dice Coefficient: 80.85% 
+

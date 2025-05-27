@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "$PEPE Looking Strong 💪🐸",
+        "X_token": "pepe, looking, strong",
+        "X_tweet_count": 1,
+        "X_username": "Crypto Zeus ⚡",
+        "Y_text": "$PEPE Looking Strong 🐸💪",
+        "Y_token": "pepe, looking, strong",
+        "Y_tweet_count": 8,
+        "Y_username": "Crypto Zeus ⚡",
+        "X_length": 23,
+        "Y_length": 23,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 100.0
+    }
+]

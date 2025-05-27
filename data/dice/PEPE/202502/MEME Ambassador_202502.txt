@@ -1,0 +1,33 @@
+﻿X = [@realannapaulina Buy Pepe coin https://t.co/iIvOp2rVOx]
+X_token = [realannapaulina, buy, pepe, coin, https]
+	X tweet_count = [5]
+	X username = [MEME Ambassador]
+Y = [@bennyjohnson Buy PEPE coin https://t.co/AXE9ogFeLy]
+Y_token = [bennyjohnson, buy, pepe, coin, https]
+	Y tweet_count = [14]
+	Y username = [MEME Ambassador]
+Total Length: X = 54, Y = 51 (Y / X = 94.44  X / Y = 105.88)
+Dice Coefficient: 80.00% 
+
+X = [@realannapaulina Buy Pepe coin https://t.co/iIvOp2rVOx]
+X_token = [realannapaulina, buy, pepe, coin, https]
+	X tweet_count = [5]
+	X username = [MEME Ambassador]
+Y = [@mcrs987 Buy Pepe coin https://t.co/4sUGNkS8TC]
+Y_token = [mcrs987, buy, pepe, coin, https]
+	Y tweet_count = [16]
+	Y username = [MEME Ambassador]
+Total Length: X = 54, Y = 46 (Y / X = 85.19  X / Y = 117.39)
+Dice Coefficient: 80.00% 
+
+X = [@bennyjohnson Buy PEPE coin https://t.co/AXE9ogFeLy]
+X_token = [bennyjohnson, buy, pepe, coin, https]
+	X tweet_count = [14]
+	X username = [MEME Ambassador]
+Y = [@mcrs987 Buy Pepe coin https://t.co/4sUGNkS8TC]
+Y_token = [mcrs987, buy, pepe, coin, https]
+	Y tweet_count = [16]
+	Y username = [MEME Ambassador]
+Total Length: X = 51, Y = 46 (Y / X = 90.20  X / Y = 110.87)
+Dice Coefficient: 80.00% 
+

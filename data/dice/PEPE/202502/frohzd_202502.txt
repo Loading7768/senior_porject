@@ -1,0 +1,11 @@
+﻿X = [Me rn\n\n$PEPE https://t.co/qF3tpF3xz3]
+X_token = [rn, pepe, https]
+	X tweet_count = [13]
+	X username = [frohzd]
+Y = [CT rn \n\n$PEPE https://t.co/HDiacKg687]
+Y_token = [ct, rn, pepe, https]
+	Y tweet_count = [19]
+	Y username = [frohzd]
+Total Length: X = 36, Y = 37 (Y / X = 102.78  X / Y = 97.30)
+Dice Coefficient: 85.71% 
+

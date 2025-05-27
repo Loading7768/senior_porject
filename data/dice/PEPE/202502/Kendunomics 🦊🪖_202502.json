@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "@kanyewest Adults buy memes on ETHEREUM\n\nSo just $Apeman\n\n@ApeManCTO $pepe $mog https://t.co/Pm6X0KvWeL",
+        "X_token": "kanyewest, adults, buy, memes, ethereum, apeman, apemancto, pepe, mog, https",
+        "X_tweet_count": 4,
+        "X_username": "Kendunomics 🦊🪖",
+        "Y_text": "@cryptoskullx Adults build memes on ETH\n\nSo just $Apeman \n\n@ApeManCTO $pepe $mog https://t.co/H4ZqL8F7Re",
+        "Y_token": "cryptoskullx, adults, build, memes, eth, apeman, apemancto, pepe, mog, https",
+        "Y_tweet_count": 15,
+        "Y_username": "Kendunomics 🦊🪖",
+        "X_length": 103,
+        "Y_length": 104,
+        "Y_length_percent_of_X": 100.97,
+        "X_length_percent_of_Y": 99.04,
+        "dice_coefficient": 70.0
+    },
+    {
+        "X_text": "@digitalartchick It do , it do.\n\nAdults build there memes on ETH so just $Apeman \n\n$pepe $mog @ApeManCTO",
+        "X_token": "digitalartchick, adults, build, memes, eth, apeman, pepe, mog, apemancto",
+        "X_tweet_count": 9,
+        "X_username": "Kendunomics 🦊🪖",
+        "Y_text": "@cryptoskullx Adults build memes on ETH\n\nSo just $Apeman \n\n@ApeManCTO $pepe $mog https://t.co/H4ZqL8F7Re",
+        "Y_token": "cryptoskullx, adults, build, memes, eth, apeman, apemancto, pepe, mog, https",
+        "Y_tweet_count": 15,
+        "Y_username": "Kendunomics 🦊🪖",
+        "X_length": 104,
+        "Y_length": 104,
+        "Y_length_percent_of_X": 100.0,
+        "X_length_percent_of_Y": 100.0,
+        "dice_coefficient": 84.21
+    }
+]

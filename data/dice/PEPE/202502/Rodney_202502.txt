@@ -1,0 +1,11 @@
+﻿X = [We are all $PEPE. 🐸 https://t.co/0zmAYnxCvH]
+X_token = [pepe, https]
+	X tweet_count = [32]
+	X username = [Rodney]
+Y = [@pepe All in on $PEPE 🐸 https://t.co/s8UH6jCw3O]
+Y_token = [pepe, pepe, https]
+	Y tweet_count = [49]
+	Y username = [Rodney]
+Total Length: X = 43, Y = 47 (Y / X = 109.30  X / Y = 91.49)
+Dice Coefficient: 100.00% 
+

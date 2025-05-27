@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "@basitox1 @barkmeta @RainbowLifePepe $PEPE is the next big thing https://t.co/thWwUYyo8B",
+        "X_token": "basitox1, barkmeta, rainbowlifepepe, pepe, next, big, thing, https",
+        "X_tweet_count": 2,
+        "X_username": "habibi trader",
+        "Y_text": "@basitox1 @LexaproTrader @RainbowLifePepe $PEPE is the next big thing https://t.co/i1m5mR4qBr",
+        "Y_token": "basitox1, lexaprotrader, rainbowlifepepe, pepe, next, big, thing, https",
+        "Y_tweet_count": 12,
+        "Y_username": "habibi trader",
+        "X_length": 88,
+        "Y_length": 93,
+        "Y_length_percent_of_X": 105.68,
+        "X_length_percent_of_Y": 94.62,
+        "dice_coefficient": 87.5
+    },
+    {
+        "X_text": "@joshuavictor121 @The__Solstice $PEPE is the talk of the town https://t.co/Ltb1yrE9b2",
+        "X_token": "joshuavictor121, pepe, talk, town, https",
+        "X_tweet_count": 5,
+        "X_username": "habibi trader",
+        "Y_text": "@basitox1 @xelf_sol @RainbowLifePepe $PEPE is the talk of the town https://t.co/Eledux1cm1",
+        "Y_token": "basitox1, rainbowlifepepe, pepe, talk, town, https",
+        "Y_tweet_count": 7,
+        "Y_username": "habibi trader",
+        "X_length": 85,
+        "Y_length": 90,
+        "Y_length_percent_of_X": 105.88,
+        "X_length_percent_of_Y": 94.44,
+        "dice_coefficient": 72.73
+    }
+]

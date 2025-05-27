@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@Landwolfeth Pepe Landwolf Brett Andy \n\nFirst $WOLF on chain deployed 5 days after $PEPE on ethereum https://t.co/pZtLED0wqx",
+        "X_token": "landwolfeth, pepe, landwolf, brett, andy, first, wolf, chain, deployed, 5, days, pepe, ethereum, https",
+        "X_tweet_count": 7,
+        "X_username": "DawnOfTheFreak",
+        "Y_text": "@LaoBoy206 @cz_binance @Landwolfeth First ever Landwolf $WOLF on chain \n\nDeployer 5 days after $PEPE \n@Landwolfeth https://t.co/3D5Lt2aoy4",
+        "Y_token": "laoboy206, landwolfeth, first, ever, landwolf, wolf, chain, deployer, 5, days, pepe, landwolfeth, https",
+        "Y_tweet_count": 16,
+        "Y_username": "DawnOfTheFreak",
+        "X_length": 124,
+        "Y_length": 138,
+        "Y_length_percent_of_X": 111.29,
+        "X_length_percent_of_Y": 89.86,
+        "dice_coefficient": 72.0
+    }
+]

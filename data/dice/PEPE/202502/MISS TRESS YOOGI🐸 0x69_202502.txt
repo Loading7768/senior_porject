@@ -1,0 +1,11 @@
+﻿X = [Facts. Buy $PEPE https://t.co/PoSb2oD5kC]
+X_token = [facts, buy, pepe, https]
+	X tweet_count = [8]
+	X username = [MISS TRESS YOOGI🐸 0x69]
+Y = [FACTS\n\nONLY $PEPE 🐸 https://t.co/LLfu2ov9dw]
+Y_token = [facts, pepe, https]
+	Y tweet_count = [18]
+	Y username = [MISS TRESS YOOGI🐸 0x69]
+Total Length: X = 40, Y = 43 (Y / X = 107.50  X / Y = 93.02)
+Dice Coefficient: 85.71% 
+

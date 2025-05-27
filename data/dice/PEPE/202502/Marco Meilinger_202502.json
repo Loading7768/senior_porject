@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "@HBAcrypto $pepe is king 🐸👑",
+        "X_token": "hbacrypto, pepe, king",
+        "X_tweet_count": 1,
+        "X_username": "Marco Meilinger",
+        "Y_text": "@HBAcrypto $pepe only 🐸🚀",
+        "Y_token": "hbacrypto, pepe",
+        "Y_tweet_count": 18,
+        "Y_username": "Marco Meilinger",
+        "X_length": 27,
+        "Y_length": 24,
+        "Y_length_percent_of_X": 88.89,
+        "X_length_percent_of_Y": 112.5,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "@ElonMuskPDA $pepe pump incoming 🐸🚀",
+        "X_token": "elonmuskpda, pepe, pump, incoming",
+        "X_tweet_count": 10,
+        "X_username": "Marco Meilinger",
+        "Y_text": "@ElonMuskPDA $pepe pump soon 🐸🚀",
+        "Y_token": "elonmuskpda, pepe, pump, soon",
+        "Y_tweet_count": 20,
+        "Y_username": "Marco Meilinger",
+        "X_length": 35,
+        "Y_length": 31,
+        "Y_length_percent_of_X": 88.57,
+        "X_length_percent_of_Y": 112.9,
+        "dice_coefficient": 75.0
+    }
+]

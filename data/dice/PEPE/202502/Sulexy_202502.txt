@@ -1,0 +1,33 @@
+﻿X = [@roor_io $PEEZY is $PEPE\nDo good,  feel good. \n@YoungPeezy_Pepe https://t.co/IuS4jYbLMN]
+X_token = [peezy, pepe, good, feel, good, https]
+	X tweet_count = [3]
+	X username = [Sulexy]
+Y = [@MemesOnBase_ @YoungPeezy_Pepe \nIts $PEEZY IS $PEPE https://t.co/w0fCH5wfcF]
+Y_token = [peezy, pepe, https]
+	Y tweet_count = [21]
+	Y username = [Sulexy]
+Total Length: X = 87, Y = 75 (Y / X = 86.21  X / Y = 116.00)
+Dice Coefficient: 75.00% 
+
+X = [@roor_io $PEEZY is $PEPE\nDo good,  feel good https://t.co/wTrA21k8Fp]
+X_token = [peezy, pepe, good, feel, good, https]
+	X tweet_count = [4]
+	X username = [Sulexy]
+Y = [@MemesOnBase_ @YoungPeezy_Pepe \nIts $PEEZY IS $PEPE https://t.co/w0fCH5wfcF]
+Y_token = [peezy, pepe, https]
+	Y tweet_count = [21]
+	Y username = [Sulexy]
+Total Length: X = 68, Y = 75 (Y / X = 110.29  X / Y = 90.67)
+Dice Coefficient: 75.00% 
+
+X = [@pepe_sui_token I hold $PEPE on #sui https://t.co/gM7Tdba1Kd]
+X_token = [hold, pepe, sui, https]
+	X tweet_count = [22]
+	X username = [Sulexy]
+Y = [@pepe_sui_token Its $PEPE on #sui https://t.co/fNwz7gXSON]
+Y_token = [pepe, sui, https]
+	Y tweet_count = [25]
+	Y username = [Sulexy]
+Total Length: X = 60, Y = 57 (Y / X = 95.00  X / Y = 105.26)
+Dice Coefficient: 85.71% 
+

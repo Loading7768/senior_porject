@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "$b3 is going to $.10 \n\n$sol $sui $xrp $doge $ltc $ada $pepe",
+        "X_token": "b3, going, sol, sui, xrp, doge, ltc, ada, pepe",
+        "X_tweet_count": 6,
+        "X_username": "Anahi",
+        "Y_text": "Broccoli is going back to $0.28\n\n#BROCCOLI $sol $xrp $doge $pepe $sui",
+        "Y_token": "broccoli, going, back, broccoli, sol, xrp, doge, pepe, sui",
+        "Y_tweet_count": 7,
+        "Y_username": "Anahi",
+        "X_length": 59,
+        "Y_length": 69,
+        "Y_length_percent_of_X": 116.95,
+        "X_length_percent_of_Y": 85.51,
+        "dice_coefficient": 70.59
+    },
+    {
+        "X_text": "Broccoli is going back to $0.28\n\n#BROCCOLI $sol $xrp $doge $pepe $sui",
+        "X_token": "broccoli, going, back, broccoli, sol, xrp, doge, pepe, sui",
+        "X_tweet_count": 7,
+        "X_username": "Anahi",
+        "Y_text": "Today $Broccoli is going to $.40 M\n\n$xrp $sol $doge $sui $pepe $shib",
+        "Y_token": "today, broccoli, going, xrp, sol, doge, sui, pepe, shib",
+        "Y_tweet_count": 8,
+        "Y_username": "Anahi",
+        "X_length": 69,
+        "Y_length": 68,
+        "Y_length_percent_of_X": 98.55,
+        "X_length_percent_of_Y": 101.47,
+        "dice_coefficient": 82.35
+    }
+]

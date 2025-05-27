@@ -1,0 +1,37 @@
+﻿QUERY = 'dogecoin lang:en until:2021-5-6 since:2021-5-5'
+SEARCH = 'Latest'
+執行時間：2025-04-29 03:47:34 ~ 2025-04-29 12:07:32 (8 hr 20 min)
+推文數量：15674 (0 WrittingError)
+推文時間：Wed May 05 15:43:20 +0000 2021 ~ Wed May 05 23:59:57 +0000 2021 (GMT+0)
+Timestamp：
+	2025-04-29 03:47:34 Start
+	2025-04-29 03:49:37 FileNotFoundError
+	2025-04-29 04:00:13 TooManyRequests - Got 733 tweets
+	Waiting until  2025-04-29 04:02:34 (2 min 20 sec)
+	2025-04-29 04:13:39 TooManyRequests - Got 1439 tweets
+	Waiting until  2025-04-29 04:17:39 (3 min 59 sec)
+	2025-04-29 04:46:58 TooManyRequests - Got 2573 tweets
+	Waiting until  2025-04-29 04:49:03 (2 min 4 sec)
+	2025-04-29 05:00:32 TooManyRequests - Got 3230 tweets
+	Waiting until  2025-04-29 05:04:09 (3 min 36 sec)
+	2025-04-29 05:18:51 TooManyRequests - Got 3982 tweets
+	Waiting until  2025-04-29 05:19:16 (0 min 24 sec)
+	2025-04-29 05:31:59 TooManyRequests - Got 4689 tweets
+	Waiting until  2025-04-29 05:34:21 (2 min 21 sec)
+	2025-04-29 05:46:28 TooManyRequests - Got 5373 tweets
+	Waiting until  2025-04-29 05:49:28 (2 min 59 sec)
+	2025-04-29 06:02:19 TooManyRequests - Got 6085 tweets
+	Waiting until  2025-04-29 06:04:33 (2 min 13 sec)
+	2025-04-29 06:16:26 TooManyRequests - Got 6775 tweets
+	Waiting until  2025-04-29 06:19:41 (3 min 14 sec)
+	2025-04-29 06:48:47 TooManyRequests - Got 8034 tweets
+	Waiting until  2025-04-29 06:49:47 (0 min 59 sec)
+	2025-04-29 07:04:03 TooManyRequests - Got 8712 tweets
+	Waiting until  2025-04-29 07:04:53 (0 min 49 sec)
+	2025-04-29 07:49:44 TooManyRequests - Got 10667 tweets
+	Waiting until  2025-04-29 07:52:09 (2 min 24 sec)
+	2025-04-29 08:36:55 TooManyRequests - Got 12514 tweets
+	Waiting until  2025-04-29 08:37:28 (0 min 32 sec)
+	2025-04-29 09:07:29 TooManyRequests - Got 13704 tweets
+	Waiting until  2025-04-29 09:08:38 (1 min 8 sec)
+

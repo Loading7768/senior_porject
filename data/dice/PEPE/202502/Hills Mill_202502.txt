@@ -1,0 +1,33 @@
+﻿X = [@PepeOnAbs @AkizaCrypto @aixbt_agent $PEPE is all you need chiefs \nDon’t fade this project]
+X_token = [pepeonabs, akizacrypto, pepe, need, chiefs, fade, project]
+	X tweet_count = [4]
+	X username = [Hills Mill]
+Y = [@PepeOnAbs @kanyewest $PEPE is all you need chiefs \nDon’t fade this meta]
+Y_token = [pepeonabs, kanyewest, pepe, need, chiefs, fade, meta]
+	Y tweet_count = [8]
+	Y username = [Hills Mill]
+Total Length: X = 90, Y = 72 (Y / X = 80.00  X / Y = 125.00)
+Dice Coefficient: 71.43% 
+
+X = [@PepeOnAbs @Cointelegraph $PEPE to the moon 🌕]
+X_token = [pepeonabs, cointelegraph, pepe, moon]
+	X tweet_count = [20]
+	X username = [Hills Mill]
+Y = [@PepeOnAbs @bunya_eth To the fucking moon 🌕 $PEPE]
+Y_token = [pepeonabs, fucking, moon, pepe]
+	Y tweet_count = [24]
+	Y username = [Hills Mill]
+Total Length: X = 45, Y = 49 (Y / X = 108.89  X / Y = 91.84)
+Dice Coefficient: 75.00% 
+
+X = [@PepeOnAbs @PepeCZBinance $PEPE is the real\nTicker]
+X_token = [pepeonabs, pepeczbinance, pepe, real, ticker]
+	X tweet_count = [21]
+	X username = [Hills Mill]
+Y = [@PepeOnAbs @yupforreal $PEPE is the real ticker]
+Y_token = [pepeonabs, yupforreal, pepe, real, ticker]
+	Y tweet_count = [23]
+	Y username = [Hills Mill]
+Total Length: X = 50, Y = 47 (Y / X = 94.00  X / Y = 106.38)
+Dice Coefficient: 80.00% 
+

@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "+464 new $PEPE holders today.\n\nThe final bear trap.\n\n💚🐸 https://t.co/v5YKUSlcLw",
+        "X_token": "new, pepe, holders, today, final, bear, trap, https",
+        "X_tweet_count": 4,
+        "X_username": "Plazma",
+        "Y_text": "-66 $PEPE holders today.\n\nThe final capitulation.\n\n💚🐸 https://t.co/xG9II6bFiU",
+        "Y_token": "pepe, holders, today, final, capitulation, https",
+        "Y_tweet_count": 55,
+        "Y_username": "Plazma",
+        "X_length": 79,
+        "Y_length": 77,
+        "Y_length_percent_of_X": 97.47,
+        "X_length_percent_of_Y": 102.6,
+        "dice_coefficient": 71.43
+    },
+    {
+        "X_text": "In my opinion, its a great time to add $PEPE. You can thank me later.",
+        "X_token": "opinion, great, time, add, pepe, thank, later",
+        "X_tweet_count": 5,
+        "X_username": "Plazma",
+        "Y_text": "@EricTrump In my opinion, its a great time to add $PEPE. You can thank me later.",
+        "Y_token": "erictrump, opinion, great, time, add, pepe, thank, later",
+        "Y_tweet_count": 6,
+        "Y_username": "Plazma",
+        "X_length": 69,
+        "Y_length": 80,
+        "Y_length_percent_of_X": 115.94,
+        "X_length_percent_of_Y": 86.25,
+        "dice_coefficient": 93.33
+    },
+    {
+        "X_text": "+504 new $PEPE holders today.\n\nNothing but greatness ahead for $PEPE.\n\n💚🐸 https://t.co/wN2bjx2jB7",
+        "X_token": "new, pepe, holders, today, nothing, greatness, ahead, pepe, https",
+        "X_tweet_count": 20,
+        "X_username": "Plazma",
+        "Y_text": "+542 new $PEPE holders today.\n\nAs usual nothing is happening on Sunday.\n\n💚🐸 https://t.co/mej8MTPKJl",
+        "Y_token": "new, pepe, holders, today, usual, nothing, happening, sunday, https",
+        "Y_tweet_count": 54,
+        "Y_username": "Plazma",
+        "X_length": 97,
+        "Y_length": 99,
+        "Y_length_percent_of_X": 102.06,
+        "X_length_percent_of_Y": 97.98,
+        "dice_coefficient": 70.59
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "X_text": "@Rayleig05 @anon_rip @RainbowLifePepe $PEPE is the future don’t miss out https://t.co/UlC1wohbqn",
+        "X_token": "rayleig05, rainbowlifepepe, pepe, future, miss, https",
+        "X_tweet_count": 1,
+        "X_username": "Astro trader",
+        "Y_text": "@Rayleig05 @The__Solstice @RainbowLifePepe $PEPE is gaining momentum don’t miss out https://t.co/S3bjZ6UzzZ",
+        "Y_token": "rayleig05, rainbowlifepepe, pepe, gaining, momentum, miss, https",
+        "Y_tweet_count": 9,
+        "Y_username": "Astro trader",
+        "X_length": 96,
+        "Y_length": 107,
+        "Y_length_percent_of_X": 111.46,
+        "X_length_percent_of_Y": 89.72,
+        "dice_coefficient": 76.92
+    },
+    {
+        "X_text": "@Stephen27388 @NFTsAreNice @RainbowLifePepe $PEPE is a game changer https://t.co/nvEwkPkVfX",
+        "X_token": "stephen27388, nftsarenice, rainbowlifepepe, pepe, game, changer, https",
+        "X_tweet_count": 4,
+        "X_username": "Astro trader",
+        "Y_text": "@basitox1 @LexaproTrader @RainbowLifePepe $PEPE is a game changer https://t.co/znw15baagS",
+        "Y_token": "basitox1, lexaprotrader, rainbowlifepepe, pepe, game, changer, https",
+        "Y_tweet_count": 12,
+        "Y_username": "Astro trader",
+        "X_length": 91,
+        "Y_length": 89,
+        "Y_length_percent_of_X": 97.8,
+        "X_length_percent_of_Y": 102.25,
+        "dice_coefficient": 71.43
+    },
+    {
+        "X_text": "@Rayleig05 @The__Solstice @RainbowLifePepe $PEPE is gaining momentum don’t miss out https://t.co/S3bjZ6UzzZ",
+        "X_token": "rayleig05, rainbowlifepepe, pepe, gaining, momentum, miss, https",
+        "X_tweet_count": 9,
+        "X_username": "Astro trader",
+        "Y_text": "@Rayleig05 @3orovik @RainbowLifePepe $PEPE is gaining momentum https://t.co/gXYNcYIvjj",
+        "Y_token": "rayleig05, 3orovik, rainbowlifepepe, pepe, gaining, momentum, https",
+        "Y_tweet_count": 11,
+        "Y_username": "Astro trader",
+        "X_length": 107,
+        "Y_length": 86,
+        "Y_length_percent_of_X": 80.37,
+        "X_length_percent_of_Y": 124.42,
+        "dice_coefficient": 85.71
+    }
+]

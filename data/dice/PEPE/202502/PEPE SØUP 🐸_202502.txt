@@ -1,0 +1,33 @@
+﻿X = [Gm $pepe Frens 🤟🐸 https://t.co/wNROjrAOif]
+X_token = [gm, pepe, frens, https]
+	X tweet_count = [7]
+	X username = [PEPE SØUP 🐸]
+Y = [GM $pepe Bross 🤟🐸☕️🥐 https://t.co/e7MFhElccU]
+Y_token = [gm, pepe, bross, https]
+	Y tweet_count = [8]
+	Y username = [PEPE SØUP 🐸]
+Total Length: X = 41, Y = 44 (Y / X = 107.32  X / Y = 93.18)
+Dice Coefficient: 75.00% 
+
+X = [Gm $pepe Frens 🤟🐸 https://t.co/wNROjrAOif]
+X_token = [gm, pepe, frens, https]
+	X tweet_count = [7]
+	X username = [PEPE SØUP 🐸]
+Y = [Gm $pepe Fam 💚👋☕️ https://t.co/QzhdkTB0BY]
+Y_token = [gm, pepe, fam, https]
+	Y tweet_count = [14]
+	Y username = [PEPE SØUP 🐸]
+Total Length: X = 41, Y = 41 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 75.00% 
+
+X = [GM $pepe Bross 🤟🐸☕️🥐 https://t.co/e7MFhElccU]
+X_token = [gm, pepe, bross, https]
+	X tweet_count = [8]
+	X username = [PEPE SØUP 🐸]
+Y = [Gm $pepe Fam 💚👋☕️ https://t.co/QzhdkTB0BY]
+Y_token = [gm, pepe, fam, https]
+	Y tweet_count = [14]
+	Y username = [PEPE SØUP 🐸]
+Total Length: X = 44, Y = 41 (Y / X = 93.18  X / Y = 107.32)
+Dice Coefficient: 75.00% 
+

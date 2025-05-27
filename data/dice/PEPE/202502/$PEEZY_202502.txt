@@ -1,0 +1,792 @@
+﻿X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [2]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 133 (Y / X = 111.76  X / Y = 89.47)
+Dice Coefficient: 82.35% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [3]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 126 (Y / X = 105.88  X / Y = 94.44)
+Dice Coefficient: 82.35% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [4]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 117 (Y / X = 98.32  X / Y = 101.71)
+Dice Coefficient: 84.85% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [6]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 121 (Y / X = 101.68  X / Y = 98.35)
+Dice Coefficient: 80.00% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [12]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 119 (Y / X = 100.00  X / Y = 100.00)
+Dice Coefficient: 87.50% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Always 👊 $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [always, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [13]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 100 (Y / X = 84.03  X / Y = 119.00)
+Dice Coefficient: 90.32% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 138 (Y / X = 115.97  X / Y = 86.23)
+Dice Coefficient: 88.24% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 140 (Y / X = 117.65  X / Y = 85.00)
+Dice Coefficient: 88.24% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 141 (Y / X = 118.49  X / Y = 84.40)
+Dice Coefficient: 84.85% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [17]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 106 (Y / X = 89.08  X / Y = 112.26)
+Dice Coefficient: 84.85% 
+
+X = [It's true! $PEEZY \n@peezyethereum\n 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [true, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [1]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 118 (Y / X = 99.16  X / Y = 100.85)
+Dice Coefficient: 77.78% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [3]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 126 (Y / X = 94.74  X / Y = 105.56)
+Dice Coefficient: 77.78% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [4]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 117 (Y / X = 87.97  X / Y = 113.68)
+Dice Coefficient: 80.00% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [My favouite frog is on sale right now $PEEZY 🐸🕶️\n\n $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/puicHR7qFW]
+Y_token = [favouite, frog, sale, right, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [5]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 154 (Y / X = 115.79  X / Y = 86.36)
+Dice Coefficient: 75.68% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [6]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 121 (Y / X = 90.98  X / Y = 109.92)
+Dice Coefficient: 75.68% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [12]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 119 (Y / X = 89.47  X / Y = 111.76)
+Dice Coefficient: 82.35% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 138 (Y / X = 103.76  X / Y = 96.38)
+Dice Coefficient: 77.78% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 140 (Y / X = 105.26  X / Y = 95.00)
+Dice Coefficient: 77.78% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 141 (Y / X = 106.02  X / Y = 94.33)
+Dice Coefficient: 80.00% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Best narrative this cycle\n\nStudy $PEEZY ✍️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH https://t.co/2Et4mpAReF]
+Y_token = [best, narrative, cycle, study, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth, https]
+	Y tweet_count = [18]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 152 (Y / X = 114.29  X / Y = 87.50)
+Dice Coefficient: 73.68% 
+
+X = [Rayn about to bring the heat. Tune in 😎\n\n$PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [rayn, bring, heat, tune, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [2]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 133, Y = 118 (Y / X = 88.72  X / Y = 112.71)
+Dice Coefficient: 73.68% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [4]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 117 (Y / X = 92.86  X / Y = 107.69)
+Dice Coefficient: 80.00% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [My favouite frog is on sale right now $PEEZY 🐸🕶️\n\n $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/puicHR7qFW]
+Y_token = [favouite, frog, sale, right, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [5]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 154 (Y / X = 122.22  X / Y = 81.82)
+Dice Coefficient: 81.08% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [6]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 121 (Y / X = 96.03  X / Y = 104.13)
+Dice Coefficient: 81.08% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [12]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 119 (Y / X = 94.44  X / Y = 105.88)
+Dice Coefficient: 82.35% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 138 (Y / X = 109.52  X / Y = 91.30)
+Dice Coefficient: 77.78% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 140 (Y / X = 111.11  X / Y = 90.00)
+Dice Coefficient: 77.78% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 141 (Y / X = 111.90  X / Y = 89.36)
+Dice Coefficient: 80.00% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [17]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 106 (Y / X = 84.13  X / Y = 118.87)
+Dice Coefficient: 80.00% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Best narrative this cycle\n\nStudy $PEEZY ✍️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH https://t.co/2Et4mpAReF]
+Y_token = [best, narrative, cycle, study, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth, https]
+	Y tweet_count = [18]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 152 (Y / X = 120.63  X / Y = 82.89)
+Dice Coefficient: 73.68% 
+
+X = [Peezy is Pepe. Fade the frog and get rekt 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [peezy, pepe, fade, frog, get, rekt, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [3]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 126, Y = 118 (Y / X = 93.65  X / Y = 106.78)
+Dice Coefficient: 73.68% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [6]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 121 (Y / X = 103.42  X / Y = 96.69)
+Dice Coefficient: 77.78% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [12]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 119 (Y / X = 101.71  X / Y = 98.32)
+Dice Coefficient: 84.85% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [Always 👊 $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [always, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [13]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 100 (Y / X = 85.47  X / Y = 117.00)
+Dice Coefficient: 87.50% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 138 (Y / X = 117.95  X / Y = 84.78)
+Dice Coefficient: 80.00% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 140 (Y / X = 119.66  X / Y = 83.57)
+Dice Coefficient: 80.00% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 141 (Y / X = 120.51  X / Y = 82.98)
+Dice Coefficient: 82.35% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [17]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 106 (Y / X = 90.60  X / Y = 110.38)
+Dice Coefficient: 82.35% 
+
+X = [Put the fries in the bag Pepe\n\n$PEEZY $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [put, fries, bag, pepe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [4]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 117, Y = 118 (Y / X = 100.85  X / Y = 99.15)
+Dice Coefficient: 75.68% 
+
+X = [My favouite frog is on sale right now $PEEZY 🐸🕶️\n\n $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/puicHR7qFW]
+X_token = [favouite, frog, sale, right, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	X tweet_count = [5]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 154, Y = 138 (Y / X = 89.61  X / Y = 111.59)
+Dice Coefficient: 75.68% 
+
+X = [My favouite frog is on sale right now $PEEZY 🐸🕶️\n\n $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/puicHR7qFW]
+X_token = [favouite, frog, sale, right, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	X tweet_count = [5]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 154, Y = 140 (Y / X = 90.91  X / Y = 110.00)
+Dice Coefficient: 75.68% 
+
+X = [My favouite frog is on sale right now $PEEZY 🐸🕶️\n\n $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/puicHR7qFW]
+X_token = [favouite, frog, sale, right, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	X tweet_count = [5]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 154, Y = 141 (Y / X = 91.56  X / Y = 109.22)
+Dice Coefficient: 83.33% 
+
+X = [My favouite frog is on sale right now $PEEZY 🐸🕶️\n\n $PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/puicHR7qFW]
+X_token = [favouite, frog, sale, right, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	X tweet_count = [5]
+	X username = [$PEEZY]
+Y = [Best narrative this cycle\n\nStudy $PEEZY ✍️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH https://t.co/2Et4mpAReF]
+Y_token = [best, narrative, cycle, study, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth, https]
+	Y tweet_count = [18]
+	Y username = [$PEEZY]
+Total Length: X = 154, Y = 152 (Y / X = 98.70  X / Y = 101.32)
+Dice Coefficient: 76.92% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [12]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 119 (Y / X = 98.35  X / Y = 101.68)
+Dice Coefficient: 80.00% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [Always 👊 $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [always, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [13]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 100 (Y / X = 82.64  X / Y = 121.00)
+Dice Coefficient: 82.35% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 138 (Y / X = 114.05  X / Y = 87.68)
+Dice Coefficient: 75.68% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 140 (Y / X = 115.70  X / Y = 86.43)
+Dice Coefficient: 75.68% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 141 (Y / X = 116.53  X / Y = 85.82)
+Dice Coefficient: 77.78% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [17]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 106 (Y / X = 87.60  X / Y = 114.15)
+Dice Coefficient: 83.33% 
+
+X = [Let's get this one full today $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [let, get, one, full, today, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [6]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 121, Y = 118 (Y / X = 97.52  X / Y = 102.54)
+Dice Coefficient: 76.92% 
+
+X = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [12]
+	X username = [$PEEZY]
+Y = [Always 👊 $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [always, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [13]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 100 (Y / X = 84.03  X / Y = 119.00)
+Dice Coefficient: 90.32% 
+
+X = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [12]
+	X username = [$PEEZY]
+Y = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [14]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 138 (Y / X = 115.97  X / Y = 86.23)
+Dice Coefficient: 82.35% 
+
+X = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [12]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 140 (Y / X = 117.65  X / Y = 85.00)
+Dice Coefficient: 82.35% 
+
+X = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [12]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 141 (Y / X = 118.49  X / Y = 84.40)
+Dice Coefficient: 84.85% 
+
+X = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [12]
+	X username = [$PEEZY]
+Y = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [17]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 106 (Y / X = 89.08  X / Y = 112.26)
+Dice Coefficient: 84.85% 
+
+X = [Everyday is a blessing for $PEEZY 🐸🕶️ \n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [everyday, blessing, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [12]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 119, Y = 118 (Y / X = 99.16  X / Y = 100.85)
+Dice Coefficient: 77.78% 
+
+X = [Always 👊 $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [always, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [13]
+	X username = [$PEEZY]
+Y = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [17]
+	Y username = [$PEEZY]
+Total Length: X = 100, Y = 106 (Y / X = 106.00  X / Y = 94.34)
+Dice Coefficient: 87.50% 
+
+X = [Always 👊 $PEEZY 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [always, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [13]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 100, Y = 118 (Y / X = 118.00  X / Y = 84.75)
+Dice Coefficient: 80.00% 
+
+X = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [14]
+	X username = [$PEEZY]
+Y = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+Y_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	Y tweet_count = [15]
+	Y username = [$PEEZY]
+Total Length: X = 138, Y = 140 (Y / X = 101.45  X / Y = 98.57)
+Dice Coefficient: 83.33% 
+
+X = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [14]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 138, Y = 141 (Y / X = 102.17  X / Y = 97.87)
+Dice Coefficient: 80.00% 
+
+X = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [14]
+	X username = [$PEEZY]
+Y = [Best narrative this cycle\n\nStudy $PEEZY ✍️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH https://t.co/2Et4mpAReF]
+Y_token = [best, narrative, cycle, study, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth, https]
+	Y tweet_count = [18]
+	Y username = [$PEEZY]
+Total Length: X = 138, Y = 152 (Y / X = 110.14  X / Y = 90.79)
+Dice Coefficient: 73.68% 
+
+X = [Happy valentines day from Peezy 🐸🕶\n\n$PEEZY @peezyethereum\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [happy, valentines, day, peezy, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [14]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 138, Y = 118 (Y / X = 85.51  X / Y = 116.95)
+Dice Coefficient: 73.68% 
+
+X = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [15]
+	X username = [$PEEZY]
+Y = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+Y_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	Y tweet_count = [16]
+	Y username = [$PEEZY]
+Total Length: X = 140, Y = 141 (Y / X = 100.71  X / Y = 99.29)
+Dice Coefficient: 80.00% 
+
+X = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [15]
+	X username = [$PEEZY]
+Y = [Best narrative this cycle\n\nStudy $PEEZY ✍️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH https://t.co/2Et4mpAReF]
+Y_token = [best, narrative, cycle, study, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth, https]
+	Y tweet_count = [18]
+	Y username = [$PEEZY]
+Total Length: X = 140, Y = 152 (Y / X = 108.57  X / Y = 92.11)
+Dice Coefficient: 73.68% 
+
+X = [You are running out of time anon\n\n$PEEZY @peezyethereum 🐸🕶️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY]
+X_token = [running, time, anon, peezy, peezyethereum, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy]
+	X tweet_count = [15]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 140, Y = 118 (Y / X = 84.29  X / Y = 118.64)
+Dice Coefficient: 73.68% 
+
+X = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+X_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	X tweet_count = [16]
+	X username = [$PEEZY]
+Y = [Best narrative this cycle\n\nStudy $PEEZY ✍️\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH https://t.co/2Et4mpAReF]
+Y_token = [best, narrative, cycle, study, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth, https]
+	Y tweet_count = [18]
+	Y username = [$PEEZY]
+Total Length: X = 141, Y = 152 (Y / X = 107.80  X / Y = 92.76)
+Dice Coefficient: 81.08% 
+
+X = [$PEEZY is just too damn cheap here 🤩\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY https://t.co/KzTjC7zGee]
+X_token = [peezy, damn, cheap, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, https]
+	X tweet_count = [16]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 141, Y = 118 (Y / X = 83.69  X / Y = 119.49)
+Dice Coefficient: 75.68% 
+
+X = [Let's gooo!!! $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+X_token = [let, gooo, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	X tweet_count = [17]
+	X username = [$PEEZY]
+Y = [Join us fam! Let's vibe 😎 $PEEZY\n\n$PEPE $BRETT $ANDY $WOLF $APU $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $HOPPY $ETH]
+Y_token = [join, us, fam, let, vibe, peezy, pepe, brett, andy, wolf, apu, pepu, pep, purpe, peipei, pork, apx, fefe, hoppy, eth]
+	Y tweet_count = [20]
+	Y username = [$PEEZY]
+Total Length: X = 106, Y = 118 (Y / X = 111.32  X / Y = 89.83)
+Dice Coefficient: 86.49% 
+
+X = [At $1M mcap, It's hard to see a world where $PEEZY doesn't 500-1000X from here\n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH https://t.co/O5AQb5Pj7K]
+X_token = [1m, mcap, hard, see, world, peezy, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth, https]
+	X tweet_count = [21]
+	X username = [$PEEZY]
+Y = [Vitalik fumbled so you can eat ☺️\n\n$PEEZY @peezyethereum \n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+Y_token = [vitalik, fumbled, eat, peezy, peezyethereum, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	Y tweet_count = [22]
+	Y username = [$PEEZY]
+Total Length: X = 298, Y = 253 (Y / X = 84.90  X / Y = 117.79)
+Dice Coefficient: 86.84% 
+
+X = [Vitalik fumbled so you can eat ☺️\n\n$PEEZY @peezyethereum \n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+X_token = [vitalik, fumbled, eat, peezy, peezyethereum, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	X tweet_count = [22]
+	X username = [$PEEZY]
+Y = [The time to buy $PEEZY is now\n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+Y_token = [time, buy, peezy, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	Y tweet_count = [23]
+	Y username = [$PEEZY]
+Total Length: X = 253, Y = 225 (Y / X = 88.93  X / Y = 112.44)
+Dice Coefficient: 91.67% 
+
+X = [Vitalik fumbled so you can eat ☺️\n\n$PEEZY @peezyethereum \n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+X_token = [vitalik, fumbled, eat, peezy, peezyethereum, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	X tweet_count = [22]
+	X username = [$PEEZY]
+Y = [You have no idea what comes next 😏 $PEEZY\n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+Y_token = [idea, comes, next, peezy, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	Y tweet_count = [24]
+	Y username = [$PEEZY]
+Total Length: X = 253, Y = 237 (Y / X = 93.68  X / Y = 106.75)
+Dice Coefficient: 90.41% 
+
+X = [The time to buy $PEEZY is now\n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+X_token = [time, buy, peezy, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	X tweet_count = [23]
+	X username = [$PEEZY]
+Y = [You have no idea what comes next 😏 $PEEZY\n\n$PEPE $BRETT $TOSHI $ANDY $WOLF $APU $BOB $PEPU $PEP $PURPE $PEIPEI $PORK $APX $FEFE $FROGE $HOPPY $PEEP $PEPO $MOG $SPX $TURBO $PONKE $NPC $WOJAK $BOBO $MAGA $TRUMP $SHIB $FLOKI $DOGE $BTC $ETH]
+Y_token = [idea, comes, next, peezy, pepe, brett, toshi, andy, wolf, apu, bob, pepu, pep, purpe, peipei, pork, apx, fefe, froge, hoppy, peep, pepo, mog, spx, turbo, ponke, npc, wojak, bobo, maga, trump, shib, floki, doge, btc, eth]
+	Y tweet_count = [24]
+	Y username = [$PEEZY]
+Total Length: X = 225, Y = 237 (Y / X = 105.33  X / Y = 94.94)
+Dice Coefficient: 92.96% 
+

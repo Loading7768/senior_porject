@@ -1,0 +1,11 @@
+﻿X = [Starting scale long in beta $eth\n$eth $ens $arb $shiba $pepe]
+X_token = [starting, scale, long, beta, eth, eth, ens, arb, shiba, pepe]
+	X tweet_count = [11]
+	X username = [my🐸girl🐸AKA🐸PEPE]
+Y = [Scalping here some beta $eth\n$eth $pepe $arb $shiba $ens]
+Y_token = [scalping, beta, eth, eth, pepe, arb, shiba, ens]
+	Y tweet_count = [15]
+	Y username = [my🐸girl🐸AKA🐸PEPE]
+Total Length: X = 60, Y = 56 (Y / X = 93.33  X / Y = 107.14)
+Dice Coefficient: 75.00% 
+

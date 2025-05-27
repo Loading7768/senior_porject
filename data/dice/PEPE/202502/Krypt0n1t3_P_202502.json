@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "@AI_Meme_Intern @stoolpresidente @pepe_sui_token Grab a Bag of $PEPE on $SUI",
+        "X_token": "stoolpresidente, grab, bag, pepe, sui",
+        "X_tweet_count": 18,
+        "X_username": "Krypt0n1t3_P",
+        "Y_text": "@TheApeLife__ @phantom @SuiNetwork @pepe_sui_token Grab a bag of $PEPE on $SUI",
+        "Y_token": "phantom, suinetwork, grab, bag, pepe, sui",
+        "Y_tweet_count": 31,
+        "Y_username": "Krypt0n1t3_P",
+        "X_length": 76,
+        "Y_length": 78,
+        "Y_length_percent_of_X": 102.63,
+        "X_length_percent_of_Y": 97.44,
+        "dice_coefficient": 72.73
+    }
+]

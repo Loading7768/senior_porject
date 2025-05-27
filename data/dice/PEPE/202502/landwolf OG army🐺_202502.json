@@ -1,0 +1,17 @@
+[
+    {
+        "X_text": "Both are 2023 OG memecoins\n\n$PEPE 🤝 #Landwolf 0x33 the real original ones. https://t.co/sYn7V1YGYm",
+        "X_token": "2023, og, memecoins, pepe, landwolf, 0x33, real, original, ones, https",
+        "X_tweet_count": 14,
+        "X_username": "landwolf OG army🐺",
+        "Y_text": "@JakeGagain $Pepe and #Landwolf (0x33) \n\nBest friends\n\nBoth 2023 OG memecoins https://t.co/m0inzcMGql",
+        "Y_token": "jakegagain, pepe, landwolf, 0x33, best, friends, 2023, og, memecoins, https",
+        "Y_tweet_count": 28,
+        "Y_username": "landwolf OG army🐺",
+        "X_length": 98,
+        "Y_length": 101,
+        "Y_length_percent_of_X": 103.06,
+        "X_length_percent_of_Y": 97.03,
+        "dice_coefficient": 70.0
+    }
+]

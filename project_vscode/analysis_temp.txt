@@ -1,9 +1,0 @@
-﻿QUERY = 'dogecoin lang:en until:2021-4-25 since:2021-4-24'
-SEARCH = 'Latest'
-執行時間：2025-04-15 23:28:31 ~ 2025-04-15 23:38:48 (0 hr 10 min)
-推文數量：537 (0 WrittingError)
-推文時間：Sat Apr 24 22:56:45 +0000 2021 ~ Sat Apr 24 23:59:52 +0000 2021 (GMT+0)
-Timestamp：
-	2025-04-15 23:28:31 Start
-	2025-04-15 23:28:32 FileNotFoundError
-

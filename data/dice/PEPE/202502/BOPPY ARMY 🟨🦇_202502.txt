@@ -1,0 +1,22 @@
+﻿X = [@CryptoKaleo Time to be more bullish on \n\n$PEPE $HOPPY and $BOPPY]
+X_token = [cryptokaleo, time, bullish, pepe, hoppy, boppy]
+	X tweet_count = [1]
+	X username = [BOPPY ARMY 🟨🦇]
+Y = [@nordin_eth $PEPE $HOPPY and $BOPPY looking so bullish]
+Y_token = [pepe, hoppy, boppy, looking, bullish]
+	Y tweet_count = [15]
+	Y username = [BOPPY ARMY 🟨🦇]
+Total Length: X = 65, Y = 54 (Y / X = 83.08  X / Y = 120.37)
+Dice Coefficient: 72.73% 
+
+X = [@nordin_eth $PEPE $HOPPY and $BOPPY looking so bullish]
+X_token = [pepe, hoppy, boppy, looking, bullish]
+	X tweet_count = [15]
+	X username = [BOPPY ARMY 🟨🦇]
+Y = [@JakeGagain $PEPE $HOPPY and $BOPPY are looking very strong]
+Y_token = [jakegagain, pepe, hoppy, boppy, looking, strong]
+	Y tweet_count = [17]
+	Y username = [BOPPY ARMY 🟨🦇]
+Total Length: X = 54, Y = 59 (Y / X = 109.26  X / Y = 91.53)
+Dice Coefficient: 72.73% 
+

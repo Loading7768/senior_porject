@@ -1,0 +1,33 @@
+﻿X = [@JakeGagain Thanks Jake!\nThe boys club representing\n$pepe\n$wolf\n$andy\n$brett https://t.co/yUOmzIAJ8N]
+X_token = [jakegagain, thanks, jake, boys, club, representing, pepe, wolf, andy, brett, https]
+	X tweet_count = [6]
+	X username = [Rogerdoger56]
+Y = [@Wojakwojowski Just surviving over here at the boys club 😉\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/3upVqHH5Tn]
+Y_token = [wojakwojowski, surviving, boys, club, pepe, wolf, andy, brett, https]
+	Y tweet_count = [21]
+	Y username = [Rogerdoger56]
+Total Length: X = 100, Y = 107 (Y / X = 107.00  X / Y = 93.46)
+Dice Coefficient: 70.00% 
+
+X = [@misterrcrypto Can't go wrong with the boys club\n$pepe\n$wolf\n$andy\n$brett https://t.co/6Pbib8yRQU]
+X_token = [misterrcrypto, ca, go, wrong, boys, club, pepe, wolf, andy, brett, https]
+	X tweet_count = [9]
+	X username = [Rogerdoger56]
+Y = [@Wojakwojowski Just surviving over here at the boys club 😉\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/3upVqHH5Tn]
+Y_token = [wojakwojowski, surviving, boys, club, pepe, wolf, andy, brett, https]
+	Y tweet_count = [21]
+	Y username = [Rogerdoger56]
+Total Length: X = 97, Y = 107 (Y / X = 110.31  X / Y = 90.65)
+Dice Coefficient: 70.00% 
+
+X = [@henokcrypto Just another work day 👍\nThe boys club\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/UyjPrdDcNE]
+X_token = [henokcrypto, another, work, day, boys, club, pepe, wolf, andy, brett, https]
+	X tweet_count = [19]
+	X username = [Rogerdoger56]
+Y = [@Wojakwojowski Just surviving over here at the boys club 😉\n$PEPE\n$WOLF\n$ANDY\n$BRETT https://t.co/3upVqHH5Tn]
+Y_token = [wojakwojowski, surviving, boys, club, pepe, wolf, andy, brett, https]
+	Y tweet_count = [21]
+	Y username = [Rogerdoger56]
+Total Length: X = 99, Y = 107 (Y / X = 108.08  X / Y = 92.52)
+Dice Coefficient: 70.00% 
+

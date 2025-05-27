@@ -1,0 +1,32 @@
+[
+    {
+        "X_text": "@ChandlerCharts $Pepe is the One",
+        "X_token": "chandlercharts, pepe, one",
+        "X_tweet_count": 4,
+        "X_username": "MoonMission",
+        "Y_text": "$Pepe is the One and Only!",
+        "Y_token": "pepe, one",
+        "Y_tweet_count": 17,
+        "Y_username": "MoonMission",
+        "X_length": 32,
+        "Y_length": 26,
+        "Y_length_percent_of_X": 81.25,
+        "X_length_percent_of_Y": 123.08,
+        "dice_coefficient": 80.0
+    },
+    {
+        "X_text": "$PEPE to a penny.",
+        "X_token": "pepe, penny",
+        "X_tweet_count": 13,
+        "X_username": "MoonMission",
+        "Y_text": "$PEPE TO A PENNY",
+        "Y_token": "pepe, penny",
+        "Y_tweet_count": 15,
+        "Y_username": "MoonMission",
+        "X_length": 17,
+        "Y_length": 16,
+        "Y_length_percent_of_X": 94.12,
+        "X_length_percent_of_Y": 106.25,
+        "dice_coefficient": 100.0
+    }
+]
