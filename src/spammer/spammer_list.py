@@ -4,14 +4,14 @@ from datetime import datetime
 from collections import defaultdict
 
 # === 自訂參數 ===
-json_coin = "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"
-coin_type = "TRUMP"
-year = "2025"
-month = "03"
+json_coin = "dogecoin"
+coin_type = "DOGE"
+year = "2021"
+month = "08"
 
 # === 資料夾設定 ===
-# folder_path = f"data/{coin_type}/{year}/{month}"
-folder_path = f"data/tweets"
+folder_path = f"../data/tweets/{coin_type}/{year}/{month}"
+# folder_path = f"data/tweets"
 file_prefix = f"{coin_type}_{year}{month}"
 
 # === 儲存結果
@@ -87,7 +87,10 @@ for date in sorted(daily_stats.keys()):
             data = json.load(f)
         if json_coin in data:
             for tweet in data[json_coin]:
-                user = tweet["username"]
+                try:
+                    user = tweet["user_account"]
+                except Exception:
+                    user = tweet["username"]
                 all_authors_counter[user] += 1
     except Exception as e:
         # print(f"無法讀取或解析 {file_name}：{e}")
@@ -134,6 +137,16 @@ for date in sorted(daily_stats.keys()):
     # print(f"📈 發文太快作者的貼文比例：{fast_authors_total_posts} / {total_tweets} = {ratio_fast_posts:.2%}")
     # print(f"📈 當天前{rank_limit}名作者的貼文比例：{top_n_total_posts} / {total_tweets} = {ratio_topn_posts:.2%}")
 
-spammers = list(set(spammers));
-for spammer in spammers: 
-    print(spammer)
+spammers = list(set(spammers))
+# for spammer in spammers: 
+#     print(spammer)
+
+output_path = f"../data/spammer/"
+os.makedirs(output_path, exist_ok=True)
+output_txt_path = f"../data/spammer/spammer_{year}{month}.txt"
+with open(output_txt_path, "w", encoding="utf-8-sig") as txtfile:
+    for spammer in spammers: 
+        txtfile.write(spammer)
+        txtfile.write("\n")
+
+print(f"已儲存在 spammer_{year}{month}.txt")
