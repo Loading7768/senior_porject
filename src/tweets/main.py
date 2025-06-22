@@ -163,7 +163,7 @@ async def main():
     # 1) 直接在登入後的 X 上抓出 "auth_token", "ct0"
     # 2) 儲存並加載 Cookies 來保持登入狀態
     client = Client(language='en-US')
-    client.load_cookies('cookies.json')  # 這裡 **不用 await**，因為是同步函式
+    client.load_cookies('tweets/cookies.json')  # 這裡 **不用 await**，因為是同步函式
 
     body = ""  # 用來記錄每一輪的 analysis 來傳 email
 
@@ -276,6 +276,9 @@ async def main():
             '''以下為測試檔案是否正常'''
             # 將 data.json 中的資料讀到 data_json 中
             try:
+                output_json_path = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/0{START_MONTH}/"
+                os.makedirs(output_json_path, exist_ok=True)
+
                 with open(filename, 'r', encoding='utf-8-sig') as file:
                     data_json = json.load(file)
                 
