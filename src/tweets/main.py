@@ -22,19 +22,19 @@ import winsound
 '''可修改參數'''
 MINIMUM_TWEETS = 100000  # 設定最少要擷取的推文數
 
-COIN_NAME = "(dogecoin OR \"doge coin\" OR \"doge meme coin\" OR dogecoin OR $DOGE OR \"dollar doge\")"  # 目前要爬的 memecoin
+COIN_NAME = "(pepecoin OR \"pepe coin\" OR \"pepe meme coin\" OR pepecoin OR $PEPE OR \"dollar pepe\")"  # 目前要爬的 memecoin
 
-COIN_SHORT_NAME = "DOGE"  # 要當成檔案名的 memecoin 名稱
+COIN_SHORT_NAME = "PEPE"  # 要當成檔案名的 memecoin 名稱
 
-JSON_DICT_NAME = "dogecoin"  # 設定推文所存的 json 檔中字典的名稱
+JSON_DICT_NAME = "PEPE"  # 設定推文所存的 json 檔中字典的名稱
 
 SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media, Lists)
 
-START_YEAR = 2021  # 開始的年份
+START_YEAR = 2024  # 開始的年份
 
 START_MONTH = 5  # 開始的月份
 
-START_DAY = 27  # 開始的日期
+START_DAY = 7  # 開始的日期
 
 DAY_COUNT = 1  # 要連續找幾天
 
@@ -43,7 +43,7 @@ CHANGE_MONTH = 0  # 在哪個日期結束後有跨月 沒有填 0   ex. 如果�
 TRUN_ON_TIWCE_BREAK = False  # 看有沒有要當出現兩次 Rate limit reached 就馬上停止執行
 
 # 如果不需要程式執行完成後傳 gmail 給你, 則留空字串
-GMAIL = "nadodebisean@gmail.com"
+GMAIL = ""
 
 PASSWORD = ""  # 帳號有啟用兩步驟驗證的話, PASSWORD 需要使用自行創建的「應用程式密碼」
 '''可修改參數'''
@@ -163,7 +163,7 @@ async def main():
     # 1) 直接在登入後的 X 上抓出 "auth_token", "ct0"
     # 2) 儲存並加載 Cookies 來保持登入狀態
     client = Client(language='en-US')
-    client.load_cookies('tweets/cookies.json')  # 這裡 **不用 await**，因為是同步函式
+    client.load_cookies('cookies.json')  # 這裡 **不用 await**，因為是同步函式
 
     body = ""  # 用來記錄每一輪的 analysis 來傳 email
 
