@@ -14,11 +14,15 @@ import psutil
 
 
 '''可修改參數'''
-FOLDER_PATH = "../project_vscode/data/spammer/03"  # 選擇要對哪個資料夾執行
+YEAR = "2025"
+
+MONTH = "03"
+
+FOLDER_PATH = f"../data/spammer/{YEAR}/{MONTH}"  # 選擇要對哪個資料夾執行
 # "../Kmeans/data/clustered/"
 # "../project_vscode/data/spammer/04"
 
-OUTPUT_FOLDER_NAME = "202503"  # 設定要儲存到的資料夾名稱   ex. "../LCS/analysis/{OUTPUT_FOLDER_NAME}/"
+OUTPUT_FOLDER_NAME = f"{YEAR}{MONTH}"  # 設定要儲存到的資料夾名稱   ex. "../LCS/analysis/{OUTPUT_FOLDER_NAME}/"
 
 JSON_DICT_NAME = "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"  # 設定推文所存的 json 檔中字典的名稱
 
@@ -30,10 +34,10 @@ LENGTH_RATIO = 80  # 設定 Y(被比對的推文) 的長度相對於 X(當基準
 IS_CLUSTERED = False  # 設定是否要用有分群的檔案來比對
 '''可修改參數'''
 
-
-
-
-
+# create folders if not existed
+os.makedirs("../data/dice/analysis", exist_ok=True)
+os.makedirs("../data/dice/robot_account", exist_ok=True)
+os.makedirs("../data/dice/robot_list", exist_ok=True)
 
 # 取得英文停用詞集合
 stop_words = set(stopwords.words('english'))
@@ -203,7 +207,7 @@ if __name__ == "__main__":
     print(f"📂 總共找到 {len(all_files)} 個檔案要處理")
 
     # 先清空 robottxt.txt
-    robottxt = f"./robot_account/{OUTPUT_FOLDER_NAME}.txt"
+    robottxt = f"../data/dice/robot_account/{OUTPUT_FOLDER_NAME}.txt"
     with open(robottxt, "w", encoding="utf-8-sig") as robotfile:
         robotfile.write("")
 
@@ -214,11 +218,11 @@ if __name__ == "__main__":
         analysis_name = os.path.splitext(filename)[0]  # ex: DOGE_20210428
 
         # 設定 txtname, json_output_path 的名稱
-        txtname = f"./analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.txt"
-        json_output_path = f"./analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.json"
+        txtname = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.txt"
+        json_output_path = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.json"
 
         # 確認是否有輸出時需使用的資料夾
-        output_folder_path = f"./analysis/{OUTPUT_FOLDER_NAME}/"
+        output_folder_path = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/"
         os.makedirs(output_folder_path, exist_ok=True)
 
         # 讀入 json 檔
@@ -283,8 +287,9 @@ if __name__ == "__main__":
             repetitive_counts[Y_user] += 1
 
 
-        robottxt = f"./robot_account/{OUTPUT_FOLDER_NAME}.txt"
+        robottxt = f"../data/dice/robot_account/{OUTPUT_FOLDER_NAME}.txt"
         # 印出出現次數大於 10 的帳號，符合的話就輸出到 txt 檔中
+        robotlist = [] # list of user that has ressemblence over threshold
         print()
         with open(robottxt, "a", encoding="utf-8-sig") as robotfile:
             robotfile.write(f"{filename}\n")
@@ -299,6 +304,14 @@ if __name__ == "__main__":
                 resemblance = ((count / 2) / ((len(tweets) * (len(tweets) - 1)) / 2)) * 100
                 robotfile.write(f"整體推文相似度：{resemblance:.2f}%\n")
 
+                if resemblance > 80.0 :
+                    robotlist.append(user)
+
                 if int(count / 2) > 10:
                     robotfile.write(f"🤖 疑似洗版帳號：{user}，重複出現次數：{int(count / 2)}\n")
             robotfile.write("\n")
+
+        robotlisttxt = f"../data/dice/robot_list/{OUTPUT_FOLDER_NAME}_list.txt"
+        with open(robotlisttxt, 'a', encoding="utf-8-sig") as robotlistfile:
+            for robot in robotlist:
+                robotlistfile.write(f"{robot}\n")
