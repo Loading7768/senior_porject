@@ -14,9 +14,9 @@ import psutil
 
 
 '''可修改參數'''
-YEAR = "2025"
+YEAR = ""
 
-MONTH = "03"
+MONTH = ""
 
 FOLDER_PATH = f"../data/spammer/{YEAR}/{MONTH}"  # 選擇要對哪個資料夾執行
 # "../Kmeans/data/clustered/"
@@ -24,7 +24,7 @@ FOLDER_PATH = f"../data/spammer/{YEAR}/{MONTH}"  # 選擇要對哪個資料夾�
 
 OUTPUT_FOLDER_NAME = f"{YEAR}{MONTH}"  # 設定要儲存到的資料夾名稱   ex. "../LCS/analysis/{OUTPUT_FOLDER_NAME}/"
 
-JSON_DICT_NAME = "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"  # 設定推文所存的 json 檔中字典的名稱
+JSON_DICT_NAME = ""  # 設定推文所存的 json 檔中字典的名稱
 
 DICE_COEFFICIENT = 70  # 設定 Dice 算出來的結果門檻值（也就是相似度）  60 => 60%
 
