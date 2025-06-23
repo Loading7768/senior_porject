@@ -5,10 +5,10 @@ from datetime import datetime
 # === 可自由調整的參數 ===
 COIN = "PEPE"          # 幣種（檔名裡的代號）
 YEAR = "2025"             # 西元年（int）
-MONTH = "02"               # 月份（int）→ 會自動補 0
-AUTHOR_LIST_FILE = f"../data/dice/robot_list/{COIN}_{YEAR}{MONTH}_list.txt"   # 黑名單作者清單
-DATA_DIR = Path(f"../../data/tweets/{COIN}/{YEAR}/{MONTH}")                   # 原始 JSON 資料夾
-OUT_DIR = DATA_DIR / "filtered"                                               # 輸出結果存這裡
+MONTH = "03"               # 月份（int）→ 會自動補 0
+AUTHOR_LIST_FILE = f"../data/dice/{COIN}/robot_list/{COIN}_{YEAR}{MONTH}_list.txt"   # 黑名單作者清單
+DATA_DIR = Path(f"../data/tweets/{COIN}/{YEAR}/{MONTH}")                   # 原始 JSON 資料夾
+OUT_DIR = Path(f"../data/filtered_tweets/{COIN}/{YEAR}/{MONTH}")                                               # 輸出結果存這裡
 
 # === 準備輸出資料夾 ===
 OUT_DIR.mkdir(parents=True, exist_ok=True)
