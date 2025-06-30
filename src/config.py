@@ -1,0 +1,3 @@
+COIN_NAME = ''
+COIN_SHORT_NAME = ''
+JSON_DICT_NAME = ''
