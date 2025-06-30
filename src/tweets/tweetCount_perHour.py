@@ -5,13 +5,13 @@ import pandas as pd
 '''可修改參數'''
 COIN_YEAR = "2025"
 
-COIN_MONTH = "03"
+COIN_MONTH = "02"
 
-COIN_SHORT_NAME = "DOGE"  # 要當成檔案名的 memecoin 名稱
+COIN_SHORT_NAME = "PEPE"  # 要當成檔案名的 memecoin 名稱
 
 FILTERED_JSON_FOLDER = f'../data/filtered_tweets/{COIN_SHORT_NAME}/{COIN_YEAR}/{COIN_MONTH}'  # JSON 檔案所在的資料夾路徑
 
-JSON_DICT_NAME = "dogecoin"  # 設定推文所存的 json 檔中字典的名稱
+JSON_DICT_NAME = "PEPE"  # 設定推文所存的 json 檔中字典的名稱
 '''可修改參數'''
 
 summary_data = []
@@ -66,11 +66,15 @@ for filename in sorted(json_filenames):
     
     # print()
 
-# 輸出 CSV
+# 輸出 CSV（轉置格式：橫向為日期，縱向為小時）
 df = pd.DataFrame(summary_data)
-df = df.sort_values(by=["date", "hour"])
+df = df.pivot(index="hour", columns="date", values="count")
 
+# 重新排序索引
+df = df.reindex(list(range(0, 24)))
+
+# 輸出
 output_path = f"../data/tweets/summary/{COIN_SHORT_NAME}_{COIN_YEAR}_{COIN_MONTH}_tweet_perhour.csv"
-df.to_csv(output_path, index=False, encoding='utf-8-sig')
+df.to_csv(output_path, encoding='utf-8-sig')
 
-print(f"✅ 已儲存：{output_path}（共 {len(df)} 筆）")
+print(f"✅ 已儲存：{output_path}（共 {len(df.columns)} 天）")
