@@ -1,21 +1,26 @@
 import json
 import os
-from multiprocessing import Pool, cpu_count, Value, Lock
+from multiprocessing import Pool, cpu_count
 from itertools import combinations
+from tqdm import tqdm
 from collections import defaultdict
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import time
 import psutil
+import gc
 
-
-# Brett Murphy
-# Crypto Whales Tracker 🐳
+from pathlib import Path
+import sys
+parent_dir = Path(__file__).resolve().parent.parent
+sys.path.append(str(parent_dir))
+import config
 
 '''可修改參數'''
-YEAR = "2021"
+YEAR = "2025"
 
-MONTH = "06"
+MONTH = "05"
 
 FOLDER_PATH = f"../data/spammer/{YEAR}/{MONTH}"  # 選擇要對哪個資料夾執行
 # "../Kmeans/data/clustered/"
@@ -23,32 +28,22 @@ FOLDER_PATH = f"../data/spammer/{YEAR}/{MONTH}"  # 選擇要對哪個資料夾�
 
 OUTPUT_FOLDER_NAME = f"{YEAR}{MONTH}"  # 設定要儲存到的資料夾名稱   ex. "../LCS/analysis/{OUTPUT_FOLDER_NAME}/"
 
-JSON_DICT_NAME = "dogecoin"  # 設定推文所存的 json 檔中字典的名稱
+JSON_DICT_NAME = config.JSON_DICT_NAME  # 設定推文所存的 json 檔中字典的名稱
 
 DICE_COEFFICIENT = 70  # 設定 Dice 算出來的結果門檻值（也就是相似度）  60 => 60%
 
 LENGTH_RATIO = 80  # 設定 Y(被比對的推文) 的長度相對於 X(當基準的推文) 的百分比   80 => 80%
 # 這是要確認兩篇推文的長度落在合理範圍內，推文 Y 的長度至少有 X 的 80% 長（不能太短）
 
+MAX_PAIRS_THRESHOLD = 1_000_000
+
 IS_CLUSTERED = False  # 設定是否要用有分群的檔案來比對
-
-SUCCESS_DICE_COUNT = 100000  # 如果比對出來超過 DICE_COEFFICIENT 的比對數 >= SUCCESS_DICE_COUNT 就不存到 json 裡，直接當作 robot
 '''可修改參數'''
-
-global_success_count = None
-global_lock = None
 
 # create folders if not existed
 os.makedirs("../data/dice/analysis", exist_ok=True)
 os.makedirs("../data/dice/robot_account", exist_ok=True)
 os.makedirs("../data/dice/robot_list", exist_ok=True)
-
-
-def init_worker(success_counter, lock_obj):
-    global global_success_count, global_lock
-    global_success_count = success_counter
-    global_lock = lock_obj
-
 
 # 取得英文停用詞集合
 stop_words = set(stopwords.words('english'))
@@ -88,13 +83,6 @@ def compare_pair(args):
     if dice_coefficient * 100 < DICE_COEFFICIENT:
         return None
 
-    # dice_coefficient >= DICE_COEFFICIENT  Dice 成功
-    with global_lock:
-        if global_success_count.value >= SUCCESS_DICE_COUNT:
-            return {"STOP": X["username"]}  # ✅ 將觸發者傳回
-
-        global_success_count.value += 1
-
     return {
         "X": X,
         "Y": Y,
@@ -120,22 +108,22 @@ def generate_pairs(tweets, batch_size=100000):  # Increased batch_size
         yield batch
 
 
-def write_txt_result(filetxt, res):
-    X, Y = res["X"], res["Y"]
+# def write_txt_result(filetxt, res):
+#     X, Y = res["X"], res["Y"]
 
-    filetxt.write(f"X = [{repr(X['text'])[1:-1]}]\n")  # repr(): 讓 \n 保持為 \n 輸出
-    filetxt.write(f"X_token = [{res['X_token']}]\n")
-    filetxt.write(f"\tX tweet_count = [{X['tweet_count']}]\n")
-    filetxt.write(f"\tX username = [{X['username']}]\n")
+#     filetxt.write(f"X = [{repr(X['text'])[1:-1]}]\n")  # repr(): 讓 \n 保持為 \n 輸出
+#     filetxt.write(f"X_token = [{res['X_token']}]\n")
+#     filetxt.write(f"\tX tweet_count = [{X['tweet_count']}]\n")
+#     filetxt.write(f"\tX username = [{X['username']}]\n")
 
-    filetxt.write(f"Y = [{repr(Y['text'])[1:-1]}]\n")
-    filetxt.write(f"Y_token = [{res['Y_token']}]\n")
-    filetxt.write(f"\tY tweet_count = [{Y['tweet_count']}]\n")
-    filetxt.write(f"\tY username = [{Y['username']}]\n")
+#     filetxt.write(f"Y = [{repr(Y['text'])[1:-1]}]\n")
+#     filetxt.write(f"Y_token = [{res['Y_token']}]\n")
+#     filetxt.write(f"\tY tweet_count = [{Y['tweet_count']}]\n")
+#     filetxt.write(f"\tY username = [{Y['username']}]\n")
 
-    filetxt.write(f"Total Length: X = {len(X['text'])}, Y = {len(Y['text'])} "
-                  f"(Y / X = {res['length_ratio_X'] * 100:.2f}  X / Y = {res['length_ratio_Y'] * 100:.2f})\n")
-    filetxt.write(f"Dice Coefficient: {res['dice_coefficient'] * 100:.2f}% \n\n")
+#     filetxt.write(f"Total Length: X = {len(X['text'])}, Y = {len(Y['text'])} "
+#                   f"(Y / X = {res['length_ratio_X'] * 100:.2f}  X / Y = {res['length_ratio_Y'] * 100:.2f})\n")
+#     filetxt.write(f"Dice Coefficient: {res['dice_coefficient'] * 100:.2f}% \n\n")
 
 
 
@@ -162,25 +150,18 @@ def write_json_result(res, cluster_id=None):
 
 
 
-def process_tweet_group(tweets_group, json_output, json_output_path, cluster_id=None, filetxt=None):
+def process_tweet_group(tweets_group, json_output, json_output_path, cluster_id=None):
     start_time = time.time()
     writed_compare = 0
     fail_count = 0
-    stop_triggered_by_user = None  # ← 用來記錄觸發停止的 username
-
-    success_count = Value('i', 0)
-    lock = Lock()
+    repetitive_counts = defaultdict(int)  # Track repetitive counts during processing
 
     os.makedirs(os.path.dirname(json_output_path), exist_ok=True)
 
     tweets_group = preprocess_tweets(tweets_group)
 
     num_processes = min(cpu_count() // 2, 6)
-    pool = Pool(
-        processes=num_processes,
-        initializer=init_worker,
-        initargs=(success_count, lock)
-    )
+    pool = Pool(processes=num_processes)
     
     temp_file_path = f"./temp_results_{cluster_id if cluster_id is not None else 'all'}.jsonl"
     total_pairs = (len(tweets_group) * (len(tweets_group) - 1)) // 2
@@ -189,58 +170,72 @@ def process_tweet_group(tweets_group, json_output, json_output_path, cluster_id=
     print(f"Processing {len(tweets_group)} tweets, {total_pairs} pairs, batch_size={batch_size}, chunksize={chunksize}, num_processes={num_processes}")
     print(f"Initial memory: {psutil.Process().memory_info().rss / 1024**2:.2f} MB")
     
+    write_json = total_pairs <= MAX_PAIRS_THRESHOLD
+    if not write_json:
+        print(f"⚠️ Skipping JSON output for {total_pairs} pairs (exceeds threshold of {MAX_PAIRS_THRESHOLD})")
+
     try:
-        with open(temp_file_path, 'w', encoding='utf-8') as temp_file:
+        if write_json:
+            with open(temp_file_path, 'w', encoding='utf-8') as temp_file:
+                pair_count = 0
+                for batch in generate_pairs(tweets_group, batch_size=batch_size):
+                    batch_start = time.time()
+                    for res in pool.imap_unordered(compare_pair, batch, chunksize=max(1, batch_size // num_processes)):
+                        if res is not None:
+                            json.dump(res, temp_file, ensure_ascii=False)
+                            temp_file.write('\n')
+                            writed_compare += 1
+
+                            # Update repetitive_counts
+                            repetitive_counts[res["X"]["username"]] += 1
+                            repetitive_counts[res["Y"]["username"]] += 1
+                    pair_count += len(batch)
+                    print(f"Processed {pair_count}/{total_pairs} pairs, {writed_compare} results, "
+                            f"batch time: {time.time() - batch_start:.2f}s, "
+                            f"memory: {psutil.Process().memory_info().rss / 1024**2:.2f} MB")
+                    # Free memory used by the batch
+                    del batch
+                    gc.collect()
+        else:
+            # Still process pairs but don't write to temp file
             pair_count = 0
-            stop_found = False  # 用來標記是否應該跳出所有迴圈
-
             for batch in generate_pairs(tweets_group, batch_size=batch_size):
-                # if success_count.value >= SUCCESS_DICE_COUNT:
-                #     stop_triggered_by_user = res["STOP"]
-                #     print(f"🎯 成功比對數達到門檻，提前停止，最後觸發者：{stop_triggered_by_user}")
-                #     break
-
-                if stop_found:
-                    break  # 跳出整個 batch 迴圈
-
                 batch_start = time.time()
                 for res in pool.imap_unordered(compare_pair, batch, chunksize=max(1, batch_size // num_processes)):
-                    if isinstance(res, dict) and "STOP" in res:
-                        stop_triggered_by_user = res["STOP"]
-                        print(f"🎯 子進程通知停止，最後觸發者：{stop_triggered_by_user}")
-                        stop_found = True
-                        break
-                    elif res is not None:
-                        json.dump(res, temp_file, ensure_ascii=False)
-                        temp_file.write('\n')
+                    if res is not None:
                         writed_compare += 1
-                
 
+                        # Update repetitive_counts
+                        repetitive_counts[res["X"]["username"]] += 1
+                        repetitive_counts[res["Y"]["username"]] += 1
                 pair_count += len(batch)
                 print(f"Processed {pair_count}/{total_pairs} pairs, {writed_compare} results, "
                       f"batch time: {time.time() - batch_start:.2f}s, "
                       f"memory: {psutil.Process().memory_info().rss / 1024**2:.2f} MB")
+                del batch
+                gc.collect()
     finally:
         pool.close()
         pool.join()
 
-    with open(temp_file_path, 'r', encoding='utf-8') as temp_file:
-        for line in temp_file:
-            res = json.loads(line.strip())
-            json_output.append(write_json_result(res, cluster_id=cluster_id))
-            write_txt_result(filetxt, res)
+    if write_json and os.path.exists(temp_file_path):
+        with open(temp_file_path, 'r', encoding='utf-8') as temp_file:
+            for line in temp_file:
+                res = json.loads(line.strip())
+                json_output.append(write_json_result(res, cluster_id=cluster_id))
+                # write_txt_result(filetxt, res)
 
-    os.unlink(temp_file_path)
+        os.unlink(temp_file_path)
 
-    try:
-        with open(json_output_path, "w", encoding="utf-8") as f:
-            json.dump(json_output, f, ensure_ascii=False, indent=4)
-    except Exception as e:
-        print(f"[ERROR] Failed to write after fail_count = {fail_count}: {e}")
-        fail_count += 1
+        try:
+            with open(json_output_path, "w", encoding="utf-8") as f:
+                json.dump(json_output, f, ensure_ascii=False, indent=4)
+        except Exception as e:
+            print(f"[ERROR] Failed to write after fail_count = {fail_count}: {e}")
+            fail_count += 1
 
     print(f"Total time: {time.time() - start_time:.2f}s, {writed_compare} results")
-    return writed_compare, stop_triggered_by_user
+    return writed_compare, repetitive_counts
 
 
 
@@ -260,17 +255,8 @@ if __name__ == "__main__":
         filename = os.path.basename(filepath)  # ex: DOGE_20210428.json
         analysis_name = os.path.splitext(filename)[0]  # ex: DOGE_20210428
 
-        # 這是判斷特定作者不要做 dice (數量太多)
-        # if analysis_name.startswith("Brett Murphy") or analysis_name.startswith("ClankApp - Crypto Whales Tracker 🐳") or analysis_name.startswith("TheCoinMonitor.com"):
-        #     continue
-
-        isexsit_path = f"../data/dice/analysis/{YEAR}{MONTH}/{filename}"
-        if os.path.exists(isexsit_path):
-            print(f"{filename}: 檔案已經存在")
-            continue
-
         # 設定 txtname, json_output_path 的名稱
-        txtname = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.txt"
+        # txtname = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.txt"
         json_output_path = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.json"
 
         # 確認是否有輸出時需使用的資料夾
@@ -284,9 +270,9 @@ if __name__ == "__main__":
         tweets = data_json[JSON_DICT_NAME]
         print(f"\n📄 正在處理檔案：{filename}，共 {len(tweets)} 筆推文")
 
-        # 先把 txt 檔裡清空
-        with open(txtname, 'w', encoding="utf-8-sig") as filetxt:
-            filetxt.write("")
+        # # 先把 txt 檔裡清空
+        # with open(txtname, 'w', encoding="utf-8-sig") as filetxt:
+        #     filetxt.write("")
 
         json_output = []  # 用來儲存所有比對結果
 
@@ -297,78 +283,71 @@ if __name__ == "__main__":
 
 
         total_compare = 0  # 計算總共寫入的結果數
-        robotlist = [] # list of user that has ressemblence over threshold
 
-        with open(txtname, 'w', encoding="utf-8-sig") as filetxt:
-            if IS_CLUSTERED:
-                # defaultdict: Python 的一種特殊字典
-                # 當你存取一個不存在的 key 時，它會自動建立對應的預設值  ex. clusters["0"] 若原本不存在，會自動被建立成 []（空 list）
-                clusters = defaultdict(list)
+        if IS_CLUSTERED:
+            # defaultdict: Python 的一種特殊字典
+            # 當你存取一個不存在的 key 時，它會自動建立對應的預設值  ex. clusters["0"] 若原本不存在，會自動被建立成 []（空 list）
+            clusters = defaultdict(list)
 
-                for tweet in tweets:
-                    clusters[tweet["cluster"]].append(tweet)  # 把推文加入對應的群集  ex. clusters[0].append(推文)
+            for tweet in tweets:
+                clusters[tweet["cluster"]].append(tweet)  # 把推文加入對應的群集  ex. clusters[0].append(推文)
 
-                # .items() 來一次取得 key（cluster_id）與對應的 value（cluster_tweets，一個 list）
-                for cluster_id, cluster_tweets in clusters.items():
-                    if len(cluster_tweets) < 2:
-                        continue  # 不需要比對
+            # .items() 來一次取得 key（cluster_id）與對應的 value（cluster_tweets，一個 list）
+            for cluster_id, cluster_tweets in clusters.items():
+                if len(cluster_tweets) < 2:
+                    continue  # 不需要比對
 
-                    filetxt.write(f"cluster {cluster_id}, 共 {len(cluster_tweets)} 筆\n")
+                # filetxt.write(f"cluster {cluster_id}, 共 {len(cluster_tweets)} 筆\n")
 
-                    # 呼叫 process_tweet_group 來執行比對，並回傳當前 Cluster 的實際寫入數量
-                    writed_compare, stop_user = process_tweet_group(cluster_tweets, json_output, json_output_path, cluster_id=cluster_id, filetxt=filetxt)
-                    total_compare += writed_compare
-
-                    if stop_user is not None:
-                        robotlist.append(stop_user)
-            else:
-                # 如果是沒有分類過的檔案 直接呼叫 process_tweet_group 來執行比對
-                writed_compare, stop_user = process_tweet_group(tweets, json_output, json_output_path, filetxt=filetxt)
-                total_compare += writed_compare
-
-                if stop_user is not None:
-                    print(f"stop_user: {stop_user}，已加入 robotlist")
-                    robotlist.append(stop_user)
+                # 呼叫 process_tweet_group 來執行比對，並回傳當前 Cluster 的實際寫入數量
+                # total_compare, repetitive_counts += process_tweet_group(cluster_tweets, json_output, json_output_path, cluster_id=cluster_id)
+        else:
+            # 如果是沒有分類過的檔案 直接呼叫 process_tweet_group 來執行比對
+            total_compare, repetitive_counts = process_tweet_group(tweets, json_output, json_output_path)
 
         print()
         print(f"✅ 已儲存 JSON 結果到 {json_output_path}")
         print(f"實際寫入的全部結果數：{total_compare}")
-        print(f"✅ 已輸出結果到 {txtname}")
 
 
 
         # 建立一個字典記錄每個帳號有多少重複推文
-        repetitive_counts = defaultdict(int)
+        # repetitive_counts = defaultdict(int)
 
         # 當你從 Dice 對比結果中抓出重複推文時
         # 你可以記錄帳號出現的次數
-        for tweet in json_output:
-            X_user = tweet["X_username"]
-            Y_user = tweet["Y_username"]
-            repetitive_counts[X_user] += 1
-            repetitive_counts[Y_user] += 1
+        # for tweet in json_output:
+        #     X_user = tweet["X_username"]
+        #     Y_user = tweet["Y_username"]
+        #     repetitive_counts[X_user] += 1
+        #     repetitive_counts[Y_user] += 1
 
+        tweet_len = len(tweets)
+        total_pairs = (tweet_len * (tweet_len - 1)) // 2
+        # Free memory used by tweets and json_output
+        del tweets
+        del json_output
+        gc.collect()
 
         robottxt = f"../data/dice/robot_account/{OUTPUT_FOLDER_NAME}.txt"
         # 印出出現次數大於 10 的帳號，符合的話就輸出到 txt 檔中
-        
+        robotlist = [] # list of user that has ressemblence over threshold
         print()
         with open(robottxt, "a", encoding="utf-8-sig") as robotfile:
             robotfile.write(f"{filename}\n")
-            robotfile.write(f"共 {len(tweets)} 筆推文\n")
+            robotfile.write(f"共 {tweet_len} 筆推文\n")
 
-            with open(json_output_path, "r", encoding="utf-8-sig") as jsonfile:
-                output_json = json.load(jsonfile)
-            if output_json == []:
+            # with open(json_output_path, "r", encoding="utf-8-sig") as jsonfile:
+            #     output_json = json.load(jsonfile)
+            if total_compare == 0:
                 robotfile.write(f"(沒有符合條件的推文)\n")
 
             for user, count in sorted(repetitive_counts.items(), key=lambda x: x[1], reverse=True):
-                resemblance = ((count / 2) / ((len(tweets) * (len(tweets) - 1)) / 2)) * 100
+                resemblance = ((count / 2) / total_pairs) * 100 if total_pairs > 0 else 0
                 robotfile.write(f"整體推文相似度：{resemblance:.2f}%\n")
 
                 if resemblance > 80.0 :
                     robotlist.append(user)
-                    print(f"resemblance: {resemblance}，已加入 robotlist")
 
                 if int(count / 2) > 10:
                     robotfile.write(f"🤖 疑似洗版帳號：{user}，重複出現次數：{int(count / 2)}\n")
