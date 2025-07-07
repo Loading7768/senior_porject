@@ -35,7 +35,8 @@ response = requests.request('GET', endpoint, headers=headers, params=querystring
 if response.ok:
     OUTPUT = "../data/tweets/count"
     os.makedirs(OUTPUT, exist_ok=True)
-    with open(f"{OUTPUT}/{COIN_SHORT_NAME}_{START_TIME}_{END_TIME}_count.json", 'w', encoding='utf-8-sig') as file:
-        json.dump(response.text, file, indent=4)
+    with open(f"{OUTPUT}/{COIN_SHORT_NAME}_{START_TIME[:10]}_{END_TIME[:10]}_count.json", 'w', encoding='utf-8-sig') as file:
+        json.dump(response.json(), file, indent=4)
+    print("Results saved successfully!")
 else:
     print(response.text)
