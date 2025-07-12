@@ -24,11 +24,11 @@ COIN_SHORT_NAME = config.COIN_SHORT_NAME
 
 SITE = "twitter.com"
 
-START_DATE = datetime(2025, 7, 1)  # 查詢開始日期
+START_DATE = datetime(2025, 7, 10)  # 查詢開始日期
 
-DAY_COUNT = 10  # 要連續找幾天
+DAY_COUNT = 1  # 要連續找幾天
 
-QUERY = f"{COIN_NAME} site:{SITE}"
+QUERY = f"{COIN_NAME}+site:{SITE}"
 '''可修改參數'''
 
 results = []  # 儲存所有日期結果
@@ -53,7 +53,7 @@ def human_scroll_and_hover(driver):
 
 def get_result_count_for_date(driver, query, date_str):
     url = (
-        f"https://www.google.com/search?q={query}"
+        f"https://www.google.com/search?q={query}+inurl:/status/"
         f"&tbs=cdr:1,cd_min:{date_str},cd_max:{date_str}"
         f"&hl=en&lr=lang_en"
     )
