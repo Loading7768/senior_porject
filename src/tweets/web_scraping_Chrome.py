@@ -26,7 +26,7 @@ SITE = "twitter.com"
 
 START_DATE = datetime(2025, 7, 1)  # 查詢開始日期
 
-DAY_COUNT = 2  # 要連續找幾天
+DAY_COUNT = 10  # 要連續找幾天
 
 QUERY = f"{COIN_NAME} site:{SITE}"
 '''可修改參數'''
@@ -121,7 +121,9 @@ def main():
 
         results.append({
             "date": current_date.strftime("%Y-%m-%d"),
-            "count": count
+            "count": count,
+            "query": COIN_NAME,
+            "site": SITE
         })
 
         # 先讀取之前的資料 若無則不用
@@ -132,6 +134,7 @@ def main():
             data_json = []
         
         data_json.append(results[-1])  # 只加當天那筆
+        data_json.sort(key=lambda x: x["date"])  # 按日期排序
         
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(data_json, f, ensure_ascii=False, indent=4)
