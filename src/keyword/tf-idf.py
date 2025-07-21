@@ -6,6 +6,7 @@ from glob import glob
 import json
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.tokenize import TweetTokenizer
 from collections import defaultdict
 import numpy as np
 from wordcloud import WordCloud
@@ -24,11 +25,13 @@ from config import COIN_SHORT_NAME, JSON_DICT_NAME
 
 # sanitize tweets
 def clean_tweets(text):
+    text = re.sub(r'[A-Z]{3,5}', '', text)  # remove coin short names
     text = text.lower()
-    text = re.sub(r'http\S+', '', text)   # remove URLs
-    text = re.sub(r'@\w+', '', text)      # remove mentions
-    text = re.sub(r'#\w+', '', text)      # remove hashtags
-    # text = text.replace(COIN_SHORT_NAME.lower(), "")
+    text = re.sub(r'http\S+', '', text)     # remove URLs
+    text = re.sub(r'@\w+', '', text)        # remove mentions
+    text = re.sub(r'#\w+', '', text)        # remove hashtags
+    text = re.sub(r'\d', '', text)          # remove numbers
+    text = text.strip()
 
     return text
 
@@ -48,6 +51,11 @@ def load_tweets(sentiment):
 
     return tweets
 
+def custom_tokenizer(text):
+    tokenizer = TweetTokenizer(preserve_case=False, strip_handles=True)
+    tokens = tokenizer.tokenize(text)
+    return [token for token in tokens if token.isalnum()]
+
 def main():
     sentiments = ['positive', 'neutral', 'negative']
     for sent in sentiments:
@@ -60,6 +68,7 @@ def main():
         # tf-idf processing
         print('📀 Processing...')
         vectorizer = TfidfVectorizer(
+            tokenizer=custom_tokenizer,
             stop_words='english',
             max_df= 0.95,
             min_df= 3,
@@ -90,7 +99,7 @@ def main():
 
         # system 'pause'
         print('-' * 80)
-        input(f'Part {sent} done! Press enter to continue...')
+        input(f'Batch {sent} done! Press enter to continue...')
         print('-' * 80)
 
 if __name__ == '__main__':
