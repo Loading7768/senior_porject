@@ -24,10 +24,10 @@ hour_counter = []
 partial_json_files = []
 completed_json_files = []
 
+# 所有原始檔案 (把所有結尾是 .json 的檔案抓出來)
+json_files = glob(f'../data/tweets/{COIN_SHORT_NAME}/*/*/*.json')
 
 def hour_distribution():
-    # 所有原始檔案 (把所有結尾是 .json 的檔案抓出來)
-    json_files = glob(f'../data/tweets/{COIN_SHORT_NAME}/*/*/*.json')
 
     for json_file in tqdm(json_files, desc="統計完整檔案小時比例"):
         with open(json_file, 'r', encoding="utf-8-sig") as file:
@@ -76,8 +76,9 @@ def estimate(hour_distribution):
     with open(output_path_partial_txt, 'w', encoding="utf-8-sig") as txtfile:
         txtfile.write("")
 
-    # 估算每個 partial 檔案的總推文數
-    for json_file in partial_json_files:
+    output_path_partial_csv = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_esimate.csv"
+
+    for json_file in tqdm(json_files, desc="估計數量中..."):
         with open(json_file, 'r', encoding="utf-8-sig") as file:
             data = json.load(file)
 
@@ -85,40 +86,57 @@ def estimate(hour_distribution):
         if not tweets:
             continue
 
-        # 統計該檔案目前已抓到的推文數量與小時分佈
-        partial_hour_counter = [datetime.strptime(tweet['created_at'], "%a %b %d %H:%M:%S %z %Y").hour for tweet in tweets]
+        # 估算每個 partial 檔案的總推文數
+        if json_file in partial_json_files:
+            # 統計該檔案目前已抓到的推文數量與小時分佈
+            partial_hour_counter = [datetime.strptime(tweet['created_at'], "%a %b %d %H:%M:%S %z %Y").hour for tweet in tweets]
+            
+            # 轉成 DataFrame 再取唯一小時
+            partial_hour_df = pd.DataFrame({'hour': partial_hour_counter})
+            observed_hours = partial_hour_df['hour'].unique()  # .unique() 取得不重複的小時數
+
+            observed_percentage = hour_distribution.loc[observed_hours].sum()  # .loc[observed_hours] → 只取出該檔案有抓到的小時範圍的比例
+            estimated_total = len(tweets) / observed_percentage
+
+            # 取得日期
+            file_name = os.path.basename(json_file)
+            date_str = os.path.splitext(file_name)[0]
+
+            # 儲存結果 csv
+            results.append({
+                "date": date_str,
+                "isCompleted": False,
+                "original_count": len(tweets),
+                "predicted_count": int(round(estimated_total))
+            })
+
+            with open(output_path_partial_txt, 'a', encoding="utf-8-sig") as txtfile:
+                txtfile.write(f"📄 檔案：{json_file}\n")
+                txtfile.write(f"實際已抓數：{len(tweets)}，觀察小時範圍：{observed_hours}\n")
+                txtfile.write(f"已抓佔比：{observed_percentage:.2%}，估算總數：約 {int(round(estimated_total))} 筆\n\n")
         
-        # 轉成 DataFrame 再取唯一小時
-        partial_hour_df = pd.DataFrame({'hour': partial_hour_counter})
-        observed_hours = partial_hour_df['hour'].unique()  # .unique() 取得不重複的小時數
+        # 若是有抓完的檔案 就直接把數量存進 csv 檔
+        else:
+            # 取得日期
+            file_name = os.path.basename(json_file)
+            date_str = os.path.splitext(file_name)[0]
 
-        observed_percentage = hour_distribution.loc[observed_hours].sum()  # .loc[observed_hours] → 只取出該檔案有抓到的小時範圍的比例
-        estimated_total = len(tweets) / observed_percentage
-
-        # 取得日期
-        file_name = os.path.basename(json_file)
-        date_str = os.path.splitext(file_name)[0]
-
-        # 儲存結果 csv
-        results.append({
-            "date": date_str,
-            "original_count": len(tweets),
-            "predicted_count": int(round(estimated_total))
-        })
-
-        output_path_partial_csv = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_esimate.csv"
+            # 儲存結果 csv
+            results.append({
+                "date": date_str,
+                "isCompleted": True,
+                "original_count": len(tweets),
+                "predicted_count": len(tweets)
+            })
 
         with open(output_path_partial_csv, 'w', newline='', encoding='utf-8-sig') as csvfile:
-            fieldnames = ['date', 'original_count', 'predicted_count']
+            fieldnames = ['date', 'isCompleted', 'original_count', 'predicted_count']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             for row in results:
                 writer.writerow(row)
 
-        with open(output_path_partial_txt, 'a', encoding="utf-8-sig") as txtfile:
-            txtfile.write(f"📄 檔案：{json_file}\n")
-            txtfile.write(f"實際已抓數：{len(tweets)}，觀察小時範圍：{observed_hours}\n")
-            txtfile.write(f"已抓佔比：{observed_percentage:.2%}，估算總數：約 {int(round(estimated_total))} 筆\n\n")
+        
 
     print(f"✅ 已全部執行完成 資料路徑: {OUTPUT_FILE}")
 
