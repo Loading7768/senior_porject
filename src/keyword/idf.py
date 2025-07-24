@@ -5,7 +5,8 @@ redering the value negligible in the same tweet.
 '''
 
 from glob import glob
-import datetime
+from datetime import datetime
+import bisect
 import json
 import re
 from collections import defaultdict
@@ -20,17 +21,27 @@ sys.path.append(str(parent_dir))
 from config import COIN_SHORT_NAME, JSON_DICT_NAME
 
 # ----------parameters----------
-START_DATE = ''
-END_DATE = ''
+'''
+You can modify SET_RANGE to set whether date range is applied,
+'False' will use every file in the folder,
+'True' will use the data within START_DATE ~ END_DATE(inclusive).
+
+Set the date using datetime(Y, D, M), no need to fill in extra 0s.
+'''
+SET_RANGE = True
+START_DATE = datetime(2025, 1, 18)
+END_DATE = datetime(2025, 1, 31)
 # ----------parameters----------
 
 # sanitize tweets
 def clean_tweets(text):
-    text = text.lower()
+    # deprecated since removing elements prior might interfere with tokenization
     # text = re.sub(r'http\S+', '', text)   # remove URLs
     # text = re.sub(r'@\w+', '', text)      # remove mentions
     # text = re.sub(r'#\w+', '', text)      # remove hashtags
     # text = text.replace(COIN_SHORT_NAME.lower(), "")
+    
+    text = text.lower()
     text = text.strip()
 
     return text
@@ -40,12 +51,33 @@ def load_tweets(sentiment):
     tweets = []
 
     json_files = glob(f'../data/sentiment/{COIN_SHORT_NAME}/*/*/{sentiment}/*')
-    for json_file in json_files:
-        with open(json_file, 'r', encoding="utf-8") as file:
-            data = json.load(file)
+    if not json_files:
+        print(f'No files found in {sentiment} directory.')
+        return []
+    
+    # When in SET_RANGE mode, use binary search to find start and end
+    if SET_RANGE:
+        file_dates = []
+        for json_file in json_files:
+            match_date = re.search(r'\d{8}', json_file)
+            file_dates.append(datetime.strptime(match_date.group(), '%Y%m%d'))
+        
+        left = bisect.bisect_left(file_dates, START_DATE)
+        right = bisect.bisect_right(file_dates, END_DATE)
+        if left == right:   # no file found with in set range
+            return []
+        json_files = json_files[left-1:right]
 
-            for tweet in data:
-                tweets.append(clean_tweets(tweet.get('text')))
+    for json_file in json_files:
+        try:
+            with open(json_file, 'r', encoding="utf-8") as file:
+                data = json.load(file)
+
+                for tweet in data:
+                    tweets.append(clean_tweets(tweet.get('text')))
+        except(json.JSONDecodeError, FileNotFoundError) as e:
+            print(f'Error loading {json_file}: {e}')
+            continue
 
     return tweets
 
@@ -73,7 +105,7 @@ def compute_idf(N, tokenized_tweets):
         for token in tweet_tokens:
             df[token] += 1
 
-    idf = {token: math.log((N+1) / (df_count+1)) + 1 for token, df_count in df.items()}
+    idf = {token: math.log((N) / (df_count+1)) + 1 for token, df_count in df.items()}
 
     return idf
 
@@ -97,6 +129,9 @@ def find_global_keyword(tokenized_tweets, idf, top_n=3):
     return sorted(global_keywords.items(), key=lambda x: x[1], reverse=True)
 
 def main():
+    if SET_RANGE:
+        print(f'SET_RANGE is on. Only tweets from {datetime.strftime(START_DATE, '%Y%m%d')} to {datetime.strftime(END_DATE, '%Y%m%d')} will be processed.')
+
     sentiments = ['positive', 'neutral', 'negative']
     for sent in sentiments:
         # load tweets
