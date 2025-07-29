@@ -15,6 +15,7 @@ from collections import defaultdict
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 import math
+import os
 
 from pathlib import Path
 import sys
@@ -30,8 +31,8 @@ You can modify SET_RANGE to set whether date range is applied,
 
 Set the date using datetime(Y, D, M), no need to fill in extra 0s.
 '''
-SET_RANGE = False
-START_DATE = datetime(2025, 1, 18)
+SET_RANGE = True
+START_DATE = datetime(2025, 1, 1)
 END_DATE = datetime(2025, 1, 31)
 # ----------parameters----------
 
@@ -69,7 +70,7 @@ def load_tweets():
         if left == right:   # no file found with in set range
             print(f'No files found between {datetime.strftime(START_DATE, '%Y%m%d')} and {datetime.strftime(END_DATE, '%Y%m%d')}')
             return []
-        json_files = json_files[left-1:right]
+        json_files = json_files[left:right]
 
     for json_file in json_files:
         try:
@@ -78,7 +79,7 @@ def load_tweets():
                 data = data.get(JSON_DICT_NAME, [])
 
                 for tweet in data:
-                    tweets.append(clean_tweets(tweet.get('text')))
+                    tweets.append(tweet)
         except(json.JSONDecodeError, FileNotFoundError) as e:
             print(f'Error loading {json_file}: {e}')
             continue
@@ -91,7 +92,8 @@ def tokenize_tweets(tweets):
     tokenized_tweets = []
 
     for tweet in tweets:
-        tokens = tokenizer.tokenize(tweet)
+        tweet_text = clean_tweets(tweet.get('text'))
+        tokens = tokenizer.tokenize(tweet_text)
         unique_tokens = set(token for token in tokens if token not in STOPWORDS and token.isalnum())
         tokenized_tweets.append(unique_tokens)
 
@@ -141,19 +143,50 @@ def main():
     print(f'🖒🖒🖒 Successfully Loaded {len(tweets)} tweets')
     print('-' * 80)
 
+
     print('📀 Processing...')
     tokenized_tweets = tokenize_tweets(tweets)
     idf = compute_idf(len(tweets), tokenized_tweets)
     global_keywords = find_global_keyword(tokenized_tweets, idf)
+    top_keywords = [{'keyword': keyword, 'votes': votes, 'idf': idf.get(keyword, 0)} for keyword, votes in global_keywords[:30]]
     print('-' * 80)
+
 
     print('keyword: votes(idf)')
-    print('-' * 30)
-    for keyword, votes in global_keywords[:30]:
-        print(f'{keyword}: {votes}({idf.get(keyword, 0)})')
-
+    print('-' * 60)
+    for keyword in top_keywords:
+        print(f'{keyword['keyword']}: {keyword['votes']}({keyword['idf']})')
     print('-' * 80)
 
+
+    # preparing the output folder path
+    print('Saving results to json file...')
+    output_path= f'../data/keyword'
+    if SET_RANGE:
+        output_path += f'/{datetime.strftime(START_DATE, '%Y%m%d')}_{datetime.strftime(END_DATE, '%Y%m%d')}'
+    else:
+        output_path += '/all'
+    os.makedirs(output_path, exist_ok=True)
+
+    # write result.json to save keyword results
+    with open(output_path + '/result.json', 'w', encoding='utf-8') as file:
+        json.dump(top_keywords, file, indent=4)
+
+    # isolate tweets by keywords
+    for idx, keyword in enumerate(top_keywords):
+        tweets_by_keyword = []
+        tweet_counter = 1
+        for tweet, tokens in zip(tweets, tokenized_tweets):
+            if keyword['keyword'] in tokens:
+                tweet['tweet_count'] = tweet_counter
+                tweet_counter += 1
+                tweets_by_keyword.append(tweet)
+        
+        with open(f'{output_path}/{idx+1:02d}_{keyword['keyword']}.json', 'w', encoding='utf-8') as file:
+            json.dump(tweets_by_keyword, file, indent=4, ensure_ascii=False)
+    print()
+    print('Done.')
+    print('-' * 80)
 
 if __name__ == '__main__':
     main()      
