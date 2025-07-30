@@ -21,20 +21,56 @@ for path in json_paths:
 # === 2. 整理為 DataFrame ===
 df = pd.DataFrame(ranking_dict).T  # 日期為 index，詞為 columns，值為排名
 df = df.sort_index()  # 日期排序
-# df = df.fillna(None)
 
-# === 3. 畫圖（所有關鍵字） ===
-plt.figure(figsize=(15, 8))
+# === 3. 建立儲存資料夾 ===
+output_dir = "../outputs/figures/spiking_keywords"
+os.makedirs(output_dir, exist_ok=True)
 
+# === 4. 每個關鍵字畫一張圖 ===
 for keyword in df.columns:
-    plt.plot(df.index, df[keyword], label=keyword)
+    plt.figure(figsize=(10, 5))
+    
+    values = df[keyword]
+    dates = values.index
 
-plt.gca().invert_yaxis()  # 排名越高在越上面
-plt.xticks(rotation=45)
-plt.xlabel("Date")
-plt.ylabel("Rank")
-plt.title("Keyword Ranking Trend Over Time")
-plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
-plt.tight_layout()
-plt.grid(True)
-plt.show()
+    # 1. 折線圖（只連有值的）
+    plt.plot(dates, values, label=keyword, linewidth=2, color='blue')
+
+    # 2. 補畫每個點（讓只出現1天也會被看到）
+    for i in range(len(values)):
+        today_val = values.iloc[i]
+        if pd.notna(today_val):
+            plt.scatter(dates[i], today_val, color='blue', s=50)
+
+    # 3. 標記首次出現 / 突然消失
+    for i in range(len(values)):
+        today = values.iloc[i]
+        yesterday = values.iloc[i - 1] if i > 0 else None
+
+        # ✅ 首次出現
+        if pd.notna(today) and values.iloc[:i].isna().all():
+            plt.scatter(dates[i], today, color='green', marker='o', s=100, label='First Appearance')
+
+        # ❌ 突然消失
+        elif pd.isna(today) and pd.notna(yesterday):
+            plt.scatter(dates[i], yesterday, color='red', marker='x', s=100, label='Sudden Disappearance')
+
+    # === 基本設定 ===
+    plt.gca().invert_yaxis()
+    plt.xticks(rotation=45)
+    plt.xlabel("Date")
+    plt.ylabel("Rank")
+    plt.title(f"Keyword Trend: {keyword}")
+    plt.grid(True)
+    plt.tight_layout()
+
+    # 避免 legend 重複
+    handles, labels = plt.gca().get_legend_handles_labels()
+    by_label = dict(zip(labels, handles))
+    plt.legend(by_label.values(), by_label.keys())
+
+    # 儲存圖片
+    safe_keyword = "".join(c if c.isalnum() or c in "-_ " else "_" for c in keyword)
+    plt.savefig(os.path.join(output_dir, f"{safe_keyword}.png"))
+    plt.close()
+
