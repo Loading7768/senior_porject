@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 from glob import glob
+from tqdm import tqdm
 
 # === 1. 讀取每個 result.json 檔 ===
 ranking_dict = {}  # key: date, value: {keyword: rank}
@@ -27,7 +28,7 @@ output_dir = "../outputs/figures/spiking_keywords"
 os.makedirs(output_dir, exist_ok=True)
 
 # === 4. 每個關鍵字畫一張圖 ===
-for keyword in df.columns:
+for keyword in tqdm(df.columns):
     plt.figure(figsize=(10, 5))
     
     values = df[keyword]
@@ -55,8 +56,11 @@ for keyword in df.columns:
         elif pd.isna(today) and pd.notna(yesterday):
             plt.scatter(dates[i], yesterday, color='red', marker='x', s=100, label='Sudden Disappearance')
 
+    # === 固定 y 軸為 1～100 ===
+    plt.ylim(100.5, 0.5)  # y 軸往上是名次第 1
+
     # === 基本設定 ===
-    plt.gca().invert_yaxis()
+    plt.gca()
     plt.xticks(rotation=45)
     plt.xlabel("Date")
     plt.ylabel("Rank")
