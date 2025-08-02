@@ -126,13 +126,17 @@ def estimate(weekday_hour_distribution):
             observed_percentage = weekday_dist.loc[observed_hours].sum()  # .loc[observed_hours] → 只取出該檔案有抓到的小時範圍的比例
             estimated_total = len(tweets) / observed_percentage
 
+            # 計算放大趴數
+            expansion_ratio = estimated_total / len(tweets)
+
             # 儲存結果 csv
             results.append({
                 "filename": file_name,
                 "date": date_str,
                 "isCompleteData": False,
                 "original_count": len(tweets),
-                "predicted_count": int(round(estimated_total))
+                "predicted_count": int(round(estimated_total)),
+                "expansion_ratio": expansion_ratio
             })
 
             with open(output_path_partial_txt, 'a', encoding="utf-8-sig") as txtfile:
@@ -149,11 +153,12 @@ def estimate(weekday_hour_distribution):
                 "date": date_str,
                 "isCompleteData": True,
                 "original_count": len(tweets),
-                "predicted_count": len(tweets)
+                "predicted_count": len(tweets),
+                "expansion_ratio": 1
             })
 
         with open(output_path_partial_csv, 'w', newline='', encoding='utf-8-sig') as csvfile:
-            fieldnames = ['filename', 'date', 'isCompleteData', 'original_count', 'predicted_count']
+            fieldnames = ['filename', 'date', 'isCompleteData', 'original_count', 'predicted_count', 'expansion_ratio']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             for row in results:
