@@ -17,6 +17,8 @@ from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 import math
 import os
+import numpy as np
+import pandas as pd
 
 '''
 Importing parameters from project_root/config.py
@@ -25,13 +27,13 @@ from pathlib import Path
 import sys
 parent_dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(parent_dir))
-from config import JSON_DICT_NAME
+from config import JSON_DICT_NAME, COIN_SHORT_NAME
 
 # ----------parameters----------
 '''
 Top nth global keywords recorded in the result.
 '''
-GLOBAL_KEYWORDS_AMOUNT = 100 
+GLOBAL_KEYWORDS_AMOUNT = 100
 
 '''
 You can modify SET_RANGE to set whether date range is applied,
@@ -54,6 +56,17 @@ DAILY_MODE = True
 DAILY_START_DATE = datetime(2025, 1, 1)
 DAILY_END_DATE = datetime(2025, 6, 30)
 # ----------parameters----------
+
+# ----------globla variable----------
+'''
+Output vector for machine learning. Each row is a different day of top gloabl keywords.
+Disgustingly implemented, I know.
+This script is a fucking mess and demands a total rewrite.
+'''
+df_daily = []
+feature_names = []
+feature_vector = []
+# ----------globla variable----------
 
 # load tweets
 def load_tweets():
@@ -111,6 +124,10 @@ def compute_idf(N, tokenized_tweets):
     Args:
         N: corpus(tweets) size
         tokenized_tweets: a list of tokens from each tweets
+
+    Returns:
+        idf: dictionary storing a token's idf.
+        df: dictionary storing a token's df.
     '''
     df = defaultdict(int)
 
@@ -120,7 +137,7 @@ def compute_idf(N, tokenized_tweets):
 
     idf = {token: math.log((N) / (df_count+1)) + 1 for token, df_count in df.items()}
 
-    return idf
+    return idf, df
 
 def find_global_keyword(tokenized_tweets, idf, top_n=3):
     '''
@@ -157,19 +174,23 @@ def main():
 
     print('📀 Processing...')
     tokenized_tweets = tokenize_tweets(tweets)
-    idf = compute_idf(len(tweets), tokenized_tweets)
+    idf, df = compute_idf(len(tweets), tokenized_tweets)
     global_keywords = find_global_keyword(tokenized_tweets, idf)
     top_keywords = [{'keyword': keyword, 'votes': votes, 'idf': idf.get(keyword, 0)} for keyword, votes in global_keywords[:GLOBAL_KEYWORDS_AMOUNT]]
-    print('-' * 80)
-
-
-    print('keyword: votes(idf)')
-    print('-' * 60)
+    
+    df_daily.append((START_DATE, df))
     for keyword in top_keywords:
-        print(f'{keyword['keyword']}: {keyword['votes']}({keyword['idf']})')
+        feature_names.append(keyword['keyword'])
     print('-' * 80)
 
 
+    # print('keyword: votes(idf)')
+    # print('-' * 60)
+    # for keyword in top_keywords:
+    #     print(f'{keyword['keyword']}: {keyword['votes']}({keyword['idf']})')
+    # print('-' * 80)
+
+    
     # preparing the output folder path
     print('Saving results to json file...')
     output_path= f'../data/keyword'
@@ -210,5 +231,29 @@ if __name__ == '__main__':
         for date in rrule(DAILY, dtstart=DAILY_START_DATE, until=DAILY_END_DATE):
             START_DATE = END_DATE = date
             main()
+
+        expansion_data = pd.read_csv(f'../data/tweets/count/estimate/{COIN_SHORT_NAME}_estimate.csv', on_bad_lines='skip')
+        
+        feature_names = list(set(feature_names))
+        for day in range((DAILY_END_DATE - DAILY_START_DATE).days + 1):
+            get_expansion_rate = expansion_data.loc[expansion_data['date'] == datetime.strftime(df_daily[day][0], '%Y-%m-%d'), 'expansion_ratio']
+
+            if not get_expansion_rate.empty:
+                expansion_rate = round(get_expansion_rate.iloc[0])
+            else:
+                expansion_rate = 1
+
+            feature_vector.append([
+                df_daily[day][1].get(keyword, 0) * expansion_rate for keyword in feature_names])
+            print(expansion_rate)
+        input()
+        print(feature_vector)
+        
+        output_path = '../data/keyword/machine_learning/'
+        os.makedirs(output_path, exist_ok=True)
+        np.save(f'{output_path}/feature_vector.npy', feature_vector)
+
+        with open(f'{output_path}/feature_name.json', 'w', encoding='utf-8') as file:
+            json.dump(feature_names, file)
     else:
         main()      
