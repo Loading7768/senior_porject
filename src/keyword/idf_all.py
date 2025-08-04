@@ -245,9 +245,6 @@ if __name__ == '__main__':
 
             feature_vector.append([
                 df_daily[day][1].get(keyword, 0) * expansion_rate for keyword in feature_names])
-            print(expansion_rate)
-        input()
-        print(feature_vector)
         
         output_path = '../data/keyword/machine_learning/'
         os.makedirs(output_path, exist_ok=True)
