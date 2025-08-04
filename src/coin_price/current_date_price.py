@@ -25,7 +25,7 @@ DOGE_price.csv：
 
 # === 修改為你的 CSV 檔與 JSON 資料夾路徑 ===
 PRICE_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_price.csv"
-TWEETS_JSON_GLOB = f"../data/tweets/{COIN_SHORT_NAME}/*/*/*.json"
+NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/*/*/*.json"
 OUTPUT_CSV_PATH = "../data/coin_price/current_tweet_price_output.csv"
 
 # === 讀取價格 CSV ===
@@ -36,7 +36,7 @@ price_df.set_index('date', inplace=True)
 # === 收集 tweet 有出現的日期 ===
 tweet_dates = set()
 
-json_files = glob(TWEETS_JSON_GLOB)
+json_files = glob(NORMAL_TWEETS_JSON_GLOB)
 for json_path in json_files:
     with open(json_path, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
