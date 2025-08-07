@@ -16,10 +16,10 @@ from config import COIN_SHORT_NAME, JSON_DICT_NAME
 檔名存為 {COIN_SHORT_NAME}_price.csv
 
 DOGE_price.csv：
-    priceClose,date
-    0.00231455,2018/08/22
-    0.00238532,2018/08/23
-    0.00242611,2018/08/24
+    snapped_at,price,market_cap,total_volume
+    2014-01-28 00:00:00 UTC,0.00134193,50833265.0,2342040.0
+    2014-01-29 00:00:00 UTC,0.00138856,53584322.0,1655470.0
+    2014-01-30 00:00:00 UTC,0.00147485,58009736.0,2315200.0
     ...
 '''
 
@@ -30,14 +30,15 @@ OUTPUT_CSV_PATH = "../data/coin_price/current_tweet_price_output.csv"
 
 # === 讀取價格 CSV ===
 price_df = pd.read_csv(PRICE_CSV_PATH)
-price_df['date'] = pd.to_datetime(price_df['date'], format="%Y/%m/%d")
-price_df.set_index('date', inplace=True)
+price_df['snapped_at'] = pd.to_datetime(price_df['snapped_at'], format="%Y-%m-%d %H:%M:%S %Z")
+price_df.set_index('snapped_at', inplace=True)
+price_df.index = price_df.index.tz_localize(None)  # 移除時區 只保留日期部分
 
 # === 收集 tweet 有出現的日期 ===
 tweet_dates = set()
 
 json_files = glob(NORMAL_TWEETS_JSON_GLOB)
-for json_path in json_files:
+for json_path in tqdm(json_files, desc="正在找尋日期"):
     with open(json_path, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
@@ -77,7 +78,7 @@ for current_date in tqdm(tweet_dates, desc="正在儲存價錢"):
             for d in pd.date_range(prev_date + timedelta(days=1), current_date - timedelta(days=1)):
                 
                 row = price_df.loc[price_df.index == d]
-                price = row['priceClose'].values[0] if not row.empty else ""
+                price = row['price'].values[0] if not row.empty else ""
 
                 output_rows.append({
                     "date": d.strftime("%Y/%m/%d"),
@@ -85,7 +86,7 @@ for current_date in tqdm(tweet_dates, desc="正在儲存價錢"):
                     "has_tweet": False
                 })
     # 當前 tweet 日期
-    price = price_df.loc[current_date]['priceClose'] if current_date in price_df.index else ""
+    price = price_df.loc[current_date]['price'] if current_date in price_df.index else ""
     output_rows.append({
         "date": current_date.strftime("%Y/%m/%d"),
         "price": price,
