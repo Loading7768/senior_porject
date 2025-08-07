@@ -4,6 +4,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from glob import glob
 from tqdm import tqdm
+import numpy as np
 
 import sys
 from pathlib import Path
@@ -94,7 +95,43 @@ for current_date in tqdm(tweet_dates, desc="正在儲存價錢"):
     })
     prev_date = current_date
 
-# === 儲存為 CSV ===
+# 將 output_rows 轉成 DataFrame
 df_output = pd.DataFrame(output_rows)
+
+# 將 date 字串轉成 datetime（方便計算隔天日期）
+df_output['date_dt'] = pd.to_datetime(df_output['date'], format='%Y/%m/%d')
+
+# 定義一個函數計算 price 差
+def calc_price_diff(row):
+    today = row['date_dt']
+    tomorrow = today + pd.Timedelta(days=1)
+    try:
+        price_today = row['price']
+        price_tomorrow = price_df.loc[tomorrow]['price']
+        if price_today == "" or pd.isna(price_today):
+            return ""
+        return price_tomorrow - price_today
+    except KeyError:
+        return ""  # 隔天沒價格就空字串
+
+# 計算差價欄位
+df_output['price_diff'] = df_output.apply(calc_price_diff, axis=1)
+
+# 刪除輔助欄位
+df_output.drop(columns=['date_dt'], inplace=True)
+
+# 儲存原本的 CSV
 df_output.to_csv(OUTPUT_CSV_PATH, index=False, encoding="utf-8-sig")
 print(f"✅ 已儲存到 {OUTPUT_CSV_PATH}")
+
+
+# 先確保 price_diff 欄位都是 float，不能有空字串
+# 把空字串轉成 np.nan，方便後續處理
+price_diff_array = pd.to_numeric(df_output['price_diff'], errors='coerce').to_numpy()
+
+# 存成 .npy 檔（路徑可自訂）
+np.save("../data/coin_price/price_diff.npy", price_diff_array)
+
+print(price_diff_array)
+
+print("✅ 已將 price_diff 儲存為 price_diff.npy")
