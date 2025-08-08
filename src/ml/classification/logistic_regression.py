@@ -2,6 +2,7 @@ from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import numpy as np
 import json
+import os
 
 # 取得 ML 的 feature_vector
 features_path = "../data/keyword/machine_learning"
@@ -54,8 +55,12 @@ print(unprocessed_dates)
 # 將係數轉成 dict
 coeff_dict = coefficients.to_dict()
 
+
+output_file = "../data/ml/classification"
+os.makedirs(output_file, exist_ok=True)
+
 # 存成 JSON 檔
-output_path = "../data/ml/classification/logistic_regression_keyword_coefficients.json"
+output_path = f"{output_file}/logistic_regression_keyword_coefficients.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(coeff_dict, f, ensure_ascii=False, indent=4)
 
