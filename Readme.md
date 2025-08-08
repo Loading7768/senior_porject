@@ -79,3 +79,60 @@
     sentiment_analysis.py：
         1. 設定好 "可修改參數"
         2. 執行完成可在 Sentiment/analysis 裡看到新增加 "sentiment": sentiment 的推文 json 檔，以及詳細分類評分在 txt 檔中 
+
+使用手冊(spammer, dice, filter_tweets, tweetCountAnalysis)：
+
+    spammer_list.py：
+        會以一整月的資料夾中找出可能是 spammer 的作者
+
+        1. 設定好 "可修改參數"
+        2. 執行完成可在 data/spammer/{YEAR} 裡看到當月的 spammer_{YEAR}{MONTH}.txt 列表
+
+    isolate_user.py：
+        會將 spammer_{YEAR}{MONTH}.txt 的作者所發過的推文，以一整月為單位全部蒐集到一個 json 檔中
+
+        1. 設定好 "可修改參數"
+        2. 執行完成可在 data/spammer/{YEAR}/{MONTH} 裡看到當月所有 spammer 的 json 檔
+
+    dice_nultiprocessing.py：
+        會將 spammer_{YEAR}/{MONTH} 中的 spammer json 檔，全部用多執行緒做 Dice 分析
+
+        1. 設定好 "可修改參數"
+        2. 執行完成可在 data/dice/analysis 裡看到 dice 過並且 dice coefficient 超過 70% 的 作者 json 分析檔
+        3. 可在 data/dice/robot_account 裡看到「整理相似度」
+        4. 可在 data/dice/robot_list 裡看到「整理相似度」超過 80% 的作者名單
+
+    filter_tweets.py：
+        把原始抓到的推文，若有作者存在在 data/dice/robot_list 中，把他的所有推文刪掉
+
+        1. 設定好 "可修改參數"
+        2. 執行完成可在 data/filtered_tweets/{COIN}/{YEAR}/{MONTH} 裡看到 檔名為 _filtered.json 的已過濾檔案
+
+    tweetCoountAnalysis.py：
+        filename(檔案名), 
+        date(日期), 
+        start_time(推文開始時間), 
+        finish_time(推文結束時間), 
+        isCompleteData(是否有完整抓完), 
+        spammer_tweet_count(狂熱作者的推文數量), 
+        normal_tweet_count(一般作者的推文數量), 
+        tweet_total(總共推文數), 
+        (close_price)(收盤價)(要自己輸入)
+
+        將一整個月的分析 csv 檔案儲存到 data/tweets/summary 中
+
+使用手冊(estimate_the_total.py, current_date_price.py, idf_all.py, {model}.py)：
+
+    estimate_the_total.py：
+        估算沒有抓到 00:xx:xx 的當天推文總數
+        輸出放大倍率
+
+    current_date_price.py：
+        把目前有抓到推文的日期加上價錢
+        輸出 明天 - 今天 的價錢.npy
+
+    idf_all.py：
+
+
+    logistic_regression.py：
+        
