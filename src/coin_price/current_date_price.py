@@ -124,14 +124,25 @@ df_output.drop(columns=['date_dt'], inplace=True)
 df_output.to_csv(OUTPUT_CSV_PATH, index=False, encoding="utf-8-sig")
 print(f"✅ 已儲存到 {OUTPUT_CSV_PATH}")
 
+# 將 price_diff 欄位轉為 float，NaN 就會顯現出來
+df_output['price_diff_float'] = pd.to_numeric(df_output['price_diff'], errors='coerce')
 
-# 先確保 price_diff 欄位都是 float，不能有空字串
-# 把空字串轉成 np.nan，方便後續處理
-price_diff_array = pd.to_numeric(df_output['price_diff'], errors='coerce').to_numpy()
+# 找出 NaN 的列
+nan_rows = df_output[df_output['price_diff_float'].isna()]
 
-# 存成 .npy 檔（路徑可自訂）
-np.save("../data/coin_price/price_diff.npy", price_diff_array)
+# 顯示是哪幾天
+print("\n以下日期 price_diff 無法計算（可能缺少當天或隔天價格）:")
+print(nan_rows[['date', 'price', 'has_tweet']])
 
-print(price_diff_array)
 
-print("✅ 已將 price_diff 儲存為 price_diff.npy")
+# 先把空字串轉成 NaN，方便處理（這一步會將非數值都轉成 NaN）
+df_output['price_diff'] = pd.to_numeric(df_output['price_diff'], errors='coerce')
+
+# 過濾出 has_tweet == True 的資料，且 price_diff 不是 NaN
+filtered_df = df_output[(df_output['has_tweet'] == True) & (df_output['price_diff'].notna())]
+price_diff_array = filtered_df['price_diff'].to_numpy()  # 轉成 numpy 陣列
+np.save("../data/coin_price/price_diff.npy", price_diff_array)  # 存成 .npy 檔
+
+# 顯示預覽
+print(f"\n✅ 已儲存 price_diff.npy（共 {len(price_diff_array)} 筆）：\n{price_diff_array}")
+
