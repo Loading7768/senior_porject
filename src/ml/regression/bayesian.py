@@ -1,12 +1,14 @@
 from sklearn.linear_model import BayesianRidge
-from sklearn.model_selection import train_test_split, RandomizedSearchCV
+from sklearn.model_selection import train_test_split, RandomizedSearchCV, learning_curve, LearningCurveDisplay
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.feature_selection import RFE
 from scipy.stats import loguniform
 
 import json
 import numpy as np
 import os
+import matplotlib.pyplot as plt
 
 import sys
 from pathlib import Path
@@ -26,39 +28,36 @@ def prepare_data():
     feature_names = []
     with open(FEATURE_NAME_PATH, 'r', encoding='utf-8') as file:
         feature_names = json.load(file)
-    feature_vector = np.load(FEATURE_VECTOR_PATH)
-    price_vector = np.load(PRICE_VECTOR_PATH)
+    X = np.load(FEATURE_VECTOR_PATH)
+    Y = np.load(PRICE_VECTOR_PATH)
 
     '''
     split data into:
-    - 60% training
-    - 20% validation
+    - 80% training
     - 20% testing
     '''
-    X_temp, X_test, Y_temp, Y_test = train_test_split(feature_vector, price_vector, test_size=0.2, random_state=42)
-    X_train, X_val, Y_train, Y_val = train_test_split(X_temp, Y_temp, test_size=0.25, random_state=42)
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
     # standardize features
-    scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_val = scaler.fit_transform(X_val)
-    X_test = scaler.fit_transform(X_test)
+    # scaler = StandardScaler()
+    # X_train = scaler.fit_transform(X_train)
+    # X_test = scaler.fit_transform(X_test)
 
-    return X_train, X_val, X_test, Y_train, Y_val, Y_test, feature_names
+    return X_train, X_test, Y_train, Y_test, feature_names
 
 def tune_hyperparam(X_train, Y_train):
     model = BayesianRidge()
 
     # parameter distribution
     param_dist = {
-        'alpha_1': loguniform(1e-7, 1e-3),
-        'alpha_2' : loguniform(1e-7, 1e-3),
-        'lambda_1' : loguniform(1e-7, 1e-3),
-        'lambda_2' : loguniform(1e-7, 1e-3),
+        'alpha_1': loguniform(1e-8, 1e-1),
+        'alpha_2' : loguniform(1e-8, 1e-1),
+        'lambda_1' : loguniform(1e-8, 1e-1),
+        'lambda_2' : loguniform(1e-8, 1e-1),
     }
 
     search = RandomizedSearchCV(
-        model, param_dist, n_iter=50, cv=5, scoring='neg_mean_squared_error',
+        model, param_dist, n_iter=100, cv=5, scoring='neg_mean_squared_error',
         n_jobs=-1, random_state=42,
     )
     search.fit(X_train, Y_train)
@@ -82,13 +81,27 @@ def train_and_evaluate(best_model, X_train, X_test, Y_train, Y_test):
     print(f'Test MSE: {test_mse}')
     print(f'Test R^2: {test_r2}')
 
-def validation():
-    pass
+def validation(best_model, X_train, X_test, Y_train, Y_test):
+    # train_sizes, train_scores, val_scores = learning_curve(
+    #     best_model, X_train, Y_train, cv=5, scoring='neg_mean_squared_error',
+    #     train_sizes=np.linspace(0.1, 1.0, 10), n_jobs=-1
+    # )
+    display = LearningCurveDisplay.from_estimator(
+        best_model, X_train, Y_train, cv=5, scoring='neg_mean_squared_error',
+        train_sizes=np.linspace(0.1, 1.0, 10), n_jobs=-1
+    )
+    display.plot()
+    plt.show()
 
 def main():
-    X_train, X_val, X_test, Y_train, Y_val, Y_test, feature_names = prepare_data()
+    print('Loading data...')
+    X_train, X_test, Y_train, Y_test, feature_names = prepare_data()
+    print('\nTunning hyperparameters...')
     best_model = tune_hyperparam(X_train,Y_train)
+    print('\nTraining model...')
     train_and_evaluate(best_model, X_train, X_test, Y_train, Y_test)
+    print('\nPlotting learning curve...')
+    validation(best_model, X_train, X_test, Y_train, Y_test)
 
     # coeficients = model_training(feature_vector, price_vector)
     
