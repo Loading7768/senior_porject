@@ -148,6 +148,6 @@ for account_name, tweets in grouped_tweets.items():
     with open(output_path, "w", encoding="utf-8-sig") as f:
         json.dump(output_data, f, ensure_ascii=False, indent=4)
 
-    print(f"{account_name}.json: 共 {len(tweets)} 筆 | spammer: {is_spammer}")
+    print(f"{account_name}.json: 共 {len(tweets)} 筆 | 自己發文數: 共 {len(author_list)} 筆 | spammer: {is_spammer}")
 
 print(f"✅ 完成：共輸出 {len(grouped_tweets)} 個影響者的推文")
