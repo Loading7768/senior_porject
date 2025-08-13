@@ -1,4 +1,7 @@
 from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
+import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import json
@@ -34,34 +37,64 @@ for i in range(len(df)):
 X = features_vector
 Y = labels
 
+# 將資料拆分成 分成 60% train / 20% val / 20% test，設定 random_state 固定亂數種子，方便重現
+# 先切成 train 與 temp（60% / 40%）
+X_train, X_temp, y_train, y_temp = train_test_split(
+    X, Y, test_size=0.4, random_state=42, stratify=Y
+)
+# 再把 temp 分成 validation 與 test（各 50% -> 20% / 20%）
+X_val, X_test, y_val, y_test = train_test_split(
+    X_temp, y_temp, test_size=0.5, random_state=42, stratify=y_temp
+)
+
 # 使用 L1 正則化訓練 Logistic Regression
 model = LogisticRegression(
     penalty='l1', 
     solver='saga',  # 'liblinear'  'saga'
-    max_iter=5000,  # 迭代次數
+    max_iter=10000,  # 迭代次數
+    tol=1e-4,  # 設定收斂值 (defult = 1e-4)
     verbose=1
 )
-model.fit(X, Y)
 
-# 顯示每個關鍵字的係數（由大到小）
-coefficients = pd.Series(model.coef_[0], index=features_name)
-print(coefficients.sort_values(ascending=False))
+model.fit(X_train, y_train)
 
 
-# 額外印出哪些日期是被排除的
-print("\n被排除的日期（沒有推文或無法計算價格變化）:")
-print(unprocessed_dates)
 
-# 將係數轉成 dict
+# 計算準確率
+train_acc = accuracy_score(y_train, model.predict(X_train))
+val_acc = accuracy_score(y_val, model.predict(X_val))
+test_acc = accuracy_score(y_test, model.predict(X_test))
+
+print(f"Train 準確率: {train_acc:.4f}")
+print(f"Validation 準確率: {val_acc:.4f}")
+print(f"Test 準確率: {test_acc:.4f}")
+
+# 測試集詳細報告
+print("\n分類報告 (Test set):")
+print(classification_report(y_test, model.predict(X_test)))
+
+# ========== 畫 overfitting 圖 ==========
+output_dir = "../outputs/figures/ml/classification"
+os.makedirs(output_dir, exist_ok=True)
+
+plt.figure(figsize=(6,4))
+plt.bar(["Train", "Validation"], [train_acc, val_acc], color=["skyblue", "orange"])
+plt.ylim(0, 1)
+plt.ylabel("Accuracy")
+plt.title("Train vs Validation Accuracy")
+plt.savefig(os.path.join(output_dir, "logistic_overfitting_check.png"))
+plt.close()
+
+# ========== 關鍵字係數輸出 ==========
+coefficients = pd.Series(model.coef_[0], index=features_name).sort_values(ascending=False)
 coeff_dict = coefficients.to_dict()
-
 
 output_file = "../data/ml/classification"
 os.makedirs(output_file, exist_ok=True)
-
-# 存成 JSON 檔
 output_path = f"{output_file}/logistic_regression_keyword_coefficients.json"
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(coeff_dict, f, ensure_ascii=False, indent=4)
 
 print(f"已存成 JSON：{output_path}")
+print("\n被排除的日期（沒有推文或無法計算價格變化）:")
+print(unprocessed_dates)
