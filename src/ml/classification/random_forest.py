@@ -1,326 +1,168 @@
 #!/usr/bin/env python3
+"""
+- 以『價格 npy』產生 y；支援兩種模式：
+  - level：把價格視為價位，y[t] = 1 若 price[t+1] > price[t] 否則 0
+  - diff：把價格 npy 視為『日變化量』(例如 price_diff.npy)，y[t] = 1 若 diff[t] > 0 否則 0
+- 切分比率：60%/20%/20% (train/val/test)，使用 train_test_split 並 stratify
+- 使用 RandomForestClassifier，輸出：
+  1) Train/Val/Test 準確率 + Test classification_report
+  2) Overfitting 檢查圖 (Train vs Val bar chart)
+  3) 特徵重要度 JSON（依特徵名排序）
+
+"""
+
+from __future__ import annotations
+
 import argparse
 import json
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
-
-from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import Pipeline
-from sklearn.linear_model import LogisticRegression
+import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
-# === 固定檔案路徑（可改） ===
-FEATURES_PATH = Path("../data/keyword/machine_learning/feature_vector.npy")
-PRICES_PATH = Path("../data/coin_price/pepe_price.csv")
-FEATURE_NAMES_PATH = Path("../data/keyword/machine_learning/feature_name.json")
-OUT_JSON = Path("../data/keyword/machine_learning/feature_importance.json")
-OUT_METRICS = Path("../data/keyword/machine_learning/metrics.txt")
+# === 預設路徑（可用參數覆蓋） ===
+FEATURES_DIR = Path("../data/keyword/machine_learning")
+FEATURE_VECTOR_PATH = FEATURES_DIR / "feature_vector.npy"
+FEATURE_NAMES_PATH = FEATURES_DIR / "feature_name.json"
+
+DEFAULT_PRICE_NPY = Path("../data/coin_price/price_diff.npy")  # 預設當作 diff 模式
+
+OUT_FIG = Path("../outputs/figures/ml/classification/rf_overfitting_check.png")
+OUT_IMPORT_JSON = Path("../data/ml/classification/random_forest_feature_importances.json")
+OUT_METRICS_TXT = Path("../data/ml/classification/random_forest_metrics.txt")
 
 
-# -------------------------------
-# I/O 與資料讀取工具
-# -------------------------------
-def _smart_read_csv(path: Path) -> pd.DataFrame:
-    """嘗試自動辨識分隔符（逗號/Tab），不行就用預設。"""
-    try:
-        return pd.read_csv(path, sep=None, engine="python")
-    except Exception:
-        try:
-            return pd.read_csv(path, sep="\t")
-        except Exception:
-            return pd.read_csv(path)
-
-
-def load_prices(csv_path: Path) -> pd.DataFrame:
-    """讀取價格 CSV，支援逗號或 tab 分隔，回傳欄位 ['Date','priceOpen']"""
-    try:
-        df = pd.read_csv(csv_path, sep=None, engine="python")
-    except Exception:
-        try:
-            df = pd.read_csv(csv_path, sep="\t")
-        except Exception:
-            df = pd.read_csv(csv_path)
-
-    df.columns = [c.strip() for c in df.columns]
-    date_col = None
-    price_col = None
-    for c in df.columns:
-        lc = c.lower()
-        if "date" in lc and date_col is None:
-            date_col = c
-        if ("priceopen" in lc or "open" in lc or "price" in lc) and price_col is None:
-            price_col = c
-
-    if date_col is None or price_col is None:
-        raise ValueError(f"找不到日期/價格欄位：{df.columns.tolist()}")
-
-    df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
-    df[price_col] = pd.to_numeric(df[price_col], errors="coerce")
-    df = df.dropna(subset=[date_col, price_col]).sort_values(date_col).reset_index(drop=True)
-    df = df.rename(columns={date_col: "Date", price_col: "priceOpen"})
-    df["Date"] = df["Date"].dt.normalize()  # 僅保留日期
-    return df[["Date", "priceOpen"]]
-
-
-def load_feature_dates(path: Path) -> pd.Series:
+def build_labels(price_array: np.ndarray, mode: str) -> np.ndarray:
+    """由價格（或日變化量）序列產生二元標籤。
+    mode='level'：輸入為價位，輸出長度 N-1；y[t]=1 若 price[t+1]>price[t]
+    mode='diff' ：輸入為當日變化量，輸出長度 N   ；y[t]=1 若 diff[t]>0
     """
-    讀取每一列特徵對應的日期（長度要和 X 的列數相同）。
-    - 若有表頭，會找含 'date' 的欄位。
-    - 若無表頭，視為單欄日期。
-    回傳：pd.Series(datetime64[ns])（已 normalize 至日）
-    """
-    df = _smart_read_csv(path)
-    date_col = None
-    for c in df.columns:
-        if "date" in c.lower():
-            date_col = c
-            break
-    if date_col is None:
-        date_col = df.columns[0]
-    s = pd.to_datetime(df[date_col], errors="coerce").dt.normalize()
-    if s.isna().any():
-        raise ValueError("feature dates 內含無法解析的日期（NaT），請檢查檔案內容。")
-    return s
-
-
-def load_tweet_status(path: Path) -> pd.DataFrame:
-    """
-    讀推文狀態 CSV（需要 'date' 與 'has_tweet' 欄位）。
-    - date 會被轉成 datetime（只看到日）
-    - has_tweet 會被轉成布林（支援 1/0/true/false）
-    回傳：DataFrame[['date','has_tweet']]
-    """
-    df = _smart_read_csv(path)
-    df.columns = [c.strip().lower() for c in df.columns]
-
-    if "date" not in df.columns:
-        for c in list(df.columns):
-            if "date" in c:
-                df = df.rename(columns={c: "date"})
-                break
-    if "has_tweet" not in df.columns:
-        for c in list(df.columns):
-            if "tweet" in c and "has" in c:
-                df = df.rename(columns={c: "has_tweet"})
-                break
-
-    if "date" not in df.columns or "has_tweet" not in df.columns:
-        raise ValueError("tweet_status CSV 需要 'date' 與 'has_tweet' 欄位")
-
-    df["date"] = pd.to_datetime(df["date"], errors="coerce").dt.normalize()
-    df["has_tweet"] = df["has_tweet"].astype(str).str.strip().str.lower().map(
-        {"1": True, "true": True, "0": False, "false": False}
-    ).fillna(False)
-
-    df = df.dropna(subset=["date"]).loc[:, ["date", "has_tweet"]]
-    return df
-
-
-# -------------------------------
-# 建立 y 與模型管線
-# -------------------------------
-def make_labels_from_prices(prices: np.ndarray) -> np.ndarray:
-    """y[t] = 1 若明天價格比今天高，否則 0（長度 = len(prices)-1）"""
-    diffs = prices[1:] - prices[:-1]
-    return (diffs > 0).astype(int)
-
-
-def build_pipeline(model: str):
-    if model == "rf":
-        # 樹模型不需要標準化
-        clf = RandomForestClassifier(
-            n_estimators=500,
-            max_depth=None,
-            min_samples_leaf=1,
-            n_jobs=-1,
-            class_weight="balanced",
-            random_state=42,
-        )
-        return Pipeline([("clf", clf)])
+    p = np.asarray(price_array, dtype=float).reshape(-1)
+    if mode == "level":
+        if p.size < 2:
+            raise ValueError("價格 npy 長度需 ≥ 2 才能計算明日漲跌 (level 模式)")
+        diffs = p[1:] - p[:-1]
+        return (diffs > 0).astype(int)
+    elif mode == "diff":
+        return (p > 0).astype(int)
     else:
-        # 預設：Logistic Regression + StandardScaler
-        clf = LogisticRegression(
-            penalty="l2",
-            C=1.0,
-            class_weight="balanced",
-            max_iter=2000,
-            solver="lbfgs",
-            random_state=42,
-        )
-        return Pipeline([
-            ("scaler", StandardScaler()),
-            ("clf", clf),
-        ])
+        raise ValueError("price-mode 僅支援 'level' 或 'diff'")
 
 
-def extract_importance(pipe, feature_names, model: str) -> dict:
-    if model == "rf":
-        importances = pipe.named_steps["clf"].feature_importances_
-    else:
-        coefs = pipe.named_steps["clf"].coef_.ravel()
-        abs_coefs = np.abs(coefs)
-        importances = abs_coefs / abs_coefs.sum() if abs_coefs.sum() > 0 else abs_coefs
-    return {k: float(v) for k, v in sorted(
-        zip(feature_names, importances), key=lambda kv: kv[1], reverse=True
-    )}
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--features-npy", type=Path, default=FEATURE_VECTOR_PATH, help="feature_vector.npy 路徑")
+    parser.add_argument("--feature-names", type=Path, default=FEATURE_NAMES_PATH, help="feature_name.json 路徑")
+    parser.add_argument("--price-npy", type=Path, default=DEFAULT_PRICE_NPY, help="價格/日變化量 npy 路徑")
+    parser.add_argument("--price-mode", choices=["level", "diff"], default="diff", help="price npy 的語意：價位(level) 或 變化量(diff)")
 
+    # RF 主要超參數
+    parser.add_argument("--n-estimators", type=int, default=500, help="樹的數量")
+    parser.add_argument("--max-depth", type=int, default=None, help="最大深度，預設 None")
+    parser.add_argument("--min-samples-leaf", type=int, default=1, help="葉節點最小樣本數")
+    parser.add_argument("--class-weight", choices=["none", "balanced"], default="balanced", help="類別權重")
 
-# -------------------------------
-# 主流程
-# -------------------------------
-def main(args):
-    # 讀取特徵矩陣 X
-    X = np.load(FEATURES_PATH, allow_pickle=True)
+    parser.add_argument("--seed", type=int, default=42, help="亂數種子")
+
+    args = parser.parse_args()
+
+    # === 讀取 X 與特徵名 ===
+    X = np.load(args.features_npy)
     if not isinstance(X, np.ndarray) or X.ndim != 2:
-        raise ValueError(f"{FEATURES_PATH} 不是 2D numpy 陣列，實際：{type(X)}, ndim={getattr(X, 'ndim', None)}")
+        raise ValueError(f"{args.features_npy} 不是 2D numpy 陣列，實際：{type(X)}, ndim={getattr(X, 'ndim', None)}")
 
-    # 讀取價格
-    price_df = load_prices(PRICES_PATH)  # ['Date','priceOpen']
-
-    # 預設將用完整價格序列（會在下面再和 X 對齊）
-    prices = price_df["priceOpen"].to_numpy()
-
-    # === 只使用有推文的日期（可選） ===
-    filtered_days = None
-    before_rows = len(X)
-
-    if args.use_has_tweet_only:
-        if args.feature_dates is None or args.tweet_status is None:
-            raise ValueError("--use-has-tweet-only 需要同時提供 --feature-dates 與 --tweet-status")
-        # 1) 讀 X 的日期（需與 X 列數相同）
-        feature_dates = load_feature_dates(args.feature_dates)
-        if len(feature_dates) != len(X):
-            raise ValueError(f"feature_dates 長度({len(feature_dates)})需與 X 列數({len(X)})一致")
-        feature_dates = feature_dates.dt.normalize()
-
-        # 2) 讀 tweet 狀態，挑 has_tweet==True 的日期們
-        ts = load_tweet_status(args.tweet_status)
-        processed_dates = set(ts.loc[ts["has_tweet"], "date"].tolist())
-
-        # 3) 用 has_tweet 過濾 X
-        mask_has_tweet = feature_dates.isin(processed_dates)
-        X = X[mask_has_tweet]
-        feature_dates = feature_dates[mask_has_tweet].reset_index(drop=True)
-
-        # 4) 與價格內連接，只保留雙方都有的日期，並依日期排序
-        idx_after_mask = np.arange(len(feature_dates))
-        fd = pd.DataFrame({"Date": feature_dates, "idx": idx_after_mask})
-        join_df = (
-            fd.merge(price_df, on="Date", how="inner")
-              .sort_values("Date")
-              .reset_index(drop=True)
-        )
-        if join_df.empty:
-            raise ValueError("合併後沒有重疊日期（has_tweet=True 且有價格）。")
-
-        # 5) 依 join 後日期順序重排 X 與 prices
-        X = X[join_df["idx"].to_numpy()]
-        prices = join_df["priceOpen"].to_numpy()
-        filtered_days = len(X)
-    else:
-        # 未提供日期資訊時，假設 X 與價格皆為時間序且尾端對齊
-        m = min(len(X), len(prices))
-        X = X[-m:]
-        prices = prices[-m:]
-
-    # === 產生 y（明日漲跌），並與 X 對齊 ===
-    y = make_labels_from_prices(prices)  # 長度 = len(prices)-1
-    if len(X) != len(prices):
-        # 在「只用有推文」情境已經對齊；一般情況做保守對齊
-        m = min(len(X), len(prices))
-        X = X[:m]
-        prices = prices[:m]
-        y = make_labels_from_prices(prices)
-
-    # 丟掉最後一天的 X（因沒有「明天」可比較）
-    if len(X) != len(y) + 1:
-        # 容錯處理，保守裁切到最一致的長度
-        k = min(len(X) - 1, len(y))
-        X = X[:k + 1]
-        y = y[:k]
-    X = X[:-1]
-
-    # 讀特徵名稱
-    with open(FEATURE_NAMES_PATH, "r", encoding="utf-8") as f:
+    with open(args.feature_names, "r", encoding="utf-8-sig") as f:
         feature_names = json.load(f)
     if len(feature_names) != X.shape[1]:
         raise ValueError(f"feature_name.json 長度({len(feature_names)})與 X 特徵數({X.shape[1]})不符")
 
-    # === 時間序切分：不打亂 ===
-    n = len(y)
-    test_size = int(round(0.2 * n))
-    temp_size = n - test_size
+    # === 讀取價格/變化量 npy 並產生 y ===
+    price_arr = np.load(args.price_npy)
+    y_all = build_labels(price_arr, mode=args.price_mode)
 
-    X_temp, X_test = X[:temp_size], X[temp_size:]
-    y_temp, y_test = y[:temp_size], y[temp_size:]
+    # === 對齊 X 與 y ===
+    # level 模式：y 長度 = N-1；diff 模式：y 長度 = N
+    m = min(len(X), len(y_all))
+    X = X[:m]
+    Y = y_all[:m]
 
-    val_size = int(round(0.25 * temp_size))  # 25% of temp -> 20% of total
-    train_size = temp_size - val_size
+    # === 切分資料：60/20/20 ===
+    X_train, X_temp, y_train, y_temp = train_test_split(
+        X, Y, test_size=0.4, random_state=args.seed, stratify=Y
+    )
+    X_val, X_test, y_val, y_test = train_test_split(
+        X_temp, y_temp, test_size=0.5, random_state=args.seed, stratify=y_temp
+    )
 
-    X_train, X_val = X_temp[:train_size], X_temp[train_size:]
-    y_train, y_val = y_temp[:train_size], y_temp[train_size:]
+    # === 建立並訓練 RandomForest ===
+    cw = None if args.class_weight == "none" else "balanced"
+    model = RandomForestClassifier(
+        n_estimators=args.n_estimators,
+        max_depth=args.max_depth,
+        min_samples_leaf=args.min_samples_leaf,
+        class_weight=cw,
+        random_state=args.seed,
+        n_jobs=-1,
+    )
+    model.fit(X_train, y_train)
 
-    assert len(X_train) + len(X_val) + len(X_test) == n
+    # === 評估 ===
+    train_acc = accuracy_score(y_train, model.predict(X_train))
+    val_acc = accuracy_score(y_val, model.predict(X_val))
+    test_pred = model.predict(X_test)
+    test_acc = accuracy_score(y_test, test_pred)
 
-    # === 建立模型並訓練 ===
-    pipe = build_pipeline(args.model)
+    print(f"Train 準確率: {train_acc:.4f}")
+    print(f"Validation 準確率: {val_acc:.4f}")
+    print(f"Test 準確率: {test_acc:.4f}")
 
-    # 先在 train 上 fit，觀察 validation
-    pipe.fit(X_train, y_train)
-    y_val_pred = pipe.predict(X_val)
-    val_acc = accuracy_score(y_val, y_val_pred)
-    val_report = classification_report(y_val, y_val_pred, digits=3)
+    print("\n分類報告 (Test set):")
+    report_str = classification_report(y_test, test_pred)
+    print(report_str)
 
-    # 特徵重要度（用 val 訓練的模型）
-    importance_map = extract_importance(pipe, feature_names, args.model)
+    # === 儲存 Overfitting 圖 ===
+    OUT_FIG.parent.mkdir(parents=True, exist_ok=True)
+    plt.figure(figsize=(6, 4))
+    plt.bar(["Train", "Validation"], [train_acc, val_acc])
+    plt.ylim(0, 1)
+    plt.ylabel("Accuracy")
+    plt.title("RandomForest: Train vs Validation Accuracy")
+    plt.tight_layout()
+    plt.savefig(OUT_FIG)
+    plt.close()
 
-    # 最終：用 train+val 重訓，報告 test
-    X_trval = np.vstack([X_train, X_val])
-    y_trval = np.hstack([y_train, y_val])
+    # === 特徵重要度輸出 ===
+    importances = getattr(model, "feature_importances_", None)
+    if importances is None:
+        raise RuntimeError("此 RandomForest 模型沒有 feature_importances_ 屬性")
 
-    pipe.fit(X_trval, y_trval)
-    y_test_pred = pipe.predict(X_test)
-    test_acc = accuracy_score(y_test, y_test_pred)
-    test_report = classification_report(y_test, y_test_pred, digits=3)
+    importance_series = pd.Series(importances, index=feature_names).sort_values(ascending=False)
+    OUT_IMPORT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_IMPORT_JSON, "w", encoding="utf-8") as f:
+        json.dump({k: float(v) for k, v in importance_series.items()}, f, ensure_ascii=False, indent=2)
 
-    # === 輸出 ===
-    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_METRICS.parent.mkdir(parents=True, exist_ok=True)
+    # === 指標輸出到文字檔 ===
+    OUT_METRICS_TXT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_METRICS_TXT, "w", encoding="utf-8") as f:
+        f.write(f"X shape: {X.shape}, Y shape: {Y.shape}\n")
+        if len(Y) > 0:
+            pos_rate = Y.mean()
+            f.write(f"Positive rate (Y==1): {pos_rate:.3f}\n")
+        f.write("\n[Accuracy]\n")
+        f.write(f"Train: {train_acc:.3f}\nVal: {val_acc:.3f}\nTest: {test_acc:.3f}\n\n")
+        f.write("[Classification Report - Test]\n")
+        f.write(report_str + "\n")
+        f.write(f"Overfitting 圖: {OUT_FIG}\n")
+        f.write(f"特徵重要度 JSON: {OUT_IMPORT_JSON}\n")
 
-    with open(OUT_JSON, "w", encoding="utf-8") as f:
-        json.dump(importance_map, f, ensure_ascii=False, indent=2)
-
-    with open(OUT_METRICS, "w", encoding="utf-8") as f:
-        f.write(f"X shape: {X.shape}, y shape: {y.shape}\n")
-        if filtered_days is not None:
-            f.write(f"Use has_tweet only: before={before_rows}, after={filtered_days}\n")
-        f.write(f"Split -> train: {len(X_train)}, val: {len(X_val)}, test: {len(X_test)}\n")
-        if len(y) > 0:
-            pos_rate = y.mean()
-            f.write(f"Positive rate (y==1): {pos_rate:.3f}\n")
-        f.write("\n[Validation]\n")
-        f.write(f"Accuracy: {val_acc:.3f}\n")
-        f.write(val_report + "\n")
-        f.write("[Test]\n")
-        f.write(f"Accuracy: {test_acc:.3f}\n")
-        f.write(test_report)
-
-    print(f"已儲存特徵重要度到 {OUT_JSON}")
-    print(f"已儲存評估結果到 {OUT_METRICS}")
+    print(f"圖已輸出：{OUT_FIG}")
+    print(f"特徵重要度 JSON：{OUT_IMPORT_JSON}")
+    print(f"已輸出評估結果：{OUT_METRICS_TXT}")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model", choices=["logreg", "rf"], default="logreg",
-                        help="選擇模型：logreg（預設）或 rf（RandomForest）")
-    parser.add_argument("--feature-dates", type=Path, default=None,
-                        help="對應 X 每一列的日期清單（CSV/TSV，可無表頭；若有表頭找含 'date' 的欄位）")
-    parser.add_argument("--tweet-status", type=Path, default=None,
-                        help="推文狀態 CSV，需含 'date' 與 'has_tweet' 欄位（1/0 或 true/false）")
-    parser.add_argument("--use-has-tweet-only", action="store_true",
-                        help="只使用 has_tweet==True 的日期來對齊 X 與價格")
-    args = parser.parse_args()
-    main(args)
+    main()
