@@ -22,7 +22,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    balanced_accuracy_score,
+)
+
 
 # === 預設路徑（可用參數覆蓋） ===
 FEATURES_DIR = Path("../data/keyword/machine_learning")
@@ -90,30 +95,36 @@ def main():
     X = X[:m]
     Y = y_all[:m]
 
-    # === 切分資料：60/20/20 ===
-    X_train, X_temp, y_train, y_temp = train_test_split(
-        X, Y, test_size=0.4, random_state=args.seed, stratify=Y
-    )
-    X_val, X_test, y_val, y_test = train_test_split(
-        X_temp, y_temp, test_size=0.5, random_state=args.seed, stratify=y_temp
-    )
+    # 時間序 60/20/20 切分（避免資訊洩漏）
+    n = len(Y)
+    i1 = int(n * 0.6)
+    i2 = int(n * 0.8)
+    X_train, y_train = X[:i1], Y[:i1]
+    X_val,   y_val   = X[i1:i2], Y[i1:i2]
+    X_test,  y_test  = X[i2:],   Y[i2:]
+
 
     # === 建立並訓練 RandomForest ===
-    cw = None if args.class_weight == "none" else "balanced"
-    model = RandomForestClassifier(
-        n_estimators=args.n_estimators,
-        max_depth=args.max_depth,
-        min_samples_leaf=args.min_samples_leaf,
-        class_weight=cw,
+    rf = RandomForestClassifier(
+        n_estimators=400,
+        max_depth=4,            # ← 原本 None，改小幅度限制樹深度
+        min_samples_leaf=32,    # ← 葉子至少 32 筆，避免記憶訓練集
+        min_samples_split=64,   # ← 節點至少 64 筆才分裂，進一步抑制過擬合
+        max_features='log2',    # ← 每次分裂只看更少特徵，降方差
+        bootstrap=True,         # ← 預設就是 True，寫明沒壞處
+        max_samples=0.7,        # ← 每棵樹只抽 70% 資料，增加多樣性
+        class_weight=None,      # ← 你的類別比例 7:5 不嚴重，先關掉
+        oob_score=True,         # ← 看袋外分數，輔助檢查泛化
         random_state=args.seed,
         n_jobs=-1,
     )
-    model.fit(X_train, y_train)
+    rf.fit(X_train, y_train)
+
 
     # === 評估 ===
-    train_acc = accuracy_score(y_train, model.predict(X_train))
-    val_acc = accuracy_score(y_val, model.predict(X_val))
-    test_pred = model.predict(X_test)
+    train_acc = accuracy_score(y_train, rf.predict(X_train))
+    val_acc = accuracy_score(y_val, rf.predict(X_val))
+    test_pred = rf.predict(X_test)
     test_acc = accuracy_score(y_test, test_pred)
 
     print(f"Train 準確率: {train_acc:.4f}")
@@ -136,7 +147,7 @@ def main():
     plt.close()
 
     # === 特徵重要度輸出 ===
-    importances = getattr(model, "feature_importances_", None)
+    importances = getattr(rf, "feature_importances_", None)
     if importances is None:
         raise RuntimeError("此 RandomForest 模型沒有 feature_importances_ 屬性")
 
