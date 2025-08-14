@@ -2,7 +2,7 @@ from sklearn.linear_model import BayesianRidge
 from sklearn.model_selection import train_test_split, RandomizedSearchCV, learning_curve, LearningCurveDisplay
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.feature_selection import RFE
+from sklearn.decomposition import PCA
 from scipy.stats import loguniform
 
 import json
@@ -21,6 +21,7 @@ FEATURE_VECTOR_PATH = '../data/keyword/machine_learning/feature_vector.npy'
 FEATURE_NAME_PATH = '../data/keyword/machine_learning/feature_name.json'
 PRICE_VECTOR_PATH = '../data/coin_price/price_diff.npy'
 OUTPUT_PATH = '../data/ml/regression'
+FIGURE_PATH = '../outputs/figures/ml/regression'
 # ----------------------------------------paths----------------------------------------
 
 def prepare_data():
@@ -42,6 +43,10 @@ def prepare_data():
     # scaler = StandardScaler()
     # X_train = scaler.fit_transform(X_train)
     # X_test = scaler.fit_transform(X_test)
+
+    # pca = PCA(n_components=0.95)  # keep 95% variance
+    # X_train = pca.fit_transform(X_train)
+    # X_test = pca.transform(X_test)
 
     return X_train, X_test, Y_train, Y_test, feature_names
 
@@ -91,6 +96,8 @@ def validation(best_model, X_train, X_test, Y_train, Y_test):
         train_sizes=np.linspace(0.1, 1.0, 10), n_jobs=-1
     )
     display.plot()
+    os.makedirs(FIGURE_PATH, exist_ok=True)
+    plt.savefig(f'{FIGURE_PATH}/bayesing_learning_curve.png')
     plt.show()
 
 def main():
