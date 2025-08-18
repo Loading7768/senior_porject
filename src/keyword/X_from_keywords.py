@@ -40,7 +40,7 @@ OUT_DIR = "../data/keyword/machine_learning"    # 輸出資料夾
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # === 讀取單一幣種的詞彙表 ===
-json_path = os.path.join(DATA_DIR, f"{COIN_SHORT_NAME}_keywords.json")
+json_path = os.path.join(DATA_DIR, "all_keywords.json")
 with open(json_path, "r", encoding="utf-8") as f:
     vocab = json.load(f)
 
