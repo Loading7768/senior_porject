@@ -45,7 +45,7 @@ with open(json_path, "r", encoding="utf-8") as f:
     vocab = json.load(f)
 
 all_vocab = sorted(list(vocab))
-print(f"{COIN_SHORT_NAME} 詞彙數量: {len(all_vocab)}")
+print(f"詞彙數量: {len(all_vocab)}")
 
 # 建立詞彙到 index 的映射
 word2idx = {w: i for i, w in enumerate(all_vocab)}
