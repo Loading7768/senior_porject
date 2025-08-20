@@ -15,30 +15,35 @@ from email.header import Header
 
 import winsound
 
+import sys
+from pathlib import Path
+parent_dir = Path(__file__).resolve().parent.parent
+sys.path.append(str(parent_dir))
+import config_PEPE, config
+
 
 # 若要直接修改 QUERY 在 198 行  並把 185 - 195 行註解
 # 但 START_YEAR, START_MONTH, START_DAY 仍要填寫  為了建 json 檔名
 # 而 DAY_COUNT = 1, CHANGE_MONTH = 0 即可
 '''可修改參數'''
-MINIMUM_TWEETS = 100000  # 設定最少要擷取的推文數
+MINIMUM_TWEETS = 1000000  # 設定最少要擷取的推文數
 
-COIN_NAME = "(pepecoin OR \"pepe coin\" OR \"pepe meme coin\" OR pepecoin OR $PEPE OR \"dollar pepe\")"  # 目前要爬的 memecoin
+COIN_NAME = config.COIN_NAME  # 目前要爬的 memecoin
+# 
+# '(officialtrump OR "official trump" OR "trump meme coin" OR "trump coin" OR trumpcoin OR $TRUMP OR "dollar trump")'
+COIN_SHORT_NAME = config.COIN_SHORT_NAME  # 要當成檔案名的 memecoin 名稱
 
-COIN_SHORT_NAME = "PEPE"  # 要當成檔案名的 memecoin 名稱
-
-JSON_DICT_NAME = "PEPE"  # 設定推文所存的 json 檔中字典的名稱
+JSON_DICT_NAME = config.JSON_DICT_NAME  # 設定推文所存的 json 檔中字典的名稱
 
 SEARCH = 'Latest'  # 在 X 的哪個欄位內搜尋 (Top, Latest, People, Media, Lists)
 
-START_YEAR = 2024  # 開始的年份
+START_YEAR = 2025  # 開始的年份
 
 START_MONTH = 5  # 開始的月份
 
-START_DAY = 7  # 開始的日期
+START_DAY = 31  # 開始的日期
 
 DAY_COUNT = 1  # 要連續找幾天
-
-CHANGE_MONTH = 0  # 在哪個日期結束後有跨月 沒有填 0   ex. 如果要找的日期為 1/30 - 2/2 而其中包含 1/31 則需要填 31
 
 TRUN_ON_TIWCE_BREAK = False  # 看有沒有要當出現兩次 Rate limit reached 就馬上停止執行
 
@@ -163,25 +168,27 @@ async def main():
     # 1) 直接在登入後的 X 上抓出 "auth_token", "ct0"
     # 2) 儲存並加載 Cookies 來保持登入狀態
     client = Client(language='en-US')
-    client.load_cookies('cookies.json')  # 這裡 **不用 await**，因為是同步函式
+    client.load_cookies('tweets/cookies.json')  # 這裡 **不用 await**，因為是同步函式
 
     body = ""  # 用來記錄每一輪的 analysis 來傳 email
 
     # 設定目前是否達到此帳號抓文的上限
     TooManyRequests_bool = False
-    global START_MONTH, START_DAY
+    
+    global START_YEAR, START_MONTH, START_DAY
+
+    start_date = datetime(START_YEAR, START_MONTH, START_DAY)
     for day_count in range(DAY_COUNT):
-        if CHANGE_MONTH != 0 and (day_count + START_DAY) == CHANGE_MONTH:  # 如果是跨月前一天 就直接改 until 的值就好
-            QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH + 1}-01 since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
-            print(QUERY)
-        elif CHANGE_MONTH != 0 and (day_count + START_DAY) == (CHANGE_MONTH + 1):  # 如果已經跨月 要重設 START_MONTH, START_DAY
-            START_MONTH += 1
-            START_DAY = 1 - day_count  # - day_count 是為了配合下面的程式碼 讓日期維持正確的狀態
-            QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
-            print(QUERY)
-        else:
-            QUERY = f'{COIN_NAME} lang:en until:{START_YEAR}-{START_MONTH}-{day_count + 1 + START_DAY} since:{START_YEAR}-{START_MONTH}-{day_count + START_DAY}'
-            print(QUERY)
+        since_date = start_date + timedelta(days=day_count)
+        until_date = start_date + timedelta(days=day_count+1)
+
+        QUERY = f'{COIN_NAME} lang:en until:{until_date.strftime("%Y-%m-%d")} since:{since_date.strftime("%Y-%m-%d")}'
+        print(QUERY)
+
+        # 更新 START_YEAR, START_MONTH, START_DAY 為最後一個 since_date
+        START_YEAR = since_date.year
+        START_MONTH = since_date.month
+        START_DAY = since_date.day
         
         '''直接修改 QUERY'''
         # QUERY = '"official trump" lang:en until:2025-01-20 since:2025-01-19'
@@ -202,11 +209,16 @@ async def main():
 
         while founded_count < MINIMUM_TWEETS:
             # 設定檔案名稱
-            start_date = datetime(START_YEAR, START_MONTH, day_count + START_DAY)
+            current_date = datetime(START_YEAR, START_MONTH, START_DAY)
 
             # 格式化為檔名 (可把個位數前面補零)
-            date_str = start_date.strftime('%Y%m%d')  # 例：20210420
-            filename = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/0{START_MONTH}/{COIN_SHORT_NAME}_{date_str}.json"
+            date_str = current_date.strftime('%Y%m%d')  # 例：20210420
+
+            # 如果 START_MONTH 是個位數的話 在資料夾名稱前面補 0
+            if START_MONTH < 10:
+                filename = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/0{START_MONTH}/{COIN_SHORT_NAME}_{date_str}.json"
+            else:
+                filename = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/{START_MONTH}/{COIN_SHORT_NAME}_{date_str}.json"
             
             try:
                 tweets = await get_tweets(client, tweets, QUERY)  # `await` 確保非同步運行
@@ -257,10 +269,10 @@ async def main():
 
                 continue
             except Exception as e:  # 任何其他錯誤訊息
-                print(f"{datetime.now()} - Search failed: {e}. Retrying in 2 minutes...")
+                print(f"{datetime.now()} - Search failed: {e}. Retrying in 10 seconds...")
                 timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"{e}"])
 
-                await asyncio.sleep(120)
+                await asyncio.sleep(10)
                 continue
 
             if not tweets:
@@ -276,7 +288,11 @@ async def main():
             '''以下為測試檔案是否正常'''
             # 將 data.json 中的資料讀到 data_json 中
             try:
-                output_json_path = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/0{START_MONTH}/"
+                # 如果 START_MONTH 是個位數的話 在資料夾名稱前面補 0
+                if START_MONTH < 10:
+                    output_json_path = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/0{START_MONTH}/"
+                else:
+                    output_json_path = f"../data/tweets/{COIN_SHORT_NAME}/{START_YEAR}/{START_MONTH}/"
                 os.makedirs(output_json_path, exist_ok=True)
 
                 with open(filename, 'r', encoding='utf-8-sig') as file:
@@ -357,6 +373,32 @@ async def main():
         # 爬取結束
         print(f'{datetime.now()} - Done! Got {founded_count} tweets found')
 
+
+        '''判斷是否有抓完 沒有則改檔名'''
+        if founded_count > 0:
+            # 先將最後一則推文的時間抓出來
+            earliest_str = data_json[JSON_DICT_NAME][-1]["created_at"]
+            earliest_dt = datetime.strptime(earliest_str, "%a %b %d %H:%M:%S %z %Y")
+            earliest_time = earliest_dt.strftime("%H:%M:%S")
+
+            earliest_tweet_count = data_json[JSON_DICT_NAME][-1]["tweet_count"]
+
+            # 判斷有沒有抓完 是否是 00:XX:XX  若不是則將檔名最後加上 _LatestXXX.json
+            if not earliest_time.startswith("00:"):
+                original_name = filename[:-5]  # 去掉 .json
+                new_name = f"{original_name}_Latest{earliest_tweet_count}.json"
+
+                # 重新命名
+                os.rename(filename, new_name)
+                print(f"Renamed: {filename} → {new_name}\nearliest_dt: {earliest_dt}")
+
+                # 設定 timestamp
+                timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), f"Renamed: {filename} → {new_name}"])
+
+                filename = new_name
+        '''判斷是否有抓完 沒有則改檔名'''
+
+
         # 設定開始時間的 timestamp
         timestamp.append([datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S'), "End"])
 
@@ -388,14 +430,15 @@ async def main():
         wait_time_last = randint(5, 10)  # 5s ~ 10s
         print(f'{datetime.now()} - Waiting to next day after {wait_time_last} seconds ...')
         await asyncio.sleep(wait_time_last)
+
+        # 使程式執行完成後發出提示音
+        winsound.MessageBeep()
     
     # 傳送程式執行完成通知給 gamil
     subject = "Python 程式執行完成通知"
     body = f"您的 Python 程式已於 {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} 成功執行完成！\n\n" + body
     await send_email(subject, body, GMAIL)
 
-    # 使程式執行完成後發出提示音
-    winsound.MessageBeep()
 
 # **執行 `main()`**，確保程式運行在 **異步模式**
 asyncio.run(main())
