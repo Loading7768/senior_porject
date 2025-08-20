@@ -28,7 +28,7 @@ DOGE_price.csv：
 # === 修改為你的 CSV 檔與 JSON 資料夾路徑 ===
 PRICE_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_price.csv"
 NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/*/*/*.json"  # 是針對 normal_tweet 做運算
-OUTPUT_CSV_PATH = "../data/coin_price/current_tweet_price_output.csv"
+OUTPUT_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_price_output.csv"
 
 # === 讀取價格 CSV ===
 price_df = pd.read_csv(PRICE_CSV_PATH)
@@ -42,7 +42,7 @@ tweet_dates = set()  # 收集 tweet 有出現的日期
 tweet_count = defaultdict(int)  # 儲存每天的推文數量
 
 
-json_files = sorted(glob(NORMAL_TWEETS_JSON_GLOB))
+json_files = glob(NORMAL_TWEETS_JSON_GLOB)
 for json_path in tqdm(json_files, desc="正在找尋日期"):
     with open(json_path, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
@@ -70,9 +70,18 @@ if not tweet_dates:
     print("沒有抓到任何推文日期")
     exit()
 
-# min_date = min(tweet_dates)
-# max_date = max(tweet_dates)
-tweet_dates = sorted(tweet_dates)
+tweet_dates = sorted(tweet_dates)  # 因為抓進來的檔案順序可能會是亂的
+
+# ----------- 將 tweet_count 輸出成 json 檔 -------------
+# 將 datetime 轉成字串，defaultdict -> dict
+tweet_count_dict = {date.strftime("%Y/%m/%d"): count for date, count in tweet_count.items()}
+
+# 儲存成 JSON
+output_tweet_count_path = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_count.json"
+with open(output_tweet_count_path, "w", encoding="utf-8") as f:
+    json.dump(tweet_count_dict, f, ensure_ascii=False, indent=4)
+
+print(f"✅ 已儲存 {COIN_SHORT_NAME}_tweet_count 到 {output_tweet_count_path}")
 
 total_tweets = sum(tweet_count.values())
 print(f"\n全部 normal_tweet 的推文數量: {total_tweets}\n")
@@ -161,8 +170,8 @@ for _, row in filtered_df.iterrows():  # 逐行遍歷 filtered_df
     expanded_price_diffs.extend([row['price_diff']] * row['tweet_count'])  # extend() 方法會把這個 list 的所有元素加到 expanded_price_diffs 裡
 
 price_diff_array = np.array(expanded_price_diffs, dtype=float)  # 轉成 numpy 陣列
-np.save("../data/coin_price/price_diff.npy", price_diff_array)  # 存成 .npy 檔
+np.save(f"../data/coin_price/{COIN_SHORT_NAME}_price_diff.npy", price_diff_array)  # 存成 .npy 檔
 
 # 顯示預覽
-print(f"\n✅ 已儲存 price_diff.npy（共 {len(price_diff_array)} 筆）：\n{price_diff_array}")
+print(f"\n✅ 已儲存 {COIN_SHORT_NAME}_price_diff.npy（共 {len(price_diff_array)} 筆）：\n{price_diff_array}")
 
