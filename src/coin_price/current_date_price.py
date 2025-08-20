@@ -77,11 +77,13 @@ tweet_dates = sorted(tweet_dates)  # 因為抓進來的檔案順序可能會是�
 tweet_count_dict = {date.strftime("%Y/%m/%d"): count for date, count in tweet_count.items()}
 
 # 儲存成 JSON
-output_tweet_count_path = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_count.json"
-with open(output_tweet_count_path, "w", encoding="utf-8") as f:
+output_tweet_count_path = "../data/ml/dataset/coin_price"
+os.makedirs(output_tweet_count_path, exist_ok=True)
+output_tweet_count_path_file = f"{output_tweet_count_path}/{COIN_SHORT_NAME}_current_tweet_count.json"
+with open(output_tweet_count_path_file, "w", encoding="utf-8") as f:
     json.dump(tweet_count_dict, f, ensure_ascii=False, indent=4)
 
-print(f"✅ 已儲存 {COIN_SHORT_NAME}_tweet_count 到 {output_tweet_count_path}")
+print(f"✅ 已儲存 {COIN_SHORT_NAME}_tweet_count 到 {output_tweet_count_path_file}")
 
 total_tweets = sum(tweet_count.values())
 print(f"\n全部 normal_tweet 的推文數量: {total_tweets}\n")
@@ -170,7 +172,7 @@ for _, row in filtered_df.iterrows():  # 逐行遍歷 filtered_df
     expanded_price_diffs.extend([row['price_diff']] * row['tweet_count'])  # extend() 方法會把這個 list 的所有元素加到 expanded_price_diffs 裡
 
 price_diff_array = np.array(expanded_price_diffs, dtype=float)  # 轉成 numpy 陣列
-np.save(f"../data/coin_price/{COIN_SHORT_NAME}_price_diff.npy", price_diff_array)  # 存成 .npy 檔
+np.save(f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy", price_diff_array)  # 存成 .npy 檔
 
 # 顯示預覽
 print(f"\n✅ 已儲存 {COIN_SHORT_NAME}_price_diff.npy（共 {len(price_diff_array)} 筆）：\n{price_diff_array}")
