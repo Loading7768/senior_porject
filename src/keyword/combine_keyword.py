@@ -28,12 +28,14 @@ def combine_keywords(input_dir, output_path):
         except Exception as e:
             print(f"{jf} ❌ 發生錯誤: {e}")
 
-    # 排序後存成新的 JSON
-    merged = sorted(list(all_keywords))
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(merged, f, ensure_ascii=False, indent=2)
+    # 過濾：只保留純字母（去掉數字或數字+字母混合的）
+    filtered = [w for w in all_keywords if w.isalpha()]
 
-    print(f"合併完成，總共 {len(merged)} 個 keywords，已輸出到 {output_path}")
+    # 存成新的 JSON
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(filtered, f, ensure_ascii=False, indent=2)
+
+    print(f"合併完成，總共 {len(filtered)} 個 keywords，已輸出到 {output_path}")
 
 if __name__ == "__main__":
     # 你可以改這裡的路徑
