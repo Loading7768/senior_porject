@@ -31,9 +31,9 @@ def tokenize_tweets(tweets):
 
 
 # === 參數設定 ===
-DATA_DIR = "../data/ml/keywords"
+DATA_DIR = "../data/keywords/machine_learning"
 TWEET_DIR = f"../data/filtered_tweets/normal_tweets/*"
-OUT_DIR = "../data/ml/dataset"
+OUT_DIR = "../data/ml/dataset/keywords"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # === 讀取單一幣種的詞彙表 ===
@@ -92,19 +92,19 @@ print(f"完成全部檔案: X.shape = {X_sparse.shape}, 日期數 = {len(dates)}
 
 """
 #存成 txt
-X_sparse = load_npz("../data/ml/dataset/PEPE_X_sparse.npz")
-dates = np.load("../data/ml/dataset/PEPE_dates.npy")
+X_sparse = load_npz("../data/ml/dataset/keywords/PEPE_X_sparse.npz")
+dates = np.load("../data/ml/dataset/keywords/PEPE_dates.npy")
 
 # 取出 COO 格式
 X_coo = X_sparse.tocoo()
 
 # 存三元組格式 (row, col, val)
-np.savetxt("../data/ml/dataset/PEPE_X_triplets.txt",
+np.savetxt("../data/ml/dataset/keywords/PEPE_X_triplets.txt",
            np.vstack((X_coo.row, X_coo.col, X_coo.data)).T,
            fmt="%d")
 
 # 存日期
-np.savetxt("../data/ml/dataset/PEPE_dates.txt", dates, fmt="%s")
+np.savetxt("../data/ml/dataset/keywords/PEPE_dates.txt", dates, fmt="%s")
 
 print("✅ 已經輸出成 txt 檔")
 """
