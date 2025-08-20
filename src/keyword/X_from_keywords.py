@@ -79,8 +79,9 @@ for jf in tqdm(json_files, desc="處理推文檔案"):
         dates.append(date)
         row_idx += 1
 
-# === 建立 COO 稀疏矩陣 ===
+# === 建立 CSR 稀疏矩陣 ===
 X_sparse = coo_matrix((data_vals, (rows, cols)), shape=(row_idx, len(all_vocab)), dtype=np.int32)
+X_sparse = X_sparse.tocsr()
 
 # === 存檔 (npz) ===
 save_npz(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_X_sparse.npz"), X_sparse)
