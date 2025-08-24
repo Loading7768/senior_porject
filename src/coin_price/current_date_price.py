@@ -74,7 +74,10 @@ tweet_dates = sorted(tweet_dates)  # 因為抓進來的檔案順序可能會是�
 
 # ----------- 將 tweet_count 輸出成 json 檔 -------------
 # 將 datetime 轉成字串，defaultdict -> dict
-tweet_count_dict = {date.strftime("%Y/%m/%d"): count for date, count in tweet_count.items()}
+tweet_count_dict = {
+    date.strftime("%Y/%m/%d"): count
+    for date, count in sorted(tweet_count.items())  # <- 這裡 sorted 會依 datetime 升序排序
+}
 
 # 儲存成 JSON
 output_tweet_count_path = "../data/ml/dataset/coin_price"
