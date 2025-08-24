@@ -83,14 +83,57 @@ for jf in tqdm(json_files, desc="處理推文檔案"):
 X_sparse = coo_matrix((data_vals, (rows, cols)), shape=(row_idx, len(all_vocab)), dtype=np.int32)
 X_sparse = X_sparse.tocsr()
 
-# === 存檔 (npz) ===
-save_npz(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_X_sparse.npz"), X_sparse)
-np.save(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_dates.npy"), np.array(dates))
+print(f"原始矩陣: X.shape = {X_sparse.shape}, 日期數 = {len(dates)}")
 
-print(f"完成全部檔案: X.shape = {X_sparse.shape}, 日期數 = {len(dates)}")
+# ============================================================
+# === 功能 1: 刪掉只出現 <= min_count 次的詞彙 (刪 column) ===
+# ============================================================
+min_count = 2   # 可以改成 1, 2, 3
+col_sums = np.array(X_sparse.sum(axis=0)).ravel()
+valid_cols = np.where(col_sums > min_count)[0]
+
+X_sparse = X_sparse[:, valid_cols]
+filtered_vocab = [all_vocab[i] for i in valid_cols]
+
+print(f"過濾後詞彙數量: {len(filtered_vocab)} (原本 {len(all_vocab)})")
+
+# === 保留一份原始日期，不要被覆蓋 ===
+dates = np.array(dates)       # 全部推文的日期
+dates_all = dates.copy()      # 存一份完整的原始日期
+
+# ============================================================
+# === 功能 2: 刪掉沒有任何關鍵詞的推文 (刪 row) ===
+# ============================================================
+row_sums = np.array(X_sparse.sum(axis=1)).ravel()
+valid_rows = np.where(row_sums > 0)[0]
+invalid_rows = np.where(row_sums == 0)[0]
+
+# 保留有效 row
+X_sparse = X_sparse[valid_rows, :]
+dates_kept = dates_all[valid_rows]
+dates_removed = dates_all[invalid_rows]
+
+print(f"刪掉 {len(invalid_rows)} 筆沒有關鍵詞的推文，保留 {len(valid_rows)} 筆")
+
+# === 輸出被刪掉的推文資訊 (原始 index + 日期) ===
+removed_path = os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_removed_tweets.txt")
+with open(removed_path, "w", encoding="utf-8") as f:
+    for idx in invalid_rows:
+        f.write(f"{idx}\t{dates_all[idx]}\n")
+print(f"✅ 已輸出被刪掉的推文資訊到 {removed_path}")
+
+# ============================================================
+# === 存檔 (矩陣 + 日期 + vocab) ===
+# ============================================================
+save_npz(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_X_sparse_filtered.npz"), X_sparse)
+np.save(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_dates_filtered.npy"), dates_kept)
+
+with open(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_filtered_vocab.json"), "w", encoding="utf-8") as f:
+    json.dump(filtered_vocab, f, ensure_ascii=False, indent=2)
+
+print(f"完成過濾後: X.shape = {X_sparse.shape}, 日期數 = {len(dates_kept)}")
 
 
-"""
 #存成 txt
 X_sparse = load_npz("../data/ml/dataset/keywords/PEPE_X_sparse.npz")
 dates = np.load("../data/ml/dataset/keywords/PEPE_dates.npy")
@@ -107,4 +150,3 @@ np.savetxt("../data/ml/dataset/keywords/PEPE_X_triplets.txt",
 np.savetxt("../data/ml/dataset/keywords/PEPE_dates.txt", dates, fmt="%s")
 
 print("✅ 已經輸出成 txt 檔")
-"""
