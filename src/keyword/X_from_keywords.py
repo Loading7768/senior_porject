@@ -41,7 +41,7 @@ json_path = os.path.join(DATA_DIR, "all_keywords.json")
 with open(json_path, "r", encoding="utf-8") as f:
     vocab = json.load(f)
 
-all_vocab = sorted(list(vocab))
+all_vocab = list(vocab)
 print(f"詞彙數量: {len(all_vocab)}")
 
 word2idx = {w: i for i, w in enumerate(all_vocab)}
