@@ -7,10 +7,20 @@ import os
 
 
 
+'''可修改參數'''
+INPUT_PATH = "../data/ml/dataset"
+
+MIN_COUNT = 2  # 設定刪掉出現次數 <= MIN_COUNT 的關鍵詞 (column)
+
+TOLERANCE = 100  # 資料集中誤差推文數值 (100 => +-100)
+
 random.seed(42)  # 42 可以換成你想要的數字
+'''可修改參數'''
+
+
 
 # --- 平衡先用日期切割的後的資料 ---
-def balance_sets_by_swap(train_df, val_df, test_df, target_ratios=(0.8,0.1,0.1), tolerance=100):
+def balance_sets_by_swap(train_df, val_df, test_df, target_ratios=(0.8,0.1,0.1)):
     # 計算理論值
     total_tweets = train_df['tweet_count'].sum() + val_df['tweet_count'].sum() + test_df['tweet_count'].sum()
     target_train = int(total_tweets * target_ratios[0])
@@ -30,9 +40,9 @@ def balance_sets_by_swap(train_df, val_df, test_df, target_ratios=(0.8,0.1,0.1),
         test_sum  = test['tweet_count'].sum()
 
         # 判斷是否所有 set 都在 tolerance 內
-        if (abs(train_sum - target_train) <= tolerance and
-            abs(val_sum - target_val) <= tolerance and
-            abs(test_sum - target_test) <= tolerance):
+        if (abs(train_sum - target_train) <= TOLERANCE and
+            abs(val_sum - target_val) <= TOLERANCE and
+            abs(test_sum - target_test) <= TOLERANCE):
             break
 
         # 找一個超過理論值的 set 和小於理論值的 set    s[1] → DataFrame   s[2] → target count
@@ -93,8 +103,32 @@ def expand_by_tweet(df):
 
 # --- 用日期為單位把資料切成 8:1:1 (train : validation : test) ---
 def splitset_dates(COIN_SHORT_NAME):
+
+    # --- 讀取每條推文的日期 npy ---
+    dates = np.load(f"{INPUT_PATH}/keyword/{COIN_SHORT_NAME}_dates.npy")  # array([b'2013-12-15', ...])
+    
+    # 如果是 bytes，要轉成 str
+    if isinstance(dates[0], bytes):
+        dates = dates.astype(str)
+
+    # 轉成 datetime 方便排序
+    dates_dt = pd.to_datetime(dates, format="%Y-%m-%d")
+
+    # 統計每天出現次數
+    unique_dates, counts = np.unique(dates_dt, return_counts=True)
+
+    # 建成 dict，key 用 "YYYY/MM/DD" 格式
+    date_count_dict = {pd.Timestamp(d).strftime("%Y/%m/%d"): int(c) for d, c in zip(unique_dates, counts)}
+
+    # 儲存 JSON
+    json_output_path = f"{INPUT_PATH}/coin_price"
+    os.makedirs(json_output_path, exist_ok=True)
+    with open(f"{json_output_path}/{COIN_SHORT_NAME}_filtered_tweet_count.json", "w", encoding="utf-8") as f:
+        json.dump(date_count_dict, f, ensure_ascii=False, indent=4)
+
+
     # --- 讀 JSON ---
-    with open(f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_current_tweet_count.json", "r", encoding="utf-8") as f:
+    with open(f"{INPUT_PATH}/coin_price/{COIN_SHORT_NAME}_filtered_tweet_count.json", "r", encoding="utf-8") as f:
         tweet_count_dict = json.load(f)
 
     # --- 轉成 DataFrame ---
@@ -116,14 +150,14 @@ def splitset_dates(COIN_SHORT_NAME):
     test_df = df.iloc[train_size + val_size:]
 
     # 隨機交換微調    tolerance: 誤差推文數值 (100 => +-100)
-    train_df, val_df, test_df = balance_sets_by_swap(train_df, val_df, test_df, tolerance=100)
+    train_df, val_df, test_df = balance_sets_by_swap(train_df, val_df, test_df)
 
     # 先按照 tweet_count 由大到小排序
     train_df_sorted = train_df.sort_values(by='tweet_count', ascending=False)
     val_df_sorted   = val_df.sort_values(by='tweet_count', ascending=False)
     test_df_sorted  = test_df.sort_values(by='tweet_count', ascending=False)
 
-    csv_output_path = "../data/ml/dataset/split_dates"
+    csv_output_path = f"{INPUT_PATH}/split_dates"
     os.makedirs(csv_output_path, exist_ok=True)
     train_df_sorted.to_csv(f"{csv_output_path}/{COIN_SHORT_NAME}_train_dates.csv", index=False, encoding="utf-8-sig")
     val_df_sorted.to_csv(f"{csv_output_path}/{COIN_SHORT_NAME}_val_dates.csv", index=False, encoding="utf-8-sig")
@@ -142,29 +176,49 @@ def splitset_dates(COIN_SHORT_NAME):
 def splitset_XY(COIN_SHORT_NAME, split_val=False):
 
     # 讀取稀疏矩陣
-    X = sparse.load_npz(f"../data/ml/dataset/keyword/{COIN_SHORT_NAME}_X_sparse.npz")  # 二維陣列：colunm(關鍵詞) row(某天某推文) (但這裡是稀疏矩陣的格式)
-    dates = np.load(f"../data/ml/dataset/keyword/{COIN_SHORT_NAME}_dates.npy")  # 一維陣列：存放與 X row 對應的日期
+    X = sparse.load_npz(f"{INPUT_PATH}/keyword/{COIN_SHORT_NAME}_X_sparse.npz")  # 二維陣列：colunm(關鍵詞) row(某天某推文) (但這裡是稀疏矩陣的格式)
+    dates = np.load(f"{INPUT_PATH}/keyword/{COIN_SHORT_NAME}_dates.npy")  # 一維陣列：存放與 X row 對應的日期
 
     # 讀取 price_diff.npy
-    Y = np.load(f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy")  # shape = (總推文數,)
+    Y = np.load(f"{INPUT_PATH}/coin_price/{COIN_SHORT_NAME}_price_diff.npy")  # shape = (總推文數,)
+
+    # 先把要刪掉的推文刪掉 利用其他 .py 生成出的 index
+    with open(f"{INPUT_PATH}/keyword/{COIN_SHORT_NAME}_removed_tweets.json", "r", encoding="utf-8") as f:
+        removed_tweets = json.load(f)
+    removed_index = [item["index"] for item in removed_tweets]  # 取出 index 列表
+
+    # 輸出長度 確保一致性
+    print(f"{COIN_SHORT_NAME}：")
+    print("X.shape[0] =", X.shape[0])
+    print("dates.shape[0] =", len(dates))
+    print("Y.shape[0] =", len(Y))
+    print()
+
+
+    # 把被刪掉的推文刪掉 (刪 Y) (其中 X_sparse.npz, dates.npy 已經是刪好的資料了)
+    if len(removed_index) > 0:
+        keep_mask = np.ones(len(Y), dtype=bool)
+        keep_mask[removed_index] = False
+        Y = Y[keep_mask]
+
 
     # 把 date 轉成 datetime 格式，方便比對
-    dates = pd.to_datetime(dates, format="%Y-%m-%d")
+    dates_datetime = pd.to_datetime(dates)
 
     # 讀取三個集合的日期 (切割好的 CSV)
-    train_dates = pd.read_csv(f"../data/ml/dataset/split_dates/{COIN_SHORT_NAME}_train_dates.csv")['date']
-    val_dates   = pd.read_csv(f"../data/ml/dataset/split_dates/{COIN_SHORT_NAME}_val_dates.csv")['date']
-    test_dates  = pd.read_csv(f"../data/ml/dataset/split_dates/{COIN_SHORT_NAME}_test_dates.csv")['date']
+    train_dates = pd.read_csv(f"{INPUT_PATH}/split_dates/{COIN_SHORT_NAME}_train_dates.csv")['date']
+    val_dates   = pd.read_csv(f"{INPUT_PATH}/split_dates/{COIN_SHORT_NAME}_val_dates.csv")['date']
+    test_dates  = pd.read_csv(f"{INPUT_PATH}/split_dates/{COIN_SHORT_NAME}_test_dates.csv")['date']
 
     # 轉成 datetime
-    train_dates = pd.to_datetime(train_dates, format="%Y-%m-%d")
-    val_dates   = pd.to_datetime(val_dates, format="%Y-%m-%d")
-    test_dates  = pd.to_datetime(test_dates, format="%Y-%m-%d")
+    train_dates = pd.to_datetime(train_dates)
+    val_dates   = pd.to_datetime(val_dates)
+    test_dates  = pd.to_datetime(test_dates)
 
     # 找出 index   逐筆檢查 date 中的每一個值，判斷它是否在 train_dates 裡
-    train_mask = dates.isin(train_dates)
-    val_mask   = dates.isin(val_dates)
-    test_mask  = dates.isin(test_dates)
+    train_mask = dates_datetime.isin(train_dates)
+    val_mask   = dates_datetime.isin(val_dates)
+    test_mask  = dates_datetime.isin(test_dates)
 
     # 切割 X
     X_train = X[train_mask]
@@ -176,18 +230,24 @@ def splitset_XY(COIN_SHORT_NAME, split_val=False):
     Y_val   = Y[val_mask]
     Y_test  = Y[test_mask]
 
+    # 切割 dates
+    dates_train = dates[train_mask]
+    dates_val   = dates[val_mask]
+    dates_test  = dates[test_mask]
+
     if not split_val:
         # 如果不需要 validation，就把 val + test 合併
         X_test = sparse.vstack([X_val, X_test], format="csr")
         Y_test = np.concatenate([Y_val, Y_test])
-        X_val, Y_val = None, None  # 不返回 validation
+        dates_test = np.concatenate([dates_val, dates_test])
+        X_val, Y_val, dates_val = None, None, None  # 不返回 validation
 
-    return X_train, X_val, X_test, Y_train, Y_val, Y_test
+    return X_train, X_val, X_test, Y_train, Y_val, Y_test, dates_train, dates_val, dates_test
 
 
 
 # --- 打亂順序 (shuffle) ---
-def shuffle_xy(X, Y, seed=42):
+def shuffle_xy(X, Y, dates, seed=42):
     """
     Shuffle X and Y in unison.
     X: np.ndarray 或 scipy.sparse 矩陣
@@ -206,14 +266,21 @@ def shuffle_xy(X, Y, seed=42):
 
     Y_shuffled = Y[indices]  # 按照 indices 的順序重新排列
 
-    return X_shuffled, Y_shuffled
+    # dates shuffle
+    dates_shuffled = dates[indices]
+
+    return X_shuffled, Y_shuffled, dates_shuffled
 
 
 
 # --- 將三種幣種的 X, Y 合併成完整的模型輸入值 (輸出 .npy 檔) ---
 def merge(DOGE_X_train, DOGE_X_val, DOGE_X_test, DOGE_Y_train, DOGE_Y_val, DOGE_Y_test,
           PEPE_X_train, PEPE_X_val, PEPE_X_test, PEPE_Y_train, PEPE_Y_val, PEPE_Y_test,
-          TRUMP_X_train, TRUMP_X_val, TRUMP_X_test, TRUMP_Y_train, TRUMP_Y_val, TRUMP_Y_test):
+          TRUMP_X_train, TRUMP_X_val, TRUMP_X_test, TRUMP_Y_train, TRUMP_Y_val, TRUMP_Y_test,
+          DOGE_dates_train, DOGE_dates_val, DOGE_dates_test,
+          PEPE_dates_train, PEPE_dates_val, PEPE_dates_test,
+          TRUMP_dates_train, TRUMP_dates_val, TRUMP_dates_test,
+          min_count, all_vocab=None):
 
     # 合併 X（稀疏矩陣用 sparse.vstack）
     X_train_list = [DOGE_X_train, PEPE_X_train, TRUMP_X_train]
@@ -229,25 +296,91 @@ def merge(DOGE_X_train, DOGE_X_val, DOGE_X_test, DOGE_Y_train, DOGE_Y_val, DOGE_
     Y_test  = np.concatenate([DOGE_Y_test, PEPE_Y_test, TRUMP_Y_test])
     Y_val   = np.concatenate([DOGE_Y_val, PEPE_Y_val, TRUMP_Y_val]) if DOGE_Y_val is not None else None
 
-    # 打亂順序
-    X_train, Y_train = shuffle_xy(X_train, Y_train)
-    X_test,  Y_test  = shuffle_xy(X_test, Y_test)
+    # 合併 Dates
+    dates_train = np.concatenate([DOGE_dates_train, PEPE_dates_train, TRUMP_dates_train])
+    dates_test  = np.concatenate([DOGE_dates_test, PEPE_dates_test, TRUMP_dates_test])
+    dates_val   = np.concatenate([DOGE_dates_val, PEPE_dates_val, TRUMP_dates_val]) if DOGE_dates_val is not None else None
+
+
+    '''
+    X_train.nonzero() 會回傳一個 tuple (row_idx, col_idx)：
+    row_idx → 非零元素所在的 row（推文 index）。
+    col_idx → 非零元素所在的 column（關鍵詞 index）。
+
+    X_train.nonzero()[1] 取的是所有非零值的 column index。
+    → 這就是「有哪些關鍵詞至少在 train 裡出現過一次」。
+
+    np.unique(...) 把它去重，得到一個 只出現在 train 的 column 清單。
+    '''
+
+    # 只保留 train 出現過的關鍵詞 (column)
+    orig_cols = X_train.shape[1]
+    keep_cols = np.unique(X_train.nonzero()[1])  # train 出現過的 column index
+    new_cols = len(keep_cols)
+
+    # column 過濾
+    X_train = X_train[:, keep_cols]  # [:, keep_cols] 表示「保留所有 row，但只取出 keep_cols 這些 column」。
+    X_test  = X_test[:, keep_cols]
     if X_val is not None:
-        X_val, Y_val = shuffle_xy(X_val, Y_val)
+        X_val = X_val[:, keep_cols]
+    if all_vocab is not None:
+        all_vocab = [all_vocab[i] for i in keep_cols]
+
+    print("只保留 train 出現過的關鍵詞 (column):")
+    print(f"\t原始 column 數量: {orig_cols}")
+    print(f"\t保留 column 數量: {new_cols}")
+    print(f"\t刪掉 column 數量: {orig_cols - new_cols}\n")
+
+    # 刪掉出現次數 <= min_count 的 column
+    col_sums = np.array(X_train.sum(axis=0)).ravel()
+    valid_cols = np.where(col_sums > min_count)[0]
+
+    X_train = X_train[:, valid_cols]
+    X_test  = X_test[:, valid_cols]
+    if X_val is not None:
+        X_val = X_val[:, valid_cols]
+    if all_vocab is not None:
+        filtered_vocab = [all_vocab[i] for i in valid_cols]
+        print("刪掉出現次數 <= min_count 的關鍵詞 (column):")
+        print(f"\t原始 column 數量: {len(all_vocab)}")
+        print(f"\t保留 column 數量: {len(filtered_vocab)}")
+        print(f"\t刪掉 column 數量: {len(all_vocab) - len(filtered_vocab)}\n")
+
+    with open(os.path.join(f"{INPUT_PATH}/keyword", f"filtered_keywords.json"), "w", encoding="utf-8") as f:
+        json.dump(filtered_vocab, f, ensure_ascii=False, indent=4)  
+
+
+
+    # 打亂順序
+    X_train, Y_train, dates_train = shuffle_xy(X_train, Y_train, dates_train)
+    X_test,  Y_test,  dates_test  = shuffle_xy(X_test, Y_test, dates_test)
+    if X_val is not None:
+        X_val, Y_val, dates_val = shuffle_xy(X_val, Y_val, dates_val)
 
     # 儲存
-    sparse.save_npz("../data/ml/dataset/X_train.npz", X_train)
-    sparse.save_npz("../data/ml/dataset/X_test.npz", X_test)
-    np.save("../data/ml/dataset/Y_train.npy", Y_train)
-    np.save("../data/ml/dataset/Y_test.npy", Y_test)
+    sparse.save_npz(f"{INPUT_PATH}/X_train.npz", X_train)
+    sparse.save_npz(f"{INPUT_PATH}/X_test.npz", X_test)
+    np.save(f"{INPUT_PATH}/Y_train.npy", Y_train)
+    np.save(f"{INPUT_PATH}/Y_test.npy", Y_test)
 
     if X_val is not None:
-        sparse.save_npz("../data/ml/dataset/X_val.npz", X_val)
-        np.save("../data/ml/dataset/Y_val.npy", Y_val)
+        sparse.save_npz(f"{INPUT_PATH}/X_val.npz", X_val)
+        np.save(f"{INPUT_PATH}/Y_val.npy", Y_val)
+
+    if dates_train is not None:
+        np.save(f"{INPUT_PATH}/dates_train.npy", dates_train)
+        np.save(f"{INPUT_PATH}/dates_test.npy", dates_test)
+        if dates_val is not None:
+            np.save(f"{INPUT_PATH}/dates_val.npy", dates_val)
+
+    # 檢查資料集維度
+    assert X_train.shape[0] == len(Y_train) == len(dates_train), "Train 維度不一致!"
+    assert X_test.shape[0] == len(Y_test) == len(dates_test), "Test 維度不一致!"
+    if X_val is not None:
+        assert X_val.shape[0] == len(Y_val) == len(dates_val), "Val 維度不一致!"
+
 
     print("Merge 完成，資料已輸出到 ../data/ml/dataset")
-
-    # return X_train, X_val, X_test, Y_train, Y_val, Y_test
 
 
 
@@ -265,20 +398,30 @@ def main():
     # 分別切資料集
     DOGE_dates_train_expanded, DOGE_dates_val_expanded, DOGE_dates_test_expanded = splitset_dates("DOGE")
     print_split_number(DOGE_dates_train_expanded, DOGE_dates_val_expanded, DOGE_dates_test_expanded, "DOGE")
-    DOGE_X_train, DOGE_X_val, DOGE_X_test, DOGE_Y_train, DOGE_Y_val, DOGE_Y_test = splitset_XY("DOGE")  # 若要分出 val => splitset_XY("DOGE", True)
+    DOGE_X_train, DOGE_X_val, DOGE_X_test, DOGE_Y_train, DOGE_Y_val, DOGE_Y_test, DOGE_dates_train, DOGE_dates_val, DOGE_dates_test = splitset_XY("DOGE")  # 若要分出 val => splitset_XY("DOGE", True)
 
     PEPE_dates_train_expanded, PEPE_dates_val_expanded, PEPE_dates_test_expanded = splitset_dates("PEPE")
     print_split_number(PEPE_dates_train_expanded, PEPE_dates_val_expanded, PEPE_dates_test_expanded, "PEPE")
-    PEPE_X_train, PEPE_X_val, PEPE_X_test, PEPE_Y_train, PEPE_Y_val, PEPE_Y_test = splitset_XY("PEPE")
+    PEPE_X_train, PEPE_X_val, PEPE_X_test, PEPE_Y_train, PEPE_Y_val, PEPE_Y_test, PEPE_dates_train, PEPE_dates_val, PEPE_dates_test = splitset_XY("PEPE")
 
     TRUMP_dates_train_expanded, TRUMP_dates_val_expanded, TRUMP_dates_test_expanded = splitset_dates("TRUMP")
     print_split_number(TRUMP_dates_train_expanded, TRUMP_dates_val_expanded, TRUMP_dates_test_expanded, "TRUMP")
-    TRUMP_X_train, TRUMP_X_val, TRUMP_X_test, TRUMP_Y_train, TRUMP_Y_val, TRUMP_Y_test = splitset_XY("TRUMP")
+    TRUMP_X_train, TRUMP_X_val, TRUMP_X_test, TRUMP_Y_train, TRUMP_Y_val, TRUMP_Y_test, TRUMP_dates_train, TRUMP_dates_val, TRUMP_dates_test = splitset_XY("TRUMP")
+
+    json_path = os.path.join("../data/keyword/machine_learning", "all_keywords.json")
+    with open(json_path, "r", encoding="utf-8") as f:
+        vocab = json.load(f)
+
+    all_vocab = list(vocab)
 
     # 合併資料集
     merge(DOGE_X_train, DOGE_X_val, DOGE_X_test, DOGE_Y_train, DOGE_Y_val, DOGE_Y_test,
           PEPE_X_train, PEPE_X_val, PEPE_X_test, PEPE_Y_train, PEPE_Y_val, PEPE_Y_test,
-          TRUMP_X_train, TRUMP_X_val, TRUMP_X_test, TRUMP_Y_train, TRUMP_Y_val, TRUMP_Y_test)
+          TRUMP_X_train, TRUMP_X_val, TRUMP_X_test, TRUMP_Y_train, TRUMP_Y_val, TRUMP_Y_test,
+          DOGE_dates_train, DOGE_dates_val, DOGE_dates_test,
+          PEPE_dates_train, PEPE_dates_val, PEPE_dates_test,
+          TRUMP_dates_train, TRUMP_dates_val, TRUMP_dates_test,
+          MIN_COUNT, all_vocab)  # 刪掉出現次數 <= min_count 的 column
     
 
 if __name__ == "__main__":
