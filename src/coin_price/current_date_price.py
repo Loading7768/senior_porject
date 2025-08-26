@@ -25,16 +25,33 @@ DOGE_price.csv：
     ...
 '''
 
+
+'''可修改參數'''
 # === 修改為你的 CSV 檔與 JSON 資料夾路徑 ===
 PRICE_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_price.csv"
 NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/*/*/*.json"  # 是針對 normal_tweet 做運算
 OUTPUT_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_price_output.csv"
+
+# === 自訂時間範圍 (格式：YYYY/MM/DD) ===
+START_DATE = "2013/12/15"
+END_DATE   = "2025/07/31"
+'''可修改參數'''
+
+
+
+# 轉成 datetime 方便比較
+START_DATE_DT = pd.to_datetime(START_DATE, format="%Y/%m/%d")
+END_DATE_DT   = pd.to_datetime(END_DATE, format="%Y/%m/%d")
 
 # === 讀取價格 CSV ===
 price_df = pd.read_csv(PRICE_CSV_PATH)
 price_df['snapped_at'] = pd.to_datetime(price_df['snapped_at'], format="%Y-%m-%d %H:%M:%S %Z")
 price_df.set_index('snapped_at', inplace=True)
 price_df.index = price_df.index.tz_localize(None)  # 移除時區 只保留日期部分
+
+# 🔹 過濾價格資料到時間範圍內
+price_df = price_df.loc[(price_df.index >= START_DATE_DT) & (price_df.index <= END_DATE_DT + pd.Timedelta(days=1))]
+
 
 # === 儲存推文資訊 若當天沒有推文則不會加進去 set 中 ===
 tweet_dates = set()  # 收集 tweet 有出現的日期
@@ -58,6 +75,10 @@ for json_path in tqdm(json_files, desc="正在找尋日期"):
         ).strftime("%Y/%m/%d")
         date_dt = pd.to_datetime(date_str)
         tweet_dates.add(date_dt)
+
+        # 🔹 過濾掉不在範圍內的推文
+        if not (START_DATE_DT <= date_dt <= END_DATE_DT):
+            continue
 
         # 取得當天推文數量
         tweet_count[date_dt] = len(tweets)
