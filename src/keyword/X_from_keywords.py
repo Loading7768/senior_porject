@@ -31,9 +31,9 @@ def tokenize_tweets(tweets):
 
 
 # === 參數設定 ===
-DATA_DIR = "../data/keywords/machine_learning"
+DATA_DIR = "../data/keyword/machine_learning"
 TWEET_DIR = f"../data/filtered_tweets/normal_tweets/*"
-OUT_DIR = "../data/ml/dataset/keywords"
+OUT_DIR = "../data/ml/dataset/keyword"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # === 讀取單一幣種的詞彙表 ===
@@ -103,11 +103,15 @@ dates_removed = dates_all[invalid_rows]
 
 print(f"刪掉 {len(invalid_rows)} 筆沒有關鍵詞的推文，保留 {len(valid_rows)} 筆")
 
+
 # === 輸出被刪掉的推文資訊 (原始 index + 日期) ===
-removed_path = os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_removed_tweets.txt")
+removed_path = os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_removed_tweets.json")
+
+removed_tweets = [{"index": int(idx), "date": dates_all[idx]} for idx in invalid_rows]
+
 with open(removed_path, "w", encoding="utf-8") as f:
-    for idx in invalid_rows:
-        f.write(f"{idx}\t{dates_all[idx]}\n")
+    json.dump(removed_tweets, f, ensure_ascii=False, indent=4)
+
 print(f"✅ 已輸出被刪掉的推文資訊到 {removed_path}")
 
 # ============================================================
