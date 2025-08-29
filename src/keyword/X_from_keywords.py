@@ -8,7 +8,8 @@ from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 from tqdm import tqdm
 from datetime import datetime
-from scipy.sparse import coo_matrix, save_npz, load_npz
+from scipy.sparse import coo_matrix, save_npz
+import pickle
 
 # === 匯入 config ===
 parent_dir = Path(__file__).resolve().parent.parent
@@ -52,7 +53,7 @@ print(f"找到 {len(json_files)} 個檔案可處理")
 
 # === 用稀疏矩陣的三元組格式 (row, col, data) ===
 rows, cols, data_vals = [], [], []
-dates = []
+ids = []
 
 row_idx = 0
 for jf in tqdm(json_files, desc="處理推文檔案"):
@@ -70,57 +71,30 @@ for jf in tqdm(json_files, desc="處理推文檔案"):
         except Exception:
             date = ""
 
+        number = tw.get("tweet_count", '')
+        
         for tok in tokens:
             if tok in word2idx:
                 rows.append(row_idx)
                 cols.append(word2idx[tok])
                 data_vals.append(1)   # 出現一次就 +1 (因為 tokenized 已去重)
 
-        dates.append(date)
+        ids.append((COIN_SHORT_NAME, date, number))
         row_idx += 1
 
 # === 建立 CSR 稀疏矩陣 ===
 X_sparse = coo_matrix((data_vals, (rows, cols)), shape=(row_idx, len(all_vocab)), dtype=np.int32)
 X_sparse = X_sparse.tocsr()
 
-print(f"原始矩陣: X.shape = {X_sparse.shape}, 日期數 = {len(dates)}")
-
-# === 保留一份原始日期，不要被覆蓋 ===
-dates = np.array(dates)       # 全部推文的日期
-dates_all = dates.copy()      # 存一份完整的原始日期
-
-# ============================================================
-# === 功能 2: 刪掉沒有任何關鍵詞的推文 (刪 row) ===
-# ============================================================
-row_sums = np.array(X_sparse.sum(axis=1)).ravel()
-valid_rows = np.where(row_sums > 0)[0]
-invalid_rows = np.where(row_sums == 0)[0]
-
-# 保留有效 row
-X_sparse = X_sparse[valid_rows, :]
-dates_kept = dates_all[valid_rows]
-dates_removed = dates_all[invalid_rows]
-
-print(f"刪掉 {len(invalid_rows)} 筆沒有關鍵詞的推文，保留 {len(valid_rows)} 筆")
-
-
-# === 輸出被刪掉的推文資訊 (原始 index + 日期) ===
-removed_path = os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_removed_tweets.json")
-
-removed_tweets = [{"index": int(idx), "date": dates_all[idx]} for idx in invalid_rows]
-
-with open(removed_path, "w", encoding="utf-8") as f:
-    json.dump(removed_tweets, f, ensure_ascii=False, indent=4)
-
-print(f"✅ 已輸出被刪掉的推文資訊到 {removed_path}")
-
 # ============================================================
 # === 存檔 (矩陣 + 日期 + vocab) ===
 # ============================================================
 save_npz(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_X_sparse.npz"), X_sparse)
-np.save(os.path.join(OUT_DIR, f"{COIN_SHORT_NAME}_dates.npy"), dates_kept)
+with open(os.path.join(OUT_DIR, f'{COIN_SHORT_NAME}_ids.pkl'), 'wb') as file:
+    pickle.dump(ids, file)
 
-print(f"完成過濾後: X.shape = {X_sparse.shape}, 日期數 = {len(dates_kept)}")
+print(f"原始矩陣: X.shape = {X_sparse.shape}, 資料量 = {len(ids)}")
+
 
 """
 #存成 txt
