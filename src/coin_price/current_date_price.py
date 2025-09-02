@@ -210,7 +210,8 @@ for shift in day_shifts:
 
 # 轉成 numpy 陣列並儲存
 all_price_diffs = np.array(all_price_diffs, dtype=float)
+all_price_diffs_T = all_price_diffs.T  # 或者 np.transpose(all_price_diffs)
 save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy"
-np.save(save_path, all_price_diffs)
+np.save(save_path, all_price_diffs_T)
 
-print(f"\n✅ 已儲存矩陣 {all_price_diffs}，形狀: {all_price_diffs.shape}")
+print(f"\n✅ 已儲存矩陣 {all_price_diffs_T}，形狀: {all_price_diffs_T.shape}")
