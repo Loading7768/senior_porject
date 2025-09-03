@@ -138,18 +138,19 @@ def main():
     # === 讀取資料 ===
     X_train = _smart_load_matrix(X_TRAIN_PATH)
     data1 = np.load(Y_TRAIN_PATH)
-    y_train = data1["Y"][:,4]
+    y_train = data1["Y"][:,1]
     X_test = _smart_load_matrix(X_TEST_PATH)
     data2 = np.load(Y_TEST_PATH)
-    y_test = data2["Y"][:,4]
+    y_test = data2["Y"][:,1]
     dates_test = [date for _, date, _ in ids_test]
 
     with open(FEATURE_NAMES_PATH, "r", encoding="utf-8-sig") as f:
         feature_names = json.load(f)
 
     model = RandomForestClassifier(
-        n_estimators=args.n_estimators,
-        max_depth=args.max_depth,
+        n_estimators=400,
+        max_depth=40,
+        min_samples_leaf=10,
         random_state=args.seed,
         n_jobs=-1,
         verbose=args.verbose,
