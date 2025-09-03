@@ -1,202 +1,247 @@
 #!/usr/bin/env python3
-"""
-RandomForestClassifier with Feature Selection + 時間序切分
-
-功能：
-- 以『價格 npy』產生 y；支援 level/diff 模式
-- 切分比率：60/20/20，時間序避免洩漏
-- 支援 Feature Selection：
-  none / kbest-chi2 / kbest-anova / kbest-mi / rfe-logreg / sfm-tree / sfm-l1
-- 可手動排除 X 的 row（index 或區間）
-- 可位移對齊 SHIFT_Y
-- X/Y 不等長時可選對齊策略
-- 輸出：Train/Val/Test 準確率、Test report、overfitting 圖、特徵重要度 JSON
-"""
-
 from __future__ import annotations
-import argparse, json
+
+import argparse
+import json
+import pickle
 from pathlib import Path
-import numpy as np, pandas as pd, matplotlib.pyplot as plt
+from collections import defaultdict, Counter
+import scipy.sparse as sp
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from tqdm.auto import tqdm
 from sklearn.metrics import accuracy_score, classification_report
 
-# === utils for FS ===
-from ml.utils.feature_selection import make_selector
+# === 檔案路徑 ===
+DATASET_DIR = Path("../data/ml/dataset")
+X_TRAIN_PATH = DATASET_DIR / "X_train_filtered.npz"
+Y_TRAIN_PATH = DATASET_DIR / "Y_train_filtered.npz"
+X_TEST_PATH = DATASET_DIR / "X_test.npz"
+Y_TEST_PATH = DATASET_DIR / "Y_test.npz"
+# === 載入推文 ID 對應表 ===
+with open(f"{DATASET_DIR}/ids_train.pkl", "rb") as f:   # rb = read binary
+    ids_train = pickle.load(f)
+with open(f"{DATASET_DIR}/ids_test.pkl", "rb") as f:   # rb = read binary
+    ids_test = pickle.load(f)
+FEATURE_NAMES_PATH = Path("../data/ml/dataset/keyword/filtered_keywords.json")
 
-# === 預設路徑 ===
-FEATURES_DIR = Path("../data/keyword/machine_learning")
-FEATURE_VECTOR_PATH = FEATURES_DIR / "feature_vector.npy"
-FEATURE_NAMES_PATH = FEATURES_DIR / "feature_name.json"
-DEFAULT_PRICE_NPY = Path("../data/coin_price/price_diff.npy")  # 預設 diff 模式
-
-OUT_FIG = Path("../outputs/figures/ml/classification/rf_overfitting_check.png")
-OUT_IMPORT_JSON = Path("../data/ml/classification/random_forest_feature_importances.json")
+OUT_FIG = Path("../outputs/figures/ml/classification/random_forest_overfitting_check.png")
+OUT_IMPORTANCE_JSON = Path("../data/ml/classification/random_forest_keyword_importances.json")
 OUT_METRICS_TXT = Path("../data/ml/classification/random_forest_metrics.txt")
+OUT_DAILY_VOTE_PRED = Path("../outputs/ml/daily_vote_prediction.json")
 
-# ----------------- 輔助函式 -----------------
-def build_labels(price_array: np.ndarray, mode: str) -> np.ndarray:
-    p = np.asarray(price_array, dtype=float).reshape(-1)
-    if mode == "level":
-        diffs = p[1:] - p[:-1]
-        return (diffs > 0).astype(int)
-    elif mode == "diff":
-        return (p > 0).astype(int)
-    else:
-        raise ValueError("price-mode 僅支援 'level' 或 'diff'")
 
-def _parse_list_of_ints(csv_str: str) -> list[int]:
-    if not csv_str.strip(): return []
-    return [int(x) for x in csv_str.split(",") if x.strip()]
-
-def _parse_slices(spec: str) -> list[tuple[int, int]]:
-    if not spec.strip(): return []
+def _predict_in_batches(model, X, batch_size=50000, desc="Predict"):
+    n = X.shape[0]
     out = []
-    for seg in spec.split(","):
-        a, b = seg.split(":")
-        out.append((int(a), int(b)))
-    return out
+    for start in tqdm(range(0, n, batch_size), desc=desc):
+        end = min(start + batch_size, n)
+        out.append(model.predict(X[start:end]))
+    return np.concatenate(out, axis=0)
 
-def _apply_manual_exclusion_x(X: np.ndarray, indices, slices) -> np.ndarray:
-    n = len(X); to_drop = set()
-    for idx in indices:
-        if 0 <= idx < n: to_drop.add(idx)
-    for start, end in slices:
-        to_drop.update(range(max(0,start), min(n,end)))
-    if not to_drop: return X
-    mask = np.ones(n, dtype=bool)
-    mask[list(to_drop)] = False
-    print(f"[Manual] Excluding {np.sum(~mask)} rows from X")
-    return X[mask]
 
-def _apply_shift_y(X, Y, shift):
-    if shift == 0: return X, Y
-    if shift > 0: return X[:-shift], Y[shift:]
-    else: k = -shift; return X[k:], Y[:-k]
+def group_predictions_by_day(preds: list[int], dates: list[str]) -> dict:
+    daily_votes = defaultdict(list)
+    for p, d in zip(preds, dates):
+        daily_votes[d].append(p)
+    summary = {}
+    for date, votes in daily_votes.items():
+        cnt = Counter(votes)
+        total = sum(cnt.values())
+        up = cnt.get(1, 0) / total
+        down = cnt.get(0, 0) / total
+        summary[date] = {
+            "total_votes": total,
+            "up_votes": cnt.get(1, 0),
+            "down_votes": cnt.get(0, 0),
+            "up_ratio": round(up, 4),
+            "down_ratio": round(down, 4),
+            "majority": "up" if up > down else "down"
+        }
+    return summary
 
-def _align_XY(X, Y, policy):
-    if len(X) == len(Y): return X, Y
-    m = min(len(X), len(Y))
-    if policy=="keep_head": return X[:m], Y[:m]
-    elif policy=="keep_tail": return X[-m:], Y[-m:]
-    else: raise ValueError(f"lenX={len(X)}, lenY={len(Y)} 不符")
 
-# ------------------------------- 主程式 -------------------------------
+def _smart_load_matrix(path: Path):
+    """Robustly load dense or sparse matrices from .npy/.npz.
+    - .npy -> ndarray
+    - .npz saved via scipy.sparse.save_npz -> reconstruct csr_matrix
+    - .npz generic -> try common keys; otherwise first key
+    Returns ndarray or scipy.sparse matrix.
+    """
+    path = Path(path)
+    if path.suffix.lower() == ".npy":
+        return np.load(path, allow_pickle=False)
+    elif path.suffix.lower() == ".npz":
+        z = np.load(path, allow_pickle=False)
+        try:
+            keys = list(z.files)
+            print(f"Loaded {path.name} with keys: {keys}")
+            # Detect scipy.sparse.save_npz format
+            if all(k in keys for k in ["data", "indices", "indptr", "shape"]):
+                data = z["data"]
+                indices = z["indices"]
+                indptr = z["indptr"]
+                shape = tuple(z["shape"])  # shape stored as array
+                mat = sp.csr_matrix((data, indices, indptr), shape=shape)
+                return mat
+            # Otherwise assume generic np.savez
+            for k in ["X", "data", "array", "arr_0"]:
+                if k in z:
+                    return z[k]
+            return z[keys[0]]
+        finally:
+            z.close()
+    else:
+        raise ValueError(f"Unsupported file extension for {path}")
+    """Robustly load .npz/.npy.
+    - .npy -> returns ndarray
+    - .npz -> if single key, return that array; otherwise try common keys then the first one.
+    Prints keys to help debugging.
+    """
+    path = Path(path)
+    if path.suffix.lower() == ".npy":
+        arr = np.load(path, allow_pickle=False)
+        return arr
+    elif path.suffix.lower() == ".npz":
+        z = np.load(path, allow_pickle=False)
+        try:
+            keys = list(z.files)
+            if not keys:
+                raise ValueError(f"{path} is empty .npz")
+            print(f"Loaded {path.name} with keys: {keys}")
+            # preferred keys
+            for k in ["X", "data", "array", "arr_0"]:
+                if k in z:
+                    return z[k]
+            # fall back to first key
+            return z[keys[0]]
+        finally:
+            z.close()
+    else:
+        raise ValueError(f"Unsupported file extension for {path}")
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--features-npy", type=Path, default=FEATURE_VECTOR_PATH)
-    parser.add_argument("--feature-names", type=Path, default=FEATURE_NAMES_PATH)
-    parser.add_argument("--price-npy", type=Path, default=DEFAULT_PRICE_NPY)
-    parser.add_argument("--price-mode", choices=["level","diff"], default="diff")
-
-    parser.add_argument("--exclude-x-indices", type=str, default="")
-    parser.add_argument("--exclude-x-slices", type=str, default="")
-    parser.add_argument("--shift-y", type=int, default=0)
-    parser.add_argument("--align-policy", choices=["keep_tail","keep_head","error"], default="keep_tail")
-
-    # RF 參數
-    parser.add_argument("--n-estimators", type=int, default=400)
-    parser.add_argument("--max-depth", type=int, default=4)
-    parser.add_argument("--min-samples-leaf", type=int, default=32)
-    parser.add_argument("--min-samples-split", type=int, default=64)
-    parser.add_argument("--max-features", type=str, default="log2")
-    parser.add_argument("--bootstrap", action="store_true", default=True)
-    parser.add_argument("--max-samples", type=float, default=0.7)
-    parser.add_argument("--oob-score", action="store_true", default=True)
+    parser.add_argument("--n-estimators", type=int, default=20)
+    parser.add_argument("--max-depth", type=int, default=None)
     parser.add_argument("--seed", type=int, default=42)
-
-    # Feature selection 參數
-    parser.add_argument("--fs", default="none",
-                        choices=["none","kbest-chi2","kbest-anova","kbest-mi","rfe-logreg","sfm-tree","sfm-l1"])
-    parser.add_argument("--k", type=int, default=600)
-    parser.add_argument("--n-features", type=int, default=300)
-
+    parser.add_argument("--label-mode", choices=["auto", "sign", "threshold"], default="auto")
+    parser.add_argument("--label-threshold", type=float, default=0.0)
+    parser.add_argument("--verbose", type=int, default=2)
+    parser.add_argument("--batch-size", type=int, default=50000)
     args = parser.parse_args()
 
-    # === 讀取 X 與特徵名 ===
-    X = np.load(args.features_npy)
-    with open(args.feature_names,"r",encoding="utf-8-sig") as f:
+    # === 讀取資料 ===
+    X_train = _smart_load_matrix(X_TRAIN_PATH)
+    data1 = np.load(Y_TRAIN_PATH)
+    y_train = data1["Y"][:,4]
+    X_test = _smart_load_matrix(X_TEST_PATH)
+    data2 = np.load(Y_TEST_PATH)
+    y_test = data2["Y"][:,4]
+    dates_test = [date for _, date, _ in ids_test]
+
+    with open(FEATURE_NAMES_PATH, "r", encoding="utf-8-sig") as f:
         feature_names = json.load(f)
 
-    # 手動排除
-    indices = _parse_list_of_ints(args.exclude_x_indices)
-    slices = _parse_slices(args.exclude_x_slices)
-    if indices or slices: X = _apply_manual_exclusion_x(X, indices, slices)
-
-    # 讀價格/變化量並產生 y
-    price_arr = np.load(args.price_npy)
-    y_all = build_labels(price_arr, args.price_mode)
-
-    # SHIFT
-    X, y_all = _apply_shift_y(X, y_all, args.shift_y)
-
-    # level 模式下長度可能差1
-    if args.price_mode=="level" and len(X)==len(y_all)+1: X=X[:-1]
-
-    # 對齊
-    X,Y = _align_XY(X, y_all, args.align_policy)
-
-    # 時間序切分
-    n=len(Y); i1=int(n*0.6); i2=int(n*0.8)
-    X_train,y_train = X[:i1],Y[:i1]
-    X_val,y_val     = X[i1:i2],Y[i1:i2]
-    X_test,y_test   = X[i2:],Y[i2:]
-
-    # === Feature Selection ===
-    selected_feature_names = feature_names
-    if args.fs!="none":
-        fs = make_selector("clf", args.fs, k=args.k, n_features=args.n_features)
-        fs.fit(X_train,y_train)
-        X_train = fs.transform(X_train)
-        X_val   = fs.transform(X_val)
-        X_test  = fs.transform(X_test)
-        if hasattr(fs,"get_support"):
-            mask=fs.get_support()
-            selected_feature_names=[n for n,keep in zip(feature_names,mask) if keep]
-        else:
-            selected_feature_names=[f"f{i}" for i in range(X_train.shape[1])]
-        print(f"[FS] 方法={args.fs}, X_train shape={X_train.shape}")
-
-    # === 訓練 RF ===
-    rf=RandomForestClassifier(
-        n_estimators=args.n_estimators,max_depth=args.max_depth,
-        min_samples_leaf=args.min_samples_leaf,min_samples_split=args.min_samples_split,
-        max_features=args.max_features,bootstrap=args.bootstrap,max_samples=args.max_samples,
-        oob_score=args.oob_score,random_state=args.seed,n_jobs=-1
+    model = RandomForestClassifier(
+        n_estimators=args.n_estimators,
+        max_depth=args.max_depth,
+        random_state=args.seed,
+        n_jobs=-1,
+        verbose=args.verbose,
     )
-    rf.fit(X_train,y_train)
+    # === 將連續標籤轉成二元 {0,1} ===
+    def _binarize(vec, mode="auto", thr=0.0):
+        vec = np.asarray(vec).reshape(-1)
+        if mode == "sign":
+            return (vec > 0).astype(int)
+        if mode == "threshold":
+            return (vec > thr).astype(int)
+        # auto
+        uniq = np.unique(vec)
+        if set(uniq).issubset({0,1}):
+            return vec.astype(int)
+        if set(uniq).issubset({-1,0,1}):
+            return (vec > 0).astype(int)
+        return (vec > 0).astype(int)
 
-    # 評估
-    train_acc=accuracy_score(y_train,rf.predict(X_train))
-    val_acc=accuracy_score(y_val,rf.predict(X_val))
-    test_pred=rf.predict(X_test)
-    test_acc=accuracy_score(y_test,test_pred)
-    print(f"Train acc: {train_acc:.4f}\nVal acc: {val_acc:.4f}\nTest acc: {test_acc:.4f}")
-    report_str=classification_report(y_test,test_pred)
+    y_train = _binarize(y_train, args.label_mode, args.label_threshold)
+    y_test = _binarize(y_test, args.label_mode, args.label_threshold)
+    print(f"Classes in y_train: {np.unique(y_train)}")
+
+    model.fit(X_train, y_train)
+
+    # === 預測 ===
+    train_preds = _predict_in_batches(model, X_train, batch_size=args.batch_size, desc="Predict train")
+    test_preds = _predict_in_batches(model, X_test, batch_size=args.batch_size, desc="Predict test")
+
+    train_acc = accuracy_score(y_train, train_preds)
+    test_acc = accuracy_score(y_test, test_preds)
+
+    print(f"Train 準確率: {train_acc:.4f}")
+    print(f"Test 準確率: {test_acc:.4f}")
+
+    print("\n分類報告 (Test set):")
+    report_str = classification_report(y_test, test_preds)
     print(report_str)
 
-    # Overfitting 圖
-    OUT_FIG.parent.mkdir(parents=True,exist_ok=True)
-    plt.bar(["Train","Validation"],[train_acc,val_acc])
-    plt.ylim(0,1); plt.ylabel("Accuracy"); plt.title("RF: Train vs Val")
-    plt.tight_layout(); plt.savefig(OUT_FIG); plt.close()
+    # === 每天推文的票數與比率統計（Train/Test） ===
+    dates_train = [date for _, date, _ in ids_train]
+    dates_test = [date for _, date, _ in ids_test]
 
-    # 特徵重要度
-    importances=rf.feature_importances_
-    importance_series=pd.Series(importances,index=selected_feature_names).sort_values(ascending=False)
-    OUT_IMPORT_JSON.parent.mkdir(parents=True,exist_ok=True)
-    with open(OUT_IMPORT_JSON,"w",encoding="utf-8") as f:
-        json.dump({k:float(v) for k,v in importance_series.items()},f,ensure_ascii=False,indent=2)
+    train_daily_result = group_predictions_by_day(train_preds, dates_train)
+    test_daily_result = group_predictions_by_day(test_preds, dates_test)
 
-    # 指標文字檔
-    OUT_METRICS_TXT.parent.mkdir(parents=True,exist_ok=True)
-    with open(OUT_METRICS_TXT,"w",encoding="utf-8") as f:
-        f.write(f"X shape: {X.shape}, Y shape: {Y.shape}\n")
-        f.write(f"Positive rate: {Y.mean():.3f}\n")
-        f.write(f"Train acc: {train_acc:.3f}\nVal acc: {val_acc:.3f}\nTest acc: {test_acc:.3f}\n\n")
-        f.write(report_str+"\n")
-        f.write(f"圖: {OUT_FIG}\n重要度: {OUT_IMPORT_JSON}\n")
+    # === 輸出 JSON 統計檔 ===
+    output_dir = Path("../outputs/ml")
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"圖已輸出：{OUT_FIG}\n特徵重要度 JSON：{OUT_IMPORT_JSON}\nMetrics：{OUT_METRICS_TXT}")
+    with open(output_dir / "random_forest_train_daily_results.json", "w", encoding="utf-8") as f:
+        json.dump(train_daily_result, f, ensure_ascii=False, indent=2)
 
-if __name__=="__main__":
+    with open(output_dir / "random_forest_test_daily_results.json", "w", encoding="utf-8") as f:
+        json.dump(test_daily_result, f, ensure_ascii=False, indent=2)
+
+    print("每天的預測統計已儲存至：")
+    print(f"- train: {output_dir / 'random_forest_train_daily_results.json'}")
+    print(f"- test : {output_dir / 'random_forest_test_daily_results.json'}")
+
+
+    # === 畫 Overfitting 圖 ===
+    OUT_FIG.parent.mkdir(parents=True, exist_ok=True)
+    plt.figure(figsize=(6, 4))
+    plt.bar(["Train", "Test"], [train_acc, test_acc])
+    plt.ylim(0, 1)
+    plt.ylabel("Accuracy")
+    plt.title("Random Forest: Train vs Test Accuracy")
+    plt.tight_layout()
+    plt.savefig(OUT_FIG)
+    plt.close()
+
+    # === 特徵重要性輸出 ===
+    importances = model.feature_importances_
+    importance_series = pd.Series(importances, index=feature_names).sort_values(ascending=False)
+    OUT_IMPORTANCE_JSON.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_IMPORTANCE_JSON, "w", encoding="utf-8") as f:
+        json.dump({k: float(v) for k, v in importance_series.items()}, f, ensure_ascii=False, indent=4)
+
+    # === 評估報告輸出 ===
+    OUT_METRICS_TXT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUT_METRICS_TXT, "w", encoding="utf-8") as f:
+        f.write(f"X_train shape: {X_train.shape}, Y_train shape: {y_train.shape}\n")
+        f.write(f"X_test shape: {X_test.shape}, Y_test shape: {y_test.shape}\n")
+        pos_rate = float(np.mean(y_test))
+        f.write(f"Positive rate (Y==1): {pos_rate:.3f}\n")
+        f.write("\n[Accuracy]\n")
+        f.write(f"Train: {train_acc:.3f}\nTest: {test_acc:.3f}\n\n")
+        f.write("[Classification Report - Test]\n")
+        f.write(report_str + "\n")
+        f.write(f"Overfitting 圖: {OUT_FIG}\n")
+        f.write(f"關鍵字 importantce JSON: {OUT_IMPORTANCE_JSON}\n")
+
+if __name__ == "__main__":
     main()
