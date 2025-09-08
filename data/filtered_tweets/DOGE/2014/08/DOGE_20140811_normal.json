@@ -1,0 +1,3804 @@
+{
+    "dogecoin": [
+        {
+            "tweet_count": 1,
+            "username": "G. Ezondje",
+            "user_account": "dieetervaringen",
+            "text": "Vergeet #Bitcoin. #Dogecoin is topper: http://t.co/l5hYJ19slf",
+            "created_at": "Mon Aug 11 23:57:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "MuchMarket",
+            "user_account": "Much_Market",
+            "text": "Photo compressor v2.0 software | http://t.co/HOt28FGraV - Photo compressor software for 1,000.000 Dogecoin now on... http://t.co/Qq9RnSZlj3",
+            "created_at": "Mon Aug 11 23:54:43 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 23:39:08 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "Make IT Work",
+            "user_account": "MakeITWorkPC",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/rFU3yCYXwN #Bitcoin",
+            "created_at": "Mon Aug 11 23:32:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000142753 USD. Dogecoin has increased by 5.05E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 23:30:09 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000024\nCoins-E 0.00000028\nAverage: $0.000151USD per #dogecoin",
+            "created_at": "Mon Aug 11 23:27:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
+            "username": "Unobtanium $UNO News",
+            "user_account": "unobtanium_uno",
+            "text": "Trade $UNO against $BTC, $DOGE, $NAUT and $LTC at @All_Crypt #Unobtanium.",
+            "created_at": "Mon Aug 11 23:14:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000024\nCoins-E 0.00000029\nAverage: $0.000153USD per #dogecoin",
+            "created_at": "Mon Aug 11 23:12:15 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 9,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "24 hour 14+ MH/s Scrypt mining contract Litecoin, Dogecoin, Feathercoin, ect http://t.co/VTOil4ijym #feathercoin http://t.co/pxL3PATL2w",
+            "created_at": "Mon Aug 11 23:12:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6723 #dogecoin, 1 #DOGE = $0.0001 or 26 satoshi ( Coin-E:29 BTER:25 Vircurex:25 Cryptsy:25 ), Coinbase BTC:$572",
+            "created_at": "Mon Aug 11 23:02:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Cyber Parse",
+            "user_account": "cyberparse",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/yHiEwXsxJ5 #Cryptocurrency",
+            "created_at": "Mon Aug 11 23:00:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000142248 USD. Dogecoin has decreased by 7.6E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 23:00:12 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000025\nCoins-E 0.00000028\nAverage: $0.000153USD per #dogecoin",
+            "created_at": "Mon Aug 11 22:57:14 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 14,
+            "username": "Pradeep Paijwar",
+            "user_account": "paijwar",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/w4LBQCb8BH",
+            "created_at": "Mon Aug 11 22:55:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 15,
+            "username": "Fran Berkman",
+            "user_account": "FranBerkman",
+            "text": "Complaints about Bitcoin are now welcome at @CFPB. Dogecoin too. http://t.co/Awtifv7XBC",
+            "created_at": "Mon Aug 11 22:41:41 +0000 2014",
+            "retweet": 3,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 16,
+            "username": "yescomputers",
+            "user_account": "yescomputers",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/qBW36sdcNb",
+            "created_at": "Mon Aug 11 22:34:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000142323 USD. Dogecoin has decreased by 1.301E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 22:30:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 18,
+            "username": "Illidari Iggep",
+            "user_account": "theiggep",
+            "text": "\"US financial protection agency warns against Bitcoin, Dogecoin use\" http://t.co/oKeVQRY04J",
+            "created_at": "Mon Aug 11 22:28:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
+            "username": "aBitcoinGirl*Truth-Seeker",
+            "user_account": "aBitcoinGirl",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising http://t.co/c344M2W7Nh",
+            "created_at": "Mon Aug 11 22:26:49 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 22:21:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 21,
+            "username": "Cryptiv",
+            "user_account": "Cryptiv",
+            "text": "Always updating Cryptiv Trending with the latest cool content to tip! Check it out - http://t.co/t2D5e216dI #Bitcoin @Dogecoin",
+            "created_at": "Mon Aug 11 22:19:15 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 22,
+            "username": "eWeek",
+            "user_account": "eWEEKNews",
+            "text": "Hide your #bitcoin and #Dogecoin! More than $80,000 in cryptocurrency stolen by a rogue insider... http://t.co/QiyjwwyJ3t ",
+            "created_at": "Mon Aug 11 22:15:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 23,
+            "username": "Esteban",
+            "user_account": "estebs",
+            "text": "another huge dump of #dogecoin puts the price under  24 satoshis and no buy support. I saw this one coming.",
+            "created_at": "Mon Aug 11 22:11:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 24,
+            "username": "pepper",
+            "user_account": "ppxppxrr",
+            "text": "@traderberg calling it now, christmas 2015 $ltc is no longer 2nd. unless @SatoshiLite innovates! $ltc + $doge is not innovation.",
+            "created_at": "Mon Aug 11 22:03:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 25,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6899 #dogecoin, 1 #DOGE = $0.0001 or 25 satoshi ( Coin-E:24 BTER:26 Vircurex:25 Cryptsy:26 ), Coinbase BTC:$574",
+            "created_at": "Mon Aug 11 22:02:10 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 26,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000143625 USD. Dogecoin has decreased by 5.355E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 22:00:09 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "Cryptiv",
+            "user_account": "Cryptiv",
+            "text": "@djm0dey Glad to see you are using our service! Here is a 5,000 #Dogecoin tip via @Cryptiv! Claim it here http://t.co/4vGuTHLI4q",
+            "created_at": "Mon Aug 11 21:52:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000025\nCoins-E 0.00000024\nAverage: $0.000145USD per #dogecoin",
+            "created_at": "Mon Aug 11 21:42:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 29,
+            "username": "Brett Scott",
+            "user_account": "Suitpossum",
+            "text": "Will be releasing a piece about #Dogecoin in next day or two. Until then, here is a fractal Doge http://t.co/U4KsA9Guhk",
+            "created_at": "Mon Aug 11 21:41:51 +0000 2014",
+            "retweet": 3,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
+            "username": "LunarWhale",
+            "user_account": "TheLunarWhale",
+            "text": "The state of #Dogecoin sucks right now. I hate to see the coin that pushed me down the rabbit hole to have such a low exchange rate.",
+            "created_at": "Mon Aug 11 21:33:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 31,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00014898 USD. Dogecoin has increased by 5.474E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 21:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 32,
+            "username": "germanyshop",
+            "user_account": "germanyshop",
+            "text": "Vergeet #Bitcoin. #Dogecoin has future: http://t.co/bx22BsRd3C",
+            "created_at": "Mon Aug 11 21:29:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000025\nCoins-E 0.00000024\nAverage: $0.000146USD per #dogecoin",
+            "created_at": "Mon Aug 11 21:27:14 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 34,
+            "username": "Justcoin Exchange",
+            "user_account": "jstcoin",
+            "text": "@dogecoinisgreat We're hoping for the market cap of #dogecoin to increase for it to make more sense for us to add it. #shibe",
+            "created_at": "Mon Aug 11 21:26:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 35,
+            "username": "Digital Transactions",
+            "user_account": "DTPaymentNews",
+            "text": "The @CFPB Warns About the ‘Wild West’ of Virtual Currencies http://t.co/dZ8BWgJ6M5 #bitcoin #dogecoin #advisory #wildwest",
+            "created_at": "Mon Aug 11 21:26:13 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 36,
+            "username": "jan kovitch",
+            "user_account": "Jankovitch",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use | Ars Technica http://t.co/7wnGXpLQTu",
+            "created_at": "Mon Aug 11 21:17:58 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 37,
+            "username": "Earning Bitcoins",
+            "user_account": "EarningBitcoin",
+            "text": "Bitcoin News: US financial protection agency warns against Bitcoin, Dogecoin use: The C... http://t.co/dnjzqD1C9I http://t.co/PQLEBWrYcf",
+            "created_at": "Mon Aug 11 21:16:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 38,
+            "username": "nullptr",
+            "user_account": "thechaz",
+            "text": "Litecoin is Dogecoin's hashrate away from being at 1 Th/s for their network hashrate. Insanity peppers!",
+            "created_at": "Mon Aug 11 21:13:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 39,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 21:09:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 40,
+            "username": "Josh Katen (k10)",
+            "user_account": "ss3katen",
+            "text": "http://t.co/ZIjj6mEquA \nOfficial response of @BoostVC to the #bitlicense\n Take a sec and Sign this #bitcoin #dogecoin http://t.co/kd8s3FB36p",
+            "created_at": "Mon Aug 11 21:07:27 +0000 2014",
+            "retweet": 8,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 41,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "ELI5: Why has the value of Dogecoin dropped so dramatically over recent months? http://t.co/5o3P0p6A8Q",
+            "created_at": "Mon Aug 11 21:06:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
+            "username": "Pradeep Paijwar",
+            "user_account": "paijwar",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/w4LBQCb8BH",
+            "created_at": "Mon Aug 11 21:04:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 43,
+            "username": "SatoshisRUs⚡️",
+            "user_account": "FED1913",
+            "text": "This is a ITunes podcast looking at the weekly #dogecoin world Check out this great Podcast: https://t.co/9WdEGS1UU9 http://t.co/yjxJnOMWuz",
+            "created_at": "Mon Aug 11 21:04:55 +0000 2014",
+            "retweet": 2,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 44,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6876 #dogecoin, 1 #DOGE = $0.0001 or 25 satoshi ( Coin-E:24 BTER:26 Vircurex:26 Cryptsy:25 ), Coinbase BTC:$576",
+            "created_at": "Mon Aug 11 21:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 45,
+            "username": "AnnaKNonE",
+            "user_account": "AnnaKNonE",
+            "text": "@djm0dey @Cryptiv thanks so wow!  One never can haz too many #Dogecoin !!",
+            "created_at": "Mon Aug 11 21:01:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 46,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000143506 USD. Dogecoin has increased by 1.71E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 21:00:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 47,
+            "username": "cm",
+            "user_account": "cmcalgary",
+            "text": "@CalgaryRef @YYCBitcoinATM @WavesCoffee_AB @Overstock there's always http://t.co/JL1GGcfJwk :)",
+            "created_at": "Mon Aug 11 20:54:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 48,
+            "username": "Ethan",
+            "user_account": "CARDIFFpcRESCUE",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/Oc3qMGl3rA",
+            "created_at": "Mon Aug 11 20:51:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 49,
+            "username": "user9176543224688",
+            "user_account": "SpasojeKula",
+            "text": "I added a video to a @YouTube playlist http://t.co/ilxXPJuajw How To Mine Dogecoin On Windows",
+            "created_at": "Mon Aug 11 20:50:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 50,
+            "username": "Josh Katen (k10)",
+            "user_account": "ss3katen",
+            "text": "Apparently, this Chinese #bitcoin mining farm is where Avalon machines go to die http://t.co/4hLrBbFkPX #dogecoin http://t.co/hRnbQi5tQH",
+            "created_at": "Mon Aug 11 20:47:49 +0000 2014",
+            "retweet": 4,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 51,
+            "username": "KingDarkcoin",
+            "user_account": "KingDarkcoin",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - Yahoo News UK http://t.co/vJXieJGyzx http://t.co/ewEcgxcGYa",
+            "created_at": "Mon Aug 11 20:44:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 52,
+            "username": "Firefall",
+            "user_account": "Firefall",
+            "text": "@andyypants It's more likely due to the possible volatility of doge coin and other virtual currencies.",
+            "created_at": "Mon Aug 11 20:42:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 53,
+            "username": "AndroidManProduction",
+            "user_account": "TheActualAMP",
+            "text": "After #free #cryptocurrency #BitCoin #dogecoin #litecoin https://t.co/SNQHAnRt8n great site for free daily coins.",
+            "created_at": "Mon Aug 11 20:36:23 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 54,
+            "username": "qumatru(dips are for buying)",
+            "user_account": "qumatru",
+            "text": "if you're bored and want a few thousand free doges rained upon you, come to the irc channel #dogecoin",
+            "created_at": "Mon Aug 11 20:30:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 55,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000143335 USD. Dogecoin has decreased by 7.4E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 20:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
+            "username": "Technology",
+            "user_account": "iSpeakTech",
+            "text": "#ispeaktech US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/1KICSnCmYF",
+            "created_at": "Mon Aug 11 20:29:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 57,
+            "username": "Bob Carver ✭",
+            "user_account": "cybersecboardrm",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use #bitcoin #cryptocurrency http://t.co/N00tRmlLwJ",
+            "created_at": "Mon Aug 11 20:25:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 58,
+            "username": "Only News Source ",
+            "user_account": "onlynewssource",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/Dfuci7P2FN",
+            "created_at": "Mon Aug 11 20:17:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 59,
+            "username": "Empire Kred Missions",
+            "user_account": "eav_missions",
+            "text": "Dogecoin: A friendler version of Bitcoin! http://t.co/DtksTFp3wh  #EAVMission by (e)NUANGEL",
+            "created_at": "Mon Aug 11 20:15:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000026\nCoins-E 0.00000024\nAverage: $0.000148USD per #dogecoin",
+            "created_at": "Mon Aug 11 20:12:34 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "[TW:Wall of text] Dogecoin dev no longer support scrypt and proposes a switch to a new GPU-friendly algorithm and new mining schedule. ...",
+            "created_at": "Mon Aug 11 20:10:02 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
+            "username": "Pradeep Paijwar",
+            "user_account": "paijwar",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/w4LBQCb8BH",
+            "created_at": "Mon Aug 11 20:03:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 63,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6909 #dogecoin, 1 #DOGE = $0.0001 or 25 satoshi ( Coin-E:24 BTER:25 Vircurex:26 Cryptsy:25 ), Coinbase BTC:$579",
+            "created_at": "Mon Aug 11 20:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 64,
+            "username": "Christine DiGangi",
+            "user_account": "writingbikes",
+            "text": "the @cfpb issued a consumer warning about risks of using digital currencies, like bitcoin and dogecoin http://t.co/voCQvD4DyZ",
+            "created_at": "Mon Aug 11 20:01:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 65,
+            "username": "AllBitcoinNews",
+            "user_account": "AllBitcoinNews",
+            "text": "#bitcoin http://t.co/dZDaQna753 Dogecoin Foundation Prepares For A Fight",
+            "created_at": "Mon Aug 11 20:00:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 66,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000144075 USD. Dogecoin has increased by 5.355E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 20:00:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 67,
+            "username": "King Dogecoin",
+            "user_account": "KingDogecoin",
+            "text": "\" US financial protection agency warns against Bitcoin, Dogecoin use - Ars Technica http://t.co/ZwP2XUsHQi \" via @TechFiat",
+            "created_at": "Mon Aug 11 19:59:52 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 68,
+            "username": "Altcoinfaucet",
+            "user_account": "Altcoinfaucet",
+            "text": "Dogecoin faucet is empty. Will transfer some coins in the next couple of days...",
+            "created_at": "Mon Aug 11 19:57:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 69,
+            "username": "Speaker 25",
+            "user_account": "rodtrent",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/vqM34wcQhu",
+            "created_at": "Mon Aug 11 19:46:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 70,
+            "username": "SHASHANK Pawar",
+            "user_account": "tenforever",
+            "text": "US financial protection agency warns against #Bitcoin, Dogecoin use http://t.co/QjIbBPRmz0",
+            "created_at": "Mon Aug 11 19:44:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 71,
+            "username": "Paul van Veenendaal",
+            "user_account": "yizmo",
+            "text": "4 notable Bitcoin risks according to @CFPB: Hackers, Fewer Protections, Cost &amp; Scams http://t.co/mm4HR5HjyC http://t.co/iUNrBeBxmw",
+            "created_at": "Mon Aug 11 19:44:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 72,
+            "username": "Robert Gordon",
+            "user_account": "ROB_tweeted",
+            "text": "\"@arstechnica US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/OpscxmBjUS by @cfarivar\"",
+            "created_at": "Mon Aug 11 19:43:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 73,
+            "username": "Everything Bitcoin",
+            "user_account": "EveryThBitcoin",
+            "text": "CFPB warns consumers about Bitcoin, other virtual money services: Plain Dealing: Bitcoin, XRP and Dogecoin are... http://t.co/vuh5aO8CXU",
+            "created_at": "Mon Aug 11 19:38:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 74,
+            "username": "Everything Bitcoin",
+            "user_account": "EveryThBitcoin",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use: The Consumer Financial Protection Bureau (... http://t.co/kvXcwuT4yA",
+            "created_at": "Mon Aug 11 19:38:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 75,
+            "username": "Coin Academy",
+            "user_account": "CoinAcademy",
+            "text": "Soft launch countdown: T minus 3, and counting... #bitcoin #litecoin #ripple #dogecoin #darkcoin #cryptocurrency",
+            "created_at": "Mon Aug 11 19:35:17 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 76,
+            "username": "Paul van Veenendaal",
+            "user_account": "yizmo",
+            "text": "US Financial Protection Agency @CFPB warns against @Bitcoin @Dogecoin use in 6 page document http://t.co/mzmbVlHmWm http://t.co/ZDpd5vlA4q",
+            "created_at": "Mon Aug 11 19:33:05 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 77,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00013872 USD. Dogecoin has decreased by 1.143E-5 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 19:30:10 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 78,
+            "username": "Bitcoins",
+            "user_account": "RssBitcoins",
+            "text": "http://t.co/VSVBx1tksw US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/QwDUWCC4yy",
+            "created_at": "Mon Aug 11 19:29:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 79,
+            "username": "Bitcoins",
+            "user_account": "BitcoinsRSS",
+            "text": "http://t.co/iBKO3McMDP US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/MDeQOo27ix",
+            "created_at": "Mon Aug 11 19:29:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 80,
+            "username": "Bitcoin Cash News [BCH]",
+            "user_account": "BitcoinFast",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/g3SnkqdM0L",
+            "created_at": "Mon Aug 11 19:26:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 81,
+            "username": "BitMakler.com",
+            "user_account": "bitmakler",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use / Cryptocurrency news http://t.co/5OXdLwntrI",
+            "created_at": "Mon Aug 11 19:20:19 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 82,
+            "username": "viabitcoin",
+            "user_account": "viabitcoin",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use - http://t.co/CNFD8pPyO8",
+            "created_at": "Mon Aug 11 19:13:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 83,
+            "username": "Tigh Loughhead",
+            "user_account": "tigho",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/QYubse4aLR",
+            "created_at": "Mon Aug 11 19:13:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 84,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000024\nAverage: $0.000148USD per #dogecoin",
+            "created_at": "Mon Aug 11 19:13:13 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 85,
+            "username": "John Law",
+            "user_account": "Scotonomist",
+            "text": "Ars Technica -  US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/FRbl6Ih7Gl",
+            "created_at": "Mon Aug 11 19:12:42 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 86,
+            "username": "Bitcoin Beginners",
+            "user_account": "BTCBeginners",
+            "text": "CFPB warns consumers about Bitcoin, other virtual money services: Plain Dealing: Bitcoin, XRP and Dogecoin are... http://t.co/eXd6VFR8jo",
+            "created_at": "Mon Aug 11 19:10:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 87,
+            "username": "Jan Smits",
+            "user_account": "RHAF_HQ",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/COGSviz345",
+            "created_at": "Mon Aug 11 19:10:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 88,
+            "username": "Anonymous",
+            "user_account": "OpPinkPower",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/gyQiZ5GQ3j",
+            "created_at": "Mon Aug 11 19:07:24 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 89,
+            "username": "Tigh Loughhead",
+            "user_account": "tigho",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/AIbzaPC9E3",
+            "created_at": "Mon Aug 11 19:05:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 90,
+            "username": "Mother Of Nerds",
+            "user_account": "MotherOfNerd",
+            "text": "#Tech #Nerd #Geek US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/9wasUHjFzJ",
+            "created_at": "Mon Aug 11 19:03:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 91,
+            "username": "Bilal's Hardware",
+            "user_account": "bhardware",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use  #News http://t.co/2Kpr9pmFAZ",
+            "created_at": "Mon Aug 11 19:02:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 92,
+            "username": "Pradeep Paijwar",
+            "user_account": "paijwar",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/w4LBQCb8BH",
+            "created_at": "Mon Aug 11 19:02:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 93,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6926 #dogecoin, 1 #DOGE = $0.0001 or 25 satoshi ( Coin-E:24 BTER:25 Vircurex:26 Cryptsy:25 ), Coinbase BTC:$578",
+            "created_at": "Mon Aug 11 19:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 94,
+            "username": "CryptAphex",
+            "user_account": "AphexTwin4ever",
+            "text": "#Cloak #CloakCoin buy buy buy or regret http://t.co/LHGJdOvaaC\n\n dogecoin bitcoin ltc darkcoin blackcoin",
+            "created_at": "Mon Aug 11 19:01:42 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 95,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015015 USD. Dogecoin has increased by 5.676E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 19:00:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 96,
+            "username": "Richard L ✈",
+            "user_account": "RichDevX",
+            "text": "@LittleShibe I love that dogecoin is mentioned xD",
+            "created_at": "Mon Aug 11 19:00:13 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 97,
+            "username": "Free Cryptocoins",
+            "user_account": "FreeCryptocoin",
+            "text": "For free dogecoins go on our website ! Link : http://t.co/0qwIVO1wjp #Dogecoin",
+            "created_at": "Mon Aug 11 19:00:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 98,
+            "username": "Veera Rag",
+            "user_account": "VeeraRags",
+            "text": "US financial protection agency warns against #Bitcoin, Dogecoin use http://t.co/Ft8J5M6AdP #cfpb #warning #lawdisorder",
+            "created_at": "Mon Aug 11 18:59:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 99,
+            "username": "⚡ Mike Hagan ⚡",
+            "user_account": "mikehagan",
+            "text": "@talkee_bitcoin Good.The more .gov agencies &amp; the like warn against #digitalcurrency, the more traction the digitals will gain. #Dogecoin",
+            "created_at": "Mon Aug 11 18:58:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 100,
+            "username": "raymond snow (He/Him)",
+            "user_account": "raymondsnow",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use | Ars Technica http://t.co/691uU3kAw0",
+            "created_at": "Mon Aug 11 18:56:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 101,
+            "username": "Fintechbot",
+            "user_account": "FintechBot",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/YzCnwzuPzZ By @ArsTechnica",
+            "created_at": "Mon Aug 11 18:56:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 102,
+            "username": "Paul Spoerry",
+            "user_account": "PaulSpoerry",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/M0VvDAPOcB",
+            "created_at": "Mon Aug 11 18:55:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 103,
+            "username": "Bos Mark",
+            "user_account": "TwonkyMonkey1",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/lkIdPSwKLx http://t.co/dgRijQf5Bp",
+            "created_at": "Mon Aug 11 18:55:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 104,
+            "username": "AllBitcoinNews",
+            "user_account": "AllBitcoinNews",
+            "text": "#bitcoin http://t.co/Ke9SdBsZpB DogeCoin",
+            "created_at": "Mon Aug 11 18:55:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 105,
+            "username": "Platinum Web Media",
+            "user_account": "pwebmedia",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/bOEjSQgZ1A",
+            "created_at": "Mon Aug 11 18:54:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 106,
+            "username": "InternetLaw",
+            "user_account": "InternetLaw",
+            "text": "\"US financial protection agency warns against Bitcoin, Dogecoin use\" http://t.co/dh267KecDJ",
+            "created_at": "Mon Aug 11 18:54:13 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 107,
+            "username": "bitcoinbillionaire",
+            "user_account": "bitcoinbill",
+            "text": "CFPB warns consumers about Bitcoin, other virtual money services: Plain Dealing: Bitcoin, XRP and Dogecoin are... http://t.co/khSORbM6HN",
+            "created_at": "Mon Aug 11 18:52:17 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 108,
+            "username": "яєαℓιѕт נανѕтαн 💻🖱",
+            "user_account": "RHJOfficial",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/MCW7rg0q98 #tech",
+            "created_at": "Mon Aug 11 18:52:14 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 109,
+            "username": "News",
+            "user_account": "thenews_",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/lVvZSUWrzP",
+            "created_at": "Mon Aug 11 18:52:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 110,
+            "username": "ARWebZone",
+            "user_account": "arwebzone",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/Ails63tj3e",
+            "created_at": "Mon Aug 11 18:52:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 111,
+            "username": "Bob Morlock",
+            "user_account": "The_Ridgeback_",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/AisES4JQez",
+            "created_at": "Mon Aug 11 18:49:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 112,
+            "username": "Everything Bitcoin",
+            "user_account": "talkee_bitcoin",
+            "text": "US financial protection agency warns against #Bitcoin, #Dogecoin use: CFPB: \"Virtual currencies are targets fo... http://t.co/v9dDCD0xs3",
+            "created_at": "Mon Aug 11 18:48:24 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 113,
+            "username": "Ellars Tech",
+            "user_account": "EllarsTech",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/Jfo92UoljZ Courtesy of http://t.co/eBaTixhQRV",
+            "created_at": "Mon Aug 11 18:47:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 114,
+            "username": "PCXperts",
+            "user_account": "pcxperts",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/4U5wQNRwW8",
+            "created_at": "Mon Aug 11 18:46:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 115,
+            "username": "Neville Richards",
+            "user_account": "NRGeefunk009",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/Pr1GD5e6IV http://t.co/MlGirHOPKb",
+            "created_at": "Mon Aug 11 18:46:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 116,
+            "username": "Neville Richards",
+            "user_account": "NRGeefunk009",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/rX6uG1uouK http://t.co/PxsHIdwgaM",
+            "created_at": "Mon Aug 11 18:45:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 117,
+            "username": "Neville Richards",
+            "user_account": "NRGeefunk009",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/cYvv3ZJFOo http://t.co/RYUQcJOWUy",
+            "created_at": "Mon Aug 11 18:45:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 118,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake … – International Business Times UK http://t.co/7HZ9gCnUnA",
+            "created_at": "Mon Aug 11 18:45:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 119,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@tipbitcoins amaze! you like dogecoin - take some coins! @tipdoge tip 100",
+            "created_at": "Mon Aug 11 18:43:51 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 120,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000024\nAverage: $0.000147USD per #dogecoin",
+            "created_at": "Mon Aug 11 18:43:14 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 121,
+            "username": "tipbitcoin",
+            "user_account": "tipbitcoins",
+            "text": "@sigitchow Your welcome now have some DOGE - Here is a 300 #Dogecoin tip via @Cryptiv! Claim it here http://t.co/VHvWfpAl1l",
+            "created_at": "Mon Aug 11 18:43:10 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 122,
+            "username": "tipbitcoin",
+            "user_account": "tipbitcoins",
+            "text": "@RiaAgee Great now have some DOGE Here is a 500 #Dogecoin tip via @Cryptiv! Claim it here http://t.co/JXPQGPSp4V",
+            "created_at": "Mon Aug 11 18:42:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 123,
+            "username": "Olivia Rose",
+            "user_account": "oliviarosebiz",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/t34gS6e4M2",
+            "created_at": "Mon Aug 11 18:41:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 124,
+            "username": "Tech Geek Forever",
+            "user_account": "techgeekforever",
+            "text": "US financial protection agency warns against Bitcoin, Dogec... http://t.co/rJe3l4Rbtq #Tech #Technology #Gadgets http://t.co/oiMhiukt2w",
+            "created_at": "Mon Aug 11 18:40:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 125,
+            "username": "Asi Mano",
+            "user_account": "asimano",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/iCrZMP7EZr",
+            "created_at": "Mon Aug 11 18:37:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 126,
+            "username": "ⲏ·x·𝑛",
+            "user_account": "hxn",
+            "text": "RT @arstechnica: US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/kUnklFDEzp ERMAGHERD SUR SCURRED! #FUD",
+            "created_at": "Mon Aug 11 18:36:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 127,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@thejigisup89 much interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Mon Aug 11 18:35:31 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 128,
+            "username": "Fishlogic",
+            "user_account": "Fishlogic",
+            "text": "I just voted for @Josh_Wise to win the '14 Sprint NMPA Most Popular Driver Award! Vote daily! #SprintMPD http://t.co/icjlyrRXqL #DOGECOIN",
+            "created_at": "Mon Aug 11 18:35:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 129,
+            "username": "The Jig Is Up",
+            "user_account": "thejigisup89",
+            "text": "Bc feds get no taxes RT @arstechnica: US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/nwrH8tS56q by @cfarivar",
+            "created_at": "Mon Aug 11 18:35:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 130,
+            "username": "Earning Bitcoins",
+            "user_account": "EarningBitcoin",
+            "text": "Bitcoin News: US financial protection agency warns against Bitcoin, Dogecoin use: The C... http://t.co/jiao1MjZHr http://t.co/PQLEBWrYcf",
+            "created_at": "Mon Aug 11 18:35:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 131,
+            "username": "Happy FollowBack",
+            "user_account": "HappyFollowBack",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/xEdiUcrB2j #TEAMFOLLOWBACK",
+            "created_at": "Mon Aug 11 18:35:12 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 132,
+            "username": "Earning Bitcoins",
+            "user_account": "EarningBitcoin",
+            "text": "Bitcoin News: US financial protection agency warns against Bitcoin, Dogecoin use: The C... http://t.co/w5dfKMGmQ6 http://t.co/PQLEBWrYcf",
+            "created_at": "Mon Aug 11 18:34:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 133,
+            "username": "The Jig Is Up",
+            "user_account": "thejigisup89",
+            "text": "Of course... RT @arstechnica: US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/nwrH8tS56q by @cfarivar",
+            "created_at": "Mon Aug 11 18:34:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 134,
+            "username": "Ray Informatics",
+            "user_account": "RayInformatics",
+            "text": "Good read @suryaray US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/zGPOfsIxlr #SuryaRay #Indian",
+            "created_at": "Mon Aug 11 18:34:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 135,
+            "username": "Sunny Blake",
+            "user_account": "blake_sunny",
+            "text": "Good read @suryaray US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/0gkhuR7FjP #SuryaRay #Indian",
+            "created_at": "Mon Aug 11 18:34:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 136,
+            "username": "GeekinfoNow",
+            "user_account": "GeekInfoNow",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/y8kcHlNzWT #LawDisorder #bitcoin #cfpb #warning",
+            "created_at": "Mon Aug 11 18:34:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 137,
+            "username": "Ray Informatics",
+            "user_account": "RayInformatics",
+            "text": "#SuryaRay #Surya US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/CycBmSlE95 @suryaray",
+            "created_at": "Mon Aug 11 18:34:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 138,
+            "username": "Sohrab Haeri",
+            "user_account": "SohrabHaeri",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/ZeRtm48wfP",
+            "created_at": "Mon Aug 11 18:34:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 139,
+            "username": "Your Anon Facts",
+            "user_account": "youranonfactz",
+            "text": "[Tech] US financial protection agency warns against Bitcoin, Dogecoin use: \n\nZach Cop... http://t.co/Ym4OzSzpAy #YAF",
+            "created_at": "Mon Aug 11 18:34:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 140,
+            "username": "monique dib",
+            "user_account": "moniquedib",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/ROFrg20rmQ",
+            "created_at": "Mon Aug 11 18:34:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 141,
+            "username": "Cryptiv",
+            "user_account": "Cryptiv",
+            "text": "Send #Bitcoin and #Dogecoin to anyone on #Twitter, #Youtube, and #Twitch with @Cryptiv! Sign up now @ http://t.co/iZcc8kIymp",
+            "created_at": "Mon Aug 11 18:34:05 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 142,
+            "username": "IAPP Daily Dashboard",
+            "user_account": "DailyDashboard",
+            "text": "The @CFPB warns against #Bitcoin and other #cryptocurrencies http://t.co/BO0sCmMCzV",
+            "created_at": "Mon Aug 11 18:34:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 143,
+            "username": "Crypto Compass",
+            "user_account": "CryptoCompass",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/YZAXgVJxkk by @cfarivar via @arstechnica #bitcoin",
+            "created_at": "Mon Aug 11 18:32:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 144,
+            "username": "Ars Tech Policy",
+            "user_account": "ArsLaw",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/2uoks0r9Zf by @cfarivar",
+            "created_at": "Mon Aug 11 18:31:16 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 145,
+            "username": "Ars Technica",
+            "user_account": "arstechnica",
+            "text": "US financial protection agency warns against Bitcoin, Dogecoin use http://t.co/7fq6K6CjQM by @cfarivar",
+            "created_at": "Mon Aug 11 18:31:16 +0000 2014",
+            "retweet": 21,
+            "likes": 9,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 146,
+            "username": "Celery",
+            "user_account": "GoCelery",
+            "text": "Our roundup of last week's #DigitalCurrency news - http://t.co/toBbWRjHix #bitcoin #dogecoin @wired @mashable @techcrunch @coindesk @forbes",
+            "created_at": "Mon Aug 11 18:31:07 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 147,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000144475 USD. Dogecoin has increased by 3.73E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 18:30:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 148,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "The Dogecar and Dogecoin were mentioned in today’s sports post by the admins! http://t.co/5LkOeV1Ke2",
+            "created_at": "Mon Aug 11 18:29:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 149,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Dogecoin billionaire is considering liquidating his holdings a loss. http://t.co/zJb3Drbtnv #AltCoin",
+            "created_at": "Mon Aug 11 18:25:07 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 150,
+            "username": "⚡ Mike Hagan ⚡",
+            "user_account": "mikehagan",
+            "text": "@tipdoge Tip @gracie_hoff 500 Ð...There you go Gracie...have some #Dogecoin",
+            "created_at": "Mon Aug 11 18:15:57 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 151,
+            "username": "DOGE4all",
+            "user_account": "DOGE4all",
+            "text": "hunger14.us http://t.co/Sh60j4Psnr Doge, Dogecoin, Faucet Lists, freedogecoin, cryptocurrency, digital currency, DOGE, dogefaucets, ear...",
+            "created_at": "Mon Aug 11 18:13:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 152,
+            "username": "Vertcoin Athlete",
+            "user_account": "VertcoinAthlete",
+            "text": "Thanks for the interview, @CoinBrief! #vertcoin #bitcoin #litecoin #dogecoin #altcoins #cryptocurrency",
+            "created_at": "Mon Aug 11 18:12:22 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 153,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6459 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:29 BTER:25 Vircurex:27 Cryptsy:26 ), Coinbase BTC:$579",
+            "created_at": "Mon Aug 11 18:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 154,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000144102 USD. Dogecoin has decreased by 4.98E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 18:00:08 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 155,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@fernandolazaro5 excite! you love dogecoin - take some coins! @tipdoge tip 100",
+            "created_at": "Mon Aug 11 17:44:57 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 156,
+            "username": "MARQUEZ COMPUTER",
+            "user_account": "fernandolazaro5",
+            "text": "Crooks use Synology NAS boxen to mine Dogecoin, yells Dell http://t.co/nNMR6ZRkWd via @theregister",
+            "created_at": "Mon Aug 11 17:44:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 157,
+            "username": "MARQUEZ COMPUTER",
+            "user_account": "fernandolazaro5",
+            "text": "Network hijacker steals $83,000 in Bitcoin ... and enough Dogecoin for a cup of coffee http://t.co/qB0UUsGnJr via @theregister",
+            "created_at": "Mon Aug 11 17:43:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 158,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000029\nAverage: $0.000162USD per #dogecoin",
+            "created_at": "Mon Aug 11 17:43:14 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 159,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.0001446 USD. Dogecoin has decreased by 8.28E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 17:30:08 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 160,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000027\nCoins-E 0.00000029\nAverage: $0.000160USD per #dogecoin",
+            "created_at": "Mon Aug 11 17:27:17 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 161,
+            "username": "Brit Officiant SoCal",
+            "user_account": "Long2Wed",
+            "text": "We are pleased to follow @Reddit_Dogecoin",
+            "created_at": "Mon Aug 11 17:21:13 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 162,
+            "username": "Cryptiv",
+            "user_account": "Cryptiv",
+            "text": "The Official #Dogecoin Handshake - https://t.co/ksv9ADcc4U",
+            "created_at": "Mon Aug 11 17:16:13 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 163,
+            "username": "SwipeTec",
+            "user_account": "BestCardProcess",
+            "text": "Bitcoin Shop Begins Accepting Dogecoin on Digital Currency Ecommerce Platform - MarketWatch http://t.co/FEinVpLTPi",
+            "created_at": "Mon Aug 11 17:14:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 164,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000025\nCoins-E 0.00000029\nAverage: $0.000157USD per #dogecoin",
+            "created_at": "Mon Aug 11 17:12:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 165,
+            "username": "King Dogecoin",
+            "user_account": "KingDogecoin",
+            "text": "\" Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - International... http://t.co/JoxDrfpRKa \" via @TechFiat",
+            "created_at": "Mon Aug 11 17:08:16 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 166,
+            "username": "CryptoInvestments",
+            "user_account": "CryptoInvestmnt",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - International Business Times UK: I... http://t.co/ex0cqlrppE",
+            "created_at": "Mon Aug 11 17:04:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 167,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6403 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:29 BTER:25 Vircurex:27 Cryptsy:26 ), Coinbase BTC:$584",
+            "created_at": "Mon Aug 11 17:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 168,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000145428 USD. Dogecoin has decreased by 7.2E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 17:00:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 169,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000029\nAverage: $0.000163USD per #dogecoin",
+            "created_at": "Mon Aug 11 16:58:16 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 170,
+            "username": "⚡ Mike Hagan ⚡",
+            "user_account": "mikehagan",
+            "text": "Crazy smart #doge lets his buddies out to party... http://t.co/Twu4jGbLzw #Dogecoin",
+            "created_at": "Mon Aug 11 16:54:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 171,
+            "username": "King Tyler VVS",
+            "user_account": "KingTylerVVS",
+            "text": "Selling $20 worth of bitcoin / dogecoin / or 1 on 1 coaching with how to build a website - comment if interested. Need $20 paypal",
+            "created_at": "Mon Aug 11 16:50:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 172,
+            "username": "ScottBensonAML",
+            "user_account": "PM_AML",
+            "text": "Whats truly amazing is this is a Yahoo article without a typo!\n\nhttps://t.co/7ZNAKDGWnB",
+            "created_at": "Mon Aug 11 16:37:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 173,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - International Business Times UK http://t.co/fBYuAeRRrT #AltCoin",
+            "created_at": "Mon Aug 11 16:37:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 174,
+            "username": "Stephanie Dhue",
+            "user_account": "StephanieDhue",
+            "text": "Beware of Bitcoin, XRP, and Dogecoin @CFPB   http://t.co/C8WCquzoUj",
+            "created_at": "Mon Aug 11 16:35:26 +0000 2014",
+            "retweet": 3,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 175,
+            "username": "⚡ Mike Hagan ⚡",
+            "user_account": "mikehagan",
+            "text": "Inside a Chinese #Bitcoin Mine...Incredible http://t.co/9KlfPOCu6h #Dogecoin",
+            "created_at": "Mon Aug 11 16:31:27 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 176,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.0001455 USD. Dogecoin has decreased by 1.33E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 16:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 177,
+            "username": "Fate❂",
+            "user_account": "TheFateofBTC",
+            "text": "#bitcoin $BTC $doge #government #propaganda \nhttp://t.co/4YUnIG6hYK",
+            "created_at": "Mon Aug 11 16:28:23 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 178,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000025\nCoins-E 0.00000028\nAverage: $0.000156USD per #dogecoin",
+            "created_at": "Mon Aug 11 16:27:30 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 179,
+            "username": "Fintech Prowler",
+            "user_account": "FintechProwler",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - International Business Times UK http://t.co/ShMOg57M0x #cry...",
+            "created_at": "Mon Aug 11 16:26:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 180,
+            "username": "⚡ Mike Hagan ⚡",
+            "user_account": "mikehagan",
+            "text": "Remittance services costing African migrants in US. That's why they should use #Dogecoin http://t.co/EpEsAlrzja",
+            "created_at": "Mon Aug 11 16:25:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 181,
+            "username": "⚡ Mike Hagan ⚡",
+            "user_account": "mikehagan",
+            "text": "Andorran #DigitalCurrency Summit Will 'Unite World's Financial Elite' -  http://t.co/sXUpQu39He #Dogecoin",
+            "created_at": "Mon Aug 11 16:24:47 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 182,
+            "username": "Peercoin",
+            "user_account": "KingPeercoin",
+            "text": "\" Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - International... http://t.co/q0E2p0sCee \" via @TechFiat",
+            "created_at": "Mon Aug 11 16:17:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 183,
+            "username": "KingDarkcoin",
+            "user_account": "KingDarkcoin",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - International... http://t.co/aTveTdFB40 http://t.co/zkUIn1jJwM",
+            "created_at": "Mon Aug 11 16:14:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 184,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake … – Yahoo News UK http://t.co/fteJwqS3TM",
+            "created_at": "Mon Aug 11 16:11:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 185,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6417 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:26 Vircurex:26 Cryptsy:26 ), Coinbase BTC:$588",
+            "created_at": "Mon Aug 11 16:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 186,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000145633 USD. Dogecoin has increased by 1.36E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 16:00:09 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 187,
+            "username": "Style Observer",
+            "user_account": "StylishMonkey",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - Yahoo News UK http://t.co/nN1V5L1mW6",
+            "created_at": "Mon Aug 11 15:56:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 188,
+            "username": "Evan Weinberger",
+            "user_account": "reporterev",
+            "text": "Every time a regulator has to discuss Dogecoin, an angel gets its wings.",
+            "created_at": "Mon Aug 11 15:55:39 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 189,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@jasoncarleski very interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Mon Aug 11 15:52:06 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 190,
+            "username": "Zach Warmbrodt",
+            "user_account": "Zachary",
+            "text": "CFPB just gave Dogecoin a shoutout. http://t.co/tTtC3fFxZB",
+            "created_at": "Mon Aug 11 15:34:55 +0000 2014",
+            "retweet": 1,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 191,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@theresasaylor73 many interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Mon Aug 11 15:34:14 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 192,
+            "username": "Bagillionaire",
+            "user_account": "Bagillionaire",
+            "text": "Amazed at how many are dancing on the supposed grave of #dogecoin while pumping their crapcoin. Doge is not dead!",
+            "created_at": "Mon Aug 11 15:30:12 +0000 2014",
+            "retweet": 5,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 193,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000145497 USD. Dogecoin has decreased by 6.543E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 15:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 194,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000028\nAverage: $0.000161USD per #dogecoin",
+            "created_at": "Mon Aug 11 15:28:14 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 195,
+            "username": "viabitcoin",
+            "user_account": "viabitcoin",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising - http://t.co/A6gF8LswtN",
+            "created_at": "Mon Aug 11 15:18:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 196,
+            "username": "Bitcoin Cash News [BCH]",
+            "user_account": "BitcoinFast",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising http://t.co/ItVFrg7NMr",
+            "created_at": "Mon Aug 11 15:14:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
+            "username": "Coin Finance",
+            "user_account": "CoinFinance_Com",
+            "text": "Dogecoin's still loosing value:\nhttp://t.co/HKmqaciNjS\n#dogecoin",
+            "created_at": "Mon Aug 11 15:12:02 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 198,
+            "username": "Michael Wallace",
+            "user_account": "BitcoinWealth",
+            "text": "The Bitcoin Group #25 (Live) -- Bitcoin... http://t.co/CYzFPCTYEm #bitcoin #Buyout #Dogecoin #Group #LIVE #Merged #Sidechains #Sports",
+            "created_at": "Mon Aug 11 15:07:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 199,
+            "username": "King Dogecoin",
+            "user_account": "KingDogecoin",
+            "text": "\" Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - Yahoo News UK http://t.co/eJuubdNOTs \" via @TechFiat",
+            "created_at": "Mon Aug 11 15:04:22 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 200,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6439 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:26 Vircurex:26 Cryptsy:26 ), Coinbase BTC:$586",
+            "created_at": "Mon Aug 11 15:02:11 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 201,
+            "username": "Cointopay.com crypto",
+            "user_account": "Cointopay",
+            "text": "#bitcoin #litecoin #darkcoin #dogecoin #blackcoin #cannabiscoin The Crypto manifest from Cointopay: https://t.co/RcST5xNSUI",
+            "created_at": "Mon Aug 11 15:02:07 +0000 2014",
+            "retweet": 2,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 202,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015204 USD. Dogecoin has increased by 2.8E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 15:00:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 203,
+            "username": "CryptoInvestments",
+            "user_account": "CryptoInvestmnt",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - Yahoo News UK: Cryptocurrency Roun... http://t.co/ZL9ZziT6p8",
+            "created_at": "Mon Aug 11 14:57:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 204,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000026\nCoins-E 0.00000028\nAverage: $0.000158USD per #dogecoin",
+            "created_at": "Mon Aug 11 14:57:17 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 205,
+            "username": "AllBitcoinNews",
+            "user_account": "AllBitcoinNews",
+            "text": "#bitcoin http://t.co/kJC5gBV8Bf Bitcoin News in Review: Bitcoin Price Drop, Dogecoin's Decline, Ecuador Bans ... - CryptoCoinsNews",
+            "created_at": "Mon Aug 11 14:56:36 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 206,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - Yahoo News UK http://t.co/8Rru0pxCwI #AltCoin",
+            "created_at": "Mon Aug 11 14:54:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 207,
+            "username": "Dantes News",
+            "user_account": "DantesNews",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls - http://t.co/eWW6KYG34g http://t.co/YNDgr7V1A8 #Litecoin",
+            "created_at": "Mon Aug 11 14:50:16 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 208,
+            "username": "Fintech Prowler",
+            "user_account": "FintechProwler",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake ... - Yahoo News UK http://t.co/vsPLwtQEcR #cryptocurrency",
+            "created_at": "Mon Aug 11 14:41:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 209,
+            "username": "LiteCoin News",
+            "user_account": "LiteCoinNews",
+            "text": "http://t.co/wDkaSaplt7 #gawminers #scrypt asics for #litecoin #dogecoin fast activations best prices anywhere! Start mining today!",
+            "created_at": "Mon Aug 11 14:31:56 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 210,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000151759 USD. Dogecoin has decreased by 5.911E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 14:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 211,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000022\nAverage: $0.000144USD per #dogecoin",
+            "created_at": "Mon Aug 11 14:28:15 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 212,
+            "username": "Cryptbubbles",
+            "user_account": "Cryptbubbles",
+            "text": "http://t.co/ROX9oHEv1v allow you to play with other players and win #Bitcoin  #Litecoin  #Peercoin  #dogecoin",
+            "created_at": "Mon Aug 11 14:27:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 213,
+            "username": "dolla dolla bill y'all",
+            "user_account": "BTCGlass",
+            "text": "the bigger they are, the harder they fall \n#dogecoin #vootcoin #blackcoin #boomcoin #cryptcoin #darkcoin #vericoin #zetacoin",
+            "created_at": "Mon Aug 11 14:21:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 214,
+            "username": "James Guske",
+            "user_account": "jamesguske",
+            "text": "@DogeCoinShibe  the @theDogeparty is starling soon. Tokens based on DogeCoin. Good for communities and crowd funding.",
+            "created_at": "Mon Aug 11 14:13:12 +0000 2014",
+            "retweet": 1,
+            "likes": 7,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 215,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000026\nCoins-E 0.00000022\nAverage: $0.000147USD per #dogecoin",
+            "created_at": "Mon Aug 11 14:12:25 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 216,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6723 #dogecoin, 1 #DOGE = $0.0001 or 25 satoshi ( Coin-E:22 BTER:26 Vircurex:26 Cryptsy:27 ), Coinbase BTC:$589",
+            "created_at": "Mon Aug 11 14:02:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 217,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157671 USD. Dogecoin has decreased by 5.538E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 14:00:09 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 218,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising http://t.co/hxd36tHWK4 #AltCoin",
+            "created_at": "Mon Aug 11 13:39:53 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 219,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Co-Founder of Dogecoin (Jackson Palmer) officially returns to r/dogecoin. http://t.co/Phfv92DaPH #AltCoin",
+            "created_at": "Mon Aug 11 13:39:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 220,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising http://t.co/vk5bLlaF4c #AltCoin",
+            "created_at": "Mon Aug 11 13:39:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 221,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000163209 USD. Dogecoin has increased by 5.352E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 13:30:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 222,
+            "username": "Tech News",
+            "user_account": "SomeTechNews",
+            "text": "Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising. Halting the drop is Neutrino which aims... http://t.co/BCfM43IknJ",
+            "created_at": "Mon Aug 11 13:22:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 223,
+            "username": "Hash Rates",
+            "user_account": "hashrates",
+            "text": "Halting the drop is Neutrino which aims to replicate the web protocol SSL by making all financial transactions... http://t.co/8aiInejLbb",
+            "created_at": "Mon Aug 11 13:09:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 224,
+            "username": "Bitcoin Fan Site",
+            "user_account": "BitcoinFanSite",
+            "text": "Blog Post: Comprehensive List Of DOGEcoin Mining Pools - http://t.co/pFaz9ugFOx",
+            "created_at": "Mon Aug 11 13:06:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 225,
+            "username": "Doge-coins.NL",
+            "user_account": "DogecoinNL",
+            "text": "Check out my new website http://t.co/glOHxwBtIK It's al about mining #BTC #LTC #DOGECOIN or any other #CRYPTO currency.  news tips",
+            "created_at": "Mon Aug 11 13:06:13 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 226,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6303 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:26 Vircurex:28 Cryptsy:26 ), Coinbase BTC:$588",
+            "created_at": "Mon Aug 11 13:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 227,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157858 USD. Dogecoin has increased by 4.81E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 13:00:10 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 228,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "How would Dogecoin work as an official currency of my new country? http://t.co/AOPaAWe0qK",
+            "created_at": "Mon Aug 11 12:56:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 229,
+            "username": "?",
+            "user_account": "Halio1984",
+            "text": "Lets all give warm welcome to @ummjackson dropping the beats on the /r/dogecoin http://t.co/XZI0IAvL9i",
+            "created_at": "Mon Aug 11 12:56:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 230,
+            "username": "Circle of Drink",
+            "user_account": "CircleofDrink",
+            "text": "Cutting Edge. #clarity #bitcoin #bitcoins #cryptocurrency #dogecoin #litecoin #currency #finance http://t.co/H6m0aEhYkY",
+            "created_at": "Mon Aug 11 12:52:13 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 231,
+            "username": "🐯 Michael Trooder",
+            "user_account": "cryptocurrency0",
+            "text": "Cryptocurrencyland song - it's part of our culture - http://t.co/uBjSi6883a",
+            "created_at": "Mon Aug 11 12:46:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 232,
+            "username": "VeriCoin",
+            "user_account": "VeriCoin",
+            "text": ".@effectsToCause LIVE in studio with Kevondo on http://t.co/sMLCwXsTY3 10 AM EST Wednesday! #vericoin #vrc #bitcoin #dogecoin",
+            "created_at": "Mon Aug 11 12:41:45 +0000 2014",
+            "retweet": 5,
+            "likes": 4,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 233,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157376 USD. Dogecoin has decreased by 5.8E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 12:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 234,
+            "username": "AltCoin Watch",
+            "user_account": "CryptoNewsBot",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising http://t.co/eg6bDNi8Ee #AltCoin",
+            "created_at": "Mon Aug 11 12:24:54 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 235,
+            "username": "IBTimesUK Technology",
+            "user_account": "IBTimesUKTech",
+            "text": "In today’s Cryptocurrency Roundup: Is the CIA behind #Bitcoin? #Dogecoin’s official handshake &amp; #Rubycoin rises http://t.co/aowBvLxiR6",
+            "created_at": "Mon Aug 11 12:03:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 236,
+            "username": "David Gilbert",
+            "user_account": "daithaigilbert",
+            "text": "In today’s Cryptocurrency Roundup: Is the CIA behind #Bitcoin? #Dogecoin’s official handshake &amp; #Rubycoin rises http://t.co/r7V29V6ZJI",
+            "created_at": "Mon Aug 11 12:03:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 237,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6304 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:26 Vircurex:28 Cryptsy:26 ), Coinbase BTC:$588",
+            "created_at": "Mon Aug 11 12:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 238,
+            "username": "ABD.Hisham Senin",
+            "user_account": "freedomsolve",
+            "text": "Good news everyone! Australian Warehouse to start stocking GAWMiners products! (Scrypt ASIC) http://t.co/aUOGe9QLEs",
+            "created_at": "Mon Aug 11 12:00:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 239,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157956 USD. Dogecoin has decreased by 5.787E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 12:00:10 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 240,
+            "username": "IBTimes UK",
+            "user_account": "IBTimesUK",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising http://t.co/cLSLuQxzOe",
+            "created_at": "Mon Aug 11 11:55:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 241,
+            "username": "Business Herald",
+            "user_account": "ukbusinessnow",
+            "text": "Cryptocurrency Round-Up: Is Bitcoin a CIA Project? Dogecoin Handshake &amp; Rubycoin Rising - http://t.co/br7tJHtHnz",
+            "created_at": "Mon Aug 11 11:51:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 242,
+            "username": "CryptAphex",
+            "user_account": "AphexTwin4ever",
+            "text": "#CloakCoin bottom confirmed, great time to buy http://t.co/0mNy528C35 #cloak #shadowcoin #bitcoin #LTC #dogecoin #darkcoin #bittrex #poSA",
+            "created_at": "Mon Aug 11 11:35:11 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 243,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000163743 USD. Dogecoin has increased by 5.87E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 11:30:09 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 244,
+            "username": "Ebin Ephrem",
+            "user_account": "ebinephrem",
+            "text": "Imagine a NASCAR car with a U.S. dollar logo http://t.co/jFBzODXHGc #startup #tech",
+            "created_at": "Mon Aug 11 11:27:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 245,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@VertcoinAthlete very interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Mon Aug 11 11:20:15 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 246,
+            "username": "Vertcoin Athlete",
+            "user_account": "VertcoinAthlete",
+            "text": "Making things happen! Happy Monday, let's get it! #Vertcoin #bitcoin #litecoin #dogecoin #cryptocurrency",
+            "created_at": "Mon Aug 11 11:18:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 247,
+            "username": "King Tyler VVS",
+            "user_account": "KingTylerVVS",
+            "text": "Selling $20 worth of bitcoin / dogecoin / or 1 on 1 coaching with how to build a website - comment if interested. Need $20 paypal.",
+            "created_at": "Mon Aug 11 11:16:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 248,
+            "username": "Taopik Ibrahim™",
+            "user_account": "ovic_ibra",
+            "text": "@tipdoge tip @abahtyr 1000 doge - Welcome to Dogecoin 😄😄",
+            "created_at": "Mon Aug 11 11:15:03 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 249,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6242 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:27 Vircurex:28 Cryptsy:26 ), Coinbase BTC:$588",
+            "created_at": "Mon Aug 11 11:02:11 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 250,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157874 USD. Dogecoin has increased by 4.64E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 11:00:11 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 251,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "I JUST HAD 20,143 DOGECOIN STOLEN FROM ME http://t.co/BNSB32kW2d",
+            "created_at": "Mon Aug 11 10:59:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 252,
+            "username": "Jester 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+            "user_account": "_jest3r",
+            "text": "...and Doge said \"let there be moon\" and it was wow. #dogecoin",
+            "created_at": "Mon Aug 11 10:58:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 253,
+            "username": "Alex Barbulescu",
+            "user_account": "Alex_TNT",
+            "text": "@coinographic and using a normal dogecoin shibe character that would not mean it's stealing?",
+            "created_at": "Mon Aug 11 10:54:39 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 254,
+            "username": "Anarchast",
+            "user_account": "Anarchast",
+            "text": "DOGECOIN - CryptoCurrency Analysis http://t.co/2Uxl5b9zy7",
+            "created_at": "Mon Aug 11 10:45:31 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 255,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  Error\nCoins-E 0.00000028\nAverage: $0.000162USD per #dogecoin",
+            "created_at": "Mon Aug 11 10:43:14 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 256,
+            "username": "Coinographic Ltd",
+            "user_account": "coinographic",
+            "text": "@Alex_TNT There is clearly a problem - character is completely lifted from another's work See our post on Reddit http://t.co/CeplaYgDVV",
+            "created_at": "Mon Aug 11 10:39:12 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 257,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015741 USD. Dogecoin has decreased by 0 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 10:30:08 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 258,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6309 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:27 Vircurex:27 Cryptsy:26 ), Coinbase BTC:$587",
+            "created_at": "Mon Aug 11 10:02:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 259,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015741 USD. Dogecoin has increased by 3.5E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 10:00:10 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 260,
+            "username": "bonk repeat",
+            "user_account": "bonkrepeat",
+            "text": "new idea for 'music marketplace'\nhttp://t.co/EXqwmkmoqu\n#dogecoin",
+            "created_at": "Mon Aug 11 09:51:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 261,
+            "username": "Niall Maye",
+            "user_account": "theirishdivil",
+            "text": "Supermoon as seen from #Ireland last night! @BitcoinIRL @RedditBTC @BitexIRL @Reddit_Dogecoin http://t.co/IpbYLSqAXG",
+            "created_at": "Mon Aug 11 09:50:30 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 262,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157375 USD. Dogecoin has decreased by 3.86E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 09:30:09 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 263,
+            "username": "DogeMiner189",
+            "user_account": "DogeMiner189",
+            "text": "Subscribe To My Youtube For The Latest Ways To Earn Dogecoin! https://t.co/6Bekv4uqdh",
+            "created_at": "Mon Aug 11 09:30:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 264,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6299 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:27 Vircurex:27 Cryptsy:26 ), Coinbase BTC:$588",
+            "created_at": "Mon Aug 11 09:02:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 265,
+            "username": "Wheel of Doge",
+            "user_account": "WheelofDoge",
+            "text": "Congratulations to @carolynshibe for winning our 3 million #dogecoin prize!\n\nPlease send your address!\n\nThanks to all the entries everyone!",
+            "created_at": "Mon Aug 11 09:01:56 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 266,
+            "username": "Crypto-Auctions",
+            "user_account": "CryptoAuctions",
+            "text": "http://t.co/nMMW0qYBOV Website Auction 2 Hours to Go ! https://t.co/fIZXQFIraQ #Bitcoin #Dogecoin #Peercoin #coinmarkets",
+            "created_at": "Mon Aug 11 09:01:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 267,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000157761 USD. Dogecoin has increased by 8.1E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 09:00:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 268,
+            "username": "Jason V. Holmes (Closing This Account)",
+            "user_account": "jasonvholmes",
+            "text": "Dogecoin to Allow Litecoin Merge Mining in Network Security Bid http://t.co/BW9NMHTJwX via @coindesk",
+            "created_at": "Mon Aug 11 08:54:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 269,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000026\nCoins-E 0.00000028\nAverage: $0.000159USD per #dogecoin",
+            "created_at": "Mon Aug 11 08:42:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 270,
+            "username": "TM",
+            "user_account": "tmlee",
+            "text": "@theDogeparty XDP burn will commence in less than 48 hours http://t.co/xistxA2N6o\n#dogecoin #doge",
+            "created_at": "Mon Aug 11 08:34:51 +0000 2014",
+            "retweet": 2,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 271,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015768 USD. Dogecoin has decreased by 4.3E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 08:30:09 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 272,
+            "username": "Wheel of Doge",
+            "user_account": "WheelofDoge",
+            "text": "Less than 1 hour to WIN 3 MILLION #dogecoin prize. \n\nTweet us a funny/clever picture using our logo.\n\nComp. closes Monday, 9am GMT.",
+            "created_at": "Mon Aug 11 08:20:00 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 273,
+            "username": "DontTreadOnMyVape",
+            "user_account": "DTOM_Vape",
+            "text": "Dear @BoombahInc.. Please accept #Bitcoin #Dogecoin for all my softball gear needs =D",
+            "created_at": "Mon Aug 11 08:07:54 +0000 2014",
+            "retweet": 3,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 274,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6241 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:28 BTER:26 Vircurex:28 Cryptsy:27 ), Coinbase BTC:$588",
+            "created_at": "Mon Aug 11 08:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 275,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158111 USD. Dogecoin has decreased by 2.34E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 08:00:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 276,
+            "username": "BitBetsBets",
+            "user_account": "BitBetsBets",
+            "text": "0.02000000 #BTC on 'Yes' - Dogecoin to keep sinking - http://t.co/fHuyU7YHSP",
+            "created_at": "Mon Aug 11 07:58:57 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 277,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158344 USD. Dogecoin has increased by 1.24E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 07:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 278,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000027\nCoins-E 0.00000028\nAverage: $0.000161USD per #dogecoin",
+            "created_at": "Mon Aug 11 07:27:15 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 279,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000027\nCryptsy  0.00000028\nCoins-E 0.00000028\nAverage: $0.000163USD per #dogecoin",
+            "created_at": "Mon Aug 11 07:12:15 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 280,
+            "username": "Hashtag Tees",
+            "user_account": "ckHashtags",
+            "text": "#peace #follow #fishing #hacker #nerd #verified #geek #cosplay #dogecoin #bitcoin Tees now available! 126 styles to choose from!",
+            "created_at": "Mon Aug 11 07:06:23 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 281,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6173 #dogecoin, 1 #DOGE = $0.0002 or 28 satoshi ( Coin-E:28 BTER:27 Vircurex:28 Cryptsy:27 ), Coinbase BTC:$589",
+            "created_at": "Mon Aug 11 07:02:11 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 282,
+            "username": "Anti Comic Sans MS",
+            "user_account": "nocomicsansms",
+            "text": "@willricketts ok : @dogecoin no comic sans !",
+            "created_at": "Mon Aug 11 07:01:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 283,
+            "username": "Peercoin Market",
+            "user_account": "PeercoinMarket",
+            "text": "Follow our other account @DogecoinP, for latest Dogecoin prices. Live Price: http://t.co/iXQYtPqQFc",
+            "created_at": "Mon Aug 11 07:00:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 284,
+            "username": "Crypto Cleric",
+            "user_account": "BTCTradingRoom",
+            "text": "#wow check out the new design at http://t.co/SuA3Rb7DUZ - It looks fancy and stuff!!! #bitcoin #altcoin #cryptocurrency #dogecoin #btc $BTC",
+            "created_at": "Mon Aug 11 06:57:35 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 285,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000028\nCryptsy  0.00000028\nCoins-E 0.00000028\nAverage: $0.000165USD per #dogecoin",
+            "created_at": "Mon Aug 11 06:57:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 286,
+            "username": "BARRY WALL",
+            "user_account": "Imcloud9",
+            "text": "@Reddit_Dogecoin I am only on 1 GPU and I am still trying to mine #doge #dogecoin :) its slow but I hope doge will rise :D",
+            "created_at": "Mon Aug 11 06:51:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 287,
+            "username": "BARRY WALL",
+            "user_account": "Imcloud9",
+            "text": "#Free #doge #dogecoin every hour http://t.co/sxM4ZeH24b nice way to get some doge to help fuel the rocket to the moon!",
+            "created_at": "Mon Aug 11 06:44:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 288,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 06:43:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 289,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158217 USD. Dogecoin has decreased by 3.0E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 06:30:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 290,
+            "username": "InterMedia Web",
+            "user_account": "InterMedia_Web",
+            "text": "Crypto eConomics Bitcoin,Litecoin,Dogecoin |.....\nhttp://t.co/NID27l7qpL Stories via @bitcoin_ita @CampBX",
+            "created_at": "Mon Aug 11 06:28:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 291,
+            "username": "Cash Clamber",
+            "user_account": "CashClamber",
+            "text": "Games of chance are traps to catch novices. http://t.co/cHECyJ22FS #JustSayin #push #dogecoin",
+            "created_at": "Mon Aug 11 06:13:25 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 292,
+            "username": "BARRY WALL",
+            "user_account": "Imcloud9",
+            "text": "Read The DogeCoin Daily ▸  today's top stories via @FollowDogecoin @IntoGoBitCoin @PandacoinPND http://t.co/kMMPdh2atU",
+            "created_at": "Mon Aug 11 06:10:27 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 293,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6230 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:27 BTER:27 Vircurex:28 Cryptsy:27 ), Coinbase BTC:$589",
+            "created_at": "Mon Aug 11 06:02:11 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 294,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158247 USD. Dogecoin has increased by 1.62E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 06:00:08 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 295,
+            "username": "Dogecoin Shibe",
+            "user_account": "DogeCoinShibe",
+            "text": "Wow been a while since I've been on hows things going dogecoin?",
+            "created_at": "Mon Aug 11 05:50:02 +0000 2014",
+            "retweet": 7,
+            "likes": 7,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 296,
+            "username": "SatoshisRUs⚡️",
+            "user_account": "FED1913",
+            "text": "@expresscoin Yes You Should do a Dogecoin give of some kind. #TotheMonn",
+            "created_at": "Mon Aug 11 05:47:00 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 297,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000028\nCryptsy  0.00000028\nCoins-E 0.00000027\nAverage: $0.000163USD per #dogecoin",
+            "created_at": "Mon Aug 11 05:42:17 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 298,
+            "username": "Whale-Tales",
+            "user_account": "2whaletales",
+            "text": "@VeriCoin interest rate is at 2.41001% All-time high right now! Buy what you can and stake them in your wallets #dogecoin #bitcoin #litecoin",
+            "created_at": "Mon Aug 11 05:38:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 299,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158085 USD. Dogecoin has decreased by 4.05E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 05:30:09 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 300,
+            "username": "Wheel of Doge",
+            "user_account": "WheelofDoge",
+            "text": "A few more hours left for our 3 MILLION #dogecoin prize. \n\nTweet us a funny/clever picture using our logo.\n\nComp. closes Monday, 9am GMT.",
+            "created_at": "Mon Aug 11 05:25:15 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 301,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 05:20:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 302,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6234 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:27 BTER:27 Vircurex:28 Cryptsy:27 ), Coinbase BTC:$589",
+            "created_at": "Mon Aug 11 05:02:13 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 303,
+            "username": "fctwit",
+            "user_account": "fctwit",
+            "text": "@MarcDeCaria I don't get it. What's wrong with regular currency? What's up with BitCoin, Dogecoin, Litecoin, etc?",
+            "created_at": "Mon Aug 11 05:01:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 304,
+            "username": "ABD.Hisham Senin",
+            "user_account": "freedomsolve",
+            "text": "My apology/proposal to r/dogecoin. A call to the Litecoin community. http://t.co/00Jo6StGhs",
+            "created_at": "Mon Aug 11 05:00:25 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 305,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015849 USD. Dogecoin has decreased by 5.5E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 05:00:11 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 306,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000028\nCryptsy  0.00000027\nCoins-E 0.00000027\nAverage: $0.000161USD per #dogecoin",
+            "created_at": "Mon Aug 11 04:57:14 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 307,
+            "username": "🐱🄼🄰🄿🄻🄴🎮",
+            "user_account": "Nafda",
+            "text": "@GMShivers Better than Doge Coin.",
+            "created_at": "Mon Aug 11 04:50:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 308,
+            "username": "Tom Studans",
+            "user_account": "maximumwelfare",
+            "text": "Goatse.cx has been overtaken by some kind of dogecoin scam apparently. just tried to prank someone and got pranked by neckbeard fuckwanker",
+            "created_at": "Mon Aug 11 04:48:48 +0000 2014",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 309,
+            "username": "expresscoin",
+            "user_account": "expresscoin",
+            "text": "@DesertRShibe @TakeMyBitcoins @DogeMoonman Thanks for participating! Maybe we should do #dogecoin next time :)",
+            "created_at": "Mon Aug 11 04:34:52 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 310,
+            "username": "MuchMarket",
+            "user_account": "Much_Market",
+            "text": "Spinning #dogecoin #gif for charity. Only 25 #dogecoin on #muchmarket http://t.co/y9NDyQytQ4 All dogecoins go to #charity and #faucets #doge",
+            "created_at": "Mon Aug 11 04:34:32 +0000 2014",
+            "retweet": 2,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 311,
+            "username": "MuchMarket",
+            "user_account": "Much_Market",
+            "text": "3 month #minecraft #realms #server #membership for #dogecoin on #muchmarket http://t.co/su9U0VOgdP #doge #wow #gaming",
+            "created_at": "Mon Aug 11 04:33:16 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 312,
+            "username": "MuchMarket",
+            "user_account": "Much_Market",
+            "text": "Photo compressor for 1,000 #Dogecoin on #muchmarket http://t.co/ZGzXU36qkn #photo #photography #photoshop #software #doge #cryptocurrency",
+            "created_at": "Mon Aug 11 04:31:58 +0000 2014",
+            "retweet": 1,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 313,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158545 USD. Dogecoin has decreased by 8.0E-8 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 04:30:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 314,
+            "username": "Element115™✝️",
+            "user_account": "DrElement115",
+            "text": "Just added some more dogecoin :3",
+            "created_at": "Mon Aug 11 04:29:10 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 315,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "You’re the one who decides if dogecoin thrives or dies. http://t.co/j4YP2TlJ4X",
+            "created_at": "Mon Aug 11 04:20:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 316,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "Hello Dogecoin Community. My name is Blesk and I make electronic music. I sell my music on my website using… http://t.co/mLEur5vHGe",
+            "created_at": "Mon Aug 11 04:20:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 317,
+            "username": "BITCOINREGIME.COM",
+            "user_account": "coinregime",
+            "text": "My friend and I just launched a website that donates clean drinking water for various math questions answered, and… http://t.co/iTSAVKsMVa",
+            "created_at": "Mon Aug 11 04:20:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 318,
+            "username": "CFaulk",
+            "user_account": "BitcoinChew",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls: Cryptocurrency Trading News: Bitcoin St... http://t.co/jTFTmAZswQ",
+            "created_at": "Mon Aug 11 04:19:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 319,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 04:14:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 320,
+            "username": "Esteban",
+            "user_account": "estebs",
+            "text": "@edmundcmoy @yahoofinance There are other #Cryptocurrencies that will be more suitable for the job. $Dogecoin or $myriadocin for example 2/2",
+            "created_at": "Mon Aug 11 04:11:10 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 321,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6212 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:26 BTER:27 Vircurex:28 Cryptsy:28 ), Coinbase BTC:$591",
+            "created_at": "Mon Aug 11 04:02:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 322,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@MineMore1 excite! you like dogecoin - take some coins! @tipdoge tip 100",
+            "created_at": "Mon Aug 11 04:01:44 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 323,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158625 USD. Dogecoin has increased by 5.13E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 04:00:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 324,
+            "username": "Jason Yells",
+            "user_account": "jmontague",
+            "text": "#wheelofdoge is sponsoring a 3 MILLION #dogecoin giveaway that ends @ 12pm EST tomorrow. That's A LOT of Doge! http://t.co/oq8YFAZkj6",
+            "created_at": "Mon Aug 11 03:39:41 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 325,
+            "username": "BTCN.it Short Crypto News",
+            "user_account": "bitcns",
+            "text": "#BTC #News - Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls: \n\nForex... http://t.co/c793jSO7is via @BitCns",
+            "created_at": "Mon Aug 11 03:38:15 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 326,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158112 USD. Dogecoin has decreased by 1.74E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 03:30:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 327,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000028\nCryptsy  0.00000028\nCoins-E 0.00000026\nAverage: $0.000162USD per #dogecoin",
+            "created_at": "Mon Aug 11 03:27:17 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 328,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/JrGaU9Uhor Pls Rt #Bitcoin http://t.co/SK2rmo5irO",
+            "created_at": "Mon Aug 11 03:23:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 329,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/dZf17FTdRP Pls Rt #Bitcoin http://t.co/lPPOEntGsn",
+            "created_at": "Mon Aug 11 03:23:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 330,
+            "username": "YCN",
+            "user_account": "YourCryptoNews",
+            "text": "#bitcoin Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/EGe7S7zdKU",
+            "created_at": "Mon Aug 11 03:17:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 331,
+            "username": "ricoflan",
+            "user_account": "ricoflan",
+            "text": "RT @CoinAcademy: Soft launch countdown: T minus 4, and counting... #bitcoin #litecoin #ripple #dogecoin #darkcoin #cryptocurrency",
+            "created_at": "Mon Aug 11 03:13:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 332,
+            "username": "Ruggero Respigo",
+            "user_account": "RuggeroRespigo",
+            "text": "Ruggero Respigo : You’re the one who decides if dogecoin thrives or dies. via /r/dogecoin http://t.co/NXjc4im7rn",
+            "created_at": "Mon Aug 11 03:09:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 333,
+            "username": "Element115™✝️",
+            "user_account": "DrElement115",
+            "text": "@CryptoRox @pinkcoinlottery Ha ha thanks man :) Appreciate it :) Enjoy that  Dogecoin",
+            "created_at": "Mon Aug 11 03:08:40 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 334,
+            "username": "Bitcoin Ultimate",
+            "user_account": "bitcoinultimate",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/iv3ZPbBA2J",
+            "created_at": "Mon Aug 11 03:05:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 335,
+            "username": "Bitcoin Ultimate",
+            "user_account": "bitcoinultimate",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/4fhaXuCPle",
+            "created_at": "Mon Aug 11 03:05:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 336,
+            "username": "CryptoRox",
+            "user_account": "CryptoRox",
+            "text": "@pinkcoinlottery @jk1087 ticket 10\nThanks for this, I do love me some #dogecoin :)",
+            "created_at": "Mon Aug 11 03:03:22 +0000 2014",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 337,
+            "username": "The Bitcoin News 🚀₿",
+            "user_account": "TheBitcoinNews",
+            "text": "#Bitcoin #News: Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/7XxrWYZ6Ut",
+            "created_at": "Mon Aug 11 03:02:17 +0000 2014",
+            "retweet": 6,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 338,
+            "username": "The Bitcoin News 🚀₿",
+            "user_account": "TheBitcoinNews",
+            "text": "#Bitcoin #News: Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls http://t.co/Ui68GPCRAg",
+            "created_at": "Mon Aug 11 03:02:16 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 339,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6215 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:26 BTER:27 Vircurex:28 Cryptsy:28 ), Coinbase BTC:$590",
+            "created_at": "Mon Aug 11 03:02:14 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 340,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158286 USD. Dogecoin has increased by 2.83E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 03:00:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 341,
+            "username": "Mark Graban",
+            "user_account": "MarkGraban",
+            "text": "@LeanBlitz @leanhospitals @dogecoin So money",
+            "created_at": "Mon Aug 11 02:55:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 342,
+            "username": "Diecast Police",
+            "user_account": "diecastmalaysia",
+            "text": "#diecast #malaysia #diecastmalaysia via http://t.co/dtekz6rjul The one of one, Josh Wise Dogecoin Ford, that wi... http://t.co/8U3lAl5GuD",
+            "created_at": "Mon Aug 11 02:54:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 343,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 02:54:13 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 344,
+            "username": "Lean Blitz",
+            "user_account": "LeanBlitz",
+            "text": "@MarkGraban @leanhospitals Do you take @dogecoin?",
+            "created_at": "Mon Aug 11 02:54:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 345,
+            "username": "DigiByte",
+            "user_account": "DigiByteCoin",
+            "text": "#DigiByte has been added to a new trading exchange! Check out @LazyCoins https://t.co/lZwpUiCIko #bitcoin #dogecoin",
+            "created_at": "Mon Aug 11 02:47:27 +0000 2014",
+            "retweet": 4,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 346,
+            "username": "Element115™✝️",
+            "user_account": "DrElement115",
+            "text": "@abbizak Thanks :D can't wait to see who wins :) Its my pleasure to give people #dogecoin and spread #cryptocurrency",
+            "created_at": "Mon Aug 11 02:47:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 347,
+            "username": "PHP Tipps",
+            "user_account": "PHPTipps",
+            "text": "Dogecoin Tools #php #script http://t.co/qdrBFuJg6p",
+            "created_at": "Mon Aug 11 02:37:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 348,
+            "username": "YCN",
+            "user_account": "YourCryptoNews",
+            "text": "Re: Merged mining Litecoin &amp; Dogecoin will make ASIC's profitable again http://t.co/yKHwLGyOPk",
+            "created_at": "Mon Aug 11 02:36:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 349,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158003 USD. Dogecoin has decreased by 2.17E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 02:30:09 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 350,
+            "username": "Element115™✝️",
+            "user_account": "DrElement115",
+            "text": "The 15 person to RT this gets 10k Dogecoin! Go! #tothemoon #dogecoin",
+            "created_at": "Mon Aug 11 02:29:25 +0000 2014",
+            "retweet": 17,
+            "likes": 4,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 351,
+            "username": "Fortune",
+            "user_account": "getfortuneapp",
+            "text": "Daily summary for #Dogecoin, #BlackCoin, and #Nxt follow for more updates from your favorite altcoins! http://t.co/XFaHOhazYz",
+            "created_at": "Mon Aug 11 02:19:33 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 352,
+            "username": "Cryptonomics",
+            "user_account": "Cryptonomix",
+            "text": "#VaultBreaker vs #Titan #scrypt #ASIC Showdown - http://t.co/4cHpYvOKk9 #litecoin #dogecoin",
+            "created_at": "Mon Aug 11 02:03:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 353,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6156 #dogecoin, 1 #DOGE = $0.0002 or 28 satoshi ( Coin-E:26 BTER:27 Vircurex:29 Cryptsy:28 ), Coinbase BTC:$591",
+            "created_at": "Mon Aug 11 02:02:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 354,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015822 USD. Dogecoin has decreased by 5.58E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 02:00:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 355,
+            "username": "Litecoin",
+            "user_account": "KingLitecoin",
+            "text": "\" Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls - http://t.co/3Sjibf3zqo http://t.co/EpCnvEWRkp \" via @TechFiat",
+            "created_at": "Mon Aug 11 01:53:25 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 356,
+            "username": "Litecoin Viking",
+            "user_account": "LitecoinViking",
+            "text": "Cryptocurrency Trading News: Bitcoin Stable; Litecoin, Dogecoin Falls - http://t.co/ZjVvLODBWy http://t.co/dPpebFdFYe",
+            "created_at": "Mon Aug 11 01:53:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 357,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@gadgetwhore so interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Mon Aug 11 01:51:40 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 358,
+            "username": "Gadget Whore",
+            "user_account": "gadgetwhore",
+            "text": "It would be very cool if someone created a Wordpress plugin for @StellarOrg tipping like they did for Dogecoin. #Stellar",
+            "created_at": "Mon Aug 11 01:50:30 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 359,
+            "username": "Wheel of Doge",
+            "user_account": "WheelofDoge",
+            "text": "3 MILLION #dogecoin giveaway \n\nTweet us a funny/clever picture using our logo.\n\nComp. closes Monday, 9am GMT. We choose the funniest image.",
+            "created_at": "Mon Aug 11 01:42:27 +0000 2014",
+            "retweet": 4,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 360,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 01:40:31 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 361,
+            "username": "mostly over there now: ugarles.bsky.social",
+            "user_account": "Ugarles",
+            "text": "@swarthyvillain @parva_x I've quit so many things because they won't take dogecoin. My computer runs off a generator.",
+            "created_at": "Mon Aug 11 01:39:52 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 362,
+            "username": "I am the LizardQueen",
+            "user_account": "andymh51",
+            "text": "@jk1087 @tipdoge wow thanks alot ur a legend, the dogecoin community is amazing! :D",
+            "created_at": "Mon Aug 11 01:36:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 363,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.0001638 USD. Dogecoin has increased by 5.514E-6 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 01:30:08 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 364,
+            "username": "Element115™✝️",
+            "user_account": "DrElement115",
+            "text": "http://t.co/8wpIaxWkN8 GOOOOOO DOGECOIN! WE DID IT! #TOTHEMOON #WEAREDOGECOIN",
+            "created_at": "Mon Aug 11 01:30:01 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 365,
+            "username": "Learning Bitcoin",
+            "user_account": "apbtc",
+            "text": "Read the fine tweets on #DogeCoin #DOGE #BTC by @CoinFireBlog thru the list \"Dogecoin Everybody\", at https://t.co/21Kj8PUJng",
+            "created_at": "Mon Aug 11 01:24:25 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 366,
+            "username": "Ebin Ephrem",
+            "user_account": "ebinephrem",
+            "text": "What does everyone think of YouNow? http://t.co/JrgqvmLtkl #startup #tech",
+            "created_at": "Mon Aug 11 01:15:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 367,
+            "username": "Georgi Dimitrov",
+            "user_account": "maxorsson",
+            "text": "Quality #website traffic delivery http://t.co/hWAP6cbQhq #hobonickel #hobonickels #dogecoin #PayPal accepted",
+            "created_at": "Mon Aug 11 01:13:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 368,
+            "username": "Georgi Dimitrov",
+            "user_account": "maxorsson",
+            "text": "Great #cryptomining service https://t.co/TR3n4fdFgO #dogecoin #btc no need of mining hardware",
+            "created_at": "Mon Aug 11 01:13:17 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 369,
+            "username": "Georgi Dimitrov",
+            "user_account": "maxorsson",
+            "text": "Great #dogecoin #btc tip service http://t.co/DHQJDA3ea1 #crypto #doge",
+            "created_at": "Mon Aug 11 01:12:37 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 370,
+            "username": "BuzzCarl",
+            "user_account": "buzzcarlreal",
+            "text": "I tried the best food in London Dogecoin can buy http://t.co/wJ3amMP7LD",
+            "created_at": "Mon Aug 11 01:11:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 371,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6159 #dogecoin, 1 #DOGE = $0.0002 or 28 satoshi ( Coin-E:26 BTER:27 Vircurex:29 Cryptsy:28 ), Coinbase BTC:$590",
+            "created_at": "Mon Aug 11 01:02:12 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 372,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158286 USD. Dogecoin has increased by 1.43E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 01:00:11 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 373,
+            "username": "ICORating",
+            "user_account": "icoratingus",
+            "text": "B1bl3 - Cryptocurrency News Dump � BREAKING NEWS : rkipp user of #Reddit with Josh Wise http://t.co/YkXEiIV96y #dogecoin #joshwise",
+            "created_at": "Mon Aug 11 00:32:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 374,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.000158143 USD. Dogecoin has decreased by 3.47E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 00:30:09 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 375,
+            "username": "-Wargrave-",
+            "user_account": "Wrgrv_dogecoin",
+            "text": "Discover great free apps and get rewarded with gift cards! http://t.co/mgxpfWuoCT via @freemyapps",
+            "created_at": "Mon Aug 11 00:28:42 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 376,
+            "username": "Limitless - VIP™",
+            "user_account": "LimitlessVIP_",
+            "text": "Buy or sell #Tittiecoin with #Dogecoin https://t.co/eZOneQMZGl",
+            "created_at": "Mon Aug 11 00:23:21 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 377,
+            "username": "XxXcoin",
+            "user_account": "xxxcoins",
+            "text": "Things are heating up over at; http://t.co/F8q6Mfrwte Come check it out! #CryptoCams $BTC $LTC $DOGE",
+            "created_at": "Mon Aug 11 00:05:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 378,
+            "username": "Learning Bitcoin",
+            "user_account": "apbtc",
+            "text": "Read the fine tweets on #DogeCoin #Doge #Cryptocurrency by @CaricatureCoin thru the list \"Dogecoin Everybody\", at https://t.co/21Kj8PUJng",
+            "created_at": "Mon Aug 11 00:03:19 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 379,
+            "username": "dogecoinprice",
+            "user_account": "dogecoinprice",
+            "text": "$1=6266 #dogecoin, 1 #DOGE = $0.0002 or 27 satoshi ( Coin-E:26 BTER:27 Vircurex:27 Cryptsy:28 ), Coinbase BTC:$591",
+            "created_at": "Mon Aug 11 00:02:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 380,
+            "username": "DogecoinPrice",
+            "user_account": "DogecoinP",
+            "text": "1 Dogecoin is now 0.00015849 USD. Dogecoin has increased by 4.06E-7 USD in the last 30 mins #doge #dogecoin",
+            "created_at": "Mon Aug 11 00:00:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        }
+    ]
+}

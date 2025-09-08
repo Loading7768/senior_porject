@@ -1,0 +1,44 @@
+{
+    "dogecoin": [
+        {
+            "tweet_count": 1,
+            "username": "dogecointicker",
+            "user_account": "dogecointicker",
+            "text": "The current value of 1 DOGE in USD is: $0.23325 (📈 up 0.000700 so far today). #dogecoin",
+            "created_at": "Sat Nov 20 23:59:58 +0000 2021",
+            "retweet": 1,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "Rami",
+            "user_account": "Rami54041355",
+            "text": "@davidgokhshtein Dogecoin",
+            "created_at": "Sat Nov 20 23:59:46 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
+            "username": "Doge Meme Factory",
+            "user_account": "DogeMemeFactory",
+            "text": "Here is my contribution… $DOGE 🚀🚀🚀",
+            "created_at": "Sat Nov 20 23:59:10 +0000 2021",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "OB1",
+            "user_account": "blockchainUk",
+            "text": "#avalanche has flipped $shib .. but still lags $doge. \n\nfastest growing L1 &amp; fastest L1 by time to finality - plans on digitising trillions of dollars of assets has overtaken 1/2 top dog meme coins with zero utility in Mcap 🤔\n\nMakes me think we are still early on $avax",
+            "created_at": "Sat Nov 20 23:58:47 +0000 2021",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        }
+    ]
+}

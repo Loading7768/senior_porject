@@ -1,0 +1,24 @@
+{
+    "dogecoin": [
+        {
+            "tweet_count": 1,
+            "username": "Bitcoin Garden",
+            "user_account": "BitcoinGarden",
+            "text": "Dogecoin Startup Goes Open Source as Creator Says ‘Peace Out’ to Crypto: https://t.co/0ZWKMN1TCc tnx @coindesk | #Dogecoin #News",
+            "created_at": "Wed Dec 02 23:27:31 +0000 2015",
+            "retweet": 4,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "Andrew Krahn",
+            "user_account": "ASKrahn",
+            "text": "@aaronshekey @benisadesigner @glueonmystrings Do you accept DogeCoin?",
+            "created_at": "Wed Dec 02 23:18:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        }
+    ]
+}
