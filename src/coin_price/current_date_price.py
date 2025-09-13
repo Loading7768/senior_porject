@@ -36,7 +36,7 @@ OUTPUT_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_price_out
 START_DATE = "2013/12/15"
 END_DATE   = "2025/07/31"
 
-SHIFT = 5  # 生成 {SHIFT} 天後 - 今天 的價格差
+SHIFT = 5
 '''可修改參數'''
 
 
@@ -52,7 +52,7 @@ price_df.set_index('snapped_at', inplace=True)
 price_df.index = price_df.index.tz_localize(None)  # 移除時區 只保留日期部分
 
 # 🔹 過濾價格資料到時間範圍內
-price_df = price_df.loc[(price_df.index >= START_DATE_DT) & (price_df.index <= END_DATE_DT + pd.Timedelta(days=SHIFT))]
+price_df = price_df.loc[(price_df.index >= START_DATE_DT) & (price_df.index <= END_DATE_DT + pd.Timedelta(days=1))]
 
 
 # === 儲存推文資訊 若當天沒有推文則不會加進去 set 中 ===
@@ -153,65 +153,140 @@ df_output = pd.DataFrame(output_rows)
 df_output['date_dt'] = pd.to_datetime(df_output['date'], format='%Y/%m/%d')
 df_output['price'] = pd.to_numeric(df_output['price'], errors='coerce')
 
-# ---------------- 計算 1~5 天的價差 ----------------
-day_shifts = [shift for shift in range(1, SHIFT + 1)]
+# # ---------------- 計算 1~5 天的價差 ----------------
+# day_shifts = [shift for shift in range(1, SHIFT + 1)]
 
-for shift in day_shifts:
-    col_name = f"price_diff_{shift}d"
+# for shift in day_shifts:
+#     col_name = f"price_diff_{shift}d"
 
-    def calc_price_diff_shift(row, shift=shift):
-        today = row['date_dt']
-        future = today + pd.Timedelta(days=shift)
-        try:
-            price_today = row['price']
-            price_future = price_df.loc[future]['price']
-            if pd.isna(price_today):
-                return np.nan
-            return price_future - price_today
-        except KeyError:
-            return np.nan  # 缺少未來價格
+#     def calc_price_diff_shift(row, shift=shift):
+#         today = row['date_dt']
+#         future = today + pd.Timedelta(days=shift)
+#         try:
+#             price_today = row['price']
+#             price_future = price_df.loc[future]['price']
+#             if pd.isna(price_today):
+#                 return np.nan
+#             return price_future - price_today
+#         except KeyError:
+#             return np.nan  # 缺少未來價格
 
-    df_output[col_name] = df_output.apply(calc_price_diff_shift, axis=1)
+#     df_output[col_name] = df_output.apply(calc_price_diff_shift, axis=1)
 
-# 刪除輔助欄位
-df_output.drop(columns=['date_dt'], inplace=True)
+# ---------------- 計算相鄰日期的價差 ----------------
+# 將 price_df 的價格對齊 df_output 的日期
+price_map = price_df['price'].to_dict()
 
-# 儲存 CSV（現在包含 5 個價差欄位）
+# 計算明天價格：直接用 price_map 查隔天
+df_output['price_tomorrow'] = df_output['date_dt'].apply(
+    lambda x: price_map.get(x + pd.Timedelta(days=1), np.nan)
+)
+
+# 計算明天 - 今天
+df_output['price_diff_tomorrow'] = df_output['price_tomorrow'] - df_output['price']
+df_output['price_diff_rate_tomorrow'] = df_output['price_diff_tomorrow'] / df_output['price']
+
+# 動態生成「往回 SHIFT 天」的價差與變化率
+for i in range(1, SHIFT + 1):
+    col_price_prev = f"price_{i}daysbefore"
+    df_output[col_price_prev] = df_output['price'].shift(i)
+
+    col_diff = f"price_diff_{i}daysbefore"
+    col_rate = f"price_diff_rate_{i}daysbefore"
+
+    # 價差： (i-1) 天前價格 - i 天前價格
+    df_output[col_diff] = df_output['price'].shift(i - 1) - df_output['price'].shift(i)
+
+    # 價差變化率：差 ÷ i天前價格
+    df_output[col_rate] = df_output[col_diff] / df_output['price'].shift(i)
+
+# 移除輔助欄位（所有 shift 出來的 price_*）
+drop_cols = ['date_dt'] + ['price_tomorrow'] + [f"price_{i}daysbefore" for i in range(1, SHIFT + 1)]
+df_output.drop(columns=drop_cols, inplace=True)
+
+# 儲存 CSV
 df_output.to_csv(OUTPUT_CSV_PATH, index=False, encoding="utf-8-sig")
 print(f"✅ 已儲存到 {OUTPUT_CSV_PATH}")
 
-# ---------------- 檢查 NaN ----------------
-for shift in day_shifts:
-    col_name = f"price_diff_{shift}d"
-    nan_rows = df_output[df_output[col_name].isna()]
-    if not nan_rows.empty:
-        print(f"\n以下日期 {col_name} 無法計算（可能缺少當天或未來 {shift} 天價格）:")
-        print(nan_rows[['date', 'price', 'tweet_count', 'has_tweet']])
 
-# ---------------- 儲存多組 price_diff.npy ----------------
-all_price_diffs = []  # 建立 price_diff 矩陣（每個 row 都是不同天數的價差）
+# ---------------- 儲存 price_diff_rate_tomorrow 到 numpy ----------------
+# 過濾出有推文且 price_diff_rate_tomorrow 不是 NaN
+filtered_df = df_output[(df_output['has_tweet'] == True) & (df_output['price_diff_rate_tomorrow'].notna())]
 
-for shift in day_shifts:
-    col_name = f"price_diff_{shift}d"
-
-    # 過濾出有推文且價差不是 NaN
-    filtered_df = df_output[(df_output['has_tweet'] == True) & (df_output[col_name].notna())]
-
-    # 依 tweet_count 重複價差
-    expanded_price_diffs = []
-    for _, row in filtered_df.iterrows():
-        expanded_price_diffs.extend([row[col_name]] * row['tweet_count'])
-
-    all_price_diffs.append(expanded_price_diffs)
-    
-    print(f"\n✅ 已加入 {COIN_SHORT_NAME}_price_diff_{shift}day（共 {len(expanded_price_diffs)} 筆）")
-    print(expanded_price_diffs[:20])  # 預覽前 20 筆
-
+# 依 tweet_count 重複價差
+expanded_price_diffs = []
+for _, row in filtered_df.iterrows():
+    expanded_price_diffs.extend([row['price_diff_rate_tomorrow']] * row['tweet_count'])
 
 # 轉成 numpy 陣列並儲存
-all_price_diffs = np.array(all_price_diffs, dtype=float)
-all_price_diffs_T = all_price_diffs.T  # 或者 np.transpose(all_price_diffs)
+price_diff_array = np.array(expanded_price_diffs, dtype=float)
 save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy"
-np.save(save_path, all_price_diffs_T)
+np.save(save_path, price_diff_array)
 
-print(f"\n✅ 已儲存矩陣 {all_price_diffs_T}，形狀: {all_price_diffs_T.shape}")
+print(expanded_price_diffs[:20])  # 預覽前 20 筆
+print(f"\n✅ 已儲存 price_diff_rate_tomorrow 矩陣到 {save_path}，共: {len(expanded_price_diffs)} 筆\n")
+
+
+# ---------------- 儲存過去 SHIFT 天的價差及變化率 ----------------
+# 只保留沒有 NaN 的行
+df_output_clean = df_output.dropna()
+
+columns_to_save = []
+for i in range(1, SHIFT + 1):
+    columns_to_save.append(f'price_diff_{i}daysbefore')
+    columns_to_save.append(f'price_diff_rate_{i}daysbefore')
+
+# 過濾掉有 NaN 的行
+filtered_df = df_output.dropna(subset=columns_to_save)
+
+# 過濾有推文且對應欄位不是 NaN
+filtered_df = filtered_df[filtered_df['has_tweet'] == True].copy()
+
+# 直接轉成 numpy
+all_price_diffs_array = filtered_df[columns_to_save].to_numpy(dtype=float)
+
+# 儲存
+save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff_past{SHIFT}days.npy"
+np.save(save_path, all_price_diffs_array)
+
+print(all_price_diffs_array[:10])  # 預覽前 20 筆
+print(f"\n✅ 已儲存 {COIN_SHORT_NAME}_price_diff_past{SHIFT}days.npy，形狀: {all_price_diffs_array.shape}")
+
+
+
+# # ---------------- 檢查 NaN ----------------
+# for shift in day_shifts:
+#     col_name = f"price_diff_{shift}d"
+#     nan_rows = df_output[df_output[col_name].isna()]
+#     if not nan_rows.empty:
+#         print(f"\n以下日期 {col_name} 無法計算（可能缺少當天或未來 {shift} 天價格）:")
+#         print(nan_rows[['date', 'price', 'tweet_count', 'has_tweet']])
+
+# # ---------------- 儲存多組 price_diff.npy ----------------
+# all_price_diffs = []  # 建立 price_diff 矩陣（每個 row 都是不同天數的價差）
+
+# for shift in day_shifts:
+#     col_name = f"price_diff_{shift}d"
+
+#     # 過濾出有推文且價差不是 NaN
+#     filtered_df = df_output[(df_output['has_tweet'] == True) & (df_output[col_name].notna())]
+
+#     # 依 tweet_count 重複價差
+#     expanded_price_diffs = []
+#     for _, row in filtered_df.iterrows():
+#         expanded_price_diffs.extend([row[col_name]] * row['tweet_count'])
+
+#     all_price_diffs.append(expanded_price_diffs)
+    
+#     print(f"\n✅ 已加入 {COIN_SHORT_NAME}_price_diff_{shift}day（共 {len(expanded_price_diffs)} 筆）")
+#     print(expanded_price_diffs[:20])  # 預覽前 20 筆
+
+
+# # 轉成 numpy 陣列並儲存
+# all_price_diffs = np.array(all_price_diffs, dtype=float)
+# all_price_diffs_T = all_price_diffs.T  # 或者 np.transpose(all_price_diffs)
+# # save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff_{SHIFT}.npy"
+# save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy"
+# np.save(save_path, all_price_diffs_T)
+
+# print(f"\n✅ 已儲存矩陣 {all_price_diffs_T}，形狀: {all_price_diffs_T.shape}")
