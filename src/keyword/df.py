@@ -53,12 +53,16 @@ def tokenize_tweets(tweets):
     STOPWORDS = set(stopwords.words('english'))
     tokenized_tweets = []
 
+    token_count = []
     for tweet in tqdm(tweets, desc='Tokeninzing...'):
         tweet_text = tweet.get('text')
         tokens = tokenizer.tokenize(tweet_text)
+        token_count.append(len(tokens))
         unique_tokens = set(token for token in tokens if token not in STOPWORDS and token.isalpha())
         tokenized_tweets.append(unique_tokens)
 
+    
+    print('(min, MAX, avg)', min(token_count), max(token_count), sum(token_count)/len(token_count))
     return tokenized_tweets
 
 def compute_df(N, tokenized_tweets):
@@ -84,8 +88,8 @@ def main():
     tokens = tokenize_tweets(tweets)
     df = compute_df(len(tweets), tokens)
 
-    for i in range(100):
-        print(df[i])
+    # for i in range(100):
+    #     print(df[i])
 
 if __name__ == '__main__':
     main()
