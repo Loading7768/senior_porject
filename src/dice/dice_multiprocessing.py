@@ -15,20 +15,15 @@ from pathlib import Path
 import sys
 parent_dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(parent_dir))
-import config
+from config import JSON_DICT_NAME, COIN_SHORT_NAME
 
 '''可修改參數'''
-YEAR = "2025"
 
-MONTH = "05"
-
-FOLDER_PATH = f"../data/spammer/{YEAR}/{MONTH}"  # 選擇要對哪個資料夾執行
+FOLDER_PATH = f"../data/author_all/{COIN_SHORT_NAME}"  # 選擇要對哪個資料夾執行
 # "../Kmeans/data/clustered/"
 # "../project_vscode/data/spammer/04"
 
-OUTPUT_FOLDER_NAME = f"{YEAR}{MONTH}"  # 設定要儲存到的資料夾名稱   ex. "../LCS/analysis/{OUTPUT_FOLDER_NAME}/"
-
-JSON_DICT_NAME = config.JSON_DICT_NAME  # 設定推文所存的 json 檔中字典的名稱
+JSON_DICT_NAME = JSON_DICT_NAME  # 設定推文所存的 json 檔中字典的名稱
 
 DICE_COEFFICIENT = 70  # 設定 Dice 算出來的結果門檻值（也就是相似度）  60 => 60%
 
@@ -41,9 +36,9 @@ IS_CLUSTERED = False  # 設定是否要用有分群的檔案來比對
 '''可修改參數'''
 
 # create folders if not existed
-os.makedirs("../data/dice/analysis", exist_ok=True)
-os.makedirs("../data/dice/robot_account", exist_ok=True)
-os.makedirs("../data/dice/robot_list", exist_ok=True)
+os.makedirs(f"../data/dice/{COIN_SHORT_NAME}/analysis", exist_ok=True)
+os.makedirs(f"../data/dice/{COIN_SHORT_NAME}/robot_account", exist_ok=True)
+os.makedirs(f"../data/dice/{COIN_SHORT_NAME}/robot_list", exist_ok=True)
 
 # 取得英文停用詞集合
 stop_words = set(stopwords.words('english'))
@@ -245,7 +240,7 @@ if __name__ == "__main__":
     print(f"📂 總共找到 {len(all_files)} 個檔案要處理")
 
     # 先清空 robottxt.txt
-    robottxt = f"../data/dice/robot_account/{OUTPUT_FOLDER_NAME}.txt"
+    robottxt = f"../data/dice/{COIN_SHORT_NAME}/{COIN_SHORT_NAME}_robot_account.txt"
     with open(robottxt, "w", encoding="utf-8-sig") as robotfile:
         robotfile.write("")
 
@@ -257,10 +252,10 @@ if __name__ == "__main__":
 
         # 設定 txtname, json_output_path 的名稱
         # txtname = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.txt"
-        json_output_path = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/{analysis_name}.json"
+        json_output_path = f"../data/dice/{COIN_SHORT_NAME}/analysis/{analysis_name}.json"
 
         # 確認是否有輸出時需使用的資料夾
-        output_folder_path = f"../data/dice/analysis/{OUTPUT_FOLDER_NAME}/"
+        output_folder_path = f"../data/dice/{COIN_SHORT_NAME}/analysis/"
         os.makedirs(output_folder_path, exist_ok=True)
 
         # 讀入 json 檔
@@ -329,7 +324,7 @@ if __name__ == "__main__":
         del json_output
         gc.collect()
 
-        robottxt = f"../data/dice/robot_account/{OUTPUT_FOLDER_NAME}.txt"
+        robottxt = f"../data/dice/{COIN_SHORT_NAME}/{COIN_SHORT_NAME}_robot_account_.txt"
         # 印出出現次數大於 10 的帳號，符合的話就輸出到 txt 檔中
         robotlist = [] # list of user that has ressemblence over threshold
         print()
@@ -353,7 +348,7 @@ if __name__ == "__main__":
                     robotfile.write(f"🤖 疑似洗版帳號：{user}，重複出現次數：{int(count / 2)}\n")
             robotfile.write("\n")
 
-        robotlisttxt = f"../data/dice/robot_list/{OUTPUT_FOLDER_NAME}_list.txt"
+        robotlisttxt = f"../data/dice/{COIN_SHORT_NAME}/{COIN_SHORT_NAME}_robot_list.txt"
         with open(robotlisttxt, 'a', encoding="utf-8-sig") as robotlistfile:
             for robot in robotlist:
                 robotlistfile.write(f"{robot}\n")
