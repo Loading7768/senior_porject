@@ -35,6 +35,10 @@ def tokenize_tweets(tweets):
 DATA_DIR = "../data/keyword/machine_learning"
 TWEET_DIR = f"../data/filtered_tweets/normal_tweets/*"
 OUT_DIR = "../data/ml/dataset/keyword"
+
+# === 自訂時間範圍 (格式：YYYY/MM) ===
+END_DATE = "2025/07"
+
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # === 讀取單一幣種的詞彙表 ===
@@ -48,7 +52,20 @@ print(f"詞彙數量: {len(all_vocab)}")
 word2idx = {w: i for i, w in enumerate(all_vocab)}
 
 # === 找出所有 JSON 檔案 ===
-json_files = glob.glob(os.path.join(TWEET_DIR, "*", f"{COIN_SHORT_NAME}_*_normal.json"))
+end_year, end_month = map(int, END_DATE.split('/'))
+all_files = []
+for year_folder in glob.glob("../data/filtered_tweets/normal_tweets/*"):
+    year = int(os.path.basename(year_folder))
+    if year > end_year:
+        continue
+    for month_folder in glob.glob(os.path.join(year_folder, "*")):
+        month = int(os.path.basename(month_folder))
+        if year == end_year and month > end_month:
+            continue
+        pattern = os.path.join(month_folder, f"{COIN_SHORT_NAME}_*_normal.json")
+        all_files.extend(glob.glob(pattern))
+
+json_files = all_files
 print(f"找到 {len(json_files)} 個檔案可處理")
 
 # === 用稀疏矩陣的三元組格式 (row, col, data) ===
