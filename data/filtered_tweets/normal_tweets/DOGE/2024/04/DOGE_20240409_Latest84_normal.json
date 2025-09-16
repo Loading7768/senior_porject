@@ -1,0 +1,634 @@
+﻿{
+    "dogecoin": [
+        {
+            "tweet_count": 1,
+            "username": "The Wizard Of Doge",
+            "user_account": "mypreciousdoge",
+            "text": "Dogecoin",
+            "created_at": "Tue Apr 09 23:59:11 +0000 2024",
+            "retweet": 4,
+            "likes": 47,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "Altcoin Baggins",
+            "user_account": "Altcoin_Baggins",
+            "text": "@CryptoMcD29 @Farod__ $foil isn’t the next $nub nor $thog nor $mew nor $sc nor $wif not even is it the next $doge. Shit is the next $btc.",
+            "created_at": "Tue Apr 09 23:57:59 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
+            "username": "skyp",
+            "user_account": "x69420skyp",
+            "text": "@BlountJesse #Doraemon \nTogether we will moon $DOGE https://t.co/1AzEH7U5Zt",
+            "created_at": "Tue Apr 09 23:57:34 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "TESLARAN",
+            "user_account": "teslaran_doge",
+            "text": "I am the money - $DOGE #Dogecoin \n\nDoge ftw https://t.co/AwdiMkegjR",
+            "created_at": "Tue Apr 09 23:57:15 +0000 2024",
+            "retweet": 11,
+            "likes": 62,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "oswald | Truth👁nTheTrack 𝕏",
+            "user_account": "Opmonthetrack",
+            "text": "Rise and Shine, crypto enthusiasts! 🌟 Dogecoin's tail is wagging stronger than ever as it's set to outpace XRP in market cap. Memes or not, $DOGE's bark is proving to have a mighty financial bite! 🚀 Keep eyes peeled on this underdog tale. More details👉 https://t.co/aiL37ioApo",
+            "created_at": "Tue Apr 09 23:57:07 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "Hana Justin",
+            "user_account": "KiksJustIn",
+            "text": "Analyst tip on $ETH led to 250% gains!\n\nhttps://t.co/NXhV3NpQ0A\n\n$MEME $LINK #SOLANA #FTT $BTC $ETH $SOL $LINK $CATE $TIA $XRP $MEME $FTT $LUNA $LUNC $BONK $ORDI $GAS $UNFI $TWT $PEPE $LOOM $TRB $HIFI $DOGE $VGX $RUNE $MATIC $OP $BNB $dydx https://t.co/ERJLJA7a3A",
+            "created_at": "Tue Apr 09 23:56:39 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
+            "username": "JennyDoge🐕🐾",
+            "user_account": "JennyDoge",
+            "text": "@dogetipping Dogecoin",
+            "created_at": "Tue Apr 09 23:56:02 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
+            "username": "JennyDoge🐕🐾",
+            "user_account": "JennyDoge",
+            "text": "dogecoin is ready to moon",
+            "created_at": "Tue Apr 09 23:55:39 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 9,
+            "username": "The Klendathu Cap",
+            "user_account": "KlendathuCap",
+            "text": "My mom took this wonderful photo of her dogecoin. https://t.co/fKgkKyI5Jk",
+            "created_at": "Tue Apr 09 23:55:26 +0000 2024",
+            "retweet": 0,
+            "likes": 10,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "Елена Цымбал",
+            "user_account": "cymbalale",
+            "text": "@wealthmaverick_ Bet it all on Dogecoin, to the moon! 🚀🐕 🌌",
+            "created_at": "Tue Apr 09 23:54:11 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Derek",
+            "user_account": "Derek_Vincent90",
+            "text": "@Volture1O1 Raiders paid him in Dogecoin to bring us down",
+            "created_at": "Tue Apr 09 23:53:48 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "FAYSAL SOMALI UHURU",
+            "user_account": "RageSahal",
+            "text": "@MyDogeOfficial I don't care what people say\n\nMy\nDOGECOIN \n      DOG\n\nHe's getting bigger\n for my wallet )))))\n\nAnd now You started\n\nDance.\nMoves he learned on the moon https://t.co/EqpDMmyDVN",
+            "created_at": "Tue Apr 09 23:53:46 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
+            "username": "Tonka💥",
+            "user_account": "jonathanhicks87",
+            "text": "@cryptocom Dogecoin was my starter, Shib brought me to @cryptocom  an @VVS_finance took me to defi.",
+            "created_at": "Tue Apr 09 23:52:53 +0000 2024",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 14,
+            "username": "Roy c",
+            "user_account": "bayarealawyers",
+            "text": "@RepMTG Do you support Dogecoin?",
+            "created_at": "Tue Apr 09 23:52:33 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 15,
+            "username": "Sir Herk 🧬🐾🐾",
+            "user_account": "Spacedogoxyz",
+            "text": "@JustinGilb13352 I want Dogecoin to be able to finance experiments and biohacking!",
+            "created_at": "Tue Apr 09 23:52:32 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 16,
+            "username": "Pepe 💎 $Honey Moon Boi 💎",
+            "user_account": "XYOPepe",
+            "text": "Damn $math gone !!\n\nIt pulled a $aero $png \n\n$0.17 to $0.76 so fast \n\n4x $btc $doge https://t.co/JdrO4eahQv",
+            "created_at": "Tue Apr 09 23:52:31 +0000 2024",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "🏁SWANKPIE🏁",
+            "user_account": "swankpie",
+            "text": "I haven’t sent money to an exchange in years.  I’m still floating on my $doge come up from minus a penny to 8cent.",
+            "created_at": "Tue Apr 09 23:52:07 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 18,
+            "username": "Hana Justin",
+            "user_account": "KiksJustIn",
+            "text": "Success is just a signal away – join our community now\n\nhttps://t.co/NXhV3NpQ0A\n\n$SOL $BTC $SEI $AI $BONK $TRB $PEPE $ARB $TIA $AVAX $ORDI $ICP $OP $INJ $ETH $NTRN $DOGE $MATIC $APT $PEOPLE $LUNC $SHIB $XRP $HIFI $SATS $cyber https://t.co/HPISxZELQm",
+            "created_at": "Tue Apr 09 23:51:59 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
+            "username": "Crypto Mark ⚡️",
+            "user_account": "MarkCrypto8",
+            "text": "@gem_insider Agreed, I’m prepared for $Doge day &amp; holding $PSPS which I believe will be the 1st cat meme to reach $1b+ mcap.  It’s more than a meme too as it donates to animal charities via the Boba Cat Society.  Currently only $28m and available on uniswap &amp; #MEXC #BobaCat @BobaCatPsps 🧋🐈 https://t.co/kn5VSuQC92",
+            "created_at": "Tue Apr 09 23:51:30 +0000 2024",
+            "retweet": 3,
+            "likes": 20,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
+            "username": "Lord.ltc",
+            "user_account": "lord_litecoin",
+            "text": "@ChoupetteJoe @seanpaszkwil @aietides @EggNamedCregg 4 weeks ago I didn’t even know I could buy meme coins in the Solona ecosystem. Then I had to learn what dexscreener was and Jupiter and raydium. Good luck to anyone 35+. The extent of my meme coin knowledge was $doge",
+            "created_at": "Tue Apr 09 23:49:49 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 21,
+            "username": "XoSmoothieoX",
+            "user_account": "Smoove_Crypto",
+            "text": "@ElonMuskPDA Doge coin king of all",
+            "created_at": "Tue Apr 09 23:49:22 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 22,
+            "username": "Hana Justin",
+            "user_account": "KiksJustIn",
+            "text": "Don't miss out on winning signals - join us!\n\nhttps://t.co/NXhV3NpQ0A\n\n$SOL $BTC $SEI $AI $BONK $TRB $PEPE $ARB $TIA $AVAX $ORDI $ICP $OP $INJ $ETH $NTRN $DOGE $MATIC $APT $PEOPLE $LUNC $SHIB $XRP $HIFI $SATS $cyber https://t.co/nRWebaKm5I",
+            "created_at": "Tue Apr 09 23:49:11 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 23,
+            "username": "MEVmaverick",
+            "user_account": "MEVmaverick",
+            "text": "How likely is it that the 'Dog' airdrop to #Runestone holders on #Bitcoin breaks into the Top 3 memecoins by marketcap? Currently led by $DOGE, $SHIB,  and $WIF",
+            "created_at": "Tue Apr 09 23:48:51 +0000 2024",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 24,
+            "username": "Bellon Musk 🔔",
+            "user_account": "Bellon_Musk",
+            "text": "Hi, guys.\n\nYou need to check Bellscoin if you are looking for the next 100x.\n\n1) Dogecoin developer created it in 2013\n2) The oldest memecoin\n3) Doge is a fork of Bel\n4) POW\n5) No-premined\n6) LFG 100x https://t.co/utHHrxM96K",
+            "created_at": "Tue Apr 09 23:46:25 +0000 2024",
+            "retweet": 0,
+            "likes": 29,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 25,
+            "username": "Dogecoin and Bitcoin Cryptocurrency",
+            "user_account": "BitcoinDogecoin",
+            "text": "Dogecoin bonanza of gains soon",
+            "created_at": "Tue Apr 09 23:45:21 +0000 2024",
+            "retweet": 0,
+            "likes": 17,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 26,
+            "username": "Hana Justin",
+            "user_account": "KiksJustIn",
+            "text": "Elevate your trading game with our revolutionary insights\n\nhttps://t.co/NXhV3NqnQ8\n\n$BTC $SOL $BONK $INJ $AVAX $TABBO $JTO $TIA $SATA $XNO $ETH $ORDI $DOGE $LUNC $RNDR $OP $PYTH $PEPE $ADA $USTC $APT $ARB https://t.co/M3ELyE06w9",
+            "created_at": "Tue Apr 09 23:44:32 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "CCAT | CryptoCat",
+            "user_account": "CcatDrc20",
+            "text": "Get $CCAT before it claws its way to the moon! 🐱🚀\n\n$CCAT #CCAT #CryptoCat #DRC20 #Doge #doginals #brc20 #ordi #Ordinals #DOGI #dbit #Dogecoin #catseason https://t.co/NIYCTHpuef",
+            "created_at": "Tue Apr 09 23:43:59 +0000 2024",
+            "retweet": 3,
+            "likes": 8,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
+            "username": "JR",
+            "user_account": "tumaieslag0rda",
+            "text": "@elonmusk next time you take a shit… just say something about dogecoin so that I can buy a boat.",
+            "created_at": "Tue Apr 09 23:43:41 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 29,
+            "username": "Caffenull",
+            "user_account": "DonDinoKing",
+            "text": "💵 Hey dogearmy! Get ready for some excitement with $doge! 🎉Enter the game now for an opportunity to earn complimentary Doges for your wallets!! 🐕💵 https://t.co/Y97Y4x9XrP",
+            "created_at": "Tue Apr 09 23:42:27 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
+            "username": "Ordinals Al ❤️ Kraken ❤️ $DOG",
+            "user_account": "Ordinals_Al",
+            "text": "3/3 - Runestones is already appreciating in value damn fast. Never there has anything faster in crypto. \n\nBut if you want it to BEAM AT THE SPEED OF LIGHT and LEAVE DOGE COIN and SHIBA INU in the REAR MIRROR, THEN ...\n\nDELIST\nDELIST\nDELIST\n\nWe all win, you win!\n\nHail to The Dog. https://t.co/GlcgqfjpEG",
+            "created_at": "Tue Apr 09 23:42:05 +0000 2024",
+            "retweet": 7,
+            "likes": 34,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 31,
+            "username": "まるめ　ファイナル フェイクa.k.a ブルトラップ イモ",
+            "user_account": "MARUMEGANE5",
+            "text": "⚠️🔔🔔🔔⚠️ The $BEL of Bellscoin, created by Billy, the originator of $DOGE, is on the left. ➡️ represents BEL of the Bella protocol.\n\n#Bellscoin has only recently been restarted, and is currently only listed on NonKYC @nonkyc_exchange, coinEX @coinexcom, and XeggeX @xeggex.\n\nBe https://t.co/BvgLHQKLRm",
+            "created_at": "Tue Apr 09 23:41:55 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 32,
+            "username": "𝓣 𝓞 𝓟 𝓓 𝓞 𝓖 𝓔",
+            "user_account": "TOPDOGE007",
+            "text": "@Grimezsz @subfocus Do you still support Dogecoin Grimes? 😍",
+            "created_at": "Tue Apr 09 23:41:26 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
+            "username": "TheCoinMonitor.com",
+            "user_account": "TheCoinMonitor_",
+            "text": "📈 $320.6K $DOGE LONGED @$0.18814 BINANCE FUTURES 📈",
+            "created_at": "Tue Apr 09 23:41:02 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 34,
+            "username": "Ozzmak",
+            "user_account": "Ozzmak",
+            "text": "ECLIPSE  ... #toshithecat #Aiart #AIArtwork #SHIB #shiba #ozzmak #ozzmakart #ozzmakphotography #art #cyberpunk #Crypto #cryptocurrency #Eclipse2024  #aieverywhere #Millionaire #TrumpIsACriminal #music #cat #Bitcoin📷📷📷#tesla #elonmusk #Dogecoin https://t.co/ZEtIWPtyPf",
+            "created_at": "Tue Apr 09 23:41:01 +0000 2024",
+            "retweet": 3,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 35,
+            "username": "On The Block",
+            "user_account": "OTBcrypto",
+            "text": "THE BLOCK BOYS HAD A GREAT SPACE WITH THE $EGOD TEAM AND COMMUNITY YESTERDAY 🔥\n\nIF YOU MISSED IT MAKE SURE TO LISTEN TO THE RECORDING PINNED TO THE TOP OF OUR PAGE! \n\nREMEMBER $DOGE SPELLED BACKWARDS IS $EGOD 👀\n\nFADE AT YOUR OWN RISK ⚠️ \n\n@EgodSolana1 https://t.co/m5gNdtpnyg",
+            "created_at": "Tue Apr 09 23:40:40 +0000 2024",
+            "retweet": 4,
+            "likes": 8,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 36,
+            "username": "Tarek",
+            "user_account": "Tarek90968771",
+            "text": "@chiyyun_ Bitcoin, Ethereum, and Dogecoin walk into a bar...",
+            "created_at": "Tue Apr 09 23:39:31 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 37,
+            "username": "ToteMong",
+            "user_account": "TripleXCoiner",
+            "text": "@normXcrypto @thenodedoges SEND DOGES \n$DOGE #drc20\nDSGZxsy9yJj9qctb5Z9SbMZcNWrPqfGH9B",
+            "created_at": "Tue Apr 09 23:37:13 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 38,
+            "username": "TESLARAN",
+            "user_account": "teslaran_doge",
+            "text": "Whats your price prediction for doge by end of the year \n$DOGE #Dogecoin",
+            "created_at": "Tue Apr 09 23:36:54 +0000 2024",
+            "retweet": 4,
+            "likes": 31,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 39,
+            "username": "Nês",
+            "user_account": "InsBrs10",
+            "text": "Join our dynamic trader community today!\n\nhttps://t.co/5SU9wwLkh1\n\n$AHT $VXIT $ENZC $TSLA $HMBL $BB $AMC $GME $ADA $DOGE $COIN  $WMT $FB $PT $PTON $GME $TSLA $MVIS $BABA $ATH $CRM $BLNK $GME $AMC https://t.co/9jdNwvxtRn",
+            "created_at": "Tue Apr 09 23:36:23 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 40,
+            "username": "Betty",
+            "user_account": "Betty45863483",
+            "text": "@normXcrypto @thenodedoges Dogecoin\nDoginals\nThank you! ♥ 🙏 \nhttps://t.co/jXkFndHHcm",
+            "created_at": "Tue Apr 09 23:36:09 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 41,
+            "username": "ouedraogo Ibrahim",
+            "user_account": "ouedraogoI6503",
+            "text": "@ConfecciUND Plot twist: Dogecoin takes over next 😂🚀",
+            "created_at": "Tue Apr 09 23:35:04 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
+            "username": "Thongchan",
+            "user_account": "Gun426897",
+            "text": "@Jceysouth @MrBigWhaleREAL Woof woof, Dogecoin's cousin! 🐾",
+            "created_at": "Tue Apr 09 23:34:23 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 43,
+            "username": "Priney",
+            "user_account": "Priney10",
+            "text": "@redoonton @thenotcoin @durov $REDO is the $DOGE of $TON 😎🐶 https://t.co/kz4hcrjXbD",
+            "created_at": "Tue Apr 09 23:32:52 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 44,
+            "username": "Betty",
+            "user_account": "Betty45863483",
+            "text": "@normXcrypto @MyDogeOfficial @MCDoge_1 @Nakdnick Woof, Dogecoin, Doginals.\nThank you ♥ 🙏",
+            "created_at": "Tue Apr 09 23:32:51 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 45,
+            "username": "Samanda Ronisha",
+            "user_account": "RonishaSam77831",
+            "text": "@mclcrypto_ @SenderLabs Dogecoin's price volatility analysis.",
+            "created_at": "Tue Apr 09 23:32:32 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 46,
+            "username": "D for D 🦈😻",
+            "user_account": "0DforD0",
+            "text": "@nobrainflip We have exactly one year from now ! \n\nIn one year, imagine how high these memecoins are gonna fly: \n\n$BOBA - Dogecoin Founder's Cat ( I'm in ) \n$SC - One of the most hyped meme Cat\n$STUDY - Best Meme cult formation ( I'm in )\n$HOBBES - Ansem's cat \n$CWH - Catwifhoodie great team",
+            "created_at": "Tue Apr 09 23:32:26 +0000 2024",
+            "retweet": 0,
+            "likes": 4,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 47,
+            "username": "InnovatekMobile",
+            "user_account": "Neome_com",
+            "text": "CRYPTO BREAKING NEWS\nDogecoin Stalls At $0.2: Why You Should  Not Sell Your DOGE Below $1. The Dogecoin price has been unable to  properly break out of the $0.2 as bears have set up resistance around  this level. This has led to a stall ar... check us out @ https://t.co/hXBG4VFU23",
+            "created_at": "Tue Apr 09 23:31:56 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 48,
+            "username": "Nês",
+            "user_account": "InsBrs10",
+            "text": "Celebrate 300% gains on $BTC this week.\n\nhttps://t.co/5SU9wwLkh1\n\n$BONK $BTC $SOL $BAKE $INJ $SEI $AVAX $XRP $STX $LPT $ORDI $TIA $RUNE $SATS $DIA $ETH $SHIB $DOGE $PEPE $BNB $JTO https://t.co/ftnK0zcQdZ",
+            "created_at": "Tue Apr 09 23:31:05 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 49,
+            "username": "🚨BREAKING",
+            "user_account": "Tokennewsnow",
+            "text": "What Adds to Dogecoin’s Cross-Border Allure: Global Appeal of the Memecoin Analyzed? https://t.co/W9E7oG2YDQ #cryptocurrency #digital-currency #dogecoin #global-appeal",
+            "created_at": "Tue Apr 09 23:30:52 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 50,
+            "username": "Wajdi Hichri",
+            "user_account": "hichri311",
+            "text": "@KrabsDividende When you check your portfolio and realize your dogecoin is still just a dogecoin.  🐶",
+            "created_at": "Tue Apr 09 23:30:28 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 51,
+            "username": "ÐOGE-EMPIRE.𝕏 🚀 🇺🇸 🐕⚡️",
+            "user_account": "CryptoSLE10",
+            "text": "No they won’t.  Literally no one will buy a coffee with #BTC\n\n$DOGE is the new money.",
+            "created_at": "Tue Apr 09 23:29:23 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 52,
+            "username": "Avareynolds",
+            "user_account": "avareynoldso",
+            "text": "$ASTRA presents an enticing big investment 💵💵💵Diversification is key 💯💯💯\n\nholdings in $LINK, $RIO, $DOGE, $DOT, $INJ, $PYR,  $DAG, $SOL, $VET, $KAS.💰💰",
+            "created_at": "Tue Apr 09 23:29:02 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 53,
+            "username": "Sharmila Acharya",
+            "user_account": "ac58863",
+            "text": "Buying $ASTRA below $2, @AstraAIofficial is going to $100 each in 2024, watch this space. 🚀🌌\n\nAlso have positions in: $DOGE, $LINK, $DAG, $VET, $INJ, $XRP, $SOL, $PYR, $MATIC, $FTM, $SHIB, $ARB.",
+            "created_at": "Tue Apr 09 23:27:29 +0000 2024",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 54,
+            "username": "Dave P.",
+            "user_account": "Djtr8der",
+            "text": "@AltcoinDailyio And Dogecoin is the dog with 2 paralyzed legs that has uncontrollable shits.",
+            "created_at": "Tue Apr 09 23:27:16 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 55,
+            "username": "Trader ELM",
+            "user_account": "FerasElma",
+            "text": "Cut $DOGE here gn https://t.co/kjoK3YKvDt",
+            "created_at": "Tue Apr 09 23:26:44 +0000 2024",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
+            "username": "Ameliachavez10",
+            "user_account": "AmeliaHavez10",
+            "text": "The AI narrative continues to gain momentum, and $ASTRA going high 🚀 🚀 📈 📈 \n\n includes $LINK, $RIO, $DOGE, $DOT, $DAG, $SOL, $VET, $KAS, $MATIC.",
+            "created_at": "Tue Apr 09 23:25:40 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 57,
+            "username": "Nês",
+            "user_account": "InsBrs10",
+            "text": "Another week, another 300% boost with $BTC.\n\nhttps://t.co/5SU9wwLkh1\n\n$BTC $ETH $SOL $SUI $ETC $ARB $OP $ENS $PEOPLE $XRP $DOGE $ADA $MATIC $INSP $SEI $MEME $XAI $TET $PEPE $BONK $NEON $FTT $BLUR $HNT $TIA $LTC https://t.co/dLIQplWqWX",
+            "created_at": "Tue Apr 09 23:24:00 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 58,
+            "username": "Nês",
+            "user_account": "InsBrs10",
+            "text": "Don't miss out on the next big trade – join us now\n\nhttps://t.co/5SU9wwLkh1\n\n$BTC $BONK $SOL $BAKE $WIF $OP $INJ $PEPE $DOGE $ARB $AVAX $XRP $TIA $NEAR $LUNC $USTC $SHIB $ETH $LINK $TRB $ordi https://t.co/7Vw341qNn4",
+            "created_at": "Tue Apr 09 23:23:07 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 59,
+            "username": "GM - the last degen (🪈,🪈)",
+            "user_account": "GiftMoula",
+            "text": "ONLY CAT ON DOGECHAIN WITH THE BIGGEST LIQ DONT FADE $doge $katz $omnom $dinu",
+            "created_at": "Tue Apr 09 23:22:57 +0000 2024",
+            "retweet": 0,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
+            "username": "Nês",
+            "user_account": "InsBrs10",
+            "text": "Trade confidently with our community-backed trading signals\n\nhttps://t.co/5SU9wwLkh1\n\n$SOL $BONK $WLD $AVAX $ICP $TIA $ALPHA $RSTS $LRC $CIRUS $COQ $SHIB $SATS $BTC $MUBI $AXL $BGB $EOS $DYDX $EGLD $LTC $MKR $DOGE $LEO $OSMO $TRX $FIL $ADA $DOT $INJ https://t.co/NtUTIrosw4",
+            "created_at": "Tue Apr 09 23:22:13 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
+            "username": "AXELARATOR 🐐",
+            "user_account": "Andry18916980",
+            "text": "@BSCGemsAlert Buff doge coin",
+            "created_at": "Tue Apr 09 23:20:55 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
+            "username": "Bốc Xếp Nhanh 24h",
+            "user_account": "bocxepnhanh24h",
+            "text": "Ignite your trading portfolio with our revolutionary insights\n\nhttps://t.co/FJwp72SFOK\n\n$BTC $ETH $USDT $BNB $XRP $SOL $USDC $ADA $DOGE $AVAX $TRX $LINK $MATIC $DOT $ton https://t.co/PMYJufwbb1",
+            "created_at": "Tue Apr 09 23:20:08 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 63,
+            "username": "みー",
+            "user_account": "cream_lip",
+            "text": "Another week, another 300% leap with $BTC.\n\nhttps://t.co/oltIujzrzd\n\n$BTC $ETH $TIA $KAS $SOL $MATIC $LINK $XRP $MEME $BONK $ORDI $GAS $PEPE $DOGE $RNDR $VIB $VIB $AVAX $RUNE $TRB $FTM $WLD $OP $INJ $STORJ https://t.co/6dZiDXKHvM",
+            "created_at": "Tue Apr 09 23:19:48 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        }
+    ]
+}
