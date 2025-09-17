@@ -10,6 +10,7 @@ import random
 import matplotlib.pyplot as plt
 import csv
 from collections import defaultdict
+from datetime import timedelta
 
 import sys
 from pathlib import Path
@@ -17,8 +18,13 @@ parent_dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(parent_dir))
 from config import COIN_SHORT_NAME, JSON_DICT_NAME
 
-
+'''可修改參數'''
 OUTPUT_FILE = "../data/tweets/count/estimate/"
+
+START_DATE = "2013/12/15"
+
+END_DATE = "2025/07/31"
+'''可修改參數'''
 os.makedirs(OUTPUT_FILE, exist_ok=True)
 
 hour_counter = []
@@ -26,7 +32,20 @@ partial_json_files = []
 completed_json_files = []
 
 # 所有原始檔案 (把所有結尾是 .json 的檔案抓出來)
-json_files = glob(f'../data/tweets/{COIN_SHORT_NAME}/*/*/*.json')
+json_files = glob(f'../data/tweets/{COIN_SHORT_NAME}/*/*/{COIN_SHORT_NAME}_*.json')
+
+
+# 轉換開始與結束日期
+START_DT = datetime.strptime(START_DATE, "%Y/%m/%d")
+END_DT = datetime.strptime(END_DATE, "%Y/%m/%d") + timedelta(days=1) - timedelta(seconds=1)
+
+def is_in_range(tweets):
+    """檢查該檔案是否在時間範圍內（用第一筆推文時間判斷）"""
+    if not tweets:
+        return False
+    date_dt = datetime.strptime(tweets[0]['created_at'], "%a %b %d %H:%M:%S %z %Y").replace(tzinfo=None)
+    return START_DT <= date_dt <= END_DT
+
 
 
 def hour_distribution():
@@ -37,7 +56,7 @@ def hour_distribution():
             data = json.load(file)
 
         tweets = data[JSON_DICT_NAME]
-        if not tweets:
+        if not tweets or not is_in_range(tweets):
             continue
 
         # 抓最早時間來判斷是否完整
@@ -98,7 +117,7 @@ def estimate(weekday_hour_distribution):
             data = json.load(file)
 
         tweets = data[JSON_DICT_NAME]
-        if not tweets:
+        if not tweets or not is_in_range(tweets):
             continue
 
         # 取得檔名
@@ -157,6 +176,9 @@ def estimate(weekday_hour_distribution):
                 "expansion_ratio": 1
             })
 
+        # 按日期排序
+        results.sort(key=lambda x: x['date'])
+
         with open(output_path_partial_csv, 'w', newline='', encoding='utf-8-sig') as csvfile:
             fieldnames = ['filename', 'date', 'isCompleteData', 'original_count', 'predicted_count', 'expansion_ratio']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -176,7 +198,7 @@ def accuracy(weekday_hour_distribution):
             data = json.load(file)
 
         tweets = data[JSON_DICT_NAME]
-        if not tweets:
+        if not tweets or not is_in_range(tweets):
             continue
 
         # 取得日期（假設每個json檔都是一天資料）
@@ -220,6 +242,9 @@ def accuracy(weekday_hour_distribution):
     # 輸出 CSV
     os.makedirs(OUTPUT_FILE, exist_ok=True)
     output_csv_path = os.path.join(OUTPUT_FILE, f"{COIN_SHORT_NAME}_accuracy_predictions.csv")
+
+    # 按日期排序
+    results.sort(key=lambda x: x['date'])
 
     with open(output_csv_path, 'w', newline='', encoding='utf-8-sig') as csvfile:
         fieldnames = ['date', 'actual_count', 'predicted_count']
