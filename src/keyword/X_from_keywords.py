@@ -33,7 +33,7 @@ def tokenize_tweets(tweets):
 
 # === 參數設定 ===
 DATA_DIR = "../data/keyword/machine_learning"
-TWEET_DIR = f"../data/filtered_tweets/normal_tweets/*"
+TWEET_DIR = f"../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*"
 OUT_DIR = "../data/ml/dataset/keyword"
 
 # === 自訂時間範圍 (格式：YYYY/MM) ===
@@ -43,7 +43,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 
 # === 讀取單一幣種的詞彙表 ===
 json_path = os.path.join(DATA_DIR, "all_keywords.json")
-with open(json_path, "r", encoding="utf-8") as f:
+with open(json_path, "r", encoding="utf-8-sig") as f:
     vocab = json.load(f)
 
 all_vocab = list(vocab)
@@ -54,7 +54,7 @@ word2idx = {w: i for i, w in enumerate(all_vocab)}
 # === 找出所有 JSON 檔案 ===
 end_year, end_month = map(int, END_DATE.split('/'))
 all_files = []
-for year_folder in glob.glob("../data/filtered_tweets/normal_tweets/*"):
+for year_folder in glob.glob(TWEET_DIR):
     year = int(os.path.basename(year_folder))
     if year > end_year:
         continue
@@ -74,7 +74,7 @@ ids = []
 
 row_idx = 0
 for jf in tqdm(json_files, desc="處理推文檔案"):
-    with open(jf, "r", encoding="utf-8") as f:
+    with open(jf, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
     tweets = data.get(JSON_DICT_NAME, [])

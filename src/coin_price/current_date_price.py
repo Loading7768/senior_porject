@@ -29,7 +29,7 @@ DOGE_price.csv：
 '''可修改參數'''
 # === 修改為你的 CSV 檔與 JSON 資料夾路徑 ===
 PRICE_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_price.csv"
-NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/*/*/*.json"  # 是針對 normal_tweet 做運算
+NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*/*/*.json"  # 是針對 normal_tweet 做運算
 OUTPUT_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_price_output.csv"
 
 # === 自訂時間範圍 (格式：YYYY/MM/DD) ===
