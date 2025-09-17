@@ -37,6 +37,10 @@ START_DATE = "2013/12/15"
 END_DATE   = "2025/07/31"
 
 SHIFT = 5
+
+FIRST_AND_SECOND_CLASSIFIER_Y = True
+
+SECOND_CLASSIFIER_X = True
 '''可修改參數'''
 
 
@@ -210,47 +214,58 @@ print(f"✅ 已儲存到 {OUTPUT_CSV_PATH}")
 
 
 # ---------------- 儲存 price_diff_rate_tomorrow 到 numpy ----------------
-# 過濾出有推文且 price_diff_rate_tomorrow 不是 NaN
-filtered_df = df_output[(df_output['has_tweet'] == True) & (df_output['price_diff_rate_tomorrow'].notna())]
+if FIRST_AND_SECOND_CLASSIFIER_Y:
+    # 過濾出有推文且 price_diff_rate_tomorrow 不是 NaN
+    filtered_df = df_output[(df_output['has_tweet'] == True) & (df_output['price_diff_rate_tomorrow'].notna())]
 
-# 依 tweet_count 重複價差
-expanded_price_diffs = []
-for _, row in filtered_df.iterrows():
-    expanded_price_diffs.extend([row['price_diff_rate_tomorrow']] * row['tweet_count'])
+    # 先存原始的 price_diff_rate_tomorrow
+    original_price_diff_array = filtered_df['price_diff_rate_tomorrow'].to_numpy(dtype=float)
+    original_save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff_original.npy"
+    np.save(original_save_path, original_price_diff_array)
+    print(original_price_diff_array[:20])  # 預覽前 20 筆
+    print(f"✅ 已儲存原始 price_diff_rate_tomorrow 矩陣到 {original_save_path}，共: {len(original_price_diff_array)} 筆\n")
+    
 
-# 轉成 numpy 陣列並儲存
-price_diff_array = np.array(expanded_price_diffs, dtype=float)
-save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy"
-np.save(save_path, price_diff_array)
+    # 依 tweet_count 重複價差
+    expanded_price_diffs = []
+    for _, row in filtered_df.iterrows():
+        expanded_price_diffs.extend([row['price_diff_rate_tomorrow']] * row['tweet_count'])
 
-print(expanded_price_diffs[:20])  # 預覽前 20 筆
-print(f"\n✅ 已儲存 price_diff_rate_tomorrow 矩陣到 {save_path}，共: {len(expanded_price_diffs)} 筆\n")
+    # 轉成 numpy 陣列並儲存
+    price_diff_array = np.array(expanded_price_diffs, dtype=float)
+    save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff.npy"
+    np.save(save_path, price_diff_array)
+
+    print(expanded_price_diffs[:20])  # 預覽前 20 筆
+    print(f"\n✅ 已儲存 price_diff_rate_tomorrow 矩陣到 {save_path}，共: {len(expanded_price_diffs)} 筆\n")
+
 
 
 # ---------------- 儲存過去 SHIFT 天的價差及變化率 ----------------
-# 只保留沒有 NaN 的行
-df_output_clean = df_output.dropna()
+if SECOND_CLASSIFIER_X:
+    # 只保留沒有 NaN 的行
+    df_output_clean = df_output.dropna()
 
-columns_to_save = []
-for i in range(1, SHIFT + 1):
-    columns_to_save.append(f'price_diff_{i}daysbefore')
-    columns_to_save.append(f'price_diff_rate_{i}daysbefore')
+    columns_to_save = []
+    for i in range(1, SHIFT + 1):
+        columns_to_save.append(f'price_diff_{i}daysbefore')
+        columns_to_save.append(f'price_diff_rate_{i}daysbefore')
 
-# 過濾掉有 NaN 的行
-filtered_df = df_output.dropna(subset=columns_to_save)
+    # 過濾掉有 NaN 的行
+    filtered_df = df_output.dropna(subset=columns_to_save)
 
-# 過濾有推文且對應欄位不是 NaN
-filtered_df = filtered_df[filtered_df['has_tweet'] == True].copy()
+    # 過濾有推文且對應欄位不是 NaN
+    filtered_df = filtered_df[filtered_df['has_tweet'] == True].copy()
 
-# 直接轉成 numpy
-all_price_diffs_array = filtered_df[columns_to_save].to_numpy(dtype=float)
+    # 直接轉成 numpy
+    all_price_diffs_array = filtered_df[columns_to_save].to_numpy(dtype=float)
 
-# 儲存
-save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff_past{SHIFT}days.npy"
-np.save(save_path, all_price_diffs_array)
+    # 儲存
+    save_path = f"../data/ml/dataset/coin_price/{COIN_SHORT_NAME}_price_diff_past{SHIFT}days.npy"
+    np.save(save_path, all_price_diffs_array)
 
-print(all_price_diffs_array[:10])  # 預覽前 20 筆
-print(f"\n✅ 已儲存 {COIN_SHORT_NAME}_price_diff_past{SHIFT}days.npy，形狀: {all_price_diffs_array.shape}")
+    print(all_price_diffs_array[:10])  # 預覽前 20 筆
+    print(f"\n✅ 已儲存 {COIN_SHORT_NAME}_price_diff_past{SHIFT}days.npy，形狀: {all_price_diffs_array.shape}")
 
 
 
