@@ -4,16 +4,20 @@ from datetime import datetime
 from collections import defaultdict
 from tqdm import tqdm
 
+from pathlib import Path
+import sys
+parent_dir = Path(__file__).resolve().parent.parent
+sys.path.append(str(parent_dir))
+from pepe_config import JSON_DICT_NAME, COIN_SHORT_NAME
+
 # === 自訂參數 ===
-JSON_COIN = "PEPE"
-COIN_TYPE = "PEPE"
-LIMIT = 10  # 1 小時內「至少」這麼多則就標記為 spammer；若要「>10」改成 11
+LIMIT = 20  # 每天超過這個數量的推文就標記為 spammer
 
 # === 路徑 ===
-root_folder = f"../data/author_all/{COIN_TYPE}"
-output_folder = f"../data/spammer/{COIN_TYPE}/"
+root_folder = f"../data/author_all/{COIN_SHORT_NAME}"
+output_folder = f"../data/spammer/{COIN_SHORT_NAME}/"
 os.makedirs(output_folder, exist_ok=True)
-output_file = os.path.join(output_folder, f"{COIN_TYPE}_spammers.txt")
+output_file = os.path.join(output_folder, f"{COIN_SHORT_NAME}_spammers.txt")
 
 # === 解析時間（兼容幾種常見格式） ===
 def parse_time(s):
@@ -49,7 +53,7 @@ for file_path in tqdm(all_files, desc="讀取 JSON 檔案"):
         print(f"❌ 讀取失敗：{file_path}，錯誤：{e}")
         continue
 
-    tweets = data.get(JSON_COIN)
+    tweets = data.get(JSON_DICT_NAME)
     if not isinstance(tweets, list):
         continue
 
@@ -59,7 +63,7 @@ for file_path in tqdm(all_files, desc="讀取 JSON 檔案"):
         if user and t:
             author_times[user].append(t)
 
-# === 滑動視窗檢查：任意 1 小時內 >= LIMIT 則 ===
+# === 判斷條件：某一天內推文數量超過 LIMIT 就是 spammer ===
 spammers = set()
 
 print(f"⚡ 開始檢查 {len(author_times)} 位作者...")
@@ -67,15 +71,15 @@ print(f"⚡ 開始檢查 {len(author_times)} 位作者...")
 for user, times in tqdm(author_times.items(), desc="檢查作者"):
     if len(times) < LIMIT:
         continue
-    times.sort()
-    left = 0
-    for right in range(len(times)):
-        while (times[right] - times[left]).total_seconds() > 3600:
-            left += 1
-        window_size = right - left + 1
-        if window_size >= LIMIT:
-            spammers.add(user)
-            break
+
+    # 將時間轉為 date（只保留年月日）並統計每一天的推文數量
+    date_counts = defaultdict(int)
+    for t in times:
+        date_counts[t.date()] += 1
+
+    # 如果任何一天超過 LIMIT 則視為 spammer
+    if any(count >= LIMIT for count in date_counts.values()):
+        spammers.add(user)
 
 # === 輸出 spammer 名單 ===
 with open(output_file, "w", encoding="utf-8-sig") as f:
