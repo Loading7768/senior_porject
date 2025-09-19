@@ -1202,6 +1202,16 @@
         },
         {
             "tweet_count": 121,
+            "username": "BitCoinReporter",
+            "user_account": "BitCoinReporter",
+            "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants - PCWorld (blog) http://t.co/KWrsgp1WIy #bitcoin",
+            "created_at": "Tue May 06 23:05:16 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 122,
             "username": "Little Shibe",
             "user_account": "LittleShibe",
             "text": "#dogecoin shibes are so fun to tweet with",
@@ -1211,7 +1221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 122,
+            "tweet_count": 123,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Possible answer to Dogecoin Josh Wise sponsorship issue. by stlcp - http://t.co/5XNJ4Lq5mz",
@@ -1221,20 +1231,10 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 123,
-            "username": "Dogebot",
-            "user_account": "doge_bot",
-            "text": "New Post in /r/dogecoin - All star 25 vote club! comment here by Dirtybird204 - http://t.co/uqqMnfkqbC",
-            "created_at": "Tue May 06 23:03:43 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
             "tweet_count": 124,
             "username": "Dogebot",
             "user_account": "doge_bot",
-            "text": "New Post in /r/dogecoin - Cut &amp; Paste by snowdog2012 - http://t.co/uxqGZu7gVM",
+            "text": "New Post in /r/dogecoin - All star 25 vote club! comment here by Dirtybird204 - http://t.co/uqqMnfkqbC",
             "created_at": "Tue May 06 23:03:43 +0000 2014",
             "retweet": 0,
             "likes": 0,
@@ -1244,6 +1244,16 @@
             "tweet_count": 125,
             "username": "Dogebot",
             "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Cut &amp; Paste by snowdog2012 - http://t.co/uxqGZu7gVM",
+            "created_at": "Tue May 06 23:03:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 126,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Group Nascar texts from Talladega, featuring Dogecoin! (x-post /r/NASCAR) by ben48 - http://t.co/z7giy5Hexh",
             "created_at": "Tue May 06 23:03:42 +0000 2014",
             "retweet": 0,
@@ -1251,7 +1261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 126,
+            "tweet_count": 127,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Frodoge and Joshwise by MSAE2000 - http://t.co/F8FIV4VGG1",
@@ -1261,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 127,
+            "tweet_count": 128,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Wallet not opening. It will say it is open in applications but no window appears. Mult... http://t.co/4NebpdoppF",
@@ -1271,20 +1281,10 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 128,
-            "username": "Dogebot",
-            "user_account": "doge_bot",
-            "text": "New Post in /r/dogecoin - What is dogecoin? by I_eat_pollen_AMA - http://t.co/WnsKCFXvOY",
-            "created_at": "Tue May 06 23:03:39 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
             "tweet_count": 129,
             "username": "Dogebot",
             "user_account": "doge_bot",
-            "text": "New Post in /r/dogecoin - MRW when I see /r/dogecoin filled with MRW posts by tylenool - http://t.co/99qKiK7GAd",
+            "text": "New Post in /r/dogecoin - What is dogecoin? by I_eat_pollen_AMA - http://t.co/WnsKCFXvOY",
             "created_at": "Tue May 06 23:03:39 +0000 2014",
             "retweet": 0,
             "likes": 0,
@@ -1294,6 +1294,16 @@
             "tweet_count": 130,
             "username": "Dogebot",
             "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - MRW when I see /r/dogecoin filled with MRW posts by tylenool - http://t.co/99qKiK7GAd",
+            "created_at": "Tue May 06 23:03:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 131,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Hello everyone, I'm a newbie! by TheDudaLuda - http://t.co/6hIqd7rjR5",
             "created_at": "Tue May 06 23:03:38 +0000 2014",
             "retweet": 0,
@@ -1301,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 132,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - As a new shibe waiting for the dogecoin wallet to synchronize by Howdanrocks - http://t.co/DMR5ESj622",
@@ -1311,7 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
+            "tweet_count": 133,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - dogecoin is a popular subreddit! by SM0SH - http://t.co/eQYM5SB6Uf",
@@ -1321,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
+            "tweet_count": 134,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Need more requests! by TheGamingAlternate - http://t.co/D62ff3Lf4H",
@@ -1331,7 +1341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
+            "tweet_count": 135,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - These sayings might be useful for some young shibes. I found it to be true and useful ... http://t.co/wl8AzOLHTh",
@@ -1341,7 +1351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 135,
+            "tweet_count": 136,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - change the sticker on dogecar to focus attention on charity of choice. by tomcarbon - http://t.co/ziuyMjcvPc",
@@ -1351,7 +1361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
+            "tweet_count": 137,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - The 'I don't even know what MRW means' giveaway! by couchdive - http://t.co/G4qC7oMRre",
@@ -1361,7 +1371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
+            "tweet_count": 138,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Whenever I backup my wallet to a usb drive... by 4thdoge - http://t.co/PZJW57D8Lv",
@@ -1371,7 +1381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 138,
+            "tweet_count": 139,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Not sure how many people saw this Awesomeness over at Shibe Mint... by Nicapizza - http://t.co/OBfHw6Rojl",
@@ -1381,7 +1391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 139,
+            "tweet_count": 140,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Tips haha :D by pixlmaster788 - http://t.co/OQEgV47idV",
@@ -1391,7 +1401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 140,
+            "tweet_count": 141,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Bad Luck New Shibe by EntropyLoL - http://t.co/zLVxWsn0sx",
@@ -1401,7 +1411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 141,
+            "tweet_count": 142,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Small BTC-Doge trade. by SaveTheRoads - http://t.co/jaN8SlKTwu",
@@ -1411,7 +1421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 142,
+            "tweet_count": 143,
             "username": "Sender//",
             "user_account": "sender47",
             "text": "@LittleShibe @DTOU_Blog so we should tip #dogecoin until the end of the known universe...mmmm 'TIL ZE EENDDDD!!!",
@@ -1421,7 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 143,
+            "tweet_count": 144,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: WISE MOVE: NASCAR's Josh Wise gets into... http://t.co/tOL2fHvicz\n #DenisPavel #PhilParsonsRacing #TalladegaSuperspeedway #WiseNo",
@@ -1431,7 +1441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 144,
+            "tweet_count": 145,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "Seriously guys, we can't stop voting for Josh by Canadianbrony reached HOT status on /r/dogecoin! http://t.co/b4W7u20u6Y",
@@ -1441,7 +1451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 145,
+            "tweet_count": 146,
             "username": "Breaking PDX News",
             "user_account": "breakingPDXnews",
             "text": "When Dogecoin met NASCAR. So wow.: Last time I caught up with Billy Markus — the Portland-area co-founder of the... http://t.co/OnfI8ECT1O",
@@ -1451,7 +1461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 146,
+            "tweet_count": 147,
             "username": "Amelia Severin",
             "user_account": "ORSmallBiz",
             "text": "[Portland Biz Jrnl] When Dogecoin met NASCAR. So wow. http://t.co/ynPE7l7H18",
@@ -1461,7 +1471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
+            "tweet_count": 148,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Greta Van Susteren To Jon Stewart: 'Two Wrongs Don't Make A Right' http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #phot...",
@@ -1471,7 +1481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 148,
+            "tweet_count": 149,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "FBI Finds Synagogue Directions In Suspected Killer's Home http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#...",
@@ -1481,7 +1491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
+            "tweet_count": 150,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Donald Sterling Used Us As Image Boost, Charities Reveal http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#f...",
@@ -1491,7 +1501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 150,
+            "tweet_count": 151,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "In The Future, All Tennis Matches Might Be Won By A Federer http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -1501,7 +1511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 152,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Rx for Health Care: Nursing as a Force for Change http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
@@ -1511,7 +1521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
+            "tweet_count": 153,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Honor Your Mama http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, ...",
@@ -1521,7 +1531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
+            "tweet_count": 154,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Why You Shouldn't Overlook Hiring a Male Babysitter http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -1531,7 +1541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 154,
+            "tweet_count": 155,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Where Has All the Money Gone for Fighting Tuberculosis? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -1541,7 +1551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
+            "tweet_count": 156,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "End The War On Drugs, Say Nobel Prize-Winning Economists http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#f...",
@@ -1551,7 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 156,
+            "tweet_count": 157,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Lawyers For Man Convicted In Chandra Levy Detail Reasons For New Trial http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #...",
@@ -1561,7 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 157,
+            "tweet_count": 158,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Miley Cyrus Denies Drug Overdose Put Her In The Hospital http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#f...",
@@ -1571,7 +1581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 158,
+            "tweet_count": 159,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Single and at the Gym? What Not to Wear http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -1581,7 +1591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 159,
+            "tweet_count": 160,
             "username": "finnious Scott Finney 📈☕🤝⛓️",
             "user_account": "finnious",
             "text": "Send Dogecoin here... Thanks http://t.co/2PjGXdwWtZ",
@@ -1591,7 +1601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 160,
+            "tweet_count": 161,
             "username": "O'Boy Sports",
             "user_account": "OBoySports",
             "text": "Update: NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega finish - Fox News http://t.co/tQNrKu04Gw",
@@ -1601,7 +1611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
+            "tweet_count": 162,
             "username": "DepartmentofAwesome",
             "user_account": "DeptAwesomeBeer",
             "text": "@sacbike With the Dogecoin Meme, I thought you would accept Dogecoin, oh well.  Much Wow Sac Bike!  #awesome #bikemonth #givebigdog",
@@ -1611,7 +1621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 162,
+            "tweet_count": 163,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "Dogey's Dreamland by DogeDraws just recieved TOP status on /r/dogecoin! http://t.co/1Mfqx5TlsT",
@@ -1621,7 +1631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 163,
+            "tweet_count": 164,
             "username": "Oregon News",
             "user_account": "newsoregon",
             "text": "Portland Business - When Dogecoin met NASCAR. So wow. - Last time I caught up with Billy Markus — the Po... http://t.co/Ko0Q4pEGOq",
@@ -1631,7 +1641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 165,
             "username": "Robby Russell",
             "user_account": "robbyrussell",
             "text": "@pdxbizmalia @dogecoin …not NASCOIN?",
@@ -1641,7 +1651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 166,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Be in Charge of Your Own Happiness http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail...",
@@ -1651,7 +1661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
+            "tweet_count": 167,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Muslim Wrestler Gets OK From NCAA To Compete With Beard http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -1661,7 +1671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 167,
+            "tweet_count": 168,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How to Live With Purpose, Identify Your Values and Improve Your Leadership http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #lov...",
@@ -1671,7 +1681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 168,
+            "tweet_count": 169,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The America's Cup Comes to BBB Hawaii http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
@@ -1681,7 +1691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
+            "tweet_count": 170,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Mother's Day Image That Says It All http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -1691,7 +1701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 170,
+            "tweet_count": 171,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Power of Our Food Choices http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -1701,7 +1711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 171,
+            "tweet_count": 172,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "16-Year-Old Graduates From High School AND College In Same Week http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photogr...",
@@ -1711,7 +1721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 172,
+            "tweet_count": 173,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How I Passed on My Childhood History and Values to My Grandchildren http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #pho...",
@@ -1721,7 +1731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 173,
+            "tweet_count": 174,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Couple Who Survived Deadly Arkansas Tornado Weds Amid The Wreckage Of Their Home http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news...",
@@ -1731,7 +1741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 175,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "A Thin Margin for Error http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bu...",
@@ -1741,7 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
+            "tweet_count": 176,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Be in Charge of Your Own Happiness http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail...",
@@ -1751,7 +1761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 176,
+            "tweet_count": 177,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Muslim Wrestler Gets OK From NCAA To Compete With Beard http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -1761,7 +1771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 177,
+            "tweet_count": 178,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How to Live With Purpose, Identify Your Values and Improve Your Leadership http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #lov...",
@@ -1771,7 +1781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 178,
+            "tweet_count": 179,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The America's Cup Comes to BBB Hawaii http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
@@ -1781,7 +1791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
+            "tweet_count": 180,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Mother's Day Image That Says It All http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -1791,7 +1801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 180,
+            "tweet_count": 181,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Power of Our Food Choices http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -1801,7 +1811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 181,
+            "tweet_count": 182,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "16-Year-Old Graduates From High School AND College In Same Week http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photogr...",
@@ -1811,7 +1821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
+            "tweet_count": 183,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How I Passed on My Childhood History and Values to My Grandchildren http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #pho...",
@@ -1821,7 +1831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 183,
+            "tweet_count": 184,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Couple Who Survived Deadly Arkansas Tornado Weds Amid The Wreckage Of Their Home http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news...",
@@ -1831,7 +1841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 184,
+            "tweet_count": 185,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "A Thin Margin for Error http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bu...",
@@ -1841,7 +1851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
+            "tweet_count": 186,
             "username": "Bitcoin on reddit",
             "user_account": "BTCreddit",
             "text": "Sharp increase in searches for dogecoin according to Google Trends http://t.co/IcUYyYgVVk [http://t.co/oRFpXytvV2] #market",
@@ -1851,7 +1861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 186,
+            "tweet_count": 187,
             "username": "The Doge Report",
             "user_account": "Doge_Report",
             "text": "Dogecoin meets NASCAR at Talladega: 90 Seconds on The Verge - http://t.co/bUSgbI9uQG  #cryptocurrency #bitcoin #dogecoin",
@@ -1861,7 +1871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 187,
+            "tweet_count": 188,
             "username": "The Doge Report",
             "user_account": "Doge_Report",
             "text": "Listen To NASCAR Explain Dogecoin Thanks To 'The Google Machine' - http://t.co/bUSgbI9uQG  #cryptocurrency #bitcoin #dogecoin",
@@ -1871,7 +1881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 188,
+            "tweet_count": 189,
             "username": "Portland Business Journal",
             "user_account": "PDXBIZJournal",
             "text": "When Dogecoin met NASCAR. So wow. http://t.co/A4W1bneNZb",
@@ -1881,7 +1891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 189,
+            "tweet_count": 190,
             "username": "E meth",
             "user_account": "01101O10",
             "text": "i like dogecoin people…",
@@ -1891,7 +1901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 190,
+            "tweet_count": 191,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - My Confession Doge. I don't even have a wallet... by thewholeisgreater - http://t.co/fZBMK8463t",
@@ -1901,7 +1911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 191,
+            "tweet_count": 192,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Frodoge and Joshwise by MSAE2000 - http://t.co/F8FIV4VGG1",
@@ -1911,7 +1921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 192,
+            "tweet_count": 193,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Wallet not opening. It will say it is open in applications but no window appears. Mult... http://t.co/4NebpdoppF",
@@ -1921,7 +1931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 193,
+            "tweet_count": 194,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What is dogecoin? by I_eat_pollen_AMA - http://t.co/WnsKCFXvOY",
@@ -1931,7 +1941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 194,
+            "tweet_count": 195,
             "username": "Portland Link",
             "user_account": "PortlandLink",
             "text": "When Dogecoin met NASCAR. So wow. http://t.co/aD22yA7kzt #Portland #news",
@@ -1941,7 +1951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 195,
+            "tweet_count": 196,
             "username": "خليفة",
             "user_account": "babttz",
             "text": "Haha Follow the iconic Doge on Vine http://t.co/35l4A6GB32 #dogecoin #dog #mascot (@verge)",
@@ -1951,7 +1961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 196,
+            "tweet_count": 197,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[03:30 PM] 1 #DOGE is worth: \n$0.000457 USD \n฿0.00000106 #BTC \n€0.000328 EUR #DogeCoin",
@@ -1961,7 +1971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 197,
+            "tweet_count": 198,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "##NASCAR: NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega... http://t.co/syz08aqJIi\n #FordFusion #ShibaInu #TalladegaSpeedway",
@@ -1971,7 +1981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 198,
+            "tweet_count": 199,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Eczema May Reduce Skin Cancer Risk, Study In Mice Suggests http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -1981,7 +1991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 199,
+            "tweet_count": 200,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Was Leslie Jones' Slavery 'SNL' Skit Offensive? Viewers Share Their Thoughts http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #l...",
@@ -1991,7 +2001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 200,
+            "tweet_count": 201,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "4 Activities College-bound Students Should NOT Do This Summer http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -2001,7 +2011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 201,
+            "tweet_count": 202,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Yoga: How We Serve Runaway Youth http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
@@ -2011,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 202,
+            "tweet_count": 203,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "An Open Letter to Shailene Woodley on Feminism, Respect and the Big Picture http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #lo...",
@@ -2021,7 +2031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 203,
+            "tweet_count": 204,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "What's Your Strategy for Keeping Your Kids Alive in the Car? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograph...",
@@ -2031,7 +2041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 204,
+            "tweet_count": 205,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How India-US can learn from US-Canada ties http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #healt...",
@@ -2041,7 +2051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 205,
+            "tweet_count": 206,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Delusional Freedom Fighter http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -2051,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 206,
+            "tweet_count": 207,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "'Duck Dynasty's' Miss Kay Reveals Why She Didn't Leave Phil Robertson After He Cheated http://t.co/aDp889F9Ch #money #dogecoin #bitcoin...",
@@ -2061,7 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 207,
+            "tweet_count": 208,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Social Media in the Workplace is Going Backwards http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
@@ -2071,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 208,
+            "tweet_count": 209,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "I'm a Failure, and You Are Too http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -2081,7 +2091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 209,
+            "tweet_count": 210,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Peter Dinklage To Narrate 'Mini Monsters' http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
@@ -2091,7 +2101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 210,
+            "tweet_count": 211,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Donna Summer + Slasher Flicks = Killer of a Good Time at Silver Lake's Cavern Club http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #ne...",
@@ -2101,7 +2111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 211,
+            "tweet_count": 212,
             "username": "Gareth Cross",
             "user_account": "garethvcross",
             "text": "@thebadactress quite old tbf, he even has his own money http://t.co/BitysfrlvH",
@@ -2111,7 +2121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 212,
+            "tweet_count": 213,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "##NASCAR: NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega... http://t.co/syz08aqJIi\n #FordFusion #ShibaInu #TalladegaSpeedway",
@@ -2121,7 +2131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 213,
+            "tweet_count": 214,
             "username": "Nascar show",
             "user_account": "Nascarshow",
             "text": "NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega finish - Fox News http://t.co/9KCNC5sVY7",
@@ -2131,7 +2141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 214,
+            "tweet_count": 215,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Eczema May Reduce Skin Cancer Risk, Study In Mice Suggests http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -2141,7 +2151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 215,
+            "tweet_count": 216,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Was Leslie Jones' Slavery 'SNL' Skit Offensive? Viewers Share Their Thoughts http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #l...",
@@ -2151,7 +2161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 216,
+            "tweet_count": 217,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "4 Activities College-bound Students Should NOT Do This Summer http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -2161,7 +2171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 217,
+            "tweet_count": 218,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Yoga: How We Serve Runaway Youth http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
@@ -2171,7 +2181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 218,
+            "tweet_count": 219,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "An Open Letter to Shailene Woodley on Feminism, Respect and the Big Picture http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #lo...",
@@ -2181,7 +2191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 219,
+            "tweet_count": 220,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "What's Your Strategy for Keeping Your Kids Alive in the Car? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograph...",
@@ -2191,7 +2201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 220,
+            "tweet_count": 221,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How India-US can learn from US-Canada ties http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #healt...",
@@ -2201,7 +2211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 221,
+            "tweet_count": 222,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Delusional Freedom Fighter http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -2211,7 +2221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 222,
+            "tweet_count": 223,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "'Duck Dynasty's' Miss Kay Reveals Why She Didn't Leave Phil Robertson After He Cheated http://t.co/flwwWhjcXY #money #dogecoin #bitcoin...",
@@ -2221,7 +2231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 223,
+            "tweet_count": 224,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Social Media in the Workplace is Going Backwards http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
@@ -2231,7 +2241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 224,
+            "tweet_count": 225,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "I'm a Failure, and You Are Too http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -2241,7 +2251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 225,
+            "tweet_count": 226,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Peter Dinklage To Narrate 'Mini Monsters' http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
@@ -2251,7 +2261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 226,
+            "tweet_count": 227,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Donna Summer + Slasher Flicks = Killer of a Good Time at Silver Lake's Cavern Club http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #ne...",
@@ -2261,7 +2271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 227,
+            "tweet_count": 228,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Ben Harper Sings 'Learn It All Again Tomorrow' With His Mother, Ellen http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #p...",
@@ -2271,7 +2281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 228,
+            "tweet_count": 229,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "There's A Lot More To Uruguay's Legal Weed Than The $1-A-Gram Price http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #pho...",
@@ -2281,7 +2291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 229,
+            "tweet_count": 230,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "New York Lawmakers Announce Resolution Calling On Sports Teams To Ban Racial Slurs http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #ne...",
@@ -2291,7 +2301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 230,
+            "tweet_count": 231,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "SC Couple Who Killed Sex Offender Act Out In Court http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
@@ -2301,7 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 231,
+            "tweet_count": 232,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Find Bliss by Going Inward http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, ...",
@@ -2311,7 +2321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 232,
+            "tweet_count": 233,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Telling the Truth About Reconstruction After Breast Cancer http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -2321,7 +2331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 233,
+            "tweet_count": 234,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Climate and Cigarettes: Will the National Climate Assessment Spark Real Action? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news,...",
@@ -2331,7 +2341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 234,
+            "tweet_count": 235,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Photo Diary: A Night Out At Pioneer Works' Village Fête http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -2341,7 +2351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 235,
+            "tweet_count": 236,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How I Became Just Like My Mom http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -2351,7 +2361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 236,
+            "tweet_count": 237,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Mom, Dad... I'm Straight http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #b...",
@@ -2361,7 +2371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 237,
+            "tweet_count": 238,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Blackhawks Player Unable To Speak But Able To Play After Taking Puck To The Throat (GIF) http://t.co/aDp889F9Ch #money #dogecoin #bitco...",
@@ -2371,7 +2381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 238,
+            "tweet_count": 239,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Hayden Panettiere Pulls A Jennifer Lawrence And Falls After The Met Ball http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love,...",
@@ -2381,7 +2391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 239,
+            "tweet_count": 240,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Why Kids Brag and What Parents Can Do About It http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
@@ -2391,7 +2401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 240,
+            "tweet_count": 241,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Amherst College Bans Students From Joining Fraternities http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -2401,7 +2411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 241,
+            "tweet_count": 242,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Hunter Hayes' 'Storyline' Review: 22-Year-Old Singer Impresses On Sophomore Album http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #new...",
@@ -2411,7 +2421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 242,
+            "tweet_count": 243,
             "username": "Gamerholic",
             "user_account": "Gamerholic",
             "text": "@DiazMd24 Win #litecoin, #dogecoin, #peercoin and more on Gamerholic playing video games",
@@ -2421,7 +2431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 243,
+            "tweet_count": 244,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Advertising rates for popular shows on SiriusXM, seems pretty cheap! by DonDogey - http://t.co/kU6fF8FlU8",
@@ -2431,7 +2441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 244,
+            "tweet_count": 245,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Get this man a Doge Singlet!! by UnUnreal - http://t.co/wDTAehs5EW",
@@ -2441,7 +2451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 245,
+            "tweet_count": 246,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Dogecoin before and after halving, impact analysis by doge_alex - http://t.co/odZcoOgv0d",
@@ -2451,7 +2461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 246,
+            "tweet_count": 247,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Possible answer to Dogecoin Josh Wise sponsorship issue. by stlcp - http://t.co/5XNJ4Lq5mz",
@@ -2461,7 +2471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 247,
+            "tweet_count": 248,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - All star 25 vote club! comment here by Dirtybird204 - http://t.co/uqqMnfkqbC",
@@ -2471,7 +2481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 248,
+            "tweet_count": 249,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Cut &amp; Paste by snowdog2012 - http://t.co/uxqGZu7gVM",
@@ -2481,7 +2491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 249,
+            "tweet_count": 250,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Group Nascar texts from Talladega, featuring Dogecoin! (x-post /r/NASCAR) by ben48 - http://t.co/z7giy5Hexh",
@@ -2491,7 +2501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 250,
+            "tweet_count": 251,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - VERY slowly getting to the MOON! by Ocadhla - http://t.co/Htmx9ih1zi",
@@ -2501,7 +2511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 251,
+            "tweet_count": 252,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Operation: Shibebook by goodnames679 - http://t.co/7IOrtiZZT5",
@@ -2511,7 +2521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 252,
+            "tweet_count": 253,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Dogecoin Orbital Mechanics, or I do the MoonMath for you! by 4thdoge - http://t.co/nEvCVnaHWK",
@@ -2521,7 +2531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 253,
+            "tweet_count": 254,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - becoming a trusted seller. by anurag121 - http://t.co/zM2r8PirsB",
@@ -2531,7 +2541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 254,
+            "tweet_count": 255,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What happened to /u/dogetipbot by Snowpea_Marty - http://t.co/L2qcxO44Vi",
@@ -2541,7 +2551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 255,
+            "tweet_count": 256,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - And this goes here. by Pankuma - http://t.co/hqfIlmqFyd",
@@ -2551,7 +2561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 256,
+            "tweet_count": 257,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Dogecoins not entering my wallet? by Fubby2 - http://t.co/J6gqut1j6o",
@@ -2561,7 +2571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 257,
+            "tweet_count": 258,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - I am drunk by Ossinou - http://t.co/N6vJZmFXWE",
@@ -2571,7 +2581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 258,
+            "tweet_count": 259,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Doge tired. by SaveTheRoads - http://t.co/IsyjGkpB8Y",
@@ -2581,7 +2591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 259,
+            "tweet_count": 260,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Josh is a cool dude and I am going to keep NASCARing by doge_doodle - http://t.co/ACUBv0sxmg",
@@ -2591,7 +2601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 260,
+            "tweet_count": 261,
             "username": "antoine93",
             "user_account": "antoine93club",
             "text": "are you fucking kidding me #dogecoin is a thing? impressed.",
@@ -2601,7 +2611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 261,
+            "tweet_count": 262,
             "username": "Scratch Doge",
             "user_account": "scratchdoge",
             "text": "Over ten million wagered at scratchdoge. Get at us #dogecoin",
@@ -2611,7 +2621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 262,
+            "tweet_count": 263,
             "username": "PDXList",
             "user_account": "pdxlist",
             "text": "When Dogecoin met NASCAR. So wow. http://t.co/YLFMv1ffYc #Portland #Oregon",
@@ -2621,7 +2631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 263,
+            "tweet_count": 264,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Ben Harper Sings 'Learn It All Again Tomorrow' With His Mother, Ellen http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #p...",
@@ -2631,7 +2641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 264,
+            "tweet_count": 265,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "There's A Lot More To Uruguay's Legal Weed Than The $1-A-Gram Price http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #pho...",
@@ -2641,7 +2651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 265,
+            "tweet_count": 266,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "New York Lawmakers Announce Resolution Calling On Sports Teams To Ban Racial Slurs http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #ne...",
@@ -2651,7 +2661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 266,
+            "tweet_count": 267,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "SC Couple Who Killed Sex Offender Act Out In Court http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
@@ -2661,7 +2671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 267,
+            "tweet_count": 268,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Find Bliss by Going Inward http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, ...",
@@ -2671,7 +2681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 268,
+            "tweet_count": 269,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Telling the Truth About Reconstruction After Breast Cancer http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -2681,7 +2691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 269,
+            "tweet_count": 270,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Climate and Cigarettes: Will the National Climate Assessment Spark Real Action? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news,...",
@@ -2691,7 +2701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 270,
+            "tweet_count": 271,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Photo Diary: A Night Out At Pioneer Works' Village Fête http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -2701,7 +2711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 271,
+            "tweet_count": 272,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How I Became Just Like My Mom http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -2711,7 +2721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 272,
+            "tweet_count": 273,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Mom, Dad... I'm Straight http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #b...",
@@ -2721,7 +2731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 273,
+            "tweet_count": 274,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Blackhawks Player Unable To Speak But Able To Play After Taking Puck To The Throat (GIF) http://t.co/flwwWhjcXY #money #dogecoin #bitco...",
@@ -2731,7 +2741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 274,
+            "tweet_count": 275,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Hayden Panettiere Pulls A Jennifer Lawrence And Falls After The Met Ball http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love,...",
@@ -2741,7 +2751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 275,
+            "tweet_count": 276,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Why Kids Brag and What Parents Can Do About It http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
@@ -2751,7 +2761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 276,
+            "tweet_count": 277,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Amherst College Bans Students From Joining Fraternities http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -2761,7 +2771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 277,
+            "tweet_count": 278,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Hunter Hayes' 'Storyline' Review: 22-Year-Old Singer Impresses On Sophomore Album http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #new...",
@@ -2771,7 +2781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 278,
+            "tweet_count": 279,
             "username": "Beach Dog",
             "user_account": "BeachDog69420",
             "text": "To all my #dogecoin shibes. I need your help to help someone thats in need to help others. please help here http://t.co/MoBLKmlDpr",
@@ -2781,7 +2791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 279,
+            "tweet_count": 280,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "24 Hour Scrypt Mining Contract - 4150 kh/s litecoin, dogecoin, feathercoin etc. http://t.co/eICrDK20vj #feathercoin http://t.co/qGOgOXvEth",
@@ -2791,7 +2801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 280,
+            "tweet_count": 281,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000106\nCryptsy  0.00000105\nCoins-E 0.00000104\nAverage: $0.000454USD per #dogecoin",
@@ -2801,7 +2811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 281,
+            "tweet_count": 282,
             "username": "Esteban Rivera ⛩",
             "user_account": "er_ontime",
             "text": "Dogecoin Nascar Debut; Ripple Bank Deal &amp; China Exchange Turmoil http://t.co/M6VDXiBvdm",
@@ -2811,7 +2821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 282,
+            "tweet_count": 283,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: WISE MOVE: NASCAR's Josh Wise gets into... http://t.co/tOL2fHvicz\n #DenisPavel #PhilParsonsRacing #TalladegaSuperspeedway #WiseNo",
@@ -2821,7 +2831,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 283,
+            "tweet_count": 284,
+            "username": "BitCoinReporter",
+            "user_account": "BitCoinReporter",
+            "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants - PCWorld (blog) http://t.co/OBWo1DoOOZ #bitcoin",
+            "created_at": "Tue May 06 22:05:19 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 285,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - How I feel after receiving my first tip by jhgregory - http://t.co/ux5vAEp17c",
@@ -2831,7 +2851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 284,
+            "tweet_count": 286,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Sponsorship idea Kiteboarding. Promoting DOGECOIN with kiteboarding by kitershibe - http://t.co/9P4jckuEUI",
@@ -2841,7 +2861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 285,
+            "tweet_count": 287,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - MR to Joining Dodgecoin by TheSkysRim - http://t.co/5OGoscqnrA",
@@ -2851,7 +2871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 286,
+            "tweet_count": 288,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What does the Doge say? by ymod123 - http://t.co/LEM96tcwCB",
@@ -2861,7 +2881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 287,
+            "tweet_count": 289,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - The Crew's All Here by ShibeRouse - http://t.co/2jYRUzVNAC",
@@ -2871,7 +2891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 288,
+            "tweet_count": 290,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - A friend of mine just posted this pic he took on Facebook. Shawarmania in Astoria, Que... http://t.co/alPStnrWPm",
@@ -2881,7 +2901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 289,
+            "tweet_count": 291,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Many Stickers Much Awareness WOW! by matt8297 - http://t.co/qaZMMdQE5O",
@@ -2891,7 +2911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 290,
+            "tweet_count": 292,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Need a good place to get dogecoins in the Netherlands by qlpc - http://t.co/46Hug9qkae",
@@ -2901,7 +2921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 291,
+            "tweet_count": 293,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - How does dogetipbot calculate doge-USD exchange rate? by spiderholmes - http://t.co/cm6HNEzhpw",
@@ -2911,7 +2931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 292,
+            "tweet_count": 294,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What are the other investments yall are into? by Silverstarter - http://t.co/JPXtCXHLAj",
@@ -2921,7 +2941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 293,
+            "tweet_count": 295,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - [Table] IAmA: I am Josh Wise the driver of the Dogecoin No.98 car AMA! : tabled by Bur... http://t.co/HvZdH7vevE",
@@ -2931,7 +2951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 294,
+            "tweet_count": 296,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Didn't post anything new in a while... Here's my new poster for all you Shibes :] by n... http://t.co/SeK9QZncAt",
@@ -2941,7 +2961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 295,
+            "tweet_count": 297,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Doge for Cat Support Fund by meowijuana - http://t.co/kKWHvl8q0m",
@@ -2951,7 +2971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 296,
+            "tweet_count": 298,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Hello shibes! New to dogecoin :) Any protips you professional shibes have for a dogeco... http://t.co/eXGwOtSjxL",
@@ -2961,7 +2981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 297,
+            "tweet_count": 299,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Earn Ð50 just for voting for Josh Wise! by inceptionn - http://t.co/TvFEdLtT0B",
@@ -2971,7 +2991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 298,
+            "tweet_count": 300,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000106\nCryptsy  0.00000105\nCoins-E 0.00000104\nAverage: $0.000452USD per #dogecoin",
@@ -2981,7 +3001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 299,
+            "tweet_count": 301,
             "username": "Sebastian Warburg",
             "user_account": "russianlogs",
             "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants http://t.co/JiQx3iZFM8",
@@ -2991,7 +3011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 300,
+            "tweet_count": 302,
             "username": "dolla dolla bill y'all",
             "user_account": "BTCGlass",
             "text": "@cryptolemaik yeah, it has run its course. The Single thread forum is not for long term use. Ask bitcoin litecoin and dogecoin. #blackcoin",
@@ -3001,7 +3021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 301,
+            "tweet_count": 303,
             "username": "Daily Doge",
             "user_account": "DailyDogeNews",
             "text": "How Much Would It Cost To Execute A 51% Attack On Dogecoin? What About Other Alt Coins? FIND OUT: http://t.co/qAnX9KnZFP",
@@ -3011,7 +3031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 302,
+            "tweet_count": 304,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Senate Tied Up In Spat Over Energy Efficiency Bill, Keystone http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograph...",
@@ -3021,7 +3041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 303,
+            "tweet_count": 305,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Tech Policies That Transform Our Future http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -3031,7 +3051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 304,
+            "tweet_count": 306,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Daily Szep -- Money Talks http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -3041,7 +3061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 305,
+            "tweet_count": 307,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Hollywood Boycott Threatens TransPacific Partnership http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
@@ -3051,7 +3071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 306,
+            "tweet_count": 308,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "A Risk-free Investment With High Expected Returns http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
@@ -3061,7 +3081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 307,
+            "tweet_count": 309,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "A Company You've Never Heard Of Might Have A Bigger IPO Than Facebook http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #p...",
@@ -3071,7 +3091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 308,
+            "tweet_count": 310,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Health Care Design and the Experience of Running a Marathon http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -3081,7 +3101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 309,
+            "tweet_count": 311,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Senate Tied Up In Spat Over Energy Efficiency Bill, Keystone http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograph...",
@@ -3091,7 +3111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 310,
+            "tweet_count": 312,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Tech Policies That Transform Our Future http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -3101,7 +3121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 311,
+            "tweet_count": 313,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "A Risk-free Investment With High Expected Returns http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
@@ -3111,7 +3131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 312,
+            "tweet_count": 314,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "A Company You've Never Heard Of Might Have A Bigger IPO Than Facebook http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #p...",
@@ -3121,7 +3141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 313,
+            "tweet_count": 315,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Health Care Design and the Experience of Running a Marathon http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -3131,7 +3151,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 314,
+            "tweet_count": 316,
+            "username": "BitcoinAgile",
+            "user_account": "bitcoinagile",
+            "text": "[Tutorial] CG#Miner Setup to #Mine (Litecoin,Dogecoin…) #bitcoin http://t.co/Q2ABn8D0i3 http://t.co/6LSSNnBdTv",
+            "created_at": "Tue May 06 21:54:03 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 317,
             "username": "Tydiye",
             "user_account": "Trevor_Sande",
             "text": "Need a Car? Have some #dogecoin, Well then buy one here with Dogecoin! http://t.co/kMeEKrntNN",
@@ -3141,7 +3171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 315,
+            "tweet_count": 318,
             "username": "Splash (MOVED)",
             "user_account": "SplashTOMATO",
             "text": "Via @nprnews: Doge At 'Dega: Dogecoin Sponsors Race Car http://t.co/FYRHqXpNsU NASCAR doge",
@@ -3151,7 +3181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 316,
+            "tweet_count": 319,
             "username": "O'Boy Sports",
             "user_account": "OBoySports",
             "text": "Update: Dogecoin NASCAR driver Josh Wise&amp;#039;s Reddit chat was the best - Washington Post (blog) http://t.co/KbSNg3uDBt",
@@ -3161,7 +3191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 317,
+            "tweet_count": 320,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "HUFFPOLLSTER: What To Watch For In Tuesday's North Carolina Primary http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #pho...",
@@ -3171,7 +3201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 318,
+            "tweet_count": 321,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "What It's Really Like to Be a Phone Sex Operator http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
@@ -3181,7 +3211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 319,
+            "tweet_count": 322,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How Did The Zero Hour Become the No. 1 Podcast Overnight? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#...",
@@ -3191,7 +3221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 320,
+            "tweet_count": 323,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Smaller Colleges and the Media: When Is Good News Newsworthy? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -3201,7 +3231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 321,
+            "tweet_count": 324,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Annual White House Correspondents Weekend event honors Dog Tag Bakery http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #p...",
@@ -3211,7 +3241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 322,
+            "tweet_count": 325,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Nature of Investing by Katherine Collins... a Review http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#f...",
@@ -3221,7 +3251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 323,
+            "tweet_count": 326,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "'24: Live Another Day' Stars Are Excited About Action And Farting http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photo...",
@@ -3231,7 +3261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 324,
+            "tweet_count": 327,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Mother's Day Gifts for the Technomom in Your Family http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -3241,7 +3271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 325,
+            "tweet_count": 328,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "What Has Become of You Is a Slow-moving Psychological Thriller http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photogra...",
@@ -3251,7 +3281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 326,
+            "tweet_count": 329,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Remember Maren Sanchez By Asking the Right Questions http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
@@ -3261,7 +3291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 327,
+            "tweet_count": 330,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Jay Rockefeller: Some People Stall On Action Under Obama 'Because He's The Wrong Color' http://t.co/aDp889F9Ch #money #dogecoin #bitcoi...",
@@ -3271,7 +3301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 328,
+            "tweet_count": 331,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Marion Cotillard And Director James Gray Trade Impressions, Make One Another Uncomfortable http://t.co/aDp889F9Ch #money #dogecoin #bit...",
@@ -3281,7 +3311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 329,
+            "tweet_count": 332,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Waleed Abulkhair: Imprisoned! http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -3291,7 +3321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 330,
+            "tweet_count": 333,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Former Ebony Editor-In-Chief, Amy DuBois Barnett, Talks Departure &amp; Creating Last Issue http://t.co/aDp889F9Ch #money #dogecoin #bitcoi...",
@@ -3301,7 +3331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 331,
+            "tweet_count": 334,
             "username": "🏁Nate🏁",
             "user_account": "DaleJr88FanNate",
             "text": "“@chevychevelle48: Josh Wise #98 Dogecoin Ford in for service at Talladega. #NASCAR http://t.co/ilzyRTbHfi”",
@@ -3311,7 +3341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 332,
+            "tweet_count": 335,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega finish - http://t.co/YI93JgOyzR",
@@ -3321,7 +3351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 333,
+            "tweet_count": 336,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega finish -  With his top 20 finish at Talladega... http://t.co/syz08aqJIi",
@@ -3331,7 +3361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 334,
+            "tweet_count": 337,
             "username": "Gamerholic",
             "user_account": "Gamerholic",
             "text": "Win #dogecoin playN video games on http://t.co/ZjQrlAa5yF, it's not gambling it's skilled gaming Win doge when others fail to beat ur score",
@@ -3341,7 +3371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 335,
+            "tweet_count": 338,
             "username": "Grabbit",
             "user_account": "GrabbitGame",
             "text": "Win #dogecoin playN video games on http://t.co/MIBl8S71pv, it's not gambling it's skilled gaming Win doge when others fail to beat ur score",
@@ -3351,7 +3381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 336,
+            "tweet_count": 339,
             "username": "9Bapa",
             "user_account": "NineBapa",
             "text": "Win #dogecoin playN video games on http://t.co/BbXnKegAIO, it's not gambling it's skilled gaming Win doge when others fail to beat ur score",
@@ -3361,7 +3391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 337,
+            "tweet_count": 340,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What are the expectations for dogecoin? Now what? by DogeDi - http://t.co/72benMTf51",
@@ -3371,7 +3401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 338,
+            "tweet_count": 341,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - How to fund the dogecar and more by Halio1984 - http://t.co/2QM771X0W6",
@@ -3381,7 +3411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 339,
+            "tweet_count": 342,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - How to make your own Dogecar Keyholder by snowdog2012 - http://t.co/7Q1TxAHJcH",
@@ -3391,7 +3421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 340,
+            "tweet_count": 343,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - But why the moon? by PsychosWrath - http://t.co/R8N0N9MreZ",
@@ -3401,7 +3431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 341,
+            "tweet_count": 344,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Believe it or not... 50K giveaway is still not over!AND you still have the opportunity... http://t.co/00gwxbiCDg",
@@ -3411,7 +3441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 342,
+            "tweet_count": 345,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Dogecars are popping up on the street by snowdog2012 - http://t.co/4lmstPC0k5",
@@ -3421,7 +3451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 343,
+            "tweet_count": 346,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - This could be the Shibe Anthem by nokia1655 - http://t.co/dGmCmlPMmy",
@@ -3431,7 +3461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 344,
+            "tweet_count": 347,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Video editor shibes: Can you make a parody/mix of this using Dogecoin elements? by The... http://t.co/yWiGWmp9vO",
@@ -3441,7 +3471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 345,
+            "tweet_count": 348,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - MRW My Josh Wise AMA question bumped my comment karma to 3,000 and Josh replied by dol... http://t.co/yEmRnhBoPj",
@@ -3451,7 +3481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 346,
+            "tweet_count": 349,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - I'm a new shibe , How do I work this tip bot by AceSpork - http://t.co/fWSZl86jan",
@@ -3461,7 +3491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 347,
+            "tweet_count": 350,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - How do you connect your reddit account with your dogecoin wallet? by RetroBMO - http://t.co/UPIxIfGyqa",
@@ -3471,7 +3501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 348,
+            "tweet_count": 351,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Direct charity mining by PartTimeLegend - http://t.co/FTbLvMuPRp",
@@ -3481,7 +3511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 349,
+            "tweet_count": 352,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - We have a chance to sponsor another Athlete! Let's not waste this opportunity, shibes.... http://t.co/jrnPCNzQ5S",
@@ -3491,7 +3521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 350,
+            "tweet_count": 353,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Bitcoin ATMs and the Revolution of the Online Payment Systems... by dragger2k - http://t.co/cD0RfmKZrf",
@@ -3501,7 +3531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 351,
+            "tweet_count": 354,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - So how about a radio commercial? by theprophet84 - http://t.co/niSHx0HDWF",
@@ -3511,7 +3541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 352,
+            "tweet_count": 355,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - You know who else only accepted bitcoin? by great_watercolor - http://t.co/Ts1BrP9t5N",
@@ -3521,7 +3551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 353,
+            "tweet_count": 356,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Michael Novogratz of Fortress Investment Group: Bitcoin will threaten banks with peer-... http://t.co/ywroXLO3kh",
@@ -3531,7 +3561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 354,
+            "tweet_count": 357,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Let's ask Ubuntu to Accept Dogecoin Donations - email webmaster@ubuntu.com by echo85 - http://t.co/Y7YJnPZEOu",
@@ -3541,7 +3571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 355,
+            "tweet_count": 358,
             "username": "Gamerholic",
             "user_account": "Gamerholic",
             "text": "win dogecoin when other players fail to beat your score... http://t.co/fBwGW69pmz it's not gambling it's skilled gaming @deantak @GamesBeat",
@@ -3551,7 +3581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 356,
+            "tweet_count": 359,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Dogecoin and how this is the first time I've ever felt that I am part of something tru... http://t.co/QKD2RMR9Le",
@@ -3561,7 +3591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 357,
+            "tweet_count": 360,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[02:45 PM] 1 #DOGE is worth: \n$0.000458 USD \n฿0.00000107 #BTC \n€0.000329 EUR #DogeCoin",
@@ -3571,7 +3601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 358,
+            "tweet_count": 361,
             "username": "Chevy84",
             "user_account": "chevychevelle48",
             "text": "Josh Wise #98 Dogecoin Ford in for service at Talladega. #NASCAR http://t.co/NveTlSsmRG",
@@ -3581,7 +3611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 359,
+            "tweet_count": 362,
             "username": "Gamerholic",
             "user_account": "Gamerholic",
             "text": "@jasonpekin Win #litecoin, #dogecoin, #peercoin and more on Gamerholic playing video games",
@@ -3591,7 +3621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 360,
+            "tweet_count": 363,
             "username": "Beach Dog",
             "user_account": "BeachDog69420",
             "text": "@aBitcoinGirl Thankyou for your kind words mypaws are crossed that the #dogecoin community will come trough with this http://t.co/MoBLKmlDpr",
@@ -3601,7 +3631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 361,
+            "tweet_count": 364,
             "username": "Monkeys at Keyboards",
             "user_account": "Monkey_Keyboard",
             "text": "@LittleShibe MonkeyDave is working on a tip jar for my art site! Will be taking #dogecoin and #bitcoin - MonkeyLaura",
@@ -3611,7 +3641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 362,
+            "tweet_count": 365,
             "username": "Guerrillamerica",
             "user_account": "g_merica",
             "text": "@thegrugq Do you accept Dogecoin? Much value. Very price. Wow.",
@@ -3621,7 +3651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 363,
+            "tweet_count": 366,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "HUFFPOLLSTER: What To Watch For In Tuesday's North Carolina Primary http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #pho...",
@@ -3631,7 +3661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 364,
+            "tweet_count": 367,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "What It's Really Like to Be a Phone Sex Operator http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
@@ -3641,7 +3671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 365,
+            "tweet_count": 368,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How Did The Zero Hour Become the No. 1 Podcast Overnight? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#...",
@@ -3651,7 +3681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 366,
+            "tweet_count": 369,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000106\nCryptsy  0.00000105\nCoins-E 0.00000104\nAverage: $0.000450USD per #dogecoin",
@@ -3661,7 +3691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 367,
+            "tweet_count": 370,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Annual White House Correspondents Weekend event honors Dog Tag Bakery http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #p...",
@@ -3671,7 +3701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 368,
+            "tweet_count": 371,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Nature of Investing by Katherine Collins... a Review http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#f...",
@@ -3681,7 +3711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 369,
+            "tweet_count": 372,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "'24: Live Another Day' Stars Are Excited About Action And Farting http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photo...",
@@ -3691,7 +3721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 370,
+            "tweet_count": 373,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Mother's Day Gifts for the Technomom in Your Family http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -3701,7 +3731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 371,
+            "tweet_count": 374,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Your iPhone Passcode May Not Be As Effective As You Think http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#...",
@@ -3711,7 +3741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 372,
+            "tweet_count": 375,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "What Has Become of You Is a Slow-moving Psychological Thriller http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photogra...",
@@ -3721,7 +3751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 373,
+            "tweet_count": 376,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Remember Maren Sanchez By Asking the Right Questions http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
@@ -3731,7 +3761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 374,
+            "tweet_count": 377,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Jay Rockefeller: Some People Stall On Action Under Obama 'Because He's The Wrong Color' http://t.co/flwwWhjcXY #money #dogecoin #bitcoi...",
@@ -3741,7 +3771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 375,
+            "tweet_count": 378,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Marion Cotillard And Director James Gray Trade Impressions, Make One Another Uncomfortable http://t.co/flwwWhjcXY #money #dogecoin #bit...",
@@ -3751,7 +3781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 376,
+            "tweet_count": 379,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Waleed Abulkhair: Imprisoned! http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -3761,7 +3791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 377,
+            "tweet_count": 380,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Former Ebony Editor-In-Chief, Amy DuBois Barnett, Talks Departure &amp; Creating Last Issue http://t.co/flwwWhjcXY #money #dogecoin #bitcoi...",
@@ -3771,7 +3801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 378,
+            "tweet_count": 381,
             "username": "Gamerholic",
             "user_account": "Gamerholic",
             "text": "@NYCTAXIjerk3000 Win #litecoin, #dogecoin, #peercoin and more on Gamerholic playing video games",
@@ -3781,7 +3811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 379,
+            "tweet_count": 382,
             "username": "Little Shibe",
             "user_account": "LittleShibe",
             "text": "At some point the human race will be extinct and there will be no trace that we ever lived, so till then, tip #dogecoin :)",
@@ -3791,7 +3821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 380,
+            "tweet_count": 383,
             "username": "The Doge Report",
             "user_account": "Doge_Report",
             "text": "Bitcoin ATMs and the Revolution of the Online Payment Systems - http://t.co/bUSgbI9uQG  #cryptocurrency #bitcoin #dogecoin",
@@ -3801,7 +3831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 381,
+            "tweet_count": 384,
             "username": "The Doge Report",
             "user_account": "Doge_Report",
             "text": "Bitcoin Exchange Promoted on Newnote Financial’s National Television Campaign - http://t.co/bUSgbI9uQG  #cryptocurrency #bitcoin #dogecoin",
@@ -3811,7 +3841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 382,
+            "tweet_count": 385,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "[Tutorial] CGMiner Setup to Mine (Litecoin,Dogecoin…) http://t.co/w4cItcmG6g",
@@ -3821,7 +3851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 383,
+            "tweet_count": 386,
             "username": "Little Shibe",
             "user_account": "LittleShibe",
             "text": "@aaronhahnmedia @tipdoge tip 200 #dogecoin I appreciate it, but cant leave u with no coin :)",
@@ -3831,7 +3861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 384,
+            "tweet_count": 387,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Artist Paints Michael Vick Pit Bulls, Is 'Grateful To These Dogs For Changing My Life' http://t.co/aDp889F9Ch #money #dogecoin #bitcoin...",
@@ -3841,7 +3871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 385,
+            "tweet_count": 388,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Elon University Professor Dismissed After Sending Sexual Texts To Student (w/Messages) http://t.co/aDp889F9Ch #money #dogecoin #bitcoin...",
@@ -3851,7 +3881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 386,
+            "tweet_count": 389,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The New Bank Innovation Platform http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
@@ -3861,7 +3891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 387,
+            "tweet_count": 390,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "11 Surprising Stats That Demonstrate Native Advertising's Value to Marketers http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #l...",
@@ -3871,7 +3901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 388,
+            "tweet_count": 391,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Alleged Montana Shooter May Have Been Angry Over Pot Theft http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -3881,7 +3911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 389,
+            "tweet_count": 392,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Stop Saying, 'You're So Smart!' 3 Better Ways to Praise Kids http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograph...",
@@ -3891,7 +3921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 390,
+            "tweet_count": 393,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Indian Women Use Sharia Law To Fight For Gender Equality In Court System http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love,...",
@@ -3901,7 +3931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 391,
+            "tweet_count": 394,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "NARAL Ramps Up Attacks On Obama Nominee Michael Boggs: 'He's Worse Than We Thought' http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #n...",
@@ -3911,7 +3941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 392,
+            "tweet_count": 395,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The 5 Most Commonly Overdiagnosed Conditions http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea...",
@@ -3921,7 +3951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 393,
+            "tweet_count": 396,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Faith Leaders Leading the Fight Against Income Inequality in New York http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #p...",
@@ -3931,7 +3961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 394,
+            "tweet_count": 397,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Is Content Consuming You or Are You Consuming Content? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
@@ -3941,7 +3971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 395,
+            "tweet_count": 398,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Old Journey, New Frontier: An Entrepreneur's Integrity http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
@@ -3951,7 +3981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 396,
+            "tweet_count": 399,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Consumerization of Software Development in Business http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -3961,7 +3991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 397,
+            "tweet_count": 400,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Why Every Social Entrepreneur Needs to Read This Book http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
@@ -3971,7 +4001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 398,
+            "tweet_count": 401,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Justin Timberlake Wrote *NSYNC's 'Gone' For Michael Jackson http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -3981,7 +4011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 399,
+            "tweet_count": 402,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Artist Paints Michael Vick Pit Bulls, Is 'Grateful To These Dogs For Changing My Life' http://t.co/flwwWhjcXY #money #dogecoin #bitcoin...",
@@ -3991,7 +4021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 400,
+            "tweet_count": 403,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Elon University Professor Dismissed After Sending Sexual Texts To Student (w/Messages) http://t.co/flwwWhjcXY #money #dogecoin #bitcoin...",
@@ -4001,7 +4031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 401,
+            "tweet_count": 404,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The New Bank Innovation Platform http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
@@ -4011,7 +4041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 402,
+            "tweet_count": 405,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Jackson Palmer: Pronunciation of Dogecoin... wonder no more. by yellowsnow3000 - http://t.co/LwmLwjwc2z",
@@ -4021,7 +4051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 403,
+            "tweet_count": 406,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "11 Surprising Stats That Demonstrate Native Advertising's Value to Marketers http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #l...",
@@ -4031,7 +4061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 404,
+            "tweet_count": 407,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Alleged Montana Shooter May Have Been Angry Over Pot Theft http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -4041,7 +4071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 405,
+            "tweet_count": 408,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Stop Saying, 'You're So Smart!' 3 Better Ways to Praise Kids http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograph...",
@@ -4051,7 +4081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 406,
+            "tweet_count": 409,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Indian Women Use Sharia Law To Fight For Gender Equality In Court System http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love,...",
@@ -4061,7 +4091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 407,
+            "tweet_count": 410,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "NARAL Ramps Up Attacks On Obama Nominee Michael Boggs: 'He's Worse Than We Thought' http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #n...",
@@ -4071,7 +4101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 408,
+            "tweet_count": 411,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The 5 Most Commonly Overdiagnosed Conditions http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea...",
@@ -4081,7 +4111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 409,
+            "tweet_count": 412,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Faith Leaders Leading the Fight Against Income Inequality in New York http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #p...",
@@ -4091,7 +4121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 410,
+            "tweet_count": 413,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Is Content Consuming You or Are You Consuming Content? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
@@ -4101,7 +4131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 411,
+            "tweet_count": 414,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Old Journey, New Frontier: An Entrepreneur's Integrity http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
@@ -4111,7 +4141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 412,
+            "tweet_count": 415,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Consumerization of Software Development in Business http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -4121,7 +4151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 413,
+            "tweet_count": 416,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Why Every Social Entrepreneur Needs to Read This Book http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
@@ -4131,7 +4161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 414,
+            "tweet_count": 417,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Justin Timberlake Wrote *NSYNC's 'Gone' For Michael Jackson http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -4141,7 +4171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 415,
+            "tweet_count": 418,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000106\nCryptsy  0.00000106\nCoins-E 0.00000104\nAverage: $0.000450USD per #dogecoin",
@@ -4151,7 +4181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 416,
+            "tweet_count": 419,
             "username": "t3hDave",
             "user_account": "t3hDave",
             "text": "Damn it does Dogecoin have to be pronounced d-oh-j? I was hoping for a hard G :3",
@@ -4161,7 +4191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 417,
+            "tweet_count": 420,
             "username": "Nascar show",
             "user_account": "Nascarshow",
             "text": "Dogecoin NASCAR driver Josh Wise's Reddit chat was the best - Washington Post (blog) http://t.co/5ioHtAxShm",
@@ -4171,7 +4201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 418,
+            "tweet_count": 421,
             "username": "t3hDave",
             "user_account": "t3hDave",
             "text": "Dogecoin meets NASCAR at Talladega: 90 Seconds on The Verge: http://t.co/ho8hHD5j0s via @YouTube",
@@ -4181,7 +4211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 419,
+            "tweet_count": 422,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "5 Aging Myths You Probably Believed Were True http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #he...",
@@ -4191,7 +4221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 420,
+            "tweet_count": 423,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Brilliant Grilling Trick That You'll Wonder How You Ever Lived Without http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #lov...",
@@ -4201,7 +4231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 421,
+            "tweet_count": 424,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "It's Time to 'Rethink Food' http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
@@ -4211,7 +4241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 422,
+            "tweet_count": 425,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How These Two Young Women Thrive In The Face Of Breast Cancer http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -4221,7 +4251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 423,
+            "tweet_count": 426,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How to Talk So People Will Listen http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail ...",
@@ -4231,7 +4261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 424,
+            "tweet_count": 427,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "An Action Plan for Europe http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
@@ -4241,7 +4271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 425,
+            "tweet_count": 428,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Strategy Consulting http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busine...",
@@ -4251,7 +4281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 426,
+            "tweet_count": 429,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Don't Let Your 'Can't Dos' Get You Down http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -4261,7 +4291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 427,
+            "tweet_count": 430,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Does Literary Fiction Challenge Racial Stereotypes? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -4271,7 +4301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 428,
+            "tweet_count": 431,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Mother's Day Walk Celebrates the Miracle of Mom http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #...",
@@ -4281,7 +4311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 429,
+            "tweet_count": 432,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "EPA Accused Of Blocking Independent Invesatigations http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -4291,7 +4321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 430,
+            "tweet_count": 433,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "A Lesson in Democracy From India http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
@@ -4301,7 +4331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 431,
+            "tweet_count": 434,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Uruguay's Legal Marijuana Market Begins Rollout http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #...",
@@ -4311,7 +4341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 432,
+            "tweet_count": 435,
             "username": "Daily Doge",
             "user_account": "DailyDogeNews",
             "text": "Five Crazy FUN Facts about Dogecoin: READ: http://t.co/ycCrJJTf7Z",
@@ -4321,7 +4351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 433,
+            "tweet_count": 436,
             "username": "DJ Shibe",
             "user_account": "djshibe",
             "text": "Sonic Future - On my mind http://t.co/QXZtJPKxp5 #dogecoin",
@@ -4331,7 +4361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 434,
+            "tweet_count": 437,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: WISE MOVE: NASCAR's Josh Wise gets into... http://t.co/tOL2fHvicz\n #DenisPavel #PhilParsonsRacing #TalladegaSuperspeedway #WiseNo",
@@ -4341,7 +4371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 435,
+            "tweet_count": 438,
             "username": "aoll",
             "user_account": "sonuise",
             "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants http://t.co/8qum56SMoE",
@@ -4351,7 +4381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 436,
+            "tweet_count": 439,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - My reaction as an Aussie shibe when Kylie's IAmA gets fewer upvotes than The Vacuum Gu... http://t.co/Xe7NU5oCrQ",
@@ -4361,7 +4391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 437,
+            "tweet_count": 440,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Where to buy doge by drezin - http://t.co/t41DS1Secz",
@@ -4371,7 +4401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 438,
+            "tweet_count": 441,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - One more palindrome: dogecar refer dogegod refer racegod by ctodobom - http://t.co/hz0B2JA7D5",
@@ -4381,7 +4411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 439,
+            "tweet_count": 442,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Broke $1 in Dogecoin after 12 hours! by coding_is_fun - http://t.co/AW1fbxyofn",
@@ -4391,7 +4421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 440,
+            "tweet_count": 443,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Dare you to try! by cowboyhaze - http://t.co/dkkPc8Au4V",
@@ -4401,7 +4431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 441,
+            "tweet_count": 444,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Is there a doge country club type thing?? by bloodshotben - http://t.co/h8WU357QUv",
@@ -4411,7 +4441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 442,
+            "tweet_count": 445,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - New to moolah and prelude by rockylemon - http://t.co/RpfDq95UiK",
@@ -4421,7 +4451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 443,
+            "tweet_count": 446,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - High-Quality Photo Gallery for Josh Wise (including many Dogecar pictures) by El_Arquero - http://t.co/V5HqVOAu9W",
@@ -4431,7 +4461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 444,
+            "tweet_count": 447,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Multidoge wont open, need help with updating (i think) by kimcen - http://t.co/w1GSo5YIpC",
@@ -4441,7 +4471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 445,
+            "tweet_count": 448,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Tips for if you're new to mining and don't have the best computer? by SmileyBlob123 - http://t.co/3tyisLBgJk",
@@ -4451,7 +4481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 446,
+            "tweet_count": 449,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - MFW so many MFWs by j2word123 - http://t.co/d1bQw3SDWv",
@@ -4461,7 +4491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 447,
+            "tweet_count": 450,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - He got me to plunge into piano training, i tried getting him into doge. Hope to see yo... http://t.co/mhiJEosSDh",
@@ -4471,7 +4501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 448,
+            "tweet_count": 451,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - making dogecoin more popular by anurag121 - http://t.co/kyCmd1CuBV",
@@ -4481,7 +4511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 449,
+            "tweet_count": 452,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - &gt;tfw no df by SoldierofNod - http://t.co/uXuNyoJUIj",
@@ -4491,7 +4521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 450,
+            "tweet_count": 453,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - How do i make sure my offline wallet is safe? and is there any way a hacker could get ... http://t.co/wQqYvTfWox",
@@ -4501,7 +4531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 451,
+            "tweet_count": 454,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - So what's Dogecoin's future look like? by Win_Sys - http://t.co/4zA7LkGvaT",
@@ -4511,7 +4541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 452,
+            "tweet_count": 455,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - My luck with giveaways. Is it just me? by Filvox - http://t.co/fo2gJeK7RP",
@@ -4521,7 +4551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 453,
+            "tweet_count": 456,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Fox News - NASCAR Driver Josh Wise on Dogecar, Dogecoin and Talladega finish by libcg - http://t.co/lWNEaKRygB",
@@ -4531,7 +4561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 454,
+            "tweet_count": 457,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Syncing Wallets? by msf1t- - http://t.co/41ssnFqsg2",
@@ -4541,7 +4571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 455,
+            "tweet_count": 458,
             "username": "Noob Shibe",
             "user_account": "NoobShibe",
             "text": "NASCAR fans answer 'What is Dogecoin?' at Talladega http://t.co/ZNYLALqCx8 #dogecoin #doge #nascar #dogecar",
@@ -4551,7 +4581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 456,
+            "tweet_count": 459,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "5 Aging Myths You Probably Believed Were True http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #he...",
@@ -4561,7 +4591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 457,
+            "tweet_count": 460,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Brilliant Grilling Trick That You'll Wonder How You Ever Lived Without http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #lov...",
@@ -4571,7 +4601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 458,
+            "tweet_count": 461,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "It's Time to 'Rethink Food' http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
@@ -4581,7 +4611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 459,
+            "tweet_count": 462,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How These Two Young Women Thrive In The Face Of Breast Cancer http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -4591,7 +4621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 460,
+            "tweet_count": 463,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How to Talk So People Will Listen http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail ...",
@@ -4601,7 +4631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 461,
+            "tweet_count": 464,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "An Action Plan for Europe http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
@@ -4611,7 +4641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 462,
+            "tweet_count": 465,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Strategy Consulting http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busine...",
@@ -4621,7 +4651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 463,
+            "tweet_count": 466,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Don't Let Your 'Can't Dos' Get You Down http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
@@ -4631,7 +4661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 464,
+            "tweet_count": 467,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Does Literary Fiction Challenge Racial Stereotypes? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -4641,7 +4671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 465,
+            "tweet_count": 468,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Mother's Day Walk Celebrates the Miracle of Mom http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #...",
@@ -4651,7 +4681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 466,
+            "tweet_count": 469,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Finishing the Job Teddy Roosevelt Started: Public Financing of Elections http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love,...",
@@ -4661,7 +4691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 467,
+            "tweet_count": 470,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "EPA Accused Of Blocking Independent Invesatigations http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
@@ -4671,7 +4701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 468,
+            "tweet_count": 471,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "A Lesson in Democracy From India http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
@@ -4681,7 +4711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 469,
+            "tweet_count": 472,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Uruguay's Legal Marijuana Market Begins Rollout http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #...",
@@ -4691,7 +4721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 470,
+            "tweet_count": 473,
             "username": "Glen",
             "user_account": "d0gc0w",
             "text": "\"Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants\" http://t.co/QINHlpWnO2",
@@ -4701,7 +4731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 471,
+            "tweet_count": 474,
             "username": "aoll",
             "user_account": "sonuise",
             "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants http://t.co/yudk7qohvA",
@@ -4711,7 +4741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 472,
+            "tweet_count": 475,
             "username": "Bitcoin Updater",
             "user_account": "BitcoinUpdater",
             "text": "Cryptocurrency Trading News: Bitcoin, Litecoin, Dogecoin Value Surges in Last … http://t.co/11q0JXEQGT",
@@ -4721,7 +4751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 473,
+            "tweet_count": 476,
             "username": "BlindMind",
             "user_account": "BlindMindnet",
             "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants http://t.co/Rijx9ZZRPh",
@@ -4731,7 +4761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 474,
+            "tweet_count": 477,
             "username": "The Coin Front",
             "user_account": "TheCoinFront",
             "text": "The Bitcoin Community has seen the success Dogecoin has had in promoting their brand, and now wants in on the action. http://t.co/8X9cUsULV7",
@@ -4741,7 +4771,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 475,
+            "tweet_count": 478,
+            "username": "BitCoinReporter",
+            "user_account": "BitCoinReporter",
+            "text": "Beginner's guide to mining Litecoin, Dogecoin, and other Bitcoin variants - PCWorld (blog) http://t.co/VhrhJ29Yvl #bitcoin",
+            "created_at": "Tue May 06 21:05:18 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 479,
             "username": "Theo Goodman",
             "user_account": "theog__",
             "text": "Trade Bot - Beginner License on sale 0.23 BTC Trade #darkcoin #zetacoin #bitcoin #litecoin #blackcoin #dogecoin - http://t.co/SI8g8ai5I5",
@@ -4751,7 +4791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 476,
+            "tweet_count": 480,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[02:00 PM] 1 #DOGE is worth: \n$0.000459 USD \n฿0.00000107 #BTC \n€0.000329 EUR #DogeCoin",
@@ -4761,7 +4801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 477,
+            "tweet_count": 481,
             "username": "Mānoa",
             "user_account": "RedMoonDoge",
             "text": "@bitcoinbegger @01101O10 LOL! XD But seriously, their subreddit has been banned, although they were pretty much like Dogecoin..no sense..",
@@ -4771,7 +4811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 478,
+            "tweet_count": 482,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Moms Like Mother's Day http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bus...",
@@ -4781,7 +4821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 479,
+            "tweet_count": 483,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Everything Is Big In Texas -- Including Spelling Errors http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -4791,7 +4831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 480,
+            "tweet_count": 484,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "It's Not Your Grandma's Miami http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -4801,7 +4841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 481,
+            "tweet_count": 485,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "SF International Film Festival Award Night Gets Glamorous http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#...",
@@ -4811,7 +4851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 482,
+            "tweet_count": 486,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "What Do We Need to Do About Gun Violence? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
@@ -4821,7 +4861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 483,
+            "tweet_count": 487,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "How to Get Paid for Your Work When Companies Don't Pay You http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -4831,7 +4871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 484,
+            "tweet_count": 488,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "White House Urges Top Execs To Avoid Russian Economic Forum http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -4841,7 +4881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 485,
+            "tweet_count": 489,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "NY Momic: New Yorkers Hate Babies http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail ...",
@@ -4851,7 +4891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 486,
+            "tweet_count": 490,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Re-Designing Justice in Liberia http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
@@ -4861,7 +4901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 487,
+            "tweet_count": 491,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Best Travel Apps for Your Phone http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fai...",
@@ -4871,7 +4911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 488,
+            "tweet_count": 492,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "When Something Goes Right... http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs...",
@@ -4881,7 +4921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 489,
+            "tweet_count": 493,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Charlie Crist: 'Intolerable' Racism Is A 'Big Reason' Why I Left The GOP http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love,...",
@@ -4891,7 +4931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 490,
+            "tweet_count": 494,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "On Looks http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,...",
@@ -4901,7 +4941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 491,
+            "tweet_count": 495,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Turbulence in the Air: What Does it Mean for You? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
@@ -4911,7 +4951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 492,
+            "tweet_count": 496,
             "username": "Beach Dog",
             "user_account": "BeachDog69420",
             "text": "we could knock out this goal of $300 in an hour if i could just get the word out to everyone #dogecoin http://t.co/bKfOM1PVOY",
@@ -4921,7 +4961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 493,
+            "tweet_count": 497,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Moms Like Mother's Day http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bus...",
@@ -4931,7 +4971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 494,
+            "tweet_count": 498,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Everything Is Big In Texas -- Including Spelling Errors http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
@@ -4941,7 +4981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 495,
+            "tweet_count": 499,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "It's Not Your Grandma's Miami http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
@@ -4951,7 +4991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 496,
+            "tweet_count": 500,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "'My Gay Roommate' Premieres 'Touched By An Angel' http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
@@ -4961,7 +5001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 497,
+            "tweet_count": 501,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "SF International Film Festival Award Night Gets Glamorous http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#...",
@@ -4971,7 +5011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 498,
+            "tweet_count": 502,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "What Do We Need to Do About Gun Violence? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
@@ -4981,7 +5021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 499,
+            "tweet_count": 503,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "How to Get Paid for Your Work When Companies Don't Pay You http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,...",
@@ -4991,7 +5031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 500,
+            "tweet_count": 504,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "White House Urges Top Execs To Avoid Russian Economic Forum http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography...",
@@ -5001,7 +5041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 501,
+            "tweet_count": 505,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "NY Momic: New Yorkers Hate Babies http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail ...",
@@ -5011,7 +5051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 502,
+            "tweet_count": 506,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Re-Designing Justice in Liberia http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
@@ -5021,7 +5061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 503,
+            "tweet_count": 507,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Best Travel Apps for Your Phone http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fai...",
@@ -5031,7 +5071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 504,
+            "tweet_count": 508,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "When Something Goes Right... http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs...",
@@ -5041,7 +5081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 505,
+            "tweet_count": 509,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Charlie Crist: 'Intolerable' Racism Is A 'Big Reason' Why I Left The GOP http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love,...",
@@ -5051,7 +5091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 506,
+            "tweet_count": 510,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "On Looks http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,...",
@@ -5061,7 +5101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 507,
+            "tweet_count": 511,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Turbulence in the Air: What Does it Mean for You? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
@@ -5071,7 +5111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 508,
+            "tweet_count": 512,
             "username": "Little Shibe",
             "user_account": "LittleShibe",
             "text": "Lol go figure my unfinished pic has 2000 and some upvotes on reddit, kinda cool, I love #dogecoin  http://t.co/v7L387xsIk",
@@ -5081,7 +5121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 509,
+            "tweet_count": 513,
             "username": "You can't be serious, Moose",
             "user_account": "Martholomule_",
             "text": "Vote for @Josh_Wise twice as fast, legitemately:  http://t.co/AE3XIevVZL #dogecoin #nascar",
@@ -5091,7 +5131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 510,
+            "tweet_count": 514,
             "username": "Justin Craig",
             "user_account": "Justin_M_Craig",
             "text": ".@NASCAR driver @Josh_Wise on Dogecar-Talladega finish @dogecoin @reddit #FOXonReddit http://t.co/8l65XZzHBj”",
@@ -5101,7 +5141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 511,
+            "tweet_count": 515,
             "username": "cardforcoin",
             "user_account": "cardforcoin",
             "text": "20K #Dogecoin for a Starbucks card? We’ll get you that for a spare gift card. Opening with doge for a short time. What do guys you think?",
@@ -5111,7 +5151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 512,
+            "tweet_count": 516,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - 1,200 ASIC Units at 100MH/s is the equivalent of TWICE our current total network hash ... http://t.co/lpj145rk1b",
@@ -5121,7 +5161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 513,
+            "tweet_count": 517,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Shirt Design Contest by Tracheal - http://t.co/vtHL3lhKel",
@@ -5131,7 +5171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 514,
+            "tweet_count": 518,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Creating a game that pays players in DOGE - would you play? by calvinweight - http://t.co/GnuA5n8Ezp",
@@ -5141,7 +5181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 515,
+            "tweet_count": 519,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - My car dealership CARTOPIA now accepts Dogecoin! - yes, you can now buy a whole car wi... http://t.co/yw02XDnE88",
@@ -5151,7 +5191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 516,
+            "tweet_count": 520,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - For all my GoT/Doge fans out there by KefkaP - http://t.co/E6kEksB4ea",
@@ -5161,7 +5201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 517,
+            "tweet_count": 521,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Shibe No. 82,118 reporting in! by knatterton - http://t.co/GRXUxNcRZk",
@@ -5171,7 +5211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 518,
+            "tweet_count": 522,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What Is DogeCoin All about? by sircam22 - http://t.co/xVgTAGqcsC",
@@ -5181,7 +5221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 519,
+            "tweet_count": 523,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Cryptocurrency ponzi schemes - an article by The Cryptocurrency Times by turtlecane - http://t.co/ZBRecRaIbm",
@@ -5191,7 +5231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 520,
+            "tweet_count": 524,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Tippers a Tipping over at /r/DogeCoinPIF by Uriniass - http://t.co/0BMRD6GVlw",
@@ -5201,7 +5241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 521,
+            "tweet_count": 525,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - I'll throw this out there, why not sponsor a \"League of Legends\" team? by macbackfat - http://t.co/4fWV23hGa4",
@@ -5211,7 +5251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 522,
+            "tweet_count": 526,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Self-updating price tags! We need some for our retailers! With Doge branding! by queen... http://t.co/RymuiG4XiA",
@@ -5221,7 +5261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 523,
+            "tweet_count": 527,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Much confession. I realized today I like Josh Wise more than Nicolas Cage. by Walkingt... http://t.co/Pit58Nprbm",
@@ -5231,7 +5271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 524,
+            "tweet_count": 528,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - DailyDot talks Reddit, NASCAR, and Josh Wise by _The_Obvious_ - http://t.co/qQ5zTY7BI9",
@@ -5241,7 +5281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 525,
+            "tweet_count": 529,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Check out my new charity: DogeRaft by Nitrous_Ninja - http://t.co/aAwOFT1Ri9",
@@ -5251,7 +5291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 526,
+            "tweet_count": 530,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - What are the biggest advantages of using dogecoin over another cryptocurrency like bit... http://t.co/gWYUF5bZSx",
@@ -5261,7 +5301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 527,
+            "tweet_count": 531,
             "username": "Dogebot",
             "user_account": "doge_bot",
             "text": "New Post in /r/dogecoin - Reddit should change their \"overload\"-site to one of those [OC] by DimiFW - http://t.co/SkcHA7KHdD",
@@ -5271,7 +5311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 528,
+            "tweet_count": 532,
             "username": "A Ron Hubbard",
             "user_account": "TheARonHubbard",
             "text": "Photoset: nationalpostsports: So wheels. Much speed. Wow: Josh Wise, driver of the #98 Dogecoin/Reddit.com... http://t.co/PbpI5Pc55N",
@@ -5281,7 +5321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 529,
+            "tweet_count": 533,
             "username": "InnoSpring",
             "user_account": "InnoSpring",
             "text": "Such Dogecoin. Much Validity. How one altcoin may have turned into ... - GigaOM http://t.co/MtPA1PAuJa #bitcoin #dogecoin",
@@ -5291,7 +5331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 530,
+            "tweet_count": 534,
             "username": "E meth",
             "user_account": "01101O10",
             "text": "my top cryptos\n1) Primecoin\n2) Dogecoin\n3) Anoncoin\n4) Kittehcoin\n5)\n6)\n7)\n8)\n9)\n10) Bitcoin",
@@ -5301,7 +5341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 531,
+            "tweet_count": 535,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Are You a Killjoy? If So, We've Got Just the Cure - Gratitude http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -5311,7 +5351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 532,
+            "tweet_count": 536,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "What Causes Obesity? Top Cardiology Journal Spreads Confusion http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -5321,7 +5361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 533,
+            "tweet_count": 537,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Women's Food? http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #s...",
@@ -5331,7 +5371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 534,
+            "tweet_count": 538,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Optimist or Pessimist? Part II http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -5341,7 +5381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 535,
+            "tweet_count": 539,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Recipe for Good Mothering http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
@@ -5351,7 +5391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 536,
+            "tweet_count": 540,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Periods, Puberty and 'The Letter': Moms Life Lessons http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
@@ -5361,7 +5401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 537,
+            "tweet_count": 541,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "I Don't Want to Be a Mom Today http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -5371,7 +5411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 538,
+            "tweet_count": 542,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Uruguay Unveils Details for World's First National Legal Marijuana Market http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love...",
@@ -5381,7 +5421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 539,
+            "tweet_count": 543,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Investor Confidence and Dispute Resolution http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #healt...",
@@ -5391,7 +5431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 540,
+            "tweet_count": 544,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "You Won't Believe You Missed These Adult Jokes In Your Favorite 90s Cartoons http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #l...",
@@ -5401,7 +5441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 541,
+            "tweet_count": 545,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Perfect Draft « http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busine...",
@@ -5411,7 +5451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 542,
+            "tweet_count": 546,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "The Future of Work Is About Clarity and Leaders Who Don't Buy-into Nonsense http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #lo...",
@@ -5421,7 +5461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 543,
+            "tweet_count": 547,
             "username": "Dogecoin",
             "user_account": "TheRealDogecoin",
             "text": "Devo Co-founder Launches Wine Brand http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fai...",
@@ -5431,7 +5471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 544,
+            "tweet_count": 548,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Are You a Killjoy? If So, We've Got Just the Cure - Gratitude http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -5441,7 +5481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 545,
+            "tweet_count": 549,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "What Causes Obesity? Top Cardiology Journal Spreads Confusion http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -5451,7 +5491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 546,
+            "tweet_count": 550,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Women's Food? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #s...",
@@ -5461,7 +5501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 547,
+            "tweet_count": 551,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Optimist or Pessimist? Part II http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -5471,7 +5511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 548,
+            "tweet_count": 552,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Recipe for Good Mothering http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
@@ -5481,7 +5521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 549,
+            "tweet_count": 553,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Periods, Puberty and 'The Letter': Moms Life Lessons http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
@@ -5491,7 +5531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 550,
+            "tweet_count": 554,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "I Don't Want to Be a Mom Today http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
@@ -5501,7 +5541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 551,
+            "tweet_count": 555,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Uruguay Unveils Details for World's First National Legal Marijuana Market http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love...",
@@ -5511,7 +5551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 552,
+            "tweet_count": 556,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Investor Confidence and Dispute Resolution http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #healt...",
@@ -5521,7 +5561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 553,
+            "tweet_count": 557,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "You Won't Believe You Missed These Adult Jokes In Your Favorite 90s Cartoons http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #l...",
@@ -5531,7 +5571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 554,
+            "tweet_count": 558,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Perfect Draft « http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busine...",
@@ -5541,7 +5581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 555,
+            "tweet_count": 559,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "The Future of Work Is About Clarity and Leaders Who Don't Buy-into Nonsense http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #lo...",
@@ -5551,7 +5591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 556,
+            "tweet_count": 560,
             "username": "Božidar Maximilianus",
             "user_account": "bozhida4",
             "text": "Devo Co-founder Launches Wine Brand http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fai...",
@@ -5561,7 +5601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 557,
+            "tweet_count": 561,
             "username": "Alaina Percival",
             "user_account": "alaina",
             "text": "@DataMingle @dogecoin thanks for pointing that out",

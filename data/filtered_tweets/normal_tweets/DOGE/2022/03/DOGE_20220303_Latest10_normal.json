@@ -89,6 +89,16 @@
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "aWebAnalysis | Crypto",
+            "user_account": "aWebAnalysis",
+            "text": "Dogecoin DOGE Current Price:\n$0.1297\n\n1h: +0.07%\n24h: -2.50%\n7d: +5.08%\n\n30d: -9.12%\n60d: -25.65%\n90d: -35.45%\n\n#doge $DOGE #dogecoin",
+            "created_at": "Thu Mar 03 23:52:03 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
         }
     ]
 }

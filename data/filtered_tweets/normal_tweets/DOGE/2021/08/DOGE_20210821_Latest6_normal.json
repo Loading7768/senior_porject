@@ -2,6 +2,16 @@
     "dogecoin": [
         {
             "tweet_count": 1,
+            "username": "dogecointicker",
+            "user_account": "dogecointicker",
+            "text": "The current value of 1 DOGE in USD is: $0.31685 (📉 down 0.007850 so far today). #dogecoin",
+            "created_at": "Sat Aug 21 23:59:59 +0000 2021",
+            "retweet": 1,
+            "likes": 4,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
             "username": "Maverick",
             "user_account": "Maveric55602697",
             "text": "@SHIBOVERLORD Depends. If shib gets to join Jeff basoz then it will move forward real fast. If dogecoin gets accepted by Tesla it will also move forward fast. Maybe be a tad more expensive than doge!. Give it a few years . Both will get their day just like Bitcoin, Tesla , litecoin. Time 👌🏻🙌🏻",
@@ -11,7 +21,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 2,
+            "tweet_count": 3,
             "username": "Rae",
             "user_account": "localrach",
             "text": "@StephanieDeat14 @catpax10 @GIGACHAD2021 @MrStevenSteele @dogelucky7 @ThaDogeQueen @StonksReddit His goal is to be the nice guy who saves doge coin and posts charts I think. He is a doxxing mean guy who posts without understanding the situations he posts about and fuels fires that lead people away from this space because of perceived infighting when it's from one place.",
@@ -21,7 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 4,
             "username": "Allexi 🏹🌸💜 ⁷",
             "user_account": "whatsggukin",
             "text": "@short_vs_long Transaction confirmed - 1000 DOGE coins. Thank you @dogecoin_party We are with you DOGE COIN",
@@ -31,13 +41,23 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 5,
             "username": "Don. koo wo",
             "user_account": "donko_woo",
             "text": "@JO_nekoken Just received 20 000 DOGE coins. Thank you @DOGECOIN_PARTY We are with you DOGECOIN 👏",
             "created_at": "Sat Aug 21 23:59:41 +0000 2021",
             "retweet": 0,
             "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "DogecoinBoy98",
+            "user_account": "CryptoJolly98",
+            "text": "#dogecoin bullish https://t.co/Gp7QnTI9JA",
+            "created_at": "Sat Aug 21 23:59:11 +0000 2021",
+            "retweet": 0,
+            "likes": 1,
             "retweeted_tweet": null
         }
     ]
