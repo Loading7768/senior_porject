@@ -92,12 +92,13 @@ for json_path in tqdm(json_files, desc="正在找尋日期"):
             tweets[0]['created_at'], "%a %b %d %H:%M:%S %z %Y"
         ).strftime("%Y/%m/%d")
         date_dt = pd.to_datetime(date_str)
-        tweet_dates.add(date_dt)
 
         # 🔹 過濾掉不在範圍內的推文
         if not (START_DATE_DT <= date_dt <= END_DATE_DT):
             print("當天不在指定時間範圍內：", json_path)
             continue
+
+        tweet_dates.add(date_dt)
 
         # 取得當天推文數量
         tweet_count[date_dt] = len(tweets)
