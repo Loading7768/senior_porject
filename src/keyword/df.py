@@ -1,49 +1,45 @@
 from glob import glob
 from datetime import datetime
-from dateutil.rrule import rrule, DAILY
-import bisect
 import json
 import re
 from collections import defaultdict
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
-import math
-import os
-import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import bisect
 
-'''
-Importing parameters from project_root/config.py
-'''
-from pathlib import Path
-import sys
-parent_dir = Path(__file__).resolve().parent.parent
-sys.path.append(str(parent_dir))
-from config import JSON_DICT_NAME, COIN_SHORT_NAME
+def load_data(coin_short_name, json_dict_name):
+    TWEET_PATH = f'../data/filtered_tweets/old/normal_tweets/{coin_short_name}/*/*/*'
+    EXPANSION_PATH = f'../data/tweets/count/estimate/{coin_short_name}_estimate.csv'
 
-# --------------------parameters--------------------
-START_DATE = datetime(2025, 1, 18)
-END_DATE = datetime(2025, 7, 31)
-
-KEYWORD_PER_DAY = 100
-# --------------------parameters--------------------
-
-def load_tweets():
-    TWEET_PATH = f'../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*/*/*'
     tweet_files = glob(TWEET_PATH)
+    expansion_data = pd.read_csv(EXPANSION_PATH, on_bad_lines='skip')
 
-    tweets = []
+    tweets, expansion_rates, tweet_count_expanded = [], [], 0
+
     for tf in tqdm(tweet_files, desc='Loading tweets...'):
+        match_date = re.search(r'\d{8}', tf)
+        date = datetime.strptime(match_date.group(), '%Y%m%d')
+        if date > datetime(2025, 7, 31):
+            continue
+
+        formatted_date = datetime.strftime(date, '%Y-%m-%d')
+        get_expansion_rate = expansion_data.loc[expansion_data['date'] == formatted_date, 'expansion_ratio']
+        expansion_rate = round(get_expansion_rate.iloc[0]) if not get_expansion_rate.empty else 1
+
         try:
-            with open(tf, 'r', encoding="utf-8") as file:
+            with open(tf, 'r', encoding="utf-8-sig") as file:
                 data = json.load(file)
-                tweets = tweets + data.get(JSON_DICT_NAME, [])
+                content = data.get(json_dict_name, [])
+                tweets += content
+                expansion_rates += [expansion_rate] * len(content)
+                tweet_count_expanded += len(content) * expansion_rate
 
         except(json.JSONDecodeError, FileNotFoundError) as e:
             print(f'Error loading {tf}: {e}')
 
-    return tweets
+    return tweets, expansion_rates, tweet_count_expanded
 
 def tokenize_tweets(tweets):
     '''
@@ -53,19 +49,15 @@ def tokenize_tweets(tweets):
     STOPWORDS = set(stopwords.words('english'))
     tokenized_tweets = []
 
-    token_count = []
     for tweet in tqdm(tweets, desc='Tokeninzing...'):
         tweet_text = tweet.get('text')
         tokens = tokenizer.tokenize(tweet_text)
-        token_count.append(len(tokens))
         unique_tokens = set(token for token in tokens if token not in STOPWORDS and token.isalpha())
         tokenized_tweets.append(unique_tokens)
 
-    
-    print('(min, MAX, avg)', min(token_count), max(token_count), sum(token_count)/len(token_count))
     return tokenized_tweets
 
-def compute_df(N, tokenized_tweets):
+def compute_df(N, tokenized_tweets, expansion_rates):
     '''
     Args:
         N: corpus(tweets) size
@@ -77,19 +69,49 @@ def compute_df(N, tokenized_tweets):
     '''
     df = defaultdict(int)
 
-    for tweet_tokens in tqdm(tokenized_tweets, desc='Computing df...'):
+    for tweet_tokens, expansion_rate in tqdm(zip(tokenized_tweets, expansion_rates), desc='Computing df...'):
         for token in tweet_tokens:
-            df[token] += 1
+            df[token] += expansion_rate
 
-    return sorted(df.items(), key=lambda x: x[1], reverse=True)
+    df = sorted(df.items(), key=lambda x: x[1])
+    
+    return [i + (i[1] / N,) for i in df]
+
+def filter_and_save(df):
+    UPPER_BOUND = 0.1
+    LOWER_BOUND = 0.001
+
+    upper = bisect.bisect_right([i[2] for i in df], UPPER_BOUND)
+    lower = bisect.bisect_left([i[2] for i in df], LOWER_BOUND)
+
+    OUTPUT_PATH = f'../data/keyword/machine_learning/all_keywords.json'
+
+    keywords = [i[0] for i in df[lower:upper]]
+
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as file:
+        json.dump(keywords, file)
 
 def main():
-    tweets = load_tweets()
-    tokens = tokenize_tweets(tweets)
-    df = compute_df(len(tweets), tokens)
+    COIN_SHORT_NAMES = {'TRUMP', 'PEPE', 'DOGE'}
+    JSON_DICT_NAMES = {
+        '(officialtrump OR "official trump" OR "trump meme coin" OR "trump coin" OR trumpcoin OR $TRUMP OR "dollar trump")',
+        'PEPE', 
+        'dogecoin'}
 
-    # for i in range(100):
-    #     print(df[i])
+    tweets, expansion_rates, tweet_count_expanded = [], [], 0
+    for csn, jdn in zip(COIN_SHORT_NAMES, JSON_DICT_NAMES):
+        t, er, tce = load_data(csn, jdn)
+        tweets += t
+        expansion_rates += er
+        tweet_count_expanded += tce
+
+    print(len(tweets))
+    tokens = tokenize_tweets(tweets)
+    df = compute_df(tweet_count_expanded, tokens, expansion_rates)
+    filter_and_save(df)
+
+    # for i in df:
+    #     print(i)
 
 if __name__ == '__main__':
     main()
