@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -42,6 +42,16 @@
         },
         {
             "tweet_count": 5,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "#dogecoin is the most legitimate #altcoin",
+            "created_at": "Mon Dec 16 23:52:26 +0000 2013",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
             "username": "Dogecoin",
             "user_account": "dogecoin",
             "text": "much verge     \n    so mainstream               such coverage\nhttp://t.co/hzJKxvPAqx",
@@ -51,7 +61,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 7,
             "username": "Nagaraju Tadakaluri",
             "user_account": "nagatraju",
             "text": "#dogecoin @khanof89   Buy all coins through Perfect Money website address is http://t.co/DZK23ni17D",
@@ -61,7 +71,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 8,
             "username": "Kaare Sandvik",
             "user_account": "kaares",
             "text": "@roboppy very currency wow http://t.co/pHCIOaukhG",
@@ -71,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 9,
             "username": "AtomsToBits",
             "user_account": "atoms2bits",
             "text": "#Bitcoin is so #2013: Dogecoin is the #New cryptocurrency on the block http://t.co/8QKdOjn8WJ http://t.co/hvZdyybohZ",
@@ -81,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 10,
             "username": "Mohammad Nurul Amin",
             "user_account": "Stamford08",
             "text": "@Drexme  I just want to know when was the first time Dogecoin was available on internet?i see your thread started 8 dec at BCtalk..",
@@ -91,7 +101,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 11,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "UPDATE: #bitcoin in steep declines as investors seek stability in #dogecoin the new crypto reserve currency",
+            "created_at": "Mon Dec 16 23:41:31 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
             "username": "Tachibana Kanade ::: @h0m54r@mastodon.social",
             "user_account": "h0m54r",
             "text": "Should I test out this new cluster by mining some dogecoin?",
@@ -101,7 +121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 13,
             "username": "kiki ✿",
             "user_account": "kstojanoski",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block\n\nhttp://t.co/SaTYuBW9z0 hahah I didn't see that coming",
@@ -111,7 +131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 14,
             "username": "Justin, they call me Cyberwaste",
             "user_account": "iAmCyberwaste",
             "text": "Wait, Dogecoin is actually a thing? Man, I hate people sometimes.",
@@ -121,7 +141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 13,
+            "tweet_count": 15,
             "username": "TheDogeMaster",
             "user_account": "thedogemaster",
             "text": "@winklevoss @tylerwinklevoss Have you guys checked out Dogecoin? Tons of investors and a lot of daily transactions!!  via @dogecoin",
@@ -131,7 +151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 16,
             "username": "Houssein 🇵🇸⚡",
             "user_account": "DaSmuggla",
             "text": "#Wow #Seriouly \"Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block\" http://t.co/PUf8C8IBXj",
@@ -141,7 +161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 17,
             "username": "Michael Chezz",
             "user_account": "findingchezz",
             "text": "Nikon is mining DogeCoin. Probably found a good pool on Reddit while he was at it. I personally use the memebase.cheezburger pool.",
@@ -151,27 +171,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "How to mine dogecoins efficiently http://t.co/5q0yU7v8Oh #doge #dogecoins",
-            "created_at": "Mon Dec 16 23:37:39 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 17,
-            "username": "Chris",
-            "user_account": "FutureChriss",
-            "text": "So I just invest my life savings in #Dogecoin cause: such coin, so reliable, much money, #wow",
-            "created_at": "Mon Dec 16 23:33:17 +0000 2013",
+            "tweet_count": 18,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "#litecoin down 23% in the past 24hrs; have you switched to mining #dogecoin yet?",
+            "created_at": "Mon Dec 16 23:31:20 +0000 2013",
             "retweet": 1,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
+            "tweet_count": 19,
             "username": "Your Anon Facts",
             "user_account": "youranonfactz",
             "text": "[Bitcoin] Forget Bitcoin, Dogecoin is the new crypto currency on the block: It was only a matter of time ... http://t.co/mylkY3NJh3 #YAF",
@@ -181,7 +191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 20,
             "username": "Antony Tejada",
             "user_account": "Antony_RS",
             "text": "\"@peterLambe8: #dogecoin\" chill",
@@ -191,7 +201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 21,
             "username": "BitcoinFriends",
             "user_account": "BitCoinFriends",
             "text": "@malukah Start taking donation in @dogecoin , so your lovely voice can reach even more people!",
@@ -201,7 +211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 22,
             "username": "Olivier Depiesse",
             "user_account": "carismarus",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/KdCCfRGspt",
@@ -211,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 23,
             "username": "@DVRod🐦",
             "user_account": "DVRod",
             "text": "wow\n\n      very currency\n\nmuch coin\n\n         so crypto\n\nwow\nhttp://t.co/qChQ3uA2Yj",
@@ -221,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 24,
             "username": "Boris Rasonja",
             "user_account": "brasonja",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/b46zjAK0cf via @verge",
@@ -231,7 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 25,
             "username": "legendary",
             "user_account": "legen_____dary",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -241,7 +251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 26,
             "username": "Ghân-buri-Ghân",
             "user_account": "FicoXL",
             "text": "\"Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block | The Verge\" http://t.co/bbuEWJZPgq",
@@ -251,17 +261,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
-            "username": "jeff",
-            "user_account": "theofficialjeff",
-            "text": "@ButtCoin have you heard about this? http://t.co/LHo3xyDvIq #wow #socurrency #suchfun #tothemoon",
-            "created_at": "Mon Dec 16 23:08:56 +0000 2013",
+            "tweet_count": 27,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "1,000 Dogecoin (Like Bitcoin, Litecoin, Feathercoin) http://t.co/mxSzsCI2Fg #feathercoin http://t.co/O3ZMOTBMlF",
+            "created_at": "Mon Dec 16 23:09:53 +0000 2013",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
+            "tweet_count": 28,
             "username": "Timothy Connolly CFA",
             "user_account": "SconsetCapital",
             "text": "Bespoke hipster digital currencies are the new micro-brews. RT @GigaBitcoin: Dogecoin is the new crypto currency http://t.co/BCEKtU2r4X",
@@ -271,21 +281,11 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 29,
             "username": "Allyse Heartwell",
             "user_account": "aheartwell",
             "text": "wtf is going on with the world. http://t.co/SYuvAiUtNb",
             "created_at": "Mon Dec 16 23:05:33 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 29,
-            "username": "Ethan",
-            "user_account": "eafinqd",
-            "text": "Dogecoin is the new and improved Bitcoin",
-            "created_at": "Mon Dec 16 23:01:59 +0000 2013",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -302,16 +302,6 @@
         },
         {
             "tweet_count": 31,
-            "username": "Jonathan",
-            "user_account": "Remix316_",
-            "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/PQP4XZaReI via @verge",
-            "created_at": "Mon Dec 16 22:58:52 +0000 2013",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 32,
             "username": "Dogecoin",
             "user_account": "SuchDogecoin",
             "text": "Follow @dogecoin \n       Official doge\n  Wow",
@@ -321,17 +311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
-            "username": "Thomas",
-            "user_account": "Thompaam",
-            "text": "Wait, Dogecoin is a real thing? I am speechless.",
-            "created_at": "Mon Dec 16 22:58:42 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 34,
+            "tweet_count": 32,
             "username": "Daniel X",
             "user_account": "DanielXMoore",
             "text": "What's the difference between Dogecoin and Bitcoin other than one has a picture of a dog on it and costs a whole lot less?",
@@ -341,7 +321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 35,
+            "tweet_count": 33,
             "username": "Neil Bearse ✨🦁✨",
             "user_account": "neilbearse",
             "text": "@DavidsTEA - Can I pay for tea in DogeCoin? http://t.co/iyOS3Fq5Gs  very thank you!",
@@ -351,17 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
-            "username": "B",
-            "user_account": "drivetheknife",
-            "text": "“@carlfranzen: Bitcoin is such 2013: introducing #Dogecoin http://t.co/EFmBJtI9Dk via @nateingraham” @aspirin_free",
-            "created_at": "Mon Dec 16 22:57:25 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 37,
+            "tweet_count": 34,
             "username": "Martin Specken",
             "user_account": "martinspecken",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/pJyFUb0Cb3 via @verge",
@@ -371,7 +341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
+            "tweet_count": 35,
             "username": "Gilbert Fung",
             "user_account": "simpol363",
             "text": "So yes. Much value. http://t.co/VqOiXhxSYn",
@@ -381,7 +351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
+            "tweet_count": 36,
             "username": "Dogecoin",
             "user_account": "SuchDogecoin",
             "text": "@Zaitted dogecoin address? send few doges. xmas early. wow.",
@@ -391,17 +361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
-            "username": "UltraUnboxing",
-            "user_account": "UltraUnboxing",
-            "text": "Bitcoin is so 2013: #Dogecoin is the brand-new #cryptocurrency on the block http://t.co/gVJYRo8XtN #business #hype",
-            "created_at": "Mon Dec 16 22:46:16 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 41,
+            "tweet_count": 37,
             "username": "Aditya Salapaka",
             "user_account": "AdityaSalapaka",
             "text": "Quality journalism from The Verge. http://t.co/8AvtruAQSk",
@@ -411,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 38,
             "username": "dogepool.pw",
             "user_account": "dogepool",
             "text": "Join us digging dogecoin over at http://t.co/7ffC1mESB5  and then trade for bitcoin @ http://t.co/jDCAbv35I0 #bitcoin #dogecoin #tothemoon",
@@ -421,7 +381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 39,
             "username": "Michael Brune-Waelser",
             "user_account": "michaelbrne",
             "text": "dogecoin actually exists?! I thought they were kidding back when they were talking about it.\n😐🔫",
@@ -431,7 +391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 40,
             "username": "Aaron B. Russell",
             "user_account": "arussell",
             "text": "Hahaha, doge now has it’s own cryptocurrency: http://t.co/LLLzRVN5p5 Such currency! Many coins! Amaze!",
@@ -441,7 +401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
+            "tweet_count": 41,
             "username": "GigaɃitcoin",
             "user_account": "GigaBitcoin",
             "text": "Forget Bitcoin, Dogecoin is the new crypto currency on the block - The Verge http://t.co/B7rlEWQGnx via @GoogleNews",
@@ -451,7 +411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 42,
             "username": "Mind Map",
             "user_account": "Mindmapk",
             "text": "Wow, Dogecoin is the most Internet thing to happen ever http://t.co/Zkf9J6442r",
@@ -461,7 +421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 43,
             "username": "MyDogecoin.com",
             "user_account": "mydogecoin",
             "text": "Some tips about Dogecoin’s inflation | http://t.co/2P0Ew5ewgs - http://t.co/5m7VzVPg2S #dogecoin",
@@ -471,17 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
-            "username": "UltraUnboxing",
-            "user_account": "UltraUnboxing",
-            "text": "Bitcoin is so 2013: Dogecoin is the brand-new cryptocurrency on the block http://t.co/4ckPXomA3J",
-            "created_at": "Mon Dec 16 22:38:19 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 49,
+            "tweet_count": 44,
             "username": "paulmaritz",
             "user_account": "paulmaritz",
             "text": "@fast_coin Fastcoin is now on top of DogeCoin and DogeCoin on top of Sexcoin. lol",
@@ -491,7 +441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 45,
             "username": "Alex Lee",
             "user_account": "alexirc",
             "text": "Can't wait for #dogecoin to blow up",
@@ -501,7 +451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 46,
             "username": "nickwesley",
             "user_account": "nkwsy",
             "text": "Such currency \n                        #dogecoin \n  #WOW!                         Many profits\n                To moons",
@@ -511,17 +461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
-            "username": "aj",
-            "user_account": "ajgago",
-            "text": "omg guys: dogecoin exists http://t.co/DN0QusAN6Z",
-            "created_at": "Mon Dec 16 22:34:56 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 53,
+            "tweet_count": 47,
             "username": "Kaiden Campbell",
             "user_account": "giraffe435",
             "text": "So dogecoin is actually a thing now \"@verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/j1CRs88ALe\"",
@@ -531,7 +471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 48,
             "username": "mootchie",
             "user_account": "therealmootchie",
             "text": "@ScottJund now is the time to buy http://t.co/RxjL6TsJAZ",
@@ -541,7 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 49,
             "username": "Marie Steinthaler",
             "user_account": "marmarlade",
             "text": "MT @tek_fin: Twitter &amp; Startups in 1 picture, quick I should buy my Whistle w Dogecoin before all of this fades away. http://t.co/udMB6bLZf7",
@@ -551,7 +491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 50,
             "username": "Bitcoin Alaska",
             "user_account": "bitcoinAK",
             "text": "Very news for #Dogecoin, much profit, many wins. Wow such coin.\nhttp://t.co/RrFBBebyVn",
@@ -561,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 51,
             "username": "Bitcoins For Sale",
             "user_account": "bitcoinsforsale",
             "text": "100,000 Dogecoin (Bitcoin/Litecoin type crytocurrency) http://t.co/tm4nJL5poZ #bitcoin http://t.co/9VwN7kSBEJ",
@@ -571,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 52,
             "username": "GoodLawyer",
             "user_account": "GoodLawyerHQ",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/YbKQ1vmqrf",
@@ -581,7 +521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
+            "tweet_count": 53,
             "username": "ARCOMPANY Inc.",
             "user_account": "ArCIntel",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/VrTPTY4uIY",
@@ -591,7 +531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 54,
             "username": "Dogecoin",
             "user_account": "SuchDogecoin",
             "text": "@Abcmsaj Help poor shibe promote dogecoin by donating to run many Twitter bots. DHFVmHVoeiPpQkV8gLTnvj74ukC23fnQdF",
@@ -601,7 +541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 55,
             "username": "Alex Dixon",
             "user_account": "Abcmsaj",
             "text": "Dogecoin mining turned my room into a sauna.",
@@ -611,7 +551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 56,
             "username": "Privisi",
             "user_account": "Privisi_",
             "text": "#Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/85HsmAYrSj via @verge",
@@ -621,7 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 57,
             "username": "Yann Ranchere",
             "user_account": "tek_fin",
             "text": "Twitter &amp; Startups in one picture, quick I should buy my Whistle with Dogecoin before all of this fades away. http://t.co/1Ufe5V8sXm",
@@ -631,17 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
-            "username": "John",
-            "user_account": "Jonotha36021277",
-            "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
-            "created_at": "Mon Dec 16 22:20:47 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 65,
+            "tweet_count": 58,
             "username": "Tsun",
             "user_account": "Soulflarz",
             "text": "@SummerPaprika @WispedJoy DOGE COIN“@benspants: BRB, need to talk to my boss about getting paid in Dogecoin. http://t.co/f2pfCO11YL”",
@@ -651,7 +581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 59,
             "username": "Mateusz Gryc",
             "user_account": "grycmat",
             "text": "Kupujemy?:D \"@steveklabnik: \"Bitcoin is so 2013: Dogecoin is new crypto currency on the block\" http://t.co/oGYVAyWJmh\"",
@@ -661,7 +591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 60,
             "username": "Peter Bromberg",
             "user_account": "peterbromberg",
             "text": "And its..... DOGECOIN! http://t.co/tqVeeJ0svj http://t.co/9HNblQo22P",
@@ -671,7 +601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 61,
             "username": "Saint Max",
             "user_account": "AboutMax",
             "text": "Dogecoin!",
@@ -681,7 +611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 62,
             "username": "Matteo Campofiorito",
             "user_account": "matteoca",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block http://t.co/cMTPmqY4rA",
@@ -691,7 +621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 63,
             "username": "Trendolizer",
             "user_account": "Trendolizer",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block - http://t.co/WyjmeURD9s",
@@ -701,7 +631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 64,
             "username": "Dogecoin",
             "user_account": "SuchDogecoin",
             "text": "Dogecoin such Tweeter. \n                                      Many follow plz.       Wow.\n                  Much retweet.",
@@ -711,7 +641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 65,
             "username": "Roshni",
             "user_account": "roshnimo",
             "text": "\"Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block\" http://t.co/fLgbnCHcyC",
@@ -721,7 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 66,
             "username": "Blockchain.com",
             "user_account": "blockchain",
             "text": "@hawks5999 No plans to add dogecoin, or any other cryptocurrency to our resume (but time / demand will tell!).",
@@ -731,7 +661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 67,
             "username": "LNVisitor",
             "user_account": "ChristianJv2",
             "text": "So glad I did not miss the dogecoin train",
@@ -741,7 +671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 68,
             "username": "The Loverz Movement",
             "user_account": "LoverzMovement",
             "text": "#500ADAY #FollowBack #TFB New!:  Move Over Bitcoin: Dogecoin is Here http://t.co/k2aIUGn2up",
@@ -751,7 +681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
+            "tweet_count": 69,
             "username": "Anth",
             "user_account": "AnthDRS",
             "text": "Not sure if I should start working on something in After Effects or keep mining #DogeCoin",
@@ -761,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 77,
+            "tweet_count": 70,
             "username": "interweb.co",
             "user_account": "interwebcounty",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block  http://t.co/DnNYxKbIPB",
@@ -771,7 +701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
+            "tweet_count": 71,
             "username": "Sacha Sayan",
             "user_account": "sachasayan",
             "text": "Disregard bitcoing, acquire #dogecoin. http://t.co/qZ5UInV5Wu",
@@ -781,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 79,
+            "tweet_count": 72,
             "username": "Old man Meerk with his finger on the button",
             "user_account": "meerkthemeerkat",
             "text": "@WolfPupTK dogecoin .... is a thing?",
@@ -791,7 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 73,
             "username": "Jacob Mack",
             "user_account": "saiori",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin @saiori many thx",
@@ -801,17 +731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Cheap VPS Cloud Mining for DogeCoin -http://t.co/NaRAFMnvm7 … #dogecoin #doge",
-            "created_at": "Mon Dec 16 22:02:02 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 82,
+            "tweet_count": 74,
             "username": "CoinedUp",
             "user_account": "CoinedUp",
             "text": "[Status] dogecoin withdrawal \"Bad Params\" bug should be fixed.",
@@ -821,7 +741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 75,
             "username": "Bit Scion",
             "user_account": "bitscion",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on... - The Verge http://t.co/IXaAf7Eap0 #bitcoin",
@@ -831,7 +751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 76,
             "username": "Ryan Williams @rrwilliams.bsky.social",
             "user_account": "rrwilliams",
             "text": "How is @dogecoin an actual thing? wow much crypto currencys such hashes",
@@ -841,7 +761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 77,
             "username": "Lord Julian Everly Shervington Wright",
             "user_account": "EarlyAdapter",
             "text": "#followback  Move Over Bitcoin: Dogecoin is Here  Move Over Bitcoin: Dogecoin is Here: Wow. Much coin. http://t.co/t8GLoJj4KS",
@@ -851,7 +771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
+            "tweet_count": 78,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "Like #Dogecoin? Like Haiku? Support http://t.co/4abvgNC2BV",
@@ -861,7 +781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 87,
+            "tweet_count": 79,
             "username": "Levente Feher",
             "user_account": "LeventeFeher",
             "text": "@musalbas @Fares_Alaboud just wait what they will say about doge coin, much sad very unbelieve",
@@ -871,7 +791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
+            "tweet_count": 80,
             "username": "Adam Skelton",
             "user_account": "damSkelton",
             "text": "@WhiteJohnQuotes I thought I should let you know that I just started mining DogeCoin.",
@@ -881,7 +801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 89,
+            "tweet_count": 81,
             "username": "Bitcoin Bolt",
             "user_account": "BitcoinBolt",
             "text": "☞ Bitcoin is so 2013: Dogecoin is the new cryptocurrency on… – The Verge http://t.co/OogIffu9e7",
@@ -891,7 +811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 82,
             "username": "devin",
             "user_account": "xkeemy",
             "text": "#dogecoin such invest very coin over moon 2 uranus",
@@ -901,7 +821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 83,
             "username": "AtomsToBits",
             "user_account": "atoms2bits",
             "text": "#Bitcoin is so #2013: Dogecoin is #new crypto currency on the block http://t.co/8QKdOjn8WJ http://t.co/NjronxKukk",
@@ -911,7 +831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 84,
             "username": "MowtenDoo",
             "user_account": "MowtenDoo",
             "text": "Dogecoin is proof that cyptocurrency is garbage",
@@ -921,7 +841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
+            "tweet_count": 85,
             "username": "GLCBitcoin",
             "user_account": "glcbitcoin",
             "text": "Bitcoin is so 2013: Dogecoin is the new cryptocurrency on… – The Verge: Bitcoin is so 2013: Dogecoin is the ne... http://t.co/6pH4hkJGdR",
@@ -931,7 +851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 94,
+            "tweet_count": 86,
             "username": "Bram van Dam",
             "user_account": "iBramvandam",
             "text": "So wow, much awesome: \"Bitcoin is so 2013: Dogecoin is the new cryptocurrency on the block\" http://t.co/w7w9HqoCCI",
@@ -941,7 +861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
+            "tweet_count": 87,
             "username": "Julio García",
             "user_account": "juliogabe",
             "text": "Shall we talk of cryptocurrency!? Another coin more.. http://t.co/hp7NXkoGza",
@@ -951,7 +871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 96,
+            "tweet_count": 88,
             "username": "Chris McKie, JD",
             "user_account": "CyberMcKie",
             "text": "@FarhaadNero #dogecoin Wow... such currency, many money, very spendable, so legal tender",
@@ -961,7 +881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 97,
+            "tweet_count": 89,
             "username": "Nyama",
             "user_account": "Percy_Technic",
             "text": "They actually did it. omg. http://t.co/desfM8ZqpH",
@@ -971,7 +891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 98,
+            "tweet_count": 90,
             "username": "kraatz",
             "user_account": "MattKraatz",
             "text": "I will give someone 10,000 Dogecoin to deliver two large pizzas to me right now.",
@@ -981,7 +901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 99,
+            "tweet_count": 91,
             "username": "Ron Chiu 趙崇輝 🇨🇦🍁",
             "user_account": "ronkchiu",
             "text": "Wow... very valuable... so rich... actually thing... the Dogecoin... http://t.co/Q70OUFbofK",
@@ -991,7 +911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
+            "tweet_count": 92,
             "username": "🟩 ∞🐐🧙",
             "user_account": "okusats",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the... - The Verge http://t.co/9brUF5ifQh",
@@ -1001,7 +921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 101,
+            "tweet_count": 93,
             "username": "Theodicy de Raadt",
             "user_account": "HackerHuntress",
             "text": "Okay, between that compression thing and http://t.co/stewh9Ju72, the Internet is particularly good today.",
@@ -1011,7 +931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
+            "tweet_count": 94,
             "username": "SourceBottle",
             "user_account": "SourceBottle",
             "text": "Writer seeks customers of #Dogecoin cryptocurrency, info on the Australian founders and #cryptocurrency experts http://t.co/gHHiOQ9nsX",
@@ -1021,7 +941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
+            "tweet_count": 95,
             "username": "Londre.eth 🇺🇦",
             "user_account": "MattLondre",
             "text": "@DogSolutions RT #Bitcoin is so 2013: Doegcoin is new cryptocurrency on the block http://t.co/NuXbDKQlH8 Wow http://t.co/Bm3TtuBm3f",
@@ -1031,7 +951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 104,
+            "tweet_count": 96,
             "username": "👋",
             "user_account": "JayHealey",
             "text": "Forget Botcoin. It's all about Dogecoin! Invest now, such coins, much invest! So wow. https://t.co/XD5ub94j21",
@@ -1041,7 +961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 97,
             "username": "rislim",
             "user_account": "rislim",
             "text": "so…dogecoin",
@@ -1051,7 +971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 106,
+            "tweet_count": 98,
             "username": "Ronzel",
             "user_account": "ronstew",
             "text": "Complex Vision: Move Over Bitcoin: Dogecoin is Here - Wow. Much coin. http://t.co/BXJMfOrsPn",
@@ -1061,7 +981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 107,
+            "tweet_count": 99,
             "username": "Sumeet Shah",
             "user_account": "PE_Feeds",
             "text": "Ehhh… RT @500Startups: #Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/AkryGGmNqI Wow http://t.co/Y1KQWPwPfp",
@@ -1071,7 +991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 108,
+            "tweet_count": 100,
             "username": "Pierre LEMASSON ",
             "user_account": "sirchamallow",
             "text": "#Bitcoin is so 2013: #Dogecoin is the new cryptocurrency on the block http://t.co/03JQLwKf0S (The Verge)",
@@ -1081,7 +1001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 109,
+            "tweet_count": 101,
             "username": "VIRGINIA | BLEEK",
             "user_account": "VA_Bleek",
             "text": "Bleek's Intel: Move Over Bitcoin: Dogecoin is Here http://t.co/OhLeoaM8qx http://t.co/tE0WlX7UMt",
@@ -1091,7 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 110,
+            "tweet_count": 102,
             "username": "Ben McNelly",
             "user_account": "benmcnelly",
             "text": "@dogecoin I am glad I am getting in on this now, can't wait till this skyrockets!",
@@ -1101,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 111,
+            "tweet_count": 103,
             "username": "TyTanne",
             "user_account": "_TyTanne_",
             "text": "Hmm je poste une news sur le Dogecoin, et @The_BitCoiner me follow direct. Wow. Such speed.",
@@ -1111,7 +1031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 112,
+            "tweet_count": 104,
             "username": "Jimmy McRussel",
             "user_account": "JimmyMcRussel",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -1121,7 +1041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 113,
+            "tweet_count": 105,
             "username": "TyTanne",
             "user_account": "_TyTanne_",
             "text": "What. The. \"Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block\" http://t.co/MZVYwRpCwZ via @verge",
@@ -1131,7 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 114,
+            "tweet_count": 106,
             "username": "Alan 🦪",
             "user_account": "DrPizzaStone",
             "text": "Today I woke up in a world where dogecoin is a thing. Fuck everything. http://t.co/zVloEvxXuy",
@@ -1141,7 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 115,
+            "tweet_count": 107,
             "username": "MyDogecoin.com",
             "user_account": "mydogecoin",
             "text": "Why dogecoin’s value is fallen last few hours | http://t.co/2P0Ew5ewgs - http://t.co/lgLUdhgvGa #dogecoin",
@@ -1151,7 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 116,
+            "tweet_count": 108,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the... - The Verge http://t.co/DqbMpE2sLy",
@@ -1161,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 109,
             "username": "Spencer 🧃",
             "user_account": "spenciefy",
             "text": "Much wow. “@500Startups: #Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/pIvG0pt4G4 Wow http://t.co/mNBerEtMN1”",
@@ -1171,7 +1091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
+            "tweet_count": 110,
             "username": "Carles Dijous",
             "user_account": "carlesdijous",
             "text": "#Bitcoin is so 2013: #Dogecoin is new crypto currency on the block. http://t.co/RdTh4RM441",
@@ -1181,7 +1101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 119,
+            "tweet_count": 111,
             "username": "Bitcoin Cash News [BCH]",
             "user_account": "BitcoinFast",
             "text": "\"Move Over Bitcoin: Dogecoin is Here | Complex\" http://t.co/SpvWcl6ZdN",
@@ -1191,7 +1111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 120,
+            "tweet_count": 112,
             "username": "Gabriel Cardona 🧞‍♂️🔺",
             "user_account": "cgcardona",
             "text": "@benatkin we all know that you're the satoshi nakamoto of #dogecoin",
@@ -1201,7 +1121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 121,
+            "tweet_count": 113,
             "username": "Jonathan André Asiedu",
             "user_account": "jonoandre",
             "text": ".@500Startups So have we skipped #Litecoin and gone straight to pronouncing Dogecoin as the new hot currency?",
@@ -1211,7 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 122,
+            "tweet_count": 114,
             "username": "BTC World News",
             "user_account": "BTCWorldNews",
             "text": "BItcoin News Flash Bitcoin is so 2013: Dogecoin is new crypto currency on the… – The Verge: Bitcoin is so 2013... http://t.co/JvkRhefl10",
@@ -1221,7 +1141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 123,
+            "tweet_count": 115,
             "username": "whatconsumesme.com",
             "user_account": "whatconsumesme",
             "text": "shared: Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/rIvIZ4ipAe",
@@ -1231,7 +1151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 124,
+            "tweet_count": 116,
             "username": "Rasmus Cronstrand",
             "user_account": "Cronkan",
             "text": "Such currency much funny #doge http://t.co/mSZxNqlJuS",
@@ -1241,7 +1161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 125,
+            "tweet_count": 117,
             "username": "500 Global",
             "user_account": "500GlobalVC",
             "text": "#Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/gZIg1eVyNX Wow http://t.co/xtURzQ86EZ",
@@ -1251,7 +1171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 126,
+            "tweet_count": 118,
             "username": "Shane Boyce",
             "user_account": "boycereads",
             "text": "Headline + Image of the Year: http://t.co/yYpS45p7uM",
@@ -1261,7 +1181,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 127,
+            "tweet_count": 119,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "massive #bitcoin selloff as #dogecoin becomes preferred cryptocurrency reserve",
+            "created_at": "Mon Dec 16 21:06:34 +0000 2013",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 120,
             "username": "Carlos Eduardo Zúñiga 🎗️",
             "user_account": "CarlosEZuniga",
             "text": "So crypto! RT @TeufelAbgott: wow\nsuch money \nmuch profit\nhttp://t.co/27LJrFvAxv",
@@ -1271,7 +1201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 128,
+            "tweet_count": 121,
             "username": "Manuel Herrera",
             "user_account": "ManuelHerreraM",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/lqOOdBM570",
@@ -1281,7 +1211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 129,
+            "tweet_count": 122,
             "username": "ManuelAyaso.eth",
             "user_account": "manu_ayaso",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/FsH1WS8xfe vía @verge",
@@ -1291,7 +1221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 130,
+            "tweet_count": 123,
             "username": "Stephen Greenwood",
             "user_account": "spgreenwood",
             "text": "In #Doge we trust: http://t.co/qI3zBsF4jJ",
@@ -1301,7 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 124,
             "username": "John 👁💚🔮⚕⚡☀️♻️🌳🔸",
             "user_account": "johnhanacek",
             "text": "So currency, much market capitalization. Bitcoin beware. http://t.co/OUM1B8Quap http://t.co/5LBOB9Ghzg",
@@ -1311,7 +1241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
+            "tweet_count": 125,
             "username": "CoolCoolDay パトリック",
             "user_account": "sgcoolcoolday",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/ue3Kg43abX http://t.co/5I5MQIPZ7X",
@@ -1321,7 +1251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
+            "tweet_count": 126,
             "username": "Gray",
             "user_account": "GrayWuff",
             "text": "Wow, Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/GvSePuF5KF via @verge",
@@ -1331,7 +1261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
+            "tweet_count": 127,
             "username": "james",
             "user_account": "Galaxacat",
             "text": "WHY DID I SKIP OUT ON DOGECOIN OH MY GOD",
@@ -1341,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 135,
+            "tweet_count": 128,
             "username": "Bitkoins",
             "user_account": "bitkoins",
             "text": "SHOULDA GONE WITH DOGECOIN http://t.co/kEekXtw6Xy #bitcoins",
@@ -1351,7 +1281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
+            "tweet_count": 129,
             "username": "bitpricer.com",
             "user_account": "bitpricer",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the...: It was only a matter of time before th... http://t.co/PdxALqATXJ #bitcoin",
@@ -1361,17 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
-            "username": ".",
-            "user_account": "jason_",
-            "text": "I Can Has @dogecoin http://t.co/29LibnZxzV",
-            "created_at": "Mon Dec 16 21:01:47 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 138,
+            "tweet_count": 130,
             "username": "Nimbus",
             "user_account": "nimbusgo",
             "text": "@MattBors better act fast before it's $1000 / dogecoin",
@@ -1381,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 139,
+            "tweet_count": 131,
             "username": "Thyago Liberalli",
             "user_account": "conanbr",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/zvBeUn5XcU",
@@ -1391,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 140,
+            "tweet_count": 132,
             "username": "Papa Jord",
             "user_account": "xordy",
             "text": "Reading about bitcoin, litecoin and new dogecoin. Which one ah?",
@@ -1401,17 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 141,
-            "username": "Ben Johnson",
-            "user_account": "BenJohn67462067",
-            "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the...",
-            "created_at": "Mon Dec 16 21:00:07 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 142,
+            "tweet_count": 133,
             "username": "Marc Hangman Baggio ⚫⚪",
             "user_account": "MarcBaggioFC",
             "text": "@Kosmatos Even if you buy enough Dogecoin for 1CAD, then you are risking 1$ and you can be super rich if it picks up steam #NothingToLose",
@@ -1421,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 143,
+            "tweet_count": 134,
             "username": "Nathan",
             "user_account": "MacBoy__Pro",
             "text": "Bitcoin is so 2013: Dogecoin is new thing http://t.co/tx9bnByEpE",
@@ -1431,7 +1341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 144,
+            "tweet_count": 135,
             "username": "Matthew Frazier",
             "user_account": "LeafStorm",
             "text": "Turtle Crossing is now catching up with the Dogecoin trend. http://t.co/VMpy8PNvWN",
@@ -1441,7 +1351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 145,
+            "tweet_count": 136,
             "username": "Jordan Downey",
             "user_account": "Jordan_D",
             "text": "Screw Bitcoins, introducing Dogecoin http://t.co/d1mXGxd35Y",
@@ -1451,7 +1361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 146,
+            "tweet_count": 137,
             "username": "Scott Buscemi",
             "user_account": "scottbuscemi",
             "text": "I should get the new Mac Pro so I can mine DogeCoin",
@@ -1461,7 +1371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
+            "tweet_count": 138,
             "username": "Scott Buscemi",
             "user_account": "scottbuscemi",
             "text": "Currently mining DogeCoin.",
@@ -1471,7 +1381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 148,
+            "tweet_count": 139,
             "username": "Jasper",
             "user_account": "JasperKstrs",
             "text": "Much coin, so wow http://t.co/T6Dky1yIie",
@@ -1481,7 +1391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
+            "tweet_count": 140,
             "username": "Reid - Find me on Steam, Discord, or BlueSky",
             "user_account": "ioReid",
             "text": "@thebluecorsair I’ve been mining for days!\n\n     WOW                  SUCH COIN\nVERY CRYPTO           PLZ MINE\n     DOGECOIN TO THE PARK!",
@@ -1491,7 +1401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 150,
+            "tweet_count": 141,
             "username": "Devon",
             "user_account": "DevonRuhl",
             "text": "So this is a real Bitcoin competitor... http://t.co/jtyXMCdOSf http://t.co/2MOVce2mcl",
@@ -1501,7 +1411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 142,
             "username": "Alex Dixon",
             "user_account": "Abcmsaj",
             "text": "Bitcoin is so 2013. Meet Dogecoin. http://t.co/4hGrnaQRGR",
@@ -1511,7 +1421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
+            "tweet_count": 143,
             "username": "Jolyon Brown",
             "user_account": "Eddie_Catflap",
             "text": "@Sevoque much mining so love dogecoin",
@@ -1521,7 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
+            "tweet_count": 144,
             "username": "𝘽𝙪𝙩𝙩 𝙎𝙩𝙖𝙡𝙡𝙞𝙤𝙣 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
             "user_account": "ChrisMySass",
             "text": "Forget Bitcoin, Dogecoin is where it's at.\nMuch expense.\n    Very money\n  Many value\n         So worth.\n\nhttp://t.co/zXCYTj1Jo3",
@@ -1531,7 +1441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 154,
+            "tweet_count": 145,
             "username": "Jolyon Brown",
             "user_account": "Eddie_Catflap",
             "text": "Avatar picked before I’d heard of dogecoin. Much coincidence \n\nSo lucky\n\n                    Wow",
@@ -1541,7 +1451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
+            "tweet_count": 146,
             "username": "amity jam",
             "user_account": "amityjam",
             "text": "@krisstraub http://t.co/I9uGeXSkvS I'm blaming you.",
@@ -1551,7 +1461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 156,
+            "tweet_count": 147,
             "username": "Marc Hangman Baggio ⚫⚪",
             "user_account": "MarcBaggioFC",
             "text": "@Kosmatos Forget about Bitcoin, start thinking about Dogecoin http://t.co/I0M4SHce2F",
@@ -1561,7 +1471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 157,
+            "tweet_count": 148,
             "username": "Jolyon Brown",
             "user_account": "Eddie_Catflap",
             "text": "Dogecoin. Not sure whether to laugh, cry or just wow",
@@ -1571,7 +1481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 158,
+            "tweet_count": 149,
             "username": "Thiago Pradi",
             "user_account": "thiagopradi",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block: http://t.co/kanEnsWB5W",
@@ -1581,7 +1491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 159,
+            "tweet_count": 150,
             "username": "Roberto Miranda S.",
             "user_account": "Roberto_167",
             "text": "Much coin, very currency http://t.co/RegmSmEMtT",
@@ -1591,7 +1501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 160,
+            "tweet_count": 151,
             "username": "Somedroid",
             "user_account": "SomeDroidCom",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/gd1Q3tOPDe",
@@ -1601,7 +1511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
+            "tweet_count": 152,
             "username": "Chris Jordan",
             "user_account": "counterstrike1",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/rzKeSiDlt0 via @verge\nHaHaHa! Equal opportunity!  *WOOF*",
@@ -1611,7 +1521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 162,
+            "tweet_count": 153,
             "username": "TechnologyHeadquater",
             "user_account": "Tech_HQ",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/jyR8f26maO",
@@ -1621,7 +1531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 163,
+            "tweet_count": 154,
             "username": "U make no sense",
             "user_account": "iBuyLowSellHigh",
             "text": "#dogecoin\n\nBitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/IkN1nfeVOS",
@@ -1631,7 +1541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 155,
             "username": "Jake Sikma",
             "user_account": "jakesikma",
             "text": "Dogecoin wow such economy - http://t.co/eBRQ4HaH4Z @codygoins @s_oehler",
@@ -1641,7 +1551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 156,
             "username": "william",
             "user_account": "williamsager",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/BaMEuM9Ame",
@@ -1651,7 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
+            "tweet_count": 157,
             "username": "sleepy_bot",
             "user_account": "sleepy_bot",
             "text": "Move Over Bitcoin: Dogecoin is Here http://t.co/wfNTkgU73j",
@@ -1661,7 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 167,
+            "tweet_count": 158,
             "username": "Tecno-VE.com",
             "user_account": "tecnovecom",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/pz71e3rn16",
@@ -1671,7 +1581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 168,
+            "tweet_count": 159,
             "username": "Claudiu Tanasescu",
             "user_account": "tclauss",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the... - The Verge: Bitcoin is so 2013: Dogecoin is new ... http://t.co/QbcgVata1I",
@@ -1681,7 +1591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
+            "tweet_count": 160,
             "username": "Tony Sutton",
             "user_account": "tony_sutton",
             "text": "@philicibine @senaia1 I wonder if it's because Dogecoin has appeared? :)",
@@ -1691,17 +1601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 170,
-            "username": "Bitcoin News",
-            "user_account": "BitcoinNews247",
-            "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... http://t.co/WXqh5eoPf0 #bitcoin #news",
-            "created_at": "Mon Dec 16 20:35:28 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 171,
+            "tweet_count": 161,
             "username": "Laura Manach 👩‍👧‍👦",
             "user_account": "CMconseils",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the block http://t.co/MYWSzpivVz",
@@ -1711,7 +1611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 172,
+            "tweet_count": 162,
             "username": "BitCorporations",
             "user_account": "BitCorporations",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the... - The Verge: Bitcoin is so 2013: Dogecoin is new ... http://t.co/AHLdPWZTix",
@@ -1721,7 +1621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 173,
+            "tweet_count": 163,
             "username": "BIT ENTERPRISES",
             "user_account": "bitenterprises",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the... - The Verge: Bitcoin is so 2013: Dogecoin is new ... http://t.co/432AMfRy5d",
@@ -1731,7 +1631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 164,
             "username": "Tech News",
             "user_account": "VCTechNews",
             "text": "#BitCoin #LiteCoin Bitcoin is so 2013: Dogecoin is new crypto currency on the... - The Verge http://t.co/YprFFfLHsC",
@@ -1741,7 +1641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
+            "tweet_count": 165,
             "username": "Mattijs Eggermont",
             "user_account": "MattijsE",
             "text": "The Dogecoin - http://t.co/fN4CRP82CP",
@@ -1751,7 +1651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 176,
+            "tweet_count": 166,
             "username": "Amaete Umanah",
             "user_account": "amaeteumanah",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/u6vVeervbK",
@@ -1761,7 +1661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 177,
+            "tweet_count": 167,
             "username": "VerifyBTC",
             "user_account": "VerifyBTC",
             "text": "Bitcoin is so 2013: Dogecoin is new cryptocurrency on the... - The Verge http://t.co/NImcvcJKzf #bitcoin",
@@ -1771,7 +1671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 178,
+            "tweet_count": 168,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "Dogecoin to the moon WOW http://t.co/ttnStaYJYq",
@@ -1781,17 +1681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
-            "username": "aaron",
-            "user_account": "orangesrhyme",
-            "text": "Buy dogecoin, y/n?",
-            "created_at": "Mon Dec 16 20:22:49 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 180,
+            "tweet_count": 169,
             "username": "New Money Feed",
             "user_account": "NewMoneyFeed",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the… – The Verge http://t.co/elAwbjDiyo #bitcoin",
@@ -1801,7 +1691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 181,
+            "tweet_count": 170,
             "username": "framevvork",
             "user_account": "framevvork",
             "text": "I'm thoroughly impressed @dogecoin is a real thing. Much surprise. http://t.co/Qy7fwffRRU http://t.co/MSFWpXLb2O",
@@ -1811,7 +1701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
+            "tweet_count": 171,
             "username": "Paritosh Pundir",
             "user_account": "paritosh_pundir",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/V7iku8Kb6u",
@@ -1821,7 +1711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 183,
+            "tweet_count": 172,
             "username": "Edward Leung",
             "user_account": "Edwardism",
             "text": "@maryleong I can't even begin to understand why... \"Bitcoin is so 2013: Dogecoin is new crypto currency on the block\" http://t.co/b5zDAQIR08",
@@ -1831,7 +1721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 184,
+            "tweet_count": 173,
             "username": "jean lievens",
             "user_account": "jlievens",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block | @scoopit via @vincentleetping http://t.co/GtaGRVRdgH",
@@ -1841,7 +1731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
+            "tweet_count": 174,
             "username": "✨ MicahTheBrave ✨",
             "user_account": "MicahTheBrave",
             "text": "Trying to convince @klaser to invest in #dogecoin. Here's my promo pitch. http://t.co/9Vg53GrKHu",
@@ -1851,7 +1741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 186,
+            "tweet_count": 175,
             "username": "Bitcoin Cash News [BCH]",
             "user_account": "BitcoinFast",
             "text": "\"Bitcoin is so 2013: Dogecoin is new crypto currency on the...\" http://t.co/Ge1OH9UYjV",
@@ -1861,7 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 187,
+            "tweet_count": 176,
             "username": "Servaas",
             "user_account": "servaasschrama",
             "text": "The Verge - All Posts: Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/fDf2MNYxQn #internetmarketing #onl...",
@@ -1871,7 +1761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 188,
+            "tweet_count": 177,
             "username": "Bitcoin Nieuws",
             "user_account": "BitcoinNieuwsNL",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the...: It was only a matter of time before the 2013 me... http://t.co/SRmkUEqek2",
@@ -1881,7 +1771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 189,
+            "tweet_count": 178,
             "username": "Bonesy",
             "user_account": "vhbonesy",
             "text": "@SeHNNG there's a doge bitcoin now, dogecoin",
@@ -1891,7 +1781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 190,
+            "tweet_count": 179,
             "username": "Kevin Lee",
             "user_account": "baggingspam",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/UtcmOfDGCT via @verge",
@@ -1901,7 +1791,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 191,
+            "tweet_count": 180,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "5,000 Dogecoin DOGE (Not Bitcoin Litecoin Feathercoin Peercoin Primecoin) http://t.co/Mb7naXfHIJ #feathercoin http://t.co/YazGsSEjVZ",
+            "created_at": "Mon Dec 16 20:10:16 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 181,
             "username": "Swole Shady ",
             "user_account": "PL_Aesthetics",
             "text": "I lied, DogeCoin is worth half as much as BitCoin. Still impressive for a meme based crypto-currency though.",
@@ -1911,7 +1811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 192,
+            "tweet_count": 182,
             "username": "Fintech Prowler",
             "user_account": "FintechProwler",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... - The Verge http://t.co/iW28piM9ts #cryptocurrency",
@@ -1921,7 +1821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 193,
+            "tweet_count": 183,
             "username": "Byron Matto",
             "user_account": "bmatto",
             "text": "@alpha_loft is super busy, must be the #dogecoin rush @zapnap",
@@ -1931,7 +1831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 194,
+            "tweet_count": 184,
             "username": "Bitcoin Updater",
             "user_account": "BitcoinUpdater",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... http://t.co/hdzJeaNRIP",
@@ -1941,7 +1841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 195,
+            "tweet_count": 185,
             "username": "James Lusher",
             "user_account": "LusherJ",
             "text": "Time to mine me some Dogecoin &gt; Bitcoin is so 2013: Dogecoin is new crypto currency on the block  http://t.co/clFawD1J80",
@@ -1951,7 +1851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 196,
+            "tweet_count": 186,
             "username": "Jason Hamblin",
             "user_account": "SearchMktgGuru",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/oyQvBIsMt9",
@@ -1961,7 +1861,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 197,
+            "tweet_count": 187,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "@behindthecoin Sounds like a big issue! See http://t.co/TyOdBFN2HG - dogecoin only coin based on meme. Dogecoin wins",
+            "created_at": "Mon Dec 16 20:07:54 +0000 2013",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 188,
             "username": "Peter Green",
             "user_account": "peterkgreen",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/hVTN31fzZ6",
@@ -1971,7 +1881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 198,
+            "tweet_count": 189,
             "username": "BitCoinReporter",
             "user_account": "BitCoinReporter",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... - The Verge http://t.co/RAX0ttSt4s #bitcoin",
@@ -1981,7 +1891,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 199,
+            "tweet_count": 190,
+            "username": "hozkinz",
+            "user_account": "hozkinz",
+            "text": "i think its dogecoin",
+            "created_at": "Mon Dec 16 20:04:29 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 191,
             "username": "Samir BELLIK",
             "user_account": "samirbellik",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/btroTKZciA",
@@ -1991,7 +1911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 200,
+            "tweet_count": 192,
             "username": "Mohammad Keshtkar",
             "user_account": "k3shtk4r",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/jxJWcVJrjl",
@@ -2001,7 +1921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 201,
+            "tweet_count": 193,
             "username": "Behind The Coin",
             "user_account": "behindthecoin",
             "text": "@goatbot Our goal is to provide a fair overview of all the coins. Would love if you could help us with the Dogecoin research!",
@@ -2011,7 +1931,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 202,
+            "tweet_count": 194,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "@behindthecoin all you need to tell your investors is that if they don't buy dogecoin, they are losing money. Dogecoin is best coin",
+            "created_at": "Mon Dec 16 20:02:16 +0000 2013",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 195,
             "username": "Currencye",
             "user_account": "currencye",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... - The Verge http://t.co/E6jZEGJK6f #Forex #Trading",
@@ -2021,7 +1951,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 203,
+            "tweet_count": 196,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "#dogecoin never sleeps",
+            "created_at": "Mon Dec 16 20:00:32 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
             "username": "AccGeON (액지언)",
             "user_account": "accgeon",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/kFZ52QgiUP",
@@ -2031,7 +1971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 204,
+            "tweet_count": 198,
             "username": "The Latest",
             "user_account": "latest_is",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block | The Verge http://t.co/GsSicWZ3qB",
@@ -2041,7 +1981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 205,
+            "tweet_count": 199,
             "username": "Kentholio",
             "user_account": "Kentholio",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin @Kentholio many thx",
@@ -2051,7 +1991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 206,
+            "tweet_count": 200,
             "username": "Behind The Coin",
             "user_account": "behindthecoin",
             "text": "@dogecoin Would you be interested in contributing to a research piece for our investors? #DogeCoin #Bitcoin",
@@ -2061,7 +2001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 207,
+            "tweet_count": 201,
             "username": "Bitkoins",
             "user_account": "bitkoins",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto #currency on the... - The Verge http://t.co/1BUcHBbKNg #bitcoins",
@@ -2071,7 +2011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 208,
+            "tweet_count": 202,
             "username": "BTC News",
             "user_account": "Bitcoin_Latest",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the… – The Verge: Bitcoin is so 2013: Dogecoin... http://t.co/HlYXRVudqF #bitcoin",
@@ -2081,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 209,
+            "tweet_count": 203,
             "username": "calvin coolidge 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "user_account": "billclinton2003",
             "text": "@DogeTheDog wow such dogecoin http://t.co/AauTxaYQIB",
@@ -2091,7 +2031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 210,
+            "tweet_count": 204,
             "username": "Efrain",
             "user_account": "hipp0tek",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/nI3gh5vYv8",
@@ -2101,7 +2041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 211,
+            "tweet_count": 205,
             "username": "Vincent Lee",
             "user_account": "vincentleetping",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/p59jFUMTYd",
@@ -2111,7 +2051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 212,
+            "tweet_count": 206,
             "username": "Mitchell Shapiro",
             "user_account": "mshapiro",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... - The Verge http://t.co/M73NBpx5hF #bitcoin",
@@ -2121,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 213,
+            "tweet_count": 207,
             "username": "Manoj Sugathan",
             "user_account": "masug",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/YrImQspUDS",
@@ -2131,7 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 214,
+            "tweet_count": 208,
             "username": "bitify",
             "user_account": "bitify_com",
             "text": "\"100k DOGE dogecoin\" has been posted on cryptothrift - https://t.co/43K4vyIwGm #Bitcoin #Litecoin",
@@ -2141,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 215,
+            "tweet_count": 209,
             "username": "TheNewsSpot",
             "user_account": "TheNewsSpot",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: That's a far cry from the $735 or so Bitcoin... http://t.co/Azz0Vog6An",
@@ -2151,7 +2091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 216,
+            "tweet_count": 210,
             "username": "technology",
             "user_account": "NewTechNews",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/wtepi2M3RT",
@@ -2161,7 +2101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 217,
+            "tweet_count": 211,
             "username": "Gust Rotter",
             "user_account": "gust_rotter",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/gA2y6P0AvW",
@@ -2171,7 +2111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 218,
+            "tweet_count": 212,
             "username": "Adrien Bird",
             "user_account": "adrien_bird",
             "text": "@FixedBikeShop_s Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/MsDIZ5Nh7N #TheVerge",
@@ -2181,7 +2121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 219,
+            "tweet_count": 213,
             "username": "Tom",
             "user_account": "TomaszJ",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/zOXFRjvmvh",
@@ -2191,17 +2131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 220,
-            "username": "Claudia",
-            "user_account": "signorina37H",
-            "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/uwZJNsNUF8 #verge #news #tech",
-            "created_at": "Mon Dec 16 19:53:03 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 221,
+            "tweet_count": 214,
             "username": "aoll",
             "user_account": "sonuise",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: It was only a matter of time before the 2013... http://t.co/XUVqONAXCc",
@@ -2211,7 +2141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 222,
+            "tweet_count": 215,
             "username": "Mexico News",
             "user_account": "The_Mexico_News",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/pY997jHYch #tech",
@@ -2221,7 +2151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 223,
+            "tweet_count": 216,
             "username": "InstantNewsFeed",
             "user_account": "InstantNewsFeed",
             "text": "[TheVerge] Bitcoin is so 2013: Dogecoin is new crypto currency on the block: It was only a matter of time before the 2013 meme of the...",
@@ -2231,7 +2161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 224,
+            "tweet_count": 217,
             "username": "Variateᴼᴺᴱ",
             "user_account": "var0NE",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/jMLQ7nKLMb",
@@ -2241,7 +2171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 225,
+            "tweet_count": 218,
             "username": "The Haptic Project",
             "user_account": "HapticProject",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/snAXT4IZIL @verge #OliverCrow",
@@ -2251,7 +2181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 226,
+            "tweet_count": 219,
             "username": "Kevin Minott",
             "user_account": "KevinMinott",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/61fIAmThcg",
@@ -2261,7 +2191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 227,
+            "tweet_count": 220,
             "username": "Streets Approved 🇩🇰🇪🇺",
             "user_account": "streetsapproved",
             "text": "#UPDATE Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/QYRcPEnqiv",
@@ -2271,7 +2201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 228,
+            "tweet_count": 221,
             "username": "Yahoo News Tech",
             "user_account": "YahooNewsTech",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/7Ael0wortO",
@@ -2281,7 +2211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 229,
+            "tweet_count": 222,
             "username": "Swole Shady ",
             "user_account": "PL_Aesthetics",
             "text": "Wow DogeCoin is a thing and it's worth 5 times more than bitcoin. Such currency, much value, wow.",
@@ -2291,7 +2221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 230,
+            "tweet_count": 223,
             "username": "Michael Orr",
             "user_account": "imightbeinatree",
             "text": "Beginners Guide: How to mine dogecoin with your cpu on a mac http://t.co/NDR0bhdKVY #btc #dogecoin #scrypt",
@@ -2301,7 +2231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 231,
+            "tweet_count": 224,
             "username": "Peter Erikssen",
             "user_account": "PeterErikssen",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/Ey1jjSSQMe",
@@ -2311,7 +2241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 232,
+            "tweet_count": 225,
             "username": "Monde",
             "user_account": "MondeGB",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/RbPWEPlG5B #media",
@@ -2321,17 +2251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 233,
-            "username": "Bitcoin News",
-            "user_account": "BTCNewsletter",
-            "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the... - The Verge http://t.co/fES4H0K6Oy",
-            "created_at": "Mon Dec 16 19:49:03 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 234,
+            "tweet_count": 226,
             "username": "Tech Reviews",
             "user_account": "DailyTechWhip",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/Uce1BW6mzO",
@@ -2341,7 +2261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 235,
+            "tweet_count": 227,
             "username": "techvedi",
             "user_account": "techvedi",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/pmev74t6Qs",
@@ -2351,7 +2271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 236,
+            "tweet_count": 228,
             "username": "2020audio",
             "user_account": "20_20audio",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block\n\nhttp://t.co/ZCR8w0Ma7w",
@@ -2361,7 +2281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 237,
+            "tweet_count": 229,
             "username": "Yanik Magnan",
             "user_account": "Sakurina",
             "text": "sigh • Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/VGhF8qUUdC",
@@ -2371,7 +2291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 238,
+            "tweet_count": 230,
             "username": "Tibault Damman",
             "user_account": "0xTIBO",
             "text": "@wbronchart everyone's probably jumping ship. Dogecoin's where it's at now!",
@@ -2381,7 +2301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 239,
+            "tweet_count": 231,
             "username": "Jordan Cauley",
             "user_account": "jdcauley",
             "text": "Here you go @zackmohorn  Bitcoin is so 2013: Dogecoin is new crypto currency on the block | The Verge -  All Posts http://t.co/d9eUIefAdI",
@@ -2391,7 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 240,
+            "tweet_count": 232,
             "username": "™",
             "user_account": "tiagomagalhaes",
             "text": "@jouz3 RT @verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/MtXJtcoreE",
@@ -2401,7 +2321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 241,
+            "tweet_count": 233,
             "username": "techvedi",
             "user_account": "techvedi",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/pmev74t6Qs",
@@ -2411,7 +2331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 242,
+            "tweet_count": 234,
             "username": "Socialmedia Demo",
             "user_account": "smju2",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/B6H4aNgIkt",
@@ -2421,7 +2341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 243,
+            "tweet_count": 235,
             "username": "Dan Kemble",
             "user_account": "KembleCloud",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block - It was only a matter of time before the... http://t.co/GMjZNe0mbg",
@@ -2431,7 +2351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 244,
+            "tweet_count": 236,
             "username": "Onlireeks Tech",
             "user_account": "OnlireeksTech",
             "text": "#Tech Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/5DJm3v2IZG #Onlireeks",
@@ -2441,17 +2361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 245,
-            "username": "Fintechbot",
-            "user_account": "FintechBot",
-            "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/Fy4QeU95wT by @Verge",
-            "created_at": "Mon Dec 16 19:41:10 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 246,
+            "tweet_count": 237,
             "username": "Tech Galactica",
             "user_account": "techgalactica",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: That's a far cry from the $735 or so Bitcoin... http://t.co/O1Aw0lj1YI",
@@ -2461,7 +2371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 247,
+            "tweet_count": 238,
             "username": "TSE Tech Street",
             "user_account": "TSETechStreet",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: That's a far cry from the $735 or so Bitcoin... http://t.co/mDxZcHwlVe",
@@ -2471,7 +2381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 248,
+            "tweet_count": 239,
             "username": "bas",
             "user_account": "hadopiland",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: That's a far cry from the $735 or so Bitcoin... http://t.co/UO07MO1a1A",
@@ -2481,7 +2391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 249,
+            "tweet_count": 240,
             "username": "basile.couzzachi",
             "user_account": "basilecouzzachi",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: That's a far cry from the $735 or so Bitcoin... http://t.co/WwbuktaM0g",
@@ -2491,7 +2401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 250,
+            "tweet_count": 241,
             "username": "Steve Meyers",
             "user_account": "Screamingfrom",
             "text": "#tech #gadgets Bitcoin is so 2013: Dogecoin is new crypto currency on the block: That's a far cry from the $73... http://t.co/jIWmNRGbFV",
@@ -2501,7 +2411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 251,
+            "tweet_count": 242,
             "username": "Kitchen",
             "user_account": "bakersinthe",
             "text": "Dogecoin! #dogecoin",
@@ -2511,7 +2421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 252,
+            "tweet_count": 243,
             "username": "Bethanie Gustus",
             "user_account": "Bethanieah60",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/yYSTb2pzVq",
@@ -2521,7 +2431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 253,
+            "tweet_count": 244,
             "username": "Seb Dancer-Michel",
             "user_account": "Far0s",
             "text": "“@verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/w2yOIneYnB” wow. much coin. so doge. wow.",
@@ -2531,7 +2441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 254,
+            "tweet_count": 245,
             "username": "Dr. Nico",
             "user_account": "nick88msn",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/zJxcIPg2um http://t.co/uuxqz9BuPT",
@@ -2541,7 +2451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 255,
+            "tweet_count": 246,
             "username": "Tweet Helper",
             "user_account": "TweetHelper",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/o8lLAOlMMU",
@@ -2551,7 +2461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 256,
+            "tweet_count": 247,
             "username": "Elephant Tech News",
             "user_account": "ElephantTechno",
             "text": "Yahoo Tech - Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/pIqRzUFdxh",
@@ -2561,7 +2471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 257,
+            "tweet_count": 248,
             "username": "Salinger Media",
             "user_account": "SalingerMedia",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/lq8svkKbBc",
@@ -2571,7 +2481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 258,
+            "tweet_count": 249,
             "username": "獨行俠",
             "user_account": "gdnuniverse",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/YclktoSwb2",
@@ -2581,7 +2491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 259,
+            "tweet_count": 250,
             "username": "Kukes",
             "user_account": "tyscenter",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/YoeFWD04yf",
@@ -2591,7 +2501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 260,
+            "tweet_count": 251,
             "username": "Tee W.",
             "user_account": "teewahby",
             "text": "@ZohairfelKhair such currency http://t.co/yElxHfP0jO",
@@ -2601,7 +2511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 261,
+            "tweet_count": 252,
             "username": "Dan Bazurto",
             "user_account": "DanBazurto",
             "text": "“@verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/DDFKjZSwSz”\nomg, doge  millionaire dreams #fb",
@@ -2611,7 +2521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 262,
+            "tweet_count": 253,
             "username": "𝕚𝕋𝕨𝕖𝕖𝕥𝕄𝕒𝕘𝕒𝕫𝕚𝕟𝕖𝕤 🟡 ",
             "user_account": "iTweetMagazines",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/IScSwtG8SM",
@@ -2621,7 +2531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 263,
+            "tweet_count": 254,
             "username": "Sameed Khan",
             "user_account": "SameedKhn",
             "text": "Much title. So amuse. Wow. “@verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/4vw7BuxU0f”",
@@ -2631,7 +2541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 264,
+            "tweet_count": 255,
             "username": "Claudio Bozzaotra",
             "user_account": "ClaBozza90",
             "text": "Wow. Such coin. Amaze. http://t.co/7BjRCphDYF @AndreaVndt",
@@ -2641,7 +2551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 265,
+            "tweet_count": 256,
             "username": "BreakHeist",
             "user_account": "breakheist",
             "text": "TheVerge: Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/Mb79kufudo",
@@ -2651,7 +2561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 266,
+            "tweet_count": 257,
             "username": "Rishi Athanikar",
             "user_account": "ARishi_",
             "text": "Dogecoin is the new crypto currency with much buzz - http://t.co/BZdymAJE0q via @verge \nSo wow. Such amaze.",
@@ -2661,7 +2571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 267,
+            "tweet_count": 258,
             "username": "Brian Ward 💩",
             "user_account": "brianward",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/HDsn0UDB1p via @verge",
@@ -2671,17 +2581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 268,
-            "username": "Chris",
-            "user_account": "aergonaut",
-            "text": "I’m done RT @verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/MpXP1igQ7C",
-            "created_at": "Mon Dec 16 19:35:13 +0000 2013",
-            "retweet": 1,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 269,
+            "tweet_count": 259,
             "username": "Tech Lovers",
             "user_account": "extremetechlove",
             "text": "#Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/RqhYdLH1In",
@@ -2691,7 +2591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 270,
+            "tweet_count": 260,
             "username": "Bird Feeder",
             "user_account": "bird_feedr",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block | The Verge -  All Posts http://t.co/jPt25lTyy9",
@@ -2701,7 +2601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 271,
+            "tweet_count": 261,
             "username": "The vrge",
             "user_account": "mshvrge",
             "text": "New post: \"Bitcoin is so 2013: Dogecoin is new crypto currency on the block\" http://t.co/v9yF6c79iU",
@@ -2711,7 +2611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 272,
+            "tweet_count": 262,
             "username": "andrew webster",
             "user_account": "A_Webster",
             "text": "looks like a loonie http://t.co/UFbFJHswvQ",
@@ -2721,7 +2621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 273,
+            "tweet_count": 263,
             "username": "Tech Feed",
             "user_account": "TechFeed_",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: It was only a matter of time before the 2013... http://t.co/33lIbExs5B",
@@ -2731,7 +2631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 274,
+            "tweet_count": 264,
             "username": "Tech News",
             "user_account": "TechFeed4You",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: It was only a matter of time before the 2013... http://t.co/oAeoxnNOXl",
@@ -2741,7 +2641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 275,
+            "tweet_count": 265,
             "username": "Carl Franzen",
             "user_account": "carlfranzen",
             "text": "Bitcoin is such 2013: introducing #Dogecoin http://t.co/im8FMM0edj via @nateingraham",
@@ -2751,7 +2651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 276,
+            "tweet_count": 266,
             "username": "TechFishNews",
             "user_account": "TechFishNews",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: It was only a matter of time before the 2013... http://t.co/HJFUMSTf0K",
@@ -2761,7 +2661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 277,
+            "tweet_count": 267,
             "username": "bob yaziandi",
             "user_account": "ac3mane",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block: It was only a matter of time before the 2013... http://t.co/Fp53ouz1zI",
@@ -2771,7 +2671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 278,
+            "tweet_count": 268,
             "username": "Crypto Compass",
             "user_account": "CryptoCompass",
             "text": "Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/rdY3szbe3S via @verge #bitcoin",
@@ -2781,7 +2681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 279,
+            "tweet_count": 269,
             "username": "Sebastian",
             "user_account": "Sebianoti",
             "text": "Bitcoin is so 2013: Dogecoin is new crypto currency on the block http://t.co/Gh9bQyKbCf via @verge",
@@ -2791,7 +2691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 280,
+            "tweet_count": 270,
             "username": "Rui",
             "user_account": "rsantos50",
             "text": "@0xjoao RT @verge: Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/M7212JjM4t",
@@ -2801,7 +2701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 281,
+            "tweet_count": 271,
             "username": "The Verge",
             "user_account": "verge",
             "text": "Wow, amaze: Dogecoin is the new crypto currency with much buzz http://t.co/BPs85yDMMD",
@@ -2811,7 +2711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 282,
+            "tweet_count": 272,
             "username": "Hasar Tului",
             "user_account": "KhTului",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency [YOUR ADDRESS HERE] many thx\n\nD6i7hfAUjisJBpb3f8jzKuv1c5T5h1SD1k",
@@ -2821,7 +2721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 283,
+            "tweet_count": 273,
             "username": "shawn",
             "user_account": "godortslutgas",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DPyCern4jWMcKLqdbT7T8rcLJNqLqsobg2 many thx",
@@ -2831,7 +2731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 284,
+            "tweet_count": 274,
             "username": "Nikolai Heum",
             "user_account": "nikolaiheum",
             "text": "@OlaHolstVea DOGECOIN!! @torgronsund",
@@ -2841,7 +2741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 285,
+            "tweet_count": 275,
             "username": "rhiza",
             "user_account": "rhizanthemum",
             "text": "DOGECOIN is now the #2 scrypt-based coin in network hash rate, following only Litecoin.\n\nto da moon",
@@ -2851,7 +2751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 286,
+            "tweet_count": 276,
             "username": "Just Some R374RD🇷🇺🇮🇷🇨🇳",
             "user_account": "divintrial",
             "text": "Riding the #dogecoin hype train all the way to the bank.",
@@ -2861,7 +2761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 287,
+            "tweet_count": 277,
             "username": "Drew Zimmerman",
             "user_account": "drewczimmerman",
             "text": "@Dogecoin is a thing. Nice knowing you, internet.",
@@ -2871,7 +2771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 288,
+            "tweet_count": 278,
             "username": "John (jc) Comeau",
             "user_account": "jcomeau_ictx",
             "text": "already given up on dogecoin, its difficulty level is already over 16 times that of americancoin and it's not worth nearly as much! novelty?",
@@ -2881,7 +2781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 289,
+            "tweet_count": 279,
             "username": "silentbicycle",
             "user_account": "silentbicycle",
             "text": "Star Trek fanfiction that nonchalantly alludes to \"credits\" being dogecoin",
@@ -2891,7 +2791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 290,
+            "tweet_count": 280,
             "username": "brski 🇸🇪",
             "user_account": "dbrski",
             "text": "Updated my GPU #drivers yesterday, mined #dogecoin when @school. Came home, screen flickering. Spent 2 hours - just had to reset screen res.",
@@ -2901,7 +2801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 291,
+            "tweet_count": 281,
             "username": "Zee (He/They) 💉💉💉💉💯",
             "user_account": "zspencer",
             "text": "Sold an extra copy of Super Meat Boy for 10K @dogecoin.\n\nSUCH CURRENCY. VERY CRYPTO. WOW",
@@ -2911,7 +2811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 292,
+            "tweet_count": 282,
             "username": "neun",
             "user_account": "neun_berg",
             "text": "@WeeSiliang Meet the #Dogecoin. It's like bitcoin. And yes, it's real. Such currency. Much wow. http://t.co/GtgcNKng8k",
@@ -2921,7 +2821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 293,
+            "tweet_count": 283,
             "username": "moved to andyaml.bsky.social",
             "user_account": "andyaml",
             "text": "Dogecoin is a Bitcoin-derived cryptocurrency that is based on the 'doge' internet phenomenon,",
@@ -2931,7 +2831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 294,
+            "tweet_count": 284,
             "username": "danyonreeves",
             "user_account": "danyonreeves",
             "text": "@jessehirsh @dogecoin so mine!",
@@ -2941,7 +2841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 295,
+            "tweet_count": 285,
             "username": "Ell is For Heroes",
             "user_account": "Noneleftmike",
             "text": "@SamK1992 Cash out and mine DogeCoin bro http://t.co/TjIz5ePnZx",
@@ -2951,7 +2851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 296,
+            "tweet_count": 286,
             "username": "Scilion",
             "user_account": "Scilion1",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DH24H6MT8NmdWWR3ZzQC9T5E2fzmvt7bQy many thx",
@@ -2961,7 +2861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 297,
+            "tweet_count": 287,
             "username": "Scilion",
             "user_account": "Scilion1",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -2971,7 +2871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 298,
+            "tweet_count": 288,
             "username": "Litrific",
             "user_account": "litrific",
             "text": "Aluna Crypto Currency: New Cryptocoins to Keep an Eye on: WorldCoin (WDC), NXTcoin (NXT), DogeCoin (DOGE) http://t.co/xCZVO1I8Ei r",
@@ -2981,7 +2881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 299,
+            "tweet_count": 289,
             "username": "KW | Melissa",
             "user_account": "PeopleofKW",
             "text": "dogecoin is a thing..............",
@@ -2991,7 +2891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 300,
+            "tweet_count": 290,
             "username": "jbkrauss",
             "user_account": "jbkrauss",
             "text": "@dogecoin #dogecoin Such market control. Much investors trolling. So DOGE = .5 BTC #tothemoon",
@@ -3001,7 +2901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 301,
+            "tweet_count": 291,
             "username": "Amaze",
             "user_account": "TheAmazemanRBLX",
             "text": "You know bitcoin? litecoin? Now there's dogecoin! http://t.co/KjDbb0KfCj",
@@ -3011,7 +2911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 302,
+            "tweet_count": 292,
             "username": "Ian Culshaw",
             "user_account": "culshaw",
             "text": "@commondream dogecoin maybe",
@@ -3021,7 +2921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 303,
+            "tweet_count": 293,
             "username": "a̜̙̺̤ͭ͗͛̅l̥̲̬̽̋̑ọ̮̲͍̼͈̉͂ͮ̂͊̏g͈̲̩̰̎͒̓̒ǎ̠n̫͕ 👺",
             "user_account": "loganarchy",
             "text": "Everyone invest #dogecoin is future of much cryptocurrency #suchhashrate #wow",
@@ -3031,7 +2931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 304,
+            "tweet_count": 294,
             "username": "Sameer Puri",
             "user_account": "purisameer",
             "text": "Dogecoin actually exists.\n\nwow \n             such cryptocurrency\n    much liek bitcoin\n        so amaze",
@@ -3041,7 +2941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 305,
+            "tweet_count": 295,
             "username": "Mr Kujata",
             "user_account": "kujataman",
             "text": "FYI dogecoin is not a real cryptocurrency",
@@ -3051,7 +2951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 306,
+            "tweet_count": 296,
             "username": "Matt McDaniel",
             "user_account": "supermattzor",
             "text": "Goddamn it. Dogecoin? Really? http://t.co/Ld2iN62k02",
@@ -3061,7 +2961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 307,
+            "tweet_count": 297,
             "username": "Matt Farina",
             "user_account": "mattfarina",
             "text": "Every time I see Dogecoin my brain sees it as dog-e-coin.",
@@ -3071,27 +2971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 308,
-            "username": "Aluna Awakening",
-            "user_account": "AlunaAwakening",
-            "text": "New Cryptocoins to Keep an Eye on: WorldCoin (WDC), NXTcoin (NXT), DogeCoin (DOGE) http://t.co/tejNISWXWT",
-            "created_at": "Mon Dec 16 17:32:17 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 309,
-            "username": "Aluna Awakening",
-            "user_account": "AlunaAwakening",
-            "text": "New Cryptocoins to Keep an Eye on: WorldCoin (WDC), NXTcoin (NXT), DogeCoin (DOGE) http://t.co/EM1qdTHnWP",
-            "created_at": "Mon Dec 16 17:32:17 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 310,
+            "tweet_count": 298,
             "username": "Crypto Junkie",
             "user_account": "Crypto_Junkie",
             "text": "@Crypto_Investor @TheRealFontas the #dogecoin such manipulation, read a few posts down https://t.co/vML9EjDxWR like all memes, very tiresome",
@@ -3101,7 +2981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 311,
+            "tweet_count": 299,
             "username": "Cayden",
             "user_account": "cayden",
             "text": "amaze. RT @jilliancyork: OMG DOGECOIN http://t.co/tsmm8Gs1GN",
@@ -3111,7 +2991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 312,
+            "tweet_count": 300,
             "username": "hiram causey ",
             "user_account": "hiramcausey",
             "text": "@cryptsy  dogecoin went up a thousand %  if the coin would have been here I would have bought low I want coins b4 they go up thanks ....",
@@ -3121,7 +3001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 313,
+            "tweet_count": 301,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "@websense I'm curious about what the security threat on http://t.co/hx39wFWmyF is exactly. Can you give any info on this? @killhamster",
@@ -3131,7 +3011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 314,
+            "tweet_count": 302,
             "username": "TVarmy",
             "user_account": "TVarmy",
             "text": "@windsmith @killhamster can any claims regarding dogecoin really be considered serious?",
@@ -3141,7 +3021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 315,
+            "tweet_count": 303,
             "username": "Bitcoin For Business",
             "user_account": "BTC4BIZ",
             "text": "@dogecoin fall #1 moon to #25 on @CoinMarketCap, discover market reality. WOW what BLAST while lasted!",
@@ -3151,7 +3031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 316,
+            "tweet_count": 304,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "@killhamster in all seriousness, I'm OK with that. I was just wondering what the supposed danger on http://t.co/kWkFsELol5 is.",
@@ -3161,7 +3041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 317,
+            "tweet_count": 305,
             "username": "Buttcoin",
             "user_account": "ButtCoin",
             "text": "If you retweet the DogeCoin Websense post, a strange little man will appear and argue with you: https://t.co/8UqSiHLlba",
@@ -3171,17 +3051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 318,
-            "username": "Jay",
-            "user_account": "JayShemiahj",
-            "text": "Dogecoin: Wow. Such Good Coin. Many Wants. http://t.co/uymvAeIVFS #bitcoin,#crypto,#dogecoin",
-            "created_at": "Mon Dec 16 17:04:14 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 319,
+            "tweet_count": 306,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "@killhamster ...unless you're admitting to wanting to see the success of dogecoin sabotaged.",
@@ -3191,7 +3061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 320,
+            "tweet_count": 307,
             "username": "Mango",
             "user_account": "HolaBeso",
             "text": "@dogecoin hi! Why you didn't sell your t-shirts with dogecoin ? http://t.co/mwhFyIxgLQ",
@@ -3201,7 +3071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 321,
+            "tweet_count": 308,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "@killhamster None of that had to do with the retweet you made accusing the dogecoin website of maliciousness.",
@@ -3211,7 +3081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 322,
+            "tweet_count": 309,
             "username": "Bitkoins",
             "user_account": "bitkoins",
             "text": "DogeCoin worth almost 5 times more than Bitcoin, any response Bitcoin community? http://t.co/u1NbJbdpWk #bitcoins",
@@ -3221,7 +3091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 323,
+            "tweet_count": 310,
             "username": "Crypto Investor",
             "user_account": "Crypto_Investor",
             "text": "@TheRealFontas This seems like a big joke. What is real value od dogecoin?",
@@ -3231,7 +3101,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 324,
+            "tweet_count": 311,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "10,000 Dogecoin DOGE (Not Bitcoin Litecoin Feathercoin Peercoin Primecoin) http://t.co/iyrnstbLp3 #feathercoin http://t.co/neSCNkvYsF",
+            "created_at": "Mon Dec 16 16:40:31 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 312,
             "username": "F҉A҉L҉L҉i҉N҉G҉ K҉N҉i҉F҉E҉",
             "user_account": "fallingknife_",
             "text": "@Cryptocoinbiz Respect restored. If you missed, they showed Dogecoin with something like a 10 trillion dollar market cap. Easy come, easy go",
@@ -3241,7 +3121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 325,
+            "tweet_count": 313,
             "username": "Buttcoin",
             "user_account": "ButtCoin",
             "text": "dont fucking mine dogecoin you idiots http://t.co/fWT9tQaVtu",
@@ -3251,7 +3131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 326,
+            "tweet_count": 314,
             "username": "51m0n",
             "user_account": "simetradon",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin many thx",
@@ -3261,7 +3141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 327,
+            "tweet_count": 315,
             "username": "T[r]oll_in",
             "user_account": "why_this",
             "text": "@SarahKriesche much coin, very currency, invest now! to the moon! http://t.co/MWFy1icwKW",
@@ -3271,7 +3151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 328,
+            "tweet_count": 316,
             "username": "Hogg Towers",
             "user_account": "piss_wizard",
             "text": "http://t.co/XfVmQDckku help",
@@ -3281,7 +3161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 329,
+            "tweet_count": 317,
             "username": "ｆｅｔｈｅｒｓ",
             "user_account": "_fethers",
             "text": "@karensmallcat dogecoin is goin' to the TOP",
@@ -3291,7 +3171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 330,
+            "tweet_count": 318,
             "username": "YCN",
             "user_account": "YourCryptoNews",
             "text": "Re: DogeCoin?? http://t.co/ZoBSPEWSlV",
@@ -3301,7 +3181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 331,
+            "tweet_count": 319,
             "username": "YCN",
             "user_account": "YourCryptoNews",
             "text": "MOVED: DogeCoin?? http://t.co/duf7C8b0HT",
@@ -3311,7 +3191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 332,
+            "tweet_count": 320,
             "username": "Krzysztof Nawotka",
             "user_account": "KNawotka",
             "text": "\"**Noobs Guide to Mining Dogecoin CPU &amp; GPU**+NEW MINING WITH MAC SECTION**\" good read http://t.co/DmO86To4sP",
@@ -3321,7 +3201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 333,
+            "tweet_count": 321,
             "username": "Veljko Petrović",
             "user_account": "slashnp",
             "text": "@cryptsy What about DOGE coin ?",
@@ -3331,7 +3211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 334,
+            "tweet_count": 322,
             "username": "crypsy pumper",
             "user_account": "TheRealFontas",
             "text": "What the hell is dogecoin?!? And who has $28 trillion to spend? Only people I can think of with that kind of dough are the big banks...hmmm",
@@ -3341,7 +3221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 335,
+            "tweet_count": 323,
             "username": "Michael Krieger",
             "user_account": "LibertyBlitz",
             "text": "Looks like they fixed it, but I took a screenshot: \n#dogecoin http://t.co/NSna5AROTr",
@@ -3351,7 +3231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 336,
+            "tweet_count": 324,
             "username": "Luis V. Penados D.",
             "user_account": "pena2",
             "text": "Dogecoin - Wikipedia, the free encyclopedia http://t.co/DD2arY3hRA",
@@ -3361,7 +3241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 337,
+            "tweet_count": 325,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "A link to a link to a post on reddit. Snerk RT @bitkoins: Dogecoin! The coin to rule them all! http://t.co/9M9l4ZafR6 #bitcoin",
@@ -3371,7 +3251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 338,
+            "tweet_count": 326,
             "username": "Bitkoins",
             "user_account": "bitkoins",
             "text": "Dogecoin! The coin to rule them all! http://t.co/AwcFw002Ql #bitcoin",
@@ -3381,7 +3261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 339,
+            "tweet_count": 327,
             "username": "Crypto Investor",
             "user_account": "Crypto_Investor",
             "text": "Anyone could kindly explain me what is going on with #Dogecoin ?",
@@ -3391,17 +3271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 340,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "VPS Cloud Mining for DogeCoin http://t.co/NaRAFMnvm7 #dogecoin #doge",
-            "created_at": "Mon Dec 16 16:25:26 +0000 2013",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 341,
+            "tweet_count": 328,
             "username": "Michael Krieger",
             "user_account": "LibertyBlitz",
             "text": "Looks like someone hacked http://t.co/eALQHVaVTB and made DogeCoin #1 with a $28 trillion market cap. Hahaha",
@@ -3411,7 +3281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 342,
+            "tweet_count": 329,
             "username": "DataExIm",
             "user_account": "DataExIm",
             "text": "Wow, I should have bought those #dogecoin. +846360443.76 % on http://t.co/71xzx561Zq. http://t.co/SM1h5xId1Q",
@@ -3421,7 +3291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 343,
+            "tweet_count": 330,
             "username": "MyAltCoins",
             "user_account": "MyAltCoins",
             "text": "After popular demand, we added DogeCoin today!",
@@ -3431,7 +3301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 344,
+            "tweet_count": 331,
             "username": "T[r]oll_in",
             "user_account": "why_this",
             "text": "BTC falling! time for #DOGE! http://t.co/SXwPGf8eBD much coins! so wow! #dogecoin",
@@ -3441,7 +3311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 345,
+            "tweet_count": 332,
             "username": "Bitkoins",
             "user_account": "bitkoins",
             "text": "Dogecoin market cap grows more than 87 million percent to more than $2 trillion. http://t.co/w7inJv6fo4 #bitcoin",
@@ -3451,7 +3321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 346,
+            "tweet_count": 333,
             "username": "Bernat",
             "user_account": "brnt",
             "text": "Hilarious, Dogecoin has jumped to the top position for crypto currency market cap (US$) http://t.co/jW1pV4LBj7 Something must be wrong there",
@@ -3461,7 +3331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 347,
+            "tweet_count": 334,
             "username": "F҉A҉L҉L҉i҉N҉G҉ K҉N҉i҉F҉E҉",
             "user_account": "fallingknife_",
             "text": "I just lost all respect for http://t.co/uTtvD3fQWC  #dogecoin #bitcoin",
@@ -3471,7 +3341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 348,
+            "tweet_count": 335,
             "username": "Through the Airways",
             "user_account": "Btc_frequency",
             "text": "#dogecoin now has a 2 trillion dollar market cap and worth $400 a piece.  Coin market cap must be glitching.\n\nhttp://t.co/8xaSurPu41",
@@ -3481,7 +3351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 349,
+            "tweet_count": 336,
             "username": "bitify",
             "user_account": "bitify_com",
             "text": "\"10K DOGECOIN for BTC SUCH VALUE. WOW.\" has been posted on cryptothrift - https://t.co/agQIq1zNi8 #Bitcoin #Litecoin",
@@ -3491,7 +3361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 350,
+            "tweet_count": 337,
             "username": "brian cook",
             "user_account": "13korea",
             "text": "Much Dogecoin. So Free. Wow. http://t.co/U9eEN6cypv #dogecoin via @nateshoffner",
@@ -3501,7 +3371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 351,
+            "tweet_count": 338,
             "username": "AA99",
             "user_account": "rafiali99",
             "text": "@enayet123 Dogecoin? o.e",
@@ -3511,7 +3381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 352,
+            "tweet_count": 339,
             "username": "brian cook",
             "user_account": "13korea",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3521,7 +3391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 353,
+            "tweet_count": 340,
             "username": "Jonathaп Singer | Unverⅰfⅰed ✪",
             "user_account": "jonathansinger",
             "text": "@hackmiami its all about those DOGECOIN!",
@@ -3531,7 +3401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 354,
+            "tweet_count": 341,
             "username": "Bitcoin For Business",
             "user_account": "BTC4BIZ",
             "text": "#Dogecoin #1 PASS #Bitcoin marketcap! WOW!!! http://t.co/WRnuNLNhRi",
@@ -3541,7 +3411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 355,
+            "tweet_count": 342,
             "username": "Stef @wikisteff@mastodon.social Christensen",
             "user_account": "Wikisteff",
             "text": "@jessehirsh Oh, Jesse. At today's @dogecoin rates, how fast is your PC printing money?",
@@ -3551,7 +3421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 356,
+            "tweet_count": 343,
             "username": "Jesse Hirsh",
             "user_account": "jessehirsh",
             "text": "1. I am mining @dogecoin right now 2. ??? 3 Profit! http://t.co/qXjhb1isUA",
@@ -3561,7 +3431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 357,
+            "tweet_count": 344,
             "username": "COINSPRINT",
             "user_account": "coinsprint",
             "text": "Dogecoin is a new attrative cryptocurrency that has caught the attention of all those wanting to  mine the next big cryptoco.in right now",
@@ -3571,7 +3441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 358,
+            "tweet_count": 345,
             "username": "Skee",
             "user_account": "Skeeaboo",
             "text": "Help, I've lost my boyfriend to dogecoin.",
@@ -3581,7 +3451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 359,
+            "tweet_count": 346,
             "username": "Skee",
             "user_account": "Skeeaboo",
             "text": "\"@DetInspector: when will I be able to buy xbox live using dogecoin? @XboxSupport\" no",
@@ -3591,7 +3461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 360,
+            "tweet_count": 347,
             "username": "Will Ricketts",
             "user_account": "willricketts",
             "text": "I love how the @dogecoin wallet is covered in Comic Sans",
@@ -3601,7 +3471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 361,
+            "tweet_count": 348,
             "username": "stef",
             "user_account": "stefsy",
             "text": "#dogecoin is real. such currency. so altcoin. immediate invest.",
@@ -3611,7 +3481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 362,
+            "tweet_count": 349,
             "username": "dietwawa",
             "user_account": "dietwawa",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DS6RNfbFcJZtGuNPJYCWH6xiRkg2uQw9Nc many thx",
@@ -3621,7 +3491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 363,
+            "tweet_count": 350,
             "username": "Will Ricketts",
             "user_account": "willricketts",
             "text": "LOL I'm mining @dogecoin at an alarming rate. #crypto",
@@ -3631,7 +3501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 364,
+            "tweet_count": 351,
             "username": "campeck",
             "user_account": "campeck944",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3641,7 +3511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 365,
+            "tweet_count": 352,
             "username": "Abhishek Singh",
             "user_account": "abhishekricky",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DT1JH7m6LMH9vAE2WUBodP1b1iGyNzphGz many thx",
@@ -3651,7 +3521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 366,
+            "tweet_count": 353,
             "username": "f1nlay",
             "user_account": "f1nlay",
             "text": "@mikcowans Such money, v rich, so wealthy, much cryptocurrency http://t.co/KZgOnZmx3a",
@@ -3661,7 +3531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 367,
+            "tweet_count": 354,
             "username": "Enekomh",
             "user_account": "enekomh",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3671,7 +3541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 368,
+            "tweet_count": 355,
             "username": "Tom",
             "user_account": "Tombom64",
             "text": "@dogecoin Day off, trying to obtain some Doge's! and spreading the love! D8pra7KNmq63nFg1UMKrd2ubBPdieFQytn much receive please #dogecoin",
@@ -3681,7 +3551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 369,
+            "tweet_count": 356,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "And yet, IT DOES. Pretty groovy stuff actually RT @HibariStalker: how the fuck is DOGECOIN a thing that exists",
@@ -3691,7 +3561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 370,
+            "tweet_count": 357,
             "username": "Popo",
             "user_account": "Popobear42",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3701,7 +3571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 371,
+            "tweet_count": 358,
             "username": "Hibari",
             "user_account": "HibariStalker",
             "text": "how the fuck is DOGECOIN a thing that exists",
@@ -3711,7 +3581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 372,
+            "tweet_count": 359,
             "username": "qaz",
             "user_account": "zaqaqaw",
             "text": "@SpeedyChiPom @SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3721,7 +3591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 373,
+            "tweet_count": 360,
             "username": "South Africa Markets",
             "user_account": "southafrica2",
             "text": "Dogecoin: Not a viable alternative to Bitcoin, but possibly the best invention on the internet | ... http://t.co/r1miR2hhGf",
@@ -3731,7 +3601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 374,
+            "tweet_count": 361,
             "username": "Will Ricketts",
             "user_account": "willricketts",
             "text": "LOL. I think I should start mining @dogecoin",
@@ -3741,17 +3611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 375,
-            "username": "NFT Peon 🪝",
-            "user_account": "5millionfriends",
-            "text": "Dogecoin http://t.co/sQ7yy2NUYk",
-            "created_at": "Mon Dec 16 14:07:55 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 376,
+            "tweet_count": 362,
             "username": "Johnny5 itchy Trigger Finger",
             "user_account": "iTFJohnnyFive",
             "text": "#dogecoin Putting all my money, student loan, mortgage on the #quarkcoin #dogecoin http://t.co/NLFsRrOzJQ",
@@ -3761,7 +3621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 377,
+            "tweet_count": 363,
             "username": "Mattia Mirabello",
             "user_account": "mattiamirabello",
             "text": "wow, when will we see @dogecoin on @cryptsy and similar?",
@@ -3771,7 +3631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 378,
+            "tweet_count": 364,
             "username": "Andrew Pickett",
             "user_account": "andrewctenor",
             "text": "@Hooberbloob They wished they had these in seventeenth-century Venice! #dogecoin",
@@ -3781,7 +3641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 379,
+            "tweet_count": 365,
             "username": "Jordan",
             "user_account": "jas8522",
             "text": "“@Hooberbloob: Moving all of my currency now! Such coins! http://t.co/8KqhsMl9eU” me too.",
@@ -3791,7 +3651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 380,
+            "tweet_count": 366,
             "username": "Raoul Hidalgo Charma",
             "user_account": "RCharman",
             "text": "Dammit 4chan https://t.co/nCPFX6BAbX",
@@ -3801,7 +3661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 381,
+            "tweet_count": 367,
             "username": "ran93r",
             "user_account": "ran93r",
             "text": "Dogecoin, a virtual currency I can get behind. http://t.co/ORStQOr9FV",
@@ -3811,7 +3671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 382,
+            "tweet_count": 368,
             "username": "yrch",
             "user_account": "yhrc",
             "text": "@cryptsy what about #dogecoin ?",
@@ -3821,7 +3681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 383,
+            "tweet_count": 369,
             "username": "Sarth",
             "user_account": "SarthCZ",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin DM9SwxfAcQ1ND3rbqXdByqSNcsrNgzinVC",
@@ -3831,7 +3691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 384,
+            "tweet_count": 370,
             "username": "necrophcodr",
             "user_account": "necrophcodr",
             "text": "@RedNaleX god damnit i found this just yesterday. also one dogecoin is about 0.000061 bitcoins now you know",
@@ -3841,7 +3701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 385,
+            "tweet_count": 371,
             "username": "Fllip",
             "user_account": "Fllip1",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DBpT2XrVJaDGKnH6M2gC6cXtM4UtHCNcSc many thx",
@@ -3851,7 +3711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 386,
+            "tweet_count": 372,
             "username": "Pascal Hartig",
             "user_account": "passy",
             "text": "#dogecoin now has roughly twice the market cap of #sexcoin. Yes, apparently that's a thing. http://t.co/lsDDwbQ7Ig",
@@ -3861,7 +3721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 387,
+            "tweet_count": 373,
             "username": "Pascal Hartig",
             "user_account": "passy",
             "text": "Current hashing power for #dogecoin is 5.8GH/s. What the heck!",
@@ -3871,7 +3731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 388,
+            "tweet_count": 374,
             "username": "Guy Sheffer",
             "user_account": "GuySoft",
             "text": "@dogecoin So much compile, works now on ubuntu. How to get many coin to DBhqZa64Bbd9U3YGgNCxiBK35F4R3TaGC1 ?",
@@ -3881,17 +3741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 389,
-            "username": "Dogecoin Bot",
-            "user_account": "dogecoin_bot",
-            "text": "Dogecoin http://t.co/NcWlhNi5Ll",
-            "created_at": "Mon Dec 16 12:31:56 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 390,
+            "tweet_count": 375,
             "username": "Your Lovable Manc",
             "user_account": "Anon_Manc",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3901,7 +3751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 391,
+            "tweet_count": 376,
             "username": "Bitcoins For Sale",
             "user_account": "bitcoinsforsale",
             "text": "100,000  DOGECOIN DGC Doge Cryptocurrency like bitcoin, litecoin http://t.co/eovLsbwLtO #bitcoin http://t.co/hy6XH1dMbf",
@@ -3911,7 +3761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 392,
+            "tweet_count": 377,
             "username": "Bernardo Torío",
             "user_account": "btoriom",
             "text": "@KeiserReport @maxkeiser #dogecoin Doge opinion. Much thx. wow!!",
@@ -3921,7 +3771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 393,
+            "tweet_count": 378,
             "username": "SirDevil",
             "user_account": "_sirdevil_",
             "text": "@DailyDogeCoin i tweet and like FB but, i cannot write to forum to receive my much doge coin as reward",
@@ -3931,7 +3781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 394,
+            "tweet_count": 379,
             "username": "SirDevil",
             "user_account": "_sirdevil_",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DJjLLHEoPTL1K3xoT1n4my7nuxi8xXFdr4 many thx",
@@ -3941,7 +3791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 395,
+            "tweet_count": 380,
             "username": "Bertrand Boulle",
             "user_account": "bertrandboulle",
             "text": "Dogecoin: Not a viable alternative to Bitcoin, but possibly the best invention on the internet | ... http://t.co/6wFm5IYGDH",
@@ -3951,7 +3801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 396,
+            "tweet_count": 381,
             "username": "Sebastian Tulejarz",
             "user_account": "SebastianTuleja",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -3961,7 +3811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 397,
+            "tweet_count": 382,
             "username": "Kawaii_Tenshi",
             "user_account": "MegaCookie7",
             "text": "#dogecoin is on @ypool_net!!! Awesome! When does doge coin hit the exchanges?",
@@ -3971,7 +3821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 398,
+            "tweet_count": 383,
             "username": "mortadelojete_FP",
             "user_account": "mortadelojeteFP",
             "text": "wow, such currency,how money, v rich, so crypto, plz mine, #dogecoin, the future is now",
@@ -3981,7 +3831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 399,
+            "tweet_count": 384,
             "username": "GigaɃitcoin",
             "user_account": "GigaBitcoin",
             "text": "Do you think it is possible for Dogecoin to become popular? http://t.co/7GRquj8NXv via @Quora",
@@ -3991,7 +3841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 400,
+            "tweet_count": 385,
             "username": "Cryptocanyon",
             "user_account": "cryptocanyon",
             "text": "Dogecoin - very currency - many coin - wow - trading at http://t.co/rfWE47TKpC between .0000003 and  .0000005. punt-worthy?",
@@ -4001,7 +3851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 401,
+            "tweet_count": 386,
             "username": "eosevm",
             "user_account": "eosevm",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -4011,7 +3861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 402,
+            "tweet_count": 387,
             "username": "Peoples Pumps",
             "user_account": "PeoplesPumps",
             "text": "@cryptsy please add doge coin.",
@@ -4021,7 +3871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 403,
+            "tweet_count": 388,
             "username": "Rakker70",
             "user_account": "woeshi2",
             "text": "@cryptsy Add Dogecoin please, It's a great coin, lots of trade! #dogecoin",
@@ -4031,7 +3881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 404,
+            "tweet_count": 389,
             "username": "Rakker70",
             "user_account": "woeshi2",
             "text": "@maxkeiser Still Bill must talk about Dogecoin too, really great coin #dogecoin!",
@@ -4041,7 +3891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 405,
+            "tweet_count": 390,
             "username": "Rui F",
             "user_account": "Nx650Dommie",
             "text": "@dogecoin Cute dog",
@@ -4051,7 +3901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 406,
+            "tweet_count": 391,
             "username": "Alex Freas",
             "user_account": "sashimiblade",
             "text": "Converting all my BTC into DGC. Such investment. So wise. Now rich. http://t.co/T4nCZEWbws",
@@ -4061,7 +3911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 407,
+            "tweet_count": 392,
             "username": "Dustin",
             "user_account": "pokerDustin",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DFBCyQu3aBztLuVB9uBRUWZDkgbQnt2joC many thx",
@@ -4071,7 +3921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 408,
+            "tweet_count": 393,
             "username": "James Bardolph",
             "user_account": "jamesbardolph",
             "text": "Dogecoin? http://t.co/5Yydymv29k",
@@ -4081,7 +3931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 409,
+            "tweet_count": 394,
             "username": "Smarrty McBimpleton",
             "user_account": "heresanorder",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -4091,7 +3941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 410,
+            "tweet_count": 395,
             "username": "swordfish6975.cro 🇦🇺 👻",
             "user_account": "_swordfish6975",
             "text": "#Florin #FLO #Gamecoin #GME #Securecoin #SRC #Dogecoin #DOGE  (wont show till it hits an exchange) #CopperLark #CLR ADDED!!!",
@@ -4101,7 +3951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 411,
+            "tweet_count": 396,
             "username": "Micah",
             "user_account": "DerpandHerp",
             "text": "@DailyDogeCoin @dogecoin I made an informative video on how to mine Dogecoins. http://t.co/X4uUCRMad6",
@@ -4111,7 +3961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 412,
+            "tweet_count": 397,
             "username": "Dustin",
             "user_account": "pokerDustin",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -4121,7 +3971,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 413,
+            "tweet_count": 398,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "There are just not enough #dogecoin for sale, I want to buy more!",
+            "created_at": "Mon Dec 16 08:46:32 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 399,
             "username": "Andrew Wardlaw",
             "user_account": "dru_wardlaw",
             "text": "@SuaveUrbanite95 If you defeat the finals I will send you #dogecoin",
@@ -4131,7 +3991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 414,
+            "tweet_count": 400,
             "username": "Philipp Blum",
             "user_account": "kirschplunder",
             "text": "Fuck #bitcoin, #dogecoin is the way to go! http://t.co/MfFwmvIh6m",
@@ -4141,7 +4001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 415,
+            "tweet_count": 401,
             "username": "Andrew Wardlaw",
             "user_account": "dru_wardlaw",
             "text": "Wow. I officially have 1 #Dogecoin, much generosity",
@@ -4151,7 +4011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 416,
+            "tweet_count": 402,
             "username": "LNVisitor",
             "user_account": "ChristianJv2",
             "text": "You cannot have wealth without poverty. #dogecoin",
@@ -4161,7 +4021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 417,
+            "tweet_count": 403,
             "username": "ChickunsCanFly",
             "user_account": "ChickunsCanFly",
             "text": "Gonna soon join massive dump of #dogecoin to also get my quick buck... most miners are already selling big amounts helping the price falls:(",
@@ -4171,7 +4031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 418,
+            "tweet_count": 404,
             "username": "𝔍𝔬𝔫𝔞𝔱𝔥𝔞𝔫 𝔇𝔞𝔳𝔦𝔡 𝔅𝔯𝔢𝔫𝔱",
             "user_account": "jonomatopoeia",
             "text": "\"From December 6, 2013, the baseline price has been approximately 10,000 DOGE for 1 USD.\" http://t.co/yAbl49Wvnn",
@@ -4181,7 +4041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 419,
+            "tweet_count": 405,
             "username": "geoff golder",
             "user_account": "gdoteof",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin D71sAiqFQWocyWXmccHHHGhVEwHTbTe3oa many thx",
@@ -4191,7 +4051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 420,
+            "tweet_count": 406,
             "username": "Quad",
             "user_account": "Kuwaddo",
             "text": "4chan, what have you done... https://t.co/bAGRRUq8Uh",
@@ -4201,7 +4061,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 421,
+            "tweet_count": 407,
+            "username": "Kat van Gogh",
+            "user_account": "goatbot",
+            "text": "Digital Online Gold is the best eCoin; research #dogecoin and get in now!",
+            "created_at": "Mon Dec 16 08:04:02 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 408,
             "username": "LNVisitor",
             "user_account": "ChristianJv2",
             "text": "CHOO CHOO The train is leaving earth, destination... THE MOON and beyond. @dogecoin @DogeTheDog #doge @Bitcoin",
@@ -4211,7 +4081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 422,
+            "tweet_count": 409,
             "username": "Bree Hoffman",
             "user_account": "Breefield",
             "text": "@_jden is there an easy way to pay for physical goods (coffee) using a bit/lite/doge-coin app? Like, if someone wanted to use squarecoin :p",
@@ -4221,7 +4091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 423,
+            "tweet_count": 410,
             "username": "Kafkacı",
             "user_account": "kafkaciustegmen",
             "text": "@CoinWarz you should add sexcoin and dogecoin to your list.",
@@ -4231,7 +4101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 424,
+            "tweet_count": 411,
             "username": "Kafkacı",
             "user_account": "kafkaciustegmen",
             "text": "@Sevoque @dogecoin it seems they already dominated the planet. other pools could not mine coin for hours.",
@@ -4241,7 +4111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 425,
+            "tweet_count": 412,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": "Bitcoin, 0.1 BTC, One Tenth of a Bitcoin, No reserve, $12.6 #bitcoin #btc #dogecoin #mtgox http://t.co/gEx6sczazz http://t.co/3Oa7BkgyT8",
@@ -4251,7 +4121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 426,
+            "tweet_count": 413,
             "username": "Kafkacı",
             "user_account": "kafkaciustegmen",
             "text": "@Sevoque @dogecoin REGISTRATION LOCKED TO PREVENT BECOMING ENTIRE DOGECHAIN :(",
@@ -4261,7 +4131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 427,
+            "tweet_count": 414,
             "username": "Crypto Joe ",
             "user_account": "CryptoJoe",
             "text": "#dogecoin is showing the power of a strong community. @BitcoinSachs @cmshindi @ZBAD305 look past the stupid and take notes.",
@@ -4271,7 +4141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 428,
+            "tweet_count": 415,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": ".01 Bitcoin .01 BTC Digital transfer to your wallet! $12.5 #bitcoin #btc #digital #dogecoin http://t.co/3vwyp1lcwc http://t.co/cLpsEH45vy",
@@ -4281,7 +4151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 429,
+            "tweet_count": 416,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": ".01 Bitcoin (BTC) Transferred Instantly To Your Bitcoin $10.0 #bitcoin #btc #your #dogecoin http://t.co/J8DbIgbFjU http://t.co/JQ4iQlH0Yd",
@@ -4291,7 +4161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 430,
+            "tweet_count": 417,
             "username": "Kafkacı",
             "user_account": "kafkaciustegmen",
             "text": "@dogecoin what's the biggest mining pool?",
@@ -4301,7 +4171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 431,
+            "tweet_count": 418,
             "username": "Incognizant",
             "user_account": "inky38",
             "text": "dogecoin wins my heart",
@@ -4311,7 +4181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 432,
+            "tweet_count": 419,
             "username": "Micah",
             "user_account": "DerpandHerp",
             "text": "1000 DOGECOIN",
@@ -4321,7 +4191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 433,
+            "tweet_count": 420,
             "username": "CECIL ทอง",
             "user_account": "cecil",
             "text": "Need to get in on the ground floor of this #dogecoin.",
@@ -4331,7 +4201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 434,
+            "tweet_count": 421,
             "username": "Connor 🍃 O'Brien",
             "user_account": "mrconnorobrien",
             "text": "So, this exists: http://t.co/M18foQdQon",
@@ -4341,7 +4211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 435,
+            "tweet_count": 422,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": "500 Quarkcoin (QRK) - Like Bitcoin - Get In Early - $20.04 #bitcoin #like #revine #dogecoin http://t.co/Nnt1RL4v2i http://t.co/t5KHiTfj9P",
@@ -4351,7 +4221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 436,
+            "tweet_count": 423,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "I'm curious about what @ActualAdviceBTC thinks of #dogecoin",
@@ -4361,7 +4231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 437,
+            "tweet_count": 424,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "RT @fontaseee: Retweet this post and i will send you some Dogecoin #dogecoin #bitcoin",
@@ -4371,7 +4241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 438,
+            "tweet_count": 425,
             "username": "Will Richardson",
             "user_account": "KGrooveEnjoyer",
             "text": "@pattheflip Today I learned dogecoin is an actual thing",
@@ -4381,7 +4251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 439,
+            "tweet_count": 426,
             "username": "Dogecoin",
             "user_account": "dogecoin",
             "text": "6gh/s                such hashrate\n     much profit                            amaze\n wow                          very #crypto",
@@ -4391,7 +4261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 440,
+            "tweet_count": 427,
             "username": "cryptocoiner",
             "user_account": "crypto_coiner",
             "text": "@windsmith @ltctrader0 This artcile for me makes convincing points:\nhttp://t.co/5dE3kB9WGG",
@@ -4401,7 +4271,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 441,
+            "tweet_count": 428,
+            "username": "I Write for Cash",
+            "user_account": "WriterSC",
+            "text": "Get 5,000 DOGECOIN cryptocoin - DOWNLOAD WALLET details in description #coupon http://t.co/q5joEqhAOj",
+            "created_at": "Mon Dec 16 05:18:44 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 429,
             "username": "Nathan Cheung",
             "user_account": "Rav3nChuckFan",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DJZ7G1kPRbNpHfSM6DaGA4LKBw6cP6NZ9w many thx",
@@ -4411,7 +4291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 442,
+            "tweet_count": 430,
             "username": "cryptocoiner",
             "user_account": "crypto_coiner",
             "text": "Dogecoin: 5 Fast Facts You Need to Know  Read more at: http://t.co/5dE3kB9WGG",
@@ -4421,7 +4301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 443,
+            "tweet_count": 431,
             "username": "HushCon",
             "user_account": "HushCon",
             "text": "Dogecoin is the official currency of @HushCon",
@@ -4431,7 +4311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 444,
+            "tweet_count": 432,
             "username": "Hoist the black flag 🏴 (🌮/🌯)",
             "user_account": "danksinatra308",
             "text": "Dogecoin is a thing. - dudeistlibertarian: basedheisenberg: A meme is now currency. Do you you realize what... http://t.co/H6ytTsECtC",
@@ -4441,7 +4321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 445,
+            "tweet_count": 433,
             "username": "Their Tweet Name",
             "user_account": "iTweetTheirName",
             "text": "Dogecoin @dogecoin  dogecoin is an open source peer-to-peer cryptocurrency, favored by shibas worldwide.  the moon  http://t.co/XxVhi6O7Sm",
@@ -4451,7 +4331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 446,
+            "tweet_count": 434,
             "username": "Jonathan Waller",
             "user_account": "jonwaller",
             "text": "@samueltates This too: http://t.co/cNz0aaYuue",
@@ -4461,7 +4341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 447,
+            "tweet_count": 435,
             "username": "sam",
             "user_account": "Samueltates",
             "text": "wow #dogecoin millionaires only.@MollyMachine. such fashion.  Much apparel. so Bargain.  wow",
@@ -4471,7 +4351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 448,
+            "tweet_count": 436,
             "username": "luke@stokes",
             "user_account": "lukestokes",
             "text": "#Bitcoin lore: Goxed, march-2013-fork, To the moon!!! ┗(°0°)┛, \"intrinsic\" value, BFL, panic buy, and just maybe... #Dogecoin (?)",
@@ -4481,7 +4361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 449,
+            "tweet_count": 437,
             "username": "U.N. Oomfie was Her? 🇵🇸",
             "user_account": "MeadowAtLast",
             "text": "@witch_emoji doge coin the first internet meme currency",
@@ -4491,7 +4371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 450,
+            "tweet_count": 438,
             "username": "U.N. Oomfie was Her? 🇵🇸",
             "user_account": "MeadowAtLast",
             "text": "@witch_emoji did you see dogecoin",
@@ -4501,7 +4381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 451,
+            "tweet_count": 439,
             "username": "𝐑𝐨𝐛𝐞𝐫𝐭 𝐌𝐚𝐢𝐬𝐚𝐧𝐨",
             "user_account": "Robert_Maisano",
             "text": "“@techendo: Dogecoin: The cryptocurrency of the future\nhttp://t.co/8CohzmknEo\n#virtual currency” I think you'll like this @JaminUp #dogs",
@@ -4511,17 +4391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 452,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "How to mine Dogecoin using Digitalocean Cloud VPS http://t.co/NaRAFMnvm7 #dogecoin",
-            "created_at": "Mon Dec 16 04:18:43 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 453,
+            "tweet_count": 440,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "@techendo Nice little bit of humor. It's good to see it... people need to remember their humor, especially with #dogecoin.",
@@ -4531,7 +4401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 454,
+            "tweet_count": 441,
             "username": "KielO IP Holder, LLC",
             "user_account": "KielO",
             "text": "mining dogecoin at 2.0kh/s, this is probably my last tweet before becoming a multi-billionaire, i’ll remember you guys",
@@ -4541,7 +4411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 455,
+            "tweet_count": 442,
             "username": "sam",
             "user_account": "Samueltates",
             "text": "first company to accept #dogecoin http://t.co/3u1Mqv03i3 @jonwaller",
@@ -4551,7 +4421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 456,
+            "tweet_count": 443,
             "username": "Bartosz Borkowski 🇺🇦",
             "user_account": "GoolekPL",
             "text": "@cryptsy Any chance for #dogecoin ?",
@@ -4561,7 +4431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 457,
+            "tweet_count": 444,
             "username": "Wartortell",
             "user_account": "Wartortell",
             "text": "Much high. Such moon. Wow. @dogecoin @hacktalkblog @theKos @dualcoremusic @FuzzyNop http://t.co/x8iKVySXjq",
@@ -4571,7 +4441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 458,
+            "tweet_count": 445,
             "username": "Misa Amane",
             "user_account": "misamisa_o_O",
             "text": "Aight. http://t.co/BGbwXV6ThY is WHERE IT'S AT!",
@@ -4581,7 +4451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 459,
+            "tweet_count": 446,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "I am absolutely accepting #dogecoin for all sales, asap",
@@ -4591,7 +4461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 460,
+            "tweet_count": 447,
             "username": "ͤ ͬͤ ͬͬͤ ͦͬͬͤ ͬͦͬͬͤ",
             "user_account": "IamAzmie",
             "text": "Hey im really new to this but i have some questions if anyone could be kind to answer http://t.co/JFEGKUEUA3",
@@ -4601,7 +4471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 461,
+            "tweet_count": 448,
             "username": "RedChu",
             "user_account": "RedChu",
             "text": "Dogecoins are the way of the future, people. Embrace the doge. Be one with it. http://t.co/tZtIGCuTMr",
@@ -4611,7 +4481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 462,
+            "tweet_count": 449,
             "username": "E.V. O'Hagan",
             "user_account": "EVOHagan",
             "text": "About 23 hours ago #dogecoin has 1000 fewer subscribers to its reddit subforum.",
@@ -4621,7 +4491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 463,
+            "tweet_count": 450,
             "username": "palenbae (total rewrite)",
             "user_account": "palendae",
             "text": "Why are people mining dogecoin?",
@@ -4631,7 +4501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 464,
+            "tweet_count": 451,
             "username": "Perfect أحبكأ Hair",
             "user_account": "partymom08",
             "text": "such Dogecoin                       such Wow.       So hashrate\n         Much  shibe\n such moon very going   \n                To the moon",
@@ -4641,7 +4511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 465,
+            "tweet_count": 452,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": ".01 BTC Bitcoin  $12.0 #bitcoin #btc #apple #mining #btcog #litecoin #dogecoin #crypto #mtgox http://t.co/4mfbMVN3wt http://t.co/3nV2SsF1gm",
@@ -4651,7 +4521,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 466,
+            "tweet_count": 453,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@WWE we want jericho!",
+            "created_at": "Mon Dec 16 03:41:24 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 454,
             "username": "Khairul Akmal 👨‍💻",
             "user_account": "mofodox",
             "text": "DogeCoin https://t.co/JHPKPuK15j",
@@ -4661,7 +4541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 467,
+            "tweet_count": 455,
             "username": "third-world traditionalist 🇻🇦🇵🇭🚴‍♂️",
             "user_account": "tw_trad",
             "text": "I think we should replace fiat money with cryptocurrency. Like Dogecoin.",
@@ -4671,7 +4551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 468,
+            "tweet_count": 456,
             "username": "Bitcoinnector",
             "user_account": "bitcoinnector",
             "text": "Is #DogeCoin the new #BitCoin ? http://t.co/0HQ94ZZVuc",
@@ -4681,7 +4561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 469,
+            "tweet_count": 457,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": ".01 BTC Bitcoin  $11.0 #bitcoin #btc #apple #mining #btcog #malware #dogecoin #litecoin http://t.co/6uixo4KoS0 http://t.co/2qln1RzqoM",
@@ -4691,7 +4571,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 470,
+            "tweet_count": 458,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@WWE @JRsBBQ love how it is called TLC but none of that is used until main event.  U would think u would see at least one chair before M.E.",
+            "created_at": "Mon Dec 16 03:18:37 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 459,
             "username": "Buttcoin",
             "user_account": "ButtCoin",
             "text": "4chan users have tried (and failed) to have $4K worth of shipping pallets billed to someone for daring to nominate \"DogeCoin\" for AFD on WP",
@@ -4701,7 +4591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 471,
+            "tweet_count": 460,
             "username": "AJ Jordan @strugee@tech.lgbt",
             "user_account": "strugee2",
             "text": "latest #dogecoin commit authored by \"root\". very sketch. much hmmm. so doubt. cc @doge_js",
@@ -4711,7 +4601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 472,
+            "tweet_count": 461,
             "username": "PP",
             "user_account": "mind_sight",
             "text": "very wow , much awesome #dogecoin faucet http://185.38.47.229/faucet/",
@@ -4721,7 +4611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 473,
+            "tweet_count": 462,
             "username": "Quinn Slack",
             "user_account": "sqs",
             "text": "@bbloom20 @dogecoin Milton has 7 dogecoins now. http://t.co/VJknjP7hJk",
@@ -4731,7 +4621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 474,
+            "tweet_count": 463,
             "username": "Reid - Find me on Steam, Discord, or BlueSky",
             "user_account": "ioReid",
             "text": "WOW     SUCH CURRENCY ALREADY $12 WORTH OF DOGECOIN!      WOW\n     VERY FAST",
@@ -4741,7 +4631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 475,
+            "tweet_count": 464,
             "username": "Todd Eddy",
             "user_account": "vrillusions",
             "text": "doge coin? really?",
@@ -4751,7 +4641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 476,
+            "tweet_count": 465,
             "username": "Сартаков Александр",
             "user_account": "SartakovAlex",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -4761,7 +4651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 477,
+            "tweet_count": 466,
             "username": "Albert Vaca Cintora",
             "user_account": "albertvaka",
             "text": "Such currency much crypto wow #dogecoin",
@@ -4771,7 +4661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 478,
+            "tweet_count": 467,
             "username": "Albert Vaca Cintora",
             "user_account": "albertvaka",
             "text": "My #dogecoin wallet: DBD7GpjuJ6dch1sud3FWsNytYWmNTEivCD Send my some #dogecoins with a messsage and I will tweet it!",
@@ -4781,7 +4671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 479,
+            "tweet_count": 468,
             "username": "nap",
             "user_account": "zapnap",
             "text": "As of 12/15, the market capitalization of Dogecoin is approximately $3.68 million USD https://t.co/JMJrpGSS0p #wikipedia #truefacts",
@@ -4791,7 +4681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 480,
+            "tweet_count": 469,
             "username": "nap",
             "user_account": "zapnap",
             "text": "Dogecoin http://t.co/YriY9Kj4Fh Finally — a shibe-approved alt currency. Wow.",
@@ -4801,27 +4691,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 481,
-            "username": "Jan",
-            "user_account": "Kimahri888",
-            "text": "@DailyDogeCoin tweet4DOGE #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin D9Y2QvkSQFWNbCLAtRHdXUxVrePkWF3op8",
-            "created_at": "Mon Dec 16 02:00:23 +0000 2013",
+            "tweet_count": 470,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@adamrank u watching wwe tlc?",
+            "created_at": "Mon Dec 16 02:01:20 +0000 2013",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 482,
-            "username": "Jan",
-            "user_account": "Kimahri888",
-            "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin D9Y2QvkSQFWNbCLAtRHdXUxVrePkWF3op8 many thx",
-            "created_at": "Mon Dec 16 01:58:46 +0000 2013",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 483,
+            "tweet_count": 471,
             "username": "LNVisitor",
             "user_account": "ChristianJv2",
             "text": "all the @dogecoin pools are down! Much DDoS! Such Slow!",
@@ -4831,7 +4711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 484,
+            "tweet_count": 472,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": "Bitcoin 0.4 Delivered Immediately To Your Wallet - $51.0 #bitcoin #btc #malware #dogecoin http://t.co/H1qsk14fSD http://t.co/nvi8s6sbYn",
@@ -4841,7 +4721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 485,
+            "tweet_count": 473,
             "username": "ｆｅｔｈｅｒｓ",
             "user_account": "_fethers",
             "text": "@tsumiikan dogecoin",
@@ -4851,7 +4731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 486,
+            "tweet_count": 474,
             "username": "moodi",
             "user_account": "Yajikobe",
             "text": "reeeaaly DogeCoin lmaooo",
@@ -4861,7 +4741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 487,
+            "tweet_count": 475,
             "username": "StokieMokie",
             "user_account": "StokieMokie",
             "text": "@DailyDogeCoin Completed all 3 tasks on bitcointalk and created some dogecoin memes.Thank You very much!\n\nDQt4Ez9G3vzrfrzuevTcoqVgD6UKwAN4tK",
@@ -4871,7 +4751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 488,
+            "tweet_count": 476,
             "username": "GB",
             "user_account": "GBDataStream",
             "text": "Dogecoin not notable http://t.co/FhKG0anfjI",
@@ -4881,7 +4761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 489,
+            "tweet_count": 477,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": "Bitcoin 0.07 Delivered Immediately To Your Wallet - $10.5 #bitcoin #btc #dogecoin #crypto http://t.co/OPCk6LuqIc http://t.co/rZSzNq3HEs",
@@ -4891,7 +4771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 490,
+            "tweet_count": 478,
             "username": "Trent Hoffer",
             "user_account": "Tassadarr",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin [DJpDoqPShGLnpJnCt8pS4NGtYaxJXeJQAR] many thx",
@@ -4901,7 +4781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 491,
+            "tweet_count": 479,
             "username": "Viscido",
             "user_account": "viscido",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -4911,7 +4791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 492,
+            "tweet_count": 480,
             "username": "CoinedUp",
             "user_account": "CoinedUp",
             "text": "@WowSuchWow Much indeed, but we're determined to wrangle this doge beast. #dogecoin",
@@ -4921,7 +4801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 493,
+            "tweet_count": 481,
             "username": "Dercoyne",
             "user_account": "Tweeteffall",
             "text": "@liatimson Lia, The guys behind this bitcoin style crytocurrency are from Sydney. http://t.co/yW4cC8WK46",
@@ -4931,7 +4811,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 494,
+            "tweet_count": 482,
+            "username": "Dogecoin Robinhood",
+            "user_account": "team_dogecoin",
+            "text": "Sup TB how y'all been:)",
+            "created_at": "Mon Dec 16 01:36:46 +0000 2013",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 483,
             "username": "Tigh Loughhead",
             "user_account": "tigho",
             "text": "Dogecoin not notable http://t.co/ERimIqAjpr",
@@ -4941,7 +4831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 495,
+            "tweet_count": 484,
             "username": "Un1v3rs0 Z3r0",
             "user_account": "Un1v3rs0Z3r0",
             "text": "Dogecoin not notable http://t.co/0GvVagZHsf",
@@ -4951,7 +4841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 496,
+            "tweet_count": 485,
             "username": "Bitcoin Orca",
             "user_account": "Bit_Orca",
             "text": "@maxkeiser What's your Dogecoin address?           \n                  Post address.  \nSuch donation.                   very profit",
@@ -4961,7 +4851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 497,
+            "tweet_count": 486,
             "username": "sassal.eth/acc 🦇🔊",
             "user_account": "sassal0x",
             "text": "@cryptsy when will Dogecoin be added? Thanks",
@@ -4971,7 +4861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 498,
+            "tweet_count": 487,
             "username": "whatever",
             "user_account": "hnbreaking",
             "text": "Dogecoin not notable http://t.co/2Kvg5zluA2 http://t.co/SIEJC7T33C",
@@ -4981,7 +4871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 499,
+            "tweet_count": 488,
             "username": "Tigre Capital",
             "user_account": "TigreCapital",
             "text": "@_NoHitter I thought she was with the dogecoin because of the doge meme but I looked it up and it is an alt currency",
@@ -4991,7 +4881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 500,
+            "tweet_count": 489,
             "username": "Milan Bastola",
             "user_account": "meelanb",
             "text": "Dogecoin not notable http://t.co/OGm1QDw8Y5",
@@ -5001,7 +4891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 501,
+            "tweet_count": 490,
             "username": "Ben Parnell",
             "user_account": "benjaminparnell",
             "text": "A comment on whether to delete @Wikipedia's page on Dogecoin. https://t.co/h8suVKC6Kj",
@@ -5011,7 +4901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 502,
+            "tweet_count": 491,
             "username": "Bingo Boingo",
             "user_account": "BBoingo",
             "text": "DogeCoin: The impeding danger of old meme http://t.co/H0jhgQYDDS",
@@ -5021,7 +4911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 503,
+            "tweet_count": 492,
             "username": "🎹getzell🎸",
             "user_account": "brendangetzell",
             "text": "wow such bubbel RT @nycsouthpaw Put all your Bitcoin into Dogecoin if you know what's good for you.",
@@ -5031,7 +4921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 504,
+            "tweet_count": 493,
             "username": "muhroads",
             "user_account": "muhroad",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -5041,7 +4931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 505,
+            "tweet_count": 494,
             "username": "Clare",
             "user_account": "missclare",
             "text": "Heads up @ericmichaelh RT @nycsouthpaw: Put all your Bitcoin into Dogecoin if you know what's good for you.",
@@ -5051,7 +4941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 506,
+            "tweet_count": 495,
             "username": "smoke frogg",
             "user_account": "smokefrogg1",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -5061,7 +4951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 507,
+            "tweet_count": 496,
             "username": "southpaw",
             "user_account": "nycsouthpaw",
             "text": "Put all your Bitcoin into Dogecoin if you know what's good for you.",
@@ -5071,7 +4961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 508,
+            "tweet_count": 497,
             "username": "Hacker News YC",
             "user_account": "newsycbot",
             "text": "Dogecoin not notable http://t.co/2G1YdBAmp2 (cmts http://t.co/FPhnqyEntY)",
@@ -5081,7 +4971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 509,
+            "tweet_count": 498,
             "username": "southpaw",
             "user_account": "nycsouthpaw",
             "text": "@TheStalwart I've got all my bitcoin on dogecoin.",
@@ -5091,7 +4981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 510,
+            "tweet_count": 499,
             "username": "Joe Weisenthal",
             "user_account": "TheStalwart",
             "text": "Dogecoin is now the 25th biggest crypto-currency. $2.4 million total value http://t.co/hWU9XyskZ9 http://t.co/OGji2ZGihd",
@@ -5101,7 +4991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 511,
+            "tweet_count": 500,
             "username": "Bitcoin Attack",
             "user_account": "bitcoinattack",
             "text": ".01 Bitcoin (BTC) Transferred Instantly To Your Bitcoin $10.5 #bitcoin #btc #dogecoin http://t.co/R81sDY13kO http://t.co/sCA8L5pytf",
@@ -5111,7 +5001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 512,
+            "tweet_count": 501,
             "username": "greg",
             "user_account": "xxgregxxx",
             "text": "@DailyDogeCoin gives me #free #dogecoin #freedogecoin #cryptocurrency #crypto #bitcoin #litecoin DGTiHvA6fWZsN5qGpQXSr8QEGTaXL8dMs3 many thx",
@@ -5121,7 +5011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 513,
+            "tweet_count": 502,
             "username": "greg",
             "user_account": "xxgregxxx",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -5131,7 +5021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 514,
+            "tweet_count": 503,
             "username": "The Dog",
             "user_account": "funtadan",
             "text": "@dogecoin Such Name Much funny",
@@ -5141,7 +5031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 515,
+            "tweet_count": 504,
             "username": "Dan Shultz",
             "user_account": "danshultz",
             "text": "@benjaminws mining dogecoin on your own?",
@@ -5151,7 +5041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 516,
+            "tweet_count": 505,
             "username": "ypool.net",
             "user_account": "ypool_net",
             "text": "Dogecoin now on ypool! such coin",
@@ -5161,7 +5051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 517,
+            "tweet_count": 506,
             "username": "K 🦇 Love",
             "user_account": "kennethlove",
             "text": "Gonna get my digger and #dogecoin wallet set up tonight at the hotel.",
@@ -5171,7 +5061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 518,
+            "tweet_count": 507,
             "username": "Elohim",
             "user_account": "BakaKyone",
             "text": "@SpeedyChiPom CUTE DOG! &lt;3 #pom #pomchi #pomeranian #chipom #cutedog #cutepuppy #dogecoin",
@@ -5181,7 +5071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 519,
+            "tweet_count": 508,
             "username": "Zoom Poker",
             "user_account": "Zoom_Poker",
             "text": "I see they have roulette and dice but dogecoin needs a poker game, stat. http://t.co/81QmJv8BKp",
@@ -5191,7 +5081,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 520,
+            "tweet_count": 509,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@adamrank tru dat",
+            "created_at": "Mon Dec 16 00:29:18 +0000 2013",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 510,
             "username": "✨Doll-Jointed Deirdre✨",
             "user_account": "Adookable",
             "text": "@drymangobird You saw the 'dogecoin' article, yeah? My brain practically imploded on itself. :T",
@@ -5201,7 +5101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 521,
+            "tweet_count": 511,
             "username": "Andrey 🦃 Petrov",
             "user_account": "shazow",
             "text": "@alex_gaynor @wolever If Dogecoin becomes the dominant cryptocurrency, I will quit computers and get a Shiba Inu.",
@@ -5211,7 +5111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 522,
+            "tweet_count": 512,
             "username": "Jessica 666",
             "user_account": "beatface",
             "text": "Such monies wow http://t.co/hGuwdtZeUV",
@@ -5221,7 +5121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 523,
+            "tweet_count": 513,
             "username": "DocOck",
             "user_account": "nigga2566",
             "text": "Dogecoin is life",

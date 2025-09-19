@@ -1,7 +1,17 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "South American Crypto Exchange https://t.co/lT486Qpwkr Seeks Help of Colombian President for Reopening $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/2qbGxzNAQD",
+            "created_at": "Mon Sep 24 23:52:01 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
             "username": "Wyatt LeRoux",
             "user_account": "WyGuy069",
             "text": "@dogecoin_devs Keep up the good work. Good luck 👍.",
@@ -11,7 +21,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 2,
+            "tweet_count": 3,
             "username": "Spinup Manager #Follow4Follow",
             "user_account": "spinupmanager",
             "text": "Coin type Selfkey   Price: 0.00573708963792  Daily volume: 48090.1235955\n\nSELL/BUY or EXCHANGE  NOW  ON  ➡️ https://t.co/R4P8ZLKIAI\n\n$HYDR $REX $ENG $FLO $UNB $HOT $VIB $doge $BAT $KNC $VET https://t.co/2SwXVWQ03J",
@@ -21,27 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 19:33 https://t.co/q9WI6aygsg",
-            "created_at": "Mon Sep 24 23:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
             "tweet_count": 4,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/lHOHhpCz2K",
-            "created_at": "Mon Sep 24 23:30:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 5,
             "username": "Dogecoin Developers",
             "user_account": "dogecoin_devs",
             "text": "@Tigerix It's definitely on my wants list for 1.16, but I don't want to say anything more until I've talked to the rest of the team. Would likely need a fork due to how we use version bits. - Ross",
@@ -51,7 +41,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 5,
             "username": "Tigerix 💹🧲",
             "user_account": "Tigerix",
             "text": "@dogecoin_devs Is segwit going to be integrated?",
@@ -61,7 +51,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 6,
             "username": "Dogecoin Developers",
             "user_account": "dogecoin_devs",
             "text": "It's tedious, but means we don't have test failures from multiple different changes, which makes it much easier to correct the tests afterwards.",
@@ -71,7 +61,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 7,
             "username": "Dogecoin Developers",
             "user_account": "dogecoin_devs",
             "text": "For 1.16 I'm trying a new approach to applying the changes to convert Bitcoin to Dogecoin. Instead of updating all of the main parameters at once, I'm doing them individually and ensuring all of the tests pass after every single minor change.",
@@ -81,7 +71,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 8,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5969.7 values from vircurex + coinbase at 09/24/18 18:55 #dogecoin",
@@ -91,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 9,
             "username": "PixelGod23",
             "user_account": "waves2go",
             "text": "$9.99 for 2 IPHONE XS Max | Tempered Glass Screen Protection \n&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;\nVia @ebay\nhttps://t.co/5mbAFWNp7o \n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;\n#iphone #bulls #politics #vote #fouryears #mileaway #dog #litecoin #dogecoin #iphonexsmax #smartphone #news #aldi #handpicked #tonight",
@@ -101,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 10,
             "username": "Market Scanner",
             "user_account": "Market_Scanner",
             "text": "#CRYPTO 60M GAINERS\n\n$HSR +2.45% [$2.37, 0.00035873 BTC]\n$STRAT +0.64% [$1.60, 0.00024248 BTC]\n$XTZ +0.45% [$1.59, 0.00024040 BTC]\n$DOGE +0.09% [$0.006, 0.00000086 BTC]",
@@ -111,11 +101,21 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 11,
             "username": "Sari Lestari",
             "user_account": "LurLestari",
             "text": "https://t.co/lDyf4dmYlh offers bitcoin and dogecoin cloud mining services on modern, high-efficiency equipment.",
             "created_at": "Mon Sep 24 22:55:40 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Study: Bitcoin Investors and Speculators Maintained Their Positions Over Summer $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/5R1yhUv3KR",
+            "created_at": "Mon Sep 24 22:42:14 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -162,16 +162,6 @@
         },
         {
             "tweet_count": 17,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 18:33 https://t.co/DZ5CMBFYWp",
-            "created_at": "Mon Sep 24 22:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 18,
             "username": "Live Crypto PriceBot",
             "user_account": "LiveCryptoChart",
             "text": "Made over 0.21 BTC just by COPYING pro traders! Check it out, you won't regret it! :) \n\n--&gt; https://t.co/D7dpqK7jJk\n\n$PIVX 0.9324313989$ $SNGLS $SALT $CSNO $DIME $SYNX $EOS $SXC $WCT $DOGE $SNT $DGB $GBYTE $BURST $CREDO $PST $RDN $NXC $POSW $TGT $DCN https://t.co/vfc49Wl7PY",
@@ -181,7 +171,27 @@
             "retweeted_tweet": null
         },
         {
+            "tweet_count": 18,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Bitcoin, Ethereum, Ripple, Bitcoin Cash, EOS, Stellar, Litecoin, Cardano, Monero, Dash: Price Analysis, September 24 $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks … https://t.co/QxPehtqWNt",
+            "created_at": "Mon Sep 24 22:27:11 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
             "tweet_count": 19,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "XRP is Centrally Controlled by Ripple – Says Bank of International Settlements (BIS) $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/QbA7lxzYjh",
+            "created_at": "Mon Sep 24 22:25:16 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
             "username": "BitcoinAgile",
             "user_account": "bitcoinagile",
             "text": "Dogecoin cycles 9/24/18 Get strapped in for moon shot by trader Dalin_anderson  published September 24, 2018 https://t.co/apRosLQFjb https://t.co/tiuyDxo8Qn",
@@ -191,7 +201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 21,
             "username": "Trade Alerts, Trade Ideas and Crypto 🇺🇸",
             "user_account": "AlertTrade",
             "text": "Dogecoin cycles 9/24/18 (Get strapped in for moon shot) https://t.co/1zI2f6UomA √ Crypto Cashflow via → https://t.co/fYB9VVCwhr https://t.co/ctd5yAsnt7",
@@ -201,7 +211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 22,
             "username": "High Altitude Investing (Dalin Anderson)",
             "user_account": "HighAltitudeInv",
             "text": "Dogecoin cycles 9/24/18 (Get strapped in for moon shot) - #DOGEBTC chart https://t.co/o82p1FHUPw",
@@ -211,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 23,
             "username": "TradeBot 🤖",
             "user_account": "TradeBot101",
             "text": "PRO TIP: Find top traders &amp; COPY their trades automatically using Bitcoin! \n\n--&gt; https://t.co/6ohioDMi6w\n\n$MONA 1.256456342$ $PPP $QWARK $COSS $WAVES $BCH $DRT $WINGS $TNB $EMC $BLK $ODN $DOGE $DGD $NLG $DBET $ATM $SWIFT $XBC $XMY $BITUSD $FAIR $GBYTE https://t.co/BOGDW6Wpgs",
@@ -221,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 24,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5985.099 values from vircurex + coinbase at 09/24/18 17:55 #dogecoin",
@@ -231,27 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/WHv5lVghdG",
-            "created_at": "Mon Sep 24 22:00:09 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
             "tweet_count": 25,
-            "username": "Crypto Top Charts",
-            "user_account": "CryptoTopCharts",
-            "text": "Top #Cryptocurrency RANK DOWN (#crypto #bitcoin #altcoin):\n$MOAC-7 $PAY-5 $FUN-5 $HSR-3 $BNT-3 $MONA-3 $WTC-2 $LSK-2 $ONT-2 $BTG-1 $WAVES-1 $BTS-1 $ZEN-1 $PIVX-1 $DGD-1 $BAT-1 $DOGE-1 $ETN-1 $MKR-1\nhttps://t.co/u2nM5wdEcc",
-            "created_at": "Mon Sep 24 22:00:00 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 26,
             "username": "Swiezy19",
             "user_account": "swiezy19",
             "text": "@dogecoin_devs Waiting on a check to clear so I can buy more Doge 😁",
@@ -261,7 +251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
+            "tweet_count": 26,
             "username": "WayneE",
             "user_account": "WayneE422",
             "text": "@dogecoin_devs @Killjoys Ok, waiting for my shift to end so I can go home and relax",
@@ -271,7 +261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 27,
             "username": "Dogecoin Developers",
             "user_account": "dogecoin_devs",
             "text": "Working on the foundations of 1.16 and watching @Killjoys , how's your evening going?",
@@ -281,7 +271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 29,
+            "tweet_count": 28,
             "username": "Segwit 2X",
             "user_account": "2xSegwit",
             "text": "Even in a bear market these guys are making insane profits! Copy their trades automatically!! \n\n--&gt; https://t.co/FGj7H5k2eu\n\n$QASH 0.2147189019$ $STORJ $XST $TIPS $GAM $WAVES $TX $ETHOS $CTR $BCAP $BTM $PST $STEEM $DOGE $MANA $DICE $QWARK $AST $MCO $OTN https://t.co/z8tX0K9eJT",
@@ -291,7 +281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 30,
+            "tweet_count": 29,
             "username": "Human Charity Organization",
             "user_account": "HCC_Coin",
             "text": "More insight about the  Penguin coin  $PENG #blockchain is the ability of it #android #ios and Web  #Wallets to support #privacy option.\n\n#PENG #Penguincoin #penguin\n$BTC $ETH $LTC $DOGE $USDT #BTC #ETH #LTC #USDT #DOGE @Cryptopia_NZ @BLEUTRADE @io_coinexchange @CoinMarketCap https://t.co/8NMTWs5AyG",
@@ -301,7 +291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
+            "tweet_count": 30,
             "username": "altfy classifieds",
             "user_account": "altfy_class",
             "text": "Be welcomed to our brand new blog #Crypto Time. Where we are going to discuss about the most attractive #cryptocurrencies out there.\n\nToday, the Meme #cryptocurrency, #Dogecoin $doge\n\nhttps://t.co/IEGZljTW1R\n\n@dogecoin\n#cryptocurrency",
@@ -311,7 +301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 32,
+            "tweet_count": 31,
             "username": "Dogecoin Developers",
             "user_account": "dogecoin_devs",
             "text": "@ErcHanson That's a separate team, although we work with them. I'm hoping they'll have a release roadmap shortly and I'll let you know as soon as I have anything concrete. - Ross",
@@ -321,17 +311,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/bIH9lFxfHs",
-            "created_at": "Mon Sep 24 21:45:08 +0000 2018",
+            "tweet_count": 32,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "The dogecoin market makes this exchanger fabulous #SatoshiModels September 24, 2018 at 04:45PM $BTC $LTC $USDT $DASH $DOGE $ETH $BCH https://t.co/Ixqd2BHu7B",
+            "created_at": "Mon Sep 24 21:45:11 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
+            "tweet_count": 33,
             "username": "Vella",
             "user_account": "cryptotrader85",
             "text": "@MoneyMarsh0 @cryptomocho This wasn't a shill my friend, when Mocho tweets with charts people should take notice as like I said he has made some very good calls over the past couple of months. $BITG &amp; $doge have been his best calls recently.",
@@ -341,7 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 35,
+            "tweet_count": 34,
             "username": "Dogecoin Developers",
             "user_account": "dogecoin_devs",
             "text": "For everyone who missed this yesterday, we've released a fourth (and hopefully final) alpha of 1.14: https://t.co/RZLQIGDEdM\n\nThis will probably skip beta stage and go straight to release candidate once we have the OS X build fixes in.",
@@ -351,27 +341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Walmart Tells Produce Suppliers to Use Blockchain by Next September https://t.co/dxZVcA2xtR #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa…",
-            "created_at": "Mon Sep 24 21:41:27 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 37,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 17:33 https://t.co/fOaeudeQqi",
-            "created_at": "Mon Sep 24 21:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 38,
+            "tweet_count": 35,
             "username": "HANS",
             "user_account": "Hans4488",
             "text": "@davidgokhshtein Dogecoin !",
@@ -381,7 +351,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
+            "tweet_count": 36,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Winklevoss Twins’ Gemini Exchange Pushes into the UK Market $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Crypto Currency News https://t.co/xoU0XhiE2d",
+            "created_at": "Mon Sep 24 21:19:51 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 37,
             "username": "DogecoinMultisig",
             "user_account": "DogecoinMulti",
             "text": "#Dogecoin is the #economy of #wow.",
@@ -391,47 +371,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
-            "username": "Coinlend Alerts",
-            "user_account": "CoinlendAlerts",
-            "text": "Yearly lending rate of $DOGE increased +30% on #Poloniex - current rate 109% ( yearly ) - https://t.co/qN00mpUVnN #coinlend",
-            "created_at": "Mon Sep 24 21:16:01 +0000 2018",
+            "tweet_count": 38,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Iceland Moving Away from Crypto Mining… Where to Next? $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Crypto Currency News https://t.co/6MQDMUtPvb",
+            "created_at": "Mon Sep 24 21:08:23 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/aYEcwEAyxu",
-            "created_at": "Mon Sep 24 21:15:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 42,
-            "username": "Buy Cryptocurrency",
-            "user_account": "bestcurrencyuk",
-            "text": "Buy Dogecoin in Swansea #Dogecoin #Trading #Sites #Swansea https://t.co/bRlaBf0ng0",
-            "created_at": "Mon Sep 24 21:13:32 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 43,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Curated blockchain and cryptocurrency news – Week 38, 2018 https://t.co/cqnvHAN69t #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf",
-            "created_at": "Mon Sep 24 21:06:20 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 44,
+            "tweet_count": 39,
             "username": "Low Byter",
             "user_account": "LowByter",
             "text": "$doge 🤑 https://t.co/xxtgrrUot4",
@@ -441,17 +391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
-            "username": "ApocoCrypto",
-            "user_account": "ApocoCrypto",
-            "text": "Cryptopia Market Alert! DAPS/DOGE\nhttps://t.co/BdbfqL4ukI\n$DAPS $DOGE",
-            "created_at": "Mon Sep 24 21:01:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 46,
+            "tweet_count": 40,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5992.353 values from vircurex + coinbase at 09/24/18 16:55 #dogecoin",
@@ -461,17 +401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
-            "username": "Crypto Daddy  ฿",
-            "user_account": "cryptodaddyji",
-            "text": "@vergecurrency \n\n\"THE VERGE\" - Soon shine like this lambo\n\n#giveaway #GiveawayAlert $xvg $xrp $btc $sc $redd $life $ltc $doge $zcl $wings $qtum $ada #bitcoin #siacoin #verge #ripple #crypto #cryptocurrency #cryptocurrencies #Vergewhale #rich #blockchain #NEO #IOTA #bitcoinprice https://t.co/QITm6EJPX0",
-            "created_at": "Mon Sep 24 20:46:53 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 48,
+            "tweet_count": 41,
             "username": "each 1 tweet 1",
             "user_account": "each1tweet1",
             "text": "Claim FREE Dogecoin for watching videos – current returns: 648.6066 $DOGE daily\n\nhttps://t.co/DSz05LwcpA\n\n$VEC2 $FUNC $IND $SPR $BUCKS $GTC $USNBT $SUMO $BUN $WORM $EPY $IXT $BUZZ $IMS $BBP $NRO $RBT $ESP $INN $XLM $FUEL $NAUT $CAGE $BTCS",
@@ -481,37 +411,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
-            "username": "Crypto Daddy  ฿",
-            "user_account": "cryptodaddyji",
-            "text": "Quixxi #Airdrop\n\nhttps://t.co/oJ1RX0WP8z\n\n#giveaway #GiveawayAlert $xvg $xrp $btc $sc $redd $life $ltc $doge $zcl $wings $qtum $ada #bitcoin #siacoin #verge #ripple #crypto #cryptocurrency #cryptocurrencies #Vergewhale #rich #blockchain #NEO #IOTA #bitcoinprice #bitcoinnews https://t.co/j1hSCbfxca",
-            "created_at": "Mon Sep 24 20:33:49 +0000 2018",
+            "tweet_count": 42,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Juventus Football Club Will Launch Its Own “Fan Token” $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Crypto Currency News https://t.co/ZZ3VJHo0jM",
+            "created_at": "Mon Sep 24 20:38:26 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 16:33 https://t.co/BXZUTK4Hmt",
-            "created_at": "Mon Sep 24 20:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 51,
-            "username": "Crypto Daddy  ฿",
-            "user_account": "cryptodaddyji",
-            "text": "AI #Airdrop\n\nhttps://t.co/5yNPRBg7nb\n\n#giveaway #GiveawayAlert $xvg $xrp $btc $sc $redd $life $ltc $doge $zcl $wings $qtum $ada #bitcoin #siacoin #verge #ripple #crypto #cryptocurrency #cryptocurrencies #Vergewhale #rich #blockchain #NEO #IOTA #bitcoinprice #bitcoinnews https://t.co/sPutRokSLJ",
-            "created_at": "Mon Sep 24 20:17:55 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 52,
+            "tweet_count": 43,
             "username": "Jessy V. - CryptoGirl😍",
             "user_account": "CryptoJV",
             "text": "PRO TIP: Find top traders &amp; COPY their trades automatically using Bitcoin! \n\n--&gt; https://t.co/iRaE7WKzRy\n\n$MANA 0.0773534496$ $LTC $DTB $COB $CHC $PRG $DMD $FUN $LMC $PDC $VRC $LRC $DOGE $FUEL $DOPE $RBY $THC $SNT $FTC $CSC $RLC $SBD $ACT $STORJ $TNT https://t.co/zrjn5IKAzx",
@@ -521,7 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 44,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$NCASH: 59.58%\n$QTUM: 6.07%\n$XVG: 5.53%\nBittrex:\n$TUSD: 18.78%\n$XRP: 1.05%\n$DOGE: 0.51%\n\nFollow our new game: Crypto Stock Market @cystockmarket",
@@ -531,7 +441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 45,
             "username": "| 𝔽rAI",
             "user_account": "ChrisTinCrypto",
             "text": "https://t.co/T0QtQjQ5zO Best Dogecoin Cloud Miner Web Site!  Daily 1 Dogecoin Free! %10 Affiliate Bonus!  @InvestDoge @Dogecoin #Dogecoin #InvestDoge #DogeMiner Here is my last Withdraw from https://t.co/YZnTHhyUia Link:  https://t.co/yOXFyuXVhl",
@@ -541,7 +451,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 46,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Major Thai Bank to Test Visa Blockchain Solution for Cross-Border Payments $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/L5otjvjGx8",
+            "created_at": "Mon Sep 24 20:07:25 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 47,
             "username": "CryptoBullSignals 🚢",
             "user_account": "BullSignals17",
             "text": "#Electronium,\n\n#ETN moving well 🚀\n#New exchange listings will bring some excitements 😁\n\n$btc $eth $xrp $etn $ltc $dash $neo $eos $pivx $doge $cvc $dgb $ocn $bat $sc $lsk $kmd $xvg $trx 🐳\n\nTelegram : https://t.co/opWLB0ycF4 https://t.co/8mx3xqAnhH",
@@ -551,7 +471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 48,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5989.86 values from vircurex + coinbase at 09/24/18 15:55 #dogecoin",
@@ -561,17 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
-            "username": "Amy",
-            "user_account": "Amy90467343",
-            "text": "@Alpha2Beta Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Strongest signals for new exchanges ➡ https://t.co/or9pWuxJxT\n\n$KMD $CVC $STEEM $OCN $STORJ $MIOTA $LTC $DOGE $REQ $ETHOS $ICX $XEM\n\n⭕ 40269552 https://t.co/wRCyrd6eZV",
-            "created_at": "Mon Sep 24 20:00:24 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 58,
+            "tweet_count": 49,
             "username": "Joecoin CFO",
             "user_account": "BeerdHead",
             "text": "Where are my $BURST minions on this Maniacal Monday???\n\n#MoonSquad #Dymaxion\n#cryptocurrency #bitcoin #Potstocks #Crypto \n\n$dgb $doge $pot $zec $bch $gcr\n$etc $btc $eth $ltc #bittrex",
@@ -581,7 +491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
+            "tweet_count": 50,
             "username": "Live Crypto PriceBot",
             "user_account": "LiveCryptoChart",
             "text": "PRO TIP: Copy professional traders &amp; accumulate Bitcoin on autopilot! \n\n--&gt; https://t.co/D7dpqK7jJk\n\n$BNB 10.1371992598$ $PART $BQ $BDL $ATB $SUPER $OK $DRT $VOX $GCC $NLG $NSR $TRUST $COVAL $BTCD $BCO $DTB $EXP $AION $COB $PPP $OMG $DOGE $SUB $POE $XMR https://t.co/GeK8OG2FXT",
@@ -591,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 51,
             "username": "Matt Halbersma",
             "user_account": "waltermpls",
             "text": "@todhansen It's all dogecoin these days boys.",
@@ -601,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 52,
             "username": "Joseph P. Taylor - USA",
             "user_account": "ERT_CRN_HGU",
             "text": "New on eBay US &gt;&gt; #6545 #SLV #antiques Bitmain AntMiner L3+ 504 MH/s SCRYPT Miner Litecoin, Dogecoin https://t.co/WtCqZxMFTK",
@@ -611,27 +521,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Regulation News Moves Bitcoin Prices, BIS Report Says https://t.co/FLTbdxieVc #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #…",
-            "created_at": "Mon Sep 24 19:46:33 +0000 2018",
+            "tweet_count": 53,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Bitcoin Continues To Fall Slightly Under $6700, However, Signs That the Bulls Are Not Giving Up Yet $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/oWimyzuw1k",
+            "created_at": "Mon Sep 24 19:45:42 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
-            "username": "Crypto Daddy  ฿",
-            "user_account": "cryptodaddyji",
-            "text": "HEX #Airdrop\n\nhttps://t.co/2mlWqyvjn0\n\n#giveaway #GiveawayAlert $xvg $xrp $btc $sc $redd $life $ltc $doge $zcl $wings $qtum $ada #bitcoin #siacoin #verge #ripple #crypto #cryptocurrency #cryptocurrencies #Vergewhale #rich #blockchain #NEO #IOTA #bitcoinprice #bitcoinnews",
-            "created_at": "Mon Sep 24 19:45:38 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 64,
+            "tweet_count": 54,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$INS: 7.87%\n$QTUM: 7.12%\n$NCASH: 4.91%\nBittrex:\n$ETH: 4.37%\n$ETH: 1.33%\n$DOGE: 0.78%\n\nFollow our new game: Crypto Stock Market @cystockmarket",
@@ -641,7 +541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 55,
             "username": "Live Crypto PriceBot",
             "user_account": "LiveCryptoChart",
             "text": "Just wanted to share this website with y'all. Made some nice profits just by copying traders! \n\n--&gt; https://t.co/D7dpqK7jJk\n\n$DOGE 0.0057120939$ $GBYTE $BCH $BCAP $SEQ $BITUSD $CNX $DASH $PRG $EXP $XTO $QWARK $AUR $GBX $GRS $VOX $JINN $NET $SIB $HEAT https://t.co/SuEDSivjHl",
@@ -651,7 +551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 56,
             "username": "CoinGet Space",
             "user_account": "coinget_space",
             "text": "📢 Today's exchange is done!\n📈 1 #Dogecoin = 18771 Points with a limit of 70995 Points.",
@@ -661,7 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 57,
             "username": "Crypto Dinero TV",
             "user_account": "Atemvv77",
             "text": "DOGECOIN MINING: https://t.co/GAlDGs5cZd via @YouTube",
@@ -671,17 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 15:33 https://t.co/O8OXtmlHZb",
-            "created_at": "Mon Sep 24 19:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 69,
+            "tweet_count": 58,
             "username": "Хадит Тесла⛥",
             "user_account": "Sibila_Ipazia",
             "text": "@davidgokhshtein $doge",
@@ -691,7 +581,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 59,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Register in this exchanger and increase your opportunity with crypto coins #SatoshiModels $BTC $LTC $USDT $DASH $DOGE $ETH $BCH September 24, 2018 at 02:30PM money https://t.co/PTsF0HeVRz",
+            "created_at": "Mon Sep 24 19:30:24 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Ripple (XRP), Stellar (XLM) and Litecoin (LTC) All See Losses to Start the Week $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Crypto Currency News https://t.co/tGlXfNKK3Z",
+            "created_at": "Mon Sep 24 19:28:09 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
             "username": "TradeBot 🤖",
             "user_account": "TradeBot101",
             "text": "Just wanted to share this website with y'all. Made some nice profits just by copying traders! \n\n--&gt; https://t.co/6ohioDMi6w\n\n$SC 0.0067285616$ $VEN $MDA $BTX $DICE $SKY $LRC $XRB $PDC $GNO $APX $FTC $DOGE $XVG $LSK $OK $QWARK $XNN $BCC $VEE $AUR $QASH https://t.co/mUhsOWpapl",
@@ -701,7 +611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 62,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6006.699 values from vircurex + coinbase at 09/24/18 14:55 #dogecoin",
@@ -711,17 +621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
-            "username": "Amy",
-            "user_account": "Amy90467343",
-            "text": "@Qierio @iam_mr_mide Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Sturdy signals for new exchanges ➡ https://t.co/or9pWuxJxT\n\n$OCN $LTC $STEEM $STORJ $DOGE $MIOTA $XEM $CVC $REQ $ETHOS $KMD $ICX\n\n⭕ 606934497 https://t.co/naQt3g9htz",
-            "created_at": "Mon Sep 24 18:55:21 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 73,
+            "tweet_count": 63,
             "username": "mia 🏳️‍⚧️",
             "user_account": "tipsyCatnip",
             "text": "@RuinedBread2 Cerebro galactico: dogecoin",
@@ -731,7 +631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 64,
             "username": "Spinup Manager #Follow4Follow",
             "user_account": "spinupmanager",
             "text": "Coin type Viberate   Price: 0.0394550622636 USD  Daily volume: 617380.586536 USD\n\nSELL/BUY or EXCHANGE  NOW  ON  ▶️ https://t.co/R4P8ZLKIAI\n\n$ODE $DASH $IFT $FTC $OST $VOX $ENG $XEL $HOT $TUSD $XLM $ADT $CHX $HMQ $BYC $SNGLS $doge",
@@ -741,7 +641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 65,
             "username": "Cryptorecorder",
             "user_account": "cryptorecorder",
             "text": "Holding #Bytecoin ( $BCN) and #Dogecoin ( $DOGE) is the best decision you will ever make\n.\n.\n.\n@Bytecoin_BCN @bytecoin_dev @Bytecoin_Org @dogecoin @BotOfDogecoin https://t.co/RDHqQV7hbt via @cryptorecorder",
@@ -751,17 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 14:33 https://t.co/DAGXaB9SWT",
-            "created_at": "Mon Sep 24 18:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 77,
+            "tweet_count": 66,
             "username": "ᴅᴀʀᴋᴇʀ",
             "user_account": "darker0x",
             "text": "I just realised @Zamnesia is accepting $BTC, $LTC, $DASH, $DOGE, $GAME, $POT, $VTC, $DGB, $ETC, $KMD, $WAVES, $BCH and Tether as a payment method for all your shopping at their store.#SeedShop #HeadShop #VaporShop #CBDShop #SmartShop &amp; #ShroomShop.\n#BTC https://t.co/ncE8hEulAb",
@@ -771,17 +661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/b9o9kgzfTr",
-            "created_at": "Mon Sep 24 18:30:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 79,
+            "tweet_count": 67,
             "username": "Spinup Manager #Follow4Follow",
             "user_account": "spinupmanager",
             "text": "Coin type Skycoin   Price: 3.67340782146$  Daily volume: 1876.0909736$\n\nSELL/BUY or EXCHANGE  NOW  ON  ⏩ https://t.co/R4P8ZLKIAI\n\n$OF $EXP $QRL $SIB $BTC $ALIS $doge $ECOM $LYM $UFR $MINE $CRTM $NCASH $Rvn $WAVES $ICN $ARN",
@@ -791,7 +671,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 68,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Bank of America Files New Patent for Multiple Digital Signatures on a Distributed System $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/YCO0zH8Fte",
+            "created_at": "Mon Sep 24 18:27:23 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 69,
             "username": "Evil Crypto Cat",
             "user_account": "EvilCryptoCat",
             "text": "Coin type Augur   Price: 13.8463662952 USD  Daily volume: 374331.7564 USD\n\nSELL/BUY or EXCHANGE  NOW  ON  ✔️ https://t.co/DTV3yby39i\n\n$Bnb $OMG $doge $GCR $MDA $BHCP $BTG $TAU $QSP $zec $THC $RPX $CLOAK $BCD $STCN $ECOM $XRP",
@@ -801,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 70,
             "username": "Dungeon of crypto-currency kittens",
             "user_account": "Kittens_Dungeon",
             "text": "Coin type EOS   Price: 6.0699399728 USD  Daily volume: 908222.550044 USD\n\nSELL/BUY or EXCHANGE  NOW  ON  ➡️ https://t.co/KY80KzezxC\n\n$MORP $dgb $KMR $EVX $RLC $LUX $PLR $doge $VEN $FRST $SPHR $MTL $SWIFT $POWR $VRM $Eos $MBRS",
@@ -811,7 +701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
+            "tweet_count": 71,
             "username": "Mike Hissam",
             "user_account": "Mike__Heezy",
             "text": "#DGB Sorry #Dogecoin fans. You had your run now it's over",
@@ -821,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 72,
             "username": "Bitcoin Subsidium (XBTX)",
             "user_account": "teloscoin",
             "text": "We are with you 68 days 🤓\nGenesis block:68 #days 😎\n\n#teloscoin #crypto #proofofstake #PoS #Staking #CryptoNews #Bitcointalk #bitcoin #invention #ethereum #Blockchain #BlockChainNews #Decentralization #freedom #altcoin #cryptocurrency #dogecoin #Masternodes #Masternode",
@@ -831,7 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 73,
             "username": "Segwit 2X",
             "user_account": "2xSegwit",
             "text": "PRO TIP: Copy professional traders &amp; accumulate Bitcoin on autopilot! \n\n--&gt; https://t.co/FGj7H5k2eu\n\n$DCR 37.8848511529$ $RADS $XST $KORE $XP $GLD $CFI $POE $YOYOW $BLU $TIPS $BCPT $XRP $QAU $EXCL $DIME $STRAT $GNO $POLL $DOGE $MER $XBC $PPP $RHOC $CURE https://t.co/9Sgicg2fnk",
@@ -841,7 +731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 74,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5996.943 values from vircurex + coinbase at 09/24/18 13:55 #dogecoin",
@@ -851,7 +741,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
+            "tweet_count": 75,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Compra #Bitcoin con #Dogecoin #SatoshiModels $BTC $LTC $USDT $DASH $DOGE $ETH $BCH September 24, 2018 at 01:00PM https://t.co/zmhwb5MdzD",
+            "created_at": "Mon Sep 24 18:00:25 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 76,
             "username": "Dendi Rachman satria",
             "user_account": "dendi2707",
             "text": "Dogecoin [DOGE] drops by 8% to become the biggest loser among top 50 cryptocurrencies https://t.co/gQ8wMxUYbP",
@@ -861,17 +761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 87,
-            "username": "Amy",
-            "user_account": "Amy90467343",
-            "text": "@aencoin @navach22 Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Stout signals for new exchanges ➡ https://t.co/or9pWuxJxT\n\n$MIOTA $CVC $ETHOS $XEM $REQ $ICX $OCN $STORJ $DOGE $STEEM $KMD $LTC\n\n⭕ 921336797 https://t.co/taW5Lx0jon",
-            "created_at": "Mon Sep 24 17:55:33 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 88,
+            "tweet_count": 77,
             "username": "PixelGod23",
             "user_account": "waves2go",
             "text": "Anti-IPhone screen repair https://t.co/5mbAFWNp7o \n.\n.\n.\n#eBay #iPhoneXSMax #deals #store #onlineshopping #shooping #quickbuy #quickhits #teamiphone #fastshipping #paypal #cryptocurrency #dogecoin #iphone #apple #ps4 #2k #ifix #trending #twitter #onlinestore #seller #2for1 #fast",
@@ -881,7 +771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 89,
+            "tweet_count": 78,
             "username": "Fist",
             "user_account": "Crypto_Hype",
             "text": "Seems like Dogecoin is on quote",
@@ -891,7 +781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 79,
             "username": "Monfex",
             "user_account": "MonfexOfficial",
             "text": "https://t.co/e1fLxXoxsD  $10,000,000 in pre-funded accounts up for grabs in 2018 crypto promotion of the year! Sign up today! #monfex #crypto #bitcoin #ETHEREUM #EthereumClassic #Ripple #XRP #Dogecoin #IOTA #ripplenews #DASH #monero #TRON @ripplebot_cs @RippleStream https://t.co/91KumH5ZqX",
@@ -901,7 +791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 80,
             "username": "Delwar Hossain Raj",
             "user_account": "Sajibkh9654866",
             "text": "Find out what we've built so far and what's coming soon on our product road map. So far we're rolled out commenting on any site, #bitcoin, #ethereum, #dogecoin, and #ERC20 tipping, and an iOS and Android local social media app. Coming soon is #AugmentedReality #crypto hunting.",
@@ -911,7 +801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 81,
             "username": "Dungeon of crypto-currency kittens",
             "user_account": "Kittens_Dungeon",
             "text": "Coin type Decentraland   Price: 0.0801240434491$  Daily volume: 292747.70637$\n\nSELL/BUY or EXCHANGE  NOW  ON  ▶️ https://t.co/KY80KzezxC\n\n$btc $VOX $XAS $DOGE $TUSD $IFT $FLO $RADS $ONT $AUG $XEM $NEM $SYS $CAG $CCT $MDS $NEOS",
@@ -921,7 +811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
+            "tweet_count": 82,
             "username": "prometx",
             "user_account": "prometx",
             "text": "😭😭😭 Dooooooooge! #btc $btc #doge $doge #dogecoin #altcoins #crypto #blockchain  😂😍💪\n\nhttps://t.co/6KMrCdejdz",
@@ -931,7 +821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 94,
+            "tweet_count": 83,
             "username": "Amien N.R",
             "user_account": "AmienNR2",
             "text": "Dogecoin [DOGE] drops by 8% to become the biggest loser among top 50 cryptocurrencies https://t.co/xvuT7dS9hV",
@@ -941,7 +831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
+            "tweet_count": 84,
             "username": "Spinup Manager #Follow4Follow",
             "user_account": "spinupmanager",
             "text": "Coin type Metal   Price: 0.718710211609$  Daily volume: 21678.426775$\n\nSELL/BUY or EXCHANGE  NOW  ON  ✔️ https://t.co/R4P8ZLKIAI\n\n$PPP $COSS $LINK $QTUM $PKG $LKK $xlm $XZC $usd $AMP $doge $MANA $BTCD $TAAS $neo $PCN $BNTY",
@@ -951,37 +841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 96,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Coinbase Just Partnered With A Token Startup in Bid to Attract Pro Traders https://t.co/y8NVZOjB5V #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #…",
-            "created_at": "Mon Sep 24 17:41:18 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 97,
-            "username": "Susan",
-            "user_account": "Susan43791480",
-            "text": "@ChebibMona Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Sturdy signals for new exchanges ➡ https://t.co/snwPeYXpap\n\n$CVC $KMD $LTC $XEM $STEEM $DOGE $ICX $ETHOS $MIOTA $OCN $REQ $STORJ\n\n⭕ 755390717 https://t.co/Vd4nIlYRPt",
-            "created_at": "Mon Sep 24 17:40:08 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 98,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000086 BTC #doge #dogecoin 2018-09-24 13:33 https://t.co/b8lv0pb7Fp",
-            "created_at": "Mon Sep 24 17:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 99,
+            "tweet_count": 85,
             "username": "Computer Facts",
             "user_account": "CompFacts",
             "text": "Crypto Currency Exchange Rate: 1.0 DOGECOIN = NaN PRIMECOIN.",
@@ -991,7 +851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
+            "tweet_count": 86,
             "username": "FrankLy",
             "user_account": "Frankrypto",
             "text": "Tomorrow (Sep 25) is going to be a green day. You are welcome.\n$DGB $OMG $CVC $IFT $ICX #altcoins #cryptocurrencies $DNT $OAX $VIBE $BRD $REQ $TRIG $ARN $BTC $BNB $MTL $LTC $BTS $HSR $XRP $EOS $ARK $BCC $POE $IOTA $TNT $BTC $ETH $USDT $DASH $IOTA $TRX $BNB $VET $DOGE $ZEC $vet",
@@ -1001,17 +861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 101,
-            "username": "Usman",
-            "user_account": "Uxmankhi",
-            "text": "🚨200 $XRP Giveaway!✈️\n⚡️Giveaway⚡️\n\n5 WINNERS!!\n\n2 RULES:👇🏽\n\n✅ Follow: @Uxmankhi\n✅ Retweet This Tweet and Tag 5 Friend \n__________________\nWinners will be DMd in 72 Hours.\n\n$BTC $LTC $ETH $LIZA $ETC $TRX $DOGE $ADA $NEO $XLM $BCH #Blockchain #Bitcoin #Crypto https://t.co/xBX23cVW9c",
-            "created_at": "Mon Sep 24 17:28:27 +0000 2018",
-            "retweet": 13,
-            "likes": 13,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 102,
+            "tweet_count": 87,
             "username": "Sir Fred Quimby 💎",
             "user_account": "BittyCryptonius",
             "text": "On the plus side. Dogecoin is immune to this latest bitcoin code bug. Luckily everyone (and his mother) has a $doge bag packed, so the takeover of power should be bloodless. #dogecoin #therealbitcoin #followtheforks #bitcoin #litecoin #dogecoin 🐺",
@@ -1021,7 +871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
+            "tweet_count": 88,
             "username": "Sam Castree, III: Ace Attorney",
             "user_account": "IndieGameLawyer",
             "text": "Sure, we could do real work at work.  Or, we could talk about @dogecoin and then go to lunch.\n\n#blessed",
@@ -1031,7 +881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 104,
+            "tweet_count": 89,
             "username": "ShillMeister 💰💰",
             "user_account": "ShillMeister1",
             "text": "1) Deposit BTC 2) Search for traders that are doing well 3) COPY 4) Profit! :D \n\n--&gt; https://t.co/HfDLMxCuih\n\n$GAS 5.2182909638$ $XBC $XUC $OTN $OCL $STX $TIX $AST $DMD $DNA $GBYTE $DOGE $AE $PIX $QTUM $DENT $KMD $RUP $GLD $XRB $VIA $PPC $BTM $RIC $INK https://t.co/FJuN2xsrIK",
@@ -1041,7 +891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 90,
             "username": "alaylay bot",
             "user_account": "ALAYLAYPALOOZA",
             "text": "“That’s The doge coin",
@@ -1051,7 +901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 106,
+            "tweet_count": 91,
             "username": "SM Developer",
             "user_account": "smdev3loper",
             "text": "Dogecoin [DOGE] drops by 8% to become the biggest loser among top 50 cryptocurrencies - https://t.co/fuQ5p9Spru",
@@ -1061,7 +911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 107,
+            "tweet_count": 92,
             "username": "Bitcoin Warrior",
             "user_account": "Bitcoin_Win",
             "text": "Dogecoin ’s stellar run over the past few weeks seem to have come to an end as statistics from CoinMarketCap show that the cryptocurrency has become the... https://t.co/CxsL5ISOnZ",
@@ -1071,7 +921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 108,
+            "tweet_count": 93,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "Made over 300% profit in just 9 days by COPYING traders! \n\n--&gt; https://t.co/hKdz9FD24w\n\n$DOGE 0.0057050096$ $VERI $PPY $VTC $CAG $XBC $OCT $PTC $TOA $BET $DPY $PIX $CSC $GCC $PING $PURA $XSPEC $OTN $SYNX $CRW $NAV $GRC $QTUM $THC $GAM $AE $HSR $LKK $CHC https://t.co/pEwUfJ91Dt",
@@ -1081,7 +931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 109,
+            "tweet_count": 94,
             "username": "Bitcoin Warrior",
             "user_account": "Bitcoin_Win",
             "text": "Dogecoin [DOGE] drops by 8% to become the biggest loser among top 50 cryptocurrencies https://t.co/CxsL5ISOnZ https://t.co/pDGD2FmlOH",
@@ -1091,7 +941,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 110,
+            "tweet_count": 95,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Exchange Aggregator Compares Prices, Allows Trading on Top Platforms Without an Account $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/Mjb2P4Um4t",
+            "created_at": "Mon Sep 24 17:02:45 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 96,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5976.306 values from vircurex + coinbase at 09/24/18 12:55 #dogecoin",
@@ -1101,17 +961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 111,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/bLAh2ooOf7",
-            "created_at": "Mon Sep 24 17:00:29 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 112,
+            "tweet_count": 97,
             "username": "Sir Fred Quimby 💎",
             "user_account": "BittyCryptonius",
             "text": "@hasufl @adam3us A more decentralized competitor that already exists, could and does small payments better. #dogecoin #therealbitcoin",
@@ -1121,7 +971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 113,
+            "tweet_count": 98,
             "username": "Dungeon of crypto-currency kittens",
             "user_account": "Kittens_Dungeon",
             "text": "Coin type Kyber Network   Price: 0.405243855856  Daily volume: 100403.861223\n\nSELL/BUY or EXCHANGE  NOW  ON   https://t.co/KY80KzezxC\n\n$NEOS $XIOS $LINK $HOT $SFU $GUES $DOGE $XRP $KIN $Btc https://t.co/nH74aH9epp",
@@ -1131,17 +981,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 114,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/gz5uC0idam",
-            "created_at": "Mon Sep 24 16:45:07 +0000 2018",
+            "tweet_count": 99,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Spain to Develop Blockchain Tech Application for Transparency in Forestry Industry $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/4xEmRjXRNc",
+            "created_at": "Mon Sep 24 16:52:22 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 115,
+            "tweet_count": 100,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "The dogecoin market makes this exchanger fabulous #SatoshiModels September 24, 2018 at 11:45AM $BTC $LTC $USDT $DASH $DOGE $ETH $BCH https://t.co/LLaMXq7gAX",
+            "created_at": "Mon Sep 24 16:45:23 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 101,
             "username": "John Guerriero",
             "user_account": "vulken17",
             "text": "$PROUD telegram group\nJoin below\n#cryptocurrency \n\n$OST $BTC $BCH $BNB $LEND $XRP $LTC $ETH $ICX $NEO $ZRX $ENJ $ZEC $BCN $MFT $KEY $DNT $TNT $CDT $POA $NEBL $IOST $AMB $ZIL $VEN $VIB $OCN $VIBE $TRIG $BAT $FUN $STRAT $DLT $GAS $PAC $DOGE $TRX",
@@ -1151,7 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 116,
+            "tweet_count": 102,
             "username": "GermanCoin_GCX®",
             "user_account": "GermanCoin_GCX",
             "text": "Hello friends, \n#GermanCoin_GCX will be one of the smartest coins available, this is for sure, ICO is coming soon in Q1 2019, follow us!\nhttps://t.co/nfFWGFDmCq\n#cryptocurrency #bitcoin #cryptonews #btc #followme\n#followback #ethereum #follobackforfolloback #Dogecoin #crypto 💪🏽",
@@ -1161,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 103,
             "username": "Cryptopian2014",
             "user_account": "CryptoQuizGames",
             "text": "@ummjackson Can I use $DOGE there to pay the bill ?",
@@ -1171,17 +1031,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 12:33 https://t.co/svlqFd5ge9",
-            "created_at": "Mon Sep 24 16:33:06 +0000 2018",
+            "tweet_count": 104,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Russian Raiffeisen Bank Branch Issues Digital Mortgage Using Blockchain $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/1Cv0R7B4Gj",
+            "created_at": "Mon Sep 24 16:27:37 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 119,
+            "tweet_count": 105,
             "username": "George Baily",
             "user_account": "georgebaily",
             "text": "I showed a #dogecoin logo in a company presentation today and out of about 40 people nobody shouted out that they recognised it. Many sad. So awareness deficit. Wau future noob coiner driving moon. https://t.co/hlGBUs7r7G",
@@ -1191,7 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 120,
+            "tweet_count": 106,
             "username": "Don't Miss Your Flight!",
             "user_account": "_nextstopmars_",
             "text": "DMYF: Our Dogecoin and Bitcoin Giveaways - Upd. #dmyf #bitcoingiveaway #dogecoingiveaway #bitcoin #dogecoin #socialism https://t.co/khObjbvf8T https://t.co/Ns7puRS8Ju",
@@ -1201,27 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 121,
-            "username": "Susan",
-            "user_account": "Susan43791480",
-            "text": "@LadyRocketSpace @TimDraper Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Powerful signals for new exchanges ➡ https://t.co/snwPeYXpap\n\n$MIOTA $OCN $KMD $ICX $LTC $CVC $STORJ $STEEM $DOGE $REQ $XEM $ETHOS\n\n⭕ 1366386907 https://t.co/DYNYQko4D4",
-            "created_at": "Mon Sep 24 16:15:07 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 122,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/QOsMh11cX5",
-            "created_at": "Mon Sep 24 16:15:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 123,
+            "tweet_count": 107,
             "username": "mootinator.eth",
             "user_account": "mootinator",
             "text": "@ummjackson ...but do they accept dogecoin?",
@@ -1231,7 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 124,
+            "tweet_count": 108,
             "username": "Campbell",
             "user_account": "likethesoup97",
             "text": "Selling all my assets to invest in Dogecoin",
@@ -1241,7 +1081,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 125,
+            "tweet_count": 109,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "XRP Trending on Crypto Street, Good Things Coming up to Give a Boost $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/IPg67FkEDf",
+            "created_at": "Mon Sep 24 16:05:40 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 110,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5969.7 values from vircurex + coinbase at 09/24/18 11:55 #dogecoin",
@@ -1251,17 +1101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 126,
-            "username": "Susan",
-            "user_account": "Susan43791480",
-            "text": "@kucoincom @oanhkieu471 @BUMOproject Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Robust signals for new exchanges ➡ https://t.co/snwPeYXpap\n\n$OCN $DOGE $MIOTA $CVC $XEM $ICX $STEEM $LTC $STORJ $REQ $ETHOS $KMD\n\n⭕ 98799304 https://t.co/I3yjib1iD3",
-            "created_at": "Mon Sep 24 16:00:10 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 127,
+            "tweet_count": 111,
             "username": "HealthCareCounts",
             "user_account": "HealthCare_293",
             "text": "Wow, wasn't expecting this...  #altcoins $SEQ $DYN $MFT $ADA $XRP $TRX $FUN $KEY $SC $MTL $ETH $BTC $STEEM $SUB $BCN $DENT $STORM $MANA $TUSD $ZEC $VIB $LTC $EOS $XLM $XMR $DASH $IOTA $TRX $NEO $ETC $XTZ $NEM $VET $DOGE $OMG $LSK $ONT $MKR $DCR",
@@ -1271,7 +1111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 128,
+            "tweet_count": 112,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "Even in a bear market these guys are making insane profits! Copy their trades automatically!! \n\n--&gt; https://t.co/hKdz9FD24w\n\n$QTUM 3.829983711$ $POT $DRT $NVC $OCT $OK $XPA $CHC $PDC $CSC $DOGE $EVX $ACT $CTR $MTNC $XMR $BLK $XVG $BITCNY $YOYOW $ASTRO https://t.co/0YTn7fWQ83",
@@ -1281,7 +1121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 129,
+            "tweet_count": 113,
             "username": "Uncle P - moon boy",
             "user_account": "Rodgerdodger21",
             "text": "@davidgokhshtein Dogecoin for certain 😂",
@@ -1291,7 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 130,
+            "tweet_count": 114,
             "username": "Lord Dominant | FinDom cryptoDom",
             "user_account": "LordDominant",
             "text": "To #slave's asking:\nYes, crypto currencies for my #findom, #BDSM is the way to go.\nBitcoin, $LTC, +++, even some niche ones, are fine.\nAnd yes, I like $Doge! :)\nI totally wouldn't mind some HODL'er dumping a million of DOGE's on me. :) Especially if you got 'em @ 14 satoshis. ;D https://t.co/Bu1Giwm3zj",
@@ -1301,7 +1141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 115,
             "username": "Live Crypto PriceBot",
             "user_account": "LiveCryptoChart",
             "text": "Check out this awesome site! You can COPY pro traders using Bitcoin... \n\n--&gt; https://t.co/D7dpqK7jJk\n\n$MONA 1.2411419697$ $XZC $ICOS $XPA $SNGLS $GUP $PZM $BLOCK $AST $DOGE $BBR $FUEL $SIB $BLUE $SYS $PUT $DNA $LEND $XLM $KMD $COVAL $KCS $ZNY $TX $DGB https://t.co/ysqUOkrAL6",
@@ -1311,27 +1151,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "The US Should Take a 'Leadership' Role on Blockchain, IBM Report Argues https://t.co/DnezxeE2mD #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zil…",
-            "created_at": "Mon Sep 24 15:41:53 +0000 2018",
+            "tweet_count": 116,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "IBM Awarded Patent for Autonomous Self-Servicing Devices Within Blockchain-Based IoT System $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/IOinMBQ2NV",
+            "created_at": "Mon Sep 24 15:37:21 +0000 2018",
             "retweet": 0,
-            "likes": 3,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Australia's Securities Watchdog Has Halted 5 ICOs Since April https://t.co/szcsRwzM0h #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf…",
-            "created_at": "Mon Sep 24 15:41:53 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 134,
+            "tweet_count": 117,
             "username": "Clusterfuckalupagus ™",
             "user_account": "clusterfuckalup",
             "text": "@EmperorPing @__CleaR_ @___C_h_i_n_g___ @DurhamPolice Do you take DogeCoin?",
@@ -1341,7 +1171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 135,
+            "tweet_count": 118,
             "username": "Khosro K Isfahani",
             "user_account": "KhosroIsfahani",
             "text": "Local news website @ICTna reports that a #crypto jacking code has been embedded in Iran Traffic Police website. #cryptocurrency #CryptoMining #Dogecoin #CyberSecurity",
@@ -1351,17 +1181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 11:33 https://t.co/m1XaX8f8Bt",
-            "created_at": "Mon Sep 24 15:33:05 +0000 2018",
-            "retweet": 1,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 137,
+            "tweet_count": 119,
             "username": "Bitrefill",
             "user_account": "bitrefill",
             "text": "Feast like a beast!\n\nBeat the hunger pangs &amp; use your $BTC $ETH $LTC $DASH $DOGE at these 6 fast food &amp; dining restaurants in the US.\n\n#BurgerKing\n#PapaJohns\n#Dominos\n#Chipotle\n#DunkinDonuts\n#TheCheeseFactory\n\nRead: https://t.co/3iXMeXTQJq #Cryptocurrency https://t.co/bZ7sm7Y1Wm",
@@ -1371,7 +1191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 138,
+            "tweet_count": 120,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5976.738 values from vircurex + coinbase at 09/24/18 10:55 #dogecoin",
@@ -1381,7 +1201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 139,
+            "tweet_count": 121,
             "username": "donculo6y",
             "user_account": "donculo6y",
             "text": "I like it and I am #IN #doge #dogecoin #hoDl",
@@ -1391,7 +1211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 140,
+            "tweet_count": 122,
             "username": "FULLNODE is already root",
             "user_account": "AnalyticD",
             "text": "bitcoin is just dogecoin with no doge",
@@ -1401,7 +1221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 141,
+            "tweet_count": 123,
             "username": "Crypto News Monitor",
             "user_account": "CNMonitor",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together by The Merkel #Crypto https://t.co/BKpGX8W8Kq",
@@ -1411,7 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 142,
+            "tweet_count": 124,
             "username": "Segwit 2X",
             "user_account": "2xSegwit",
             "text": "PRO TIP: Copy professional traders &amp; accumulate Bitcoin on autopilot! \n\n--&gt; https://t.co/FGj7H5k2eu\n\n$ETP 3.7141112653$ $TRX $OCT $PART $PAYX $PTC $XPA $DCT $PDC $NYC $INCNT $DBIX $DOGE $AEON $TGT $BMC $MOD $MGO $SIB $PURA $FUEL $HSR $XVG $VOISE $XTO https://t.co/iiCux527Sm",
@@ -1421,17 +1241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 143,
-            "username": "TrajanBot",
-            "user_account": "trajanbot",
-            "text": "As of 14:48 today, it would cost a total of $7,737.94 💵 to buy one of each of the following top 20 cryptocurrencies: $BTC $ETH $XRP $BCH $EOS $XLM $LTC $USDT $ADA $XMR $DASH $MIOTA $TRX $NEO $ETC $BNB $XTZ $XEM $VET $DOGE.",
-            "created_at": "Mon Sep 24 14:48:04 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 144,
+            "tweet_count": 125,
             "username": "Marlee",
             "user_account": "marleepoore",
             "text": "Coin type Streamr DATAcoin   Price: 0.0331643651087 USD  Daily volume: 9422.89299888 USD\n\nSELL/BUY or EXCHANGE  NOW  ON  ✔️ https://t.co/u1zYz7OaIw\n\n$GUES $DOGE $STRAT $TKT $NXT $FTC $SWIFT $BLITZ $BLK $CMPCO $SIN $ION $BYC $IOTX $OXY",
@@ -1441,17 +1251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 145,
-            "username": "Susan",
-            "user_account": "Susan43791480",
-            "text": "@Qierio @katana13755627 Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Intense signals for new exchanges ➡ https://t.co/snwPeYXpap\n\n$KMD $ICX $LTC $STEEM $OCN $REQ $DOGE $XEM $MIOTA $ETHOS $CVC $STORJ\n\n⭕ 1516438473 https://t.co/t9aKb2AMDS",
-            "created_at": "Mon Sep 24 14:45:16 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 146,
+            "tweet_count": 126,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$XEM: 7.03%\n$XVG: 5.64%\n$NEO: 2.21%\nBittrex:\n$RDD: 4.47%\n$DOGE: 3.27%\n$BCH: 2.63%\n\nFollow our new game: Crypto Stock Market @cystockmarket",
@@ -1461,17 +1261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 10:33 https://t.co/VxeknrotiS",
-            "created_at": "Mon Sep 24 14:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 148,
+            "tweet_count": 127,
             "username": "Bongitei",
             "user_account": "bongitei",
             "text": "Litecoin $LTC is valued at: $58.26 \nhttps://t.co/rTh4DnrFmf is the fastest growing crypto exchange in 2018! Join us! 😍 😰  \nCheck out Our Liquidity Pool payout Amounts\nhttps://t.co/fS3HV9EJJa\n$SLS $LUX $TOA $PLR $VOISE $TRIG $BCH $ELF $UFO $REDD $XRL $XLM $ZSC $RBY $HAT $DOGE https://t.co/40U4SZaUs2",
@@ -1481,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
+            "tweet_count": 128,
             "username": "MrHodl🟠🤌👍⚡️",
             "user_account": "MrHodl",
             "text": "@theog__ @giacomozucco @hodlcoINC @LukeDashjr @RadomskiPeter DogeCoin would not exist today if it wasn't for merge mining LTCs chain.",
@@ -1491,7 +1281,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 150,
+            "tweet_count": 129,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "US Tech Firm Eyes Blockchain Supply Chain Solution for Major Chinese Ports $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/06QCCAd0Oh",
+            "created_at": "Mon Sep 24 14:07:22 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 130,
             "username": "Evil Crypto Cat",
             "user_account": "EvilCryptoCat",
             "text": "Coin type Waves   Price: 2.17477970569  Daily volume: 110456.887258\n\nSELL/BUY or EXCHANGE  NOW  ON   https://t.co/DTV3yby39i\n\n$LBC $ERC $BLITZ $SNM $STORM $icx $XNN $AMP $DOGE $UUU $GMR $ https://t.co/6KgcTDu6t0",
@@ -1501,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 131,
             "username": "Jessy V. - CryptoGirl😍",
             "user_account": "CryptoJV",
             "text": "Even in a bear market these guys are making insane profits! Copy their trades automatically!! \n\n--&gt; https://t.co/iRaE7WKzRy\n\n$BNT 1.4976598358$ $SAN $AION $KNC $DRGN $TAAS $EMV $DOGE $YOYOW $SC $OBITS $AMP $VEE $BITCNY $OCL $ARK $PZM $SUB $COSS $PRE $BQ https://t.co/bQUN07K3wn",
@@ -1511,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
+            "tweet_count": 132,
             "username": "Remi Vee",
             "user_account": "RealRemiVee",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together\n➡️https://t.co/geDEQHI0P7\n🗺️\n▶️https://t.co/vdnO18c8ZC\n#newsoftheweek #Bitcoin #blockchain #crypto https://t.co/17z3rVKqzb",
@@ -1521,7 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
+            "tweet_count": 133,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5981.472 values from vircurex + coinbase at 09/24/18 09:55 #dogecoin",
@@ -1531,7 +1331,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 154,
+            "tweet_count": 134,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Compra #Bitcoin con #Dogecoin #SatoshiModels $BTC $LTC $USDT $DASH $DOGE $ETH $BCH September 24, 2018 at 09:00AM https://t.co/UALVtjDlgE",
+            "created_at": "Mon Sep 24 14:00:07 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 135,
             "username": "Evil Crypto Cat",
             "user_account": "EvilCryptoCat",
             "text": "Coin type AdEx   Price: 0.205220010065$  Daily volume: 20055.9172876$\n\nSELL/BUY or EXCHANGE  NOW  ON  ➡️ https://t.co/DTV3yby39i\n\n$WAVES $SNT $SNRG $SIB $ECOM $DRGN $RBY $DNT $doge $BWK $IOTX $AMN $EUR $LRC $MATR $TNT $WPR",
@@ -1541,57 +1351,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "HODL No More? The Amount of Bitcoin in Active Wallets Is Near Record Highs https://t.co/noYrfv0MVe #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #…",
-            "created_at": "Mon Sep 24 13:46:45 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 156,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "'500 Transactions a Second': Vitalik Says Zk-Snarks Could Scale Ethereum https://t.co/Lq6yEXJi8J #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zi…",
-            "created_at": "Mon Sep 24 13:46:45 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 157,
-            "username": "coolcoincode",
-            "user_account": "coolcoincode",
-            "text": "Moon Dogecoin - The dogecoin faucet where YOU decide when to claim! https://t.co/2CQWnFZVVu #dogecoin #faucet via @Moon_Dogecoin",
-            "created_at": "Mon Sep 24 13:45:49 +0000 2018",
+            "tweet_count": 136,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "US-China Trade War Hit with Biggest Rounds of Tariffs, Goldman warns of Bear Market &amp; $Trillion Loss $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/6fu8S39Qm4",
+            "created_at": "Mon Sep 24 13:55:24 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 158,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 09:33 https://t.co/hn7dNQceFl",
-            "created_at": "Mon Sep 24 13:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 159,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/ERQpgJkBWk",
-            "created_at": "Mon Sep 24 13:30:12 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 160,
+            "tweet_count": 137,
             "username": "tribetica.com",
             "user_account": "tribetica",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together https://t.co/UmIM0PuGFM https://t.co/nlANz9rsgc",
@@ -1601,17 +1371,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
-            "username": "Amy",
-            "user_account": "Amy90467343",
-            "text": "@filewulotexa Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Stout signals for new exchanges ➡ https://t.co/or9pWuxJxT\n\n$XEM $OCN $MIOTA $STORJ $KMD $ICX $REQ $LTC $ETHOS $CVC $STEEM $DOGE\n\n⭕ 1344607279 https://t.co/NTaMGx8Zzj",
-            "created_at": "Mon Sep 24 13:21:13 +0000 2018",
+            "tweet_count": 138,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Ripple Price Analysis: XRP/USD Reaching Crucial Uptrend Support $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/EMjugU07Sn",
+            "created_at": "Mon Sep 24 13:20:15 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 162,
+            "tweet_count": 139,
             "username": "Yang Zhu",
             "user_account": "YangZhuGreat",
             "text": "@dogecoin_devs who  voting",
@@ -1621,7 +1391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 163,
+            "tweet_count": 140,
             "username": "Caltv93",
             "user_account": "coinnetworkltd",
             "text": "We are now doing sponsored posts: https://t.co/jIOP7yCFW8 #bitcoin #litecoin #dogecoin #ethereum #invest #investor #investment #investing #bitcoincash #Monero #Zcash",
@@ -1631,7 +1401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 141,
             "username": "Nicole Lynn",
             "user_account": "akamullin",
             "text": "Dogecoin (DOGE) Defies Red Market, Posts Slight Gain https://t.co/pPUSfjdnEz #bitcoin #blockchain #Crypto #decentralization #Bitcoin #ICO #cryptocurrency #Cryptocurrency #crypto #BitcoinCash #Ethereum #altcoin #Cryptocurrencies",
@@ -1641,7 +1411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 142,
             "username": "Al Brooks 🦁",
             "user_account": "AlBrooks20",
             "text": "Positive outlook for @dogecoin this week. https://t.co/Yw9cYeVxY3",
@@ -1651,17 +1421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
-            "username": "Alee 👾",
-            "user_account": "_Oneec",
-            "text": "#Bitcoin #ICO #Bounty #airdrop #gambling #mining #crypto #trading #ethereum #dogecoin #litecoin #altcoin Just #FollowMe and i will #FollowBa",
-            "created_at": "Mon Sep 24 13:10:59 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 167,
+            "tweet_count": 143,
             "username": "Yang Zhu",
             "user_account": "YangZhuGreat",
             "text": "@dogecoin_devs how about make  a vote to decide whether changing  the percent of increase every year!",
@@ -1671,7 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 168,
+            "tweet_count": 144,
             "username": "Best Coin Investments",
             "user_account": "bestcoininvest",
             "text": "Completely agree! Just put yourself in the shoes of a successful trader👇",
@@ -1681,7 +1441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
+            "tweet_count": 145,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5992.533 values from vircurex + coinbase at 09/24/18 08:55 #dogecoin",
@@ -1691,7 +1451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 170,
+            "tweet_count": 146,
             "username": "Crypto Stats Bot",
             "user_account": "CryptoStatsBot",
             "text": "📉 Biggest Losers (1 hr) 📉\nHshare $HSR -1.14% ❄️\nZcash $ZEC -0.33% \nTether $USDT -0.28% \nTrueUSD $TUSD -0.21% \nDogecoin $DOGE -0.07%",
@@ -1701,7 +1461,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 171,
+            "tweet_count": 147,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@tzokal910 @dogecoin He is adorable 🥺 Most cats are cool but jerks sometimes it is their way 😁 Also amazing name!",
+            "created_at": "Mon Sep 24 12:58:26 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 148,
             "username": "CoinRevolution",
             "user_account": "CoinRevolution_",
             "text": "Dogecoin Creator Helps Tesla Head Get Rid Of Ethereum Scam On Twitter Feed #Tesla  #SpaceX #Ethereum https://t.co/ZH5ku51Sv1",
@@ -1711,17 +1481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 172,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 08:33 https://t.co/vEtZOHtrgj",
-            "created_at": "Mon Sep 24 12:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 173,
+            "tweet_count": 149,
             "username": "Marko Omcryptokus",
             "user_account": "omcikusmarko",
             "text": "#ALTCOINS are MOVING! Use https://t.co/Quu5i39vrv to scan for OVERSOLD RSI, MACD CROSSOVERS and where BUYERS are going!\n\n#BTC #ETH $BCN $RDD $WAVES $USDT $TUSD $DAI $CNX $FUN $DCR $LINK $ETP $KCS $SC $DGB $DOGE $ZRX $XIN $MITH https://t.co/LkoOlD2Ilz",
@@ -1731,7 +1491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 150,
             "username": "LucisDollar",
             "user_account": "LucisDollar",
             "text": "FINMA Warns Against Cryptocurrency Firm Alliance Capital\n\nCryptocurrency scams have grown in number exponentially over the past 12 months\n\n#ethereum #cryptocurrency #eth #bitcoin #btc #altcoin #ltc #dogecoin #doge #Blockchain #Litecoin #ICO https://t.co/QeiDTEy60S",
@@ -1741,7 +1501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
+            "tweet_count": 151,
             "username": "Marlee",
             "user_account": "marleepoore",
             "text": "Coin type Binance Coin   Price: 10.2267548173  Daily volume: 495636.448844\n\nSELL/BUY or EXCHANGE  NOW  ON  👉 https://t.co/u1zYz7OaIw\n\n$XCP $IQN $BCH $AMN $DTR $BTCD $XEL $NET $SNC $doge $ https://t.co/cxIfbT9y78",
@@ -1751,7 +1511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 176,
+            "tweet_count": 152,
             "username": "RoundTheBlock",
             "user_account": "RoundTheBlockAu",
             "text": "Interesting.\n\n#btc #eth #bch #ltc #dash #ethclassic #qtum #decred #digibyte #dogecoin #komodo #vertcoin #blackcoin #rtb #roundtheblock #cryptoaustralia #coinspot https://t.co/iqqX1wX0EO",
@@ -1761,7 +1521,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 177,
+            "tweet_count": 153,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "French MPs Propose Legal Framework for All ‘Digital Assets’ Providers, Sources Report $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/dDdOI8yIml",
+            "created_at": "Mon Sep 24 12:27:11 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 154,
             "username": "hitesh.eth",
             "user_account": "hmalviya9",
             "text": "Top 5 #cult coins - $TRX $XVG $HOT $NPXS $DOGE",
@@ -1771,7 +1541,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 178,
+            "tweet_count": 155,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Justin Sun Takes a Dig at Ethereum Misery Again, Askes Dapps to use Tron over Ethereum $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/GrlzMGzFMc",
+            "created_at": "Mon Sep 24 12:15:51 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 156,
             "username": "Evil Crypto Cat",
             "user_account": "EvilCryptoCat",
             "text": "Coin type Wings   Price: 0.149123614221  Daily volume: 308184.724641\n\nSELL/BUY or EXCHANGE  NOW  ON   https://t.co/DTV3yby39i\n\n$TAAS $xvg $DOGE $CHX $WABI $VIB $PAY $SNOV $NXC $ETHOS $MER $ https://t.co/v4vxU5qcp7",
@@ -1781,7 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
+            "tweet_count": 157,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5956.029 values from vircurex + coinbase at 09/24/18 07:55 #dogecoin",
@@ -1791,17 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 180,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/iv0BfFaa0z",
-            "created_at": "Mon Sep 24 12:00:26 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 181,
+            "tweet_count": 158,
             "username": "CryptoBullSignals 🚢",
             "user_account": "BullSignals17",
             "text": "#Odyssey, (Premium)\n\n#OCN +50% up from our entry 🙌\n\n$btc $eth $xrp $ltc $dash $neo $eos $doge $ocn $waves $strat $cvc $dgb $ocn $bat $sc $lsk $kmd $xvg $trx $ada 👧\n\nTelegram : https://t.co/opWLB0ycF4 🏪 https://t.co/aTpvFjX4YO",
@@ -1811,7 +1581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
+            "tweet_count": 159,
             "username": "JP / JD",
             "user_account": "jdebunt",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together https://t.co/kWmI6niJhp https://t.co/BxhlzVmCZS",
@@ -1821,17 +1591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 183,
-            "username": "Amy",
-            "user_account": "Amy90467343",
-            "text": "@tripel29 @GreatMarkt Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Vigorous signals for new exchanges ➡ https://t.co/or9pWuxJxT\n\n$ETHOS $STORJ $LTC $MIOTA $XEM $DOGE $STEEM $KMD $OCN $ICX $REQ $CVC\n\n⭕ 313847325 https://t.co/IS8Tkw5JJG",
-            "created_at": "Mon Sep 24 11:51:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 184,
+            "tweet_count": 160,
             "username": "CryptoBullSignals 🚢",
             "user_account": "BullSignals17",
             "text": "#StatusNetworkToken , (Premium)\n\n#SNT 26% up from our call 🚀\n\n$btc $eth $xrp $ltc $dash $neo $eos $doge $snt $cvc $dgb $ocn $bat $sc $lsk $kmd $xvg $trx $ada ✈\n\nTelegram : https://t.co/opWLB0ycF4 🏪 https://t.co/pPqDrYRGOU",
@@ -1841,27 +1601,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/2AiTQ79GsK",
-            "created_at": "Mon Sep 24 11:45:08 +0000 2018",
+            "tweet_count": 161,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Winklevoss' Crypto Exchange Gemini Eyes Entrance Into UK Market, Sources Report $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/Sj4o4GjshG",
+            "created_at": "Mon Sep 24 11:37:23 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 186,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "$6.9K Is the New Price to Watch for Bitcoin Bulls https://t.co/XFu9dvhV6g #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #Nebl…",
-            "created_at": "Mon Sep 24 11:41:10 +0000 2018",
+            "tweet_count": 162,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "ETH and XRP Both Hit by Losses as Crypto Markets See Widespread Red $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/ewoOiAAOVe",
+            "created_at": "Mon Sep 24 11:37:22 +0000 2018",
             "retweet": 0,
-            "likes": 2,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 187,
+            "tweet_count": 163,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Crypto Win: Singapore’s Crypto not being Securities stance &amp; France Accepting Legal ICO Framework $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/sDJ3vQWUOL",
+            "created_at": "Mon Sep 24 11:35:20 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 164,
             "username": "Kelly Crypto",
             "user_account": "kellysiqili",
             "text": "#CRYPTO #CURRENCIES are moving! Get on https://t.co/BoXdbrOnQv to TRACK which #CRYPTO has the highest BUYERS!\n\n#BTC #ETH $BCN $WAVES $CNX $USDT $TUSD $DAI $RDD $DCR $DOGE $SC $DGB $ETP $FUN $KCS $XIN $ZRX $BTC $MITH https://t.co/NyL92AxmE8",
@@ -1871,17 +1641,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 188,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000088 BTC #doge #dogecoin 2018-09-24 07:33 https://t.co/XPbL3D1zN2",
-            "created_at": "Mon Sep 24 11:33:04 +0000 2018",
+            "tweet_count": 165,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "WEF — Blockchain Could Improve Multiple Spheres of Global Economy $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/EsX5YUIBLF",
+            "created_at": "Mon Sep 24 11:27:23 +0000 2018",
             "retweet": 0,
-            "likes": 0,
+            "likes": 1,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 189,
+            "tweet_count": 166,
             "username": "Altcoinss",
             "user_account": "altcoinsscom",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together: The cryptocurrency… https://t.co/F8UgLGuUmp",
@@ -1891,7 +1661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 190,
+            "tweet_count": 167,
             "username": "BitBox",
             "user_account": "BitBoxNews",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together https://t.co/B9btFx3eJT",
@@ -1901,17 +1671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 191,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/QUnSRYqwUp",
-            "created_at": "Mon Sep 24 11:15:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 192,
+            "tweet_count": 168,
             "username": "each 1 tweet 1",
             "user_account": "each1tweet1",
             "text": "Claim FREE CureCoin for watching videos – current returns: 3.7093 $CURE daily\n\nhttps://t.co/EGoVTHymLL\n\n$EDOGE $TRIG $BEST $PPY $DOGE $LA $RDD $VOT $PIVX $HBN $MOD $BURST $BCH $VRS $CTR $BSC $PXI $DASHS $DNT $ATCC $MST $XEM $DATA $DISK",
@@ -1921,7 +1681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 193,
+            "tweet_count": 169,
             "username": "BitRss News",
             "user_account": "RssBit",
             "text": "#Crypto #News: \"Dogecoin Price – Gains Loom on the Horizon as Community Bands Together\" https://t.co/IjBQdCfz2N",
@@ -1931,17 +1691,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 194,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Win $150 in Dogecoins every hour! https://t.co/BzASEwDetS #doge #dogecoin #btc #bitcoin #ltc #altcoin #cryptocurrency",
-            "created_at": "Mon Sep 24 11:05:02 +0000 2018",
+            "tweet_count": 170,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Italian Soccer Club Juventus Follows France’s Paris Saint-Germain to Launch ‘Fan Token’ $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/QnnB4Cwx9D",
+            "created_at": "Mon Sep 24 11:07:29 +0000 2018",
             "retweet": 0,
-            "likes": 0,
+            "likes": 2,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 195,
+            "tweet_count": 171,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5982.705 values from vircurex + coinbase at 09/24/18 06:55 #dogecoin",
@@ -1951,7 +1711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 196,
+            "tweet_count": 172,
             "username": "Crypto Giraffe",
             "user_account": "thomas_lub",
             "text": "A new post: Dogecoin Price – Gains Loom on the Horizon as Community Bands Together is added on https://t.co/tO0RRSXUCH #altnewsnu #altcoin #bitcoin #news",
@@ -1961,7 +1721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 197,
+            "tweet_count": 173,
             "username": "Market Scanner",
             "user_account": "Market_Scanner",
             "text": "#CRYPTO 60M LOSERS\n\n$MAID -1.32% [$0.24, 0.00003672 BTC]\n$PPT -0.81% [$3.05, 0.00046141 BTC]\n$DGB -0.76% [$0.025, 0.00000376 BTC]\n$BTS -0.63% [$0.12, 0.00001770 BTC]\n$AE -0.28% [$0.97, 0.00014660 BTC]\n$ETP -0.26% [$3.69, 0.00055811 BTC]\n$DOGE -0.23% [$0.006, 0.00000086 BTC]",
@@ -1971,7 +1731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 198,
+            "tweet_count": 174,
             "username": "CryptFund News",
             "user_account": "cryptFund",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together https://t.co/hIX7BtuqwJ",
@@ -1981,7 +1741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 199,
+            "tweet_count": 175,
             "username": "JP / JD",
             "user_account": "jdebunt",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together https://t.co/qli3zXENhm #bitcoin #blockchain #crypto #news",
@@ -1991,7 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 200,
+            "tweet_count": 176,
             "username": "Stocks & Crypto",
             "user_account": "dejesusp97",
             "text": "Wow #Dogecoin was at .0062 next .0100 soon 👀👀",
@@ -2001,7 +1761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 201,
+            "tweet_count": 177,
             "username": "Crypto Jolien 👧",
             "user_account": "CryptoJolien",
             "text": "Made over 300% profit in just 9 days by COPYING traders! \n\n--&gt; https://t.co/8I7zdfafEN\n\n$DOGE 0.0057121784$ $AE $EMV $BCO $AST $MTNC $CURE $EDR $SPHR $MGO $STRAT $VRC $VIA $LKK $OCT $OCL $ENG $GNO $TIME $OMG $ANT $UKG $ZSC $XVG $DCR $BTG $ETP $GUP $DMD https://t.co/kYNXOhGLJ2",
@@ -2011,7 +1771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 202,
+            "tweet_count": 178,
             "username": "Crypto News Monitor",
             "user_account": "CNMonitor",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together via The Merkel #Cryptocurrency https://t.co/BKpGX8W8Kq",
@@ -2021,7 +1781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 203,
+            "tweet_count": 179,
             "username": "‾|‾hE0 ∞/21M🥩",
             "user_account": "_ungovernable_",
             "text": "@ShapeShift_io Tip2: Practice Dogecoin Maximalism\nhttps://t.co/5EJXcxGP6i",
@@ -2031,17 +1791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 204,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 06:33 https://t.co/7arc0uHRYx",
-            "created_at": "Mon Sep 24 10:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 205,
+            "tweet_count": 180,
             "username": "Marko Omcryptokus",
             "user_account": "omcikusmarko",
             "text": "#CRYPTO #CURRENCIES are moving! Get on https://t.co/Quu5i39vrv to TRACK which #CRYPTO has the highest BUYERS!\n\n#BTC #ETH $DCN $WAVES $BCN $RDD $BTCP $SC $TUSD $USDT $DAI $ETP $DCR $NPXS $DOGE $DGB $KCS $ZRX $FUN $XIN https://t.co/13bpNUXcLm",
@@ -2051,17 +1801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 206,
-            "username": "ESS Gaming™",
-            "user_account": "ESSGamingHQ",
-            "text": "Check out #HostHavoc for the best #deals on #Game, #Voice, #Dedicated #Servers and #Web #Hosting &gt; https://t.co/3oN0d2RMaf #Bitcoin #Litecoin #Dogecoin https://t.co/AVXJYJ3iqj",
-            "created_at": "Mon Sep 24 10:30:21 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 207,
+            "tweet_count": 181,
             "username": "Proof-of-Wallet",
             "user_account": "proofofwallet",
             "text": "Make $DOGE Great Again hat is now available. https://t.co/UO6Wx01p48 https://t.co/c9Mg56zcnq",
@@ -2071,7 +1811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 208,
+            "tweet_count": 182,
             "username": "Cryptocurrency & Blockchain News",
             "user_account": "cryptoicobull",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together. #crypto #cryptocurrency #cryptocurrencies https://t.co/2xjb9nbzXl",
@@ -2081,7 +1821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 209,
+            "tweet_count": 183,
             "username": "Fanky",
             "user_account": "ImFanky",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together  \nhttps://t.co/d3ctPhzGX9\n#cryptocurrency\n#satoshifinder",
@@ -2091,7 +1831,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 210,
+            "tweet_count": 184,
+            "username": "Coin Spectator - Real-time cryptocurrency news",
+            "user_account": "coinspectator",
+            "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together #blockchain #bitcoin #btc https://t.co/SalugrAshU https://t.co/EpIk3SClIH",
+            "created_at": "Mon Sep 24 10:21:36 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 185,
             "username": "Will Henry",
             "user_account": "RealWillHenry",
             "text": "Dogecoin Price – Gains Loom on the Horizon as Community Bands Together https://t.co/mtIFRMd5bA https://t.co/TMJ4IbIcFe",
@@ -2101,7 +1851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 211,
+            "tweet_count": 186,
             "username": "KingSmallz",
             "user_account": "king_smartone",
             "text": "In a mission of mining dogecoin, iknow it worthless but I'm gonna keep it for 10 years\n\nhttps://t.co/m0aCGHxUVu",
@@ -2111,17 +1861,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 212,
-            "username": "dFz6 | DERO SEALs",
-            "user_account": "cryptofz6",
-            "text": "Register with 👇\n\nhttps://t.co/scOo3jd73E\n\nGet 10 $ACH added to your account worth $10 #free \n\n$BTC $LTC $ETH $LIZA $ETC $TRX $DOGE $ADA $NEO $XLM $BCH #Blockchain #Bitcoin #Crypto #passiveincome",
-            "created_at": "Mon Sep 24 10:01:30 +0000 2018",
+            "tweet_count": 187,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "UNICEF France Accepting BTC, ETH, XRP, BCH, LTC, XLM, XMR, EOS, &amp; Dash in Donation $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/nqoSgQ56kn",
+            "created_at": "Mon Sep 24 10:05:36 +0000 2018",
             "retweet": 0,
             "likes": 1,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 213,
+            "tweet_count": 188,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $5969.664 values from vircurex + coinbase at 09/24/18 05:55 #dogecoin",
@@ -2131,7 +1881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 214,
+            "tweet_count": 189,
             "username": "Coinlend™",
             "user_account": "Coinlend2018",
             "text": "Top 4 interest rates:\n\nDOGE 33.44% (Poloniex)\nJPY 18.56% (Liquid)\nETP 9.77% (Bitfinex)\nBTG 8.09% (Bitfinex)\n\n$DOGE $JPY $ETP $BTG",
@@ -2141,17 +1891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 215,
-            "username": "Amy",
-            "user_account": "Amy90467343",
-            "text": "@dawnaadaw Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Solid signals for new exchanges ➡ https://t.co/or9pWuxJxT\n\n$XEM $DOGE $REQ $ICX $OCN $CVC $ETHOS $KMD $STEEM $STORJ $MIOTA $LTC\n\n⭕ 1358337682 https://t.co/S5JPWzF8M9",
-            "created_at": "Mon Sep 24 09:51:17 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 216,
+            "tweet_count": 190,
             "username": "Goat Cash",
             "user_account": "GotGoatCash",
             "text": "1 more sleep peoples &amp; herdlings!! Roll up, roll up... $GOAT $DOGE $BTC $ETH $ETC $XRP",
@@ -2161,7 +1901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 217,
+            "tweet_count": 191,
             "username": "Shibatoshi Nafomoto 🇺🇦",
             "user_account": "CEOofDogecoin",
             "text": "@ChrisPacia I: Everything which is not #Dogecoin is not wow!\nII: Every attempt at changing Dogecoin into a cat-themed coin is a scam!\nIII: Everyone should spend at least some of their $DOGE on stupid shit!\nIV: We should be excellent to everyone!",
@@ -2171,47 +1911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 218,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Juventus Soccer Club Is Launching a Crypto Token to Give Fans a 'Voice' https://t.co/Fy4PLRvyYx #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zil…",
-            "created_at": "Mon Sep 24 09:46:23 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 219,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Regulators Are Landing Punches, But There's a Long Crypto Fight Ahead https://t.co/lcjXzryxxL #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilli…",
-            "created_at": "Mon Sep 24 09:46:22 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 220,
-            "username": "Susan",
-            "user_account": "Susan43791480",
-            "text": "@FDrop_Token @katezufe Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Powerful signals for new exchanges ➡ https://t.co/snwPeYXpap\n\n$DOGE $XEM $CVC $LTC $ETHOS $REQ $OCN $STEEM $STORJ $KMD $ICX $MIOTA\n\n⭕ 1425993837 https://t.co/HZOX3PND2o",
-            "created_at": "Mon Sep 24 09:35:41 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 221,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 05:33 https://t.co/Eab97sdKF3",
-            "created_at": "Mon Sep 24 09:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 222,
+            "tweet_count": 192,
             "username": "Kelly Crypto",
             "user_account": "kellysiqili",
             "text": "#ALT #COINS are going vertical! Try https://t.co/BoXdbrOnQv so you can find out where #CRYPTO money is moving!\n\n#BTC #ETH $SC $BCN $ETP $RDD $BTCP $USDT $TUSD $DAI $FUN $DCR $WAVES $DGB $KCS $XIN $DOGE $ZRX $CNX $BTC https://t.co/YJ0XWShp8O",
@@ -2221,7 +1921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 223,
+            "tweet_count": 193,
             "username": "CryptoBullSignals 🚢",
             "user_account": "BullSignals17",
             "text": "#BTC , \n\n#Hope you all are safe 🙌\n\n$btc $eth $neo $xlm $gnt $trx $snt $etn $lsk $ark $xrp $sc $ocn $pivx $doge \n\nhttps://t.co/opWLB0ycF4 🏪 https://t.co/5HyXPYpMs3",
@@ -2231,7 +1931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 224,
+            "tweet_count": 194,
             "username": "Rob Pemberton",
             "user_account": "pembertonrob",
             "text": "Doge coin, Market Cap is the mark of the beast 666\n\n#xrp #XRPcommunity https://t.co/Fix7LgoGKc",
@@ -2241,7 +1941,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 225,
+            "tweet_count": 195,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Nevermind the Stagnating Market, Binance Is Pushing Further in Its Expansion $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/VLgb6zAg3v",
+            "created_at": "Mon Sep 24 09:22:16 +0000 2018",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 196,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Opera Launches Beta ‘Labs’ Version of Built-In Crypto Wallet for Desktop Browser $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Cointelegraph https://t.co/3U1e0wLyg5",
+            "created_at": "Mon Sep 24 09:22:16 +0000 2018",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
             "username": "Kristof Kowalski",
             "user_account": "krzko",
             "text": "Woo! @GotGoatCash trading starts tomorrow. Exciting times ahead 🎉\n\n$goat $doge $btc $etc #cryptocurrency https://t.co/3SkCKVoZtY",
@@ -2251,7 +1971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 226,
+            "tweet_count": 198,
             "username": "#BLM ✊🏿/#BritneyFreed/XRP",
             "user_account": "WVUGuy29",
             "text": "@PerrisCole @WLScoin @dogecoin Go with #XRP. You’ll thank yourself later\n\nhttps://t.co/Jmd8o9EM68",
@@ -2261,7 +1981,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 227,
+            "tweet_count": 199,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Investors Watch Out: Stellar [XLM] too can Replicate XRP’s Last Week’s Rally $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/UOprfq7BRt",
+            "created_at": "Mon Sep 24 09:10:10 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 200,
             "username": "Nerim Koci",
             "user_account": "sonar718",
             "text": "@dogecoin_devs Great news Cap it....",
@@ -2271,7 +2001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 228,
+            "tweet_count": 201,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6009.93 values from vircurex + coinbase at 09/24/18 04:55 #dogecoin",
@@ -2281,7 +2011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 229,
+            "tweet_count": 202,
             "username": "Crypto Jolien 👧",
             "user_account": "CryptoJolien",
             "text": "Check out this awesome site! You can COPY pro traders using Bitcoin... \n\n--&gt; https://t.co/8I7zdfafEN\n\n$DOGE 0.0057284667$ $R $NET $DENT $TZC $DCT $TNB $EXP $BTS $NTRN $BAY $PTC $OMG $ASTRO $DIME $MUSIC $XCP $NLG $RHOC $DATA $XAS $CURE $RIC $MTL $BTC $AE https://t.co/D46A8Ndh2c",
@@ -2291,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 230,
+            "tweet_count": 203,
             "username": "Mingju Roberts",
             "user_account": "MingjuRoberts",
             "text": "@ekkespaso Didn't know they had one for dogecoin.  I get a lucky roll on freebitcoin here and there",
@@ -2301,7 +2031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 231,
+            "tweet_count": 204,
             "username": "Sir Fred Quimby 💎",
             "user_account": "BittyCryptonius",
             "text": "Lovely cliff top to buy for my regular Monday $doge purchase 😂🏄 In at 86 satoshi  💪✌️✊ #dogecoin #therealbitcoin",
@@ -2311,17 +2041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 232,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 04:33 https://t.co/A2vVH3ZOGT",
-            "created_at": "Mon Sep 24 08:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 233,
+            "tweet_count": 205,
             "username": "Evil Crypto Cat",
             "user_account": "EvilCryptoCat",
             "text": "Coin type Kyber Network   Price: 0.406758086345 USD  Daily volume: 89788.6747666 USD\n\nSELL/BUY or EXCHANGE  NOW  ON  ✔️ https://t.co/DTV3yby39i\n\n$ada $TRIG $btc $ZLA $xlm $FCT $DOGE $SIN $VET $ONT $IFT $ICON $DATA $SHLD $TAAS $ont $",
@@ -2331,17 +2051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 234,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/Rz6EKVsKDV",
-            "created_at": "Mon Sep 24 08:30:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 235,
+            "tweet_count": 206,
             "username": "anilcdubey",
             "user_account": "AnilChhotelal",
             "text": "@NischalShetty please list electroneum and dogecoin in wazirx",
@@ -2351,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 236,
+            "tweet_count": 207,
             "username": "Coin News Data",
             "user_account": "coinnewsdatacom",
             "text": "Dogecoin Creator Helps Elon Musk Eliminate Ethereum Scammers on Twitter https://t.co/CPzPOM7Rnf  #cryptocurrency #blockchain #coinnews",
@@ -2361,7 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 237,
+            "tweet_count": 208,
             "username": "Spinup Manager #Follow4Follow",
             "user_account": "spinupmanager",
             "text": "Coin type YOYOW   Price: 0.0247505182627  Daily volume: 241450.91949\n\nSELL/BUY or EXCHANGE  NOW  ON  ⏩ https://t.co/R4P8ZLKIAI\n\n$DMD $PEPE $UUU $CPAY $DOGE $BNN $FRST $DTA $MEME $ZRX $AMM $LGD $START $GRS $EUR $BQX $WAX",
@@ -2371,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 238,
+            "tweet_count": 209,
             "username": "Jessy V. - CryptoGirl😍",
             "user_account": "CryptoJV",
             "text": "1) Deposit BTC 2) Search for traders that are doing well 3) COPY 4) Profit! :D \n\n--&gt; https://t.co/iRaE7WKzRy\n\n$DOGE 0.0057685159$ $RVT $INCNT $NMC $RCN $SNRG $QSP $NET $BNT $ECC $DOPE $MCO $ECN $ADA $MTH $BBR $ENJ $XTO $GRID $BCH $TGT $GBYTE $REP $QAU https://t.co/xtd3cAgN2E",
@@ -2381,7 +2091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 239,
+            "tweet_count": 210,
             "username": "Crypto Games",
             "user_account": "Crypto_Games",
             "text": "Congratulations to player \"Kelsie080\" for his impressive 3.894 BTC win on our plinko game! Catch the Winning Spirit!\n\nhttps://t.co/AVq2HIGCb3\n#gambling #casino #cryptocurrency #bigwin #bitcoin #ethereum #bitcoincash #ethereumclassic #dogecoin #litecoin #dash #monero #stratis https://t.co/2GQ4yZbvTi",
@@ -2391,7 +2101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 240,
+            "tweet_count": 211,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6029.361 values from vircurex + coinbase at 09/24/18 03:55 #dogecoin",
@@ -2401,7 +2111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 241,
+            "tweet_count": 212,
             "username": "şevket çoruh",
             "user_account": "svktcrh21",
             "text": "https://t.co/STwaUEbfJW offers bitcoin and dogecoin cloud mining services on modern, high-efficiency equipment.",
@@ -2411,7 +2121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 242,
+            "tweet_count": 213,
             "username": "Crypto Jolien 👧",
             "user_account": "CryptoJolien",
             "text": "Made over 0.21 BTC just by COPYING pro traders! Check it out, you won't regret it! :) \n\n--&gt; https://t.co/8I7zdfafEN\n\n$DOGE 0.005784242$ $POT $BITCNY $CVC $VEE $GAS $KIN $REQ $BDL $SPHR $ERC $XVC $XMY $BTM $XVG $BCN $MGO $GLD $RLC $MONA $SMART $XRL $PAYX https://t.co/PZxngLGRze",
@@ -2421,7 +2131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 243,
+            "tweet_count": 214,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$LSK: 18.77%\n$STORM: 9.71%\n$WAN: 8.18%\nBittrex:\n$BCH: 5.17%\n$ETH: 3.85%\n$DOGE: 2.06%",
@@ -2431,7 +2141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 244,
+            "tweet_count": 215,
             "username": "Marlee",
             "user_account": "marleepoore",
             "text": "Coin type SALT   Price: 0.512593861544  Daily volume: 327793.069662\n\nSELL/BUY or EXCHANGE  NOW  ON  ➡️ https://t.co/u1zYz7OaIw\n\n$MDS $MKR $BNT $DICE $SNOV $DOGE $TAU $CURE $ETC $BNTY $BTS $ https://t.co/SLgFUMzs41",
@@ -2441,7 +2151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 245,
+            "tweet_count": 216,
             "username": "each 1 tweet 1",
             "user_account": "each1tweet1",
             "text": "Claim FREE Numeraire for watching videos – current returns: 0.0841 $NMR daily\n\nhttps://t.co/5TddRCKk1y\n\n$QTL $C2 $SUPER $PCN $MUE $RAREPEPEP $DAS $EBST $USD $ELE $MLN $LINDA $RAREPEPEP $BUZZ $LNK $DGB $GTC $CNC $BTWTY $QCN $DOGE $VC $NXS $CCT",
@@ -2451,7 +2161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 246,
+            "tweet_count": 217,
             "username": "Mrr Svet PM",
             "user_account": "PmSvet",
             "text": "I added a video to a @YouTube playlist https://t.co/pbkdRQGz7v Wallet Coinpot Convert Btc Bch Ltc Dogecoin Dash 2017",
@@ -2461,7 +2171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 247,
+            "tweet_count": 218,
             "username": "Kelly Crypto",
             "user_account": "kellysiqili",
             "text": "Find moving cryptocurrencies with the most buyers by using https://t.co/BoXdbrOnQv to track where most #ALTCOIN movement is happening!\n\n#BTC #ETH $SC $BCN $RDD $XIN $BTCP $ZRX $AION $WAVES $DGB $GXS $DCR $ETP $FUN $ELA $DOGE $PAY $XEM $CNX https://t.co/xaixsTyhVN",
@@ -2471,17 +2181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 248,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price:  BTC #doge #dogecoin 2018-09-24 03:33 https://t.co/PDKNjOlQwb",
-            "created_at": "Mon Sep 24 07:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 249,
+            "tweet_count": 219,
             "username": "CoinsPredictor",
             "user_account": "CoinsPredictor",
             "text": "Elon Musk Asks Dogecoin Creator to Help Fight Crypto Scam Bots on Twitter https://t.co/hJX0YsXMxV  #cryptocurrency #crypto #blockchain",
@@ -2491,7 +2191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 250,
+            "tweet_count": 220,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "Made over 0.21 BTC just by COPYING pro traders! Check it out, you won't regret it! :) \n\n--&gt; https://t.co/hKdz9FD24w\n\n$DOGE 0.0058009628$ $RPX $DICE $LKK $BTCD $BCO $EDG $LMC $GRC $PASC $AIR $COVAL $SXC $MYST $XTO $EDO $ARDR $DGD $XRB $ICN $AST $CRW $EVX https://t.co/lt8PIcUEpM",
@@ -2501,27 +2201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 251,
-            "username": "Repeat After Me",
-            "user_account": "VeoVon",
-            "text": "How Easy Faucet Claims on Coinpot with Moon Bitcoin Moon Litecoin and Moon Dogecoin. https://t.co/7FnIr4bcRH",
-            "created_at": "Mon Sep 24 07:08:23 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 252,
-            "username": "Ku Veo",
-            "user_account": "KuVeo",
-            "text": "How Easy Faucet Claims on Coinpot with Moon Bitcoin Moon Litecoin and Moon Dogecoin. https://t.co/wqCYYWttee",
-            "created_at": "Mon Sep 24 07:03:59 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 253,
+            "tweet_count": 221,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "#askastoreaday to accept #bitcoin #startcoin #dogecoin https://t.co/KGZTFtHCQz",
@@ -2531,17 +2211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 254,
-            "username": "Tweety Tweets",
-            "user_account": "TomVeos",
-            "text": "How Easy Faucet Claims on Coinpot with Moon Bitcoin Moon Litecoin and Moon Dogecoin. https://t.co/5cftIG4TI6",
-            "created_at": "Mon Sep 24 07:01:46 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 255,
+            "tweet_count": 222,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/RfECfa8KuN #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -2551,7 +2221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 256,
+            "tweet_count": 223,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6006.618 values from vircurex + coinbase at 09/24/18 02:55 #dogecoin",
@@ -2561,27 +2231,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 257,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/tY42dINbw3",
-            "created_at": "Mon Sep 24 07:00:10 +0000 2018",
+            "tweet_count": 224,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Crypto Experts Join Bitcoin Developer &amp; fmr. Morgan Stanley MD to Appeal SEC for Regulatory Framework $BTC $LTC $BCH $DASH $DOGE $ETH Register your wallet the first time to receive free money right now here https://t.co/ngC2rG0tXI Thanks to Coingapeh https://t.co/zO3zFnvnL1",
+            "created_at": "Mon Sep 24 06:40:12 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 258,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/1ke36ahbb3",
-            "created_at": "Mon Sep 24 06:45:09 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 259,
+            "tweet_count": 225,
             "username": "Marlee",
             "user_account": "marleepoore",
             "text": "Coin type https://t.co/Oey6U5aBJs   Price: 0.00944223712291 USD  Daily volume: 280600.049205 USD\n\nSELL/BUY or EXCHANGE  NOW  ON   https://t.co/u1zYz85LA4\n\n$doge $SBD $EXP $NEBL $NBT $SLS $qtum $FTC $Rvn $PCN $XLM $SUB $DCN $RPX $YEED $QWARK $BRD",
@@ -2591,7 +2251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 260,
+            "tweet_count": 226,
             "username": "Caltv93",
             "user_account": "coinnetworkltd",
             "text": "Fastly Growing - 3 faucets - Now really Fastly growing with new Faucets everyday are we getting closer to... https://t.co/laZyTkpriL #bitcoin #litecoin #ethereum #digibyte #potcoin #dogecoin #cryptofaucet",
@@ -2601,27 +2261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 261,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000087 BTC #doge #dogecoin 2018-09-24 02:33 https://t.co/FmqiACIqFv",
-            "created_at": "Mon Sep 24 06:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 262,
-            "username": "Adrian's Toaster",
-            "user_account": "enigmapi_one",
-            "text": "Hello humans, #DogeCoin is currently around $0.01 as of Mon Sep 24 01:31:19 CDT 2018",
-            "created_at": "Mon Sep 24 06:31:24 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 263,
+            "tweet_count": 227,
             "username": "CoinsPredictor",
             "user_account": "CoinsPredictor",
             "text": "Elon Musk Fed Up with Twitter Crypto Scams, Turns to Dogecoin Creator for Help https://t.co/T8zeTps6i6  #cryptocurrency #crypto #blockchain",
@@ -2631,7 +2271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 264,
+            "tweet_count": 228,
             "username": "Segwit 2X",
             "user_account": "2xSegwit",
             "text": "Made over 300% profit in just 9 days by COPYING traders! \n\n--&gt; https://t.co/FGj7H5k2eu\n\n$ETH 239.580148175$ $SALT $BURST $XRP $XTO $BSD $POT $QTUM $ELIX $GOLOS $XZC $HMQ $BTM $MUE $MTL $CRW $ATM $MAID $ECC $XMY $MDA $NXC $CNX $INK $KIN $GRC $DOGE $RISE https://t.co/w67SPlLNOa",
@@ -2641,7 +2281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 265,
+            "tweet_count": 229,
             "username": "marjorie baron",
             "user_account": "mharjorie1023",
             "text": "#tipestry What do you think about Brett Kavanaugh's #supremecourthearing? Leave a comment on the #SupremeCourt 's website and share your thoughts: First ten comments will get 10 #Dogecoin and 10 Tipcoin. #crypto #giveaway",
@@ -2651,7 +2291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 266,
+            "tweet_count": 230,
             "username": "Connor",
             "user_account": "Crypto_Condor",
             "text": "@CryptoQF $DOGE",
@@ -2661,7 +2301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 267,
+            "tweet_count": 231,
             "username": "ඞ",
             "user_account": "zdoginterprise",
             "text": "@dogecoin 1 Dogecoin is less then a penny? So do I get charged if I get just 1? How does this work? Please help meme",
@@ -2671,7 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 268,
+            "tweet_count": 232,
             "username": "Crypto Jolien 👧",
             "user_account": "CryptoJolien",
             "text": "Tried out this website &amp; doing very well so far! Simply deposit Bitcoin &amp; copy traders :-) \n\n--&gt; https://t.co/8I7zdfafEN\n\n$DOGE 0.005813977$ $QTUM $BIS $BTM $NEO $ETHOS $BCO $XRP $SBD $PURA $BCY $DMD $SPANK $PHR $PAYX $STRAT $EDG $PINK $MTL $QSP $PASC https://t.co/kU9gOkld05",
@@ -2681,27 +2321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 269,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/TiNErVqyru",
-            "created_at": "Mon Sep 24 06:15:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 270,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Win $150 in Dogecoins every hour! https://t.co/BzASEwDetS #doge #dogecoin #btc #bitcoin #ltc",
-            "created_at": "Mon Sep 24 06:05:03 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 271,
+            "tweet_count": 233,
             "username": "Stock Signals",
             "user_account": "SignalsStock",
             "text": "Stock &amp; Steam Live Stream #dogecoin #crypto https://t.co/JxEEhimVQD via @YouTube",
@@ -2711,7 +2331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 272,
+            "tweet_count": 234,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6051.096 values from vircurex + coinbase at 09/24/18 01:55 #dogecoin",
@@ -2721,7 +2341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 273,
+            "tweet_count": 235,
             "username": "BitcoinAgile",
             "user_account": "bitcoinagile",
             "text": "r/dogecoin - A 2min comedy  crypto narrative https://t.co/H68i097mWJ https://t.co/OZygBqsUNo",
@@ -2731,27 +2351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 274,
-            "username": "Susan",
-            "user_account": "Susan43791480",
-            "text": "@rusitelagej Hello, my name is Pashu, I am a founder of private trading community «10x club». Now we opened our doors for 100 people, join and get Vigorous signals for new exchanges ➡ https://t.co/snwPeYXpap\n\n$OCN $ICX $STORJ $CVC $REQ $MIOTA $KMD $STEEM $XEM $LTC $ETHOS $DOGE\n\n⭕ 2090125725 https://t.co/plcPDwRdL9",
-            "created_at": "Mon Sep 24 05:50:38 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 275,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Crypto Exchange ShapeShift's CEO Says Move to Collect IDs Was 'Proactive' https://t.co/kb8fT8DAr8 #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Z…",
-            "created_at": "Mon Sep 24 05:46:16 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 276,
+            "tweet_count": 236,
             "username": "Vijaybkakadiya",
             "user_account": "vijaybkakadiya",
             "text": "@CryptoCurrEncyX hello ccex support team me Buy 2177.28070175 -0.2% DOGE for 0.00124105 BTC (rates: 0.00000057 / 1754385.96491228\nMy doge coin has been looked hold why?\nmy balance return to my wallet",
@@ -2761,7 +2361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 277,
+            "tweet_count": 237,
             "username": "Edy Bogel",
             "user_account": "EdyBogel6",
             "text": "CRYPTO DAKON: DOGE COIN FREE 4.000.000 SATOSHI / MENIT https://t.co/jviO4wZN5h",
@@ -2771,7 +2371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 278,
+            "tweet_count": 238,
             "username": "Cryptoglobalist",
             "user_account": "cryptoglobalist",
             "text": "#Dogecoin ( $DOGE) – Driving up adoption through #philanthropy\n.\n.\n.\n@dogecoin @RedditDogecoin https://t.co/cSBFZ5r9K6 via @cryptoglobalist",
@@ -2781,7 +2381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 279,
+            "tweet_count": 239,
             "username": "Bitcoin & Altcoins",
             "user_account": "AltcoinsBitcoin",
             "text": "#goedemorgen #bitcoin #litecoin #ripple #dogecoin fanaten",
@@ -2791,17 +2391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 280,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price:  BTC #doge #dogecoin 2018-09-24 01:33 https://t.co/VfrX1ycZfs",
-            "created_at": "Mon Sep 24 05:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 281,
+            "tweet_count": 240,
             "username": "Mitchell A Neoush",
             "user_account": "mitchellaneoush",
             "text": "Best Dogecoin Cloud Miner Web Site!  Daily 1 Dogecoin Free! %10 Affiliate Bonus!  @InvestDoge @Dogecoin #Dogecoin #InvestDoge #DogeMiner Link:  https://t.co/SZvpPDVkli",
@@ -2811,7 +2401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 282,
+            "tweet_count": 241,
             "username": "Live Day Trader",
             "user_account": "LiveDayTrader1",
             "text": "DOGE COIN PRICE UPDATE &amp; BIG PROFITS SOON | 30 DAYS 144 % PRICE GAIN #DOGE #XRP: https://t.co/jFa0BN3jzZ via @YouTube",
@@ -2821,7 +2411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 283,
+            "tweet_count": 242,
             "username": "Mohammed Al Dhawi",
             "user_account": "JobsDhawi",
             "text": "https://t.co/0RoRKLkLWq offers bitcoin and dogecoin cloud mining services on modern, high-efficiency equipment.",
@@ -2831,7 +2421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 284,
+            "tweet_count": 243,
             "username": "iWazntThere",
             "user_account": "TheAsianAnt",
             "text": "@frown @62 Dogecoin?",
@@ -2841,17 +2431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 285,
-            "username": "Steps In Digital",
-            "user_account": "stepsindigital1",
-            "text": "What Bitcoin’s dominance says about the state of the #crypto #market\n#BTC #blockchain #crypto #ethereum #fintech #news #ICO #dogecoin #robotcoingame #CyberSecurity #infosec #cryptocurrency #CryptocurrencyNews  #MondayMotivation #MondayMorning\nhttps://t.co/NgNK8tkr7X",
-            "created_at": "Mon Sep 24 05:10:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 286,
+            "tweet_count": 244,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6055.632 values from vircurex + coinbase at 09/24/18 00:55 #dogecoin",
@@ -2861,17 +2441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 287,
-            "username": "Steps In Digital",
-            "user_account": "stepsindigital1",
-            "text": "#BITCOIN CASH PRICE CHANGED BY 1.46 TODAY\n#BTC #blockchain #crypto #ethereum #fintech #news #ICO #dogecoin #robotcoingame #CyberSecurity #infosec #cryptocurrency #CryptocurrencyNews  #MondayMotivation #MondayMorning\nhttps://t.co/OPU5Foo0HS",
-            "created_at": "Mon Sep 24 05:00:17 +0000 2018",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 288,
+            "tweet_count": 245,
             "username": "HANS",
             "user_account": "Hans4488",
             "text": "@loomdart I pay with dogecoin",
@@ -2881,37 +2451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 289,
-            "username": "Steps In Digital",
-            "user_account": "stepsindigital1",
-            "text": "#BITCOIN GOLD PRICE CHANGED BY 1.51 TODAY\n#BTC #blockchain #crypto #ethereum #fintech #news #ICO #dogecoin #robotcoingame #CyberSecurity #infosec #Malware#datascience#databreach  #cryptocurrency #CryptocurrencyNews  #MondayMotivation #MondayMorning\nhttps://t.co/154Sl5QgEw",
-            "created_at": "Mon Sep 24 04:55:03 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 290,
-            "username": "Steps In Digital",
-            "user_account": "stepsindigital1",
-            "text": "#BITCOIN PRICE CHANGED BY -0.07 TODAY\n#BTC #blockchain #crypto #ethereum #fintech #news #ICO #dogecoin #robotcoingame #CyberSecurity #infosec #Malware#datascience#databreach  #cryptocurrency #CryptocurrencyNews  #MondayMotivation #MondayMorning\nhttps://t.co/TzgvjJR5eN",
-            "created_at": "Mon Sep 24 04:47:45 +0000 2018",
-            "retweet": 0,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 291,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000088 BTC #doge #dogecoin 2018-09-24 00:33 https://t.co/EeQsplXkOw",
-            "created_at": "Mon Sep 24 04:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 292,
+            "tweet_count": 246,
             "username": "AligaPika",
             "user_account": "dung1prohb",
             "text": "#atomicwallet #ico #blockchain #bitcoin\n #litecoin #Dogecoin #DOGE\nGood APP",
@@ -2921,7 +2461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 293,
+            "tweet_count": 247,
             "username": "Avalanche Brah 🔺",
             "user_account": "TRVPKiD",
             "text": "@dzapatillas When dogecoin?",
@@ -2931,7 +2471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 294,
+            "tweet_count": 248,
             "username": "pile of typos in a trenchcoat",
             "user_account": "chronicallyhere",
             "text": "Ironically, just a few months ago, Musk joked about the prevalence of scambots on Twitter – and how impressed he is by the people behind them. It seems they no longer amuse him.\nhttps://t.co/KXCYkKxyM3",
@@ -2941,7 +2481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 295,
+            "tweet_count": 249,
             "username": "jer 🏴🟠🌱",
             "user_account": "veganXpower",
             "text": "I’m gonna convince @brattyxbabe to start accepting $DOGE for tattoos",
@@ -2951,7 +2491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 296,
+            "tweet_count": 250,
             "username": "Stefanescu Liviu",
             "user_account": "liviusa",
             "text": "2/ $DOGE Maximalist\nhttps://t.co/toelX1wMgn",
@@ -2961,7 +2501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 297,
+            "tweet_count": 251,
             "username": "Ben R",
             "user_account": "benjaminair",
             "text": "I need to buy more! Man I can’t wait to see what happens in the next couple of months with this thing. @dogecoin @doge @GrantCardone @Bitcoin https://t.co/nWCcTRWKk3",
@@ -2971,7 +2511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 298,
+            "tweet_count": 252,
             "username": "Hendri Johari",
             "user_account": "drihen79",
             "text": "Auto claim dogecoin direct to faucethub still paying until now\nhttps://t.co/UyuNjjV3J1",
@@ -2981,7 +2521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 299,
+            "tweet_count": 253,
             "username": "Crypto Jolien 👧",
             "user_account": "CryptoJolien",
             "text": "Even in a bear market these guys are making insane profits! Copy their trades automatically!! \n\n--&gt; https://t.co/8I7zdfafEN\n\n$DOGE 0.0059226117$ $PLR $ETP $XST $OMG $PIVX $EMV $BRX $AVT $DOVU $GOLOS $MCAP $DCR $SPHR $KIN $MONA $WTC $MTH $SWIFT $AST $OCT https://t.co/36RyD9oAQu",
@@ -2991,7 +2531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 300,
+            "tweet_count": 254,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "PRO TIP: Find top traders &amp; COPY their trades automatically using Bitcoin! \n\n--&gt; https://t.co/hKdz9FD24w\n\n$BNT 1.5667382398$ $REQ $EMV $BTC $NLG $BQ $ABY $ENRG $YOYOW $TIPS $ARK $LSK $ODN $GRS $BCO $TRIG $XEL $POE $DOGE $MTH $TCC $VIB $TOA $XUC $ACT $LA https://t.co/Lj1XU1pbh7",
@@ -3001,7 +2541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 301,
+            "tweet_count": 255,
             "username": "Denario bot",
             "user_account": "denario_bot",
             "text": "👎Top losers of the last hour👎 \n\n🔴 $ETN $0.0127368349 📉 -3.27% \n🔴 $DOGE $0.0059277682 📉 -1.99% \n🔴 $RHOC $0.3190851688 📉 -1.22% \n🔴 $XTZ $1.6372222224 📉 -0.98% \n🔴 $ZIL $0.0369476478 📉 -0.74% \n\n👉 Trade #crypto on Quoinex https://t.co/yXGCnterwy",
@@ -3011,7 +2551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 302,
+            "tweet_count": 256,
             "username": "Crypto Stats Bot",
             "user_account": "CryptoStatsBot",
             "text": "📉 Biggest Losers (1 hr) 📉\nDent $DENT -3.43% ❄️\nElectroneum $ETN -3.25% ❄️\nLoopring $LRC -3.19% ❄️\nDogecoin $DOGE -1.99% ❄️\nPundi X $NPXS -1.53% ❄️",
@@ -3021,7 +2561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 303,
+            "tweet_count": 257,
             "username": "₿itman MEX Addict",
             "user_account": "CryptoAgent47",
             "text": "@CEOofDogecoin @giacomozucco @elatyshev Yaaaaaas $DOGE maximalist is da wey 4 peace",
@@ -3031,7 +2571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 304,
+            "tweet_count": 258,
             "username": "imago🦴",
             "user_account": "Imagochristus",
             "text": "@CryptoSays I set xrp to sell at .77 cents 200% above it's recent low point thanks to dogecoin 😁",
@@ -3041,7 +2581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 305,
+            "tweet_count": 259,
             "username": "NFT sales MarsCats",
             "user_account": "CryptoTargetBot",
             "text": "$Crypto #HighCaps 1H returns\n\nTop performers\n$LRC +2.6%\n$AION +1.6%\n$ZEC +1.1%\n\nWorst performers\n$ETN -5.0%\n$HSR -2.7%\n$DOGE -1.6% https://t.co/TL1ufgSOiT",
@@ -3051,7 +2591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 306,
+            "tweet_count": 260,
             "username": "analyst5",
             "user_account": "analyst5_bot",
             "text": "#crypto mkt cap last hour\n\n🚀\n$XRP +245.737m\n$BTC +24.393m\n$ETH +18.904m\n\n🌧️\n$DOGE -14.639m\n$DASH -5.482m\n$TRX -3.622m\n\n#bitcoin #cryptocurrency",
@@ -3061,7 +2601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 307,
+            "tweet_count": 261,
             "username": "DonAlt",
             "user_account": "CryptoDonAlt",
             "text": "There are three coins that usually move together.\n$DOGE $SC and $BCN.\n\nDoge already mooned, SC started moving up and BCN is at support still.\nThis is the kind of correlation I like to look out for when trading alts.\n\nIF alts keep on doing well, I expect a lot from SC and BCN. https://t.co/VDLCnbPudF",
@@ -3071,7 +2611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 308,
+            "tweet_count": 262,
             "username": "Ben Fischer",
             "user_account": "BoersenMedien",
             "text": "#XRP #XRP jumps 1.09% in one hour. #Dogecoin #DOGE drops -1.93% in one hour. #Zcash #ZEC jumps 2.03% in one hour.",
@@ -3081,17 +2621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 309,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000089 BTC #doge #dogecoin 2018-09-23 23:33 https://t.co/rULIokQenr",
-            "created_at": "Mon Sep 24 03:33:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 310,
+            "tweet_count": 263,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$WAVES: 9.07%\n$STORM: 5.60%\n$ICX: 4.71%\nBittrex:\n$DOGE: 12.73%\n$ADA: 1.11%\n$ZCL: 0.51%",
@@ -3101,17 +2631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 311,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/q0w654RvhR",
-            "created_at": "Mon Sep 24 03:30:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 312,
+            "tweet_count": 264,
             "username": "Crypto Pathshala",
             "user_account": "CryptoPathshala",
             "text": "King of #hodling #Dogecoin \nLook how many $DOGE are untouched from 2014. \n#HODL",
@@ -3121,17 +2641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 313,
-            "username": "Coinlend Alerts",
-            "user_account": "CoinlendAlerts",
-            "text": "Yearly lending rate of $DOGE increased +20% on #Poloniex - current rate 93% ( yearly ) - https://t.co/qN00mpUVnN #coinlend",
-            "created_at": "Mon Sep 24 03:20:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 314,
+            "tweet_count": 265,
             "username": "Shibatoshi Nafomoto 🇺🇦",
             "user_account": "CEOofDogecoin",
             "text": "@elatyshev @giacomozucco 1. Everything which is not #Dogecoin is not wow!\n2. Every attempt at changing Dogecoin into a cat-themed coin is a scam!\n3. Everyone should spend at least some of their $DOGE on stupid shit!\n4. We should be excellent to everyone!\n\n#DogecoinMaximalism",
@@ -3141,7 +2651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 315,
+            "tweet_count": 266,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6062.31 values from vircurex + coinbase at 09/23/18 22:55 #dogecoin",
@@ -3151,7 +2661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 316,
+            "tweet_count": 267,
             "username": "Shibatoshi Nafomoto 🇺🇦",
             "user_account": "CEOofDogecoin",
             "text": "@BashCo_ The #Dogecoin Foundation was much more productive than the Bitcoin Foundation, although perhaps that's just because we had better catering at our meetings. https://t.co/IWfNBNlNgX",
@@ -3161,17 +2671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 317,
-            "username": "ApocoCrypto",
-            "user_account": "ApocoCrypto",
-            "text": "Cryptopia Market Alert! ANON/DOGE\nhttps://t.co/Qh86MXOaXP\n$ANON $DOGE",
-            "created_at": "Mon Sep 24 02:56:00 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 318,
+            "tweet_count": 268,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$PPT: 3.43%\n$ZIL: 2.55%\n$XEM: 2.03%\nBittrex:\n$BCH: 3.47%\n$DOGE: 2.67%\n$RDD: 1.67%\n\nFollow our new game: Crypto Stock Market @cystockmarket",
@@ -3181,27 +2681,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 319,
-            "username": "TrajanBot",
-            "user_account": "trajanbot",
-            "text": "As of 02:48 today, it would cost a total of $7,881.18 💵 to buy one of each of the following top 20 cryptocurrencies: $BTC $ETH $XRP $BCH $EOS $XLM $LTC $USDT $ADA $XMR $DASH $MIOTA $TRX $NEO $ETC $BNB $XTZ $XEM $VET $DOGE.",
-            "created_at": "Mon Sep 24 02:48:05 +0000 2018",
+            "tweet_count": 269,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@tzokal910 @dogecoin I must know... Who is the fabulous feline in the profile picture?",
+            "created_at": "Mon Sep 24 02:43:04 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 320,
-            "username": "Ali Hasan",
-            "user_account": "HonestAliHasan",
-            "text": "Registration Link ( https://t.co/OCWlk1KRDs  )\n.\n2.0%-2.1% Daily for 60 days, + principal \n\n#Investment\n#PerfectMoney #Bitcoin #Payeer #Advcash #Litecoin\n#HonestAliHasan\n#HYIP\n#MLM\n#cryptocurrency\n#CRYPTO\n#FOREX\n#BTC\n#ETHEREUM\n#DOGECOIN\n#QIWI\n#cryptocurrencies\n#LTC\n#BitcoinCash",
-            "created_at": "Mon Sep 24 02:46:31 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 321,
+            "tweet_count": 270,
             "username": "Jessy V. - CryptoGirl😍",
             "user_account": "CryptoJV",
             "text": "Even in a bear market these guys are making insane profits! Copy their trades automatically!! \n\n--&gt; https://t.co/iRaE7WKzRy\n\n$DOGE 0.0060622695$ $XLM $XBY $QSP $TNB $DCR $TGT $MNX $PPC $EXP $MGO $GAME $EOS $VIBE $GOLOS $CRB $XEM $ODN $RLC $AION $PING https://t.co/yRy9ajdLiT",
@@ -3211,17 +2701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 322,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000091 BTC #doge #dogecoin 2018-09-23 22:33 https://t.co/wabbEnuXac",
-            "created_at": "Mon Sep 24 02:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 323,
+            "tweet_count": 271,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$XEM: 92.57%\n$WAN: 14.62%\n$LSK: 4.19%\nBittrex:\n$DGB: 2.36%\n$DOGE: 1.71%\n$ZCL: 1.06%\n\nFollow our new game: Crypto Stock Market @cystockmarket",
@@ -3231,7 +2711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 324,
+            "tweet_count": 272,
             "username": "₿itman MEX Addict",
             "user_account": "CryptoAgent47",
             "text": "@nondualrandy @shitposterchild I believe in $DOGE kras tho https://t.co/RfXhk4i4pn",
@@ -3241,7 +2721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 325,
+            "tweet_count": 273,
             "username": "L0ark325",
             "user_account": "l0ark325",
             "text": "https://t.co/pH5ntZmV9x Best Dogecoin Cloud Miner Web Site!  Daily 1 Dogecoin Free! %10 Affiliate Bonus!  @InvestDoge @Dogecoin #Dogecoin #InvestDoge #DogeMiner Here is my last Withdraw from https://t.co/L0IzI9MvBs Link:  https://t.co/xl3yADjZrC",
@@ -3251,37 +2731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 326,
-            "username": "Tweet Cash",
-            "user_account": "Tweets4Pay",
-            "text": "How Easy Faucet Claims on Coinpot with Moon Bitcoin Moon Litecoin and Moon Dogecoin. https://t.co/R5esNgAbn4",
-            "created_at": "Mon Sep 24 02:11:15 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 327,
-            "username": "ApocoCrypto",
-            "user_account": "ApocoCrypto",
-            "text": "Cryptopia Market Alert! EMC2/DOGE\nhttps://t.co/55lOBh7zrY\n$EMC2 $DOGE",
-            "created_at": "Mon Sep 24 02:11:00 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 328,
-            "username": "I See",
-            "user_account": "ICVeo",
-            "text": "How Easy Faucet Claims on Coinpot with Moon Bitcoin Moon Litecoin and Moon Dogecoin. https://t.co/SXxvbXrXPz ♥♥♥",
-            "created_at": "Mon Sep 24 02:09:25 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 329,
+            "tweet_count": 274,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "1) Deposit BTC 2) Search for traders that are doing well 3) COPY 4) Profit! :D \n\n--&gt; https://t.co/hKdz9FD24w\n\n$WAVES 2.265257788$ $ADX $ICOS $REQ $ACT $PAYX $POSW $NLG $BRX $VERI $ECC $DOGE $STRAT $EMC $SXC $LEND $SYNX $FTC $XSPEC $CVCOIN $ENRG $XCP $SC https://t.co/KFrYniEb0Z",
@@ -3291,7 +2741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 330,
+            "tweet_count": 275,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6071.013 values from vircurex + coinbase at 09/23/18 21:55 #dogecoin",
@@ -3301,17 +2751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 331,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/ZesAlrkQbg",
-            "created_at": "Mon Sep 24 02:00:09 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 332,
+            "tweet_count": 276,
             "username": "Graphe ✏️",
             "user_account": "graphedino",
             "text": "$XRP and $DOGE have more in common than I imagined.",
@@ -3321,17 +2761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 333,
-            "username": "Botty McBotface",
-            "user_account": "AnalysisInChain",
-            "text": "DOGE Current Price (USD): $ 0.005983 Vol: DOGE 12,852,169.6 Change (24h): 3.55% $DOGE #Dogecoin",
-            "created_at": "Mon Sep 24 01:55:23 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 334,
+            "tweet_count": 277,
             "username": "X",
             "user_account": "DogeMoon21",
             "text": "People jumping into  #Doge like...🤪 #Dogecoin #crypto https://t.co/q6OkpZ5i9L",
@@ -3341,7 +2771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 335,
+            "tweet_count": 278,
             "username": "Crypto by Devvie",
             "user_account": "devnullius",
             "text": "#RT #cryptocoin #wallet #update! 09/23 Dogecoin (DOGE) 1.14-alpha-4  https://t.co/ohPGG48gAP",
@@ -3351,17 +2781,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 336,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/KbgdKCTOmV",
-            "created_at": "Mon Sep 24 01:45:07 +0000 2018",
+            "tweet_count": 279,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Compra #Bitcoin con #Dogecoin September 23, 2018 at 08:45PM #SatoshiModels $BTC $LTC $USDT $DASH $DOGE $ETH $BCH https://t.co/yhc1CP3Mtf",
+            "created_at": "Mon Sep 24 01:45:11 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 337,
+            "tweet_count": 280,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@DavidSawyers009 @dogecoin_devs Passive curious.. How much of the codebase do you think is Jacksons? Aware that github does actually track these things, I hope? Apart from your issues with him aside. The community is what says there is no cap, and forcing them into one against their desire, seems shite.",
+            "created_at": "Mon Sep 24 01:43:25 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 281,
             "username": "Trumpsburner69",
             "user_account": "trumpsburner691",
             "text": "Xrp is about to 🌚🚀☄🔥🤑\n\n#btc #eth #ltc #xrp #xlm #trx #Crypto #vrg #ada #cardono #NYSE #WallStreet #bitcoin #ethereum #litecoin #Pundix #Dogecoin #doge #BTCC #cryptocurrency #cryptotwitter $hot https://t.co/Nw2phiQZyz",
@@ -3371,7 +2811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 338,
+            "tweet_count": 282,
             "username": "hdcoints",
             "user_account": "hdcoints",
             "text": "#Crypto claim daily #bitcoin for #free \n\nUse: https://t.co/5WGl32KIXu \n\nClaim every hour a small amount:\n\n$BTC https://t.co/7owFxkuYed\n$DASH https://t.co/zfb74eMOG5\n$DOGE https://t.co/qSVYxpVDlF\n$LTC https://t.co/v3Zw7gtiZq\n$BCH https://t.co/Vqmr0fnUjc\n\nBest #faucet around!!",
@@ -3381,17 +2821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 339,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price:  BTC #doge #dogecoin 2018-09-23 21:33 https://t.co/UT5EQybWOR",
-            "created_at": "Mon Sep 24 01:33:05 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 340,
+            "tweet_count": 283,
             "username": "Anthony Alleyne",
             "user_account": "AntAlleyne",
             "text": "Dogecoin defies all logic! +160% in one month https://t.co/u0VA0ABru8 via @beincrypto https://t.co/pHbOEk5lUP",
@@ -3401,7 +2831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 341,
+            "tweet_count": 284,
             "username": "David Sawyers",
             "user_account": "DavidSawyers009",
             "text": "@MSingularity @dogecoin_devs From what i know regarding Jacksons code is it is built directly into the blockchain.  So in order to get around it, you need a fork off, in this case Etherum's blockchain.",
@@ -3411,7 +2841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 342,
+            "tweet_count": 285,
             "username": "Kelly Crypto",
             "user_account": "kellysiqili",
             "text": "Find moving cryptocurrencies with the most buyers by using https://t.co/BoXdbrOnQv to track where most #ALTCOIN movement is happening!\n\n#BTC #ETH $SC $ETN $BCD $XLM $RDD $ETP $QTUM $SNT $ZRX $ADA $WAVES $ZIL $XEM $XIN $STRAT $ZEC $ELA $DOGE https://t.co/nIuF5JutlK",
@@ -3421,7 +2851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 343,
+            "tweet_count": 286,
             "username": "🌃eri",
             "user_account": "coolporyg0n",
             "text": "@thunderbirdpyre @DoggyGaming4K doge coin",
@@ -3431,7 +2861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 344,
+            "tweet_count": 287,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$XVG: 52.12%\n$INS: 6.12%\n$ZIL: 2.51%\nBittrex:\n$ZCL: 2.15%\n$ADA: 1.44%\n$DOGE: 1.41%\n\nFollow our new game: Crypto Stock Market @cystockmarket",
@@ -3441,7 +2871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 345,
+            "tweet_count": 288,
             "username": "@CRYPTOPAN_Jr",
             "user_account": "CryptopanJr",
             "text": "$DOGE IS BACK https://t.co/9Y4CNMXSQ5",
@@ -3451,17 +2881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 346,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/kW9eGI1B8u",
-            "created_at": "Mon Sep 24 01:15:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 347,
+            "tweet_count": 289,
             "username": "UseTheBitcoin 🚀🌕",
             "user_account": "usethebitcoin",
             "text": "Dogecoin (DOGE) Defies Red Market, Posts Slight Gain | Source: @EtherWorldNews https://t.co/hVZ51EZcN1",
@@ -3471,7 +2891,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 348,
+            "tweet_count": 290,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@DavidSawyers009 @dogecoin_devs Dogethereum was a scam that claimed attachment to @dogecoin_devs also @dogecoin and the bridge project; none of which is true. Their \"fork\" is a snapshot and has not paid out in months their ann thread shows as much and that their software is nonfunctional at last check...",
+            "created_at": "Mon Sep 24 01:10:58 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 291,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@DavidSawyers009 @dogecoin_devs Dogethereum is not a fork though. As much as you claim they would like things, you are aware that thus far uncapped is the majority via the user consensus? As for Jacksons code, you know he's not touched Dogecoin since April 2014, and we've rebased several times since?",
+            "created_at": "Mon Sep 24 01:07:40 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 292,
             "username": "David Sawyers",
             "user_account": "DavidSawyers009",
             "text": "@MSingularity @dogecoin_devs I think in the start, users were against a cap or method to increase value. However, I think people have changed their mind and would like a DOGE fork (DOGETHEREUM) that gets rid of Palmers code. #DOGE was a stable coin by design, but other coins are just better for stability.",
@@ -3481,7 +2921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 349,
+            "tweet_count": 293,
             "username": "Denario bot",
             "user_account": "denario_bot",
             "text": "👍Top coins of the last hour👍 \n\n🥇 $SC $0.0071875777 📈 3.1% \n🥈 $ZIL $0.0367026881 📈 1.6% \n🥉 $DOGE $0.0059730135 📈 1.13% \n⚪ $RDD $0.0036052353 📈 1.1% \n⚪ $BCN $0.0020850446 📈 1.01% \n\n👉 Trade #crypto on Binance https://t.co/shiUiHPrac",
@@ -3491,7 +2931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 350,
+            "tweet_count": 294,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6053.499 values from vircurex + coinbase at 09/23/18 20:55 #dogecoin",
@@ -3501,7 +2941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 351,
+            "tweet_count": 295,
             "username": "Coin Trading Analytics",
             "user_account": "CoinTradingBot",
             "text": "Top 100 avg 1h return: -0.5±1.1%; 18 up, 81 down\n$BTC -0.2%  $ETH -0.6%\nBest:\n3.1% $SC @SiaTechHQ\n1.6% $ZIL @zilliqa\n1.1% $DOGE @dogecoin\nTop 101-200 avg 1h return: -0.1±1.6%; 31 up, 69 down\nBest:\n11.7% $GCR @GCRWorldwide\n3.4% $STORM @Storm_Token\n3.0% $VERI @Veritaseuminc https://t.co/mxiOdaBK6k",
@@ -3511,7 +2951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 352,
+            "tweet_count": 296,
             "username": "Market Scanner",
             "user_account": "Market_Scanner",
             "text": "#CRYPTO 60M GAINERS\n\n$SC +3.10% [$0.007, 0.00000107 BTC]\n$ZIL +1.77% [$0.037, 0.00000549 BTC]\n$MITH +1.57% [$0.30, 0.00004492 BTC]\n$RDD +1.29% [$0.004, 0.00000054 BTC]\n$BCN +1.20% [$0.002, 0.00000031 BTC]\n$DOGE +1.11% [$0.006, 0.00000089 BTC]\n$BTS +0.55% [$0.13, 0.00001868 BTC]",
@@ -3521,7 +2961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 353,
+            "tweet_count": 297,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "PRO TIP: Copy professional traders &amp; accumulate Bitcoin on autopilot! \n\n--&gt; https://t.co/hKdz9FD24w\n\n$QTUM 4.0956475529$ $EDO $STEEM $ICOS $TKN $MER $DPY $DOGE $XUC $XEL $BCY $ANT $CTR $CRB $NTRN $TRIG $STORJ $SALT $XVG $EDG $RADS $BAT $NMC $BET $EBTC https://t.co/FuNYJzKdYe",
@@ -3531,7 +2971,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 354,
+            "tweet_count": 298,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@ajventuri187 @dogecoin_devs @BotOfDogecoin Zero percent. It is a fully external project.",
+            "created_at": "Mon Sep 24 00:49:44 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 299,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@DavidSawyers009 @dogecoin_devs The doge-eth bridge is external to our developers, simply two of ours are on the bounty panel. \n\nYou are free to fork Dogecoin and put a cap on it yourself, given the majority of our userbase, miners, and users are against it; we are not going to do it.",
+            "created_at": "Mon Sep 24 00:49:16 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 300,
             "username": "NFT sales MarsCats",
             "user_account": "CryptoTargetBot",
             "text": "$Crypto #HighCaps 1H returns\n\nTop performers\n$SC +6.5%\n$MITH +4.8%\n$DOGE +1.4%\n\nWorst performers\n$XIN -7.2%\n$CNX -4.0%\n$NPXS -3.4% https://t.co/HSatQG77ya",
@@ -3541,7 +3001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 355,
+            "tweet_count": 301,
             "username": "analyst5",
             "user_account": "analyst5_bot",
             "text": "#crypto mkt cap last hour\n\n🚀\n$SC +13.676m\n$DOGE +11.948m\n$XLM +5.425m\n\n🌧️\n$BTC -121.317m\n$ETH -104.029m\n$BCH -99.432m\n\n#bitcoin #cryptocurrency",
@@ -3551,7 +3011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 356,
+            "tweet_count": 302,
             "username": "ShillMeister 💰💰",
             "user_account": "ShillMeister1",
             "text": "PRO TIP: Find top traders &amp; COPY their trades automatically using Bitcoin! \n\n--&gt; https://t.co/HfDLMxCuih\n\n$OMG 3.6271893014$ $ATM $GNO $GVT $DIME $XVC $NVST $BTCD $FLO $UKG $DYN $CRW $ZSC $OCT $SLS $HSR $BITCNY $ALIS $CAG $GRS $GCC $QWARK $DOGE $DMD $LA https://t.co/xwRI5JGURN",
@@ -3561,7 +3021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 357,
+            "tweet_count": 303,
             "username": "Ben Fischer",
             "user_account": "BoersenMedien",
             "text": "#Bitcoin Cash #BCH drops -1.02% in one hour. #Litecoin #LTC drops -1.05% in one hour. #Dogecoin #DOGE jumps 1.67% in one hour.",
@@ -3571,7 +3031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 358,
+            "tweet_count": 304,
             "username": "LucisDollar",
             "user_account": "LucisDollar",
             "text": "Taiwan Politician Receives Cryptocurrency Donation In First-Ever\n\n#ethereum #cryptocurrency #eth #bitcoin #btc #altcoin #ltc #dogecoin #doge #Blockchain #Litecoin #ICO https://t.co/P9BazfM2Qj",
@@ -3581,17 +3041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 359,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: 0.00000090 BTC #doge #dogecoin 2018-09-23 20:33 https://t.co/466Mj9iKq3",
-            "created_at": "Mon Sep 24 00:33:03 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 360,
+            "tweet_count": 305,
             "username": "Ronald Garcia Pugay",
             "user_account": "RonRonMeMe",
             "text": "Stable Fast and Paying HYIP for DOGEcoin here: \n\nhttps://t.co/VsJJH8c8sN",
@@ -3601,7 +3051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 361,
+            "tweet_count": 306,
             "username": "Crypto Jolien 👧",
             "user_account": "CryptoJolien",
             "text": "Even in a bear market these guys are making insane profits! Copy their trades automatically!! \n\n--&gt; https://t.co/8I7zdfafEN\n\n$BNB 10.2861817222$ $XVC $ODN $STRAT $AST $FLO $DIME $LMC $RLC $BTCD $LUN $CDT $PUT $DYN $TX $TRC $PZM $GNO $DOGE $SMART $QRL https://t.co/VXTLgCo8Vj",
@@ -3611,7 +3061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 362,
+            "tweet_count": 307,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "1) Deposit BTC 2) Search for traders that are doing well 3) COPY 4) Profit! :D \n\n--&gt; https://t.co/hKdz9FD24w\n\n$XEM 0.1013595591$ $COSS $DOGE $CSNO $PAYX $GNT $PASC $USDT $WTC $EDO $AVT $IOC $BCH $DLT $DTB $MDA $RADS $NLG $RVT $TNB $XBC $ENJ $MTNC $VEE https://t.co/r8SXNWvuxI",
@@ -3621,7 +3071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 363,
+            "tweet_count": 308,
             "username": "Đean Faucet List",
             "user_account": "ean_list",
             "text": "Are you a #Dogecoin Faucet Owner\n\nPropose Your #faucet Now!\n\nThru form: Link Address\nhttps://t.co/4h8oKXhX4h\n\nFor Users:\nĐogecoin Faucet #List \n Đ 0.1 to Đ 100  for every day\nhttps://t.co/001WgoxHlT\n\nOwned Faucet\nĐ 0.1 to Đ1 for every 30 minutes\nhttps://t.co/sYR8qvOAyi",
@@ -3631,7 +3081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 364,
+            "tweet_count": 309,
             "username": "Conor🤑🤑",
             "user_account": "CryptoConor",
             "text": "Just wanted to share this website with y'all. Made some nice profits just by copying traders! \n\n--&gt; https://t.co/hKdz9FD24w\n\n$DOGE 0.00592915$ $ABY $BITUSD $MIOTA $GNT $NYC $TRIG $DIME $UBQ $DCN $XDN $NVC $MOD $CRB $ZEC $ETC $ICOS $SLR $BNB $LTC $CRW https://t.co/yDnVtXwMkl",
@@ -3641,7 +3091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 365,
+            "tweet_count": 310,
             "username": "Cɾყρẞαɾσɳ (blue check)",
             "user_account": "crypbaron",
             "text": "Thanks my $DOGE ... :) https://t.co/6P5fZB3Gzw",
@@ -3651,7 +3101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 366,
+            "tweet_count": 311,
             "username": "Spotlight Growth",
             "user_account": "SpotlightGrowth",
             "text": "Dogecoin (DOGE) is Still on the Rise\n\nhttps://t.co/yqaYzQnerG\n\n#Dogecoin $DOGE #DOGE #dogecoins #crypto #cryptocurrency #SundayFunday #dogs #investment #bitcoin #ethereum #dogethereum $ETH #smartcontracts #technology #daytrader #rally #ripple $XRP #sundaynightfootball #NFLSunday",
@@ -3661,7 +3111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 367,
+            "tweet_count": 312,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $6057.252 values from vircurex + coinbase at 09/23/18 19:55 #dogecoin",
@@ -3671,7 +3121,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 368,
+            "tweet_count": 313,
+            "username": "Moldes sm",
+            "user_account": "smmoldes",
+            "text": "Register in this exchanger and increase your opportunity with crypto coins #SatoshiModels $BTC $LTC $USDT $DASH $DOGE $ETH $BCH September 23, 2018 at 07:00PM money https://t.co/PTsF0HeVRz",
+            "created_at": "Mon Sep 24 00:00:11 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 314,
             "username": "Coinranking.com",
             "user_account": "coinranking",
             "text": "The five worst performing cryptocurrencies of last week https://t.co/BKocWj077i $AOA $PPT $DOGE $ELA $WTC https://t.co/P1eh6W5XXu",

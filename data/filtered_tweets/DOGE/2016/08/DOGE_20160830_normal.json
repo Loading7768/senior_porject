@@ -1,27 +1,7 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 19:31 https://t.co/fTwTvI5HR9",
-            "created_at": "Tue Aug 30 23:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 2,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 19:10 https://t.co/RGQvpDPtRs",
-            "created_at": "Tue Aug 30 23:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 3,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8338 values from vircurex + coinbase at 08/30/16 18:55 #dogecoin",
@@ -31,7 +11,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 2,
             "username": "Bitcoins For Sale",
             "user_account": "bitcoinsforsale",
             "text": "knc miner titan 245 mhs litecoin convert to bitcoin dogecoin ethereum monero  https://t.co/2ExPPAWVCM #bitcoin https://t.co/4whzYcxhMA",
@@ -41,7 +21,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 3,
             "username": "Crypto Price Ticker",
             "user_account": "TickerCrypto",
             "text": "Dogecoin Market Cap $24,450,724 Price $0.000231 Supply 105,819,804,712 DOGE Vol. $251,944(2.90%) https://t.co/71X8hn1oes",
@@ -51,7 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 4,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Who likes Doges :? Such fur, much cute https://t.co/Wxe5sYVk4p r",
@@ -61,7 +41,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 5,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "I opened a new faucet :&gt; https://t.co/nnNJclcOeU r",
@@ -71,7 +51,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 6,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❤∫ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/uYtr67FcJj",
@@ -81,7 +61,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 7,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Cierra Alconcel",
@@ -91,7 +71,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 8,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♧❦ 250000 #Dogecoin  (250K 250,000 Doge) - #Direct to your #Wallet! #TE https://t.co/pLHRCnyQVG https://t.co/EX6vLw3mq2",
@@ -101,27 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 18:31 https://t.co/JN0OxCRxsK",
-            "created_at": "Tue Aug 30 22:31:05 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 12,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 18:10 https://t.co/XA8uy4ZZcK",
-            "created_at": "Tue Aug 30 22:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 13,
+            "tweet_count": 9,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8034 values from vircurex + coinbase at 08/30/16 17:55 #dogecoin",
@@ -131,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 10,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Otha Ayer",
@@ -141,7 +101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 11,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Joeann Abell",
@@ -151,17 +111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 17:31 https://t.co/tIqMURIJW4",
-            "created_at": "Tue Aug 30 21:31:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 17,
+            "tweet_count": 12,
             "username": "Load Debit Card",
             "user_account": "LoadDebitCard",
             "text": "#Sepa to your local #Bank account using 40+ #Altcoins #Digibyte #TheDao #DigixDao #Dogecoin #Emercoin #Etherium https://t.co/Zeb6GLA7Z1",
@@ -171,17 +121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 17:10 https://t.co/d4w9289tza",
-            "created_at": "Tue Aug 30 21:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 19,
+            "tweet_count": 13,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8376 values from vircurex + coinbase at 08/30/16 16:55 #dogecoin",
@@ -191,7 +131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 14,
             "username": "Load Debit Card",
             "user_account": "LoadDebitCard",
             "text": "#Swift to your local #Bank account using 40+ #Altcoins #Digibyte #TheDao #DigixDao #Dogecoin #Emercoin #Etherium https://t.co/Zeb6GLA7Z1",
@@ -201,7 +141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 15,
             "username": "Tiny Crossword",
             "user_account": "TinyCrossword",
             "text": "SOLUTION\n1: Adrian Frutiger\n2: Chuathbaluk\n3: Dogecoin https://t.co/JCtvK2UXza",
@@ -211,7 +151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 16,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Wow such coin https://t.co/nWhD0TwKC8 r",
@@ -221,7 +161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 17,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Yukiko Andriopulos",
@@ -231,7 +171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 18,
             "username": "Rajan Khanna",
             "user_account": "rajmahal24",
             "text": "@Josh_Wise @dogecoin @reddit Much wow such fast",
@@ -241,17 +181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 16:31 https://t.co/wJ3F3CyHhW",
-            "created_at": "Tue Aug 30 20:31:03 +0000 2016",
-            "retweet": 1,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 26,
+            "tweet_count": 19,
             "username": "Tommy Gentry",
             "user_account": "tgentry97",
             "text": "@Josh_Wise @dogecoin @reddit I would LOVE to see another @ProvidentMetals paint scheme!!! Those were SICK!",
@@ -261,7 +191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
+            "tweet_count": 20,
             "username": "Josh Wise",
             "user_account": "Josh_Wise",
             "text": "Does a kitten claw at catnip!? Just google Dogecar 😉\n@dogecoin @reddit  https://t.co/3MOVOpuY4x",
@@ -271,7 +201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 21,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Ladawn Borling",
@@ -281,17 +211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 29,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 16:10 https://t.co/9FKFH43fXs",
-            "created_at": "Tue Aug 30 20:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 30,
+            "tweet_count": 22,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Clemente Arreguin",
@@ -301,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
+            "tweet_count": 23,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.735 values from vircurex + coinbase at 08/30/16 15:55 #dogecoin",
@@ -311,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 32,
+            "tweet_count": 24,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Tamala Bollom",
@@ -321,7 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 25,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/L5b3D8PUlW",
@@ -331,17 +251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 15:31 https://t.co/h9wLlnB5DS",
-            "created_at": "Tue Aug 30 19:31:04 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 35,
+            "tweet_count": 26,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Janiece Bernas",
@@ -351,7 +261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 27,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth https://t.co/yAmNRCJvQI #Hacker #Cyberwar https://t.co/ahMSx46n10 https://t.co/v4e5D7rI8P",
@@ -361,7 +271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 37,
+            "tweet_count": 28,
             "username": "CyberWarrior",
             "user_account": "CyberDomain",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth https://t.co/CVylK9CjIH #Hacker #Cyberwar https://t.co/kNojGaa4Sm https://t.co/VZ54l424Ix",
@@ -371,17 +281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 15:10 https://t.co/fLqoaQ2cL0",
-            "created_at": "Tue Aug 30 19:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 39,
+            "tweet_count": 29,
             "username": "Get Free Dogecoin",
             "user_account": "GetDogecoin",
             "text": "GET FREE #DOGE\nWin dogecoin every 60 minutes\nhttps://t.co/3h9fldGvem\n #doge #dogecoin\n#Ethereum\n#bitcoin #litecoin #PrimeDay",
@@ -391,7 +291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 30,
             "username": "Mobile Shop dotPH",
             "user_account": "mobileshopph",
             "text": "#Mobileshopph latest #Senegal mobile recharge offer using #Bitcoin, #Litecoin and #Dogecoin\n\n#Orange Senegal From... https://t.co/Yg2wktPqy2",
@@ -401,7 +301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
+            "tweet_count": 31,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.963 values from vircurex + coinbase at 08/30/16 14:55 #dogecoin",
@@ -411,7 +311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 32,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Stefani Androsky",
@@ -421,7 +321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 33,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Jeanne Aanerud",
@@ -431,7 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 34,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Hey shibes, /u/dogedriver could use a hand. The #30 team is pushing on social media to get a Throwback Spon... https://t.co/0N4yFS7gFR r",
@@ -441,17 +341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 14:31 https://t.co/vu12GwrDaD",
-            "created_at": "Tue Aug 30 18:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 46,
+            "tweet_count": 35,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Wiley Bochek",
@@ -461,17 +351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 14:10 https://t.co/gbD4ygzDMD",
-            "created_at": "Tue Aug 30 18:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 48,
+            "tweet_count": 36,
             "username": "FunVidClick",
             "user_account": "FunVidClick",
             "text": "Collect #Free #Dogecoin every 5 minutes. Totally legit, no strings attached.\n\nhttps://t.co/jMc3eAU9Ln\n\n#blockchain https://t.co/Quc9vhFy59",
@@ -481,7 +361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
+            "tweet_count": 37,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.6134 values from vircurex + coinbase at 08/30/16 13:55 #dogecoin",
@@ -491,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 38,
             "username": "Andrea Lacava",
             "user_account": "thecave003",
             "text": "Much Dogecoin. So free. Wow. https://t.co/d5EiAxli6q #dogecoin via @nateshoffner",
@@ -501,7 +381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 39,
             "username": "Chad Willis",
             "user_account": "ChadWillis",
             "text": "@jeff_gluck What's the Dogecoin of 50 years ago?",
@@ -511,7 +391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
+            "tweet_count": 40,
             "username": "Bitcoins For Sale",
             "user_account": "bitcoinsforsale",
             "text": "knc miner titan 245 mhs litecoin convert to bitcoin dogecoin ethereum monero  https://t.co/2ExPPAWVCM #bitcoin https://t.co/waDP5E9oze",
@@ -521,7 +401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 41,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Jefferson Berrett",
@@ -531,27 +411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 13:31 https://t.co/7EHock4RAx",
-            "created_at": "Tue Aug 30 17:31:04 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 55,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 13:10 https://t.co/HqikNbM0Rp",
-            "created_at": "Tue Aug 30 17:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 56,
+            "tweet_count": 42,
             "username": "🐳 Eliza Cheng ❤",
             "user_account": "ElizaRyenne",
             "text": "Mine for #bitcoin #litecoin #dogecoin #ethereum #gold here in @eobot JOIN NOW at https://t.co/a9Uc6N56z2 https://t.co/Qx9FbeJmeZ",
@@ -561,7 +421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 43,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Eun Beeckman",
@@ -571,17 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 12:31 https://t.co/yfrsXu0oQu",
-            "created_at": "Tue Aug 30 16:31:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 59,
+            "tweet_count": 44,
             "username": "Crypto Price Ticker",
             "user_account": "TickerCrypto",
             "text": "Dogecoin Market Cap $ 24,189,772 Price $ 0.000229 Supply 105,819,804,712 DOGE Vol. $ 248,076(1.94 %) https://t.co/vLAI4ITpM5",
@@ -591,7 +441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 45,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Who likes Dogecoins? I do! I gift thee the limited edition Dogecoin vector graphic :D have fun. https://t.co/5OjhwIvoni r",
@@ -601,7 +451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 46,
             "username": "Crypto Price Ticker",
             "user_account": "TickerCrypto",
             "text": "#DogeCoin #DOGE Rank:7 Last:฿0.00000039(0.248%) High:Buy Instantly! on  Low:฿0.00000039 Vol:฿291 Market Cap:฿41,407 / $23,837,023.43",
@@ -611,27 +461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 12:10 https://t.co/BQCddfxHom",
-            "created_at": "Tue Aug 30 16:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 63,
-            "username": "TAINA",
-            "user_account": "TainaMarket",
-            "text": "GET FREE #DOGE\nWin dogecoin every 60 minutes\nhttps://t.co/HPLJdB6yx1\n #doge #dogecoin\n#Ethereum\n#bitcoin #litecoin #gold #Amazon",
-            "created_at": "Tue Aug 30 16:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 64,
+            "tweet_count": 47,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/FqtbG27PNL",
@@ -641,7 +471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 48,
             "username": "alberto cuzzocrea",
             "user_account": "alsemamast",
             "text": "Receive up to 10 DOGE free every hour https://t.co/gtxTxL6z1u #dogecoin via @FreeCryptoCo",
@@ -651,7 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 49,
             "username": "alberto cuzzocrea",
             "user_account": "alsemamast",
             "text": "Claim your free DOGE every hour and more DOGE for each referral request https://t.co/28D7Py8fgA #dogecoin via @FreeCryptoCo",
@@ -661,7 +491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 50,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8338 values from vircurex + coinbase at 08/30/16 11:55 #dogecoin",
@@ -671,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 51,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Fallon Baima",
@@ -681,27 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 11:31 https://t.co/dYlK3CBOjc",
-            "created_at": "Tue Aug 30 15:31:04 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 70,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 11:10 https://t.co/LHmcOhiAtV",
-            "created_at": "Tue Aug 30 15:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 71,
+            "tweet_count": 52,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8832 values from vircurex + coinbase at 08/30/16 10:55 #dogecoin",
@@ -711,7 +521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 53,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #18b",
@@ -721,7 +531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 54,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "#askastoreaday to accept #bitcoin #startcoin #dogecoin https://t.co/KGZTFtHCQz",
@@ -731,7 +541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 55,
             "username": "Avarice",
             "user_account": "5_Avarice",
             "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 10:31 https://t.co/7ANG5skt2P by @DogeIsDead",
@@ -741,7 +551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 56,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -751,17 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 10:31 https://t.co/4RdLkk1xly",
-            "created_at": "Tue Aug 30 14:31:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 77,
+            "tweet_count": 57,
             "username": "C W H",
             "user_account": "SMARTKIDOU812",
             "text": "WANT TO SEE A SLOW MOVE  $FH=(FORM HOLDINGS) $CBK $RIGL $PQ $ADHD $ANF $MU $WFC $BCEI $ZTE $LOW $NOK $RIGL $F $GOOG $GOOGL $VZ $SPRWF $DOGE",
@@ -771,17 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 10:10 https://t.co/rb2qKab2wA",
-            "created_at": "Tue Aug 30 14:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 79,
+            "tweet_count": 58,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Lizbeth Alonge",
@@ -791,7 +581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 59,
             "username": "Cash Clamber",
             "user_account": "CashClamber",
             "text": "People who work together will win. Sharing wins everytime! https://t.co/G03syw3ytp #edtech #webdesign #dogecoin",
@@ -801,7 +591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 60,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.963 values from vircurex + coinbase at 08/30/16 09:55 #dogecoin",
@@ -811,7 +601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
+            "tweet_count": 61,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Lannie Areizaga",
@@ -821,17 +611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 09:31 https://t.co/vuBDqkdczJ",
-            "created_at": "Tue Aug 30 13:31:04 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 84,
+            "tweet_count": 62,
             "username": "Bronx Digital Online",
             "user_account": "Bronx_Digital",
             "text": "Join the @TuxExchange community for a #Dogecoin #reward - https://t.co/GVUhHLKwAJ Mention #Roscovitz on chat and recieve addition 100 $DOGE",
@@ -841,7 +621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 63,
             "username": "ILbotCrypto",
             "user_account": "LbotCrypto",
             "text": "Time to check on #edoncoin's development! https://t.co/BWuEqKi7dU #btc #altcoin #ltc #dogecoin #bitcoin #edoncoin #ltc",
@@ -851,7 +631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
+            "tweet_count": 64,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Elaina Baruffi",
@@ -861,7 +641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 87,
+            "tweet_count": 65,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Jacquie Billy",
@@ -871,17 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 09:10 https://t.co/gpCGxhPGfy",
-            "created_at": "Tue Aug 30 13:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 89,
+            "tweet_count": 66,
             "username": "Crypto Price Ticker",
             "user_account": "TickerCrypto",
             "text": "Dogecoin Market Cap $ 23,995,064 Price $ 0.000227 Supply 105,819,804,712 DOGE Vol. $ 270,781(0.08 %) https://t.co/tVDl24ueR8",
@@ -891,7 +661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 67,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $220.2252 values from vircurex + coinbase at 08/30/16 08:55 #dogecoin",
@@ -901,7 +671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 68,
             "username": "World Ustaad",
             "user_account": "WorldUstaad",
             "text": "I added a video to a @YouTube playlist https://t.co/OJzlS0r75c How To Create Bittrex Wallet Bitcoin Dogecoin Litecoin in Urdu Hindi",
@@ -911,7 +681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 69,
             "username": "World Ustaad",
             "user_account": "WorldUstaad",
             "text": "I added a video to a @YouTube playlist https://t.co/zakIk9Tglp Dogecoin Exchange to USD Minimum 1000 Doge Exchange to Perfectmoney USD",
@@ -921,17 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 08:31 https://t.co/v1GSxGSspb",
-            "created_at": "Tue Aug 30 12:31:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 94,
+            "tweet_count": 70,
             "username": "Moved To @ChryssieX",
             "user_account": "FollowChryssiex",
             "text": "@UnFilteredPete I had a Dogecoin shirt from when they sponsored a nascar driver",
@@ -941,17 +701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 08:10 https://t.co/NxmpSbgLKO",
-            "created_at": "Tue Aug 30 12:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 96,
+            "tweet_count": 71,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $220.0618 values from vircurex + coinbase at 08/30/16 07:55 #dogecoin",
@@ -961,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 97,
+            "tweet_count": 72,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "A cute doge is featured on a card in the blockchain card trading game Spells of Genesis (SoG), the DOGECOINCARD https://t.co/YF2cMB2IrJ r",
@@ -971,7 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 98,
+            "tweet_count": 73,
             "username": "CFaulk",
             "user_account": "BitcoinChew",
             "text": "Link to post: Live Dogecoin prices from all markets and DOGE coin market Capitalization. Sta... https://t.co/JWRcqFs00a #Doge, #Dogecoin",
@@ -981,7 +731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 99,
+            "tweet_count": 74,
             "username": "arrtchiu_ebooks",
             "user_account": "arrtchiu_ebooks",
             "text": "It's not much for having a play with the Dogecoin client...",
@@ -991,17 +741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 07:31 https://t.co/3kiMKc9ULV",
-            "created_at": "Tue Aug 30 11:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 101,
+            "tweet_count": 75,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Isabella Angiolelli",
@@ -1011,27 +751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 07:10 https://t.co/PTjhV5J0DI",
-            "created_at": "Tue Aug 30 11:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 103,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Win $150 in Dogecoins every hour! https://t.co/BzASEwUPlq #doge #dogecoin #btc #bitcoin #ltc #altcoin #cryptocurrency",
-            "created_at": "Tue Aug 30 11:05:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 104,
+            "tweet_count": 76,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.9706 values from vircurex + coinbase at 08/30/16 06:55 #dogecoin",
@@ -1041,7 +761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 77,
             "username": "cryptosdice",
             "user_account": "cryptosdice",
             "text": "Free coins! Faucet at https://t.co/kVUVSPB6vv! #litecoin #ltc #dogecoin #doge #ether #dash #peercoin #ppc #solarcoin #vertcoin #next",
@@ -1051,27 +771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 106,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 06:31 https://t.co/dlbVnZDNv5",
-            "created_at": "Tue Aug 30 10:31:05 +0000 2016",
-            "retweet": 0,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 107,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 06:10 https://t.co/mx13ibrXtL",
-            "created_at": "Tue Aug 30 10:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 108,
+            "tweet_count": 78,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.9668 values from vircurex + coinbase at 08/30/16 05:55 #dogecoin",
@@ -1081,7 +781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 109,
+            "tweet_count": 79,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Remember my faucet ? I reopened it with 10 DOGE each 2 hours ! https://t.co/9l6cFO2DLA r",
@@ -1091,67 +791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 110,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 05:31 https://t.co/XdkDdmSrxu",
-            "created_at": "Tue Aug 30 09:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 111,
-            "username": "BuyCoins2Day",
-            "user_account": "BuyCoins2Day",
-            "text": "*03 650 DOGECOIN Cryptocoin Direct To Wallet NO Physical Delivery Fast Mining https://t.co/Ja5RuSTduD https://t.co/y7BEmRYczs",
-            "created_at": "Tue Aug 30 09:28:05 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 112,
-            "username": "BuyCoins2Day",
-            "user_account": "BuyCoins2Day",
-            "text": "*05 650 DOGECOIN Cryptocoin Direct To Wallet NO Physical Delivery Fast Mining https://t.co/lhsXFCwsSk https://t.co/NsjTI4K7sl",
-            "created_at": "Tue Aug 30 09:27:40 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 113,
-            "username": "BuyCoins2Day",
-            "user_account": "BuyCoins2Day",
-            "text": "*02 650 DOGECOIN Cryptocoin Direct To Wallet NO Physical Delivery Fast Mining https://t.co/intTzodQMs",
-            "created_at": "Tue Aug 30 09:26:08 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 114,
-            "username": "BuyCoins2Day",
-            "user_account": "BuyCoins2Day",
-            "text": "*04 650 DOGECOIN Cryptocoin Direct To Wallet NO Physical Delivery Fast Mining https://t.co/WzwBa4LY5Q https://t.co/w3vqgZsDB4",
-            "created_at": "Tue Aug 30 09:22:44 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 115,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 05:10 https://t.co/MHKBLE03V5",
-            "created_at": "Tue Aug 30 09:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 116,
+            "tweet_count": 80,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8186 values from vircurex + coinbase at 08/30/16 04:55 #dogecoin",
@@ -1161,7 +801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 81,
             "username": "FailCommunity",
             "user_account": "FAILCommunity",
             "text": "A @bitcointalk forum user says that it might be a good time to buy #Dogecoin. See his \"proof\". 😂 #DOGE #FAILfun https://t.co/CVzVSlALkV",
@@ -1171,7 +811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
+            "tweet_count": 82,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Yael Bacon",
@@ -1181,17 +821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 119,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 04:31 https://t.co/YNdllI1RyG",
-            "created_at": "Tue Aug 30 08:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 120,
+            "tweet_count": 83,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♠◔ 250000 Dogecoin  (250K 250,000 Doge) - Direct to your Wallet! https://t.co/pLHRCnyQVG https://t.co/wwrrGb6VdN",
@@ -1201,7 +831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 121,
+            "tweet_count": 84,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❝☾ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/OU9rSMdHc4",
@@ -1211,7 +841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 122,
+            "tweet_count": 85,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Maricela Bork",
@@ -1221,17 +851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 123,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 04:10 https://t.co/Lnd2Muyfcf",
-            "created_at": "Tue Aug 30 08:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 124,
+            "tweet_count": 86,
             "username": "kim macleod",
             "user_account": "bakerygirl9",
             "text": "Best Legit Site For #Free #Dogecoin \"Faucet\". Collect free #cryptocurrency every 5 minutes!\n\nhttps://t.co/OUI3zN5Gws https://t.co/M7YJQb9IX5",
@@ -1241,7 +861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 125,
+            "tweet_count": 87,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $219.8604 values from vircurex + coinbase at 08/30/16 03:55 #dogecoin",
@@ -1251,7 +871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 126,
+            "tweet_count": 88,
             "username": "Mobile Shop dotPH",
             "user_account": "mobileshopph",
             "text": "#Mobileshopph latest #CostaRica mobile recharge offer using #Bitcoin, #Litecoin and #Dogecoin\n\n#Claro Costa Rica... https://t.co/4t4mwx9f7q",
@@ -1261,17 +881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 127,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 03:31 https://t.co/FVFXuNbX3D",
-            "created_at": "Tue Aug 30 07:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 128,
+            "tweet_count": 89,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Cleo Baldwyn",
@@ -1281,7 +891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 129,
+            "tweet_count": 90,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Laure Averhart",
@@ -1291,7 +901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 130,
+            "tweet_count": 91,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Allen Bonventre",
@@ -1301,27 +911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 03:10 https://t.co/yC92JNOFru",
-            "created_at": "Tue Aug 30 07:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 132,
-            "username": "PinkMona",
-            "user_account": "pinkmona_org",
-            "text": "#bitcoin #altcoin #dogecoin Let's Hentai! Come on PinkMona!→https://t.co/Z30zTz9R9K",
-            "created_at": "Tue Aug 30 07:09:06 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 133,
+            "tweet_count": 92,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $214.0006 values from vircurex + coinbase at 08/30/16 02:55 #dogecoin",
@@ -1331,7 +921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
+            "tweet_count": 93,
             "username": "trucklotor",
             "user_account": "trucklotor",
             "text": "@HunsV invest in dogecoin best decision of my life",
@@ -1341,7 +931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 135,
+            "tweet_count": 94,
             "username": "Avarice",
             "user_account": "5_Avarice",
             "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 02:31 https://t.co/byAFJbNtkG by @MrDev006",
@@ -1351,7 +941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
+            "tweet_count": 95,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Eunice Ayhens",
@@ -1361,17 +951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 02:31 https://t.co/9T6qTTua2C",
-            "created_at": "Tue Aug 30 06:31:04 +0000 2016",
-            "retweet": 1,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 138,
+            "tweet_count": 96,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♡‡ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/kQGkBCcYmT",
@@ -1381,7 +961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 139,
+            "tweet_count": 97,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❤◕ 250000 Dogecoin  (250K 250,000 Doge) - Direct to your Wallet! https://t.co/pLHRCnyQVG https://t.co/jgu5QiDDTT",
@@ -1391,7 +971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 140,
+            "tweet_count": 98,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Hal Arballo",
@@ -1401,27 +981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 141,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-30 02:10 https://t.co/z0p39yEtUs",
-            "created_at": "Tue Aug 30 06:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 142,
-            "username": "TAINA",
-            "user_account": "TainaMarket",
-            "text": "GET FREE #DOGE\nWin dogecoin every 60 minutes\nhttps://t.co/HPLJdB6yx1\n #doge #dogecoin\n#Ethereum\n#bitcoin #litecoin #gold #PrimeDay",
-            "created_at": "Tue Aug 30 06:06:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 143,
+            "tweet_count": 99,
             "username": "kim macleod",
             "user_account": "bakerygirl9",
             "text": "Have You Tried The Addictive #Dogecoin #Mining #Simulator #Game?\n\nhttps://t.co/J5yHfNcQ83\n\nTO THE MOON!!! https://t.co/zq63thh8DY",
@@ -1431,17 +991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 144,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Win $150 in Dogecoins every hour! https://t.co/BzASEwUPlq #doge #dogecoin #btc #bitcoin #ltc",
-            "created_at": "Tue Aug 30 06:05:01 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 145,
+            "tweet_count": 100,
             "username": "Avarice",
             "user_account": "5_Avarice",
             "text": "Out of BCY. Waiting on our beloved $DOGE, and others like $DCR $SYNX $VOX $XVG to get in the... by @Dennahz",
@@ -1451,7 +1001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 146,
+            "tweet_count": 101,
             "username": "Cash Clamber",
             "user_account": "CashClamber",
             "text": "The best way to prepare for winning is to begin to win. https://t.co/G03syw3ytp #dogecoin #LiveWeb #ux",
@@ -1461,7 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
+            "tweet_count": 102,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.4382 values from vircurex + coinbase at 08/30/16 01:55 #dogecoin",
@@ -1471,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 148,
+            "tweet_count": 103,
             "username": "BTC Lover",
             "user_account": "MrDev006",
             "text": "Moon Dogecoin - The dogecoin faucet where YOU decide when to claim! https://t.co/9DtpSC2gWo #dogecoin #faucet via @Moon_Dogecoin",
@@ -1481,17 +1031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000038 BTC #doge #dogecoin 2016-08-30 01:31 https://t.co/to8qm1VwD8",
-            "created_at": "Tue Aug 30 05:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 150,
+            "tweet_count": 104,
             "username": "ILbotCrypto",
             "user_account": "LbotCrypto",
             "text": "It's August 30, 2016 at 08:05AM, good morning people, ready for a new and #wild day?! #bitcoin #litecoin #dogecoin #monero #usd #btc #nxt",
@@ -1501,7 +1041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 105,
             "username": "Crypto Price Ticker",
             "user_account": "TickerCrypto",
             "text": "#DogeCoin #DOGE Rank:7 Last:฿0.00000039(1.136%) High:Buy Instantly! on  Low:฿0.00000040 Vol:฿312 Market Cap:฿41,149 / $23,519,891.19",
@@ -1511,7 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
+            "tweet_count": 106,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.1459 values from vircurex + coinbase at 08/30/16 00:55 #dogecoin",
@@ -1521,17 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-30 00:31 https://t.co/qflk2bEpBN",
-            "created_at": "Tue Aug 30 04:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 154,
+            "tweet_count": 107,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☼§ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWp6G0g https://t.co/g0wJx3IG3v",
@@ -1541,7 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
+            "tweet_count": 108,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♡♣ 250000 Dogecoin  (250K 250,000 Doge) - Direct to your Wallet! https://t.co/pLHRCnQskg https://t.co/lwwBOTOGrd",
@@ -1551,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 156,
+            "tweet_count": 109,
             "username": "Crypto Price Ticker",
             "user_account": "TickerCrypto",
             "text": "Dogecoin Market Cap $ 23,584,230 Price $ 0.000223 Supply 105,805,852,991 DOGE Vol. $ 224,813(-2.01 %) https://t.co/LhTc8jVh5f",
@@ -1561,7 +1091,67 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 157,
+            "tweet_count": 110,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@TBob53 @FakeSweaters are the rest of the raiders also gonna show?  Just lose baby?",
+            "created_at": "Tue Aug 30 04:24:27 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 111,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "Tired of all this racism/anti flag agenda smoke screen shit...what is really goin on in washington right now that we are not seeing?",
+            "created_at": "Tue Aug 30 04:23:05 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 112,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@fatpussyisyummy not okay with racism but okay with using the n word...",
+            "created_at": "Tue Aug 30 04:21:24 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 113,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@TonyStewart thanks smoke for standing up for your beliefs.  Thanks for standing up for the flag.  Fuck the haters...",
+            "created_at": "Tue Aug 30 04:19:49 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 114,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@fatpussyisyummy americans truly don't know how good we have it here.  Goto lebanon,jordan,syria...good luck...",
+            "created_at": "Tue Aug 30 04:15:16 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 115,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@fatpussyisyummy well then leave....just got back from the desert fighting for this \"so called racist\"country. U sir can leave if u want.",
+            "created_at": "Tue Aug 30 04:13:15 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 116,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Rosalinda Baratto",
@@ -1571,17 +1161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 158,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZeweaDa #doge #dogecoin #faucet 2016-08-30 00:10 https://t.co/H6pNW5WC0h",
-            "created_at": "Tue Aug 30 04:10:04 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 159,
+            "tweet_count": 117,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Joie Benik",
@@ -1591,7 +1171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 160,
+            "tweet_count": 118,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.1348 values from vircurex + coinbase at 08/29/16 23:55 #dogecoin",
@@ -1601,27 +1181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-29 23:31 https://t.co/lQUnK56iMs",
-            "created_at": "Tue Aug 30 03:31:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 162,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-29 23:10 https://t.co/3S1Dy9dEqP",
-            "created_at": "Tue Aug 30 03:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 163,
+            "tweet_count": 119,
             "username": "Dark Lord of CryptoWar",
             "user_account": "H4ck3rPh1ll",
             "text": "Having this said I will continue being in $ETC $DGB $LSK $FCT $DASH and $DOGE since these are promising projects and not pump and dump coins",
@@ -1631,7 +1191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 120,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.2717 values from vircurex + coinbase at 08/29/16 22:55 #dogecoin",
@@ -1641,7 +1201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 121,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Georgiana Anichini",
@@ -1651,7 +1211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
+            "tweet_count": 122,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Beatrice Altringer",
@@ -1661,17 +1221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 167,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-29 22:31 https://t.co/NovVvRiY31",
-            "created_at": "Tue Aug 30 02:31:04 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 168,
+            "tweet_count": 123,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☺✯ 250000 Dogecoin  (250K 250,000 Doge) - Direct to your Wallet! https://t.co/pLHRCnyQVG https://t.co/curyeRNUn8",
@@ -1681,7 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
+            "tweet_count": 124,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♦› 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/Br6hf20mfB",
@@ -1691,7 +1241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 170,
+            "tweet_count": 125,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #18b",
@@ -1701,17 +1251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 171,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-29 22:10 https://t.co/hlh3aD7Zpk",
-            "created_at": "Tue Aug 30 02:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 172,
+            "tweet_count": 126,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Madlyn Bibbins",
@@ -1721,7 +1261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 173,
+            "tweet_count": 127,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.2865 values from vircurex + coinbase at 08/29/16 21:55 #dogecoin",
@@ -1731,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 128,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "I had to make this guys https://t.co/2PSBIoft67 r",
@@ -1741,7 +1281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
+            "tweet_count": 129,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Emory Basa",
@@ -1751,7 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 176,
+            "tweet_count": 130,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Trent Balhorn",
@@ -1761,17 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 177,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-29 21:31 https://t.co/qZbSCYvz7s",
-            "created_at": "Tue Aug 30 01:31:04 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 178,
+            "tweet_count": 131,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Georgiann Arant",
@@ -1781,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
+            "tweet_count": 132,
             "username": "Qu3ntin0 Bot",
             "user_account": "Qu3ntin0_ebooks",
             "text": "who wants some dogecoin?",
@@ -1791,17 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 180,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-29 21:10 https://t.co/K8rjt5IlqJ",
-            "created_at": "Tue Aug 30 01:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 181,
+            "tweet_count": 133,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.3272 values from vircurex + coinbase at 08/29/16 20:55 #dogecoin",
@@ -1811,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
+            "tweet_count": 134,
             "username": "Kev.Ξth✨ AbundanceNetworks.xyz",
             "user_account": "owocki",
             "text": "@onemanatatime hey at least your coin is pumping! I'm just sitting here with my $doge",
@@ -1821,17 +1341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 183,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000039 BTC #doge #dogecoin 2016-08-29 20:31 https://t.co/TjfiAQVG0g",
-            "created_at": "Tue Aug 30 00:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 184,
+            "tweet_count": 135,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❧☾ 250000 Dogecoin  (250K 250,000 Doge) - Direct to your Wallet! https://t.co/pLHRCnyQVG https://t.co/9krofVaiTb",
@@ -1841,7 +1351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
+            "tweet_count": 136,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❣ő 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/tJQK6bMTZW",
@@ -1851,7 +1361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 186,
+            "tweet_count": 137,
             "username": "Marinecoin",
             "user_account": "MTC_Marinecoin",
             "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Ermelinda Bovey",
@@ -1861,7 +1371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 187,
+            "tweet_count": 138,
             "username": "FunVidClick",
             "user_account": "FunVidClick",
             "text": "Best Legit Site For #Free #Dogecoin \"Faucet\". Collect free #cryptocurrency every 5 minutes!\n\nhttps://t.co/jMc3eAU9Ln https://t.co/KAaDPKX938",
@@ -1871,17 +1381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 188,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-08-29 20:10 https://t.co/v05qsXzxdU",
-            "created_at": "Tue Aug 30 00:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 189,
+            "tweet_count": 139,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $213.2347 values from vircurex + coinbase at 08/29/16 19:55 #dogecoin",

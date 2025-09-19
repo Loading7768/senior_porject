@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -22,22 +22,22 @@
         },
         {
             "tweet_count": 3,
-            "username": "orderdoge",
-            "user_account": "orderdoge",
-            "text": "RT @BTCTN: AMC Theatres is on track to accept #dogecoin (#DOGE) and #shibainu (#SHIB) as promised, the CEO has confirmed. #cryptocurrency #crypto https://t.co/oErTbl4Lnq",
-            "created_at": "Thu Jan 06 23:58:50 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 4,
             "username": "Aya Alaa",
             "user_account": "AyaAlaa54810980",
             "text": "AMC Theatres on Track to Accept Dogecoin and Shiba Inu Payments in Q1, CEO Confirms\n#BTC #CRYPTONEWS #NFT #DOGE\nhttps://t.co/LEeYwHfVBN",
             "created_at": "Thu Jan 06 23:58:47 +0000 2022",
             "retweet": 0,
             "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "𝕄𝕒𝕩𝕚𝕞𝕠 𝕏",
+            "user_account": "MaximoBanksy",
+            "text": "It’s not a disappointment if you open your mouth to show me you swallowed, like I showed you #dogecoin",
+            "created_at": "Thu Jan 06 23:58:35 +0000 2022",
+            "retweet": 1,
+            "likes": 2,
             "retweeted_tweet": null
         },
         {
@@ -82,6 +82,16 @@
         },
         {
             "tweet_count": 9,
+            "username": "𝕄𝕒𝕩𝕚𝕞𝕠 𝕏",
+            "user_account": "MaximoBanksy",
+            "text": "@CStreetBeats But what if I don’t love you; you would think your ugly after we fuck 🤔😬🥴😂🤣 #dogecoin",
+            "created_at": "Thu Jan 06 23:57:40 +0000 2022",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
             "username": "Ninrod",
             "user_account": "Ninrod803411731",
             "text": "$Opcat is the new PancakeSwap 🚨\n\nThe previews from the devs show that it’s LEGIT 💎\n\n1b mc is the goal 🎯\n\nSo comfy in the bags!\n\n$saita $mcc $gm #3dog $cate  $cdrop $luna $fren $wgmi $cake $floki #catgirlcoin #safemoon $shib $coti $kiba $doge",
@@ -91,22 +101,12 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 11,
             "username": "Birdie’s Gems",
             "user_account": "birdiehallson",
             "text": "@ApeboysNFT $apeboys\n🚀🚀🚀🚀🚀🚀🚀🚀\n$shib $doge $dexi https://t.co/Mej7I4Oufg",
             "created_at": "Thu Jan 06 23:57:20 +0000 2022",
             "retweet": 1,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 11,
-            "username": "Kim",
-            "user_account": "kimcryptoVN",
-            "text": "@OfficialTravlad The best not yet to come...$hohoho \n$floki $shib $doge $sol $avax $ftm",
-            "created_at": "Thu Jan 06 23:57:14 +0000 2022",
-            "retweet": 0,
             "likes": 1,
             "retweeted_tweet": null
         },

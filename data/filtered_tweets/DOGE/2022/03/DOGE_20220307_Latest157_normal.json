@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -12,16 +12,6 @@
         },
         {
             "tweet_count": 2,
-            "username": "Dogecoin Meme Maker",
-            "user_account": "ShaneRizzo2",
-            "text": "Mother's know best... @elonmusk @BillyM2k @dogecoin @DogeMemer007 https://t.co/Qry6E4mEd1",
-            "created_at": "Mon Mar 07 23:57:01 +0000 2022",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 3,
             "username": "Smokedogge",
             "user_account": "SmokeDoggee",
             "text": "@POTUS @hlirwin Dogecoin fixes this.",
@@ -31,7 +21,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 3,
             "username": "GO ⚡️DOGECOIN",
             "user_account": "itsalldodgy",
             "text": "Im here an holding $DOGE, are you? #dogecoin",
@@ -41,7 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 4,
             "username": "CryptoTellAStory",
             "user_account": "tell_crypto",
             "text": "Dogecoin Lost 4.59% to $0.116 at 5 p.m. ET — Data Talk https://t.co/QrXJq5Tr5p",
@@ -51,7 +41,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 5,
             "username": "Did Dogecoin Die Today? 🍥",
             "user_account": "DidDogecoin",
             "text": "No. \n\n $5,442,074 worth of $DOGE sent in the largest single transaction of the past 24 hours. \n\n   woof woof, many coin, much #dogecoin https://t.co/xcQvqAIXHk",
@@ -61,7 +51,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 6,
             "username": "Josh Spicko",
             "user_account": "Sir_JoshUalot_",
             "text": "Okay Let's Dooo This!!!! \n#Dogecoin https://t.co/irWMduDa9n",
@@ -71,12 +61,22 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 7,
             "username": "Bang Jafrun",
             "user_account": "BJafrun",
             "text": "@Investments_CEO True #dogecoin is the best",
             "created_at": "Mon Mar 07 23:55:10 +0000 2022",
             "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Camden Catholic vs. St. John-Vianney | Girls Hs Basketball 2022 \nFighting Irish @ Lancers\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe St. John-Vianney (Holmdel, NJ) varsity basketball team has a neutral playoff game vs. Camden Catholic (Cherry Hill, NJ) on Monday, March 7. https://t.co/S3tG8s4Xo4",
+            "created_at": "Mon Mar 07 23:53:40 +0000 2022",
+            "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
@@ -122,12 +122,12 @@
         },
         {
             "tweet_count": 13,
-            "username": "LittleShibe",
-            "user_account": "littleshibeOG",
-            "text": "You know what’s not worried about a bear market?\n\n#DOGEWORLD \n\nhttps://t.co/SAxRLIMp4D\n\n#NFT #NFTs #nftpioneer #dogeparty #dogecoin",
-            "created_at": "Mon Mar 07 23:49:08 +0000 2022",
-            "retweet": 2,
-            "likes": 5,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Immaculate Conception vs. Morris Catholic |  Girls Hs Basketball 2022 \nLions @ Crusaders\n🔴 Watch Live https://t.co/n8zMwt9brH\nThe Morris Catholic (Denville, NJ) varsity basketball team has a home playoff game vs. Immaculate Conception (Montclair, NJ) on Monday, March 7 @ 7p. https://t.co/B9nfYisoZq",
+            "created_at": "Mon Mar 07 23:49:47 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
@@ -232,16 +232,6 @@
         },
         {
             "tweet_count": 24,
-            "username": "Sir Doge of the Coin ⚔️",
-            "user_account": "dogeofficialceo",
-            "text": "@suchhodl @FabulousNFT Me when I tweet “dogecoin”",
-            "created_at": "Mon Mar 07 23:46:02 +0000 2022",
-            "retweet": 0,
-            "likes": 8,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 25,
             "username": "URECOMM",
             "user_account": "URECOMM",
             "text": "Dogecoin Lost 4.59% to $0.116 at 5 p.m. ET — Data Talk https://t.co/Vqn84CziuJ",
@@ -251,7 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
+            "tweet_count": 25,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000003006, -0.34% change in the last hour, -1.63% change in the last 24H.\n\n24H Volume: $7,896,811.\n\nCoinMarketCap Rank: #2894.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -261,7 +251,27 @@
             "retweeted_tweet": null
         },
         {
+            "tweet_count": 26,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Bellevue East vs. Lincoln High | Nebraska Girls Hs Basketball 2022 live\nChieftains @ Links\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Lincoln High (Lincoln, NE) varsity basketball team has a neutral playoff game vs. Bellevue East (Bellevue, NE) on Monday, March 7 @ 7:45p. https://t.co/Un3EcaFRgW",
+            "created_at": "Mon Mar 07 23:44:42 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
             "tweet_count": 27,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n10,831,723 $DOGE ($1,275,858 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 3.34 ($0.39 USD)\n\nTx: https://t.co/WGqoynin6l\n\n#DogecoinWhaleAlert #WhaleAlert #Dogecoin #CryptoNews",
+            "created_at": "Mon Mar 07 23:44:28 +0000 2022",
+            "retweet": 1,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
             "username": "The Ðoge Ambassador",
             "user_account": "dogeofficialrep",
             "text": "Alright friends , I found a #glitch in the #matrix. EVERY time I buy a #stock or #crypto it goes down. So, I’ll tell you guys exactly what I’m going to buy , you guys put options, and you all go #tothemoon! Deal!?🤣🤣\n#Dogecoin #AMC #DoOnlyGoodEveryday #DogePalooza",
@@ -271,23 +281,13 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 29,
             "username": "ReelGooodMemes",
             "user_account": "reelgooodmemes",
             "text": "He was waiting for this moment his whole life  #dogecoin #memes #cryptos#reelgooodmemes https://t.co/a0GYaNchgy",
             "created_at": "Mon Mar 07 23:41:47 +0000 2022",
             "retweet": 0,
             "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 29,
-            "username": "Doge Norway",
-            "user_account": "DogecoinNorway",
-            "text": "Boom Boom shake the Room😬🤷‍♂️#dogecoin #doge https://t.co/tjnKAzs91Z",
-            "created_at": "Mon Mar 07 23:40:11 +0000 2022",
-            "retweet": 13,
-            "likes": 60,
             "retweeted_tweet": null
         },
         {
@@ -342,26 +342,6 @@
         },
         {
             "tweet_count": 35,
-            "username": "I am Doge",
-            "user_account": "Reaper67058359",
-            "text": "$DOGE to 1$ , $DOGE is worth:$0.12 \n24h volume:$518,953,681.32\nPercentage change for the past hour :0.29%\nCurrent Market cap : $15,649,262,916.71\n#Dogecoin #DogeDay #Doge #DogeFather Price Check",
-            "created_at": "Mon Mar 07 23:35:13 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 36,
-            "username": "JP",
-            "user_account": "joepete27",
-            "text": "#dogearmy stay positive! Bring back that late April, early May 21’ energy. If you’re still here you’re still in the game and it’s only the first inning. #dogecoin #wehavejustaboutweatheredthestorm #wagmi",
-            "created_at": "Mon Mar 07 23:35:11 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 37,
             "username": "🆁🅸🅲🅺",
             "user_account": "RickFreyta",
             "text": "The current price of one DOGE is now: $0.1172, 0% change in the last hour!\n\nOne MDOGE is worth $117,196.7388.\n\nTotal volume in last 24H: $526,880,845.\n\nCurrent CoinMarketCap Rank: #13\n\n$DOGE #DOGECOIN Show your support for #doge https://t.co/nSf7QYdUZp",
@@ -371,7 +351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
+            "tweet_count": 36,
             "username": "Pops 🐧",
             "user_account": "PudgyPops777",
             "text": "$doge is ripping rn and your coins are down. \n\nHow does that make you feel, Anon? https://t.co/Iv8ILFYDU1",
@@ -381,7 +361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
+            "tweet_count": 37,
             "username": "Steven Flores 🟧 🟦",
             "user_account": "sflore83",
             "text": "Dogecoin to the moon and beyond🚀🚀🚀🚀👩‍🚀👨‍🚀",
@@ -391,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 38,
             "username": "The Under Doge",
             "user_account": "TheUnderDoge3",
             "text": "@suneel30346541 @dogecoin @MattWallace888 @elonmusk @divinegrackle Congratulations!! That’s awesome!!",
@@ -401,7 +381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
+            "tweet_count": 39,
             "username": "🆁🅸🅲🅺",
             "user_account": "RickFreyta",
             "text": "Dogecoin Fear and Greed Index is 30. Fear https://t.co/AV9bUMYF2r",
@@ -411,7 +391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 40,
             "username": "Junaid Bawany 🔻",
             "user_account": "bawanies",
             "text": "@LadyofCrypto1 $Doge",
@@ -421,27 +401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
-            "username": "Crypto Price Bot",
-            "user_account": "FungibleToker",
-            "text": "Live Crypto Prices (24h change)\n\nBTC: $38,227.00 (-0.54%)\nETH: $2,499.43 (-2.93%)\nLINK: $12.72 (-5.38%)\nDOGE: $0.1173 (-3.22%)\nICP: $16.45 (-2.98%)\nSOL: $82.29 (-2.71%)\nEOS: $1.93 (-2.52%)\n\nPowered by CoinGecko API\n$BTC $ETH $LINK $DOGE $ICP $SOL $EOS",
-            "created_at": "Mon Mar 07 23:30:31 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 44,
-            "username": "Doge Fear and Greed Index",
-            "user_account": "DogecoinFear",
-            "text": "Dogecoin Fear and Greed Index is 30. Fear https://t.co/jhKW1YiUNH",
-            "created_at": "Mon Mar 07 23:30:10 +0000 2022",
-            "retweet": 1,
-            "likes": 10,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 45,
+            "tweet_count": 41,
             "username": "Doge Coin Every Half Hour",
             "user_account": "DogePriceAlert",
             "text": "The current Doge coin price is: $0.1173",
@@ -451,7 +411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 42,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000002993, -0.59% change in the last hour, -2.15% change in the last 24H.\n\n24H Volume: $7,904,129.\n\nCoinMarketCap Rank: #2895.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -461,7 +421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 43,
             "username": "𝙼𝚎𝚝𝚊𝚟𝚎𝚛𝚜𝚎 𝙾𝚛𝚊𝚌𝚕𝚎",
             "user_account": "teamisaacteq",
             "text": "FTX Europe, Binance's Crypto Payments, Dogecoin's Trademark + More News - Cryptonews https://t.co/f7H1uQklqd",
@@ -471,7 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
+            "tweet_count": 44,
             "username": "ⓘ 𝕏publican f*ckery detected 🇺🇲",
             "user_account": "adelpreore",
             "text": "For those who may be wondering - Dogecoin is a joke.\nhttps://t.co/Cn5umAUquK",
@@ -481,7 +441,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
+            "tweet_count": 45,
+            "username": "Padraic",
+            "user_account": "Padraic92996190",
+            "text": "@DogecoinNorway @localrach @pythadoge @BillyM2k @28delayslater @liquidseahorse @MilgateTyler @catandradec @nl_dogecoin @TheUnderDoge3 @TheDogeOfSwabia Maybe we can meet somewhere in the middle...\n#DoOnlyGoodEveryday \n#doge\n#PeaceInUkraine",
+            "created_at": "Mon Mar 07 23:29:26 +0000 2022",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 46,
             "username": "Drew₿ull",
             "user_account": "BeefDrew_",
             "text": "Whales sell #bitcoin when bad news comes out, even when that news has nothing to do with #crypto. \nThey just want your coins cheap. #dogecoin \n#shib #hodl",
@@ -491,7 +461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 47,
             "username": "wolexzee",
             "user_account": "OladeleOluwole5",
             "text": "@TheMoonCarl Dogecoin",
@@ -501,7 +471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 48,
             "username": "DEFYTALKS",
             "user_account": "defytalks",
             "text": "🚀 Current Cryptocurrency Prices\n\n$BTC = 38227 USD\n$ETH = 2500.21 USD\n$BNB = 382.28 USD\n$ADA = 0.801068 USD\n$SOL = 82.33 USD\n$DOT = 16.35 USD\n$DOGE = 0.117277 USD\n\n#Cryptocurrency #Crypto #DEFYTALKS",
@@ -511,7 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
+            "tweet_count": 49,
             "username": "Madam Doge",
             "user_account": "calic415",
             "text": "I'm just a small businesses woman, my effort alone can't sway many businesses to accept #Dogecoin but i will try.  My goal is to have Doge accepted everywhere so ya'll won't have the need to sell $Doge when it hits $1.",
@@ -521,7 +491,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 50,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Crawford vs. St. Mary's | Nebraska Girls Hs Basketball 2022 live\nRams @ Cardinals\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe St. Mary's (O'Neill, NE) varsity basketball team has a neutral playoff game vs. Crawford (NE) on Monday, March 7 @ 7:45p.\nPlease LIKE and SHARE !! https://t.co/jrA1XkzwD5",
+            "created_at": "Mon Mar 07 23:25:50 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 51,
             "username": "Daddy Piccolo",
             "user_account": "DaDude10",
             "text": "I was dropping my w2 to my guy who does taxes for me and my parents, and saw a form asking me that if I did crypto-currency. I didn't know that they where taxed? Hopefully Doge Coin don't count",
@@ -531,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 52,
             "username": "Android1321",
             "user_account": "ronald071010",
             "text": "Don't we all, lol #dogecoin",
@@ -541,7 +521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 53,
             "username": "CryptoGalaxy π",
             "user_account": "cryptogalaxy101",
             "text": "Hold on to your butts. $JRSC @JurassicToken is going to be 🧨 this year. $TKING $COC $BLINU $DOGE $ETH $SHIB get in before fomo. This #BSCGem is going to moon this year. #jurassicworlddominion releases in June. 🦖🦕🔥🚀🌕📈 ➡️ https://t.co/QJV5rZC9zB",
@@ -551,7 +531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 54,
             "username": "Android1321",
             "user_account": "ronald071010",
             "text": "Mining mine #dogecoin",
@@ -561,7 +541,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 55,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Pius X vs. Fremont | Nebraska Girls Hs Basketball 2022 live\nThunderbolts @ Tigers\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Fremont (NE) varsity basketball team has a neutral playoff game vs. Pius X (Lincoln, NE) on Monday, March 7 @ 6p.\nPlease LIKE and SHARE !! https://t.co/Ei9ncQ7kJt",
+            "created_at": "Mon Mar 07 23:24:01 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
             "username": "Madam Doge",
             "user_account": "calic415",
             "text": "Is everyone high in the #Dogecoin community or something?",
@@ -571,7 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 57,
             "username": "Milos Salaski",
             "user_account": "dudimodo",
             "text": "@inevitable360 So yeah, definitely building an old school gaming world on dogecoin blokchain is the way...you're not the only one missing it.",
@@ -581,27 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
-            "username": "Top Cryptocoins Ticker",
-            "user_account": "TickerTop",
-            "text": "1: Bitcoin price is $38136.97 (0.24% 1h)\n2: Ethereum price is $2495.58 (-0.23% 1h)\n3: Tether price is $1.00 (0.02% 1h)\n4: BNB price is $381.62 (-0.03% 1h)\n5: USD Coin price is $1.00 (-0.07% 1h)\n13: Dogecoin price is $0.12 (-0.15% 1h)",
-            "created_at": "Mon Mar 07 23:23:28 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 60,
-            "username": "JP",
-            "user_account": "joepete27",
-            "text": "Finally got my Robinhood Crypto wallet   😁 #cantwaittospendsome #robinhoodwallet #dogecoin",
-            "created_at": "Mon Mar 07 23:23:23 +0000 2022",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 61,
+            "tweet_count": 58,
             "username": "Poisonous Pinups LLC 🍒NFTNYC2025 VIP Speaker/ART",
             "user_account": "poisonouspinups",
             "text": "Yes, our 117th #NFT listings is live, part of our unique 500pc collection…few left currently, based on our mascot #PoisonousCherry FREE exclusive NFT with purchase #dogecoin #NFTs #nftcollectors #NFTcommunity @opensea \nhttps://t.co/6LwxF49Hce",
@@ -611,7 +581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 59,
             "username": "Crypto Mentions",
             "user_account": "palak_1995",
             "text": "Count of mentions for the tickers in last 1 hr\n\n1. $ETH: 534 (-119)\n2. $BTC: 448 (-93)\n3. $ADA: 223 (17)\n4. $SOL: 119 (-22)\n5. $DOGE: 113 (9)\n6. $SHIB: 105 (-4)\n7. $BNB: 81 (-33)\n8. $LTC: 53 (11)\n\nTop speaker: @AltcoinDailyio 🚀 $ADA",
@@ -621,7 +591,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 60,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Red Oak vs. Southwest Valley | Girls Hs Basketball 2022 \nTigers @ #\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Southwest Valley (Corning, IA) varsity basketball team has a home non-conference game vs. Red Oak (IA) on Monday, March 7 @ 6p.\nPlease LIKE and SHARE !! https://t.co/EGLi4urWCd",
+            "created_at": "Mon Mar 07 23:21:10 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
             "username": "Doctor Crypto",
             "user_account": "Drcrypto918",
             "text": "#Dogecoin to the moon 🌙\n\nif u believe then like and RT\n\n$DOGE",
@@ -631,7 +611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 62,
             "username": "Carl & julie",
             "user_account": "caquagli",
             "text": "Listen up #doge #dogecoin #eth #BTC people  Robinhood release hundreds of thousands wallets today. That why prices are a little messy at moment.  Big surge coming",
@@ -641,7 +621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 63,
             "username": "Steven Flores 🟧 🟦",
             "user_account": "sflore83",
             "text": "CHAIRMAN Brown, Bob Menedez let's give dogecoin another try...",
@@ -651,7 +631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 64,
             "username": "Holding for records",
             "user_account": "Chaos2Cured_Fin",
             "text": "@kevzen69 @nylo44 So you wouldn’t have purchased Apple back in the late 90s because it went down?\n\nNot saying $DOGE is Apple, but technical analysis isn’t a complete tool without using others. \n\nCompared to the market, DOGE has held up extremely well. That says most sellers are gone. \n\n✨",
@@ -661,7 +641,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 65,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Wilton vs. Hillhouse | Girls Hs Basketball 2022\nWarriors @ Academics\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Hillhouse (New Haven, CT) varsity basketball team has a neutral playoff game vs. Wilton (CT) on Monday, March 7 @ 7p.\nPlease LIKE and SHARE !! https://t.co/w6Fhz9CAvu",
+            "created_at": "Mon Mar 07 23:18:55 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 66,
             "username": "𝐎𝐥𝐝𝐌𝐚𝐧𝐃𝐨𝐠𝐞🚀",
             "user_account": "old_soon",
             "text": "Doge makes people smile :) #LowEffortMeme #doge #dogecoin https://t.co/nUWSkYKAQ9",
@@ -671,7 +661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 67,
             "username": "🔋Stonksy🔋",
             "user_account": "StonksReddit",
             "text": "great time to rebuild my RH stash of #Dogecoin. love it.",
@@ -681,7 +671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 68,
             "username": "SAITAMASTONK",
             "user_account": "super_stonks",
             "text": "#Saitamask revolution has begun @elonmusk time to add $doge on saitamask",
@@ -691,7 +681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 69,
             "username": "CTS",
             "user_account": "quant_coin",
             "text": "Swing 🚥\n\n$DOGE 🟡 $0.12\n$SHIB 🟡 $0.00\n$BUSD 🟡 $1.00\n$MATIC 🟡 $1.42\n$ATOM 🟡 $28.39\n$LTC 🟡 $98.30\n$NEAR 🟡 $9.71\n$TRX 🟡 $0.06\n$LINK 🟡 $12.69\n$UNI 🟡 $8.33\n\nhttps://t.co/xzqH6Lzadq",
@@ -701,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 70,
             "username": "🔋Stonksy🔋",
             "user_account": "StonksReddit",
             "text": "looks like errybody getting some @RobinhoodApp crypto wallets soon. good stuff. #Dogecoin",
@@ -711,7 +701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 71,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Like my art?  Check out the #dogecoin NFTs available!  https://t.co/ZHknSxtl8s",
@@ -721,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 72,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000003086, 3.1% change in the last hour, -0.08% change in the last 24H.\n\n24H Volume: $8,185,965.\n\nCoinMarketCap Rank: #2889.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -731,7 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 73,
             "username": "Blocky Doge",
             "user_account": "DogeBlocky",
             "text": "BLOCKY SPOTLIGHT\n\n#801 Blocky Doge: Guilds\n\nhttps://t.co/4J60PxZdu2\n\n#nfts #nft #blockydoge #dogearmy #dogecoin",
@@ -741,11 +731,21 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 74,
             "username": "LivDose",
             "user_account": "livdose",
             "text": "Amid Russian Invasion, Ukraine Has Started Accepting Dogecoin Donations https://t.co/eVUTtkoboJ",
             "created_at": "Mon Mar 07 23:13:42 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 75,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Enfield vs. Southington | Connecticut Girls Hs Basketball 2022 live\nEagles @ Blue Knights\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Southington (CT) varsity basketball team has a neutral playoff game vs. Enfield (CT) on Monday, March 7 @ 7p.\nPlease LIKE and SHARE !! https://t.co/BMQ8EJIilK",
+            "created_at": "Mon Mar 07 23:12:10 +0000 2022",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -812,6 +812,16 @@
         },
         {
             "tweet_count": 82,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Sacred Heart Academy vs. Berlin | Connecticut Girls Hs Basketball 2022 live\n#EANF# @ Redcoats\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Berlin (CT) varsity basketball team has a neutral playoff game vs. Sacred Heart Academy (Hamden, CT) today @ 7p.\nPlease LIKE and SHARE ! https://t.co/Y8mlDmhcHB",
+            "created_at": "Mon Mar 07 23:07:50 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 83,
             "username": "☆Jay Rebel☆ 🇺🇸",
             "user_account": "EpicAmerica18",
             "text": "Me sitting and waiting for #dogecoin to go to the moon",
@@ -821,7 +831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 84,
             "username": "Hey Ian!",
             "user_account": "ianeastern_",
             "text": "all I need now is for dogecoin to go back up and we good",
@@ -831,7 +841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 85,
             "username": "🆁🅸🅲🅺",
             "user_account": "RickFreyta",
             "text": "The current price of one DOGE is now: $0.1171, 1% change in the last hour!\n\nOne MDOGE is worth $117,117.9017.\n\nTotal volume in last 24H: $537,498,219.\n\nCurrent CoinMarketCap Rank: #13\n\n$DOGE #DOGECOIN Show your support for #doge https://t.co/nSf7QYdUZp",
@@ -841,27 +851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
-            "username": "I am Doge",
-            "user_account": "Reaper67058359",
-            "text": "$DOGE to 1$ , $DOGE is worth:$0.12 \n24h volume:$535,396,248.30\nPercentage change for the past hour :0.62%\nCurrent Market cap : $15,552,906,590.28\n#Dogecoin #DogeDay #Doge #DogeFather Price Check",
-            "created_at": "Mon Mar 07 23:05:13 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
             "tweet_count": 86,
-            "username": "Helperino",
-            "user_account": "helperino_bot",
-            "text": "$DOGE is 0.107991€ right now!!!\nThats 0.45% from last hour and a -4.62% difference in the last 24h",
-            "created_at": "Mon Mar 07 23:05:02 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 87,
             "username": "OGDogeQueen🏍",
             "user_account": "jpz7680",
             "text": "@MattWallace888 Dogecoin!",
@@ -871,7 +861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
+            "tweet_count": 87,
             "username": "Gray Duck",
             "user_account": "DefiantDuck",
             "text": "Holy shit I actually have a #Robinhood Wallet!\nTry sending me some #Dogecoin!\n\nDHuVVhncr4G5fPkM6vvYeAfxzxre1eTZmc",
@@ -881,17 +871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 89,
-            "username": "jake",
-            "user_account": "jakegallen_",
-            "text": "@niftyuniverse @DogepartyXDP @littleshibeOG @bitcoinbegger @dogecoin Thanks for tuning in! Once CoinDaddy hands the keys back to the original creators things will get real interesting",
-            "created_at": "Mon Mar 07 23:04:30 +0000 2022",
-            "retweet": 0,
-            "likes": 3,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 90,
+            "tweet_count": 88,
             "username": "King Ðames",
             "user_account": "KingDames83",
             "text": "Happy Millions Monday, #HODLers!! 💎🙌🏽\n\n#doge #dogecoin #DogecoinToTheMoon #DoOnlyGoodEveryday #Crypto",
@@ -901,7 +881,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 89,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "New London vs. East Hartford | Connecticut Girls Hs Basketball 2022 live\nWhalers @ Hornets\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe East Hartford (CT) varsity basketball team has a neutral playoff game vs. New London (CT) on Monday, March 7 @ 7p.\nPlease LIKE and SHARE !! https://t.co/odrgSR7kGm",
+            "created_at": "Mon Mar 07 23:03:50 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 90,
             "username": "Blocky Doge",
             "user_account": "DogeBlocky",
             "text": "Another floor GUILD sold... \n\nThis is the the very last one below 0.2eth left for sale.\n\nWho's gonna get it?\n\nhttps://t.co/nVwphjq7Bx\n\n#nfts #nft #blockydoge #dogearmy #dogecoin https://t.co/RN51KIV1xb",
@@ -911,7 +901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 91,
             "username": "Ord",
             "user_account": "whatstheticker",
             "text": "@wabdoteth Got completionist cape a bunch of 120's on rs3 , sold some gold via crypto had like 1 BTC when it was around 4-6K... played some more have some accounts on 07... Didn't keep my BTC saw dogecoin and eth dirt cheap investments. \nStupid me didnt look , Pain lots of pain",
@@ -921,7 +911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
+            "tweet_count": 92,
             "username": "Nifty Universe",
             "user_account": "niftyuniverse",
             "text": "@jakegallen_ @DogepartyXDP @littleshibeOG @bitcoinbegger @dogecoin Incredible episode! Love learning more about @DogepartyXDP and it's role in crypto art and NFT history each day. Props! 💯",
@@ -931,7 +921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 94,
+            "tweet_count": 93,
             "username": "Stocksera",
             "user_account": "StockseraApp",
             "text": "Most mentioned tickers in r/CryptoCurrency in last 1H\n\n1. $BTC (9)\n2. $SHIB (4)\n3. $DOGE (3)\n4. $ATOM (3)\n5. $XRP (3)\n6. $ADA (2)\n7. $ETH (2)\n8. $ONE (2)\n9. $LUNA (2)\n10. $PRO (1)\n\nhttps://t.co/DnaesGdchZ https://t.co/Uj0bBbgSw3",
@@ -941,13 +931,23 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
+            "tweet_count": 94,
             "username": "Dogecoin for Tesla",
             "user_account": "dogecoin4tesla",
             "text": "Currently, 1 $DOGE = $0.116900.\n\nAt this rate, a #Tesla Model X costs:\n• Long Range: 769,804 Ɖ\n• Plaid: 1,026,433 Ɖ\n\n#dogecoin\n\nhttps://t.co/Kbt5VE0u4i",
             "created_at": "Mon Mar 07 23:01:48 +0000 2022",
             "retweet": 1,
             "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 95,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Northwestern Regional vs. St. Paul Catholic | Connecticut Girls Hs Basketball 2022 live\nHighlanders @ Falcons\n🔴 =&gt; https://t.co/n8zMwt9brH\nThe St. Paul Catholic (Bristol, CT) varsity basketball team has a neutral playoff game vs. Northwestern Regional (Winsted, CT) today @ 7p. https://t.co/VkG3wxokPz",
+            "created_at": "Mon Mar 07 23:01:44 +0000 2022",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
@@ -992,16 +992,6 @@
         },
         {
             "tweet_count": 100,
-            "username": "Crypto Price Bot",
-            "user_account": "FungibleToker",
-            "text": "Live Crypto Prices (24h change)\n\nBTC: $38,172.00 (-2.26%)\nETH: $2,501.47 (-5.03%)\nDOGE: $0.1172 (-4.23%)\nLUNA: $77.70 (-4.29%)\nSOL: $82.18 (-4.34%)\nHOT: $0.0040 (-3.71%)\nFTT: $39.77 (-1.82%)\n\nPowered by CoinGecko API\n$BTC $ETH $DOGE $LUNA $SOL $HOT $FTT",
-            "created_at": "Mon Mar 07 23:00:31 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 101,
             "username": "⚒️ marsh ⚒️",
             "user_account": "dogecoin_trader",
             "text": "@Michael_Fabiano @AliceInChains Layne Staley resurrected?",
@@ -1011,17 +1001,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
-            "username": "M_Brae",
-            "user_account": "MBrae3",
-            "text": "Follow for hourly #DOGE update, much wow🐕\n\n- Hourly closing of #DOGE: $0.1169\n- Hourly price change: 0.43 %📈\n- 12 hr Vol. trends upwards\n- Trading below 200 hr MA($0.12686)\n- RSI 14 at 36.56\n\n#trade #crypto #DOGE #dogecoin",
-            "created_at": "Mon Mar 07 23:00:29 +0000 2022",
+            "tweet_count": 101,
+            "username": "PODOMORO",
+            "user_account": "PODOMOR99657765",
+            "text": "Killingly vs. Hand | Connecticut Girls Hs Basketball 2022 live\nRedmen @ Tigers\n🔴 Watch Live Here =&gt; https://t.co/n8zMwt9brH\nThe Hand (Madison, CT) varsity basketball team has a neutral playoff game vs. Killingly (CT) on Monday, March 7 @ 7p.\nPlease LIKE and SHARE !! https://t.co/YFTHKzne0G",
+            "created_at": "Mon Mar 07 23:00:21 +0000 2022",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
+            "tweet_count": 102,
             "username": "criptoprecio",
             "user_account": "criptoprecio",
             "text": "$BTC 38213 ; -1.87%\n$ETH 2503.8 ; -4.69%\n$BNB 382.0 ; +0.28%\n$SOL 82.25 ; -4.02%\n$ADA 0.8 ; -4.64%\n$XRP 0.723 ; -2.21%\n$LUNA 77.98 ; -3.82%\n$DOT 16.34 ; -5.60%\n$DOGE 0.117 ; -3.94%\n$MATIC 1.42 ; -3.40%\n$SHIB 0.000022 ; -3.77%\n$AVAX 71.95 ; -2.38%\n$SAND 2.795 ; -4.11%",
@@ -1031,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 104,
+            "tweet_count": 103,
             "username": "cryptosUSD",
             "user_account": "cryptosUSD",
             "text": "🔄 Prices update in $USD | Last 1 hour\n\n$XRP 🟢: 0.72 $    (+0.25 %)\n$SOL 🟢: 82.26 $   (+1.32 %)\n$DOGE 🟢: 0.12 $    (+0.52 %)\n$DOT 🟢: 16.34 $   (+0.77 %)",
@@ -1041,7 +1031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 104,
             "username": "DogeCoin Value EUR",
             "user_account": "DogeCoinBotEUR",
             "text": "Current price of DogeCoin: 0.10789€\n\n$DOGE #DOGECOIN #DogecoinToTheMoon\n11:00:02 PM - 07.03.2022",
@@ -1051,7 +1041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 106,
+            "tweet_count": 105,
             "username": "Doge Coin Every Half Hour",
             "user_account": "DogePriceAlert",
             "text": "The current Doge coin price is: $0.1171",
@@ -1061,7 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 107,
+            "tweet_count": 106,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "The current value of 1 DOGE in USD is: $0.11695 (📉 down 0.002300 so far today). #dogecoin",
@@ -1071,7 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 108,
+            "tweet_count": 107,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000003005, 0.27% change in the last hour, -3.17% change in the last 24H.\n\n24H Volume: $8,021,050.\n\nCoinMarketCap Rank: #2892.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -1081,7 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 109,
+            "tweet_count": 108,
             "username": "Tesla Dojo 🦋𝕏",
             "user_account": "tesladoj0",
             "text": "#dogecoin is getting ready for a big move.",
@@ -1091,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 110,
+            "tweet_count": 109,
             "username": "Cryptos Luck",
             "user_account": "CryptosLuck",
             "text": "Here os your free bet daily\n\nWin Dogecoin instantly\n@dogecoin\n\nEnjoy 👇\nhttps://t.co/7Wjmtj9bfJ https://t.co/emh6gwiWjf",
@@ -1101,7 +1091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 111,
+            "tweet_count": 110,
             "username": "Powie",
             "user_account": "PWongaroon",
             "text": "@Investments_CEO How about sell dogecoin and buy Tesla car🤷‍♂️",
@@ -1111,7 +1101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 112,
+            "tweet_count": 111,
             "username": "Steven Flores 🟧 🟦",
             "user_account": "sflore83",
             "text": "I will accept dogecoin and promote once again... don't fuck it up nor will I....",
@@ -1121,7 +1111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 113,
+            "tweet_count": 112,
             "username": "Weenec",
             "user_account": "chalkie63",
             "text": "Hold on to your butts. $JRSC @JurassicToken is going to be 🧨 this year. $TKING $COC $BLINU $DOGE $ETH $SHIB get in before fomo. This #BSCGem is going to moon this year. #jurassicworlddominion releases in June. 🦖🦕🔥🚀🌕📈 ➡️ https://t.co/LxF12DnAi7",
@@ -1131,7 +1121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 114,
+            "tweet_count": 113,
             "username": "Steven Flores 🟧 🟦",
             "user_account": "sflore83",
             "text": "Okay I will work with dogecoin forgive me as I sinny sin sin. Amen",
@@ -1141,7 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 115,
+            "tweet_count": 114,
             "username": "xAI",
             "user_account": "TraderXai",
             "text": "@dogeofficialceo The future will be Bitcoin and Dogecoin.",
@@ -1151,7 +1141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 116,
+            "tweet_count": 115,
             "username": "Yoyi🏄‍♂️🌊🐋",
             "user_account": "realyordanis",
             "text": "Nothing more exiting than coming back from a short vacation and finding out the greatest opportunity to keep accumulating #dogecoin",
@@ -1161,7 +1151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 116,
             "username": "aWebAnalysis | Crypto",
             "user_account": "aWebAnalysis",
             "text": "Dogecoin DOGE Current Price:\n$0.1177\n\n1h: +1.16%\n24h: -3.73%\n7d: -12.37%\n\n30d: -20.26%\n60d: -26.59%\n90d: -33.42%\n\n#doge $DOGE #dogecoin",
@@ -1171,7 +1161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
+            "tweet_count": 117,
             "username": "💜💀🖤👁🤎🏺💛➰®️🔱®️⛔⭕❌",
             "user_account": "LuchowskiFilip",
             "text": "@MattWallace888 Dogecoin is unbalanced invaluable",
@@ -1181,13 +1171,23 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 119,
+            "tweet_count": 118,
             "username": "Frases",
             "user_account": "inspireipoesia",
             "text": "Shill me your NFT 🔥 Drop your art !!! 🚀\n\n1 ) Retweet \n2 ) Drop your Art or project \n3 ) Follow Me \n\nsupport small artist 🥰\n\nSend DM and advertise your nft project here✅\n\n#NFTCollection #NFTCommunity #NFTs #opensea  #SHIB #BabyDogeCoin #shibking #dogecoin #solana #sol #bitcoin",
             "created_at": "Mon Mar 07 22:50:51 +0000 2022",
             "retweet": 2,
             "likes": 11,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 119,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n9,000,000 $DOGE ($1,059,273 USD) was transferred from multiple wallets to a #Top20 wallet.\n\nFee: 2.00 ($0.24 USD)\n\nTx: https://t.co/jDIghaOYct\n\n#DogecoinWhaleAlert #WhaleAlert #Dogecoin #CryptoNews",
+            "created_at": "Mon Mar 07 22:50:41 +0000 2022",
+            "retweet": 1,
+            "likes": 2,
             "retweeted_tweet": null
         },
         {
@@ -1262,26 +1262,6 @@
         },
         {
             "tweet_count": 127,
-            "username": "Crypto Blaze Signals",
-            "user_account": "BlazeSignals",
-            "text": "Support us on patreon! https://t.co/ftiSeylK1m\n$ETH $BTC $ADA $SOL $XRP $COCOS $SHIB $BNB $DOT $DOGE #crypto #cryptocurrency #cryptoanalysis https://t.co/Aa182lo8ER",
-            "created_at": "Mon Mar 07 22:41:56 +0000 2022",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 128,
-            "username": "Dr. Crypto",
-            "user_account": "drcryptoi",
-            "text": "The current price of one DOGE is now: $0.1175, 1% change in the last hour!\n\nOne MDOGE is worth $117,488.0325.\n\nTotal volume in last 24H: $534,535,987.\n\nCurrent CoinMarketCap Rank: #13\n\n$DOGE #DOGECOIN",
-            "created_at": "Mon Mar 07 22:40:47 +0000 2022",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 129,
             "username": "Altcoin Trader",
             "user_account": "comp_technician",
             "text": "Will $Doge hit bottom $0.07 ??",
@@ -1291,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 130,
+            "tweet_count": 128,
             "username": "MikeMW69420",
             "user_account": "Mikemoumou1",
             "text": "@dogesuppporteam Dumb 2022 🚨🚨\n#dogecoin $doge",
@@ -1301,7 +1281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 129,
             "username": "Bigtco7",
             "user_account": "Bigtco715",
             "text": "Come hang out $ADA $BTC $ETH $LUNA $XRP $BNB $CRO $CELO $LTC $FIL $EGLD $MATIC $DOGE $SHIB $ETC $AVAX $COMP $VRA $FEG $DOT $CKB $sol $axs $link $uni $sand $algo $dydx $mana $vet $grt  $amp $frm $hbar $stmx https://t.co/u4Il4ImGXe",
@@ -1311,7 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
+            "tweet_count": 130,
             "username": "Moose 𝕏",
             "user_account": "IfartB4ipoo",
             "text": "@kokid951 👀 lol like the Dogecoin posts ikr",
@@ -1321,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
+            "tweet_count": 131,
             "username": "Holistic ƉOGE 𝕏",
             "user_account": "Doge4Faithful",
             "text": "@inevitable360 cs and half life , such times 💚WOW #DogeFam #Dogecoin #DogecoinToTheMoon 🐕🚀🌕",
@@ -1331,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
+            "tweet_count": 132,
             "username": "Will Lidstone",
             "user_account": "LidstoneWill",
             "text": "@intocryptoverse thats a funny way of spelling dogecoin",
@@ -1341,7 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 135,
+            "tweet_count": 133,
             "username": "Lex",
             "user_account": "__hOneygOld",
             "text": "When’s the last time $DOGE was at $0.11???? That’s what I paid on Feb 2021!!",
@@ -1351,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
+            "tweet_count": 134,
             "username": "SHIB SHADY",
             "user_account": "livnacryptolife",
             "text": "🤔 Is this considered good shib exposure?🤔🙄🤷🏻 IDK\nhttps://t.co/HnbJnQ7iY9",
@@ -1361,23 +1341,13 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
+            "tweet_count": 135,
             "username": "Tyler Milgate",
             "user_account": "MilgateTyler",
             "text": "@wandrinstar @divinegrackle exactly. Every r/dogecoin memer who came to twitter after realizing the community was kind of toxic (and receiving second hand info) tends to remain here. Because you can be fun and silly and everyone prefers it ☺️",
             "created_at": "Mon Mar 07 22:35:22 +0000 2022",
             "retweet": 0,
             "likes": 4,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 138,
-            "username": "I am Doge",
-            "user_account": "Reaper67058359",
-            "text": "$DOGE to 1$ , $DOGE is worth:$0.12 \n24h volume:$535,170,720.62\nPercentage change for the past hour :1.20%\nCurrent Market cap : $15,603,236,885.30\n#Dogecoin #DogeDay #Doge #DogeFather Price Check",
-            "created_at": "Mon Mar 07 22:35:13 +0000 2022",
-            "retweet": 0,
-            "likes": 0,
             "retweeted_tweet": null
         }
     ]

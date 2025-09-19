@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -12,22 +12,22 @@
         },
         {
             "tweet_count": 2,
+            "username": "CoinKit",
+            "user_account": "coinkit_",
+            "text": "@bloqport You have tipped elflaire 5 $doge !",
+            "created_at": "Fri Feb 07 23:59:31 +0000 2020",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
             "username": "John Morgan",
             "user_account": "johnmorganFL",
             "text": "#Dogecoin Price Prediction and Analysis in February 2020\n\nhttps://t.co/qsLtgvjIBl https://t.co/PEBZaLH8Vo",
             "created_at": "Fri Feb 07 23:59:23 +0000 2020",
             "retweet": 0,
             "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 3,
-            "username": "kassanou",
-            "user_account": "kassanou1",
-            "text": "Want to win 50000 DOGECOINS Free? Register with only 2 clicks! https://t.co/Vfjzm07Bif - #crypto #bitcoin #giveaway #contest #free #airdrops #airdrop #ethereum #neo #tron #ada #dogecoin #doge https://t.co/GmGJUsh5iY via @fatpigsignals",
-            "created_at": "Fri Feb 07 23:49:29 +0000 2020",
-            "retweet": 0,
-            "likes": 0,
             "retweeted_tweet": null
         },
         {

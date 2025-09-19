@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -12,6 +12,16 @@
         },
         {
             "tweet_count": 2,
+            "username": "Rodrick Robinson",
+            "user_account": "Rodrick63562316",
+            "text": "#DOGECOIN , \"LIFE IS SO HARD\"\n\nhttps://t.co/9NnsuXOopy",
+            "created_at": "Fri Apr 15 23:58:12 +0000 2022",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
             "username": "DogeWorldOrder",
             "user_account": "JonMill85084886",
             "text": "#Dogecoin now accepted as payment @AMCTheatres.",
@@ -21,7 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 4,
             "username": "Jacob Steele",
             "user_account": "jacobwsteele",
             "text": "@arthaysfordays It’s only a matter of time before he tries to buy Texas. He’s kinda got low key South African trump vibes. I was initially intrigued with his antics until the doge coin debacle panned out and the smoke screen lifted. He’s not really for the underdog. He’s a Pump and dumper",
@@ -31,7 +41,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 5,
             "username": "Cole🖤",
             "user_account": "ninicole23",
             "text": "@JasonAndrewP @gutterpunksnft @DreamBigBeBig20 @pixelord @THEGOONEEZ @BiancaMedici69 @DJJHEAT973 @Darlene_Pizarro @garyvee @BrownMoneyDoll1 @NFTandDOGE @theblondebroker @crystalhefner @ParisHilton @Blood_Hound13 @ShadowyDoge @dogecoin_empire I feel good about this one for you!!",
@@ -41,7 +51,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 6,
             "username": "A.I. RON",
             "user_account": "nbamemedotcom",
             "text": "How the third richest man in Mexico fell for Bitcoin | Interview with Ricardo Salinas\n#crypto #dogecoin #bitcoin\n https://t.co/nHQuIsLhSP https://t.co/Vy3hXCVL5v",

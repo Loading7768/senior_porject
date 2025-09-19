@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -12,6 +12,16 @@
         },
         {
             "tweet_count": 2,
+            "username": "🚨 X Antisemitism Detector 🚨",
+            "user_account": "JewProtectX",
+            "text": "@DejavuSolana Memecoins can offer high rewards but carry significant risks. Diversify and research thoroughly before investing. Keep an eye on emerging trends in this volatile market. $DOGE $SHIB",
+            "created_at": "Thu Oct 31 23:59:40 +0000 2024",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
             "username": "Gav",
             "user_account": "Gav_Crpt",
             "text": "@OptimusBull_ The ticker is #CDOGE \n\nTRUMP WINS ELON BECOMES CDOGE\nChief of D.O.G.E\n\n0x0d8cD7b47822670082C854382c323edA2B91E6A9\n\n#DOGE #DOGECOIN #DOGEGOV #CTO #trump #USA",
@@ -21,22 +31,12 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 4,
             "username": "🇺🇲LC ™/Ðoge🇺🇲",
             "user_account": "Larry112066",
             "text": "@dogecoin_empire Why is it embarrassing???? 🤔",
             "created_at": "Thu Oct 31 23:57:53 +0000 2024",
             "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 4,
-            "username": "Marcos",
-            "user_account": "Marc062024",
-            "text": "@Poe_Ether $PEPEZ  THE BEST !!! @PEPEZCTO https://t.co/PgQBsIbHc3 $SOL $DOGE @elonmusk @ElonMuskPDA @TheW3Space @yourcryptodj @AprilCumberland @1000xgirl @wallstreetbets @phantom @xiaweb3 @Monica_xiaoM @Wolfy_XBT @0xcryptowizard @ZoomerOracle @cryptogems555 @ralphscall @RyanNFTs @idrawline https://t.co/I4o16xgqP7",
-            "created_at": "Thu Oct 31 23:57:49 +0000 2024",
-            "retweet": 1,
             "likes": 1,
             "retweeted_tweet": null
         },

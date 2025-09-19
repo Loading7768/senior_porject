@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -22,16 +22,6 @@
         },
         {
             "tweet_count": 3,
-            "username": "Yash Thakrar",
-            "user_account": "yashthakrar1996",
-            "text": "Current Price:\n#Bitcoin:$49,125.79\n#Litecoin:$163.02\n#dogecoin:$0.18\n#Ethereum:$4,125.76\n#EthereumClassic:$39.44\n#BitcoinCash:$473.73",
-            "created_at": "Sat Dec 04 23:59:53 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 4,
             "username": "kobiewan",
             "user_account": "smith_kobie",
             "text": "#dogecoin that’s all",
@@ -41,7 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 4,
             "username": "CRYPTO THRO",
             "user_account": "CryptoThro",
             "text": "Twitter Post Protest - Day 18\n #ElonMusk #DogeZillaCoin Loves You. We will post one ☝️ of your pictures daily till you like or retweet @DOGEZILLACOIN. #Dogezillarmy let’s get this tweet to @elonmusk. We love ❤️❤️ him.\n\n#cro     #Binance  #GEM #BNB    #TRX     #Ethereum #dogecoin https://t.co/tvxA1tupCD",
@@ -51,7 +41,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 5,
             "username": "Ashish Kesharwani",
             "user_account": "AshishKeshar",
             "text": "@WhyCryptoAssets @elonmusk @dogecoin @JaiHoCrypto #JaiHo to the moon🚀🚀",
@@ -61,7 +51,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 6,
             "username": "Breed_For_Speed",
             "user_account": "BreedForSpeed",
             "text": "#BreedforSpeed launched on the 1st of December!!\nGet ready for #Christmas2021 #gifts !\n\n#BREEDtoken to the moon!\n\nhttps://t.co/o4Lg62ibQg\n\n#NFT  #PlayToEarn #NFTGiveaways #Dogecoin #shiba #Metamask #NFTdrop #NFTCommunity #polygonNFT #PolygonNFTs #Polygon #MATIC #NFTs https://t.co/r7DfohlAG0",
@@ -71,23 +61,33 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
-            "username": "Doge Norway",
-            "user_account": "DogecoinNorway",
-            "text": "Crypto 🤣🤷‍♂️🐶❤️‍🔥 #dogecoin #doge #cryptocurrency https://t.co/BcxYizMILC",
-            "created_at": "Sat Dec 04 23:57:50 +0000 2021",
-            "retweet": 5,
-            "likes": 17,
+            "tweet_count": 7,
+            "username": "DogecoinBoy98",
+            "user_account": "CryptoJolly98",
+            "text": "@wolfofwallst Buy #dogecoin boss",
+            "created_at": "Sat Dec 04 23:57:59 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 8,
             "username": "Abo Nabil",
             "user_account": "Abonabiiil",
             "text": "@doge1moon_CEO RETWEET IF YOU BUYING MORE $DOGE 💰🚀",
             "created_at": "Sat Dec 04 23:57:43 +0000 2021",
             "retweet": 1,
             "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 9,
+            "username": "DogecoinBoy98",
+            "user_account": "CryptoJolly98",
+            "text": "@wolfofwallst @BoredApeYC #dogecoin best Coin ever",
+            "created_at": "Sat Dec 04 23:57:41 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
@@ -212,6 +212,16 @@
         },
         {
             "tweet_count": 22,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "@nl_dogecoin wherever you are, whatever you are doing, I will influence you, 🥰",
+            "created_at": "Sat Dec 04 23:53:43 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 23,
             "username": "NSun • Graphtronaut 👨‍🚀",
             "user_account": "n_son2",
             "text": "Resharing since sadly no responses 🙁\n\nRT, share with other #crypto #twitter friends 🙂\n\nNow's a chance to share your work with others! \n\n#Blockchain #Web3 #DeFi #Decentralization  #tech #artwork #photographylovers #Video #CreativeSociety\n\n$BTC $ETH $DOGE $SHIB $LINK $GRT",
@@ -221,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 24,
             "username": "Juan 💯 (juanhundred.eth)",
             "user_account": "gojonbriel",
             "text": "@buydogecoin_ I would make 10 new shibes @ 50,000 #dogecoin each.",
@@ -231,7 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 25,
             "username": "Michael Tullis",
             "user_account": "Michael_for_now",
             "text": "Bought the dip, yall don't sleep on these discount prices. $algo $doge $btc $shib",
@@ -241,22 +251,12 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 26,
             "username": "Accurate Headlines",
             "user_account": "JohnSmi88078679",
             "text": "@dogecoin_trader @BigHeadBS Why do Michigan and Cincy care? They are in with wins either way",
             "created_at": "Sat Dec 04 23:52:38 +0000 2021",
             "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 26,
-            "username": "Flash - Dogecoin",
-            "user_account": "FDogecoin",
-            "text": "So glad I never had kids or got married.\n\nI can wake up when there's a dip and buy a nice big chunk. All of my money is mine. \n\n#cryptocurrecy #dogecoin #cardano",
-            "created_at": "Sat Dec 04 23:52:17 +0000 2021",
-            "retweet": 1,
             "likes": 0,
             "retweeted_tweet": null
         },
@@ -282,6 +282,26 @@
         },
         {
             "tweet_count": 29,
+            "username": "DogecoinBoy98",
+            "user_account": "CryptoJolly98",
+            "text": "Paper hand🥺🥺🥺🥺🤡🤣🤣🤣🤣🤑 #dogecoin #crypto",
+            "created_at": "Sat Dec 04 23:51:46 +0000 2021",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
+            "username": "DogecoinBoy98",
+            "user_account": "CryptoJolly98",
+            "text": "@itsALLrisky Fees, starlink node and  DOGE-1 mission #DogecoinToTheMoon #dogecoin",
+            "created_at": "Sat Dec 04 23:50:29 +0000 2021",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 31,
             "username": "Hüseyin Araz",
             "user_account": "Araz4Huseyin",
             "text": "@rbcamasters It is okey ;almost my all money in the dogecoin.and from the may I buy and I buy and my last buy was last week 0,22$ and it is always go down .I really can’t understand what is the dip",
@@ -291,7 +311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 30,
+            "tweet_count": 32,
             "username": "N0 Al0ha❄️",
             "user_account": "Al0haN0",
             "text": "@Joy_Bangla_1979 I couldn't figure $DOGE out either. Ended up selling at a loss just to get the flavor out of my mouth. \n\nOdd how some ebb and flow but the rhythm never makes sense. Its like 5/4 time.",
@@ -301,7 +321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
+            "tweet_count": 33,
             "username": "Dewey369",
             "user_account": "Dewey3691",
             "text": "@Utoday_en @shibainuart I LOVE TO HEAR NEWS LIKE THIS @ShibArmy @shibarium_ @dogecoin @Bitcoin",
@@ -311,7 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 32,
+            "tweet_count": 34,
             "username": "Victor A.",
             "user_account": "Victor23GLife",
             "text": "@TradesTrey, You really keep your promise. The personal letter is wonderful, and of course, the two $50 ($100) gift cards are great. I will take my family to watch Spider-Man thanks to you! \nHope to see you in the moon👍😉🚀🚀 AMC and DOGECOIN https://t.co/PwbaLnBGzF",
@@ -321,7 +341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 35,
             "username": "Brad Glasgow",
             "user_account": "Brad_Glasgow",
             "text": "@LaForge_ @saifedean @AlexEpstein When I, and pretty much anyone normal, say end bitcoin, we're talking about bitcoin, eth, dogecoin, and all that other stuff.",
@@ -331,17 +351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
-            "username": "ClankApp - Crypto Whales Tracker 🐳",
-            "user_account": "ClankApp",
-            "text": "💰113,828,081 #DOGE (22,858,400 USD) move from unknown wallet to unknown wallet\n \nDate : 2021-12-04 23:47:42 (GMT 0)\nBlockchain : #DOGECOIN\nSymbol : #DOGE\n \nDetail: https://t.co/qqIxUtj2ma",
-            "created_at": "Sat Dec 04 23:49:34 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 35,
+            "tweet_count": 36,
             "username": "El Chirrete de las Criptomonedas 📈📉",
             "user_account": "CryptoChirry",
             "text": "Dos cosas bellas tiene Watford:. Al @cucho1099 y a #Dogecoin",
@@ -351,7 +361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 37,
             "username": "DogePater",
             "user_account": "DogePater",
             "text": "@ShawnDoge Dogecoin please go up so we can get some McDonalds 🤣😂😁",
@@ -361,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 37,
+            "tweet_count": 38,
             "username": "Nini da 5'2",
             "user_account": "kissmycvnt",
             "text": "Dogecoin failed us",
@@ -371,7 +381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
+            "tweet_count": 39,
             "username": "esat çay",
             "user_account": "CayEsatay18",
             "text": "now is 1 #dogecoin to 1 #dogecoin",
@@ -381,7 +391,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
+            "tweet_count": 40,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,595,227 $DOGE ($1,004,270 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 1.44 ($0.26 USD)\n\nTx: https://t.co/3gnCJgsGTm\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:48:32 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 41,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,595,227 $DOGE ($1,004,270 USD) was transferred from multiple wallets to an unknown wallet.\n\nFee: 1.62 ($0.29 USD)\n\nTx: https://t.co/YPEkTtGFZP\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:48:31 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
             "username": "Ray",
             "user_account": "kennethray25",
             "text": "@TeslaAIBot Optimus Claus’ speed &gt; Santa Speed\n\nKids will have to stay up AND have a #StrobeLight to see the real Optimus Claus.\n\n#Tesla #DogeCoin",
@@ -391,7 +421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 43,
             "username": "SignatureDoge.1.14.7.doge",
             "user_account": "SignatureDoge",
             "text": "@mikecryptolife @BotOfDogecoin Using #DogeCoin as an actual currency is another method of making it moon. Wide spread adoption is the way. Right @Austrollian ?",
@@ -401,7 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
+            "tweet_count": 44,
             "username": "Shimo | 1785",
             "user_account": "Slimrea867",
             "text": "@CryptoWhale $DOGE",
@@ -411,7 +441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 45,
             "username": "Marinoshi Canamoto",
             "user_account": "josejoaquiniraq",
             "text": "$DOGE #TOTHEMOON Happy Birthday to me. https://t.co/f4M7SIvLlT",
@@ -421,7 +451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 46,
             "username": "Andres Perdomo",
             "user_account": "Andr3sperdomo",
             "text": "So simple. #dogecoin https://t.co/H55qyP8Ytq",
@@ -431,7 +461,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 47,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@BigHeadBS Michigan and cincy both want bama to win but the rest of us don’t.",
+            "created_at": "Sat Dec 04 23:45:15 +0000 2021",
+            "retweet": 1,
+            "likes": 6,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 48,
             "username": "SurfingDoge",
             "user_account": "SurfingDoge",
             "text": "▼ DOGECOIN Bearish Momentum ▼\nMomentum is now decreasing in a bearish direction.\nCurrent Price: $0.1831\n#doge #dogecoin #dogearmy #cryptocurrency",
@@ -441,7 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
+            "tweet_count": 49,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000001748, -0.63% change in the last hour, -9.81% change in the last 24H.\n\n24H Volume: $10,863,693.\n\nCoinMarketCap Rank: #2869.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -451,7 +491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 50,
             "username": "SignatureDoge.1.14.7.doge",
             "user_account": "SignatureDoge",
             "text": "@BeefDrew_ @BotOfDogecoin It’s going to be a great year for #DogeCoin",
@@ -461,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 51,
             "username": "reigedregor",
             "user_account": "reigedregoR",
             "text": "$KLEE will be growing soooooo BIG and so will your BAG. You won’t even believe your eyes! TODAY ANOTHER BIG ANNOUNCEMENT! #kleerun #klee   @KleeKaiETH #Ethereum #ETH #btc   #Bitcoin   $shib $saita $doge #SHIB #xrp #ada $floki #play2earn https://t.co/fKb2NAXBt0",
@@ -471,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
+            "tweet_count": 52,
             "username": "MintNftz",
             "user_account": "MintNftz",
             "text": "@Crypto_Dep @PancakeSwap @APompliano @TheCryptoLark @Shibtoken @dogecoin @psychedemon @RealFlokiInu @_CardanoReport @bscstation @certik_io $Wars coming for all #Altcoins this Q4. The next list #Metawars will be topping it",
@@ -481,7 +521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
+            "tweet_count": 53,
             "username": "EddyDarko",
             "user_account": "EddyDarko4",
             "text": "@BillyWarwickLDN I reported your copycat the other day and am hoping you may assist me in spreading awareness of this. I not only lost my own $DOGE but referred two friends. As penance I have resolved to spread this as far and wide as I can. Your reach is far greater than mine.Ty",
@@ -491,7 +531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 54,
             "username": "J_Crypto",
             "user_account": "CryptoJuanan",
             "text": "New daily tweet, but this time with our favourite #doge @VitaInuCoin 🐶🐶\n\nOkey I’m going to do it until @binance @BinanceES lists $VINU into their exchange!! \n\nDay 4\n\n#vitefleet join the movement with me $VITE #vite $VX $VICAT $VITC\n\n❤️Could we get 100 likes?❤️ #shiba #dogecoin https://t.co/rLRUvMzILJ",
@@ -501,7 +541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 55,
             "username": "Relmilio Ortiz",
             "user_account": "OrtizRelmilio",
             "text": "@WatcherGuru If anything people should be appreciative of cryptos like Shiba Inu and Dogecoin because they served as a gateway into the crypto world/market for new investors to explore and have FUN!!!",
@@ -511,7 +551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
+            "tweet_count": 56,
             "username": "CFO of Shawarma Real Estate Capital LLC",
             "user_account": "shawarmaREcap",
             "text": "Threw some coin on $doge and lol https://t.co/fGRmipvn8P",
@@ -521,7 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 57,
             "username": "Archinovative",
             "user_account": "archinovative",
             "text": "@SawyerMerritt Dogecoin’s 8th Birthday",
@@ -531,7 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 58,
             "username": "Holly",
             "user_account": "STEMGirlHolly",
             "text": "So far today made money on $SHIB, $DOGE, and $GALA. Watch moving averages. Watch prior resistance levels. $GALA still feels strong to me. NFA",
@@ -541,7 +581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 59,
             "username": "Hüseyin Araz",
             "user_account": "Araz4Huseyin",
             "text": "@rbcamasters Sorry one guestion?where is the dip for dogecoin ?",
@@ -551,7 +591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 60,
             "username": "Danie",
             "user_account": "smc_test",
             "text": "$DOGE ROLL TIDE AND DOGE TO THE MOON!! ⭐\n\n#RecvProfit",
@@ -561,7 +601,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 61,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@BigHeadBS Georgia letting the sec down…",
+            "created_at": "Sat Dec 04 23:41:57 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
             "username": "Ninrod",
             "user_account": "Ninrod803411731",
             "text": "Wanna know the next 100x? \n\nIt’s $OPCAT. It wants to protect all other #memecoins  🌞\n\n✨Just burned 2.7% of supply. Worth $200k! \n\n🌕 Swap + Bridge coming in. Moon stack \n\n$floki #catgirlcoin $doge $saita $cate $mcc $gm #3dog $cdrop $fren $wgmi #safemoon $shib $coti $kiba",
@@ -571,7 +621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 63,
             "username": "ReelGooodMemes",
             "user_account": "reelgooodmemes",
             "text": "wrong answer only  #dogecoin #memes #cryptos#reelgooodmemes https://t.co/5NHOF558FE",
@@ -581,7 +631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
+            "tweet_count": 64,
             "username": "Crypto Bipolar",
             "user_account": "cryptobipolar_",
             "text": "😳 [ $DOGE ] Dogecoin has gone down\n💵 $0.1783\n📉 Variance -0.0086%  -$0.002\n\nUpdated at 20:41h",
@@ -591,7 +641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 65,
             "username": "Just do it",
             "user_account": "Silvia53687833",
             "text": "$DOGE  spike to 5$ easy😎 🚀🚀🚀 ️\n\n#RecvProfit",
@@ -601,7 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 66,
             "username": "Kyle Hall",
             "user_account": "KyleHal92501912",
             "text": "$DOGE so I averaged up... Big deal. 🤞\n\n#RecvProfit",
@@ -611,7 +661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 67,
             "username": "golđen991🤍🐕",
             "user_account": "golden991",
             "text": "@dogeuniversal Have to get out of comfort zone to reach millions and millions and millions of people all over world. It is not a for-profit company with typical command / control mindset. Can have parts command control rolling out initiatives, $doge campaigns. Voluntary. coordinate messaging.",
@@ -621,7 +671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 68,
             "username": "KryptoLee",
             "user_account": "LeeDoesIt1",
             "text": "This is for people that want to actually learn and stop losing money 💰🔥 #cryptocrash #Crypto $LTC #shiba #shibainu #BTC $mrai $CFVI #dogecoin #doge #MANA https://t.co/52n2Bwyc2u",
@@ -631,7 +681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 69,
             "username": "J_Crypto",
             "user_account": "CryptoJuanan",
             "text": "If you listed this coin you should also list the new #doge coin, called $VINU x19 since pre-sale market, and is feeless and have something in mind for #metaverse @VitaInuCoin @ElemontCapital $vite #ViteFleet",
@@ -641,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 70,
             "username": "cryptoaugustus",
             "user_account": "cryptoaugustus8",
             "text": "Got to love #dogelonmars. Let’s get it ! #Crypto #dogecoin #ElonMusk #cryptocurrency",
@@ -651,7 +701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 71,
             "username": "Angel Torres",
             "user_account": "Angel_T_A",
             "text": "@fuckjosiee They take dogecoin now",
@@ -661,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 72,
             "username": "rbca",
             "user_account": "rbcamasters",
             "text": "…and the buy the dip. #dogecoin #DogecoinToTheMoon",
@@ -671,7 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 73,
             "username": "G",
             "user_account": "cashdamon1",
             "text": "@PontiacMadeDDG Dogecoin to the moon",
@@ -681,7 +731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 74,
             "username": "ʙʟᴜᴇᴄʜɪᴘᴊᴘᴇɢ.ᴇᴛʜ (🐈‍⬛,🛵)",
             "user_account": "Web3_Motivation",
             "text": "@BustaRhymes Mista Rhymes! Check out $KODA!\nIt's going to take off with their $300k marketing campaign🚀\n\nForget $SHIB, $DOGE  and $FLOKI!\n$KODA is a #memecoin with a real purpose!\n\nAiming on being to get the biggest DEX of the UK and more!\n\n@CoinKoda https://t.co/Z8NDSmpewc",
@@ -691,7 +741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 75,
             "username": "Crypto Rain Enthusiast 🤩",
             "user_account": "VitBuonarroti",
             "text": "Mmmh… 69 and 420… 🤔\n\nIs #Bitcoin sending hidden messages to #Dogecoin?\n\nCould be kinda “when I’m high and when I’m low, I can’t stop thinking about you”?\nLOL it sounds like Empire of the Sun featuring Sting 😂\n@greg16676935420 @BillyM2k @MattWallace888 @elonmusk https://t.co/JXRaP0c74b",
@@ -701,7 +751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 76,
             "username": "Hüseyin",
             "user_account": "53_huso",
             "text": "🚀🚀🚀 @elonmusk  @dogecoin 🚀🚀🚀\n   🚀🚀🚀TESLA DOGE 🚀🚀🚀",
@@ -711,7 +761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 77,
             "username": "Kishan Patel",
             "user_account": "kishan3108",
             "text": "Considering Elon Musk's keen interest in pushing for Dogecoin wallets and helping to resolve issues makes me believe rhat he/Tesla will accept Dogecoin just one day before they will start accepting Bitcoin.\n\n#dogecoin\n#buythedip\n#Bitcoin\n#Tesla",
@@ -721,7 +771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 78,
             "username": "SignatureDoge.1.14.7.doge",
             "user_account": "SignatureDoge",
             "text": "🤯 hmmm I’d prefer #DogeCoin 😏",
@@ -731,7 +781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 79,
             "username": "Gazmend Haxholli",
             "user_account": "gazizag1986",
             "text": "$BTC #BTC Point 2.\n1.Downtrend\n2. Rising trend correction\n3. Downtrend\n\n$Atom $Blok $Doge $VR $Rose $MTV $Zec $Ctsi $XTM $Maki $Luna $Shib $Avax $Mana $Ftm $Vra $Tel $Axs",
@@ -741,7 +791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 80,
             "username": "TheChosenone ☝🏽",
             "user_account": "Ali31617376",
             "text": "@ShibInform No it won't.  Look at dogecoin lol",
@@ -751,27 +801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
-            "username": "Michael",
-            "user_account": "MichaelM_NFT",
-            "text": "If You Had $1,000 Right Now, Would You Buy The Dip In Ethereum Classic, Shiba Inu, Litecoin Or Dogecoin? https://t.co/zW2nLZ25tY #DOGE #ETC https://t.co/UFZIcKZpvW",
-            "created_at": "Sat Dec 04 23:37:34 +0000 2021",
-            "retweet": 0,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 77,
-            "username": "Doge Value",
-            "user_account": "dogevalue",
-            "text": "4 December 2021, 11:37h \n\nThe current price of 1 $DOGE is now equal to 1 DOGE. 🔥\n\nBased on the current value and historical data seems HODLing is the wiser thing to do (at least til the next hourly update). \n\nThis is not financial advice. DYOR. 🌝\n\n#doge #dogecoin #dogearmy",
-            "created_at": "Sat Dec 04 23:37:13 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 78,
+            "tweet_count": 81,
             "username": "CoBe",
             "user_account": "CobeDoge",
             "text": "@itsALLrisky After Boozin tip your Uber/Lyft driver Dogecoin @Uber #doge #dogecoin @lyft @AskLyft https://t.co/liaiqOq5h7",
@@ -781,7 +811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 79,
+            "tweet_count": 82,
             "username": "El Chirrete de las Criptomonedas 📈📉",
             "user_account": "CryptoChirry",
             "text": "#Dogecoin is undervalued\n\nThe main performance dogecoin isn't his community, are devs.",
@@ -791,7 +821,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 83,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "@DogecoinNorway @topherAlba26 @catandradec @MilgateTyler @BillyM2k @BigImpactHumans @DogeMoon11 @DogecoinTweet @YoungCrypto69 @nl_dogecoin @liquidseahorse Norway 🥰",
+            "created_at": "Sat Dec 04 23:36:35 +0000 2021",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 84,
             "username": "DJyeryMoDz™ 🇩🇴🇺🇸",
             "user_account": "DJyeryMoDz",
             "text": "Can #dogecoin go back to .16c I need to buy some more! 😂",
@@ -801,7 +841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 85,
             "username": "Juan 💯 (juanhundred.eth)",
             "user_account": "gojonbriel",
             "text": "\"If it is possible, as far as it depends on you, live at peace with everyone.\" #dogecoin",
@@ -811,7 +851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
+            "tweet_count": 86,
             "username": "Prometheus Hippopotamus",
             "user_account": "MatMan3331",
             "text": "@LEECying0613 There are alot of us who disagree, so you're stuck with having #Doge around no matter the price point! $Doge #dogecoin https://t.co/BXI0TZ1Bf9",
@@ -821,7 +861,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 87,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "@pasielski @darrenrobinson I'm shilling #dogecoin though",
+            "created_at": "Sat Dec 04 23:35:42 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 88,
             "username": "WE R THE JURY",
             "user_account": "DOMINION_FRAUD",
             "text": "YES\n.\n               #CNN IS KIDFUCKER TV \n.\n#cryptocurrency #dogecoin #SALTYARMY #Tesla #CRYPTO",
@@ -831,7 +881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 89,
             "username": "Swagganella",
             "user_account": "swagganella",
             "text": "@CryptoWhale $DOGE",
@@ -841,7 +891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 90,
             "username": "whitney",
             "user_account": "WhitneyWalker33",
             "text": "@hiddin2urleft @MrBeast @dogeofficialceo @suchHODL @JustinScerini @elonmusk @Cocochaneladair @ProTheDoge @djdoge69 @ItsDogeCoin @dogecoin This brought a smile to my soul. Appreciate you fam 💛🐕",
@@ -851,17 +901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
-            "username": "Yash Thakrar",
-            "user_account": "yashthakrar1996",
-            "text": "Current Price:\n#Bitcoin:$47,057.25\n#Litecoin:$163.57\n#dogecoin:$0.18\n#Ethereum:$4,080.28\n#EthereumClassic:$39.60\n#BitcoinCash:$471.26",
-            "created_at": "Sat Dec 04 23:35:01 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 87,
+            "tweet_count": 91,
             "username": "coindicators",
             "user_account": "coindicators",
             "text": "Daily Top 5 Performers, Reddit - Engagers  \n\n🥇 $DOGE +933 \n🥈 $BTC +433 \n🥉 $LRC +299 \n🚀 $LORDA +197 \n🚀 $SHIB +186 \n\nMore on https://t.co/6BnnSYSc32\n#LRC #LORDA #BTC #SHIB #DOGE https://t.co/wdNxEwFJXW",
@@ -871,17 +911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
-            "username": "Doge Norway",
-            "user_account": "DogecoinNorway",
-            "text": "@mylilpwnyz @topherAlba26 @catandradec @MilgateTyler @BillyM2k @BigImpactHumans @DogeMoon11 @DogecoinTweet @YoungCrypto69 @nl_dogecoin @liquidseahorse Robbo ❤️",
-            "created_at": "Sat Dec 04 23:34:36 +0000 2021",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 89,
+            "tweet_count": 92,
             "username": "🆁🅸🅲🅺",
             "user_account": "RickFreyta",
             "text": "#dogecoin #UPDATE The current price of one DOGE is now: $0.1797, 2% change in the last hour! One MDOGE is worth $179,704.7010. Total volume in last 24H: $4,377,587,545. Current CoinMarketCap Rank: #11 $DOGE #DOGECOIN",
@@ -891,7 +921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 93,
             "username": "Evolucion Crypto",
             "user_account": "EvolucionCrypto",
             "text": "God bless all you guys #shiba #SHIB #ElonMusk #dogecoin #Bitcoin Shiba inu we Run this game  💰💵🍹🏖 https://t.co/AKQj75NJbr",
@@ -901,7 +931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 94,
             "username": "coindicators",
             "user_account": "coindicators",
             "text": "Daily Top 5 Performers, Reddit - Active  \n\n🥇 $DOGE +3,955 \n🥈 $BTC +3,088 \n🥉 $SHIB +1,753 \n🚀 $LRC +1,243 \n🚀 $ETH +615 \n\nMore on https://t.co/2f7z2UNkRg\n#DOGE #BTC #SHIB #ETH #LRC https://t.co/ceGQq63R0o",
@@ -911,7 +941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 95,
             "username": "coindicators",
             "user_account": "coindicators",
             "text": "Daily Top 5 Performers, Reddit - Subscribers  \n\n🥇 $BTC +4,589 \n🥈 $BNB +1,336 \n🥉 $BCH +1,199 \n🚀 $ETH +1,080 \n🚀 $DOGE +1,027 \n\nMore on https://t.co/YXrsA68Viw\n#ETH #BCH #BNB #DOGE #BTC https://t.co/LOAntvdOx0",
@@ -921,17 +951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
-            "username": "DogeCoin Movement 🚀",
-            "user_account": "ItsMemesandDOGE",
-            "text": "Perfect for wiping yourself every time you check the charts 🚀\n#dogecoin",
-            "created_at": "Sat Dec 04 23:33:34 +0000 2021",
-            "retweet": 5,
-            "likes": 31,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 94,
+            "tweet_count": 96,
             "username": "Sastrasas",
             "user_account": "Sastrasas4",
             "text": "@elonmusk can you donate some dogecoin sir for this is my wallet  DQ3EzHqfcPx6NzLLLk3vN7wHynLrzHehF6",
@@ -941,7 +961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
+            "tweet_count": 97,
             "username": "Danny Boy",
             "user_account": "DannyBoy_Cat",
             "text": "Get some @Santa_Floki now! The #crypto #gem of #Christmas2021 and aiming to be the largest #gooddeed coin on #BSC all year round!\n...\n$hohoho $doge $shib $floki $hokk $santa $feg $meta $moon $mars $elon $eshib $efloki $crop $fire $zinu $kishu $sanshu $husky $frosty $mana",
@@ -951,7 +971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 96,
+            "tweet_count": 98,
             "username": "My Name Is Forest 🧛🏾‍♂️",
             "user_account": "headlessvamp",
             "text": "Watching my dogecoin dissolve into nothing is how I characterize the feeling of the pandemic",
@@ -961,7 +981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 97,
+            "tweet_count": 99,
             "username": "Vitalii Kutsyn",
             "user_account": "kutsyn_vitaliy",
             "text": "It is already a tradition to buy TRX every Saturday. \nI want 10000 #TRX\n\n#TRON #Crypto #cryptocurrency #NFTs #NFT #Staking #Bitcoin #dogecoin #SHIB #Swap #dex #DeFi https://t.co/95ZkH5DNzj",
@@ -971,7 +991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 98,
+            "tweet_count": 100,
             "username": "Esteban Sabedra",
             "user_account": "SabedraEsteban",
             "text": "get out of margin! hedges trying to push people out on margin out of the parabolic rise we're going to have\n\n #AMC #dogecoin",
@@ -981,7 +1001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 99,
+            "tweet_count": 101,
             "username": "Eric Taylor",
             "user_account": "EricTaylor4178",
             "text": "@DogecoinRide You just made my day. Thank you fam \n#dogecoin fam forever https://t.co/7vfsLzKob9",
@@ -991,7 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
+            "tweet_count": 102,
             "username": "Dooomberg 🇬🇧",
             "user_account": "Dooomberg",
             "text": "@nl_dogecoin @DogecoinNorway @EmilyInDoge @topherAlba26 @catandradec @MilgateTyler @BillyM2k @BigImpactHumans @DogeMoon11 @DogecoinTweet @YoungCrypto69 @liquidseahorse Here was me thinking we’re all friends…… obviously wrong or was i wrong about something else 🤔",
@@ -1001,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 101,
+            "tweet_count": 103,
             "username": "Your Crypto Moon Guy ! 🪙 #HODL 🧢",
             "user_account": "CaicedoC1741",
             "text": "$DOGE Nope don’t see no dead kitties here ↘ https://t.co/RFqY56RPEu",
@@ -1011,7 +1031,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
+            "tweet_count": 104,
+            "username": "CryptoCapFlow",
+            "user_account": "CryptoCapflow",
+            "text": "[Spot] By 2021-12-04 14:00 GMT, DOGE total trading volume of 9,291,879,858DOGE and net cap flow of -$639M in last 24 hrs. #cryptocurrency #CryptoCapFlow $DOGE https://t.co/vX6E5tZIa1",
+            "created_at": "Sat Dec 04 23:32:26 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 105,
             "username": "Crypto Bipolar",
             "user_account": "cryptobipolar_",
             "text": "😳 [ $DOGE ] Dogecoin has gone down\n💵 $0.1799\n📉 Variance -0.0081%  -$0.001\n\nUpdated at 20:31h",
@@ -1021,17 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
-            "username": "I am Doge",
-            "user_account": "Reaper67058359",
-            "text": "$DOGE to 1$ , $DOGE is worth:$0.18 \n24h volume:$4,378,423,504.56\nPercentage change for the past hour :1.80%\nCurrent Market cap : $23,811,147,812.34\n#Dogecoin #DogeDay #Doge #DogeFather Price Check",
-            "created_at": "Sat Dec 04 23:31:25 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 104,
+            "tweet_count": 106,
             "username": "The-Company",
             "user_account": "BOBODESIRES",
             "text": "Mark Zuckerberg's Sister Randi Says Dogecoin Killer Shiba Inu Has Become Mainstream https://t.co/ENoyZ0WGVj",
@@ -1041,7 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 107,
             "username": "Neo",
             "user_account": "arnoldshalom",
             "text": "When you start crypto with dogecoin it means you probably want to earn wealth in the most difficult way😎",
@@ -1051,7 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 106,
+            "tweet_count": 108,
             "username": "The Montana Musketeer",
             "user_account": "tentionmisleads",
             "text": "@hiddin2urleft @MrBeast @dogeofficialceo @suchHODL @JustinScerini @elonmusk @Cocochaneladair @ProTheDoge @djdoge69 @ItsDogeCoin @dogecoin You are my hero.. well, one of them! 😂",
@@ -1061,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 107,
+            "tweet_count": 109,
             "username": "Crypto Ninja",
             "user_account": "StockNinjaDD",
             "text": "Sorry not sorry 😅\n\n$DOGE / #DOGE https://t.co/1o2lwSep0l",
@@ -1071,7 +1091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 108,
+            "tweet_count": 110,
             "username": "CryptoMazon.cro",
             "user_account": "CryptoMazon",
             "text": "@davidgokhshtein $100 Dollars would get you 550 $DOGE coins and all you need is 500 $DOGE coins to stake right now on the dip 💯",
@@ -1081,7 +1101,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 109,
+            "tweet_count": 111,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "@DogecoinNorway @topherAlba26 @catandradec @MilgateTyler @BillyM2k @BigImpactHumans @DogeMoon11 @DogecoinTweet @YoungCrypto69 @nl_dogecoin @liquidseahorse This brings me joy.",
+            "created_at": "Sat Dec 04 23:30:46 +0000 2021",
+            "retweet": 0,
+            "likes": 3,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 112,
             "username": "Gul Gee, thecryptoguru.uni.eth",
             "user_account": "GulGeeOfficial",
             "text": "I told you buy the #GALA dip 😏 buy GAL BECAUSE soon $1 in December 😉\n#BTC #GALA #shiba #dogecoin #blockchain",
@@ -1091,7 +1121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 110,
+            "tweet_count": 113,
             "username": "UselessManuel #AllForOne 🧡💛",
             "user_account": "UselessMainly",
             "text": "Fiat: continuously losing value since always. \nCryptomarket: dipping in December 2021. \nCrypto haters: \"ToLd YoU sO!!!!11!\" \n🤦‍♂️\n\n#cryptocrash \n#crypto \n#buythedip \n#HODL \n#altcoin \n#BTC \n#Bitcoin \n#dogecoin \n#SAFEMOON \n#Cardano",
@@ -1101,17 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 111,
-            "username": "Crypto Price Bot",
-            "user_account": "FungibleToker",
-            "text": "Live Crypto Prices (24h change)\n\nBTC: $49,348.00 (-8.16%)\nETH: $4,102.90 (-3.17%)\nDOGE: $0.1805 (-10.20%)\nALGO: $1.67 (-4.53%)\nEOS: $3.16 (-17.08%)\nMIOTA: $1.21 (-14.61%)\nFTT: $43.98 (-6.83%)\n\nPowered by CoinGecko API\n$BTC $ETH $DOGE $ALGO $EOS $MIOTA $FTT",
-            "created_at": "Sat Dec 04 23:30:32 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 112,
+            "tweet_count": 114,
             "username": "Doge Coin Every Half Hour",
             "user_account": "DogePriceAlert",
             "text": "The current Doge coin price is: $0.1819 #DogeCoin",
@@ -1121,7 +1141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 113,
+            "tweet_count": 115,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000001756, 0.07% change in the last hour, -9.03% change in the last 24H.\n\n24H Volume: $10,851,031.\n\nCoinMarketCap Rank: #2868.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -1131,7 +1151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 114,
+            "tweet_count": 116,
             "username": "✨Julia Love✨ doge/acc",
             "user_account": "realjulialove",
             "text": "The Dogeclaren 🥳✨🐕✨\n\n#dogecoin https://t.co/hgcftEVYIt",
@@ -1141,7 +1161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 115,
+            "tweet_count": 117,
             "username": "Carol",
             "user_account": "ETHCarloCFA",
             "text": "Perfect landing! #Dogecoin got home safely.",
@@ -1151,7 +1171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 116,
+            "tweet_count": 118,
             "username": "Mo Betta",
             "user_account": "MobettaJames",
             "text": "@HammedHudson @kryptoenthu @ShibReports Would like to see it do good, with all the naysayers out there remember they said the same about the doge coin and it went to 0.74",
@@ -1161,7 +1181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 119,
             "username": "Better Call DOGE",
             "user_account": "DogMon8",
             "text": "Day 192 of asking @elonmusk to retweet my post.\n#doge #dogecoin #DogecoinToTheMoon https://t.co/e50iD7MCEz",
@@ -1171,7 +1191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
+            "tweet_count": 120,
             "username": "Crypto Michael",
             "user_account": "MichaelXBT",
             "text": "I made a vid on Dogecoin at the exact top in May saying “You need an exit strategy, you can’t just hold forever. Sheep always get slaughtered in the end”. That aged well. Don’t forget to take profits kids.",
@@ -1181,7 +1201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 119,
+            "tweet_count": 121,
             "username": "FlokiSatori",
             "user_account": "blindheart_x",
             "text": "@nl_dogecoin red wine. very tasteful.",
@@ -1191,7 +1211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 120,
+            "tweet_count": 122,
             "username": "kevin",
             "user_account": "kevin22721065",
             "text": "@TguruNf @greg16676935420 @johnnydoge76 @pythadoge @suchHODL @BillyM2k Lol I vote for @johnnydoge76  as dogecoin ceo",
@@ -1201,7 +1221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 121,
+            "tweet_count": 123,
             "username": "EddyDarko",
             "user_account": "EddyDarko4",
             "text": "🚨Scam Alert🚨 https://t.co/wakzGKwEBO Please spread this far and wide. I not only lost my $DOGE but referred friends. PLEASE HELP ME STOP OTHERS FROM BEING CAUGHT. @JustinScerini @elonmusk @dogecoin @dogecoin_r @DogeSecurity1 @bitdogein @KenDoge1 @doge1moon_CEO",
@@ -1211,7 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 122,
+            "tweet_count": 124,
             "username": "Bikram Bhandari",
             "user_account": "bibgrt",
             "text": "$DOGE  👆 https://t.co/LZ3vMgYy2T",
@@ -1221,7 +1241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 123,
+            "tweet_count": 125,
             "username": "Prometheus Hippopotamus",
             "user_account": "MatMan3331",
             "text": "@TheUnderDoge3 @Josiah_H_1337 Minted mine a while back! #Dogex @DogexMetaverse\n#EarthDoge #Dogecoin #Doge $Doge https://t.co/Fqh99zxb3D",
@@ -1231,7 +1251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 124,
+            "tweet_count": 126,
             "username": "💎🙌💎",
             "user_account": "DiamondHandsIt",
             "text": "@FortniteGame HODL!!!\n\n💎🙌💎\n\nADD BACKBLING 🙏\n#BTC\n#Ethereum\n#DOGECOIN\n#SHIB\n#DOGELON\n\nDipped_N_Sauce https://t.co/lgMYCx3Y07",
@@ -1241,7 +1261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 125,
+            "tweet_count": 127,
             "username": "CryptoMazon.cro",
             "user_account": "CryptoMazon",
             "text": "In $DOGE $SHIBA $ELON I TRUST ✍🏿💰💵💸",
@@ -1251,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 126,
+            "tweet_count": 128,
             "username": "SB",
             "user_account": "2021tendies",
             "text": "@SeekingAlpha $aal @ 11 / $doge @ .007",
@@ -1261,7 +1281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 127,
+            "tweet_count": 129,
             "username": "✨Julia Love✨ doge/acc",
             "user_account": "realjulialove",
             "text": "✨Debut Of The Dogeclaren ✨🐕✨\n\n#Dogeclaren #DogecoinToTheMoon #dogecoin #Doge #artbaselmiami https://t.co/gQkqvAVJpB",
@@ -1271,7 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 128,
+            "tweet_count": 130,
             "username": "Me Hi (0.01)",
             "user_account": "eemi666",
             "text": "@crypto_stonker #Bitcoin beats $doge even on dips. 😂",
@@ -1281,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 129,
+            "tweet_count": 131,
             "username": "SYSCOIN 10$",
             "user_account": "SYSCOIN10DOLLAR",
             "text": "TARGET SYSCOIN 10 DOLLARS DAY:9\n\n$SYS #Syscoin  #BitcoinSV #Ripple $doge $shib",
@@ -1291,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 130,
+            "tweet_count": 132,
             "username": "Ninrod",
             "user_account": "Ninrod803411731",
             "text": "$Opcat is looking like the highest potential meme so far 👑\n\nOptimus Bridge &amp; Optimus Swap incoming 🔃🌉\n\nHow high will this go you think?\n\n #catgirlcoin $kiba #safemoon $mbox $shib $coti  $kiba $spell $doge $saita $cate $avax $ftm $mcc $gm #3dog $cdrop $luna $fren $wgmi",
@@ -1301,7 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 133,
             "username": "Dooomberg 🇬🇧",
             "user_account": "Dooomberg",
             "text": "@DogecoinNorway @EmilyInDoge @topherAlba26 @catandradec @MilgateTyler @BillyM2k @BigImpactHumans @DogeMoon11 @DogecoinTweet @YoungCrypto69 @nl_dogecoin @liquidseahorse Be lucky again #buy #babydoge \n\nAnd #boycottCMC https://t.co/0iV5xg5IjH",
@@ -1311,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
+            "tweet_count": 134,
             "username": "Maslahuludin",
             "user_account": "maslahuludin",
             "text": "@nanogamesio I am starting to like this project, I. Just hope and pray this project is successful , am going to try my luck\n@fatiya_415 @Yani9899 @Gopri18 \nETH WALLET :\n0x34Bc31F22F18CfeEd093cDeC9d9922CBB4908f97\n#Ethereum  #BlackJack #Crash #Dice #casino #Bitcoin  #dogecoin  $XNO $Banano",
@@ -1321,7 +1341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
+            "tweet_count": 135,
             "username": "PaulWard",
             "user_account": "PaulCryptoWard",
             "text": "Keeping it simple, $DOGE to 1.20: Gonna stick with these ideas for good, its binary, 0 or 1.20. …………….. …………… ………………. …………….. …………….. ………………….. ……………………. ……………………….. …………….. ………………… https://t.co/iLecQ45Vd9",
@@ -1331,17 +1351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
-            "username": "Doge Norway",
-            "user_account": "DogecoinNorway",
-            "text": "@YoungCrypto69 @topherAlba26 @catandradec @MilgateTyler @BillyM2k @BigImpactHumans @DogeMoon11 @DogecoinTweet @nl_dogecoin @liquidseahorse Feel the flow ⚒️❤️‍🔥 https://t.co/mUpnqBtpbj",
-            "created_at": "Sat Dec 04 23:23:56 +0000 2021",
-            "retweet": 0,
-            "likes": 4,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 135,
+            "tweet_count": 136,
             "username": "Mike H.",
             "user_account": "xmike87",
             "text": "@Peachibon Issa yikes for my Doge coin",
@@ -1351,7 +1361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
+            "tweet_count": 137,
             "username": "KRYPTO INU SHILLER",
             "user_account": "DingerBonk",
             "text": "Congratulations to our Meme Contest winner! #dogecoin #BNB #dogebonk https://t.co/3Z6aLiXzmq",
@@ -1361,21 +1371,11 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
+            "tweet_count": 138,
             "username": "DB",
             "user_account": "dristibutola",
             "text": "$DOGE Elon screwed dogeholders ⭐\n\n Don't Miss Key Headlines with Stock News Alerts\n➢ https://t.co/Ded0XBSeWn https://t.co/3yQvakwX9B",
             "created_at": "Sat Dec 04 23:23:07 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 138,
-            "username": "Top Cryptocoins Ticker",
-            "user_account": "TickerTop",
-            "text": "1: Bitcoin price is $49186.56 (0.88% 1h)\n2: Ethereum price is $4088.92 (0.42% 1h)\n3: Binance Coin price is $568.83 (1.24% 1h)\n4: Tether price is $1.00 (-0.01% 1h)\n5: Solana price is $201.95 (-0.80% 1h)\n11: Dogecoin price is $0.18 (1.76% 1h)",
-            "created_at": "Sat Dec 04 23:22:31 +0000 2021",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -1392,16 +1392,6 @@
         },
         {
             "tweet_count": 140,
-            "username": "Oonabot",
-            "user_account": "Oonabot",
-            "text": "😂😂💜\n$DOGE #Dogecoin #ElonMusk #SpaceX \n#Doggos4Doge #dogearmyMEMEdiv",
-            "created_at": "Sat Dec 04 23:21:32 +0000 2021",
-            "retweet": 1,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 141,
             "username": "CryptoMazon.cro",
             "user_account": "CryptoMazon",
             "text": "@1goonrich Yes sir $DOGE $SHIB $ELON",
@@ -1411,7 +1401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 142,
+            "tweet_count": 141,
             "username": "Dogecoin Enthusiast",
             "user_account": "dawn_dogecoin",
             "text": "@elonmusk Next up.. Saturn ❤️",
@@ -1421,7 +1411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 143,
+            "tweet_count": 142,
             "username": "Emily Sadler 💉",
             "user_account": "AggregatingNews",
             "text": "$DOGE damn it! Missed bottom avg .20420...LFG! 🚩\n\n#RecvProfit",
@@ -1431,7 +1421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 144,
+            "tweet_count": 143,
             "username": "David Rudowski / Wolves",
             "user_account": "DrWolveski",
             "text": "@callum57854644 @PoolCrimson @hoskytoken For Elon to create a DogeCoin on Cardano",
@@ -1441,7 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 145,
+            "tweet_count": 144,
             "username": "CryptoCharts",
             "user_account": "cryptocharts",
             "text": "Thoughts on $DOGE #DOGE! See hodlorfodl's idea on TradingView below. https://t.co/S7MVYwbqsv",
@@ -1451,7 +1441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 146,
+            "tweet_count": 145,
             "username": "FS",
             "user_account": "falaksadique1",
             "text": "@BillyM2k How about people who were dead in $SHIB and reincarnated in $DOGE?",
@@ -1461,7 +1451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
+            "tweet_count": 146,
             "username": "Быколай Оптоед",
             "user_account": "b_optoed",
             "text": "$DOGE it’s going to go parabolic 🥇\n\n#RecvProfit",
@@ -1471,7 +1461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 148,
+            "tweet_count": 147,
             "username": "dinshoo udit 😎",
             "user_account": "dinshoo12345",
             "text": "24 hours daily trading volume on top ranked crypto exchanges. \nSource https://t.co/PcsS3pNmMV \n\n#Binance #Coinbase #Bitcoin #Metaverse #NFTGame #DeFi #Ethereum  #BNB #StockMarket #SAND #dogecoin #SHIB https://t.co/CBoWCCzJXE",
@@ -1481,7 +1471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
+            "tweet_count": 148,
             "username": "jogenjj",
             "user_account": "jogan88935964",
             "text": "@elonmusk Dogecoin to mars 🚀",
@@ -1491,7 +1481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 150,
+            "tweet_count": 149,
             "username": "Monsignor Forst ✝️",
             "user_account": "red3doteth",
             "text": "Bye $Doge, Bye $BTC, BUY #Floki dip https://t.co/ICoXDGwiPK",
@@ -1501,7 +1491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 150,
             "username": "Jayne",
             "user_account": "eoghan_mell",
             "text": "$BTC $DOGE Burn 👇 https://t.co/qIk8pRlvRV",
@@ -1511,7 +1501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
+            "tweet_count": 151,
             "username": "fearless546",
             "user_account": "Fearless_546",
             "text": "🚨 $KUMA 100x incoming 🚨 \n                 DONT MISS OUT \n\n🎯 SHIB developer\n🎯 Product (#KumaDex )for #DogePark \n🎯 25x leverage trading\n🎯 30M MC\n🎯 Decentralized\n\n$DOGE, $SHIB, $AKITA, $ELON, #KumaArmy  #Ethereum #SHIB #HODL $KUMA",
@@ -1521,7 +1511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
+            "tweet_count": 152,
             "username": "fearless546",
             "user_account": "Fearless_546",
             "text": "@shapelessbender 🚨 $KUMA 100x incoming 🚨 \n                 DONT MISS OUT \n\n🎯 SHIB developer\n🎯 Product (#KumaDex )for #DogePark \n🎯 25x leverage trading\n🎯 30M MC\n🎯 Decentralized\n\n$DOGE, $SHIB, $AKITA, $ELON, #KumaArmy  #Ethereum #SHIB #HODL $KUMA",
@@ -1531,7 +1521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 154,
+            "tweet_count": 153,
             "username": "💎🙌💎",
             "user_account": "DiamondHandsIt",
             "text": "@FortniteGame HODL!!!\n\n💎🙌💎\n\nADD BACKBLING 🙏\n#BTC\n#Ethereum\n#DOGECOIN\n#SHIB\n#DOGELON\n\nDipped_N_Sauce https://t.co/TVYcQ8D57j",
@@ -1541,7 +1531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
+            "tweet_count": 154,
             "username": "ball11sack",
             "user_account": "ball11sack",
             "text": "@MattWallace888 I bought $Doge and $Rocket @TheRocketCoin",
@@ -1551,7 +1541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 156,
+            "tweet_count": 155,
             "username": "ELITECLUB",
             "user_account": "eliteclubnfts",
             "text": "🚨CRAZY UPDATES🚨\n\nStay in tuned with our channel. This project is huge. Meet RUFF #dog \n@eliteclubnfts \n\n✨Follow me\n✨RT\n✨Tag your friends!\n\n#nfts #nft #nftart #nftartist #nftcollector #cryptoart #digitalart #nftcommunity #fit #fitness #doglovers #NFT #Crypto #dog #dogecoin https://t.co/p9tvBAZHdi",
@@ -1561,7 +1551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 157,
+            "tweet_count": 156,
             "username": "Deepshikha Sethi",
             "user_account": "SethiDeepshikha",
             "text": "$DOGE ohhhhhhhh myyyyyy goshhhhhhhh ❗\n\n#RecvProfit",
@@ -1571,7 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 158,
+            "tweet_count": 157,
             "username": "Sassy Llama",
             "user_account": "SassyLlama11",
             "text": "$bnb $bsc $btc $eth $ada $sol $avax $dot $dot $usdc $luna $cro $usdt $busd $floki $shib $doge $pit $feg $ltc $matic $algo $link $uni $cake $sfp $axs $time $spell $ice $mim $memo $dai $vet $egld $xlm $atom $ftt $trx $sand $mana $kda #crypto #bscgem #bscgems #100xgem #SantaFloki 🎄",
@@ -1581,7 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 159,
+            "tweet_count": 158,
             "username": "JorgeBigMoneyDoge",
             "user_account": "jorgera09263629",
             "text": "@buydogecoin_ To the moon #dogecoin",
@@ -1591,7 +1581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 160,
+            "tweet_count": 159,
             "username": "W3N:LYCO5 × LVPV5 NVM3R1X | crypto.principium.est",
             "user_account": "W3N_LYCO5",
             "text": "@Romeshomey @itsALLrisky True! For actually using a crypto coin for payment, $DOGE is like perfect. I'm wondering anyway about why Twitter chose just BTC instead of DOGE for these tip payments - as tips is what Dogecoin was actually invented for though.",
@@ -1601,7 +1591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
+            "tweet_count": 160,
             "username": "GEEBIGz💎",
             "user_account": "Geebigz",
             "text": "@CPTheFanchise @KnicksFanTv We need to SELL RANDLE HIGH … before the league realize we have DOGECOIN “AllStar” power forward in A BEAR MARKET 📉.   This guy has shown exactly who he is since the playoffs… and we’re to busy making slogans for mediocrity to see the truth #LetsGoKnicks 🥲❤️",
@@ -1611,7 +1601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 162,
+            "tweet_count": 161,
             "username": "Ricardo de Bustos",
             "user_account": "grdebustos",
             "text": "@RatBotOne @TxGamerChick @dogecoin You should have had @RatBotCityX",
@@ -1621,7 +1611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 163,
+            "tweet_count": 162,
             "username": "Ray",
             "user_account": "kennethray25",
             "text": "@DogecoinCuban @DogecoinJon Be sure to check out #PistolWhip. \n\n#SuperHot is also a must if you haven’t try it yet. \n\nThat is if you like shooting games. #DogeCoin https://t.co/syt7oXhF8j",
@@ -1631,7 +1621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 163,
             "username": "Sassy Llama",
             "user_account": "SassyLlama11",
             "text": "$bnb $bsc $btc $eth $ada $sol $avax $dot $dot $usdc $luna $cro $usdt $busd $floki $shib $doge $pit $feg $ltc $matic $algo $link $uni $cake $sfp $axs $time $spell $ice $mim $memo $dai $vet $egld $xlm $atom $ftt $trx $sand $mana $kda #crypto #bscgem #bscgems #100xgem #SantaFloki 🎄",
@@ -1641,7 +1631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 164,
             "username": "❤LadyBird❤",
             "user_account": "LadyDogeBugBird",
             "text": "When you're visiting family &amp; friends this holiday season, Give them the gift that keeps on giving... Help them set up a wallet &amp; gift them some #Dogecoin ❤ #Dogemas2021 🐕⛄🎄🦌🎅 https://t.co/DZWD82RNjM",
@@ -1651,7 +1641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
+            "tweet_count": 165,
             "username": "Cryptonix 💎🐷🟪🕯",
             "user_account": "Cryptonix4real",
             "text": "Does #dogecoin have a fake CEO since @greg16676935420 resigned? If not I'll tell you @johnnydoge76 , @kevin22721065, @pythadoge  and @suchHODL are strong candidates. All are Doge to the bone type people.  Who makes the call on this?  Is it @BillyM2k? #dogecoin #DogecoinToTheMoon",
@@ -1661,7 +1651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 167,
+            "tweet_count": 166,
             "username": "Victor Ibanez",
             "user_account": "peucharo",
             "text": "$Reef $CHZ $Shiba $Mina $Mana $Avax $Sol $Doge $INCOME #ico #ilo #ido #presale #pinksaleGet whitelisted for pinksale presale dont miss out - gem - 20% BUSD rewards https://t.co/0N2BILfifi",
@@ -1671,7 +1661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 168,
+            "tweet_count": 167,
             "username": "The Under Doge",
             "user_account": "TheUnderDoge3",
             "text": "@nl_dogecoin They’re trying to do you in buddy! You still standing? 😅 https://t.co/ijvTVwEdpu",
@@ -1681,7 +1671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
+            "tweet_count": 168,
             "username": "Hammyz",
             "user_account": "hammyz07",
             "text": "I’d like to win a #Tesla - I think it will hold its value better than ##dogecoin . Like if you agree. #DOGEorTesla #Binance",
@@ -1691,7 +1681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 170,
+            "tweet_count": 169,
             "username": "LUNAtic X 🦐🦈🐳👺🦍🦧🐄🥮🎑",
             "user_account": "Phillip_X_",
             "text": "Lets kill a few Zeros and build generation wealth with #Mononoke because we are the fastest growing crypto community in the world.\n\n#MononokeInu #Mononoke #Mononoke_Inu #TeamMononoke #ToTheMoon #Mononoke100k #saitama #ETH #shibainu #dogecoin #BSC",
@@ -1701,7 +1691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 171,
+            "tweet_count": 170,
             "username": "Death Wish Crypto King",
             "user_account": "DWCRYPTOKING",
             "text": "@MattWallace888 You don't make any sense your a fudder sell all other coin but not doge I'm still holding all my crypto even this DOGECOIN b.s with no utility point is hold no matter the coin",
@@ -1711,7 +1701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 172,
+            "tweet_count": 171,
             "username": "SurfingDoge",
             "user_account": "SurfingDoge",
             "text": "▼ DOGECOIN VWAP Overbought ▼\nVWAP has crossed up into the overbought zone.\nCurrent Price: $0.1853\n#doge #dogecoin #dogearmy #cryptocurrency",
@@ -1721,7 +1711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 173,
+            "tweet_count": 172,
             "username": "SurfingDoge",
             "user_account": "SurfingDoge",
             "text": "▼ DOGECOIN RSI Overbought ▼\nRSI has crossed up into the overbought zone.\nCurrent Price: $0.1853\n#doge #dogecoin #dogearmy #cryptocurrency",
@@ -1731,7 +1721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 173,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000001764, 0.95% change in the last hour, -8.36% change in the last 24H.\n\n24H Volume: $10,859,085.\n\nCoinMarketCap Rank: #2870.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -1741,7 +1731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
+            "tweet_count": 174,
             "username": "Traducciones Crypto",
             "user_account": "Brad332000",
             "text": "$LTC $BAT $EOS $BTC $AAVE $ETH $KSM $DGB $RSR $ATOM $HIVE $bnb $GRT $BCH $NANO $DASH $ANKR $DOT $DOGE $ICX $SUSHI $MATIC $DIA $ADA $LINK $RUNE $HTR $COTI $XLM $REN where have you been? $HBAR $POLS $ZIL $ORN $DAG https://t.co/iA6h7JUybk",
@@ -1751,7 +1741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 176,
+            "tweet_count": 175,
             "username": "Dave Hanson",
             "user_account": "davehanson",
             "text": "Did you buy the crypto dip? What’d ya buy? $btc $eth $sol $dot $doge $floki 😉",
@@ -1761,7 +1751,57 @@
             "retweeted_tweet": null
         },
         {
+            "tweet_count": 176,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,603,769 $DOGE ($1,016,059 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 1.26 ($0.23 USD)\n\nTx: https://t.co/KcADhLYcMW\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:14:50 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
             "tweet_count": 177,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,603,769 $DOGE ($1,016,059 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 1.26 ($0.23 USD)\n\nTx: https://t.co/VhRnlFIRy5\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:14:46 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 178,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,603,769 $DOGE ($1,016,059 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 1.26 ($0.23 USD)\n\nTx: https://t.co/SPls0JEhKF\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:14:46 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 179,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,687,629 $DOGE ($1,031,264 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 3.25 ($0.59 USD)\n\nTx: https://t.co/I0ZXuZTnyT\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:14:45 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 180,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n5,603,769 $DOGE ($1,016,059 USD) was transferred from an unknown wallet to an unknown wallet.\n\nFee: 1.62 ($0.29 USD)\n\nTx: https://t.co/ZQLaiMDpRI\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 23:14:44 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 181,
             "username": "DRKSYD",
             "user_account": "DRKSYD7",
             "text": "$BTC to 50k break and hold??? \nSeems likely consolidation period says the 👁️\nNFA $SHIB $ETH $DOGE\n\n*Channel for Live audio and TA starts Monday\n#DSTrader https://t.co/YETYAHxlT0",
@@ -1771,7 +1811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 178,
+            "tweet_count": 182,
             "username": "Crypto4life",
             "user_account": "trustingmeme",
             "text": "Sooner than later. #dogecoin #dogearmy",
@@ -1781,7 +1821,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
+            "tweet_count": 183,
+            "username": "Holistic ƉOGE 𝕏",
+            "user_account": "Doge4Faithful",
+            "text": "@69dogecoin @mylilpwnyz 🍁 peeps 😎 💚\n#dogecoin Wow🐕🚀🌕🛰 https://t.co/2d8Mfby3wn",
+            "created_at": "Sat Dec 04 23:13:19 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 184,
             "username": "grendelsdad",
             "user_account": "micethatroar",
             "text": "Bitch just figured out how to get a 2% loan and put $200k into doge coin",
@@ -1791,17 +1841,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 180,
-            "username": "Mike",
-            "user_account": "hosni77649222",
-            "text": "$DOGE This price is half a penny less than coinbase pro but same as rh 💯\n\n#RecvProfit",
-            "created_at": "Sat Dec 04 23:13:02 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
+            "tweet_count": 185,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "@PeterSchiff @nayibbukele What's your #dogecoin addy?",
+            "created_at": "Sat Dec 04 23:13:01 +0000 2021",
+            "retweet": 1,
+            "likes": 3,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 181,
+            "tweet_count": 186,
             "username": "June Sanchez",
             "user_account": "SeifertMadeline",
             "text": "🙌 Pay for prescription MEDICATION in  Canada using $SHIB or $DOGE this coming Monday with partners @GreencrestPharm @greencrestrx @ExD_pharmacy 🙌🙌❤❤ 🥇 https://t.co/d5Rsepbfmr",
@@ -1811,17 +1861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
-            "username": "Doge Norway",
-            "user_account": "DogecoinNorway",
-            "text": "Hoy im here for the fun and the memes i know shit about this financial stuff people talking about ! I just was lucky to buy dogecoin and meet u awsome guys in dogearmy❤️👊🐶 #doge #dogecoin https://t.co/HnVBtoAfGw",
-            "created_at": "Sat Dec 04 23:12:53 +0000 2021",
-            "retweet": 38,
-            "likes": 143,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 183,
+            "tweet_count": 187,
             "username": "Nancy Lee",
             "user_account": "CFANancyCRY",
             "text": "@unseenexpenses Do you believe that dogecoin can take you to the moon?",
@@ -1831,7 +1871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 184,
+            "tweet_count": 188,
             "username": "kichtaloading89",
             "user_account": "kichtaloading89",
             "text": "@Cryptic_Maestro Yup ngl this looking amazing $SOD 🌟💼 $BNB $BTC $SOL $WOOF $OOGI $DOGE",
@@ -1841,7 +1881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
+            "tweet_count": 189,
             "username": "Jeff Cotrupe",
             "user_account": "jeffcotrupe",
             "text": "@UnderDoge10 If $DOGE hits $303 we hit $1M",
@@ -1851,7 +1891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 186,
+            "tweet_count": 190,
             "username": "Crypto Bipolar",
             "user_account": "cryptobipolar_",
             "text": "😊 [ $DOGE ] Dogecoin has gone up\n💵 $0.1813\n📈 Variance +0.0139%  +$0.002\n\nUpdated at 20:11h",
@@ -1861,7 +1901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 187,
+            "tweet_count": 191,
             "username": "EmpowerTrading",
             "user_account": "empowertradlng",
             "text": "🙌 Pay for prescription MEDICATION in  Canada using $SHIB.X or $doge this coming Monday with partners @GreencrestPharm @greencrestrx @ExD_pharmacy 🙌🙌❤❤",
@@ -1871,7 +1911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 188,
+            "tweet_count": 192,
             "username": "Banana Coin",
             "user_account": "BananaCoin2",
             "text": "CryptoBillClinton is LIVE on https://t.co/6ejKMoFjXy\nWe will be launching our BananaVerse when we have all of the Presidents minted on OpenSea! This game is not only fun, but you can earn $ as well! @elonmusk @cz_binance @BinanceChain @ethereum @dogecoin\n#nft #nftart #NFTartists https://t.co/OxJ8gELyIm",
@@ -1881,7 +1921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 189,
+            "tweet_count": 193,
             "username": "ĐOGE Bunker",
             "user_account": "HODLdogeNOTdebt",
             "text": "Help is on the way! $doge",
@@ -1891,7 +1931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 190,
+            "tweet_count": 194,
             "username": "Nick Petisce (Dogecoin Millionaire)",
             "user_account": "nickpetisce",
             "text": "The money being made on this dip is #dogecoin https://t.co/1CmU8PSobG",
@@ -1901,7 +1941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 191,
+            "tweet_count": 195,
             "username": "jabroni",
             "user_account": "jabroni19119",
             "text": "@fansloveIshy @treymurphyy @Toebald1 @mhof314 @bombogoon You got me, doge coin my dude",
@@ -1911,7 +1951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 192,
+            "tweet_count": 196,
             "username": "Esteban Sabedra",
             "user_account": "SabedraEsteban",
             "text": "@mylilpwnyz love you robbie the  dogecoin whale",
@@ -1921,7 +1961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 193,
+            "tweet_count": 197,
             "username": "Slanted Judgment",
             "user_account": "SlantedJudgment",
             "text": "$BAX THE REAL $XRP??? Stay tuned for mind blowing shit 🚀🚀 $NANO $doge $vet $tel $trias $bat $eth $btc $ubx $btt $bnb $xrp $dot $ada $link $theta $blok $naka $ntvrk $vra $MATIC $SHIB $ #Web3 #30in30 #Flux #blockchain #crypto #bitcoin #tech #technology #cloud #CloudComputing",
@@ -1931,7 +1971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 194,
+            "tweet_count": 198,
             "username": "Krawmatic",
             "user_account": "AndrSil83155272",
             "text": "@irbadzale @nayibbukele USgov might be buying $Doge",
@@ -1941,7 +1981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 195,
+            "tweet_count": 199,
             "username": "CATTTO",
             "user_account": "CATTTOtoken",
             "text": "CATTTO loves Betfury casino, good rewards!! #CATTTO #Binance #betfury #Bitcoin #TRON #dogecoin #USDtether #DEX #WenLambo #Ethereum #Solana #Biswap https://t.co/9Z7s53dFsx",
@@ -1951,7 +1991,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 196,
+            "tweet_count": 200,
+            "username": "Holistic ƉOGE 𝕏",
+            "user_account": "Doge4Faithful",
+            "text": "My #dogecoin faith is unrelenting ♾ \n#DogecoinToTheMoon 🐕🚀🌕🛰",
+            "created_at": "Sat Dec 04 23:08:41 +0000 2021",
+            "retweet": 1,
+            "likes": 5,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 201,
             "username": "The Under Doge",
             "user_account": "TheUnderDoge3",
             "text": "@topherAlba26 @ALL_IN_MCDOGE_1 @SignatureDoge @MilgateTyler @Samantha5780015 @nmayfield28 @Cest_inevitable @GloryDoge @djdoge69 @WhitneyWalker33 @RicosIntoCrytpo When I’m doubt, meme it out!😜\n#dogearmy #dogecoin #Doge",
@@ -1961,7 +2011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 197,
+            "tweet_count": 202,
             "username": "Cryptonix 💎🐷🟪🕯",
             "user_account": "Cryptonix4real",
             "text": "Twitter, I been drinking with my cousin so whatever happens tonight, gimme a pass fam.  Yeah, I know it's only 6pm EST.  Let's not make that a thing.  Hope everyone having a great Saturday night!\n\n#dogecoin #catecoin #dogearmy #CatecoinArmy #catearmy #EverRise",
@@ -1971,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 198,
+            "tweet_count": 203,
             "username": "Do Do DOGE1 💫💎",
             "user_account": "Dogedoog",
             "text": "@binance My private keys in #dogecoin hold it 💎💫",
@@ -1981,7 +2031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 199,
+            "tweet_count": 204,
             "username": "Ray",
             "user_account": "kennethray25",
             "text": "Seven Nation TESLA COIL___ARMY https://t.co/zAIHhKZZFW via @YouTube\n\nMain bass rift - 7 notes. Was going to post a midi, but this Tesla Coil version is more fun to watch.\n\n#DogeCoin #DogeARMY https://t.co/8RgYeDqgok",
@@ -1991,7 +2041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 200,
+            "tweet_count": 205,
             "username": "Emily Sadler 💉",
             "user_account": "AggregatingNews",
             "text": "$DOGE go dogeeee 📶\n\n#RecvProfit",
@@ -2001,7 +2051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 201,
+            "tweet_count": 206,
             "username": "🌸 Dana 🌸",
             "user_account": "elemteach3r",
             "text": "@TxGamerChick @madre_lovee @FoxtrotSh1tUp @grdebustos @RatBotOne #Dogecoin #NFT thank you for the chance!!! Would be amazing for Christmas! https://t.co/4GGUnZMBQn",
@@ -2011,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 202,
+            "tweet_count": 207,
             "username": "PoonamTijare",
             "user_account": "TijarePoonam",
             "text": "$DOGE.Xrunning high 📶\n\n#RecvProfit",
@@ -2021,7 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 203,
+            "tweet_count": 208,
             "username": "Hadi Daryabi",
             "user_account": "hadidaryabi1",
             "text": "@MattWallace888 Doge coin is shit coin and a rug pull",
@@ -2031,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 204,
+            "tweet_count": 209,
             "username": "The Under Doge",
             "user_account": "TheUnderDoge3",
             "text": "@ShawnDoge @StonksReddit @DogecoinNorway @MilgateTyler @Cocochaneladair @catandradec @DogecoinTweet @GloryDoge @hiddin2urleft @YoungCrypto69 @uncle_stimmychk .05 up from the bottom of the dip looks lovely to me!! 🔥\n#dogearmy #dogecoin #Doge \n#DogecoinToTheMoon 🚀🌙",
@@ -2041,7 +2091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 205,
+            "tweet_count": 210,
             "username": "NFT Seeker",
             "user_account": "NFTSEEKER88",
             "text": "You better fill up your bags now. #dogecoin🚀 #ElonMusk #fuckshiba 💩",
@@ -2051,7 +2101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 206,
+            "tweet_count": 211,
             "username": "KryptoLee",
             "user_account": "LeeDoesIt1",
             "text": "We popping off baby already 😈🤝 whoever pulled the trigger and bought this morning at the crash, congrats 💥😜 Follow for buy alerts like this, I got y’all 🤝 #LTC #Litecoin #BTC #cryptocrash #Crypto $LTC #shiba #shibainu #dogecoin #doge #ShibaArmy https://t.co/SpkVG8rYwF",
@@ -2061,7 +2111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 207,
+            "tweet_count": 212,
             "username": "Đ_Monkey",
             "user_account": "the3brotherss",
             "text": "Forever bullish on #dogecoin !!! https://t.co/wCcuivDDEh",
@@ -2071,7 +2121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 208,
+            "tweet_count": 213,
             "username": "Akshita M",
             "user_account": "akshitamis",
             "text": "$DOGE there no stopping us let’s go 👍\n\n#RecvProfit",
@@ -2081,7 +2131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 209,
+            "tweet_count": 214,
             "username": "🆁🅸🅲🅺",
             "user_account": "RickFreyta",
             "text": "#dogecoin #UPDATE The current price of one DOGE is now: $0.1786, 2% change in the last hour! One MDOGE is worth $178,633.8622. Total volume in last 24H: $4,341,326,812. Current CoinMarketCap Rank: #11 $DOGE #DOGECOIN",
@@ -2091,7 +2141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 210,
+            "tweet_count": 215,
             "username": "meme coin millionerds",
             "user_account": "MCMillionerds",
             "text": "Top 10 Meme coins by Market Cap 📈📈\n\nDogecoin $223.3B\nShiba Inu $20.5B\nMagic Internet Money $3.6B\nDogelon Mars $737M\nSpell Token $676M\nBaby Doge Coin $299M\nSamoyedcoin $172M\nHodge $130M \nHOSKY -$116M 🙊😂\nCateCoin $101M\n\n*coingecko🐸 *muesli🥙",
@@ -2101,7 +2151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 211,
+            "tweet_count": 216,
             "username": "Matt Đ Hypez",
             "user_account": "matt_hypez",
             "text": "@dogecoin #doge #dogecoin This an old video from my YouTube channel. Do you think I should keep going? https://t.co/WQpiCHN5Tu",
@@ -2111,7 +2161,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 212,
+            "tweet_count": 217,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "#dogecoin Follow Hanna. She's even funnier than I am.",
+            "created_at": "Sat Dec 04 23:04:33 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 218,
             "username": "bobdos🇨🇳",
             "user_account": "bobdosCN",
             "text": "more liquidity is added for DOGE/renDOGE pair on bsc chain. #dogecoin #dogearmy https://t.co/EAoedwmyzU",
@@ -2121,7 +2181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 213,
+            "tweet_count": 219,
             "username": "Nozzy El Rodrigues",
             "user_account": "Soninasgor123",
             "text": "@cbw_nft Hopefully this project is a success and then it becomes one of the best cryptos.\nGood project❤️🎉\n@botoex789\n@MasObeng30\n@Sitototo159\nBsc:0xf04bb2C2Da331123b0098ed9b84339003D37f6cf\n#BinanceSmartChain $bsc $shib $slp $axs $doge #Binance #Bitcoin #coinkit",
@@ -2131,7 +2191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 214,
+            "tweet_count": 220,
             "username": "Tim Lindner",
             "user_account": "tslindner",
             "text": "$DOGE One of the YouTube gurus pointed out technical analysis that says Doge could go as low as six cents. First time all year I felt anxiety about this coin 😀\n\n Profit with faster stock market news &amp; research.\n➽ https://t.co/GbHFUeXUTB https://t.co/P8XTFFbOrO",
@@ -2141,7 +2201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 215,
+            "tweet_count": 221,
             "username": "Johnny Wilcox",
             "user_account": "JohnnyWilcox21",
             "text": "$ELON Crypto out 😂😂 \n\nThe Dogelon Musk Coin—\nBetter than Shiba Inu and Doge coin? \n\nVote and comment 🙌🏽 \n\n100 Retweets I will throw my whole bank account into Cryto ‼️",
@@ -2151,7 +2211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 216,
+            "tweet_count": 222,
             "username": "The Bearded One",
             "user_account": "GainGang88",
             "text": "Took some time but $Link eventually broke that blue support and headed towards the lower support. Links price movement is just clean as fuck.\n\n$btc $eth $link $ada $sol $doge $xrp https://t.co/vc6SxPYw6n",
@@ -2161,7 +2221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 217,
+            "tweet_count": 223,
             "username": "Qrrbrbirlbel News🥣",
             "user_account": "UnionHawc",
             "text": "@TOPDOGE007 @MattWallace888 @xMooneyToken Weird way to spell dogecoin",
@@ -2171,7 +2231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 218,
+            "tweet_count": 224,
             "username": "Cara",
             "user_account": "RedditHotNews",
             "text": "$DOGE  If someone says “I’m not worried, I’m long”…translation “I’ve lost money so I’m just praying it goes back up”.  It’s not a strategy, its a coping mechanism. ✅\n\n#RecvProfit",
@@ -2181,7 +2241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 219,
+            "tweet_count": 225,
             "username": "CoinPumping",
             "user_account": "CoinPumping1",
             "text": "We raise dogecoin to 500%+ Now going to raise another crypto soon. buy it before the price raises. Coin name will be shortly announced on telegram only. Link is provided in the profile description #btc #Dogecoins #STMX #BCH #coinpump #USDT #cryptopump",
@@ -2191,7 +2251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 220,
+            "tweet_count": 226,
             "username": "𝓣 𝓞 𝓟 𝓓 𝓞 𝓖 𝓔",
             "user_account": "TOPDOGE007",
             "text": "These crypto dumps don't really matter if you are into $DOGE long term.\n\nAlways bullish on $DOGE 🌚",
@@ -2201,7 +2261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 221,
+            "tweet_count": 227,
             "username": "Bikram Bhandari",
             "user_account": "bibgrt",
             "text": "$ETH $BTC $SHIB $DOGE $COIN  not suspicious at all 📣\n\n#RecvProfit",
@@ -2211,7 +2271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 222,
+            "tweet_count": 228,
             "username": "DoggySins",
             "user_account": "DoggySins",
             "text": "We only pump coins considering all the aspects. We dont rush all at once. Next coin pump will be announced shortly. Coin name will be shortly announced on telegram only. Link is provided in the profile description #bitcoin #dogearmy #etherium #dogecoin",
@@ -2221,7 +2281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 223,
+            "tweet_count": 229,
             "username": "DOGE = EGOD",
             "user_account": "dogecoin_the1",
             "text": "@TheSandboxGame Can we get the iOS and or OS X versions please :)",
@@ -2231,7 +2291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 224,
+            "tweet_count": 230,
             "username": "Dogecoin for Tesla",
             "user_account": "dogecoin4tesla",
             "text": "Currently, 1 $DOGE = $0.179000.\n\nAt this rate, a #Tesla Model X costs:\n• Long Range: 502,738 Ɖ\n• Plaid: 670,336 Ɖ\n\n#dogecoin\n\nhttps://t.co/Kbt5VE0u4i",
@@ -2241,7 +2301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 225,
+            "tweet_count": 231,
             "username": "Winnipeg Sports Fan (Walter)",
             "user_account": "WinnipegFan1",
             "text": "Keep getting \"ads\" on the newsfeed about \"Doge Coin\". Seems to be related to crypto but not interested in it in the slightest. Why does @Twitter send this to me, and is there ways to make the site \"ad free\"?",
@@ -2251,7 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 226,
+            "tweet_count": 232,
             "username": "🔋Stonksy🔋",
             "user_account": "StonksReddit",
             "text": ".#Dogecoin going up almost 5 cents since last night's dip buys blows my mind considering how long we were stuck on .04-.05 earlier this year.\n\n🚀🚀🚀🚀🚀🚀🚀🚀🚀 https://t.co/2BaAJkCYtx",
@@ -2261,7 +2321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 227,
+            "tweet_count": 233,
             "username": "RBColson Ð🚀",
             "user_account": "RColson781",
             "text": "#dogecoin #doge $doge &amp; #Lcx $Lcx",
@@ -2271,7 +2331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 228,
+            "tweet_count": 234,
             "username": "Crypto Bipolar",
             "user_account": "cryptobipolar_",
             "text": "😊 [ $DOGE ] Dogecoin has gone up\n💵 $0.1788\n📈 Variance +0.0103%  +$0.002\n\nUpdated at 20:01h",
@@ -2281,17 +2341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 229,
-            "username": "I am Doge",
-            "user_account": "Reaper67058359",
-            "text": "$DOGE to 1$ , $DOGE is worth:$0.18 \n24h volume:$4,343,619,823.78\nPercentage change for the past hour :1.72%\nCurrent Market cap : $23,675,262,663.91\n#Dogecoin #DogeDay #Doge #DogeFather Price Check",
-            "created_at": "Sat Dec 04 23:01:25 +0000 2021",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 230,
+            "tweet_count": 235,
             "username": "ĐOGE Bunker",
             "user_account": "HODLdogeNOTdebt",
             "text": "@dogeofficialceo @CryptoWhale Send some $doge to someone who doesn’t know what crypto is!",
@@ -2301,7 +2351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 231,
+            "tweet_count": 236,
             "username": "J_Crypto",
             "user_account": "CryptoJuanan",
             "text": "This data is incredible and also scary, it’s very risky this kind of leverage operations!! Please #crypto fam take care $btc $eth $doge $vite $xno $ada $dot $mana",
@@ -2311,27 +2361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 232,
-            "username": "M_Brae",
-            "user_account": "MBrae3",
-            "text": "Follow for hourly #DOGE update, much wow🐕\n\n- Hourly closing of #DOGE: $0.1793\n- Hourly price change: 1.7 %📈\n- 12 hr Vol. trends downwards\n- Trading below 200 hr MA($0.20516)\n- RSI 14 at 48.75\n\n#trade #crypto #DOGE #dogecoin",
-            "created_at": "Sat Dec 04 23:00:29 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 233,
-            "username": "UFO Crypto Dev (👽,Ξ)",
-            "user_account": "2021Ufo",
-            "text": "🚨 Top past 24h volume change (top100 coins): \n1st: $BSV 341.8%⚡  \n2nd: $DOGE 245.2%⚡  \n3nd: $FIL 240.2%⚡  \nTreat urself with ur #crypto profits!  #cryptotwitter $BTC #alts #DeFi #NFT",
-            "created_at": "Sat Dec 04 23:00:29 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 234,
+            "tweet_count": 237,
             "username": "Doge Coin Every Half Hour",
             "user_account": "DogePriceAlert",
             "text": "The current Doge coin price is: $0.1806 #DogeCoin",
@@ -2341,7 +2371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 235,
+            "tweet_count": 238,
             "username": "DogeCoin Value EUR",
             "user_account": "DogeCoinBotEUR",
             "text": "Current price of DogeCoin: 0.16034€\n\n$DOGE #DOGECOIN #DogecoinToTheMoon\n11:00:02 PM - 04.12.2021",
@@ -2351,7 +2381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 236,
+            "tweet_count": 239,
             "username": "cryptosUSD",
             "user_account": "cryptosUSD",
             "text": "🔄 Prices update in $USD | Last 1 hour\n\n$XRP 🟢: 0.85 $    (+1.77 %)\n$SOL 🟢: 203.52 $  (+1.02 %)\n$DOGE 🟢: 0.18 $    (+1.65 %)\n$DOT 🟢: 29.31 $   (+0.57 %)",
@@ -2361,17 +2391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 237,
-            "username": "Helperino",
-            "user_account": "helperino_bot",
-            "text": "$DOGE is 0.157888€ right now!!!\nThats 1.72% from last hour and a -10.90% difference in the last 24h",
-            "created_at": "Sat Dec 04 23:00:04 +0000 2021",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 238,
+            "tweet_count": 240,
             "username": "Baby Doge Coin Value",
             "user_account": "babydoge_value",
             "text": "The current price of one Baby Doge Coin is: $0.000000001763, 1.55% change in the last hour, -8.47% change in the last 24H.\n\n24H Volume: $10,827,226.\n\nCoinMarketCap Rank: #2869.\n\n#BABYDOGE #BABYDOGECOIN",
@@ -2381,7 +2401,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 239,
+            "tweet_count": 241,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "What's everyone up to this beautiful Friday night? #dogecoin",
+            "created_at": "Sat Dec 04 23:00:00 +0000 2021",
+            "retweet": 0,
+            "likes": 6,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 242,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "The current value of 1 DOGE in USD is: $0.1821 (📈 up 0.020000 so far today). #dogecoin",
@@ -2391,7 +2421,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 240,
+            "tweet_count": 243,
+            "username": "CryptoCapFlow",
+            "user_account": "CryptoCapflow",
+            "text": "[Spot] By 2021-12-04 14:00 GMT, DOGE total trading volume of 9,291,879,858DOGE with a price change of -15.3% in last 24 hrs. #cryptocurrency #CryptoCapFlow $DOGE https://t.co/UyBc39WUgC",
+            "created_at": "Sat Dec 04 22:59:54 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 244,
             "username": "The Huynh",
             "user_account": "tomhuynhus",
             "text": "Do Only Good Everyday $Doge",
@@ -2401,7 +2441,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 241,
+            "tweet_count": 245,
+            "username": "CryptoCapFlow",
+            "user_account": "CryptoCapflow",
+            "text": "[Futures] By 2021-12-04 22:00 GMT, $DOGE futures had a price change of 13.86% with a Total Open Interest of $383.09M in last 24 hours. #CryptoCharts #CryptoCapFlow #cryptocurrency https://t.co/XRSP738QfI",
+            "created_at": "Sat Dec 04 22:59:28 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 246,
             "username": "Brianna Barnes",
             "user_account": "brizziiy",
             "text": "11 is the new 10 #dogecoin https://t.co/zR0LZZALhd",
@@ -2411,17 +2461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 242,
-            "username": "Fronk",
-            "user_account": "TheOnlyFronk",
-            "text": "@MattWallace888 #doge #dogecoin has the potential",
-            "created_at": "Sat Dec 04 22:58:49 +0000 2021",
-            "retweet": 0,
-            "likes": 6,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 243,
+            "tweet_count": 247,
             "username": "Crypto perfection👌",
             "user_account": "cryptoperfecto",
             "text": "Shib has officially hit the the point of community trust and and we will never see shib fall like shit balls or I mean dumbass coin or whoops I meant dogecoin.",
@@ -2431,7 +2471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 244,
+            "tweet_count": 248,
             "username": "Shawn Ðoge",
             "user_account": "ShawnDoge",
             "text": "This looks like a Bull market to me 🤷🏼 #dogecoin https://t.co/eFDrVCZvrz",
@@ -2441,7 +2481,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 245,
+            "tweet_count": 249,
+            "username": "Holistic ƉOGE 𝕏",
+            "user_account": "Doge4Faithful",
+            "text": "@RemindMe_OfThis in 3 months\n\n#dogecoin #DogeFam #DogeFather #DogecoinToTheMoon LITERALLY\n#DOGE1 lunar 🌙 satellite 🛰 mission=History 📚 worthy event.\n#StarLink #SpaceX 1 500 000 000 people waiting to be connected 💻.\n🐕🚀🌕🛰\n🤣🤣👇🏽",
+            "created_at": "Sat Dec 04 22:57:50 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 250,
             "username": "2moons.doge/sol☮️",
             "user_account": "2moonsDoge",
             "text": "Dogecoin is for everyone",
@@ -2451,7 +2501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 246,
+            "tweet_count": 251,
             "username": "Mohsen",
             "user_account": "Mohsen00358553",
             "text": "@SafemoonHoly My love safemoon ❤️❤️🌹🚀🌙😍😍🥰🥰❤️💖❤️❤️🌹🌹🌹🚀🚀🌙🌙😍🥰🥰😍 \n#Binance #etherium #ETH #BTC #Bitcoin #BinanceSmartChain #Coinbase #CoinEx #CoinDCX #doge #dogecoin #SHIB #shiba #BabyDogeCoin #Bloktopia #TheSandboxAlpha #MANA_SB19",
@@ -2461,7 +2511,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 247,
+            "tweet_count": 252,
+            "username": "CryptoCapFlow",
+            "user_account": "CryptoCapflow",
+            "text": "[Spot] By 2021-12-04 14:00 GMT, DOGE had a price change of -15.3% with net cap flow of -$639M in last 24 hrs. #cryptocurrency #CryptoCapFlow $DOGE https://t.co/T7hk3Vj8yW",
+            "created_at": "Sat Dec 04 22:57:27 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 253,
+            "username": "Saint. Robbie G (HE/Influencer/psychonaut).doge",
+            "user_account": "mylilpwnyz",
+            "text": "Just want to let you all know this was my favourite twitter day to date. Not only because my content was amazing. But because how many people I influenced. TNX so much. #dogecoin",
+            "created_at": "Sat Dec 04 22:57:19 +0000 2021",
+            "retweet": 6,
+            "likes": 30,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 254,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨\n\n4,755,944 $DOGE ($850,082 USD) was transferred from multiple wallets to an unknown wallet.\n\nFee: 8.05 ($1.44 USD)\n\nTx: https://t.co/FYuCSrvqe1\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 22:57:02 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 255,
             "username": "GrokAI.eth/Haitham",
             "user_account": "HaithamMoussa2",
             "text": "id:117599736 Done thnx for this opportunity I just want 50,000$ #DOGEorTesla \nsimply power of #community never dies to all #memecoins  haters DEAL WITH IT #Binance #BTC #dogecoin #DogecoinToTheMoon",
@@ -2471,7 +2551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 248,
+            "tweet_count": 256,
             "username": "FlokiSatori",
             "user_account": "blindheart_x",
             "text": "for 1 million $Doge i will shill your coin.",
@@ -2481,7 +2561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 249,
+            "tweet_count": 257,
             "username": "High - speed rail",
             "user_account": "VictorLovely9",
             "text": "#Doge \n#Dogecoin just dipped to .17 cents \nI bought $1945 bucks worth \nLet's see what happens \nI haven't done anything since I sold it @ 66 cents months ago \nHoping 17 is as low as it gos \nStill playing with house money \n#DogecoinToTheMoon",
@@ -2491,7 +2571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 250,
+            "tweet_count": 258,
             "username": "Marcy",
             "user_account": "m58146322",
             "text": "@Dogecoin_GES @henleynava You can buy it yourself, without the charity and pity of others",
@@ -2501,7 +2581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 251,
+            "tweet_count": 259,
             "username": "Shiba Inu",
             "user_account": "ShibaInu4724",
             "text": "@MikeDavisYT Let me guess, “Dogecoin is going padabolic”. Well I agree, it DID go “parabolic”, parabolic drop to .14\n\nLosing money hasn’t been this so much fun, EVER! Keep the hype up dude but, I say you should really think about another project as Dogecoin is DEAD!",
@@ -2511,7 +2591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 252,
+            "tweet_count": 260,
             "username": "Patty",
             "user_account": "pattyr20201",
             "text": "@QuantumSaitama @Shibtoken @dogecoin @ShirainuToken @InuSaitama Agree",
@@ -2521,7 +2601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 253,
+            "tweet_count": 261,
             "username": "ÐogeWatch",
             "user_account": "Dogewatch69",
             "text": "have faith and ignore the static. 🐕‍🦺 #dogecoin",
@@ -2531,7 +2611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 254,
+            "tweet_count": 262,
             "username": "Emily Sadler 💉",
             "user_account": "AggregatingNews",
             "text": "$DOGE idk man it kinda looks to me like she wants to EXPLODE 🪄\n\nLearn and Trade with the CHAT ROOM Community\n-&gt; https://t.co/8UCb3nmxIc https://t.co/mBVngRisSL",
@@ -2541,7 +2621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 255,
+            "tweet_count": 263,
             "username": "Traducciones Crypto",
             "user_account": "Brad332000",
             "text": "$sxp $egld $link $band $stx $iost $chz $celr $tomo $doge $xrp $ankr $sol $sand $srm $xtz $comp $atom $mana $enj $theta $ltc $eth $ankr $rsr $vidt $fet $inj $axs $btc $ava $avax $dot $blz $omg $egld $uni $nano $trb $rune $luna $icp $ong $audio https://t.co/tD6ftn3ZkA",
@@ -2551,7 +2631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 256,
+            "tweet_count": 264,
             "username": "PoonamTijare",
             "user_account": "TijarePoonam",
             "text": "$DOGE they couldn't crush it. So now we see. But that's a triple bottom. I expect extremely bullishness in the coming weeks! 😃\n\n#RecvProfit",
@@ -2561,7 +2641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 257,
+            "tweet_count": 265,
             "username": "Michelle Elliott",
             "user_account": "AnudishJinturk1",
             "text": "$DOGE who's scared to go to sleep 🤣 💢\n\n#RecvProfit",
@@ -2571,7 +2651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 258,
+            "tweet_count": 266,
             "username": "June Sanchez",
             "user_account": "SeifertMadeline",
             "text": "$DOGE.Xto the moon🚀 🆙\n\n#RecvProfit",
@@ -2581,7 +2661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 259,
+            "tweet_count": 267,
             "username": "Eric Briffoz",
             "user_account": "richeck72",
             "text": "Look what I found in my Wallet : I #HODL #dogecoin ! 😁 https://t.co/DcgARAxaZt",
@@ -2591,7 +2671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 260,
+            "tweet_count": 268,
             "username": "Быколай Оптоед",
             "user_account": "b_optoed",
             "text": "$DOGE let’s go Brandon 👆\n\n#RecvProfit",
@@ -2601,7 +2681,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 261,
+            "tweet_count": 269,
+            "username": "Ðogecoin Trade Alerts",
+            "user_account": "DogeTradeAlerts",
+            "text": "🐕🪙🐋🚨🚨\n\n25,449,301 $DOGE ($4,542,318 USD) was transferred from multiple wallets to an unknown wallet.\n\nFee: 2.89 ($0.52 USD)\n\nTx: https://t.co/xnG58SqBbp\n\n#DogecoinWhaleAlert #DogeWhaleAlert #WhaleAlert #Dogecoin #Doge",
+            "created_at": "Sat Dec 04 22:53:00 +0000 2021",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 270,
             "username": "SKistenyuk",
             "user_account": "SKistenyuk",
             "text": "Wanna win $50 000 in Doge coin from @cz_binance\n#DOGEorTesla #Binance",
@@ -2611,7 +2701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 262,
+            "tweet_count": 271,
             "username": "Maverickcrypto81",
             "user_account": "cryptomav1w",
             "text": "@ArtStationPunk @opensea doge coin is gone! The biggest meme coin of all time is the Flokiinu. the greatest viking ever CZ. https://t.co/AUXbgz2iJo",
@@ -2621,7 +2711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 263,
+            "tweet_count": 272,
             "username": "aWebAnalysis | Crypto",
             "user_account": "aWebAnalysis",
             "text": "Dogecoin DOGE Current Price:\n$0.1782\n\n1h: +1.47%\n24h: -10.88%\n7d: -13.28%\n30d: -31.86%\n\n#doge #dogecoin $DOGE",

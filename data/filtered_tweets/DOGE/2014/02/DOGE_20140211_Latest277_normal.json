@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -12,6 +12,186 @@
         },
         {
             "tweet_count": 2,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Do you have stuff you want to sell for dogecoin? Visit /r/dogemarket! by WAAAAAAAAAALT - http://t.co/aZo9urVYEd",
+            "created_at": "Tue Feb 11 23:56:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - If You're Hoping To Make A Quick Buck by skilliard4 - http://t.co/RJgh9tWELR",
+            "created_at": "Tue Feb 11 23:56:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Possible to buy Dogecoin with USD? by Hunterliv - http://t.co/HQiIg14VeF",
+            "created_at": "Tue Feb 11 23:56:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - If you don't have bitcoins, you should get some now. by hakarb - http://t.co/lIqyxQx9IC",
+            "created_at": "Tue Feb 11 23:56:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Remember 1Ɖ = 1Ɖ by robotobon - http://t.co/b89XgwPvz5",
+            "created_at": "Tue Feb 11 23:56:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Can someone explain to me this sudden increase in value of DOGE? by ASMRReading - http://t.co/FvhehxBOMb",
+            "created_at": "Tue Feb 11 23:56:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Last chance at 25k doge prize! by MossJr81 - http://t.co/LO33XjZDkI",
+            "created_at": "Tue Feb 11 23:56:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 9,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Why is local hashrate and pool hashrate so different? by EdenSB - http://t.co/VlCUcNTFHE",
+            "created_at": "Tue Feb 11 23:56:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - What happened to MtGox? by wasabi11 - http://t.co/rP8LHhrV5P",
+            "created_at": "Tue Feb 11 23:56:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Doge game (Flappy Doge) on the app store! by OrignialTropics - http://t.co/WZup10qCES",
+            "created_at": "Tue Feb 11 23:56:20 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogecoin is about to surpass Peercoin! 60,000 SubShibers Also Imminent! To the Moon! by s... http://t.co/Rk9NjOAViT",
+            "created_at": "Tue Feb 11 23:56:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Every time I hear about mining doges this image pops in my head, so I recreated it! by AM... http://t.co/e1Eyvp3FyI",
+            "created_at": "Tue Feb 11 23:56:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 14,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - IDEA: Online game with DogeCoin as currency by JoaoPadilha - http://t.co/MXxYvLav3e",
+            "created_at": "Tue Feb 11 23:56:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 15,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Someone is blatantly ripping off my site, http://t.co/6I3T7NSFJL. I feel honored ;) by loarf - http://t.co/dhIiuYLXnf",
+            "created_at": "Tue Feb 11 23:56:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 16,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - [Q] Is there a list of good parts for Scrypt Rigs? (My budget is $400-500 if that means a... http://t.co/FIeitIfUQS",
+            "created_at": "Tue Feb 11 23:56:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Are you a slumdoge? by JellyfishCurrent - http://t.co/AMgOcFRHhm",
+            "created_at": "Tue Feb 11 23:56:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 18,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Will 60k Subshibers happen tonight? Lets all get out into other Subs and Twitter to tip a... http://t.co/aupxlLddBK",
+            "created_at": "Tue Feb 11 23:56:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Does using the lowest used stratum on Dogehouse get you more doge? by silentReshiber - http://t.co/ir7UoB3hMV",
+            "created_at": "Tue Feb 11 23:56:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
             "username": "ZedCoins",
             "user_account": "ZedCoins",
             "text": "Don't miss out on the rising #zedcoin!  Time to get in is now!  Trading @swisscex  up 300%\n\n#bitcoin #litecoin #dogecoin #zombies #maxcoin",
@@ -21,7 +201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 21,
             "username": "Edward T Hall III 🌱",
             "user_account": "TedwardHall",
             "text": "@PayLabs hey be great to chat bout Dogecoin and @payswarm - ya'll following these?  NYC developments w/ real life gaming",
@@ -31,7 +211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 22,
             "username": "Michael McSweeney",
             "user_account": "mpmcsweeney",
             "text": "#Dogecoin you beautiful, beautiful money maker, you.",
@@ -41,17 +221,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
-            "username": "GoodShibe",
-            "user_account": "GoodShibe",
-            "text": ".@silfrany @tipdoge It's in the works right now. Coming online soon.  check frontpage of /r/dogecoin, there's a story there :D)",
-            "created_at": "Tue Feb 11 23:51:11 +0000 2014",
-            "retweet": 1,
+            "tweet_count": 23,
+            "username": "bitbeg",
+            "user_account": "bitcoinbegger",
+            "text": "Looking for a generous donation for my two months straight of tweeting #Dogecoin DKkMHntxdzoqq9oWfXfDD3vs5TMeVfsnYZ Lil help?",
+            "created_at": "Tue Feb 11 23:48:13 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 24,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "What tipping new shibes feels like http://t.co/kulvWEzNOs r",
+            "created_at": "Tue Feb 11 23:47:23 +0000 2014",
+            "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 25,
             "username": "hozkinz",
             "user_account": "hozkinz",
             "text": "DOGECOIN AT A HIGH PEAK OH YEAH BABY",
@@ -61,7 +251,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 26,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Tipbot that will work on Youtube, G+, Facebook, Imgur, etc. about half done, opening it up to the community for ... http://t.co/KsmpCnuuGy",
+            "created_at": "Tue Feb 11 23:44:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "This EPIC DOGECOIN video has got only 811 views? please, change it. by d1n just recieved TOP status on /r/dogecoin! http://t.co/7E9jwymf50",
+            "created_at": "Tue Feb 11 23:44:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "DogeCoin could really use the publicity by doing this...:\"It's Will Ferrell and the gauntlet has been thrown dow... http://t.co/JhUQLXWVZE",
+            "created_at": "Tue Feb 11 23:43:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 29,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000241\nCryptsy  0.00000267\nCoins-E 0.00000263\nAverage: $0.001716USD per #dogecoin",
@@ -71,7 +291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 30,
             "username": "Ghân-buri-Ghân",
             "user_account": "FicoXL",
             "text": "La dogecoin ha llegado a BTC38! TO THE MOON! http://t.co/EUlZBaYcuo",
@@ -81,7 +301,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 31,
+            "username": "ꉓꃅꀤꈤ™",
+            "user_account": "WrathofGoth",
+            "text": "@tipdoge tip @yayramen 500 #dogecoin my d00d!",
+            "created_at": "Tue Feb 11 23:35:28 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 32,
             "username": "AltCoin Tracker",
             "user_account": "AltCoinTracker",
             "text": "Keep your coin addresses in one place  we look up the balance for you http://t.co/2eU7TQq2w3 #bitcoin #dogecoin #feathercoin #litecoin",
@@ -91,7 +321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 33,
             "username": "Key Scouts",
             "user_account": "keyscouts",
             "text": "So, I bought a Bitcoin..and a Dogecoin http://t.co/HyRC33FWR3",
@@ -101,7 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 34,
             "username": "Beebug_Nic",
             "user_account": "BeeBug_Nic",
             "text": "#dogecoin at 266 satoshis ? https://t.co/CraF2dH7V1 TO TEH MOON! :)  now if only bitcoin would sort itself out :)",
@@ -111,7 +341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 35,
             "username": "Bitcoin Domain Sales",
             "user_account": "DomainBitcoin",
             "text": "New Domains for sales #Bitcoin #Litecoin #Dogecoin #Casinocoin - http://t.co/Kq145lV4gJ",
@@ -121,7 +351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 13,
+            "tweet_count": 36,
             "username": "Batican",
             "user_account": "thebatican",
             "text": "An article about me selling art with Dogecoin! http://t.co/W4VrlW5RDR #dogecoin #cryptocurrency",
@@ -131,7 +361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 37,
             "username": "cryptotraderinc",
             "user_account": "cryptotraderinc",
             "text": "@klinthoufy @CryptoPumpArmy @cryptokama I am enjoying the #doge show very much.  got in a while ago on that tip. #dogecoin #tothemoon",
@@ -141,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 38,
             "username": "Noel Rojo",
             "user_account": "X4NWO",
             "text": "Dogecoin Facebook Tip Bot. \nhttp://t.co/heNxXD0fuC",
@@ -151,7 +381,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
+            "tweet_count": 39,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Easier to Use, Vault of Satoshi or Cryptsy by UltimateSenjouWaifuX - http://t.co/HxbE4Mp1Fz",
+            "created_at": "Tue Feb 11 23:28:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 40,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I have seen the future and it is AWESOME! (Facebook tip bot) by hjras - http://t.co/OMvmcxcs7J",
+            "created_at": "Tue Feb 11 23:28:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 41,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Jamaican bobsled team crowdfunding news is pissing me off.. by lanezeri - http://t.co/xJidRTjwZU",
+            "created_at": "Tue Feb 11 23:28:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000241\nCryptsy  0.00000267\nCoins-E 0.00000265\nAverage: $0.001707USD per #dogecoin",
@@ -161,7 +421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
+            "tweet_count": 43,
             "username": "Dogecoin Herald",
             "user_account": "dogecoinherald",
             "text": "Much thanks to @peacenloveknits for your generous 10K #dogecoin donation! You make the world a more wonderful place! #awesome",
@@ -171,7 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
+            "tweet_count": 44,
             "username": "Morton Fox",
             "user_account": "mortonfox",
             "text": "@anthrosaurian I got some Dogecoin by hitting various faucets. Mining doesn’t seem to be worth the power consumption to me.",
@@ -181,7 +441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 45,
             "username": "wewantequality",
             "user_account": "HiroJaReviews",
             "text": "Dogecoin - Etsy Teams - If you live on the internet like I do you know about Esty and now this company... http://t.co/lIp8ZCcEFj",
@@ -191,7 +451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 46,
             "username": "Doge Lounge Poker",
             "user_account": "TheDogeLounge",
             "text": "Here's the winners to the 10kĐoge Giveaway from this weekend: https://t.co/3zklufzMTA #dogecoin",
@@ -201,7 +461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 47,
             "username": "Ktk2003.eth (💙,🧡)",
             "user_account": "ktk2003_eth",
             "text": "after #btc coming down #dogecoin is still rising",
@@ -211,7 +471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 48,
             "username": "Ktk2003.eth (💙,🧡)",
             "user_account": "ktk2003_eth",
             "text": "Currently  3.3 Mh/s #Scrypt #mining #dogecoin",
@@ -221,7 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 49,
             "username": "Paolo Barbesino",
             "user_account": "pbarbe",
             "text": "“@okonetchnikov: @pbarbe @D_Paczewski and man, bitcoin isn’t cool anymore. Every hipster buys dogecoin now!” Yup!",
@@ -231,7 +491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 50,
             "username": "Doge Lounge Poker",
             "user_account": "TheDogeLounge",
             "text": "Fixed a few bugs in the registration and wallet process. Come sign in and make a crowd!  #dogecoin #poker",
@@ -241,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 51,
             "username": "CryptoHedge",
             "user_account": "CryptoHedgeInfo",
             "text": "New post: Litecoin Deep Analysis with DOGE! http://t.co/nltIFE44pL #dogecoin #doge #btc #bitcoin #crypto #LTC #litecoin",
@@ -251,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
+            "tweet_count": 52,
             "username": "Chava MG",
             "user_account": "em1grante",
             "text": "@Dnkzz such money much mining! http://t.co/Yb9qYEaA0g @dogecoin",
@@ -261,7 +521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
+            "tweet_count": 53,
             "username": "ДНР и ЛНР - на...ер!",
             "user_account": "rogerua",
             "text": "I liked a @YouTube video http://t.co/3YAeCk04mY DOGECOIN - My wallet is a galaxy!",
@@ -271,7 +531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 54,
             "username": "Dogecoin Herald",
             "user_account": "dogecoinherald",
             "text": "@DogeDrift Thanks for taking the time to talk with me! Pleasure was all ours! #dogecoin #dogedrift #awesome",
@@ -281,7 +541,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 29,
+            "tweet_count": 55,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "'I'm a novice - and I love it': Elton John is getting into electro http://t.co/rlFiaGfXEI Pls Rt #Bitcoin #Maxcoin #Dogecoin",
+            "created_at": "Tue Feb 11 23:06:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
             "username": "maruma",
             "user_account": "8marz",
             "text": "#dogecoin current sell wall  http://t.co/T2fJmnwvne",
@@ -291,7 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 30,
+            "tweet_count": 57,
             "username": "Krzysztof",
             "user_account": "indywidualny",
             "text": "@cryptsy DogeCoin deposit takes forever... I know, confirmations, all that shit but that deposit is not even 'pending'. WTF!?",
@@ -301,7 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
+            "tweet_count": 58,
             "username": "Scrypt Warz",
             "user_account": "ScryptWarz",
             "text": "What is Dogecoin? - http://t.co/DdFO5O7KTF http://t.co/yp1eMtylWT",
@@ -311,17 +581,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 32,
-            "username": "Ethan",
-            "user_account": "STwalkerE",
-            "text": "Getting close to the all time high, which happened only five hours ago. The volume is looking good, we are going to break 270 that #dogecoin",
-            "created_at": "Tue Feb 11 23:02:54 +0000 2014",
-            "retweet": 1,
-            "likes": 1,
+            "tweet_count": 59,
+            "username": "mracer29",
+            "user_account": "mracer29Dan",
+            "text": "@PartyAnimalz305 @dogecoin @Bitcoin @Lite_Coins you mean $16",
+            "created_at": "Tue Feb 11 23:02:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 60,
             "username": "DogeDrift.com",
             "user_account": "DogeDrift",
             "text": "@dogecoinherald did a great article about us! Check it out and the other articles they have! http://t.co/LhiuiRikoV #dogedrift #dogecoin",
@@ -331,17 +601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
-            "username": "dogecoinprice",
-            "user_account": "dogecoinprice",
-            "text": "$1=575 #dogecoin, 1 #DOGE = $0.0017 or 264 satoshi ( Coin-E:265 BTER:262 ), Coinbase BTC:$661",
-            "created_at": "Tue Feb 11 23:02:10 +0000 2014",
-            "retweet": 2,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 35,
+            "tweet_count": 61,
             "username": "-Wargrave-",
             "user_account": "Wrgrv_dogecoin",
             "text": "On my way to the moon with Dogecoins! \n@WowSuchDogecoin #wow #dogecoin #moon #suchwin",
@@ -351,7 +611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 62,
             "username": "maruma",
             "user_account": "8marz",
             "text": "#dogecoin is trying to break the new high... 57btc wall at 280, 184btc at 300 #tothemoon #hold",
@@ -361,7 +621,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 37,
+            "tweet_count": 63,
+            "username": "SuchDogeNews",
+            "user_account": "SuchDogeNews",
+            "text": "#Dogecoin featured on BIG chinese crypto news site! http://t.co/g0WG5hsQ4M",
+            "created_at": "Tue Feb 11 22:59:09 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 64,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000238\nCryptsy  0.00000264\nCoins-E 0.00000263\nAverage: $0.001668USD per #dogecoin",
@@ -371,17 +641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
-            "username": "Ethan",
-            "user_account": "STwalkerE",
-            "text": "As I said earlier, #dogecoin is shooting for the new high. Damn this rocket is unstoppable.. To the MOON@@@",
-            "created_at": "Tue Feb 11 22:55:43 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 39,
+            "tweet_count": 65,
             "username": "StrangeVick",
             "user_account": "vickers_hunter",
             "text": "Wow so doge very flappy much dogecoin http://t.co/D9BpQc1b9G",
@@ -391,7 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 66,
             "username": "Party-Animalz",
             "user_account": "PartyAnimalz305",
             "text": "@dogecoin @Bitcoin @Lite_Coins value is now $66 such wow!",
@@ -401,17 +661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
-            "username": "Ethan",
-            "user_account": "STwalkerE",
-            "text": "Damn, #dogecoin reddit site is down due to heavy traffic. We did not even started yet. To the moon!!!",
-            "created_at": "Tue Feb 11 22:54:00 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 42,
+            "tweet_count": 67,
             "username": "Shibe Mart",
             "user_account": "ShibeMart",
             "text": "Come get some #dogecoin, our sellers have made Ð272,958 to date!  We have 529 users and 351 services/downloads available.\n#tothemoon",
@@ -421,17 +671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
-            "username": "dogecalculator",
-            "user_account": "dogecalculator",
-            "text": "DOGE at a PEAK: #doge @ BTC 255 Satoshis = USD 0.00166759 = EUR 0.00118808 http://t.co/9Zlkvb1zQt  #dogecoin",
-            "created_at": "Tue Feb 11 22:46:56 +0000 2014",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 44,
+            "tweet_count": 68,
             "username": "Nate Woolls",
             "user_account": "nwoolls",
             "text": "MultiMiner 2.6.3 brings Remoting compatibility between Linux, OS X &amp; Windows rigs http://t.co/BF0au6IfCV #Bitcoin #Litecoin #Dogecoin",
@@ -441,7 +681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
+            "tweet_count": 69,
             "username": "Mr Accelerator",
             "user_account": "accx",
             "text": "The rise and rise of dogecoin, the internet’s hottest cryptocurrency http://t.co/G5hC2aEiJc",
@@ -451,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 70,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000238\nCryptsy  0.00000255\nCoins-E 0.00000264\nAverage: $NaNUSD per #dogecoin",
@@ -461,7 +701,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 71,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Pictures of the Week: January 17 – January 24 http://t.co/bFI3vu75lU Pls Rt #Bitcoin #Maxcoin #Dogecoin",
+            "created_at": "Tue Feb 11 22:41:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 72,
             "username": "ward 69 councillor Tyler emerges from the blue",
             "user_account": "tklongmire",
             "text": ".@josh_wingrove but what about dogecoin",
@@ -471,17 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
-            "username": "Ethan",
-            "user_account": "STwalkerE",
-            "text": "Let’s see if we can get the new high tonight. To the moon!! #dogecoin",
-            "created_at": "Tue Feb 11 22:36:24 +0000 2014",
-            "retweet": 1,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 49,
+            "tweet_count": 73,
             "username": "ChickunTrader",
             "user_account": "optrader1001",
             "text": "http://t.co/c0WhcuBhmX\n\"Critics argue that dogecoin will never succeed because it is a meme. They are badly mistaken.\" #Dogecoin",
@@ -491,7 +731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 74,
             "username": "Derek Snook",
             "user_account": "derek_snook",
             "text": "@gilbert Already have #FlappyBird? For 100 #DogeCoin I will tap the hell out of your iOS device &amp; guarantee high score among your friends!",
@@ -501,7 +741,227 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 75,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Technical question: Dogecoin wallet addresses and Dogechain by kibbl3 - http://t.co/iTFJuUUJsl",
+            "created_at": "Tue Feb 11 22:34:57 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 76,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Looking for a good pool, any suggestions? by Benjammin1391 - http://t.co/fhWtCtZsXM",
+            "created_at": "Tue Feb 11 22:34:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 77,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Litecoin pools are mining Dogecoin. It turns out Doge is 47% more profitable than Litecoi... http://t.co/mFB6jPn7fN",
+            "created_at": "Tue Feb 11 22:34:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 78,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - DOSS attack? by superluminous - http://t.co/ptoBvg22rm",
+            "created_at": "Tue Feb 11 22:34:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 79,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogecoin video [WATCH THE WHOLE THING BEFORE DOWNVOTING] by Marsroverr - http://t.co/tta8fWHywi",
+            "created_at": "Tue Feb 11 22:34:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 80,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - ELI5: How do I setup the tipbot and start tipping. by Road_daddy - http://t.co/d5AjXEW3hD",
+            "created_at": "Tue Feb 11 22:34:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 81,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - monumental moment by bjornfjordisson - http://t.co/jLuiBQ0JSH",
+            "created_at": "Tue Feb 11 22:34:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 82,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Fiction news piece predicted the current 250 satoshi price. Do you think the other predic... http://t.co/EteXIvp2H9",
+            "created_at": "Tue Feb 11 22:34:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 83,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - About tips by Kyle_ - http://t.co/Vx7ZDB1KgR",
+            "created_at": "Tue Feb 11 22:34:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 84,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Doge day trading by jonstern - http://t.co/bIenzCGhyW",
+            "created_at": "Tue Feb 11 22:34:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 85,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - The Halvening is only the beginning...HOLD Shibes!!! by roadywan - http://t.co/fT97dPpaZo",
+            "created_at": "Tue Feb 11 22:34:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 86,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - to My fellow Australian Shibe-noobs by Brohagan_ - http://t.co/QvW9nFWvyu",
+            "created_at": "Tue Feb 11 22:34:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 87,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - What is the halvening? by nunchukity - http://t.co/08JNMi1VCy",
+            "created_at": "Tue Feb 11 22:34:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 88,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - block question by J3III - http://t.co/Svm8MrJOF7",
+            "created_at": "Tue Feb 11 22:34:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 89,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Are faucets even useful? by Chanz - http://t.co/bAOyRXuSvE",
+            "created_at": "Tue Feb 11 22:34:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 90,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - New Shibe here! Having fun! by GetLuckyDoge - http://t.co/QU63bP7HUf",
+            "created_at": "Tue Feb 11 22:34:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 91,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogecoin up 20% today by NYCGamer - http://t.co/yWnOEo1T8G",
+            "created_at": "Tue Feb 11 22:34:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 92,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogevault slow? by Goranic - http://t.co/GpfrJmPG6U",
+            "created_at": "Tue Feb 11 22:34:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 93,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Help with a mining problem? by Sublime99 - http://t.co/3Vnkjlj1Wc",
+            "created_at": "Tue Feb 11 22:34:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 94,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - MY FIRST DOGECOIN POST by TheDogemeister - http://t.co/qh6pnsO7I6",
+            "created_at": "Tue Feb 11 22:34:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 95,
+            "username": "YCN",
+            "user_account": "YourCryptoNews",
+            "text": "Re: Dogecoin http://t.co/48Dni8DMSV",
+            "created_at": "Tue Feb 11 22:34:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 96,
+            "username": "No life to waste.",
+            "user_account": "RealDealWilliam",
+            "text": "Sweet!!! @stuffcoins check it out!! Lol #Dogecoin FTW, ITS REAL PEOPLE!! Use it!!! http://t.co/IIhZnhl1zD\n#booya son! http://t.co/FYJ0jAgLDm",
+            "created_at": "Tue Feb 11 22:30:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 97,
             "username": "CryptoHedge",
             "user_account": "CryptoHedgeInfo",
             "text": "DOGE/BTC All TIME HIGH http://t.co/xUPpTqDA4K …  #dogecoin #doge #btc #bitcoin #crypto http://t.co/uwZnqpyXom",
@@ -511,7 +971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
+            "tweet_count": 98,
             "username": "dogebiz",
             "user_account": "dogebizdotnet",
             "text": "7 new listings today! The list grows more and more! #dogecoin #tothemoon #opacceptdogecoin #dogenation #doge",
@@ -521,7 +981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 99,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000238\nCryptsy  0.00000255\nCoins-E 0.00000249\nAverage: $0.001618USD per #dogecoin",
@@ -531,7 +991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 100,
             "username": "🐔Actual Advice Bitcoin",
             "user_account": "ActualAdviceBTC",
             "text": "@Jonathan360 might sell just before event, but who knows, maybe more ridiculous things to come e.g. Jamaica wins gold, thanks dogecoin etc.",
@@ -541,7 +1001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 101,
             "username": "Aldrahill",
             "user_account": "Aldrahill",
             "text": "I liked a @YouTube video http://t.co/rJBNzU7vEe Dogecoin - such currency",
@@ -551,7 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 102,
             "username": "AltCoin Tracker",
             "user_account": "AltCoinTracker",
             "text": "We give you Doge! So free! 100 Doge added to your first Dogecoin address http://t.co/2eU7TQH5y3 #bitcoin #dogecoin #feathercoin #litecoin",
@@ -561,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 103,
             "username": "Propaganda ⌖ Sniper",
             "user_account": "HindlesKitchen",
             "text": "The Currency Converter widget for Apple’s Mac OSX now supports a variety of digital currencies, such as Bitcoin, Peercoin, &amp; Dogecoin.",
@@ -571,7 +1031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 104,
             "username": "dogebiz",
             "user_account": "dogebizdotnet",
             "text": "NightmareonCraftSt http://t.co/rpTx21M4Af via  More custom made apparel and accessories for #dogecoin Were on an Etsy roll today!",
@@ -581,17 +1041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
-            "username": "Ethan",
-            "user_account": "STwalkerE",
-            "text": "It looks like #dogecoin is getting ready for another pop. Volume is looking good too! Much wow",
-            "created_at": "Tue Feb 11 22:21:28 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 60,
+            "tweet_count": 105,
             "username": "Rohan Smith🇯🇲@🇹🇹🧡₿⚡️",
             "user_account": "frazras",
             "text": "Do you like bitcoin, Litecoin or Dogecoin or would like to learn more? Join the Caribbean Crypto-currency Consortium https://t.co/3caPl3ENop",
@@ -601,7 +1051,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 106,
+            "username": "coinspipe.com",
+            "user_account": "coinspipe",
+            "text": "#bitcoin #dogecoin [ANN][BELI]BELI! The Coin Who Will Become the King of Crypto-coins!: This's BELI! The Coin ... http://t.co/Y5moGSZOxv",
+            "created_at": "Tue Feb 11 22:20:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 107,
             "username": "LionCryptoKing",
             "user_account": "CryptoWin",
             "text": "Haha good #dogecoin #video:\nhttps://t.co/wt6srezmX6",
@@ -611,7 +1071,217 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 108,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - How can you check number of confirmations? by Novazilla - http://t.co/tX9yHdbrJG",
+            "created_at": "Tue Feb 11 22:18:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 109,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I have 3.7 dogecoins. What now? by phobos55 - http://t.co/8wmMbO7a4T",
+            "created_at": "Tue Feb 11 22:18:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 110,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - How much Dogecoin is enough? by karllines - http://t.co/6HBoQFRMYH",
+            "created_at": "Tue Feb 11 22:18:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 111,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Kinda puts it all in perspective..... What it's like to hold a doge by Itchy_Craphole - http://t.co/RqNq2iPgQf",
+            "created_at": "Tue Feb 11 22:18:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 112,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Question for mining by mw2dude2010 - http://t.co/vNKtFIZqKU",
+            "created_at": "Tue Feb 11 22:18:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 113,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dohj,douge,dogue dog-e or just dog? by physics4life - http://t.co/cSHKWXrrm4",
+            "created_at": "Tue Feb 11 22:18:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 114,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Besides the upcoming halving, what events influence the price of Doge? by T_Baron - http://t.co/SqLTOWBzTs",
+            "created_at": "Tue Feb 11 22:18:25 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 115,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - it's that time again! by ultimate_mahvel - http://t.co/5iPdLwkDnQ",
+            "created_at": "Tue Feb 11 22:18:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 116,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - TeamDoge is down by fredo1664 - http://t.co/kaWktyprYv",
+            "created_at": "Tue Feb 11 22:18:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 117,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - TeamDoge is down? by RelativeBacons - http://t.co/FNmFQ593bd",
+            "created_at": "Tue Feb 11 22:18:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 118,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Co-worker won't shut up about Dogecoin by goofySketch - http://t.co/k1Mo1vRTpD",
+            "created_at": "Tue Feb 11 22:18:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 119,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - How I feel about our community compared to other cryptos. by PrimoAssassin - http://t.co/TF6gV10uYS",
+            "created_at": "Tue Feb 11 22:18:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 120,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Expect us... we're going to the moon! by franckuestein - http://t.co/BP3iPRW4TJ",
+            "created_at": "Tue Feb 11 22:18:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 121,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Need cheap mining rig settings by feferest - http://t.co/cvUetGMRXC",
+            "created_at": "Tue Feb 11 22:18:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 122,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Anyone know whats up with the Team Doge pool? by SwagMasterMo - http://t.co/rdkXlHEbxK",
+            "created_at": "Tue Feb 11 22:18:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 123,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - The song I had stuck in my head today, when thinking about the halving on the 14th by... http://t.co/hAzWCJURPF",
+            "created_at": "Tue Feb 11 22:18:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 124,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - How many shibes does it take to change a lightbulb? by XtremeGameDesign - http://t.co/fL54lbcoSo",
+            "created_at": "Tue Feb 11 22:18:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 125,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - 2 Days till launch!!!!! by martijn580 - http://t.co/P7QDFjnXw6",
+            "created_at": "Tue Feb 11 22:18:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 126,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Checked my pool site after leaving my miner on for a day and came back to this. Learned a... http://t.co/wVqxY3vZsT",
+            "created_at": "Tue Feb 11 22:18:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 127,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - can we make an official \"cryptsy is slow\" complaints catch-all thread? by kockhart - http://t.co/05a7MJSWSB",
+            "created_at": "Tue Feb 11 22:18:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 128,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Arsene Wenger: Defeat against Liverpool was 'an accident' http://t.co/PLNL8ZjAwd Pls Rt #Bitcoin #Maxcoin #Dogecoin",
+            "created_at": "Tue Feb 11 22:17:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 129,
             "username": "Noob Shibe",
             "user_account": "NoobShibe",
             "text": "#DOGE contest! Winner 2 submit most efficient rig wins 10k Doge. Submit ur rig to contact@noobshibe.com  - http://t.co/c093qvs0RI #dogecoin",
@@ -621,7 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 130,
             "username": "zeta",
             "user_account": "theclash303",
             "text": "@coinlaunch Mcxnow will add Dogecoin soon. It is super fast and clean looking. Betr is very nice too.",
@@ -631,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 131,
             "username": "dogebiz",
             "user_account": "dogebizdotnet",
             "text": "CraftBangBoom http://t.co/urDlRqk5gt Now listed @dogebizdotnet for all you photo shibes. vintage camera accessories for #dogecoin",
@@ -641,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 132,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000237\nCryptsy  0.00000252\nCoins-E 0.00000254\nAverage: $0.001588USD per #dogecoin",
@@ -651,7 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 133,
             "username": "James Stout",
             "user_account": "stoutyhk",
             "text": "@DogeChain is http://t.co/nobTFlTCLG lagging at the moment? Can’t see tx in the chain, but can in my wallet. Thanks",
@@ -661,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 134,
             "username": "I AM A MANDER",
             "user_account": "_officesupply",
             "text": "\"@BulletsForever: Trying to figure Otto Porter's value is like trying to figure out the value of Bitcoin.\" *dogecoin",
@@ -671,7 +1341,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 135,
+            "username": "SuchDogeNews",
+            "user_account": "SuchDogeNews",
+            "text": "IHB20 Trader Alert: Bitcoin is Flat Today And #Dogecoin Is Up 36% http://t.co/awfY6esZAW",
+            "created_at": "Tue Feb 11 22:08:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 136,
             "username": "Dogecoin Shibe",
             "user_account": "DogeCoinShibe",
             "text": "Dogecoin up 20% today! Gotta love the D",
@@ -681,7 +1361,197 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 137,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Value of Dogecoin in two years by saiwaimaung - http://t.co/IPYvSHdJtP",
+            "created_at": "Tue Feb 11 22:04:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 138,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Get Coinding to use Dogecoins! much signatures, wow by KCAshibeon - http://t.co/604dX7qxe4",
+            "created_at": "Tue Feb 11 22:04:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 139,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogecoin #3 crypto currency today????? by johnnycoin - http://t.co/QFFDzoo9xP",
+            "created_at": "Tue Feb 11 22:04:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 140,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Such candy. Much valentine. by AllieFox - http://t.co/Vnt0fVwP4s",
+            "created_at": "Tue Feb 11 22:04:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 141,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Correlation - Hashrate and Gain? by supraturboman - http://t.co/xmRO8Q3Cxw",
+            "created_at": "Tue Feb 11 22:04:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 142,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Prediction: big sell-off this Thursday/Friday (day of halfening) by delabay - http://t.co/euI4ir84Fn",
+            "created_at": "Tue Feb 11 22:04:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 143,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I made this video. Such emotion. Wow. by comment_sniffer - http://t.co/WQpvl9DFIL",
+            "created_at": "Tue Feb 11 22:04:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 144,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Shoes for the moon. Much stars by brendtb - http://t.co/y3YclDRgWF",
+            "created_at": "Tue Feb 11 22:04:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 145,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Does anyone know how to download Multidoge on the raspberry pi? by MONEYMAN1298 - http://t.co/U57Q7zfhgu",
+            "created_at": "Tue Feb 11 22:04:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 146,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - What, exactly, is the halving that everyone keeps referencing? by DJBubbala - http://t.co/31ya79uXLg",
+            "created_at": "Tue Feb 11 22:04:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 147,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Doge on the moon! we are all heading there fellow shibe's! by archclan - http://t.co/v6mxE0z1iS",
+            "created_at": "Tue Feb 11 22:04:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 148,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - MSI card miner by patchm0078 - http://t.co/vSYpyVhyKx",
+            "created_at": "Tue Feb 11 22:04:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 149,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - [Challenge] Feb 14th Tip fest by Draemalic - http://t.co/WB8AvZt8FE",
+            "created_at": "Tue Feb 11 22:04:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 150,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - r/dogecoin Help! I want to map us! by LeftHandLink - http://t.co/oSZNrwXhVh",
+            "created_at": "Tue Feb 11 22:04:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 151,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I'm horrible at photoshop, but I had to do this. by AllieFox - http://t.co/GD00oiF1Cv",
+            "created_at": "Tue Feb 11 22:04:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 152,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Spreading the ÐOGE! by warriorservant - http://t.co/lA09jj0ly7",
+            "created_at": "Tue Feb 11 22:04:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 153,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - To the Moon! (FlappyDoge) by aWiseMoose - http://t.co/CGxlYdRhIy",
+            "created_at": "Tue Feb 11 22:04:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 154,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I'm a poor shibe, I got stolen :'(. by nemewsys - http://t.co/87p6BukaLN",
+            "created_at": "Tue Feb 11 22:04:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 155,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Re: Wall Observer BTC/USD - Bitcoin price movement tracking &amp; discussion http://t.co/YnyzTNaxqC Pls Rt #Bitcoin #Maxcoin #Dogecoin",
+            "created_at": "Tue Feb 11 22:03:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 156,
             "username": "David Kaneda",
             "user_account": "DavidKaneda",
             "text": "I’ve started using Cryptsy to day-trade some Dogecoin for fun. Here’s an affiliate link if you want to too: http://t.co/jRMahU0XWK",
@@ -691,17 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
-            "username": "dogecoinprice",
-            "user_account": "dogecoinprice",
-            "text": "$1=612 #dogecoin, 1 #DOGE = $0.0016 or 253 satoshi ( Coin-E:254 BTER:253 Cryptsy:252 ), Coinbase BTC:$646",
-            "created_at": "Tue Feb 11 22:02:11 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 71,
+            "tweet_count": 157,
             "username": "hadojae",
             "user_account": "switchingtoguns",
             "text": "@grap3_ap3 i sent you some doge - aka silly internet tipping currency &gt; http://t.co/CVPJzWolq7 / http://t.co/zDJL2gqSQP",
@@ -711,7 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 158,
             "username": "dogebiz",
             "user_account": "dogebizdotnet",
             "text": "jdraimer http://t.co/AO4usS1yJb via @Etsy Now listed on @dogebizdotnet Custom pins and wall decals for #dogecoin",
@@ -721,7 +1581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 159,
             "username": "Bit Scion",
             "user_account": "bitscion",
             "text": "Dogecoin Is Real—And They Party With Dogs - The Awl http://t.co/ZMcmeKt2ue http://t.co/DP8qiYLi2Z",
@@ -731,7 +1591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 160,
             "username": "jason childs",
             "user_account": "chuzgrutz",
             "text": "nice giveaway on freenode bro you have a new #dogecoin follower",
@@ -741,7 +1601,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 161,
+            "username": "bitbeg",
+            "user_account": "bitcoinbegger",
+            "text": "#dogecoin #followtrain ? If you have #doge want doge or what to know about doge rt this and follow all that rt. Let's network!",
+            "created_at": "Tue Feb 11 21:59:02 +0000 2014",
+            "retweet": 4,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 162,
             "username": "Roy van den Heuvel",
             "user_account": "royovic",
             "text": "SUCH INFO! - Dogecoin - such currency: http://t.co/vDLoWmCHIy via @youtube",
@@ -751,7 +1621,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
+            "tweet_count": 163,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "DogeCoin could really use the publicity by doing this...:\"It's Will Ferrell and the gauntlet has been thrown... http://t.co/vexXCWmGst r",
+            "created_at": "Tue Feb 11 21:58:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 164,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "Will Ferrell wants to raise 300k to have a drum off with Chad Smith in support of Cancer For College, let's ... http://t.co/x3g1zLq9HU r",
+            "created_at": "Tue Feb 11 21:58:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 165,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000237\nCryptsy  0.00000252\nCoins-E 0.00000254\nAverage: $0.001580USD per #dogecoin",
@@ -761,7 +1651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 77,
+            "tweet_count": 166,
             "username": "AltcoinForums",
             "user_account": "altcoinforums",
             "text": "good god #Dogecoin is on fire",
@@ -771,7 +1661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
+            "tweet_count": 167,
             "username": "Ted",
             "user_account": "maartented",
             "text": "#kittehcoin pump in 1 hrs @ #Cryptsy enjoy while it lasts! #Dogecoin #Maxcoin You'r welome! #meow",
@@ -781,7 +1671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 79,
+            "tweet_count": 168,
             "username": "Ronald Suwandi",
             "user_account": "SuwandiRonald",
             "text": "@Lukian does dogecoin count? :p",
@@ -791,7 +1681,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 169,
+            "username": "SuchDogeNews",
+            "user_account": "SuchDogeNews",
+            "text": "Spread to your followers! \"The Beginner's Guide to #Dogecoin\" http://t.co/8SlVu5gLL5",
+            "created_at": "Tue Feb 11 21:52:07 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 170,
             "username": "Sam Blackman",
             "user_account": "srossblack",
             "text": ". @ranger_d I hope you're working on Tweet Doge today. http://t.co/uDLZFv7g8V via @Jen_Face #dogecoin #doge",
@@ -801,7 +1701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 171,
             "username": "$bitlamp | 💡LAMP Pool",
             "user_account": "bitlamp_ch",
             "text": "Such donations\n                                very gorgeous\n                   many thanks\n         wow!\n#dogecoin\n\nhttps://t.co/eI5TPcTR9f",
@@ -811,7 +1711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
+            "tweet_count": 172,
             "username": "Quotecoins",
             "user_account": "Quotecoins",
             "text": "Dogecoin Development Showing Real Potential for Growth with Dogewand http://t.co/FBtsOW09eS",
@@ -821,7 +1721,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 173,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Aaaannnd we hit 80 million dollar market cap! by dalovindj just recieved TOP status on /r/dogecoin! http://t.co/S5Sx08hFMJ",
+            "created_at": "Tue Feb 11 21:48:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 174,
+            "username": "YesToDoge",
+            "user_account": "yestodoge",
+            "text": "Shibes are such a diverse group. Top people talking about #dogecoin today include: @zach415 @kleggy @tammycamp @debostic @angelawhite wow",
+            "created_at": "Tue Feb 11 21:47:58 +0000 2014",
+            "retweet": 2,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 175,
             "username": "Ben Lawsky",
             "user_account": "BenLawsky",
             "text": ".@nahmias Recurring pattern for me when discussing anything remotely hip.  Bigger question is how to pronounce dogecoin, which I ducked.",
@@ -831,7 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 176,
             "username": "Howard Brilliant",
             "user_account": "HDBtweets",
             "text": "To those of you who lost your shirts to bitcoin over the last few days: the Dogecoin community is prepared to buy you a new one. Join us!",
@@ -841,7 +1761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 177,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000236\nCryptsy  0.00000255\nCoins-E 0.00000249\nAverage: $0.001578USD per #dogecoin",
@@ -851,7 +1771,227 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
+            "tweet_count": 178,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Can We Make This The Dogecoin Theme Song? by manocake1 - http://t.co/R7TrhscvaI",
+            "created_at": "Tue Feb 11 21:41:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 179,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Need some help regarding Cryptsy deposit.. by prestin32k - http://t.co/KOwCsuydRz",
+            "created_at": "Tue Feb 11 21:41:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 180,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Shibe Wan Coinobi by BitbullTerrier - http://t.co/vDWveqed9z",
+            "created_at": "Tue Feb 11 21:40:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 181,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - This is how I feel when I wait for a major crash but just keep loosing opportunities by c... http://t.co/BKYyCdLAvW",
+            "created_at": "Tue Feb 11 21:40:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 182,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - We should establish our capital on the moon... and call it Beershibe. by PrimoAssassin - http://t.co/4jzbRs5W3Y",
+            "created_at": "Tue Feb 11 21:40:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 183,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - So excited! by Kilahbeez - http://t.co/b9lwLQlGeC",
+            "created_at": "Tue Feb 11 21:40:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 184,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I really was going to buy Doges but suddenly the price increased... by ckts - http://t.co/rM18gCmwhZ",
+            "created_at": "Tue Feb 11 21:40:57 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 185,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I really was going to buy Doges but suddenly the price increased... by ckts - http://t.co/fKGxjALYK7",
+            "created_at": "Tue Feb 11 21:40:57 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 186,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Trading - perspecitve by Phorna - http://t.co/iLgkUV2cef",
+            "created_at": "Tue Feb 11 21:40:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 187,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - The Beginner's Guide to Dogecoin by DisputableDownvotes - http://t.co/qk2JkrHaPT",
+            "created_at": "Tue Feb 11 21:40:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 188,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Shibe Social Class Ranking by Tuschay - http://t.co/5eLH7p72N3",
+            "created_at": "Tue Feb 11 21:40:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 189,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Over 60,000 likes on Facebook now. by peilthetraveler - http://t.co/uL0SLoVn0B",
+            "created_at": "Tue Feb 11 21:40:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 190,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - We need to measure DOGE as USD not satoshi, but I've lost all trust in vaultofsatoshi. by... http://t.co/Ybyxmuwf1N",
+            "created_at": "Tue Feb 11 21:40:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 191,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Buzzfeed (750K followers) (re)Tweeting about doge by Daggel - http://t.co/XWHhlWy6jn",
+            "created_at": "Tue Feb 11 21:40:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 192,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Mining question by pezomarko - http://t.co/RuIykM1kiY",
+            "created_at": "Tue Feb 11 21:40:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 193,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - NYC Webdesign Internship! (Paid in Doge!) by jagermario - http://t.co/ORpLETw3Ag",
+            "created_at": "Tue Feb 11 21:40:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 194,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Chunky DogeCoin pool! by aimnano - http://t.co/nSQcmsnCLu",
+            "created_at": "Tue Feb 11 21:40:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 195,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - http://t.co/pT0gA1OajA stuck on a tough block or what? by pidg30n - http://t.co/ipKDqMJmha",
+            "created_at": "Tue Feb 11 21:40:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 196,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Friendly reminder to ALL shibes by lookofindifference - http://t.co/B4TNNv936I",
+            "created_at": "Tue Feb 11 21:40:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Will get dogecoin tattooed on me!!! by Sharkbait1313 - http://t.co/n80e7qJyhL",
+            "created_at": "Tue Feb 11 21:40:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 198,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Number of young U.S. technology companies falls: report http://t.co/rABIGdKEv9 Pls Rt #Bitcoin #Maxcoin #Dogecoin",
+            "created_at": "Tue Feb 11 21:40:14 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 199,
+            "username": "Little Shibe",
+            "user_account": "LittleShibe",
+            "text": "So when im standing on the moon and I throw a baseball can I break the gravitational pull of the moon  ? #dogecoin",
+            "created_at": "Tue Feb 11 21:39:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 200,
             "username": "Sean Nakamura",
             "user_account": "SeanNakamura",
             "text": "@ericnakagawa what is this about doge coin?!?!",
@@ -861,7 +2001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 87,
+            "tweet_count": 201,
             "username": "AK Coins",
             "user_account": "AKCoins",
             "text": "DOGE is on a complete tear - DOGE/BTC up to .00000257 #Dogecoin #DOGE #ManyGet",
@@ -871,7 +2011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
+            "tweet_count": 202,
             "username": "Edward Seim",
             "user_account": "SirSeim",
             "text": "That iMac hacking Dogecoin mining. @Jadengore http://t.co/r0wgVCxAZu",
@@ -881,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 89,
+            "tweet_count": 203,
             "username": "Bolívar ⚪",
             "user_account": "michimander",
             "text": "DogeCoin!!",
@@ -891,7 +2031,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 204,
+            "username": "Little Shibe",
+            "user_account": "LittleShibe",
+            "text": "#Shibes after touchdown, we will be called $hibes, #dogecoin",
+            "created_at": "Tue Feb 11 21:33:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 205,
             "username": "Sarah Moran 💃 ",
             "user_account": "SarahMoran",
             "text": "When @rosshill buying beer makes the news... http://t.co/8iWTC9ujmD #bitcoin #dogecoin",
@@ -901,7 +2051,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 206,
+            "username": "Little Shibe",
+            "user_account": "LittleShibe",
+            "text": "This aint your daddies currency #dogecoin",
+            "created_at": "Tue Feb 11 21:31:05 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 207,
+            "username": "Little Shibe",
+            "user_account": "LittleShibe",
+            "text": "@ANGELAWHITE @Adult tips for nips #dogecoin :)",
+            "created_at": "Tue Feb 11 21:29:08 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 208,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000236\nCryptsy  0.00000251\nCoins-E 0.00000247\nAverage: $0.001598USD per #dogecoin",
@@ -911,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 209,
             "username": "No.1 John Cena Fan 🥀",
             "user_account": "LowLeeWolf",
             "text": "Facebook is adding a Dogecoin tipping bot soon http://t.co/OUTdYq68eR",
@@ -921,7 +2091,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
+            "tweet_count": 210,
+            "username": "No life to waste.",
+            "user_account": "RealDealWilliam",
+            "text": "@KingLeonidaz_ Leonidas = #DOGECOIN , BlackDude = #BITCOIN LOOOOL I wish i had a @SamsungMobileUS NOTE 3 #2EditThis ! http://t.co/HkjPZEPJwu",
+            "created_at": "Tue Feb 11 21:24:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 211,
+            "username": "bitbeg",
+            "user_account": "bitcoinbegger",
+            "text": "@mohamadmobrak @nasir_sharada @xingmi__ no do you want #dogecoin ?",
+            "created_at": "Tue Feb 11 21:23:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 212,
             "username": "Aria Taheri",
             "user_account": "ariataheri",
             "text": "Value of doge coin is up by over 20% in the last four days!",
@@ -931,7 +2121,197 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 94,
+            "tweet_count": 213,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Question: Does transaction malleability affect us... by blk_bx - http://t.co/PARE40QRxg",
+            "created_at": "Tue Feb 11 21:22:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 214,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Tipping really feels good. This is why dogecoin is different. by myshibe - http://t.co/bLMcYz9U1C",
+            "created_at": "Tue Feb 11 21:22:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 215,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Just wondering by DrizzleDoge - http://t.co/nbqlIGEOGi",
+            "created_at": "Tue Feb 11 21:22:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 216,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Much Algrebra, Very math by CanadianSpy - http://t.co/ekyapbDQ0n",
+            "created_at": "Tue Feb 11 21:22:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 217,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Doge-addiction: what would you do with a 100$? by ISRLIR - http://t.co/PVOXJSoGFM",
+            "created_at": "Tue Feb 11 21:22:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 218,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - As requested Doge to the moon, boosted by Litecoin and Bitcoin. by Ailig - http://t.co/aYsxJQyAo3",
+            "created_at": "Tue Feb 11 21:22:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 219,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Shibes: Forget about going to the moon. by hbrilliant - http://t.co/3FbC6yT6nk",
+            "created_at": "Tue Feb 11 21:22:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 220,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Help!! Locked out of Muchdig pool! by DogeLuvr2 - http://t.co/ecNjT5HO8G",
+            "created_at": "Tue Feb 11 21:22:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 221,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Flair? by Krispybaron - http://t.co/ornuPjxdbQ",
+            "created_at": "Tue Feb 11 21:22:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 222,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Sociocapitalism. by mattfolio - http://t.co/m1CrjMjrtu",
+            "created_at": "Tue Feb 11 21:22:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 223,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Help with backing up wallet by JamaicanShibe - http://t.co/8aHE1aUsmG",
+            "created_at": "Tue Feb 11 21:22:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 224,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Still no refund from Doge Wallet by bisselse - http://t.co/M1lvaNl1Vp",
+            "created_at": "Tue Feb 11 21:22:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 225,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - [AMA Request] Shibe by dickpuncher92 - http://t.co/YJ1WAz1Y9F",
+            "created_at": "Tue Feb 11 21:22:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 226,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Don't risk it on cryptsy shibes by thatasianGG - http://t.co/c7D0vwZosV",
+            "created_at": "Tue Feb 11 21:22:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 227,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - This is how early doge miners will be living pretty soon. Without a doubt. *VID* by rb4r - http://t.co/Ed9K2QdMjx",
+            "created_at": "Tue Feb 11 21:22:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 228,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - moolah.ch Doge Coin Gift Card Giveaway by justvaow - http://t.co/Y58rhgYr56",
+            "created_at": "Tue Feb 11 21:22:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 229,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - USD and Satoshi Graphs Added to DogeTrader by userNameNotLongEnoug - http://t.co/64LLRHnD1u",
+            "created_at": "Tue Feb 11 21:22:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 230,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogecoin rejects the criminal bank system and goes to the Moon by white-smoke - http://t.co/jEu0ZHyste",
+            "created_at": "Tue Feb 11 21:22:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 231,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Cryptsy withdrawals really slooooooooow by MaxLangley - http://t.co/0iJRMAwP8a",
+            "created_at": "Tue Feb 11 21:22:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 232,
             "username": "Adrian Pike",
             "user_account": "adrianpike",
             "text": "Oof. Lost 20 cents in the great dogecoin crash of 2014. Brutal.",
@@ -941,7 +2321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
+            "tweet_count": 233,
             "username": "Bitcoin Ace",
             "user_account": "bitcoinace",
             "text": "Helping the poor. #billgates says digital money will help the poorest a lot http://t.co/Cs7JPGdmCY #dogecoin #bitcoin",
@@ -951,7 +2331,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 96,
+            "tweet_count": 234,
+            "username": "No life to waste.",
+            "user_account": "RealDealWilliam",
+            "text": "@efox29 @cryptsy the only thing you should b doing is withdrawing #dogecoin, don't send it everywhere but tips n services!! Dont lose yaDOGE",
+            "created_at": "Tue Feb 11 21:17:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 235,
             "username": "Ben Engel",
             "user_account": "ben_engel",
             "text": "@alexandra 'cause I know you like the doge http://t.co/AzsOsXPQW5 It is getting quite popular. Cannot direct tweet bc she doesn't follow me",
@@ -961,7 +2351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 97,
+            "tweet_count": 236,
             "username": "Politbüro 🇦🇹, Generalsekretariat #Favoriten 📯",
             "user_account": "StephanEwald",
             "text": "RT @TheStalwart: Dogecoin up 20% today http://t.co/wAZhtL6ylw &gt;Our Mr. Joseph Weisenthal ;) Always good for hyping some MEGA dubious market.",
@@ -971,7 +2361,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 98,
+            "tweet_count": 237,
+            "username": "No life to waste.",
+            "user_account": "RealDealWilliam",
+            "text": "@Geo_Phoenix @bitcoinbegger @dogecoin good job, but I got one better for u too bro.. follo me n dm me ill pitch it, plus u get50k 2pulliToff",
+            "created_at": "Tue Feb 11 21:12:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 238,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "/r/dogeillionaires - 140K GIVEAWAY http://t.co/zpwRpNRFa9 r",
+            "created_at": "Tue Feb 11 21:11:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 239,
+            "username": "Search The Dot Com",
+            "user_account": "SearchTheDotCom",
+            "text": "Latest Xbox News http://t.co/PeUAWxQE2q Pls Rt #Bitcoin #Maxcoin #Dogecoin",
+            "created_at": "Tue Feb 11 21:11:00 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 240,
             "username": "Joe Weisenthal",
             "user_account": "TheStalwart",
             "text": "Dogecoin up 20% today http://t.co/hWU9XyskZ9",
@@ -981,7 +2401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 99,
+            "tweet_count": 241,
             "username": "No.1 John Cena Fan 🥀",
             "user_account": "LowLeeWolf",
             "text": "Things that get me retweeted:\n\nFlappy Bird\nDogecoin",
@@ -991,7 +2411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
+            "tweet_count": 242,
             "username": "Matt Faulconer",
             "user_account": "MattFaulconer10",
             "text": "@Vicious_Fishes officially on my way to becoming a dogecoin billionaire!",
@@ -1001,7 +2421,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 101,
+            "tweet_count": 243,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Reminder to business shibes: Register at Doge Earth so we know where to spend our Doges! ... http://t.co/j4w4jq79hm",
+            "created_at": "Tue Feb 11 21:06:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 244,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - WIP - dogecoin logo maybe? What do you think? by Crazycech - http://t.co/yCiBZSZm90",
+            "created_at": "Tue Feb 11 21:06:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 245,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - ...i was careless and lost every Ð i bought. this is my reaction!! &gt;:[ by Didi_Midi - http://t.co/3ezSIwVdYD",
+            "created_at": "Tue Feb 11 21:06:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 246,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - [Question] Is it wise for a doge to keep doge in the cloud? by k1down - http://t.co/A6qqKW2YLY",
+            "created_at": "Tue Feb 11 21:06:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 247,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Just bought some doge by Snipererer - http://t.co/8nJHCNumXQ",
+            "created_at": "Tue Feb 11 21:06:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 248,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - deposits on BTER by johnahh - http://t.co/TQ8AID8HRS",
+            "created_at": "Tue Feb 11 21:06:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 249,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - The Doge days are here. by Django117 - http://t.co/VN4YM6vrGj",
+            "created_at": "Tue Feb 11 21:06:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 250,
             "username": "dogeboard",
             "user_account": "Dogeboard",
             "text": "Clothing shop in California now accepts #dogecoin and #bitcoin in their store: http://t.co/rzu2xmZecc @dogepos",
@@ -1011,21 +2501,141 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
-            "username": "@reita.nyc",
-            "user_account": "Reita",
-            "text": "DOGEcoin saw a pretty big surge in price today. Is the market anticipating the halvening or is it related to the recent BTC attacks?",
-            "created_at": "Tue Feb 11 21:02:40 +0000 2014",
+            "tweet_count": 251,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Dogecoin philosophy: Such love much fun by Dragoncry - http://t.co/eGu8G9sVKZ",
+            "created_at": "Tue Feb 11 21:05:34 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
-            "username": "dogecoinprice",
-            "user_account": "dogecoinprice",
-            "text": "$1=613 #dogecoin, 1 #DOGE = $0.0016 or 249 satoshi ( Coin-E:245 BTER:253 ), Coinbase BTC:$655",
-            "created_at": "Tue Feb 11 21:02:10 +0000 2014",
+            "tweet_count": 252,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - cudaminer output explained? by 0xphk - http://t.co/zdDWi6ckdI",
+            "created_at": "Tue Feb 11 21:05:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 253,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - IHB20 Trader Alert: Bitcoin is Flat Today And Doge Is Up 36% by anirgu - http://t.co/HZ2Pn1DHQz",
+            "created_at": "Tue Feb 11 21:05:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 254,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - A young yet very friendly altcoin exchange site Newaltex recently included DOGE for trade... http://t.co/99xEgRqS3R",
+            "created_at": "Tue Feb 11 21:05:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 255,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Stop playing Flappy Bird, play now Flappy Doge! No many point, very skilled game, such ha... http://t.co/6VPC1ubpBn",
+            "created_at": "Tue Feb 11 21:05:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 256,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Unlike Bitcoin, Dogecoin leaves a ladder behind on its way to the Moon! by TheDownvot - http://t.co/Cw9HzZnRpp",
+            "created_at": "Tue Feb 11 21:05:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 257,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Son with Asperger's has no friends to have a birthday party so his mom made him a faceboo... http://t.co/UqMuSCyy9r",
+            "created_at": "Tue Feb 11 21:05:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 258,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - I think this was the one case where selling is a good idea. by rhandyrhoads - http://t.co/F6CF53xPMa",
+            "created_at": "Tue Feb 11 21:05:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 259,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Instagramming YOUR Dogecoin Pics/Sites/Anything! by dogecoin_instagram - http://t.co/qMLzv9Cyp0",
+            "created_at": "Tue Feb 11 21:05:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 260,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - What tipping new shibes feels like by myshibe - http://t.co/UI7w0PUkk1",
+            "created_at": "Tue Feb 11 21:05:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 261,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Doge Music by labuche - http://t.co/NfyCn9sFAs",
+            "created_at": "Tue Feb 11 21:05:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 262,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in dogecoin - Shoutout to http://t.co/T6kwaM8xkx for the amazing hookah pen! by TheDogPlays - http://t.co/ExVTfcRtVM",
+            "created_at": "Tue Feb 11 21:05:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 263,
+            "username": "bitbeg",
+            "user_account": "bitcoinbegger",
+            "text": "@ImOnSmack It depends on multiple things. /r/Dogecoin will have an answer.",
+            "created_at": "Tue Feb 11 21:04:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 264,
+            "username": "@reita.nyc",
+            "user_account": "Reita",
+            "text": "DOGEcoin saw a pretty big surge in price today. Is the market anticipating the halvening or is it related to the recent BTC attacks?",
+            "created_at": "Tue Feb 11 21:02:40 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null

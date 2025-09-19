@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -52,6 +52,26 @@
         },
         {
             "tweet_count": 6,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Watch The White House Correspondents Dinner Live http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
+            "created_at": "Sat May 03 23:56:09 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Watch The White House Correspondents Dinner Live http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
+            "created_at": "Sat May 03 23:56:03 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
             "username": "docrock",
             "user_account": "docrock",
             "text": "McKay Davis of @bitcoinhawaii schooling folks on #cryptocurrencies #bitcoin #dogecoin #muchshibewow @… http://t.co/IXm66GSUpf",
@@ -61,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 9,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: WISE MOVE: NASCAR's Josh Wise gets into... http://t.co/tOL2fHvicz\n #DenisPavel #PhilParsonsRacing #TalladegaSuperspeedway #WiseNo",
@@ -71,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 10,
             "username": "LiveLong&Prosper",
             "user_account": "electrunik",
             "text": "@FollowTheCoin @dogecoin @NASCAR @Josh_Wise Have fun!",
@@ -81,7 +101,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 11,
+            "username": "⚒️ marsh ⚒️",
+            "user_account": "dogecoin_trader",
+            "text": "@Szzandman u won 36 bucks?",
+            "created_at": "Sat May 03 23:46:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
             "username": "Follow The Coin",
             "user_account": "FollowTheCoin",
             "text": "We made it to Talladega for tomorrow's @Dogecoin @NASCAR race with @Josh_Wise! Scoping out the track at the moment :P http://t.co/GHv7p1fX1K",
@@ -91,7 +121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 13,
             "username": "Colin O'Flynn",
             "user_account": "colinoflynn",
             "text": "#dogecoin is probably my fav thing of recent times http://t.co/ogcyQm3fkB",
@@ -101,7 +131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 14,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000107\nCryptsy  0.00000105\nCoins-E 0.00000104\nAverage: $0.000464USD per #dogecoin",
@@ -111,7 +141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 15,
             "username": "Andrew Barca",
             "user_account": "HurricaneBarca",
             "text": "I so want them to win! RT“@NASCAR: Nicely done, @dogecoin. \n\ncc: @Josh_Wise @reddit \n\n#NASCAR #MuchDraft #VeryDega http://t.co/qKu2EXkbuE”",
@@ -121,7 +151,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 13,
+            "tweet_count": 16,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Bitcoin changing its ways to be more like Dogecoin by GoodShibe just recieved TOP status on /r/dogecoin! http://t.co/gr2pvZHfyE",
+            "created_at": "Sat May 03 23:37:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Friend of mine works with Nascar and Josh Wise, sent me some pictures of the car; thought I'd share with you guy... http://t.co/762INDXuAM",
+            "created_at": "Sat May 03 23:37:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 18,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Tweet from Phil Parsons Racing @PPR98 \"Best looking crew shirts in the garage. To the moon!\" #dogecar by snowdo... http://t.co/e5j7uzFiVz",
+            "created_at": "Sat May 03 23:37:15 +0000 2014",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
             "username": "DoGeGe",
             "user_account": "GoDoGeGe",
             "text": "Hey #dogecoin don't forget to check out my new trading service http://t.co/YcOwziItC2",
@@ -131,7 +191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 20,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: WISE MOVE: NASCAR's Josh Wise gets into... http://t.co/tOL2fHvicz\n #DenisPavel #PhilParsonsRacing #TalladegaSuperspeedway #WiseNo",
@@ -141,7 +201,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 21,
+            "username": "Little Shibe",
+            "user_account": "LittleShibe",
+            "text": "Reality is so boring compared to #dogecoin",
+            "created_at": "Sat May 03 23:29:24 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 22,
             "username": "property crimes enjoyer",
             "user_account": "mbowman",
             "text": "Oh my god guys the Dogecoin car qualified today and will be racing in an actual NASCAR race tomorrow.",
@@ -151,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
+            "tweet_count": 23,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000107\nCryptsy  0.00000105\nCoins-E 0.00000104\nAverage: $0.000463USD per #dogecoin",
@@ -161,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
+            "tweet_count": 24,
             "username": "Section9ed Dogecoin",
             "user_account": "Section9ed",
             "text": "Keep voting for #dogecoin billboard http://t.co/LGWncasSyW",
@@ -171,7 +241,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
+            "tweet_count": 25,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "White House Correspondents' Dinner Red Carpet 2014: Hollywood Takes Over D.C. (PHOTOS) http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin...",
+            "created_at": "Sat May 03 23:25:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 26,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "White House Correspondents' Dinner Secretive Pre-Party Draws Hollywood Celebrities http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #ne...",
+            "created_at": "Sat May 03 23:24:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "White House Correspondents' Dinner Red Carpet 2014: Hollywood Takes Over D.C. (PHOTOS) http://t.co/oIIQswXOpC #money #dogecoin #bitcoin...",
+            "created_at": "Sat May 03 23:24:10 +0000 2014",
+            "retweet": 4,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "White House Correspondents' Dinner Secretive Pre-Party Draws Hollywood Celebrities http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #ne...",
+            "created_at": "Sat May 03 23:24:09 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 29,
             "username": "animeislame",
             "user_account": "animeislame",
             "text": "is bitcoin still a thing? or has everyone moved on to dogecoins??? #Bitcoin #dogecoin",
@@ -181,7 +291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 30,
             "username": "Daniel Liljeberg",
             "user_account": "danielliljeberg",
             "text": "Big day for #dogecoin tomorrow with #dogecar #nascar driven by @John_Wise and #buysomethingwithdogeday http://t.co/UXgsgqr64Y",
@@ -191,7 +301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 31,
             "username": "Mr. Doody, Troublemaker @ dlab.vc",
             "user_account": "sbroderick",
             "text": "Wow. Such Talladoga. Much Win. Very GIF. (This is an animated collage to help promote the race)... http://t.co/471YI7Err2",
@@ -201,7 +311,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 32,
+            "username": "DOGE Value/News",
+            "user_account": "DogecoinBot",
+            "text": "[04:20 PM] 1 #DOGE is worth: \n$0.000461 USD \n฿0.00000106 #BTC \n€0.000332 EUR #DogeCoin",
+            "created_at": "Sat May 03 23:20:59 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
             "username": "NASCAR Redneck",
             "user_account": "NASCAR_Redneck_",
             "text": "#NASCAR: WISE MOVE: NASCAR's Josh Wise gets into... http://t.co/tOL2fHvicz\n #DenisPavel #PhilParsonsRacing #TalladegaSuperspeedway #WiseNo",

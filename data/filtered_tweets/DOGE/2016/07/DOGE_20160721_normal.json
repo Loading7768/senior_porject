@@ -1,33 +1,33 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Brendon Andersson",
+            "created_at": "Thu Jul 21 23:54:01 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Zenaida Amorose",
+            "created_at": "Thu Jul 21 23:48:01 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
             "username": "AJHinson",
             "user_account": "AjAjhinson660",
             "text": "New post: Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/qX4rVWY0uU  #Bitcoin #free #ltc",
             "created_at": "Thu Jul 21 23:32:59 +0000 2016",
             "retweet": 0,
             "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 2,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 19:31 https://t.co/0TAeEryvPg",
-            "created_at": "Thu Jul 21 23:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 3,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 19:10 https://t.co/D2NC5KqX9H",
-            "created_at": "Thu Jul 21 23:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
             "retweeted_tweet": null
         },
         {
@@ -52,26 +52,16 @@
         },
         {
             "tweet_count": 6,
-            "username": "Ryreya",
-            "user_account": "ryreya17",
-            "text": "Receive up to 10 DOGE free every hour https://t.co/oZBjFHq5KN #dogecoin via @FreeCryptoCo",
-            "created_at": "Thu Jul 21 22:54:30 +0000 2016",
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Kristel Bahls",
+            "created_at": "Thu Jul 21 22:42:02 +0000 2016",
             "retweet": 0,
-            "likes": 1,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
             "tweet_count": 7,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-21 18:31 https://t.co/gXGguk6dLv",
-            "created_at": "Thu Jul 21 22:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 8,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "✰≥ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/Qn5Ya369tb",
@@ -81,7 +71,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 8,
             "username": "Nataliya Stechyshyn",
             "user_account": "SMNataliya17",
             "text": "Moon Dogecoin - The dogecoin faucet where YOU decide when to claim! https://t.co/6ECOCswRZv #dogecoin #faucet via @Moon_Dogecoin",
@@ -91,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 9,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.5935 values from vircurex + coinbase at 07/21/16 17:55 #dogecoin",
@@ -101,13 +91,23 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 10,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "⌂Ð 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/NBlCijKO7u",
             "created_at": "Thu Jul 21 21:56:57 +0000 2016",
             "retweet": 0,
             "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Amiee Auslander",
+            "created_at": "Thu Jul 21 21:42:01 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
             "retweeted_tweet": null
         },
         {
@@ -122,16 +122,6 @@
         },
         {
             "tweet_count": 13,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 17:31 https://t.co/5FuYVEnH5t",
-            "created_at": "Thu Jul 21 21:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 14,
             "username": "BitcoinAgile",
             "user_account": "bitcoinagile",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash - Legit Work at https://t.co/U6JCKpFp4L https://t.co/RlUahFcwQf",
@@ -141,7 +131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 14,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♯∫ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/uipITl59y4",
@@ -151,7 +141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
+            "tweet_count": 15,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -161,17 +151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 17:10 https://t.co/EMV2HDXFls",
-            "created_at": "Thu Jul 21 21:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 18,
+            "tweet_count": 16,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.5095 values from vircurex + coinbase at 07/21/16 16:55 #dogecoin",
@@ -181,7 +161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 17,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Dogecoin Battlebot Sponsorship https://t.co/oc40q5fJ0s r",
@@ -191,7 +171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 18,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♡❧ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/hmMXhGbWkz",
@@ -201,7 +181,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 19,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Brynn Bamburg",
+            "created_at": "Thu Jul 21 20:48:02 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
             "username": "Corner Coin",
             "user_account": "Corner_Coin",
             "text": "Bitwala stated that they’re aware of the fact that sending money abroad can cost users a bit too much https://t.co/epbQKFoZg7 #fintech",
@@ -211,17 +201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 16:31 https://t.co/WvVs2tHOko",
-            "created_at": "Thu Jul 21 20:31:05 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 23,
+            "tweet_count": 21,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☼✯ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/jdrioUicfx",
@@ -231,17 +211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 16:10 https://t.co/p8M3ezztwD",
-            "created_at": "Thu Jul 21 20:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 25,
+            "tweet_count": 22,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.5095 values from vircurex + coinbase at 07/21/16 15:55 #dogecoin",
@@ -251,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
+            "tweet_count": 23,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "◕❃ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/Y7vQDitZCC",
@@ -261,17 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 15:31 https://t.co/MCVMpj2hXH",
-            "created_at": "Thu Jul 21 19:31:06 +0000 2016",
-            "retweet": 1,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 28,
+            "tweet_count": 24,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Is there any big dogecoin memes facebooksite or something like that? https://t.co/mBfFNv23g6 r",
@@ -281,7 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 29,
+            "tweet_count": 25,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♦❧ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/WsFpqtkjbD",
@@ -291,7 +251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 30,
+            "tweet_count": 26,
             "username": "Crypto Games",
             "user_account": "Crypto_Games",
             "text": "Tired of slow dice rolls? Visit https://t.co/eq5W8db5nj and bet lightning fast with advanced autobot! 8 currencies supported #dogecoin",
@@ -301,17 +261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 15:10 https://t.co/gjKNBInVjC",
-            "created_at": "Thu Jul 21 19:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 32,
+            "tweet_count": 27,
             "username": "Julia Edling",
             "user_account": "bitcointonic",
             "text": "Why I Sold All My #Bitcoin: I sold my bitcoin and #dogecoin for a better #cryptocurrency https://t.co/lpmWm2kG8B https://t.co/B1SLJXaiQ9",
@@ -321,7 +271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 28,
             "username": "Meetup Friend mt01",
             "user_account": "m160721mt01",
             "text": "@Matznerd If u were in town: doge https://t.co/WUrRpHaPpi",
@@ -331,7 +281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
+            "tweet_count": 29,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.5375 values from vircurex + coinbase at 07/21/16 14:55 #dogecoin",
@@ -341,7 +291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 35,
+            "tweet_count": 30,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❃ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/bx9j7I6pnL",
@@ -351,7 +301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 31,
             "username": "granola.tez 🌮💪🌮",
             "user_account": "jmgranola",
             "text": "thanks!  wow!  may open much long on polo cuz yolo @andyypants @bitcoinbegger @pinguino \n\n$doge #dogecoin",
@@ -361,7 +311,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 37,
+            "tweet_count": 32,
+            "username": "🌳 Druid Andrew 🌳",
+            "user_account": "andyypants",
+            "text": "@jmgranola @bitcoinbegger @pinguino #dogecoin is hitting an epic low. I predict a short accumulation then massive rebound. buy is my advice!",
+            "created_at": "Thu Jul 21 18:40:25 +0000 2016",
+            "retweet": 1,
+            "likes": 4,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
             "username": "TradingMan.Crypto",
             "user_account": "TradingManCrypt",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/AETICJFmOz",
@@ -371,17 +331,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 14:31 https://t.co/kZs32GQLMQ",
-            "created_at": "Thu Jul 21 18:31:04 +0000 2016",
+            "tweet_count": 34,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Shante Begley",
+            "created_at": "Thu Jul 21 18:24:01 +0000 2016",
             "retweet": 0,
-            "likes": 1,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
+            "tweet_count": 35,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "✰→ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/SSxb6dzgZ0",
@@ -391,7 +351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 36,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoSuit https://t.co/QXcBpzZM4u #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -401,17 +361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 14:10 https://t.co/kI5ihsNeTw",
-            "created_at": "Thu Jul 21 18:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 42,
+            "tweet_count": 37,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin003",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/gzcGfS0C78 #bitcoin #SNRTG",
@@ -421,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 38,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin002",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/S7Mc9sp0iw #bitcoin #SNRTG",
@@ -431,7 +381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 39,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin001",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/tlvdvEUBwM #bitcoin #SNRTG",
@@ -441,7 +391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
+            "tweet_count": 40,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin004",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/BXyUp46PED #bitcoin #SNRTG",
@@ -451,7 +401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 41,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin004",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/BXyUp46PED #bitcoin #ITRTG",
@@ -461,7 +411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 42,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin003",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/gzcGfS0C78 #bitcoin #ITRTG",
@@ -471,7 +421,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
+            "tweet_count": 43,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin002",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/S7Mc9sp0iw #bitcoin #ITRTG",
@@ -481,7 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
+            "tweet_count": 44,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin001",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/tlvdvEUBwM #bitcoin #ITRTG",
@@ -491,7 +441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 45,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin004",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/BXyUp46PED #bitcoin #BTRTG",
@@ -501,7 +451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 46,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin003",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/gzcGfS0C78 #bitcoin #BTRTG",
@@ -511,7 +461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
+            "tweet_count": 47,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin002",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/S7Mc9sp0iw #bitcoin #BTRTG",
@@ -521,7 +471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 48,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin001",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/tlvdvEUBwM #bitcoin #BTRTG",
@@ -531,7 +481,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 49,
             "username": "WebbiePRO #Hosting",
             "user_account": "webbiepro",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/6oj7MryvRQ #bitcoin #BMRTG",
@@ -541,7 +491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 50,
             "username": "BitcoinTalk Feed",
             "user_account": "BitcoinTalkFeed",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/kWIAn38jkF #bitcoin #BMRTG",
@@ -551,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 51,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin004",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/BXyUp46PED #bitcoin #BMRTG",
@@ -561,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 52,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin003",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/gzcGfS0C78 #bitcoin #BMRTG",
@@ -571,7 +521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 53,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin002",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/S7Mc9sp0iw #bitcoin #BMRTG",
@@ -581,7 +531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
+            "tweet_count": 54,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin001",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/tlvdvEUBwM #bitcoin #BMRTG",
@@ -591,7 +541,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 55,
+            "username": "FreeBitcoinTalk.org",
+            "user_account": "freebitcointalk",
+            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/V3DpIo4cgX #bitcoin #btcb0t",
+            "created_at": "Thu Jul 21 18:01:17 +0000 2016",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin004",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/BXyUp46PED #bitcoin #btcb0t",
@@ -601,7 +561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 57,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.513 values from vircurex + coinbase at 07/21/16 13:40 #dogecoin",
@@ -611,7 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 58,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin003",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/gzcGfS0C78 #bitcoin #btcb0t",
@@ -621,7 +581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 59,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin002",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/S7Mc9sp0iw #bitcoin #btcb0t",
@@ -631,7 +591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 60,
             "username": "Free Bitcoin",
             "user_account": "FreeBitcoin001",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/tlvdvEUBwM #bitcoin #btcb0t",
@@ -641,7 +601,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 61,
+            "username": "FreeBitcoinTalk.org",
+            "user_account": "freebitcointalk",
+            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/7DeO9cXo42 #bitcoin #btcb0t",
+            "created_at": "Thu Jul 21 18:00:30 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Darrel Birdsey",
+            "created_at": "Thu Jul 21 18:00:02 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 63,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♢♠ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/ghEHnbVdg8",
@@ -651,7 +631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 64,
             "username": "Meetup Friend mt01",
             "user_account": "m160721mt01",
             "text": "@AlisonPerrie Follow me so I can DM: C u tonite @ 9: https://t.co/WUrRpHaPpi",
@@ -661,7 +641,37 @@
             "retweeted_tweet": null
         },
         {
+            "tweet_count": 65,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Dalene Arnaud",
+            "created_at": "Thu Jul 21 17:42:02 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 66,
+            "username": "FreeBitcoinTalk.org",
+            "user_account": "freebitcointalk",
+            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/dL3L3HXSie #bitcoin #btcb0t",
+            "created_at": "Thu Jul 21 17:38:51 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
             "tweet_count": 67,
+            "username": "FreeBitcoinTalk.org",
+            "user_account": "freebitcointalk",
+            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/jOK0q4KBKo https://t.co/dlWaOnEABb",
+            "created_at": "Thu Jul 21 17:33:18 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 68,
             "username": "FreeBitcoinTalk Bot",
             "user_account": "BotFbt",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash… https://t.co/jqXc7pEAcz #bitcoin #btcb0t",
@@ -671,17 +681,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter  BTC #doge #dogecoin 2016-07-21 13:31 https://t.co/xTl0Odl8VM",
-            "created_at": "Thu Jul 21 17:31:04 +0000 2016",
+            "tweet_count": 69,
+            "username": "FreeBitcoinTalk.org",
+            "user_account": "freebitcointalk",
+            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/eNFS21s8Oi #bitcoin #btcb0t",
+            "created_at": "Thu Jul 21 17:32:52 +0000 2016",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 70,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Leah Berdecia",
+            "created_at": "Thu Jul 21 17:30:02 +0000 2016",
             "retweet": 0,
             "likes": 1,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 71,
             "username": "BlockChannel",
             "user_account": "BlockChannel",
             "text": "BCN News:PurseIO: Learn how to Shop at Amazon with #ethereum, #litecoin or even #dogecoin: … https://t.co/H24qjKj96i",
@@ -691,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 72,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♮§ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/V9tGmOjGsQ",
@@ -701,7 +721,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 73,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Bree Bellah",
+            "created_at": "Thu Jul 21 17:18:01 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 74,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/L5b3D8PUlW",
@@ -711,17 +741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 13:10 https://t.co/x5vKqbtb1y",
-            "created_at": "Thu Jul 21 17:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 73,
+            "tweet_count": 75,
             "username": "CoinFollower",
             "user_account": "CoinFollowerCom",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: #news https://t.co/yIUAbFCDHc",
@@ -731,7 +751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 76,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.4115 values from vircurex + coinbase at 07/21/16 12:55 #dogecoin",
@@ -741,7 +761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 77,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♣♮ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/iv64hxONz9",
@@ -751,17 +771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 12:31 https://t.co/N1fg2QRDIL",
-            "created_at": "Thu Jul 21 16:31:07 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 77,
+            "tweet_count": 78,
             "username": "Bitcoin España",
             "user_account": "Bitcoin_Spain",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash - CryptoCoinsNews: https://t.co/PROlH9dlLN #bitcoin #btc",
@@ -771,7 +781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
+            "tweet_count": 79,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☾ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/QPzEtC6EDW",
@@ -781,7 +791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 79,
+            "tweet_count": 80,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/FqtbG27PNL",
@@ -791,17 +801,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 12:10 https://t.co/Br5p1KFuNA",
-            "created_at": "Thu Jul 21 16:10:03 +0000 2016",
+            "tweet_count": 81,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Toshiko Amirian",
+            "created_at": "Thu Jul 21 16:12:01 +0000 2016",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 82,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $233.0825 values from vircurex + coinbase at 07/21/16 11:55 #dogecoin",
@@ -811,7 +821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
+            "tweet_count": 83,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -821,7 +831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 84,
             "username": "Chris R",
             "user_account": "finteched",
             "text": "#Bitwala Offers Cheapest International Transfers Using #Ether, #Litecoin, #Dogecoin and #Dash - - https://t.co/W0LlbarynN",
@@ -831,21 +841,11 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 85,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "✯Ð 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/aZBbF4QfvR",
             "created_at": "Thu Jul 21 15:47:17 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 85,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter  BTC #doge #dogecoin 2016-07-21 11:31 https://t.co/qLzl7tEYI6",
-            "created_at": "Thu Jul 21 15:31:04 +0000 2016",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -962,11 +962,11 @@
         },
         {
             "tweet_count": 97,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 10:31 https://t.co/OoONsjutZ7",
-            "created_at": "Thu Jul 21 14:31:05 +0000 2016",
-            "retweet": 1,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Oleta Badia",
+            "created_at": "Thu Jul 21 14:36:01 +0000 2016",
+            "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
@@ -982,16 +982,6 @@
         },
         {
             "tweet_count": 99,
-            "username": "Bitcoin News",
-            "user_account": "PrecioBTC",
-            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a cr... https://t.co/BLdwbCDMDV #Gold #Bitcoin #News",
-            "created_at": "Thu Jul 21 14:25:34 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 100,
             "username": "Golden Gateway",
             "user_account": "GoldenGatewayUS",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/sWlFl0gEfD #CryptoCoinNews #Bitcoin",
@@ -1001,7 +991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 101,
+            "tweet_count": 100,
             "username": "camsandfans",
             "user_account": "thenakedkitch",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/v9tQYxHmFt #fintech #bitcoin",
@@ -1011,7 +1001,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
+            "tweet_count": 101,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♥≥ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/klLSO0J7nZ",
@@ -1021,17 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 10:10 https://t.co/W1sKw4oHS2",
-            "created_at": "Thu Jul 21 14:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 104,
+            "tweet_count": 102,
             "username": "camsandfans",
             "user_account": "thenakedkitch",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/LvwLefEmSj #fintech #bitcoin",
@@ -1041,7 +1021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 103,
             "username": "BitAcademyWeb",
             "user_account": "BitAcademyWeb",
             "text": "#Bitcoin Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/AclcYfWoqk",
@@ -1051,7 +1031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 106,
+            "tweet_count": 104,
             "username": "BIRDS on #SUI",
             "user_account": "birdsonsui",
             "text": "#btc Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a c... https://t.co/tIIaYVHQ5S #bitcoin #crypto",
@@ -1061,7 +1041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 107,
+            "tweet_count": 105,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $232.855 values from vircurex + coinbase at 07/21/16 09:55 #dogecoin",
@@ -1071,17 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 108,
-            "username": "Cryptocurrency News",
-            "user_account": "Cryptocurrency4",
-            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a crypto-to-SEPA service ... https://t.co/llAM9Pxgqo",
-            "created_at": "Thu Jul 21 13:55:40 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 109,
+            "tweet_count": 106,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❤✔ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/UXQbQnQkbX",
@@ -1091,7 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 110,
+            "tweet_count": 107,
             "username": "SwagSociety.me",
             "user_account": "SwagSociety_me",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/KIxD0jSNVp #SwagBucks #altcoin",
@@ -1101,17 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 111,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter  BTC #doge #dogecoin 2016-07-21 09:31 https://t.co/NfgQJdAUYj",
-            "created_at": "Thu Jul 21 13:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 112,
+            "tweet_count": 108,
             "username": "Pleb Bitcoin",
             "user_account": "ohiobitcoin",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/TuIYAyD61p https://t.co/7pApo8kq2h #bitcoin",
@@ -1121,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 113,
+            "tweet_count": 109,
             "username": "Helena Bitcoin Mining",
             "user_account": "helenabitcoin",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/qwwpTaKPH8",
@@ -1131,7 +1091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 114,
+            "tweet_count": 110,
             "username": "CoinLook",
             "user_account": "CoinLook",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/XwWDpm4tgY",
@@ -1141,7 +1101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 115,
+            "tweet_count": 111,
             "username": "ILbotCrypto",
             "user_account": "LbotCrypto",
             "text": "Time to check on #edoncoin's development! https://t.co/BWuEqKi7dU #btc #altcoin #ltc #dogecoin #bitcoin #edoncoin #ltc",
@@ -1151,7 +1111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 116,
+            "tweet_count": 112,
             "username": "GigaɃitcoin",
             "user_account": "GigaBitcoin",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/Jp5K8831NF",
@@ -1161,7 +1121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 113,
             "username": "Раб Божий",
             "user_account": "Diener_Gottes",
             "text": "#Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a… https://t.co/2yIAQkz64K",
@@ -1171,7 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
+            "tweet_count": 114,
             "username": "XBTmoney",
             "user_account": "xbtmoney",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/arrt36n5UX  #XBT #BTC #Bitcoin",
@@ -1181,7 +1141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 119,
+            "tweet_count": 115,
             "username": "Krunox",
             "user_account": "krunox123",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/JdrLE0Cnqs",
@@ -1191,7 +1151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 120,
+            "tweet_count": 116,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❦ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/Hx1Hxry9p6",
@@ -1201,7 +1161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 121,
+            "tweet_count": 117,
             "username": "Alison Young",
             "user_account": "AlisonCYoung88",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/Qx4wLtWECv",
@@ -1211,7 +1171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 122,
+            "tweet_count": 118,
             "username": "AltCoin Calendar",
             "user_account": "AltCoinCalendar",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: https://t.co/5FLEYUK7UB",
@@ -1221,7 +1181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 123,
+            "tweet_count": 119,
             "username": "฿itcoin #BTC Bits",
             "user_account": "NextLevelFlash",
             "text": "#Read - \"Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash\" https://t.co/NlfbRqO8bs #Bitcoin #New #BTC #Update",
@@ -1231,7 +1191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 124,
+            "tweet_count": 120,
             "username": "cryptpark",
             "user_account": "cryptpark",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/g1dx3A7hMc https://t.co/TGnlN1RGdR",
@@ -1241,27 +1201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 125,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 09:10 https://t.co/cENOjmxBqq",
-            "created_at": "Thu Jul 21 13:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 126,
-            "username": "tekybot",
-            "user_account": "tekypromo",
-            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/6IlRmujym0 #tekypromo #TP #bitcoin tekyboy",
-            "created_at": "Thu Jul 21 13:09:22 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 127,
+            "tweet_count": 121,
             "username": "Ron Bitcoin",
             "user_account": "Bitcoin_for_all",
             "text": "New post: \"Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash\" https://t.co/oNDJsez2f2",
@@ -1271,7 +1211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 128,
+            "tweet_count": 122,
             "username": "need-bitcoin.com",
             "user_account": "need_bitcoin",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/Ej9sTyIq6q #bitcoin #cryptocurrency",
@@ -1281,17 +1221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 129,
-            "username": "tekybot",
-            "user_account": "tekypromo",
-            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/eZz1RCQvI6 #tekypromo #TP #NEWS #cryptocurrency",
-            "created_at": "Thu Jul 21 13:05:01 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 130,
+            "tweet_count": 123,
             "username": "The Blockchain",
             "user_account": "TheBlockchain",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a crypto-to-SEPA service ... https://t.co/zlaujsDesl",
@@ -1301,7 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 124,
             "username": "BitcoinTen",
             "user_account": "BitcoinTen",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a crypto-to-SEPA ser... https://t.co/PBh0Cw1wGN #BTC",
@@ -1311,7 +1241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
+            "tweet_count": 125,
             "username": "Alvis Cheng",
             "user_account": "AlvisMiner",
             "text": "#freebitcoinrotator Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Da... https://t.co/mUwqgaLgNW #bitcoin #rotator",
@@ -1321,7 +1251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
+            "tweet_count": 126,
             "username": "Life On Coin",
             "user_account": "lifeoncoin",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: Bitwala, a crypto-to-SEPA service ... https://t.co/lSSeA2ksMv",
@@ -1331,7 +1261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
+            "tweet_count": 127,
             "username": "Ron",
             "user_account": "ronmc1",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/yPsOGN6ZEs https://t.co/9b1t8CFxYc",
@@ -1341,7 +1271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 135,
+            "tweet_count": 128,
             "username": "A Bitcoin",
             "user_account": "A_Bitcoin27",
             "text": "New post: \"Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash\" https://t.co/JXw6PVSySP",
@@ -1351,7 +1281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 136,
+            "tweet_count": 129,
             "username": "Bitcoin FTW",
             "user_account": "FirstBitcoin1",
             "text": "\"Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash\" https://t.co/7Qzg5Mx3zz",
@@ -1361,7 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
+            "tweet_count": 130,
             "username": "disruptbanksy.eth|.tez|.lens 🧙‍♀️",
             "user_account": "DisruptBanksy",
             "text": "https://t.co/WHONqz42JV Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash #Bitcoin #Blockchain",
@@ -1371,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 138,
+            "tweet_count": 131,
             "username": "Bitcoin España",
             "user_account": "Bitcoin_Spain",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash: https://t.co/CpVr6OsXRy #bitcoin #btc",
@@ -1381,7 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 139,
+            "tweet_count": 132,
             "username": "Amir Eslampanah",
             "user_account": "Akumaburn",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/2vnmgLoPlW https://t.co/WPauZZGzmQ",
@@ -1391,27 +1321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 140,
-            "username": "Bitcoin News",
-            "user_account": "BitcoinNewsCom",
-            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash - https://t.co/HUK8pAEqXx https://t.co/gXOG4Iuq9w",
-            "created_at": "Thu Jul 21 13:00:26 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 141,
-            "username": "Bitcoin News",
-            "user_account": "BitcoinNewsCom",
-            "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash - https://t.co/g1o10X8eor https://t.co/pK42P4AhWL",
-            "created_at": "Thu Jul 21 13:00:26 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 142,
+            "tweet_count": 133,
             "username": "Bert Mouler",
             "user_account": "BMouler",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/Bl1hEmBFhP #BTC #bitcoin",
@@ -1421,7 +1331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 143,
+            "tweet_count": 134,
             "username": "Null Transaction PR",
             "user_account": "nulltransaction",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/tJgMUy4mGQ #bitcoin #bitcoinnews #btc #cryptocurrency",
@@ -1431,7 +1341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 144,
+            "tweet_count": 135,
             "username": "BitcoinAgile",
             "user_account": "bitcoinagile",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash - CCN: Financial https://t.co/6IAptPypBO https://t.co/LNZa0VYijw",
@@ -1441,7 +1351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 145,
+            "tweet_count": 136,
             "username": "CryptScoutNews",
             "user_account": "CryptScoutNews",
             "text": "Bitwala Announces Global Transfers For Ether, #Litecoin, #Dogecoin And Dash - https://t.co/GeGmrYQ1rY",
@@ -1451,7 +1361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 146,
+            "tweet_count": 137,
             "username": "CCN",
             "user_account": "CCNDotComNews",
             "text": "Bitwala Announces Global Transfers For Ether, Litecoin, Dogecoin And Dash https://t.co/ypUFgpM7me https://t.co/0lcsEcIhOx",
@@ -1461,7 +1371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
+            "tweet_count": 138,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Doge is Currency of Choice for https://t.co/vTSIDFQcaD https://t.co/ggYlphXPPI r",
@@ -1471,7 +1381,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 148,
+            "tweet_count": 139,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Jann Averitte",
+            "created_at": "Thu Jul 21 12:48:02 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 140,
+            "username": "btc4every1.eth",
+            "user_account": "earn_freestuff",
+            "text": "@oxbitcoin all the best #bitcoin #dogecoin and #ethereum sites in one place ! #makemoney #earncash today! goto : https://t.co/5Hf0puLUjT",
+            "created_at": "Thu Jul 21 12:41:31 +0000 2016",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 141,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♧☾ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/zkocnDSpwJ",
@@ -1481,17 +1411,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter  BTC #doge #dogecoin 2016-07-21 08:31 https://t.co/01xlSmQDn5",
-            "created_at": "Thu Jul 21 12:31:03 +0000 2016",
+            "tweet_count": 142,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Brandon Armor",
+            "created_at": "Thu Jul 21 12:24:01 +0000 2016",
             "retweet": 0,
-            "likes": 1,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 150,
+            "tweet_count": 143,
             "username": "CryptoInvestments",
             "user_account": "CryptoInvestmnt",
             "text": "Bitwala to offer the world's cheapest international transfers via Ether, Litecoin, Dash and Dogecoin - The Me... https://t.co/KHxXxwpvYD",
@@ -1501,7 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 144,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♦✿ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/W70R3LieIU",
@@ -1511,17 +1441,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 08:10 https://t.co/i91nlJuHWk",
-            "created_at": "Thu Jul 21 12:10:03 +0000 2016",
-            "retweet": 0,
+            "tweet_count": 145,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Georgiana Agib",
+            "created_at": "Thu Jul 21 12:06:01 +0000 2016",
+            "retweet": 1,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
+            "tweet_count": 146,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $232.568 values from bter + coinbase at 07/21/16 07:55 #dogecoin",
@@ -1531,7 +1461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 154,
+            "tweet_count": 147,
             "username": "Mike Komaransky",
             "user_account": "mkomaransky",
             "text": "Hard-forking a currency to put money in the right accounts means #Ethereum is now more of a joke than #Dogecoin ever was.",
@@ -1541,7 +1471,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
+            "tweet_count": 148,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Elena Aoki",
+            "created_at": "Thu Jul 21 11:54:01 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 149,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "» 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/UwcAcbL9dK",
@@ -1551,27 +1491,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 156,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-21 07:31 https://t.co/ofU3Ipoh7E",
-            "created_at": "Thu Jul 21 11:31:06 +0000 2016",
+            "tweet_count": 150,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Joyce Bondoc",
+            "created_at": "Thu Jul 21 11:24:02 +0000 2016",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 157,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 07:10 https://t.co/5h4poqD58T",
-            "created_at": "Thu Jul 21 11:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 158,
+            "tweet_count": 151,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.1876 values from vircurex + coinbase at 07/21/16 06:55 #dogecoin",
@@ -1581,7 +1511,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 159,
+            "tweet_count": 152,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Tommie Bing",
+            "created_at": "Thu Jul 21 11:00:01 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 153,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "⌂} 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/hBKdnSgwYI",
@@ -1591,17 +1531,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 160,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000035 BTC #doge #dogecoin 2016-07-21 06:31 https://t.co/2c2TcQgf4C",
-            "created_at": "Thu Jul 21 10:31:05 +0000 2016",
+            "tweet_count": 154,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Shona Boroff",
+            "created_at": "Thu Jul 21 10:30:02 +0000 2016",
             "retweet": 0,
-            "likes": 0,
+            "likes": 2,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
+            "tweet_count": 155,
             "username": "CFaulk",
             "user_account": "BitcoinChew",
             "text": "Bitwala to offer the world's cheapest international transfers via Ether, Litecoin, Dash and ... https://t.co/ICwpjA7FRv #Doge, #Dogecoin",
@@ -1611,17 +1551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 162,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 06:10 https://t.co/NkbgtgoHK2",
-            "created_at": "Thu Jul 21 10:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 163,
+            "tweet_count": 156,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☺• 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/6M9bJqmk5A",
@@ -1631,7 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 157,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.202 values from vircurex + coinbase at 07/21/16 05:55 #dogecoin",
@@ -1641,7 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 158,
             "username": "Bitcoin Bolt",
             "user_account": "BitcoinBolt",
             "text": "☞ Bitwala to offer the world’s cheapest international transfers via Ether, Litecoin, Dash and Dogecoin https://t.co/fnkOf1b7YK",
@@ -1651,7 +1581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
+            "tweet_count": 159,
             "username": "Bitcoin España",
             "user_account": "Bitcoin_Spain",
             "text": "Bitwala to offer the world's cheapest international transfers via Ether, Litecoin, Dash and Dogecoin - The Merkle: https://t.co/X2xa1525Op…",
@@ -1661,7 +1591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 167,
+            "tweet_count": 160,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Guy's great place for buying/ selling crytpo https://t.co/JCKeUPdURo r",
@@ -1671,7 +1601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 168,
+            "tweet_count": 161,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "❧Ð 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/JKAHM3CGDE",
@@ -1681,17 +1611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-21 05:31 https://t.co/jAa6lfNYtg",
-            "created_at": "Thu Jul 21 09:31:06 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 170,
+            "tweet_count": 162,
             "username": "BlockChannel",
             "user_account": "BlockChannel",
             "text": "BCN News: themerklenews: https://t.co/hQVj94DDSf Bitwala to offer the world’s cheapest international transfers vi… https://t.co/EMmZS2GVLv",
@@ -1701,7 +1621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 171,
+            "tweet_count": 163,
             "username": "GigaɃitcoin",
             "user_account": "GigaBitcoin",
             "text": "Bitwala to offer the world’s cheapest international transfers via Ether, Litecoin, Dash and Dogecoin https://t.co/g7DQMyiWIt",
@@ -1711,7 +1631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 172,
+            "tweet_count": 164,
             "username": "Amir Eslampanah",
             "user_account": "Akumaburn",
             "text": "Bitwala to offer the world’s cheapest international transfers via Ether, Litecoin, Dash and… https://t.co/0m8gcxAnUq https://t.co/fBWIm90sOw",
@@ -1721,7 +1641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 173,
+            "tweet_count": 165,
             "username": "BitcoinAgile",
             "user_account": "bitcoinagile",
             "text": "Bitwala to offer the worlds cheapest international transfers via Ether, Litecoin, Dash and https://t.co/IcDzi9226N https://t.co/0yuVx8c1CA",
@@ -1731,7 +1651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 166,
             "username": "Null TX 🕷",
             "user_account": "nulltxnews",
             "text": "https://t.co/UM4mHnbdWA Bitwala to offer the world’s cheapest international transfers via Ether, Litecoin, Dash an… https://t.co/MvXQw2MB2Z",
@@ -1741,17 +1661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZeweaDa #doge #dogecoin #faucet 2016-07-21 05:10 https://t.co/iEYDz6iHFw",
-            "created_at": "Thu Jul 21 09:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 176,
+            "tweet_count": 167,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♧¤ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/T7wmUZSEWK",
@@ -1761,7 +1671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 177,
+            "tweet_count": 168,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.364 values from vircurex + coinbase at 07/21/16 04:55 #dogecoin",
@@ -1771,7 +1681,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 178,
+            "tweet_count": 169,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Lorita Bacchi",
+            "created_at": "Thu Jul 21 08:48:01 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 170,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♤• 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/XtABhGJRWf",
@@ -1781,17 +1701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000037 BTC #doge #dogecoin 2016-07-21 04:31 https://t.co/4iZkoAD93c",
-            "created_at": "Thu Jul 21 08:31:07 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 180,
+            "tweet_count": 171,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Dogecoin Discussion - Weekly Mega Post https://t.co/Zn0OYXpXcE r",
@@ -1801,17 +1711,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 181,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 04:10 https://t.co/XXEQI8hDes",
-            "created_at": "Thu Jul 21 08:10:03 +0000 2016",
+            "tweet_count": 172,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Eloise Aguallo",
+            "created_at": "Thu Jul 21 08:12:01 +0000 2016",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
+            "tweet_count": 173,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♮ő 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/O03Eq3wZtI",
@@ -1821,7 +1731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 183,
+            "tweet_count": 174,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.598 values from vircurex + coinbase at 07/21/16 03:50 #dogecoin",
@@ -1831,7 +1741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 184,
+            "tweet_count": 175,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "✰✿ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/uAMD8U0ZEk",
@@ -1841,97 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
-            "username": "onlineshop marketing",
-            "user_account": "shop_marketer",
-            "text": "RT GrowthHackers: How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/12opeGY6Rh https://t.co/gw4cnGk330 #gro…",
-            "created_at": "Thu Jul 21 07:14:05 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 186,
-            "username": "Marsook_kp",
-            "user_account": "Marsook_Khaleej",
-            "text": "[#digitalmarketing #smm] How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/wHY00LDMbe …",
-            "created_at": "Thu Jul 21 07:12:45 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 187,
-            "username": "Rehmi Kristensen",
-            "user_account": "RehmiKristensen",
-            "text": "How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/XRvYbWJB1X https://t.co/ww5szjTwiE",
-            "created_at": "Thu Jul 21 07:12:27 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 188,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 03:10 https://t.co/NKFsYGW0JL",
-            "created_at": "Thu Jul 21 07:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 189,
-            "username": "PinkMona",
-            "user_account": "pinkmona_org",
-            "text": "#bitcoin #altcoin #dogecoin Let's Hentai! Come on PinkMona!→https://t.co/Z30zTz9R9K",
-            "created_at": "Thu Jul 21 07:07:51 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 190,
-            "username": "Dhruv Patel 🇮🇳",
-            "user_account": "dhruvikigai",
-            "text": "How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/IwW3sshQSd https://t.co/mKqGnipXlo",
-            "created_at": "Thu Jul 21 07:06:30 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 191,
-            "username": "ConfiguroWeb",
-            "user_account": "configuroweb",
-            "text": "How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/V5iTh1rZvD … https://t.co/C01EIcHJ1T",
-            "created_at": "Thu Jul 21 07:04:37 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 192,
-            "username": "Angel Designs",
-            "user_account": "ursangeldesigns",
-            "text": "GrowthHackers: How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/w8zNPs8FIG https://t.co/4sv9FCgyF8",
-            "created_at": "Thu Jul 21 07:02:39 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 193,
-            "username": "GrowthHackers",
-            "user_account": "GrowthHackers",
-            "text": "How Virality Took Dogecoin from a #Twitter Joke to a $30M Currency https://t.co/mqX3fw8Gb4 https://t.co/uRNQ3mzR7b",
-            "created_at": "Thu Jul 21 07:01:35 +0000 2016",
-            "retweet": 1,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 194,
+            "tweet_count": 176,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.4144 values from vircurex + coinbase at 07/21/16 02:55 #dogecoin",
@@ -1941,7 +1761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 195,
+            "tweet_count": 177,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♥‡ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/ghI61gTVla",
@@ -1951,17 +1771,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 196,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000037 BTC #doge #dogecoin 2016-07-21 02:31 https://t.co/cRpvVawZ8V",
-            "created_at": "Thu Jul 21 06:31:04 +0000 2016",
-            "retweet": 0,
+            "tweet_count": 178,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Shonda Bochenek",
+            "created_at": "Thu Jul 21 06:36:01 +0000 2016",
+            "retweet": 1,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 197,
+            "tweet_count": 179,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♮✽ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/7V3UWmWViH",
@@ -1971,37 +1791,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 198,
-            "username": "Sergey",
-            "user_account": "Serz11120085",
-            "text": "99.9% Dice - Bitcoin, Dogecoin, Litecoin &amp; Ethereum Gambling https://t.co/ycfhbfNBaI",
-            "created_at": "Thu Jul 21 06:17:21 +0000 2016",
+            "tweet_count": 180,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Zulma Abramovich",
+            "created_at": "Thu Jul 21 06:12:01 +0000 2016",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 199,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 02:10 https://t.co/GnyTV7Z8tq",
-            "created_at": "Thu Jul 21 06:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 200,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Win $150 in Dogecoins every hour! https://t.co/BzASEwUPlq #doge #dogecoin #btc #bitcoin #ltc",
-            "created_at": "Thu Jul 21 06:05:01 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 201,
+            "tweet_count": 181,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $238.896 values from vircurex + coinbase at 07/21/16 01:55 #dogecoin",
@@ -2011,7 +1811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 202,
+            "tweet_count": 182,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "✯ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/w2nvQ2fxsK",
@@ -2021,17 +1821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 203,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-21 01:31 https://t.co/60H5uiQ758",
-            "created_at": "Thu Jul 21 05:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 204,
+            "tweet_count": 183,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♣♧ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/L9kmxfSlXk",
@@ -2041,7 +1831,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 205,
+            "tweet_count": 184,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Truman Baltodano",
+            "created_at": "Thu Jul 21 05:24:02 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 185,
             "username": "ILbotCrypto",
             "user_account": "LbotCrypto",
             "text": "It's July 21, 2016 at 08:04AM, good morning people, ready for a new and #wild day?! #bitcoin #litecoin #dogecoin #monero #usd #btc #nxt",
@@ -2051,27 +1851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 206,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 01:10 https://t.co/DbfZOp0jMr",
-            "created_at": "Thu Jul 21 05:10:06 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 207,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 01:10 https://t.co/yqswYF49nn",
-            "created_at": "Thu Jul 21 05:10:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 208,
+            "tweet_count": 186,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth Building Through Investin https://t.co/yAmNRCJvQI #Hacker #Cyberwar https://t.co/ng8J17CLNC",
@@ -2081,7 +1861,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 209,
+            "tweet_count": 187,
             "username": "CyberWarrior",
             "user_account": "CyberDomain",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth Building Through Investin https://t.co/CVylK9CjIH #Hacker #Cyberwar https://t.co/Eva8XGaUL7",
@@ -2091,7 +1871,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 210,
+            "tweet_count": 188,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $238.824 values from vircurex + coinbase at 07/21/16 00:55 #dogecoin",
@@ -2101,7 +1881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 211,
+            "tweet_count": 189,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♤‡ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/6cc1UrDnzY",
@@ -2111,7 +1891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 212,
+            "tweet_count": 190,
             "username": "teoduLo manuel",
             "user_account": "teoman560",
             "text": "Moon Dogecoin - The dogecoin faucet where YOU decide when to claim! https://t.co/gwYVHrcBRd #dogecoin #faucet vía @Moon_Dogecoin",
@@ -2121,17 +1901,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 213,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-21 00:31 https://t.co/803GjiqsPy",
-            "created_at": "Thu Jul 21 04:31:03 +0000 2016",
-            "retweet": 1,
-            "likes": 2,
+            "tweet_count": 191,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Bronwyn Beddo",
+            "created_at": "Thu Jul 21 04:36:02 +0000 2016",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 214,
+            "tweet_count": 192,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♣♯ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/xEvecXzdPC",
@@ -2141,17 +1921,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 215,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-21 00:10 https://t.co/x1X0S1o6T3",
-            "created_at": "Thu Jul 21 04:10:02 +0000 2016",
+            "tweet_count": 193,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Bryon Blanford",
+            "created_at": "Thu Jul 21 04:24:02 +0000 2016",
             "retweet": 0,
-            "likes": 1,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 216,
+            "tweet_count": 194,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $238.6116 values from vircurex + coinbase at 07/20/16 23:55 #dogecoin",
@@ -2161,27 +1941,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 217,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-20 23:31 https://t.co/KlVHsdKpqK",
-            "created_at": "Thu Jul 21 03:31:25 +0000 2016",
+            "tweet_count": 195,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Obdulia Berez",
+            "created_at": "Thu Jul 21 03:42:02 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 196,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Annika Ashline",
+            "created_at": "Thu Jul 21 03:30:02 +0000 2016",
             "retweet": 0,
             "likes": 2,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 218,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-20 23:10 https://t.co/zYlZTXSFy9",
-            "created_at": "Thu Jul 21 03:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 219,
+            "tweet_count": 197,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $238.5972 values from vircurex + coinbase at 07/20/16 22:55 #dogecoin",
@@ -2191,7 +1971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 220,
+            "tweet_count": 198,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "✔※ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/unLNQogJP7",
@@ -2201,17 +1981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 221,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000037 BTC #doge #dogecoin 2016-07-20 22:31 https://t.co/Rxog5Ri9yR",
-            "created_at": "Thu Jul 21 02:31:03 +0000 2016",
-            "retweet": 1,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 222,
+            "tweet_count": 199,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Whats the best pool to mine DogeCoin on? https://t.co/O0atNN8IPT r",
@@ -2221,7 +1991,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 223,
+            "tweet_count": 200,
+            "username": "btc4every1.eth",
+            "user_account": "earn_freestuff",
+            "text": "all the best #freebitcoin #dogecoin and #ethereum sites in one place ! #getrich #makemoney #earncash today! goto : https://t.co/5Hf0puLUjT",
+            "created_at": "Thu Jul 21 02:18:59 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 201,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☺♠ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/k31KsX7cJn",
@@ -2231,27 +2011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 224,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-20 22:10 https://t.co/DrxQ2yOSY0",
-            "created_at": "Thu Jul 21 02:10:05 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 225,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-20 22:10 https://t.co/jhDiGxQGCs",
-            "created_at": "Thu Jul 21 02:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 226,
+            "tweet_count": 202,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.742 values from vircurex + coinbase at 07/20/16 21:55 #dogecoin",
@@ -2261,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 227,
+            "tweet_count": 203,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♠Ω 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/XKmNwKS9dq",
@@ -2271,17 +2031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 228,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000036 BTC #doge #dogecoin 2016-07-20 21:31 https://t.co/XvF3dFQnhj",
-            "created_at": "Thu Jul 21 01:31:03 +0000 2016",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 229,
+            "tweet_count": 204,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "☺› 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/tHLuD7NTh0",
@@ -2291,7 +2041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 230,
+            "tweet_count": 205,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/L5b3D8PUlW",
@@ -2301,17 +2051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 231,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-20 21:10 https://t.co/N0IVZm37fl",
-            "created_at": "Thu Jul 21 01:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 232,
+            "tweet_count": 206,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $239.6916 values from vircurex + coinbase at 07/20/16 20:55 #dogecoin",
@@ -2321,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 233,
+            "tweet_count": 207,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "→ 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/Vf1XIzb3K6",
@@ -2331,17 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 234,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "1 DOGE Price: Bter 0.00000037 BTC #doge #dogecoin 2016-07-20 20:31 https://t.co/L1pLTLXtQE",
-            "created_at": "Thu Jul 21 00:31:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 235,
+            "tweet_count": 208,
             "username": "Bitcoin Dealer",
             "user_account": "bitcoin_dealer",
             "text": "♢» 100000 Dogecoin  (100K 100,000 Doge) - Direct to your Wallet https://t.co/Z6dsWpogRO https://t.co/rzRcXPK8Uh",
@@ -2351,23 +2081,23 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 236,
-            "username": "CoinOK",
-            "user_account": "coinok",
-            "text": "Redeem DOGE for Free! Scan the QR code below https://t.co/hvdZewvLuI #doge #dogecoin #faucet 2016-07-20 20:10 https://t.co/J5yeqKmNh1",
-            "created_at": "Thu Jul 21 00:10:02 +0000 2016",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 237,
+            "tweet_count": 209,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $240.4332 values from vircurex + coinbase at 07/20/16 19:55 #dogecoin",
             "created_at": "Thu Jul 21 00:01:02 +0000 2016",
             "retweet": 0,
             "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 210,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Tamie Aurora",
+            "created_at": "Thu Jul 21 00:00:02 +0000 2016",
+            "retweet": 0,
+            "likes": 1,
             "retweeted_tweet": null
         }
     ]

@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -22,6 +22,46 @@
         },
         {
             "tweet_count": 3,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Reese Witherspoon's Family Photos Are Absolutely Adorable https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 23:50:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Kate Hudson Shares Heartwarming Birthday Message For Mom Goldie Hawn https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #phot…",
+            "created_at": "Sat Nov 21 23:50:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "An Open Letter to Florida State University President Thrasher https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 23:50:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Reese Witherspoon's Family Photos Are Absolutely Adorable https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 23:45:50 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #18b",
@@ -31,17 +71,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
-            "username": "ReactJobs",
-            "user_account": "reactjobs_xyz",
-            "text": "Dogecoin Price Update: $ 0.000132 via @Flutter_HQ source @CoinMKTCap @dogecoin #dogecoin",
-            "created_at": "Sat Nov 21 23:30:05 +0000 2015",
+            "tweet_count": 8,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.000135! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 23:40:17 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 9,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Berta Archbell",
+            "created_at": "Sat Nov 21 23:36:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Kate Hudson Shares Heartwarming Birthday Message For Mom Goldie Hawn https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #phot…",
+            "created_at": "Sat Nov 21 23:30:49 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Sofia Vergara Kicks Off Her Exciting Wedding Weekend https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 23:30:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "An Open Letter to Florida State University President Thrasher https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 23:30:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.8514 values from vircurex + coinbase at 11/21/15 17:55 #dogecoin via … https://t.co/8i6sG4jHVI",
+            "created_at": "Sat Nov 21 23:05:13 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 14,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 17:55 via #dogecoin… https://t.co/9icvE6qNc7",
+            "created_at": "Sat Nov 21 23:05:11 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 15,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $126.8514 values from vircurex + coinbase at 11/21/15 17:55 #dogecoin",
@@ -51,7 +151,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 16,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "As Islamist Terrorism Increases, Some Respond...By Assailing Israel https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photo…",
+            "created_at": "Sat Nov 21 23:00:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "100,000 DOGECOIN (DOGE) - TRUSTED SELLER of Bitcoin, Litecoin, Feathercoin!! https://t.co/MvN9sWtGzB #feathercoin https://t.co/OmxgsuX0hQ",
@@ -61,7 +171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 18,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": ".01 BITCOIN (BTC) TRUSTED SELLER of Litecoin, DogeCoin, FeatherCoin, Reddcoin!  https://t.co/8YBEjScHdv #featherco… https://t.co/PW4h6PG4Ov",
@@ -71,7 +181,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 19,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Gwendolyn Banchero",
+            "created_at": "Sat Nov 21 22:42:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
             "username": "BitCoin Forum",
             "user_account": "TheBitCoinForum",
             "text": "@ https://t.co/UjMsJS1an6: Dogecoin Price Technical Analysis for 20/11/2015 – Ranging Moves https://t.co/HgXxFfrmR6 #BitcoinNews",
@@ -81,7 +201,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 21,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Hobby Lobby Redux: Where Are the Women? https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f…",
+            "created_at": "Sat Nov 21 22:35:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 22,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Hobby Lobby Redux:  Where Are the Women? https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #…",
+            "created_at": "Sat Nov 21 22:29:39 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 23,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What It Means When I Say 'I've Always Felt Like a Woman' https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 22:29:39 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 24,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What The Iraq War Can Teach Us About Fighting ISIS https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, …",
+            "created_at": "Sat Nov 21 22:29:38 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 25,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Register Me, Too, Mr. Trump https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #…",
+            "created_at": "Sat Nov 21 22:29:38 +0000 2015",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 26,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Gal Gadot Shows Off Her 'Wonder Woman' Look In First Photo https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#f…",
+            "created_at": "Sat Nov 21 22:29:38 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Fire Rages In One Of Chicago's Tallest Skyscrapers, Injuring 1 https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 22:29:38 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
             "username": "Cryptocrawl",
             "user_account": "branziggracerx",
             "text": "Monetary UNIT @tipmue @THEHUMANFAUCET #CryptoCurrency #BitCoin #BTC #dogecoin #LiteCoin @maxkeiser @BryceWeiner #LTC https://t.co/KfgGiO9wxc",
@@ -91,7 +281,107 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 29,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "What It Means When I Say 'I've Always Felt Like a Woman' https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 22:19:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "What The Iraq War Can Teach Us About Fighting ISIS https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, …",
+            "created_at": "Sat Nov 21 22:19:42 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 31,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Register Me, Too, Mr. Trump https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #…",
+            "created_at": "Sat Nov 21 22:19:42 +0000 2015",
+            "retweet": 9,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 32,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Gal Gadot Shows Off Her 'Wonder Woman' Look In First Photo https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#f…",
+            "created_at": "Sat Nov 21 22:19:42 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Fire Rages In One Of Chicago's Tallest Skyscrapers, Injuring 1 https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 22:19:42 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 34,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.0113 values from vircurex + coinbase at 11/21/15 16:55 #dogecoin via … https://t.co/OHTtYKVa36",
+            "created_at": "Sat Nov 21 22:19:07 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 35,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 16:55 via #dogecoin… https://t.co/09o9XaMN8j",
+            "created_at": "Sat Nov 21 22:19:05 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 36,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Jennifer Lawrence Says Liam And Chris Hemsworth Are Gross, Scab-Eating Animals https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #l…",
+            "created_at": "Sat Nov 21 22:13:31 +0000 2015",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 37,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Man Shares Baklava With Airline Passengers Who Profiled Him https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#…",
+            "created_at": "Sat Nov 21 22:13:30 +0000 2015",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 38,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Man Shares Baklava With Airline Passengers Who Profiled Him https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#…",
+            "created_at": "Sat Nov 21 22:02:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 39,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.0113 values from vircurex + coinbase at 11/21/15 16:55 #dogecoin",
@@ -101,7 +391,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 40,
             "username": "Cointopay.com crypto",
             "user_account": "Cointopay",
             "text": "Prypto Dogecoin Wallet cards  for 0.39668140 #BTC #Ordernow https://t.co/95BX268guK",
@@ -111,7 +401,87 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 41,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "‘To Hear A Mother’s Cries … It Does Something To You' https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashio…",
+            "created_at": "Sat Nov 21 21:41:42 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "8 Sleeping Devices For Anyone Flying Solo During Cuffing Season https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograp…",
+            "created_at": "Sat Nov 21 21:31:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 43,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "8 Sleeping Devices For Anyone Flying Solo During Cuffing Season https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograp…",
+            "created_at": "Sat Nov 21 21:27:40 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 44,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "National Book Awards: The Best Reader Wins! https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health…",
+            "created_at": "Sat Nov 21 21:27:40 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 45,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Major ‘Hunger Games’ Theory Gets Support From The Cast https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 21:18:16 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 46,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.6525 values from vircurex + coinbase at 11/21/15 15:55 #dogecoin via … https://t.co/XXLOjxEXKV",
+            "created_at": "Sat Nov 21 21:17:56 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 47,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Major ‘Hunger Games’ Theory Gets Support From The Cast https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 21:13:15 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 48,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "5 Gifts For The Dog Lover https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bu…",
+            "created_at": "Sat Nov 21 21:01:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 49,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $126.6525 values from vircurex + coinbase at 11/21/15 15:55 #dogecoin",
@@ -121,7 +491,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 13,
+            "tweet_count": 50,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 15:55 via #dogecoin… https://t.co/fS7EVNy04Y",
+            "created_at": "Sat Nov 21 21:01:07 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 51,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "5 Gifts For The Dog Lover https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bu…",
+            "created_at": "Sat Nov 21 20:55:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 52,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "NYC Dentist Had Child Porn, Spread HIV Intentionally, Police Say https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 20:45:30 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 53,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "ISIS Wives Recount Terrible Reality Of Life In Raqqa https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 20:40:20 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 54,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "10 Thoughtful, Handmade Gifts Only The Coolest Friends Will Give https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 20:25:55 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 55,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Watch Justin Bieber Sing 'My Girl' To Selena Gomez https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, …",
+            "created_at": "Sat Nov 21 20:25:55 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Guidelines to Keep You Traveling Safe in a World of Terrorist Threats https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 20:25:54 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 57,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "1 LITECOIN (LTC)  - TRUSTED SELLER of Bitcoin, Dogecoin, Feathercoin, Devcoin!! https://t.co/HH9M9I5Yx7 #featherco… https://t.co/2YDPyHIucs",
@@ -131,7 +571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 58,
             "username": "⚒️ marsh ⚒️",
             "user_account": "dogecoin_trader",
             "text": "@YahooNoise thanks bud.  Ya haven't let me down all season..",
@@ -141,7 +581,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 59,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "10 Thoughtful, Handmade Gifts Only The Coolest Friends Will Give https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 20:15:49 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Watch Justin Bieber Sing 'My Girl' To Selena Gomez https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, …",
+            "created_at": "Sat Nov 21 20:15:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Guidelines to Keep You Traveling Safe in a World of Terrorist Threats https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 20:15:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
             "username": "⚒️ marsh ⚒️",
             "user_account": "dogecoin_trader",
             "text": "@YahooNoise  rishard matthews or hilton? Starks or woodhead? Non ppr. Please help!",
@@ -151,7 +621,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
+            "tweet_count": 63,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.3834 values from vircurex + coinbase at 11/21/15 14:55 #dogecoin via … https://t.co/FKorYYCoE1",
+            "created_at": "Sat Nov 21 20:15:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 64,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 14:55 via #dogecoin… https://t.co/0YTS2Ny4Ha",
+            "created_at": "Sat Nov 21 20:15:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 65,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $126.3834 values from vircurex + coinbase at 11/21/15 14:55 #dogecoin",
@@ -161,7 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
+            "tweet_count": 66,
             "username": "Taupe Avenger",
             "user_account": "TaupeAvenger",
             "text": "@dogecoin @SwiftOnSecurity I still think my Dogecoin is going TO THE MOON!",
@@ -171,7 +661,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
+            "tweet_count": 67,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013339! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 20:00:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 68,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "\"I Was Ugly, Cute, and Ugly Again\" https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #…",
+            "created_at": "Sat Nov 21 20:00:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 69,
             "username": "tech-elem",
             "user_account": "EasyITCommunity",
             "text": "SwiftOnSecurity: No, you're cool. https://t.co/SM49XxLXJY",
@@ -181,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 70,
             "username": "sonsofliberty2016",
             "user_account": "Thefedendsnow",
             "text": "getting ready to Rage against tonite #MonetaryUnit #Startcoin #dogecoin #18b #DTLV #VEGAS",
@@ -191,7 +701,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 71,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "\"I Was Ugly, Cute, and Ugly Again\" https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #…",
+            "created_at": "Sat Nov 21 19:55:43 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 72,
+            "username": "Dogecoin",
+            "user_account": "dogecoin",
+            "text": "@SwiftOnSecurity How about Dogecoin?",
+            "created_at": "Sat Nov 21 19:53:39 +0000 2015",
+            "retweet": 1,
+            "likes": 9,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 73,
             "username": "Cointopay.com crypto",
             "user_account": "Cointopay",
             "text": "40  Prypto 1000 DOGECOIN CARDS  for 0.08000000 #BTC #Ordernow https://t.co/hDOBmnGdcF",
@@ -201,7 +731,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 74,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Bangladesh Executes 2 Opposition Leaders For War Crimes https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 19:45:44 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 75,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why We Should Be Thanking Caitlyn Jenner https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #…",
+            "created_at": "Sat Nov 21 19:45:44 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 76,
             "username": "bitcoinsonebay",
             "user_account": "bitcoinsonebay",
             "text": "100 CASINOCOIN - TRUSTED SELLER of DogeCoin, FeatherCoin, BitCoin, LiteCoin! https://t.co/XyyP0dhEJf #bitcoin",
@@ -211,7 +761,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 77,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Bangladesh Executes 2 Opposition Leaders For War Crimes https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 19:40:56 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 78,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Why We Should Be Thanking Caitlyn Jenner https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #…",
+            "created_at": "Sat Nov 21 19:40:56 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 79,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Suspected Boko Haram Suicide Attack Kills 10 In Cameroon https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 19:40:55 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 80,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Never Again: Keeping a Promise about Human Suffering https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 19:40:55 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 81,
             "username": "Julia Vaingurt",
             "user_account": "julia_vaingurt",
             "text": "GOP Rivals Knock Trump For Endorsing Muslim Database https://t.co/iLGCByKQud\n #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
@@ -221,7 +811,237 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 82,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Suspected Boko Haram Suicide Attack Kills 10 In Cameroon https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 19:32:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 83,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Never Again: Keeping a Promise about Human Suffering https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 19:32:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 84,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "These 'Good Dinosaur' Easter Eggs Will Remind You Of Your Favorite Movies https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, …",
+            "created_at": "Sat Nov 21 19:32:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 85,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "GOP Rivals Knock Trump For Endorsing Muslim Database https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 19:32:20 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 86,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "These 'Good Dinosaur' Easter Eggs Will Remind You Of Your Favorite Movies https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, …",
+            "created_at": "Sat Nov 21 19:27:36 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 87,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "GOP Rivals Knock Trump For Endorsing Muslim Database https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 19:27:35 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 88,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Luna Bina",
+            "created_at": "Sat Nov 21 19:24:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 89,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013333! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 19:20:17 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 90,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "These Kids Have The Coolest Way To Keep The Homeless Warm This Winter https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 19:16:54 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 91,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Science of Smiling https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busin…",
+            "created_at": "Sat Nov 21 19:16:54 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 92,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Sleeping Around: How to Sleep on the Side of a Mountain https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 19:16:53 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 93,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Election Day: Gov. Hopeful Vitter Trails In Deep-Red Louisiana https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 19:16:53 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 94,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Men: Watch Out for Male Menopause https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j…",
+            "created_at": "Sat Nov 21 19:16:51 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 95,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "13 Cheerful Comics For When You're Having The Worst Day Ever https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 19:16:50 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 96,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.023 values from vircurex + coinbase at 11/21/15 13:55 #dogecoin via #… https://t.co/2pYNH1d2ua",
+            "created_at": "Sat Nov 21 19:16:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 97,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 13:55 via #dogecoin… https://t.co/ifq4G217tv",
+            "created_at": "Sat Nov 21 19:16:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 98,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "These Kids Have The Coolest Way To Keep The Homeless Warm This Winter https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 19:10:46 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 99,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Science of Smiling https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busin…",
+            "created_at": "Sat Nov 21 19:10:45 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 100,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Sleeping Around: How to Sleep on the Side of a Mountain https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 19:10:45 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 101,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Election Day: Gov. Hopeful Vitter Trails In Deep-Red Louisiana https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 19:10:45 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 102,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Men: Watch Out for Male Menopause https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j…",
+            "created_at": "Sat Nov 21 19:10:45 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 103,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "13 Cheerful Comics For When You're Having The Worst Day Ever https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 19:10:44 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 104,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Christians Should Be Terrified https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs…",
+            "created_at": "Sat Nov 21 19:10:44 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 105,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Get seen everywhere for fifty cents a month. https://t.co/BMNuMP1ZfR #dogecoin https://t.co/L5b3D8PUlW",
@@ -231,7 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 106,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.023 values from vircurex + coinbase at 11/21/15 13:55 #dogecoin",
@@ -241,7 +1061,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 107,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Christians Should Be Terrified https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs…",
+            "created_at": "Sat Nov 21 18:58:31 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 108,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "100 CASINOCOIN - TRUSTED SELLER of DogeCoin, FeatherCoin, BitCoin, LiteCoin!  https://t.co/26R4GVI58y #feathercoin https://t.co/nCQ0AAw1UD",
@@ -251,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
+            "tweet_count": 109,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "I made an interactive wishlist which raises doge for charity! - Version 1 out now! https://t.co/0VdJqzsAU8 r",
@@ -261,7 +1091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
+            "tweet_count": 110,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "I need help with a small project. https://t.co/AyAV0Zfu9H r",
@@ -271,7 +1101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 111,
             "username": "Goginks",
             "user_account": "Goginks",
             "text": "@Josh_Wise Is there still a possibility to get the Dogecoin car signed by you?",
@@ -281,7 +1111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 29,
+            "tweet_count": 112,
             "username": "bitcoinsonebay",
             "user_account": "bitcoinsonebay",
             "text": "20,000 DOGECOIN (DOGE) - TRUSTED SELLER of Bitcoin, Litecoin, Devcoin!! https://t.co/jPrMtjC3PI #bitcoin",
@@ -291,7 +1121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 30,
+            "tweet_count": 113,
             "username": "⚒️ marsh ⚒️",
             "user_account": "dogecoin_trader",
             "text": "@YahooNoise rishard matthews or hilton? Starks or woodhead? Non ppr.",
@@ -301,7 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
+            "tweet_count": 114,
             "username": "MrPump",
             "user_account": "MrPump1337",
             "text": "replied to all people wanting to join #1 #altcoin #cryptocurrency #pumpgroup online #bitcoin $BTCUSD #dogecoin",
@@ -311,17 +1141,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 32,
-            "username": "ReactJobs",
-            "user_account": "reactjobs_xyz",
-            "text": "Dogecoin Price Update: $ 0.000131 via @Flutter_HQ source @CoinMKTCap @dogecoin #dogecoin",
-            "created_at": "Sat Nov 21 18:30:06 +0000 2015",
+            "tweet_count": 115,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013333! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtjYtF",
+            "created_at": "Sat Nov 21 18:40:17 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 116,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Two Ideals of College: What Yale Can Teach Us https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal…",
+            "created_at": "Sat Nov 21 18:36:45 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 117,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Man in the High Castle is Chilling Wartime Drama https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 18:36:44 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 118,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/FqtbG27PNL",
@@ -331,7 +1181,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
+            "tweet_count": 119,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Two Ideals of College: What Yale Can Teach Us https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal…",
+            "created_at": "Sat Nov 21 18:23:09 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 120,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Man in the High Castle is Chilling Wartime Drama https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 18:23:08 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 121,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.0113 values from vircurex + coinbase at 11/21/15 12:55 #dogecoin via … https://t.co/9xxjsJkEwX",
+            "created_at": "Sat Nov 21 18:12:13 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 122,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 12:55 via #dogecoin… https://t.co/hs0QbjN5ZB",
+            "created_at": "Sat Nov 21 18:12:11 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 123,
             "username": "Doxi @ Awoostria 🇱🇻",
             "user_account": "Dutchrrr",
             "text": "@Redregon Dogecoin?\nDo I want to know?",
@@ -341,7 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 35,
+            "tweet_count": 124,
             "username": "Aunder Rednua",
             "user_account": "aunderrednua",
             "text": "Try a new dogecoin faucet rotator here - https://t.co/VvinVxEnNJ up to 500 doge every hour! #dogecoin #faucet #rotator #DOGE",
@@ -351,7 +1241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 125,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.0113 values from vircurex + coinbase at 11/21/15 12:55 #dogecoin",
@@ -361,7 +1251,57 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 37,
+            "tweet_count": 126,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013333! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 18:00:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 127,
+            "username": "Dogecoin",
+            "user_account": "dogecoin",
+            "text": "Updating to #Dogecoin Core 1.10 makes doge happy! Go do it https://t.co/pMblMzaQIn https://t.co/BpGzDvAr4u",
+            "created_at": "Sat Nov 21 17:58:27 +0000 2015",
+            "retweet": 16,
+            "likes": 25,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 128,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Seth Meyers Expecting First Child With Wife Alexi Ashe https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashi…",
+            "created_at": "Sat Nov 21 17:57:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 129,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Joe Biden: Turning Away Refugees Is Giving ISIS What They Want https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 17:57:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 130,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "ISIS Mastermind in Syria Set up Intelligence State like the Stasi https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogr…",
+            "created_at": "Sat Nov 21 17:57:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 131,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #veg… https://t.co/L5b3D8PUlW",
@@ -371,7 +1311,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 38,
+            "tweet_count": 132,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Seth Meyers Expecting First Child With Wife Alexi Ashe https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashi…",
+            "created_at": "Sat Nov 21 17:52:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 133,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Joe Biden: Turning Away Refugees Is Giving ISIS What They Want https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 17:52:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 134,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "ISIS Mastermind in Syria Set up Intelligence State like the Stasi https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogr…",
+            "created_at": "Sat Nov 21 17:52:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 135,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "20 Ways Not to Talk to Your Teenage Daughter - Then How to Fix Things https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 17:42:17 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 136,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "#askastoreaday to accept #bitcoin #startcoin #dogecoin https://t.co/KGZTFtHCQz",
@@ -381,17 +1361,157 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
-            "username": "ReactJobs",
-            "user_account": "reactjobs_xyz",
-            "text": "Dogecoin Price Update: $ 0.000130 via @Flutter_HQ source @CoinMKTCap @dogecoin #dogecoin",
-            "created_at": "Sat Nov 21 17:30:04 +0000 2015",
+            "tweet_count": 137,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "20 Ways Not to Talk to Your Teenage Daughter - Then How to Fix Things https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 17:37:33 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 138,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Dear Moms: The Holidays Don't Have To Be Perfect https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 17:37:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 139,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Kylie Jenner's Snapchats May Be A Message To Tyga Following Split https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogr…",
+            "created_at": "Sat Nov 21 17:37:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 140,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Dear Moms: The Holidays Don't Have To Be Perfect https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 17:27:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 141,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Kylie Jenner's Snapchats May Be A Message To Tyga Following Split https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogr…",
+            "created_at": "Sat Nov 21 17:27:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 142,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Obama &amp; Democrats React to Paris Attacks (video) https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 17:27:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 143,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Man Arrested For Allegedly Wielding Samurai Sword At Apple Store https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 17:27:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 144,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Taking Pause for Our People https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #…",
+            "created_at": "Sat Nov 21 17:27:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 145,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Ahmadi Mosque Attacked In Pakistan After Blasphemy Rumor https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 17:27:30 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 146,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Mali: The Shape of Things to Come? https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #…",
+            "created_at": "Sat Nov 21 17:27:30 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 147,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Obama &amp; Democrats React to Paris Attacks (video) https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 17:22:35 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 148,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Man Arrested For Allegedly Wielding Samurai Sword At Apple Store https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 17:22:35 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 149,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Taking Pause for Our People https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #…",
+            "created_at": "Sat Nov 21 17:22:35 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 150,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Ahmadi Mosque Attacked In Pakistan After Blasphemy Rumor https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fas…",
+            "created_at": "Sat Nov 21 17:22:35 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 151,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Mali: The Shape of Things to Come? https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #…",
+            "created_at": "Sat Nov 21 17:22:34 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 152,
             "username": "You Love Bitcoin",
             "user_account": "nexuscrypto",
             "text": "Macbook Pro Retina 15 Quad-Core Core i7 512GB 16GB RAM AMD Rade dogecoin namecoin litecoin bitcoin nexusosx86 2579€ https://t.co/3GVKrr3uoZ",
@@ -401,7 +1521,127 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
+            "tweet_count": 153,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Millenials Open Up About Drug Addiction (video) https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #he…",
+            "created_at": "Sat Nov 21 17:12:49 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 154,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Notes from the Head of the Household https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail…",
+            "created_at": "Sat Nov 21 17:12:48 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 155,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Did This Cat Almost Bust A Thief Stealing A Donation Box? https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 17:12:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 156,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Donald Trump Is The New Joseph McCarthy, Blogger Says https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashio…",
+            "created_at": "Sat Nov 21 17:12:48 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 157,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Mesmerizing NASA Animation Shows Our Planet's Yearly Plant Cycle https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 17:12:47 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 158,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.9996 values from vircurex + coinbase at 11/21/15 11:55 #dogecoin via … https://t.co/Ojb7PD7pxd",
+            "created_at": "Sat Nov 21 17:12:08 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 159,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 11:55 via #dogecoin… https://t.co/PsB5M7emKX",
+            "created_at": "Sat Nov 21 17:12:06 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 160,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Millenials Open Up About Drug Addiction (video) https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #he…",
+            "created_at": "Sat Nov 21 17:07:22 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 161,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Notes from the Head of the Household https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail…",
+            "created_at": "Sat Nov 21 17:07:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 162,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Did This Cat Almost Bust A Thief Stealing A Donation Box? https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 17:07:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 163,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Donald Trump Is The New Joseph McCarthy, Blogger Says https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashio…",
+            "created_at": "Sat Nov 21 17:07:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 164,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Mesmerizing NASA Animation Shows Our Planet's Yearly Plant Cycle https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 17:07:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 165,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $126.9996 values from vircurex + coinbase at 11/21/15 11:55 #dogecoin",
@@ -411,7 +1651,127 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 166,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "After Twenty Years Of Being Chained, This Circus Cat Is Finally Free https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #phot…",
+            "created_at": "Sat Nov 21 16:52:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 167,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "After Twenty Years Of Being Chained, This Circus Cat Is Finally Free https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #phot…",
+            "created_at": "Sat Nov 21 16:42:56 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 168,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "He's Right https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,…",
+            "created_at": "Sat Nov 21 16:42:55 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 169,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Someone Cemented Puppies Inside A Fish Tank And Left Them To Die https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 16:42:55 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 170,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "He's Right https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,…",
+            "created_at": "Sat Nov 21 16:37:22 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 171,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Laughing at Fear https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #…",
+            "created_at": "Sat Nov 21 16:37:22 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 172,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Someone Cemented Puppies Inside A Fish Tank And Left Them To Die https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 16:37:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 173,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Do Dems Have Much More to Lose in This Election Than the GOP? https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 16:27:40 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 174,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Do Dems Have Much More to Lose in This Election Than the GOP? https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 16:22:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 175,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "High volume worst performers over the last 3 hours Prime-XI (-6.93%), IvugeoEvolutionCoin (-2.33%), Dogecoin (2.56%… https://t.co/KS0vEZ9DCg",
+            "created_at": "Sat Nov 21 16:13:04 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 176,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.5004 values from vircurex + coinbase at 11/21/15 10:55 #dogecoin via … https://t.co/0VJbtrVaYu",
+            "created_at": "Sat Nov 21 16:12:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 177,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 10:55 via #dogecoin… https://t.co/tZXOAI3tDC",
+            "created_at": "Sat Nov 21 16:12:30 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 178,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $126.5004 values from vircurex + coinbase at 11/21/15 10:55 #dogecoin",
@@ -421,7 +1781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 179,
             "username": "CryptoIndexes",
             "user_account": "CryptoIndexes",
             "text": "High volume worst performers over the last 3 hours Prime-XI (-6.93%), IvugeoEvolutionCoin (-2.33%), Dogecoin (2.56%) $PXI $IEC $DOGE",
@@ -431,7 +1791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 180,
             "username": "Twister",
             "user_account": "twister12323",
             "text": "Windows turns 30 years old #bitcoin #rimbit #dogecoin https://t.co/GMU9qrR083",
@@ -441,7 +1801,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
+            "tweet_count": 181,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Christian Pastor Accused Of Repeatedly Raping Underage Sisters https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 15:42:38 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 182,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Turning Refugees Away? \"We're Not That Kind of Country!\" (Actually, We Are.) https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #lov…",
+            "created_at": "Sat Nov 21 15:37:38 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 183,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Yon Barbano",
+            "created_at": "Sat Nov 21 15:30:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 184,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Turning Refugees Away? \"We're Not That Kind of Country!\" (Actually, We Are.) https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #lov…",
+            "created_at": "Sat Nov 21 15:27:36 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 185,
             "username": "Ven B ☦",
             "user_account": "VLubev",
             "text": "@twlldun Bitcoin? Meh, I'm into Dogecoin.",
@@ -451,7 +1851,197 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 186,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "High volume best performers over the last 3 hours IvugeoEvolutionCoin (2.62%), Dogecoin (0%), Prime-XI (-8.31%) $IE… https://t.co/GUFxdpG1uu",
+            "created_at": "Sat Nov 21 15:13:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 187,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Formerly Jailed Journalist Explains Iran's Recent Crackdown On Dissent https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #ph…",
+            "created_at": "Sat Nov 21 15:12:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 188,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Afghanistan and Pakistan: The Poisoned Legacy of the Durand Line https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 15:12:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 189,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.2586 values from vircurex + coinbase at 11/21/15 09:55 #dogecoin via … https://t.co/ZAVcctyYFv",
+            "created_at": "Sat Nov 21 15:12:25 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 190,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current value of DOGE in BTC: Vircurex: 0.00000039 -- Volume: Today's trend: stable at 11/21/15 09:55 via #dogecoin… https://t.co/bZG2Nl8z07",
+            "created_at": "Sat Nov 21 15:12:24 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 191,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Halley Blakley",
+            "created_at": "Sat Nov 21 15:12:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 192,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Formerly Jailed Journalist Explains Iran's Recent Crackdown On Dissent https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #ph…",
+            "created_at": "Sat Nov 21 15:07:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 193,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Afghanistan and Pakistan: The Poisoned Legacy of the Durand Line https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogra…",
+            "created_at": "Sat Nov 21 15:07:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 194,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "'Game Of Thrones' City Has Been Recreated Out Of Gingerbread https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 14:57:50 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 195,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Grammy Winner Gregory Porter Shares The One Thing That Keeps Him Grounded https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, …",
+            "created_at": "Sat Nov 21 14:57:50 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 196,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Mali Forces Hunting 'More Than 3' Suspects After Hotel Attack https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 14:57:50 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Shucked https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,#ec…",
+            "created_at": "Sat Nov 21 14:57:49 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 198,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Only Thing We Have to Fear Is Fear-Mongers Themselves https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 14:57:49 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 199,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Watch Dog Smile On Command, Just Like A Human https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal…",
+            "created_at": "Sat Nov 21 14:57:49 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 200,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "'Game Of Thrones' City Has Been Recreated Out Of Gingerbread https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 14:55:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 201,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Grammy Winner Gregory Porter Shares The One Thing That Keeps Him Grounded https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, …",
+            "created_at": "Sat Nov 21 14:55:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 202,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Mali Forces Hunting 'More Than 3' Suspects After Hotel Attack https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 14:55:30 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 203,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Shucked https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,#ec…",
+            "created_at": "Sat Nov 21 14:55:30 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 204,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Watch Dog Smile On Command, Just Like A Human https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal…",
+            "created_at": "Sat Nov 21 14:55:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 205,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Qlimaxing in the netherlands https://t.co/shd7vxV6ue r",
@@ -461,7 +2051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 206,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Of Wolves and Weasels - Day 682 - Shibe Saturday #49 https://t.co/WMhR5WISYQ r",
@@ -471,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
+            "tweet_count": 207,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -481,7 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
+            "tweet_count": 208,
             "username": "BitCoin Forum",
             "user_account": "TheBitCoinForum",
             "text": "@ https://t.co/UjMsJS1an6: Dogecoin Price Technical Analysis for 18/11/2015 – Sellers, Watch Out https://t.co/NW7NmRCtQb #BitcoinNews",
@@ -491,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 209,
             "username": "Julia Vaingurt",
             "user_account": "julia_vaingurt",
             "text": "Love betting sports? Try this anonymous &amp; instant service, bet with $BTC $LTC $DASH or $DOGE, no registration https://t.co/3pMXXp1As0",
@@ -501,7 +2091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 210,
             "username": "CryptoIndexes",
             "user_account": "CryptoIndexes",
             "text": "Love betting sports? Try this anonymous &amp; instant service, bet with $BTC $LTC $DASH or $DOGE, no registration https://t.co/MjhPtddQGv",
@@ -511,17 +2101,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
-            "username": "S_O_F_F_R_E",
-            "user_account": "me_oppy",
-            "text": "I just shifted Dogecoin to Bitcoin with the ShapeShift.io iOS App #NoAccountNeeded #bitcoin @ShapeShift_io https://t.co/gc0SwXlXI2",
-            "created_at": "Sat Nov 21 14:29:25 +0000 2015",
+            "tweet_count": 211,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Woodrow Wilson, Princeton University, and the Battles We Choose to Fight https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #…",
+            "created_at": "Sat Nov 21 14:28:45 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 212,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Woodrow Wilson, Princeton University, and the Battles We Choose to Fight https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #…",
+            "created_at": "Sat Nov 21 14:23:32 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 213,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "We Have Gone Temporarily Mad, Again https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail …",
+            "created_at": "Sat Nov 21 14:23:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 214,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Oklahoma Woman Who Plowed Into Homecoming Crowd Was Not Drunk, Court Papers Show https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, …",
+            "created_at": "Sat Nov 21 14:23:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 215,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/QXcBpAhnt4 #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #18b",
@@ -531,7 +2151,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 216,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "We Have Gone Temporarily Mad, Again https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail …",
+            "created_at": "Sat Nov 21 14:13:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 217,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Oklahoma Woman Who Plowed Into Homecoming Crowd Was Not Drunk, Court Papers Show https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, …",
+            "created_at": "Sat Nov 21 14:13:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 218,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.2336 values from vircurex + coinbase at 11/21/15 08:55 #dogecoin via … https://t.co/pOUZrCFHzj",
+            "created_at": "Sat Nov 21 14:12:21 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 219,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Dell Augspurger",
+            "created_at": "Sat Nov 21 14:06:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 220,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.2336 values from vircurex + coinbase at 11/21/15 08:55 #dogecoin",
@@ -541,7 +2201,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 221,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013086! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 13:40:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 222,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "This Company Is Trying To Change The Way That Trans Men Experience Their Periods https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, …",
+            "created_at": "Sat Nov 21 13:37:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 223,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "This Company Is Trying To Change The Way That Trans Men Experience Their Periods https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, …",
+            "created_at": "Sat Nov 21 13:27:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 224,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "First Nighter: John Yearley's \"The Unrepeatable Moment\" Full of Enthralling Moments https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #new…",
+            "created_at": "Sat Nov 21 13:27:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 225,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "First Nighter: John Yearley's \"The Unrepeatable Moment\" Full of Enthralling Moments https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #new…",
+            "created_at": "Sat Nov 21 13:22:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 226,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "10 Memorable Thanksgiving Day Desserts https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa…",
+            "created_at": "Sat Nov 21 13:11:36 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 227,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.5963 values from vircurex + coinbase at 11/21/15 07:55 #dogecoin via … https://t.co/iq3mVm9bqh",
+            "created_at": "Sat Nov 21 13:11:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 228,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth Building Thro https://t.co/yAmNRCJvQI #InfoSec #CyberSecurity #Tech https://t.co/JDMQ2KRhX3",
@@ -551,7 +2281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 229,
             "username": "CyberWarrior",
             "user_account": "CyberDomain",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth Building Thro https://t.co/CVylK9CjIH #InfoSec #CyberSecurity #Tech https://t.co/b1Jf8TWi0c",
@@ -561,7 +2291,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 230,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "10 Memorable Thanksgiving Day Desserts https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa…",
+            "created_at": "Sat Nov 21 13:06:26 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 231,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.5963 values from vircurex + coinbase at 11/21/15 07:55 #dogecoin",
@@ -571,7 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 232,
             "username": "Ray #miltant",
             "user_account": "HeyRayX",
             "text": "@moon_dogecoin  getting ransom ware on your pop ups, and stuff blocked by Eset security",
@@ -581,7 +2321,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
+            "tweet_count": 233,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Brady Bollom",
+            "created_at": "Sat Nov 21 12:24:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 234,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.92 values from vircurex + coinbase at 11/21/15 06:55 #dogecoin via #d… https://t.co/RNxeIuIKza",
+            "created_at": "Sat Nov 21 12:11:07 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 235,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "[DOGE/BTC Price] Current dogecoin #DOGE/BTC #price on AskCoinNet is 0.00820984, volume 0.027 #BTC #Bitcoin #Dogecoi… https://t.co/AzkYDNwb3O",
+            "created_at": "Sat Nov 21 12:11:04 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 236,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "[Giveaway] Never Give Up https://t.co/oRw5KdazVs r",
@@ -591,7 +2361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 237,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.92 values from vircurex + coinbase at 11/21/15 06:55 #dogecoin",
@@ -601,7 +2371,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 238,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.000133! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 11:50:16 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 239,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Trang Boughman",
+            "created_at": "Sat Nov 21 11:48:00 +0000 2015",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 240,
             "username": "Awesome freebies",
             "user_account": "ClKristen",
             "text": "[Giveaway] Never Give Up via /r/dogecoin https://t.co/nFKKo6qRZo @CJLopez_Mx",
@@ -611,7 +2401,117 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 241,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "ICYMI: Why Writers Run And How To Cope With Terrorism Anxiety https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 11:25:24 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 242,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Emma Roberts' $70 Skirt And More Cheap Celebrity Finds Of The Week https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photog…",
+            "created_at": "Sat Nov 21 11:25:24 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 243,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "These Thanksgiving Desserts Give Pie Some Serious Competition https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 11:25:24 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 244,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "How To Cook A Thanksgiving Turkey https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j…",
+            "created_at": "Sat Nov 21 11:25:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 245,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Only Thanksgiving Recipes You Really Need For A Classic Dinner https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photog…",
+            "created_at": "Sat Nov 21 11:25:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 246,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "ICYMI: Why Writers Run And How To Cope With Terrorism Anxiety https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 11:20:37 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 247,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Emma Roberts' $70 Skirt And More Cheap Celebrity Finds Of The Week https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photog…",
+            "created_at": "Sat Nov 21 11:20:37 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 248,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "These Thanksgiving Desserts Give Pie Some Serious Competition https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 11:20:36 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 249,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "How To Cook A Thanksgiving Turkey https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j…",
+            "created_at": "Sat Nov 21 11:20:36 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 250,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Only Thanksgiving Recipes You Really Need For A Classic Dinner https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photog…",
+            "created_at": "Sat Nov 21 11:20:36 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 251,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.92 values from vircurex + coinbase at 11/21/15 05:55 #dogecoin via #d… https://t.co/Sc7zQ3Mkdw",
+            "created_at": "Sat Nov 21 11:10:57 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 252,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.92 values from vircurex + coinbase at 11/21/15 05:55 #dogecoin",
@@ -621,17 +2521,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
-            "username": "Moon Dogecoin",
-            "user_account": "moon_dogecoin",
-            "text": "2015-11-21 Weekly payment run completed - over 3.2 million dogecoin paid out! Full details at https://t.co/LH2xiClbdx",
-            "created_at": "Sat Nov 21 10:12:08 +0000 2015",
+            "tweet_count": 253,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Elsy Blachly",
+            "created_at": "Sat Nov 21 10:42:00 +0000 2015",
             "retweet": 0,
-            "likes": 2,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 254,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.92 values from vircurex + coinbase at 11/21/15 04:55 #dogecoin via #d… https://t.co/EXt1mO7pVS",
+            "created_at": "Sat Nov 21 10:09:58 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 255,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.92 values from vircurex + coinbase at 11/21/15 04:55 #dogecoin",
@@ -641,7 +2551,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 256,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.0001316! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 10:00:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 257,
             "username": "Futurist Dog",
             "user_account": "FuturistDog",
             "text": "Oh @Sega if you want to buy my Sonic OC, contact me on here. Send the money in dogecoin.",
@@ -651,7 +2571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 258,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Weekend Toy 4 Newbies (Google: VisualDoge) https://t.co/2AATrBjQtH r",
@@ -661,7 +2581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 259,
             "username": "Noah Overbot",
             "user_account": "smileytechbot",
             "text": "Can anyone help me mine for dogecoin?",
@@ -671,7 +2591,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 260,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "High volume worst performers over the last 3 hours Prime-XI (-9.1%), IvugeoEvolutionCoin (-7.44%), Dogecoin (-2.5%)… https://t.co/xaTY2FSRVz",
+            "created_at": "Sat Nov 21 09:10:54 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 261,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.7991 values from vircurex + coinbase at 11/21/15 03:55 #dogecoin via … https://t.co/56MLetFXlv",
+            "created_at": "Sat Nov 21 09:09:45 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 262,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Demetra Ackah",
+            "created_at": "Sat Nov 21 09:06:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 263,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.7991 values from vircurex + coinbase at 11/21/15 03:55 #dogecoin",
@@ -681,7 +2631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 264,
             "username": "CryptoIndexes",
             "user_account": "CryptoIndexes",
             "text": "High volume worst performers over the last 3 hours Prime-XI (-9.1%), IvugeoEvolutionCoin (-7.44%), Dogecoin (-2.5%) $PXI $IEC $DOGE",
@@ -691,7 +2641,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 265,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Kum Ardinger",
+            "created_at": "Sat Nov 21 08:54:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 266,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Eryn Austin",
+            "created_at": "Sat Nov 21 08:42:00 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 267,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "Cryptocurrency: Guide To Digital Currency: Digital Coin Wall https://t.co/Fe0i8ki4NE #InfoSec #CyberSecurity #Tech https://t.co/NhP6jqHt2p",
@@ -701,7 +2671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 268,
             "username": "CyberWarrior",
             "user_account": "CyberDomain",
             "text": "Cryptocurrency: Guide To Digital Currency: Digital Coin Wall https://t.co/8Qobi7wFSw #InfoSec #CyberSecurity #Tech https://t.co/N0CClXYAhm",
@@ -711,7 +2681,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 269,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.5612 values from vircurex + coinbase at 11/21/15 02:55 #dogecoin via … https://t.co/Csp3OVYGhA",
+            "created_at": "Sat Nov 21 08:08:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 270,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.5612 values from vircurex + coinbase at 11/21/15 02:55 #dogecoin",
@@ -721,17 +2701,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
-            "username": "PinkMona",
-            "user_account": "pinkmona_org",
-            "text": "#bitcoin #altcoin #dogecoin Let's Hentai! Come on PinkMona!→https://t.co/Z30zTz9R9K",
-            "created_at": "Sat Nov 21 07:09:04 +0000 2015",
+            "tweet_count": 271,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "75 Facts about Dr. John for his 75th Birthday https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal…",
+            "created_at": "Sat Nov 21 07:30:41 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 272,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "75 Facts about Dr. John for his 75th Birthday https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal…",
+            "created_at": "Sat Nov 21 07:20:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 273,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Dyan Aro",
+            "created_at": "Sat Nov 21 07:12:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 274,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $127.3506 values from vircurex + coinbase at 11/21/15 01:55 #dogecoin via … https://t.co/UERDHxghtD",
+            "created_at": "Sat Nov 21 07:05:07 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 275,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $127.3506 values from vircurex + coinbase at 11/21/15 01:55 #dogecoin",
@@ -741,7 +2751,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 276,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Gaylene Birmingham",
+            "created_at": "Sat Nov 21 07:00:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 277,
             "username": "Cash Clamber",
             "user_account": "CashClamber",
             "text": "So many Pope jokes in my timeline *FacePsalm* https://t.co/RnPntuKJpZ #localbizzorg #onlinemarketing #dogecoin",
@@ -751,7 +2771,57 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
+            "tweet_count": 278,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Childhood Nostalgia Every Boomer Will Understand https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 06:50:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 279,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "When Does Old Age Begin? https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bus…",
+            "created_at": "Sat Nov 21 06:50:47 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 280,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.000132! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 06:50:16 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 281,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Childhood Nostalgia Every Boomer Will Understand https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion…",
+            "created_at": "Sat Nov 21 06:45:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 282,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "When Does Old Age Begin? https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #bus…",
+            "created_at": "Sat Nov 21 06:45:26 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 283,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Get seen everywhere for fifty cents a month. https://t.co/BMNuMP1ZfR #dogecoin https://t.co/L5b3D8PUlW",
@@ -761,7 +2831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 77,
+            "tweet_count": 284,
             "username": "Emore",
             "user_account": "Emore77",
             "text": "Re: Need Opinions ... Looking to start Bitcoin /LiteCoin/ Dogecoin All Poker Site: Thanks, checking it out now https://t.co/nLGusatGUH",
@@ -771,7 +2841,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
+            "tweet_count": 285,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Alaina Bankston",
+            "created_at": "Sat Nov 21 06:36:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 286,
             "username": "Mike Foley",
             "user_account": "foleymon",
             "text": "Re: Need Opinions ... Looking to start Bitcoin /LiteCoin/ Dogecoin All Poker Site https://t.co/arfznwep1O",
@@ -781,17 +2861,97 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 79,
-            "username": "Traidmark",
-            "user_account": "Traidmark",
-            "text": "Open #Currency Award https://t.co/R3Mcr5AgSZ @Blockchain @Bitcoin @Ripple @Litecoin @Dogecoin #Wikicoin  @ViveLaBolsa @theabcofpk",
-            "created_at": "Sat Nov 21 06:34:32 +0000 2015",
+            "tweet_count": 287,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "7 Unromantic Facts About Online Dating https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa…",
+            "created_at": "Sat Nov 21 06:35:35 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 288,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Half Of The Amazon's Tree Species Are Threatened https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 06:35:35 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 289,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "7 Unromantic Facts About Online Dating https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa…",
+            "created_at": "Sat Nov 21 06:30:57 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 290,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Half Of The Amazon's Tree Species Are Threatened https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 06:30:57 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 291,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "4 Things You Didn't Know About Goldie Hawn On Her 70th Birthday https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograp…",
+            "created_at": "Sat Nov 21 06:30:56 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 292,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Woman Fatally Stabbed In New York, Baby Born At The Scene https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 06:20:22 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 293,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Woman Fatally Stabbed In New York, Baby Born At The Scene https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fa…",
+            "created_at": "Sat Nov 21 06:15:31 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 294,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Tad Benear",
+            "created_at": "Sat Nov 21 06:12:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 295,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $126.7461 values from vircurex + coinbase at 11/21/15 00:55 #dogecoin via … https://t.co/fk1UzcHksB",
+            "created_at": "Sat Nov 21 06:05:04 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 296,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $126.7461 values from vircurex + coinbase at 11/21/15 00:55 #dogecoin",
@@ -801,7 +2961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 297,
             "username": "d o g e b o o s t",
             "user_account": "dogeboost",
             "text": "Error compiling the latest version of the daemon (1.10.0) https://t.co/QabsEds1FE r",
@@ -811,27 +2971,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
-            "username": "Brett",
-            "user_account": "SirCrest",
-            "text": "I know. Atleast use @dogecoin  https://t.co/TT8HqsMWho",
-            "created_at": "Sat Nov 21 05:40:42 +0000 2015",
-            "retweet": 0,
-            "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 83,
-            "username": "ReactJobs",
-            "user_account": "reactjobs_xyz",
-            "text": "Dogecoin Price Update: $ 0.000129 via @Flutter_HQ source @CoinMKTCap @dogecoin #dogecoin",
-            "created_at": "Sat Nov 21 05:30:04 +0000 2015",
+            "tweet_count": 298,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "President Obama Met With Young Muslim Refugees And It Was Absolutely Heartwarming https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news,…",
+            "created_at": "Sat Nov 21 05:34:23 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 299,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.0001306! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 05:30:26 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 300,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "President Obama Met With Young Muslim Refugees And It Was Absolutely Heartwarming https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news,…",
+            "created_at": "Sat Nov 21 05:29:47 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 301,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Merna Beraun",
+            "created_at": "Sat Nov 21 05:24:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 302,
             "username": "Cryptocrawl",
             "user_account": "branziggracerx",
             "text": "Send #MonetaryUnit #MUE #Branzig ★ 7CoF6Ckc7WD7a16eQhufCyuZW5KgvSvYFw ★ #Dogecoin #Bitcoin @THEHUMANFAUCET #AltCoin https://t.co/cMSuLEXPyO",
@@ -841,7 +3021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 303,
             "username": "Cryptocrawl",
             "user_account": "branziggracerx",
             "text": "#Bitcoin &amp; #Litecoin are going up again! #cryptocurrency https://t.co/ZNkBjphJev #Doge #Dogecoin #StartCoin #Mue @THEHUMANFAUCET #DASH #BTC",
@@ -851,7 +3031,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
+            "tweet_count": 304,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $125.5995 values from vircurex + coinbase at 11/20/15 23:55 #dogecoin via … https://t.co/3bzrRqdKlV",
+            "created_at": "Sat Nov 21 05:04:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 305,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $125.5995 values from vircurex + coinbase at 11/20/15 23:55 #dogecoin",
@@ -861,7 +3051,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 87,
+            "tweet_count": 306,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Sharee Blide",
+            "created_at": "Sat Nov 21 05:00:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 307,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Brussels At Highest Terror Alert Over 'Serious And Imminent' Threat https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photo…",
+            "created_at": "Sat Nov 21 04:49:33 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 308,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Paul Ryan Balks Over Blocking Gun Sales To People On Terror Watch List https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #ph…",
+            "created_at": "Sat Nov 21 04:34:40 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 309,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Paul Ryan Balks Over Blocking Gun Sales To People On Terror Watch List https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #ph…",
+            "created_at": "Sat Nov 21 04:29:48 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 310,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Finding Mindfulness Through The Art Of Drawing https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea…",
+            "created_at": "Sat Nov 21 04:19:51 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 311,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Alexia Bixler",
+            "created_at": "Sat Nov 21 04:18:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 312,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Finding Mindfulness Through The Art Of Drawing https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea…",
+            "created_at": "Sat Nov 21 04:15:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 313,
             "username": "Cointopay.com crypto",
             "user_account": "Cointopay",
             "text": "40  Prypto 1000 DOGECOIN CARDS  for 0.08000000 #BTC #Ordernow https://t.co/hDOBmnGdcF",
@@ -871,7 +3131,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
+            "tweet_count": 314,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Scientists Map Acorn Worm DNA, And Learn A Lot About Humans In The Process https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love,…",
+            "created_at": "Sat Nov 21 04:04:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 315,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $125.4357 values from vircurex + coinbase at 11/20/15 22:55 #dogecoin via … https://t.co/sr6t2qQTB7",
+            "created_at": "Sat Nov 21 04:04:32 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 316,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $125.4357 values from vircurex + coinbase at 11/20/15 22:55 #dogecoin",
@@ -881,17 +3161,97 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 89,
-            "username": "ReactJobs",
-            "user_account": "reactjobs_xyz",
-            "text": "Dogecoin Price Update: $ 0.000128 via @Flutter_HQ source @CoinMKTCap @dogecoin #dogecoin",
-            "created_at": "Sat Nov 21 03:30:04 +0000 2015",
+            "tweet_count": 317,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Scientists Map Acorn Worm DNA, And Learn A Lot About Humans In The Process https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love,…",
+            "created_at": "Sat Nov 21 03:59:44 +0000 2015",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 318,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Paris And Beirut: Data Show How Social Media Shapes Coverage https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 03:49:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 319,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Paris And Beirut: Data Show How Social Media Shapes Coverage https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 03:44:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 320,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013062! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 03:40:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 321,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.0001318! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 03:20:17 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 322,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Baloney About Free Trade and Terrorism https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa…",
+            "created_at": "Sat Nov 21 03:19:22 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 323,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Cleta Boomershine",
+            "created_at": "Sat Nov 21 03:18:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 324,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Baloney About Free Trade and Terrorism https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa…",
+            "created_at": "Sat Nov 21 03:14:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 325,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $125.0262 values from vircurex + coinbase at 11/20/15 21:55 #dogecoin via … https://t.co/f5QBoJiZsp",
+            "created_at": "Sat Nov 21 03:04:17 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 326,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $125.0262 values from vircurex + coinbase at 11/20/15 21:55 #dogecoin",
@@ -901,7 +3261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 327,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth Building Thro https://t.co/yAmNRCJvQI #InfoSec #CyberSecurity #Tech https://t.co/NnQoTwxS6H",
@@ -911,7 +3271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
+            "tweet_count": 328,
             "username": "CyberWarrior",
             "user_account": "CyberDomain",
             "text": "Cryptocurrency: Cryptocurrency Guide To Wealth Building Thro https://t.co/CVylK9CjIH #InfoSec #CyberSecurity #Tech https://t.co/koWoBcB4bW",
@@ -921,7 +3281,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
+            "tweet_count": 329,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Caution... https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,…",
+            "created_at": "Sat Nov 21 02:49:59 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 330,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Caution... https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #sales,…",
+            "created_at": "Sat Nov 21 02:45:15 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 331,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "1 LITECOIN (LTC) Direct to wallet - Like Bitcoin, Dogecoin, Feathercoin https://t.co/gC7Wedd7o3 #feathercoin https://t.co/MvewpOadCM",
@@ -931,7 +3311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 94,
+            "tweet_count": 332,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "250 FEATHERCOIN (FTC) Like Bitcoin, Litecoin, Nyancoin, Dogecoin, Dashcoin  https://t.co/wOhpEtNFxb #feathercoin https://t.co/X6LaxDPPIl",
@@ -941,7 +3321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 95,
+            "tweet_count": 333,
             "username": "Владимир Плахин",
             "user_account": "vowaplakhin",
             "text": "99.9% Dice - Bitcoin, Dogecoin &amp; Litecoin Gambling https://t.co/k5HvmGxQyg",
@@ -951,7 +3331,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 96,
+            "tweet_count": 334,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Sebastian Arizzi",
+            "created_at": "Sat Nov 21 02:30:01 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 335,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Why Poor Areas Vote For Politicians Who Want To Slash The Safety Net https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #phot…",
+            "created_at": "Sat Nov 21 02:29:43 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 336,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.000131! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 02:20:17 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 337,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why Poor Areas Vote For Politicians Who Want To Slash The Safety Net https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #phot…",
+            "created_at": "Sat Nov 21 02:18:29 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 338,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Log Of Interstitials https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busin…",
+            "created_at": "Sat Nov 21 02:14:26 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 339,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Log Of Interstitials https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busin…",
+            "created_at": "Sat Nov 21 02:04:54 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 340,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $124.9053 values from vircurex + coinbase at 11/20/15 20:55 #dogecoin via … https://t.co/OkzztHMnkC",
+            "created_at": "Sat Nov 21 02:04:09 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 341,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $124.9053 values from vircurex + coinbase at 11/20/15 20:55 #dogecoin",
@@ -961,7 +3411,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 97,
+            "tweet_count": 342,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Friday Talking Points -- A Knee-Jerk Week https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, …",
+            "created_at": "Sat Nov 21 01:48:42 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 343,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "#Bitcoin#Litecoin or #ripple or #Dogecoin diversify to #Marinecoin #MTC today for %1000 profits Cristobal Antolak",
+            "created_at": "Sat Nov 21 01:48:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 344,
             "username": "Julia Vaingurt",
             "user_account": "julia_vaingurt",
             "text": "Doge Keychain -Only $0.99- Free Intl Shipping https://t.co/VzKbZqDgud\n #doge #dogecoin #btc",
@@ -971,7 +3441,57 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 98,
+            "tweet_count": 345,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Friday Talking Points -- A Knee-Jerk Week https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, …",
+            "created_at": "Sat Nov 21 01:44:12 +0000 2015",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 346,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Rand Paul’s Hard Line On Refugees Rankles Libertarians https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashi…",
+            "created_at": "Sat Nov 21 01:32:25 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 347,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Rand Paul’s Hard Line On Refugees Rankles Libertarians https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashi…",
+            "created_at": "Sat Nov 21 01:26:38 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 348,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "10 Tips for a Calm Thanksgiving https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job…",
+            "created_at": "Sat Nov 21 01:26:37 +0000 2015",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 349,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What Does Transgender Day of Remembrance Mean to the Trans Community? https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 01:26:37 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 350,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "10 DIAMONDCOIN (DMD) TRUSTED SELLER of Bitcoin, Litecoin Feathercoin, Dogecoin! https://t.co/z4icsjD0S0 #featherco… https://t.co/rxrh1VZHKu",
@@ -981,7 +3501,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 99,
+            "tweet_count": 351,
+            "username": "LandBitcoin",
+            "user_account": "LandBitcoin",
+            "text": "Current #Dogecoin price: $0.00013109! Latest #DOGE news at #LandBitcoin portal https://t.co/2zX6rtBzSf",
+            "created_at": "Sat Nov 21 01:20:18 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 352,
             "username": "AltCoin Watch",
             "user_account": "CryptoNewsBot",
             "text": "Wikiisawesome edited the Wikipedia article on Dogecoin. https://t.co/Li3pnaoNeZ",
@@ -991,7 +3521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
+            "tweet_count": 353,
             "username": "AltCoin Watch",
             "user_account": "CryptoNewsBot",
             "text": "198.134.52.72 edited the Wikipedia article on Dogecoin. https://t.co/c79WClEAgK",
@@ -1001,7 +3531,57 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 101,
+            "tweet_count": 354,
+            "username": "Marinecoin",
+            "user_account": "MTC_Marinecoin",
+            "text": "Where there is #Marinecoin #MTC there is #dogecoin #doge, #bitcoin #BTC or Orval Bisher",
+            "created_at": "Sat Nov 21 01:18:00 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 355,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "10 Tips for a Calm Thanksgiving https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job…",
+            "created_at": "Sat Nov 21 01:14:02 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 356,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "What Does Transgender Day of Remembrance Mean to the Trans Community? https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #pho…",
+            "created_at": "Sat Nov 21 01:14:02 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 357,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $124.3008 values from vircurex + coinbase at 11/20/15 19:55 #dogecoin via … https://t.co/UrgYfZ9ubu",
+            "created_at": "Sat Nov 21 01:13:39 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 358,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Muslim Gandhi https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #s…",
+            "created_at": "Sat Nov 21 01:08:04 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 359,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $124.3008 values from vircurex + coinbase at 11/20/15 19:55 #dogecoin",
@@ -1011,7 +3591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 102,
+            "tweet_count": 360,
             "username": "BitcoinBuzz vega9",
             "user_account": "BitcoinBuzzV9",
             "text": "https://t.co/NoX0XHjkEJ - Hot topics: #bitcoin #crypti #monstercoingame #robotcoingame #crypto #dogecoin",
@@ -1021,7 +3601,67 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 103,
+            "tweet_count": 361,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Muslim Gandhi https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #s…",
+            "created_at": "Sat Nov 21 00:53:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 362,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Pictures of LA: Both Sides of Sunset https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail…",
+            "created_at": "Sat Nov 21 00:53:23 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 363,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Pictures of LA: Both Sides of Sunset https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail…",
+            "created_at": "Sat Nov 21 00:46:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 364,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Congress Is Falling Into ISIS's Trap on Syrian Refugees https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 00:46:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 365,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "J.R. Smith Allegedly Chokes Teenager After Kid Trash Talks Him https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 00:46:41 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 366,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Paris Nurse Discovers The Man He Tried To Save Was Suicide Bomber https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photogr…",
+            "created_at": "Sat Nov 21 00:46:40 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 367,
             "username": "Feathercoin For Sale",
             "user_account": "ftcforsale",
             "text": "100 BLACKCOIN (BC) TRUSTED SELLER of Litecoin, Dogecoin, Feathercoin, Bitcoin!  https://t.co/wbZrs63rXn #featherco… https://t.co/mOjtvInrst",
@@ -1031,7 +3671,67 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 104,
+            "tweet_count": 368,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Congress Is Falling Into ISIS's Trap on Syrian Refugees https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 00:32:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 369,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "J.R. Smith Allegedly Chokes Teenager After Kid Trash Talks Him https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograph…",
+            "created_at": "Sat Nov 21 00:32:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 370,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Paris Nurse Discovers The Man He Tried To Save Was Suicide Bomber https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photogr…",
+            "created_at": "Sat Nov 21 00:32:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 371,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "If You Have One of These Degrees, You Could Save Thousands by Refinancing Student Loans https://t.co/aDp889EBMJ #money #dogecoin #bitcoin …",
+            "created_at": "Sat Nov 21 00:32:28 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 372,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "No More Bloodshed https://t.co/aDp889n0o9 #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, …",
+            "created_at": "Sat Nov 21 00:32:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 373,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Accused Flasher Says He Was Trying To Remove Bug https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 00:32:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 374,
             "username": "Julia Vaingurt",
             "user_account": "julia_vaingurt",
             "text": "Women in Love: Cate Blanchett and Rooney Mara Dazzle in 'Carol' https://t.co/IM8z0jK11i\n #money #dogecoin #bitcoin #news, #love, #photograp…",
@@ -1041,7 +3741,197 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
+            "tweet_count": 375,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "What The Paris Attacks Mean For Greece's Refugee Crisis https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 00:32:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 376,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "New Artist Reviews: May Devun https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,…",
+            "created_at": "Sat Nov 21 00:32:27 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 377,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Time to Stop the GOP Fearmongering https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #…",
+            "created_at": "Sat Nov 21 00:32:26 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 378,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Women in Love: Cate Blanchett and Rooney Mara Dazzle in 'Carol' https://t.co/aDp889EBMJ #money #dogecoin #bitcoin #news, #love, #photograp…",
+            "created_at": "Sat Nov 21 00:32:26 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 379,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "[DOGE/BTC Price] Current dogecoin #DOGE/BTC #price on AskCoinNet is 0.00971837, volume 0.014 #BTC #Bitcoin #Dogecoi… https://t.co/nHBBdqlVXH",
+            "created_at": "Sat Nov 21 00:31:05 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 380,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "If You Have One of These Degrees, You Could Save Thousands by Refinancing Student Loans https://t.co/flwwWhiF8q #money #dogecoin #bitcoin …",
+            "created_at": "Sat Nov 21 00:23:58 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 381,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "No More Bloodshed https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, …",
+            "created_at": "Sat Nov 21 00:23:58 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 382,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Accused Flasher Says He Was Trying To Remove Bug https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h…",
+            "created_at": "Sat Nov 21 00:23:58 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 383,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What The Paris Attacks Mean For Greece's Refugee Crisis https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fash…",
+            "created_at": "Sat Nov 21 00:23:57 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 384,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "New Artist Reviews: May Devun https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,…",
+            "created_at": "Sat Nov 21 00:23:57 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 385,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Time to Stop the GOP Fearmongering https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #…",
+            "created_at": "Sat Nov 21 00:23:57 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 386,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Women in Love: Cate Blanchett and Rooney Mara Dazzle in 'Carol' https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photograp…",
+            "created_at": "Sat Nov 21 00:23:56 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 387,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "High volume best performers over the last 3 hours Dogecoin (2.56%), Ether (-0.45%), NuBits (-0.4%) $DOGE $ETH $NBT … https://t.co/UbdYlcGCFc",
+            "created_at": "Sat Nov 21 00:11:59 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 388,
+            "username": "Crypto Price Ticker",
+            "user_account": "TickerCrypto",
+            "text": "Current approx. value of 1M DOGE in USD: $125.58 values from vircurex + coinbase at 11/20/15 18:55 #dogecoin via #d… https://t.co/UNWXPqTrRm",
+            "created_at": "Sat Nov 21 00:10:05 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 389,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "New York Teen Accused Of Supporting ISIS To Be Tried As Adult https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography…",
+            "created_at": "Sat Nov 21 00:05:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 390,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "On Virtue, Anxiety and the Spiritual Life https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, …",
+            "created_at": "Sat Nov 21 00:05:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 391,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Weekend Roundup: Paris Attacks Upend Concepts of War, Security and Alliances https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #lov…",
+            "created_at": "Sat Nov 21 00:05:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 392,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Couple's 'Half &amp; Half' Photo Series Beautifully Captures Long-Distance Love https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love…",
+            "created_at": "Sat Nov 21 00:05:19 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 393,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Book Based Films Offer Evergreen Entertainment in a Soft Way https://t.co/flwwWhiF8q #money #dogecoin #bitcoin #news, #love, #photography,…",
+            "created_at": "Sat Nov 21 00:05:18 +0000 2015",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 394,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $125.58 values from vircurex + coinbase at 11/20/15 18:55 #dogecoin",

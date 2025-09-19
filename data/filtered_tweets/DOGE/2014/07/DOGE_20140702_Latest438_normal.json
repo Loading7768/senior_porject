@@ -1,17 +1,217 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
-            "username": "GEE",
-            "user_account": "4Crypto",
-            "text": "Doge Scratch Card. DOGECOIN TOPUP CARD - PRYPTO CARD - GIFT CARD - 10k DODGE TO SEND TO YOUR WALLET http://t.co/Rfn0UZI7yp via @eBay_UK",
-            "created_at": "Wed Jul 02 23:59:19 +0000 2014",
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "One Step Forward, One Step Back: The Fight for Transgender Rights in Latin America http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #ne...",
+            "created_at": "Wed Jul 02 23:55:53 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
             "tweet_count": 2,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Ask the Art Professor: How Do You Explain to Potential Clients That Artists Need to Be Paid? http://t.co/oIIQswXOpC #money #dogecoin #b...",
+            "created_at": "Wed Jul 02 23:55:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Obama's Immigration Announcement and What's Next http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
+            "created_at": "Wed Jul 02 23:55:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Chris Christie Vetoes Gun Magazine Reduction Bill http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 23:55:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Jew in the World http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busines...",
+            "created_at": "Wed Jul 02 23:55:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Boy, 12 Gets Maximum Sentence For Roswell School Shooting http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 23:55:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "One Step Forward, One Step Back: The Fight for Transgender Rights in Latin America http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #ne...",
+            "created_at": "Wed Jul 02 23:55:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Ask the Art Professor: How Do You Explain to Potential Clients That Artists Need to Be Paid? http://t.co/0VBMTFLrDk #money #dogecoin #b...",
+            "created_at": "Wed Jul 02 23:55:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 9,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Obama's Immigration Announcement and What's Next http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
+            "created_at": "Wed Jul 02 23:55:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Chris Christie Vetoes Gun Magazine Reduction Bill http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 23:55:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Jew in the World http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busines...",
+            "created_at": "Wed Jul 02 23:55:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Boy, 12 Gets Maximum Sentence For Roswell School Shooting http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 23:55:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Terminator 4:  Rise of the Freeloaders http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 23:55:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 14,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Strong Enough: Fighting Stigma and Discrimination http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 23:55:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 15,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Noisy Neighbors http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, ...",
+            "created_at": "Wed Jul 02 23:55:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 16,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Celebrating 10 Years of Paid Family Leave in California -- Now Let's Get the Word Out! http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin...",
+            "created_at": "Wed Jul 02 23:55:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Case for Restoring the 97% LTV Mortgage at Fannie Mae and Freddie Mac http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love...",
+            "created_at": "Wed Jul 02 23:55:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 18,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "North Carolina Outer Banks Evacuated Ahead Of Tropical Storm Arthur http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #pho...",
+            "created_at": "Wed Jul 02 23:55:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Death Saint La Santa Muerte Helps Get Drug Convictions Overturned http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 23:55:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - \"Hackers are going to help us find ways to have a more humanized system of commerce.\" ... http://t.co/GpaBavgE88",
+            "created_at": "Wed Jul 02 23:52:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 21,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Hello dogecoin world by jaylyn1991 - http://t.co/SSfR9zsfEO",
+            "created_at": "Wed Jul 02 23:52:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 22,
             "username": "Brigid Imrie",
             "user_account": "Brigid_Imrie",
             "text": "Dogecoin: The Circle of Wow - http://t.co/uinhSMXAXR",
@@ -21,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 23,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[04:47 PM PST] 1 #DOGE is worth: \n$0.000227 USD\n฿0.00000035 #BTC\n€0.000166 EUR\n£0.000132 GBP #DogeCoin",
@@ -31,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 24,
             "username": "WhaleFail",
             "user_account": "BTCFailWhale",
             "text": "Sell #dogecoin buy #dgb #win",
@@ -41,7 +241,127 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 25,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Terminator 4:  Rise of the Freeloaders http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 23:44:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 26,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Strong Enough: Fighting Stigma and Discrimination http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 23:44:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Celebrating 10 Years of Paid Family Leave in California -- Let's Get the Word Out! http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #ne...",
+            "created_at": "Wed Jul 02 23:44:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Case for Restoring the 97% LTV Mortgage at Fannie Mae and Freddie Mac http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love...",
+            "created_at": "Wed Jul 02 23:44:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 29,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "North Carolina Outer Banks Evacuated Ahead Of Tropical Storm Arthur http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #pho...",
+            "created_at": "Wed Jul 02 23:44:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Death Saint La Santa Muerte Helps Get Drug Convictions Overturned http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 23:44:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 31,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "1936 US Mercury Dime: Dime is in great condition.\n\nShipping is first class, US only.\n\nInternational ... http://t.co/yrx9vXxt6d #dogecoin",
+            "created_at": "Wed Jul 02 23:41:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 32,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "Used Sapphire 100352-4L Radeon HD 7950 3GB GDDR5 PCI-Express GPU Video card w/ Boost: 1 Used Sapphir... http://t.co/ILbE4PQPiu #dogecoin",
+            "created_at": "Wed Jul 02 23:41:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "1909 US Silver Barber Dime: Dime is in decent condition.\n\nShipping is first class, US Postal, US onl... http://t.co/SF1JTOKWcH #dogecoin",
+            "created_at": "Wed Jul 02 23:41:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 34,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "One grain of pure gold.: This is one grain of gold. It is tiny.\nThere's about 15.4 grains in one gra... http://t.co/7MQvvCpDno #dogecoin",
+            "created_at": "Wed Jul 02 23:41:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 35,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "1/3 Gram of Pure Gold: 1/3 Gram of pure gold.\n\nShipped first class, US only.\n\nInternational buyers, ... http://t.co/gAejNRzUxC #dogecoin",
+            "created_at": "Wed Jul 02 23:41:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 36,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404344433",
+            "created_at": "Wed Jul 02 23:40:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 37,
             "username": "Alma Chun",
             "user_account": "AlmaChun",
             "text": "Stop listening to posts about the sky falling via /r/dogecoin http://t.co/8HD7jq9TeS",
@@ -51,7 +371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 38,
             "username": "Bitcoin Domain Sales",
             "user_account": "DomainBitcoin",
             "text": "Domain names related to #Bitcoin #Litecoin #Darkcoin #Ripple #Dogecoin #NameCoin are available for sale - http://t.co/Kq145mdduR #domains",
@@ -61,17 +381,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.000217661 USD. Dogecoin has increased by 4.01E-7 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 23:30:09 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 8,
+            "tweet_count": 39,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000037\nCryptsy  0.00000035\nCoins-E 0.00000033\nAverage: $0.000228USD per #dogecoin",
@@ -81,7 +391,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 40,
+            "username": "coinspipe.com",
+            "user_account": "coinspipe",
+            "text": "#bitcoin #dogecoin Extinct No More - Sex and Science Hour Episode 19: http://t.co/pdQH9lbpLg... http://t.co/jywV4vG8eb",
+            "created_at": "Wed Jul 02 23:25:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 41,
+            "username": "coinspipe.com",
+            "user_account": "coinspipe",
+            "text": "#bitcoin #dogecoin Trivial Issuance of a Useful Asset - Beyond Bitcoin Episode 7: http://t.co/JG2vjEWYua... http://t.co/kzG8LwLhue",
+            "created_at": "Wed Jul 02 23:25:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
+            "username": "coinspipe.com",
+            "user_account": "coinspipe",
+            "text": "#bitcoin #dogecoin Mastercoin, 1 Year Later with Ron Gross - Let's Talk Bitcoin Episode 123: http://letstalkbi... http://t.co/YNvC7ZuulP",
+            "created_at": "Wed Jul 02 23:25:01 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 43,
             "username": "Marcy Moyeed",
             "user_account": "MarcyMoyeed",
             "text": "Buy or Rent? And Where to Park Your Down Payment until You Decide? http://t.co/Jzr2uF8WfU #money #dogecoin #bitcoin #news, #love, #phot...",
@@ -91,7 +431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 44,
             "username": "ShibeGoneMissing",
             "user_account": "ShibeGoneMissin",
             "text": "30 Days Price Charts Analysis of #Litecoin #Dogecoin #Reddcoin #Darkcoin #Blackcoin #Vertcoin. Vote #RDD on #MintPal http://t.co/ztN44ZsLdi",
@@ -101,7 +441,207 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 45,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "On Single Moms and Dating Younger Men http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 23:19:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 46,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Femininity in Men Is a Form of Power http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa...",
+            "created_at": "Wed Jul 02 23:19:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 47,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Climate Spoof is All Too Real http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
+            "created_at": "Wed Jul 02 23:19:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 48,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why We Set Off Fireworks On The Fourth Of July http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 23:19:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 49,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Outnumbered: Outlandish, Outdated, Overtly Biased http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 23:19:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 50,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Gross Domestic Problem: Don't Shoot the Measurement http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 23:19:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 51,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - What things can one buy with dogecoin? by jjamer - http://t.co/isqgWxZgRw",
+            "created_at": "Wed Jul 02 23:19:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 52,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Buy buy buy, tip tip tip. by Doge_Buchanan - http://t.co/J7vPBUVH5W",
+            "created_at": "Wed Jul 02 23:19:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 53,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - [VoidSpace] This needs to happen to KICK START our economy. We haven't done anything B... http://t.co/PhDWtAsPae",
+            "created_at": "Wed Jul 02 23:19:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 54,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - value by CaptainPain - http://t.co/iu7m1w30Dp",
+            "created_at": "Wed Jul 02 23:19:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 55,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Looking for DogeCoin Advisor as we implement purchasing and selling on our auction web... http://t.co/YY4skIDKoh",
+            "created_at": "Wed Jul 02 23:19:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Hope for paws by AightM8 - http://t.co/D07omJofvj",
+            "created_at": "Wed Jul 02 23:19:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 57,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Best way to represent Dogecoin support? by legoredlac - http://t.co/CphWYhlVIV",
+            "created_at": "Wed Jul 02 23:19:15 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 58,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Let's do something good the Dogecoin economy. Let's build the most up-to-date Dogecoin... http://t.co/16uvGSTeNB",
+            "created_at": "Wed Jul 02 23:19:14 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 59,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - We are still extremely early adopters. No fear by ricoking - http://t.co/Wg9euEm6t2",
+            "created_at": "Wed Jul 02 23:19:13 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Community Project \"Spread the wealth\" by Southpawm - http://t.co/pobSDfjdfJ",
+            "created_at": "Wed Jul 02 23:19:12 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - What's missing from http://t.co/6qvYjYrmYK? by dogeqrcode - http://t.co/ILM3rtkIaV",
+            "created_at": "Wed Jul 02 23:19:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Following the DOGE/BTC exchange. Here's some positivity for you all! To da moon! by bi... http://t.co/T1kbq2F2RS",
+            "created_at": "Wed Jul 02 23:19:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 63,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "If You're Trying To Prove It, You Don't Believe It http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 23:18:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 64,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "On Single Moms and Dating Younger Men http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 23:15:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 65,
             "username": "Lorena Aly",
             "user_account": "LorenaAly1",
             "text": "Can you tell me why I should continue to accept dogecoin? via /r/dogecoin http://t.co/5V6brBG0ZT",
@@ -111,7 +651,147 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 66,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Femininity in Men Is a Form of Power http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fa...",
+            "created_at": "Wed Jul 02 23:15:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 67,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Climate Spoof is All Too Real http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
+            "created_at": "Wed Jul 02 23:14:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 68,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Why We Set Off Fireworks On The Fourth Of July http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 23:14:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 69,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Outnumbered: Outlandish, Outdated, Overtly Biased http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 23:14:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 70,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Gross Domestic Problem: Don't Shoot the Measurement http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 23:14:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 71,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "If You're Trying To Prove It, You Don't Believe It http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 23:13:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 72,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "11 Things Bridesmaids Would Never Say Aloud http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 23:13:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 73,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What Makes Sunny Isles Beach, Florida Even Better, the 2014 Dodge Charger http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love...",
+            "created_at": "Wed Jul 02 23:13:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 74,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Mobile Boom Is Here: Deliver the Best Experience, No Matter the Device http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #lov...",
+            "created_at": "Wed Jul 02 23:12:55 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 75,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@Caliga much interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Wed Jul 02 23:12:46 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 76,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Apps That (Continue) to Surprise and Delight http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea...",
+            "created_at": "Wed Jul 02 23:12:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 77,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Grand Jury Takes Case Of Robert Lynn Cox, Pastor Accused Of Murder http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #phot...",
+            "created_at": "Wed Jul 02 23:12:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 78,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "My Father Gave Me the Mountains, So I Will Climb Them http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
+            "created_at": "Wed Jul 02 23:11:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 79,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404342633",
+            "created_at": "Wed Jul 02 23:10:34 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 80,
             "username": "Tami Krailo",
             "user_account": "TamiKrailo",
             "text": "25 Pups Exercising Their Freedom To Be Ridiculously Patriotic http://t.co/YF4QQMdLMt #money #dogecoin #bitcoin #news, #love, #photograp...",
@@ -121,7 +801,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 13,
+            "tweet_count": 81,
             "username": "฿ Bitcoin w/♥ ฿",
             "user_account": "bitcoinbase",
             "text": "Cryptocurrency News Round-Up: California Bitcoin Legalisation, Dogecoin … (Press Release by... http://t.co/psizF0btZ5\n #bitcoin #news",
@@ -131,17 +811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
-            "username": "dogecoinprice",
-            "user_account": "dogecoinprice",
-            "text": "$1=4456 #dogecoin, 1 #DOGE = $0.0002 or 35 satoshi ( Coin-E:33 BTER:35 Vircurex:35 Cryptsy:35 ), Coinbase BTC:$650",
-            "created_at": "Wed Jul 02 23:02:12 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 15,
+            "tweet_count": 82,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[04:01 PM PST] 1 #DOGE is worth: \n$0.000228 USD\n฿0.00000035 #BTC\n€0.000167 EUR\n£0.000133 GBP #DogeCoin",
@@ -151,17 +821,87 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.00021726 USD. Dogecoin has decreased by 1.018E-6 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 23:00:17 +0000 2014",
+            "tweet_count": 83,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "11 Things Bridesmaids Would Never Say Aloud http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 23:00:18 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
+            "tweet_count": 84,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Mobile Boom Is Here: Deliver the Best Experience, No Matter the Device http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #lov...",
+            "created_at": "Wed Jul 02 22:59:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 85,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Worth Celebrating This Independence Day: Supreme Court Upholding Search and Seizure Laws http://t.co/aDp889F9Ch #money #dogecoin #bitco...",
+            "created_at": "Wed Jul 02 22:59:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 86,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Apps That (Continue) to Surprise and Delight http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea...",
+            "created_at": "Wed Jul 02 22:59:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 87,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Grand Jury Takes Case Of Robert Lynn Cox, Pastor Accused Of Murder http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #phot...",
+            "created_at": "Wed Jul 02 22:59:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 88,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Redefining Service http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #busines...",
+            "created_at": "Wed Jul 02 22:58:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 89,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Watch Out Cupid! Transhumanism is Going to Change Love http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 22:58:08 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 90,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "U.S. Falls Behind Other Countries That Provide Free Contraception http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 22:58:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 91,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000037\nCryptsy  0.00000035\nCoins-E 0.00000033\nAverage: $0.000227USD per #dogecoin",
@@ -171,7 +911,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
+            "tweet_count": 92,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - c'mon newegg, you know you want to.. by navigatorr - http://t.co/XuoGNTEB6M",
+            "created_at": "Wed Jul 02 22:54:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 93,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - What things can one buy with dogecoin? by jjamer - http://t.co/cJCyx5FGw1",
+            "created_at": "Wed Jul 02 22:54:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 94,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Buy buy buy, tip tip tip. by Doge_Buchanan - http://t.co/r9iYo97sKB",
+            "created_at": "Wed Jul 02 22:54:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 95,
+            "username": "Ðogecoin.link",
+            "user_account": "dogecoinlink",
+            "text": "Dogecoin Athletics - Dogecoin athletic clothing and accessories!  All original  ...  - http://t.co/edUX79sbkD http://t.co/LGH3tGSCwP",
+            "created_at": "Wed Jul 02 22:52:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 96,
             "username": "Pirate News",
             "user_account": "Pirate_News_",
             "text": "DOGE IN DANGER: The Cutest Digital Currency In The World Is In A State Of Crisis -  Yuya Tamai/flickr\nDogecoin was... http://t.co/7WPzx2CYFw",
@@ -181,7 +961,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 97,
             "username": "Daniel Liljeberg",
             "user_account": "danielliljeberg",
             "text": "1 oz Silver Round for #Dogecoin @SuchList  https://t.co/ZVydORvJRL",
@@ -191,7 +971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 98,
             "username": "Daniel Liljeberg",
             "user_account": "danielliljeberg",
             "text": "0.125 Grams of Gold for #Dogecoin @SuchList  https://t.co/AO6OZ8orZ7",
@@ -201,7 +981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 99,
             "username": "Daniel Liljeberg",
             "user_account": "danielliljeberg",
             "text": "1/3 Gram of Pure Gold for #Dogecoin @SuchList https://t.co/vk55RdKq2o",
@@ -211,7 +991,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 100,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Spirit of Independence: How Culture Drives Politics http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
+            "created_at": "Wed Jul 02 22:43:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 101,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Waitress Fired After Complaining About Bad Tips On Facebook http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 22:43:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 102,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Spirit of Independence: How Culture Drives Politics http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
+            "created_at": "Wed Jul 02 22:42:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 103,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Waitress Fired After Complaining About Bad Tips On Facebook http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 22:42:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 104,
             "username": "Esther Mar",
             "user_account": "EstherMar7",
             "text": "Dogecoin Foundation 2.0 Emerges to Stabilise Cryptocurrency Community http://t.co/INSxseDXyf",
@@ -221,7 +1041,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 105,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Drug Policy Reform: The Civil Rights Issue of the 21st Century http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photogra...",
+            "created_at": "Wed Jul 02 22:40:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 106,
             "username": "Pirate News",
             "user_account": "Pirate_News_",
             "text": "DOGE IN DANGER: The Cutest Digital Currency In The World Is In A State Of Crisis -  Yuya Tamai/flickr\nDogecoin was... http://t.co/7WPzx2CYFw",
@@ -231,7 +1061,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 107,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404340833",
+            "created_at": "Wed Jul 02 22:40:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 108,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Stop Looking for Jobs You Don't Really Want http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 22:40:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 109,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "This Is What It Looks Like To Get Dumped By Two Girlfriends At Once http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #pho...",
+            "created_at": "Wed Jul 02 22:40:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 110,
             "username": "🇪🇸Moncholab 🇪🇸 🟥🟥 #Socialismo_o_Libertad💚💚",
             "user_account": "Moncholab",
             "text": "Hacker infects Synology storage devices, makes off with $620,000 in Dogecoin http://t.co/HkFo2vscSw #tech #gadgets #science",
@@ -241,7 +1101,117 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 111,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "To Improve Is to Change; To Be Perfect Is to Change Often http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 22:39:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 112,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Massachusetts Working On Abortion Clinic Buffer Zone Bill Following SCOTUS Decision http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #n...",
+            "created_at": "Wed Jul 02 22:39:52 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 113,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Learn the Secrets of Citrus http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 22:39:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 114,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "5 Great Wedding Shower Gift Ideas http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail ...",
+            "created_at": "Wed Jul 02 22:39:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 115,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "An Interview with Frank Gruber http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
+            "created_at": "Wed Jul 02 22:39:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 116,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "50 Years After the Civil Rights Act of 1964, Are We Yet a Nation of Character? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, ...",
+            "created_at": "Wed Jul 02 22:39:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 117,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Asian Americans and the Civil Rights Act of 1964: Mapping Out the Next 50 Years http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news,...",
+            "created_at": "Wed Jul 02 22:38:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 118,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Magician Makes Gifts Appear Out Of Thin Air For Homeless People And Divulges His Trick http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin...",
+            "created_at": "Wed Jul 02 22:38:53 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 119,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Four Country Democratic Coalition vs. China? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 22:38:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 120,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "USA vs. Belgium World Cup Match Breaks Another Ratings Record http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Wed Jul 02 22:38:47 +0000 2014",
+            "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 121,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Christian Moueix: Representing Himself and Bordeaux with Honesty, Integrity, and Intelligence http://t.co/0VBMTFLrDk #money #dogecoin #...",
+            "created_at": "Wed Jul 02 22:38:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 122,
             "username": "Marva Bolitho",
             "user_account": "MarvaBolitho",
             "text": "Texas Official Says Rick Perry Dresses Like A 'West Coast Metrosexual' http://t.co/q7UTbqkV6O #money #dogecoin #bitcoin #news, #love, #...",
@@ -251,7 +1221,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
+            "tweet_count": 123,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@Jake_Rose4 such interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Wed Jul 02 22:35:11 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 124,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Stop sending emails to Coinbase concerning Dogecoin. The only thing you will accomplish is pissing them off with... http://t.co/i7TmqRuDQi",
+            "created_at": "Wed Jul 02 22:35:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 125,
             "username": "Jake Rose",
             "user_account": "Jake_Rose4",
             "text": "\"RT @highkin: @Jake_Rose4 @ColePatty Swaggy getting paid in Dogecoin”@highkin #FTW",
@@ -261,17 +1251,177 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.000218278 USD. Dogecoin has decreased by 4.809E-6 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 22:30:10 +0000 2014",
+            "tweet_count": 126,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "Mexican Silver Peso 1957-1967: This peso contains 10% of silver. \nI have about hundred of them. Cond... http://t.co/lG1T6sUgtB #dogecoin",
+            "created_at": "Wed Jul 02 22:30:42 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 127,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "1 oz Silver Round  - Buffalo: Generic silver round of pure silver, 1 troy ounce. \n\nRound will be so... http://t.co/kKqzvknn7x #dogecoin",
+            "created_at": "Wed Jul 02 22:30:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 128,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Drug Policy Reform: The Civil Rights Issue of the 21st Century http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photogra...",
+            "created_at": "Wed Jul 02 22:29:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 129,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Stop Looking for Jobs You Don't Really Want http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 22:29:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 130,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "This Is What It Looks Like To Get Dumped By Two Girlfriends At Once http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #pho...",
+            "created_at": "Wed Jul 02 22:29:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 131,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "5 Sleep Tips For Gadget Junkies http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 22:29:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 132,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "To Improve Is to Change; To Be Perfect Is to Change Often http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 22:29:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 133,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Massachusetts Working On Abortion Clinic Buffer Zone Bill Following SCOTUS Decision http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #n...",
+            "created_at": "Wed Jul 02 22:29:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 134,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Learn the Secrets of Citrus http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 22:29:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 135,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "5 Great Wedding Shower Gift Ideas http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail ...",
+            "created_at": "Wed Jul 02 22:29:04 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 136,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "An Interview with Frank Gruber http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jo...",
+            "created_at": "Wed Jul 02 22:29:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 137,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "50 Years After the Civil Rights Act of 1964, Are We Yet a Nation of Character? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, ...",
+            "created_at": "Wed Jul 02 22:29:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 138,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Asian Americans and the Civil Rights Act of 1964: Mapping Out the Next 50 Years http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news,...",
+            "created_at": "Wed Jul 02 22:29:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 139,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Magician Makes Gifts Appear Out Of Thin Air For Homeless People And Divulges His Trick http://t.co/oIIQswXOpC #money #dogecoin #bitcoin...",
+            "created_at": "Wed Jul 02 22:29:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 140,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Four Country Democratic Coalition vs. China? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 22:28:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 141,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "USA vs. Belgium World Cup Match Breaks Another Ratings Record http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Wed Jul 02 22:28:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 142,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Christian Moueix: Representing Himself and Bordeaux with Honesty, Integrity, and Intelligence http://t.co/oIIQswXOpC #money #dogecoin #...",
+            "created_at": "Wed Jul 02 22:28:57 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 143,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000037\nCryptsy  0.00000036\nCoins-E 0.00000033\nAverage: $0.000229USD per #dogecoin",
@@ -281,7 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 29,
+            "tweet_count": 144,
             "username": "mr_digital_coinz",
             "user_account": "mr_digital_coin",
             "text": "@Philikn Nice thought freind, here is a 1000 dogecoin tip for your kind words - claim here -  http://t.co/dtjaTIqYTF",
@@ -291,7 +1441,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 30,
+            "tweet_count": 145,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "Dogecoin vendors at Miami supercon http://t.co/UMakzXSvoq",
@@ -301,7 +1451,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 31,
+            "tweet_count": 146,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "Stop sending emails to Coinbase concerning Dogecoin. The only thing you will accomplish is pissing them off with… http://t.co/ETT05dsepf",
@@ -311,7 +1461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 32,
+            "tweet_count": 147,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[03:16 PM PST] 1 #DOGE is worth: \n$0.000231 USD\n฿0.00000036 #BTC\n€0.000169 EUR\n£0.000134 GBP #DogeCoin",
@@ -321,7 +1471,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 148,
             "username": "BitcoinBitch",
             "user_account": "Tip2Luck",
             "text": "@tipdoge tip @savethemhood 521 Doge ...oh sorry seems \"all doge\"-command was not supported, but now. #dogecoin #bitcoin #help #poorshibes",
@@ -331,7 +1481,187 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
+            "tweet_count": 149,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "An Open Heart, an Open Mind to Meditation http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
+            "created_at": "Wed Jul 02 22:12:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 150,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Someone Spray Painted Pigs Then Stole A Tortoise From A Maryland Petting Farm http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #...",
+            "created_at": "Wed Jul 02 22:12:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 151,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Conversations on Writing: Interview with Award-Winning Young Adult Author Cindy Pon, Part 2 http://t.co/0VBMTFLrDk #money #dogecoin #bi...",
+            "created_at": "Wed Jul 02 22:12:21 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 152,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Hobby Lobby, 1 - Women, 0 http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
+            "created_at": "Wed Jul 02 22:12:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 153,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Montel Williams Condemns Congress For Neglect Of Veterans' Issues (VIDEO) http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love...",
+            "created_at": "Wed Jul 02 22:12:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 154,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Pill By Any Other Name... http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 22:12:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 155,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Your Perfect Cali Road Trip: San Francisco to Monterey http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 22:12:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 156,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "70 Cities You Can Visit on the Cheap If You Know When to Go http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 22:12:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 157,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Future of Work: Can We Make Work Better? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea...",
+            "created_at": "Wed Jul 02 22:12:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 158,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Young People Helped Found This Country, It's Time for Us to Step Up and Lead Again http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #ne...",
+            "created_at": "Wed Jul 02 22:12:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 159,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "11 Things I Want My Son to Know About Marriage http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 22:12:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 160,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404339033",
+            "created_at": "Wed Jul 02 22:10:34 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 161,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "An Open Heart, an Open Mind to Meditation http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
+            "created_at": "Wed Jul 02 22:10:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 162,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Someone Spray Painted Pigs Then Stole A Tortoise From A Maryland Petting Farm http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #...",
+            "created_at": "Wed Jul 02 22:10:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 163,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Conversations on Writing: Interview with Award-Winning Young Adult Author Cindy Pon, Part 2 http://t.co/oIIQswXOpC #money #dogecoin #bi...",
+            "created_at": "Wed Jul 02 22:10:08 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 164,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Montel Williams Condemns Congress For Neglect Of Veterans' Issues (VIDEO) http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love...",
+            "created_at": "Wed Jul 02 22:10:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 165,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Pill By Any Other Name... http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 22:10:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 166,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Your Perfect Cali Road Trip: San Francisco to Monterey http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 22:10:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 167,
             "username": "Ben King",
             "user_account": "Grimeandreason",
             "text": "@CryptoDeals .. and that's how the shibes feel. It's not all about the money dude. I respect that. #dogecoin",
@@ -341,7 +1671,67 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 35,
+            "tweet_count": 168,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "70 Cities You Can Visit on the Cheap If You Know When to Go http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 22:10:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 169,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Future of Work: Can We Make Work Better? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #hea...",
+            "created_at": "Wed Jul 02 22:10:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 170,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Cameron Diaz Says She's Completely Happy With Her Choice To Be Childfree http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love,...",
+            "created_at": "Wed Jul 02 22:10:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 171,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Young People Helped Found This Country, It's Time for Us to Step Up and Lead Again http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #ne...",
+            "created_at": "Wed Jul 02 22:10:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 172,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "11 Things I Want My Son to Know About Marriage http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 22:10:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 173,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@CryptoDeals amaze! you love dogecoin - take some coins! @tipdoge tip 100",
+            "created_at": "Wed Jul 02 22:08:22 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 174,
             "username": "฿atman",
             "user_account": "CryptoBatman",
             "text": "@Grimeandreason there is a big difference between #potcoin and #dogecoin. if by mint you mean several satoshi a day, have fun.",
@@ -351,7 +1741,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 175,
             "username": "Fintech Prowler",
             "user_account": "FintechProwler",
             "text": "Meme-based Cryptocurrency Dogecoin Gets Serious - Payment Week http://t.co/qGwmyPDc8s #cryptocurrency",
@@ -361,17 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 37,
-            "username": "dogecoinprice",
-            "user_account": "dogecoinprice",
-            "text": "$1=4428 #dogecoin, 1 #DOGE = $0.0002 or 35 satoshi ( Coin-E:33 BTER:36 Vircurex:35 Cryptsy:35 ), Coinbase BTC:$650",
-            "created_at": "Wed Jul 02 22:02:11 +0000 2014",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 38,
+            "tweet_count": 176,
             "username": "Martha Kang",
             "user_account": "Martha_Kang",
             "text": "Also,TIL Dogecoin (mentioned here: http://t.co/djS1lQXIRA)  = \"open source peer-to-peer digital currency, favored by Shiba Inus worldwide\"",
@@ -381,17 +1761,67 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 39,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.000223087 USD. Dogecoin has increased by 6.167E-6 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 22:00:12 +0000 2014",
+            "tweet_count": 177,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Dogecoin for money order by ericools - http://t.co/9AaaezZouJ",
+            "created_at": "Wed Jul 02 21:57:30 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 40,
+            "tweet_count": 178,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Buy stuff with dogecoin when the price is higher or lower? by ErnetoviskDOGE - http://t.co/3M4EXJIkR9",
+            "created_at": "Wed Jul 02 21:57:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 179,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Following up to my last post by MrFukinMan - http://t.co/jwmtSaYjX2",
+            "created_at": "Wed Jul 02 21:57:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 180,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - daytona meet-up feat. josh wise! by matt90679 - http://t.co/seuL43xU1P",
+            "created_at": "Wed Jul 02 21:57:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 181,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - I need help setting up the GAWMiner Fury on Ubuntu 12.04 (Linux) by CptOrtan - http://t.co/dYuOj8Iloi",
+            "created_at": "Wed Jul 02 21:57:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 182,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Ok, this is f@#$%^g awesome! by 6_ft_4 - http://t.co/ShAVoAbYtF",
+            "created_at": "Wed Jul 02 21:57:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 183,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000038\nCryptsy  0.00000036\nCoins-E 0.00000033\nAverage: $0.000231USD per #dogecoin",
@@ -401,7 +1831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 41,
+            "tweet_count": 184,
             "username": "Dantes News",
             "user_account": "DantesNews",
             "text": "That moment when you realize just how big our community is. By RappaShibe http://t.co/D6oX2MNB09 #Dogecoin",
@@ -411,7 +1841,387 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 185,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "4-Year-Old Singing With Her Dad Is The Epitome Of Cute http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 21:54:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 186,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Contraception: A Big Ape Ruling http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 21:54:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 187,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "HUFFPOLLSTER: What Happens When You Ask Americans To Name The Worst President http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #...",
+            "created_at": "Wed Jul 02 21:54:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 188,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Memory Is Everything -- Until You Lose It http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
+            "created_at": "Wed Jul 02 21:54:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 189,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "In Heartland and Beyond, Businesses Get It: Not Cutting Carbon Pollution Is Risky Business http://t.co/oIIQswXOpC #money #dogecoin #bit...",
+            "created_at": "Wed Jul 02 21:54:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 190,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Bowe Bergdahl Venturing Into Public, U.S. Army Says http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:54:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 191,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "It's Alive! The Supreme Court as Dr. Frankenstein http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:54:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 192,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Secret Lives of Doctors http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 21:54:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 193,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Why PepsiCo CEO Indra K. Nooyi Can't Have It All http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
+            "created_at": "Wed Jul 02 21:54:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 194,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Why Tiny Barbados Is Beating Us on the Road to Green Energy http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 21:54:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 195,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "George Ryan Says He Regrets Allowing Illinois' Last Execution http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Wed Jul 02 21:54:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 196,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Beyonce and Jay-Z Are Perfectly Imperfect in 'On The Run' http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 21:54:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Want To Save An Orphan's Life? Throw A Dinner Party http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:54:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 198,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "4-Year-Old Singing With Her Dad Is The Epitome Of Cute http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 21:54:00 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 199,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Contraception: A Big Ape Ruling http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 21:53:59 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 200,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "HUFFPOLLSTER: What Happens When You Ask Americans To Name The Worst President http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #...",
+            "created_at": "Wed Jul 02 21:53:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 201,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Memory Is Everything -- Until You Lose It http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
+            "created_at": "Wed Jul 02 21:53:58 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 202,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "In Heartland and Beyond, Businesses Get It: Not Cutting Carbon Pollution Is Risky Business http://t.co/0VBMTFLrDk #money #dogecoin #bit...",
+            "created_at": "Wed Jul 02 21:53:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 203,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Let's get Coinbase to accept doge! by abalest just recieved TOP status on /r/dogecoin! http://t.co/0hmykSrPvh",
+            "created_at": "Wed Jul 02 21:53:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 204,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "This is how the varoius bots at r/dogecoin looks like! by cuddaloreappu just recieved TOP status on /r/dogecoin! http://t.co/o9OWVh7TGS",
+            "created_at": "Wed Jul 02 21:53:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 205,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "What success looks like! by Halio1984 just recieved TOP status on /r/dogecoin! http://t.co/y64EdTVrsi",
+            "created_at": "Wed Jul 02 21:53:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 206,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Somebody turned down my tip.... by DRKMSTR just recieved TOP status on /r/dogecoin! http://t.co/6irMXUwBpE",
+            "created_at": "Wed Jul 02 21:53:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 207,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Bowe Bergdahl Venturing Into Public, U.S. Army Says http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:53:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 208,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "It's Alive! The Supreme Court as Dr. Frankenstein http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:53:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 209,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Secret Lives of Doctors http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 21:53:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 210,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why PepsiCo CEO Indra K. Nooyi Can't Have It All http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, ...",
+            "created_at": "Wed Jul 02 21:53:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 211,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why Tiny Barbados Is Beating Us on the Road to Green Energy http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 21:53:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 212,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "George Ryan Says He Regrets Allowing Illinois' Last Execution http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Wed Jul 02 21:53:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 213,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Beyonce and Jay-Z Are Perfectly Imperfect in 'On The Run' http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 21:53:25 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 214,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Want To Save An Orphan's Life? Throw A Dinner Party http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:53:25 +0000 2014",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 215,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "At Valley Forge, 'Cadets' Earn Complete Education http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:47:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 216,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Iraq and the Freedom Deficit in Islam http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 21:47:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 217,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "South African Businessman Swims Necker Island for a Cause http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 21:47:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 218,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "#RamadanReads: A Book Buying Revolution http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
+            "created_at": "Wed Jul 02 21:47:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 219,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "7 Tips for Whitewater Rafting http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
+            "created_at": "Wed Jul 02 21:47:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 220,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Future of Soccer in the US http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, ...",
+            "created_at": "Wed Jul 02 21:47:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 221,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Free Exercise of Religion for Whom? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
+            "created_at": "Wed Jul 02 21:46:57 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 222,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Washington Post Gears Up For 2014, 2016 Elections http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:46:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 223,
             "username": "Ben King",
             "user_account": "Grimeandreason",
             "text": "Or you can go on enjoying the community you've built and pity those who only see crypto as money. Your choice shibes #dogecoin @CryptoDeals",
@@ -421,7 +2231,77 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 224,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Mitt Romney Insists He Won't Be A Candidate In 2016 http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:46:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 225,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Full-Frontal Comedy in Aspen http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs...",
+            "created_at": "Wed Jul 02 21:46:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 226,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Only Popcorn You'll Ever Want to Eat Again http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 21:46:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 227,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Recruiting Bob McDonald. Why? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
+            "created_at": "Wed Jul 02 21:46:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 228,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Watch These Good People Stand Up To A Woman Delivering Horrific Racist Tirade On A Train http://t.co/0VBMTFLrDk #money #dogecoin #bitco...",
+            "created_at": "Wed Jul 02 21:46:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 229,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Groom's Awesome Reaction To His Bride Is True Love Defined http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 21:46:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 230,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "4th of July Food, World Cup Edition: Steak 'Shoulder Bites' With Chimichurri http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #l...",
+            "created_at": "Wed Jul 02 21:46:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 231,
             "username": "Steven Yuan 🎈",
             "user_account": "stevenleeyuan",
             "text": "@tipdoge tip @seasaltsummer 10000 dogecoin // rags to riche$$$",
@@ -431,7 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 232,
             "username": "iGGY",
             "user_account": "windycityiggy",
             "text": "So, just opened up @VeriCoin wallet. Anybody wanna help give me a head start? Very intrigued! #cryptcoin #vericoin #dogecoin",
@@ -441,7 +2321,167 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 45,
+            "tweet_count": 233,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "At Valley Forge, 'Cadets' Earn Complete Education http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:42:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 234,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Iraq and the Freedom Deficit in Islam http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 21:41:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 235,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "South African Businessman Swims Necker Island for a Cause http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 21:41:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 236,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "#RamadanReads: A Book Buying Revolution http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
+            "created_at": "Wed Jul 02 21:41:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 237,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "7 Tips for Whitewater Rafting http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
+            "created_at": "Wed Jul 02 21:41:31 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 238,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Future of Soccer in the US http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, ...",
+            "created_at": "Wed Jul 02 21:41:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 239,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Free Exercise of Religion for Whom? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, ...",
+            "created_at": "Wed Jul 02 21:41:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 240,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Washington Post Gears Up For 2014, 2016 Elections http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:40:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 241,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Mitt Romney Insists He Won't Be A Candidate In 2016 http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:40:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 242,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404337233",
+            "created_at": "Wed Jul 02 21:40:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 243,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Full-Frontal Comedy in Aspen http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs...",
+            "created_at": "Wed Jul 02 21:40:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 244,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Recruiting Bob McDonald. Why? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #job...",
+            "created_at": "Wed Jul 02 21:40:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 245,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Watch These Good People Stand Up To A Woman Delivering Horrific Racist Tirade On A Train http://t.co/oIIQswXOpC #money #dogecoin #bitco...",
+            "created_at": "Wed Jul 02 21:40:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 246,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Groom's Awesome Reaction To His Bride Is True Love Defined http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 21:40:28 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 247,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "4th of July Food, World Cup Edition: Steak 'Shoulder Bites' With Chimichurri http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #l...",
+            "created_at": "Wed Jul 02 21:40:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 248,
+            "username": "Start Using Doge",
+            "user_account": "StartUsingDoge",
+            "text": "@MySpeedBio many interest in dogecoin - here have some coins @tipdoge tip 100",
+            "created_at": "Wed Jul 02 21:36:15 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 249,
             "username": "FastMiner",
             "user_account": "FastMiner_org",
             "text": "Check out Overclocked Ready! FURY 1.3 MH/S+ ASIC SCRYPT MINER Litecoin, Doge  http://t.co/bNK3jsg7Jj @eBay #litecoin #dogecoin #bitcoin",
@@ -451,7 +2491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 46,
+            "tweet_count": 250,
             "username": "฿ Bitcoin w/♥ ฿",
             "user_account": "bitcoinbase",
             "text": "The Dogecoin NASCAR had some problems in Sonoma (Press Release by Washington Post (blog)  http://t.co/pndcK6BJPv\n #bitcoin #news",
@@ -461,7 +2501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 47,
+            "tweet_count": 251,
             "username": "Tru",
             "user_account": "truthbytru",
             "text": "#MaydayPAC now accepts #bitcoin | #dogecoin #crypto | Geeks unite and use your newfound riches to change the world (or at least US policy!",
@@ -471,7 +2511,57 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 48,
+            "tweet_count": 252,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Scott Cowen May Be Leaving Tulane, but His Legacy Will Be Felt for Years to Come http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news...",
+            "created_at": "Wed Jul 02 21:33:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 253,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "4th of July Tone-Up Plan: Day 4 http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 21:33:01 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 254,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "I Am American http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #s...",
+            "created_at": "Wed Jul 02 21:31:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 255,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "10 Motivating Quotes to Pursue What You Want... Now http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:31:39 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 256,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Thad Cochran Press Call Turns Into Disaster After Caller Asks About 'Harvested' Black Votes http://t.co/0VBMTFLrDk #money #dogecoin #bi...",
+            "created_at": "Wed Jul 02 21:31:25 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 257,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[02:31 PM PST] 1 #DOGE is worth: \n$0.000228 USD\n฿0.00000035 #BTC\n€0.000167 EUR\n£0.000133 GBP #DogeCoin",
@@ -481,17 +2571,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.00021692 USD. Dogecoin has decreased by 3.39E-7 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 21:30:09 +0000 2014",
-            "retweet": 1,
+            "tweet_count": 258,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "HUFFPOST HILL - Americans To Celebrate U.S.'s Independence From Belgium http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, ...",
+            "created_at": "Wed Jul 02 21:31:11 +0000 2014",
+            "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 259,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "VidCon 2014- The Year Big Networks And Brands Said Yes To YouTube http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 21:30:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 260,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Council Districts Rallying to Form Community Advisory Councils by July Deadline http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news,...",
+            "created_at": "Wed Jul 02 21:30:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 261,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "Meme-based Cryptocurrency Dogecoin Gets Serious – Payment Week http://t.co/hMCsAxBQDM",
@@ -501,7 +2611,67 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 262,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Scott Cowen May Be Leaving Tulane, but His Legacy Will Be Felt for Years to Come http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news...",
+            "created_at": "Wed Jul 02 21:29:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 263,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "4th of July Tone-Up Plan: Day 4 http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 21:29:31 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 264,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Civil Rights Act at 50: A Conversation with Rep. John Conyers http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 21:29:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 265,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Knowing What to Eat, Refusing to Swallow It http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 21:29:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 266,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Occupy Wall Street Activist Cecily McMillan Charges 'Medical Malpractice' In Rikers Death http://t.co/0VBMTFLrDk #money #dogecoin #bitc...",
+            "created_at": "Wed Jul 02 21:28:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 267,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Buzz About Bees, Climate Change and Your Garden http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:28:52 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 268,
             "username": "World Crypto Network",
             "user_account": "WorldCryptoNet",
             "text": "The Bitcoin Group #36 -- Dogecoin Founder Quits -- Canada Law -- US Silk Road Bitcoin Sale: http://t.co/EeTtQeIHUD via @YouTube",
@@ -511,7 +2681,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
+            "tweet_count": 269,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "I Am American http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business, #s...",
+            "created_at": "Wed Jul 02 21:27:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 270,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "10 Motivating Quotes to Pursue What You Want... Now http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:27:57 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 271,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Thad Cochran Press Call Turns Into Disaster After Caller Asks About 'Harvested' Black Votes http://t.co/oIIQswXOpC #money #dogecoin #bi...",
+            "created_at": "Wed Jul 02 21:27:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 272,
             "username": "AltCoin Watch",
             "user_account": "CryptoNewsBot",
             "text": "Meme-based Cryptocurrency Dogecoin Gets Serious - Payment Week http://t.co/56vlYDDRwH #AltCoin",
@@ -521,7 +2721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 53,
+            "tweet_count": 273,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000038\nCryptsy  0.00000035\nCoins-E 0.00000033\nAverage: $0.000228USD per #dogecoin",
@@ -531,7 +2731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
+            "tweet_count": 274,
             "username": "Marcy Fries",
             "user_account": "MarcyFries1",
             "text": "The Mindfulness Backlash http://t.co/UD9JnDe3UF #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #b...",
@@ -541,7 +2741,147 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 55,
+            "tweet_count": 275,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "HUFFPOST HILL - Americans To Celebrate U.S.'s Independence From Belgium http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, ...",
+            "created_at": "Wed Jul 02 21:27:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 276,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "VidCon 2014- The Year Big Networks And Brands Said Yes To YouTube http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 21:26:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 277,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Council Districts Rallying to Form Community Advisory Councils by July Deadline http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news,...",
+            "created_at": "Wed Jul 02 21:26:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 278,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Be Fearful When Others Are Greedy and Greedy When Others Are Fearful by dogeeric - http://t.co/wD5Wx4jyHv",
+            "created_at": "Wed Jul 02 21:26:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 279,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - The moon is lonely by cdeverett - http://t.co/poUUAz2U3C",
+            "created_at": "Wed Jul 02 21:26:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 280,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Dogecoin Mentioned in the Washington Post by xtremescienz - http://t.co/KI7PBCa3y3",
+            "created_at": "Wed Jul 02 21:26:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 281,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - I'm 19 years old, invested 2000€ in dogecoin, i maybe should be worried by the price g... http://t.co/zl5HAGAb1O",
+            "created_at": "Wed Jul 02 21:25:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 282,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - help! by Unlucky_Narwhal - http://t.co/P1JoxZ6R1K",
+            "created_at": "Wed Jul 02 21:25:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 283,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - New Doge'r by Francais_Louisiana - http://t.co/ru3QQoQyn8",
+            "created_at": "Wed Jul 02 21:25:57 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 284,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "No Cheers for Trophy Hunting http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs...",
+            "created_at": "Wed Jul 02 21:25:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 285,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Civil Rights Act at 50: A Conversation with Rep. John Conyers http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 21:24:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 286,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Knowing What to Eat, Refusing to Swallow It http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 21:24:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 287,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Occupy Wall Street Activist Cecily McMillan Charges 'Medical Malpractice' In Rikers Death http://t.co/oIIQswXOpC #money #dogecoin #bitc...",
+            "created_at": "Wed Jul 02 21:24:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 288,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Buzz About Bees, Climate Change and Your Garden http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashio...",
+            "created_at": "Wed Jul 02 21:24:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 289,
             "username": "฿ Bitcoin w/♥ ฿",
             "user_account": "bitcoinbase",
             "text": "How to mine three popular digital currencies: Bitcoin, Litecoin, and the hot new Dogecoin ฿ http://t.co/2P7LxkrGLM  #bitcoinmining #bitcoin",
@@ -551,7 +2891,117 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 56,
+            "tweet_count": 290,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "Ruby On Rails tutor: I have been developing with ruby on rails for 3 years and am willing to tutor y... http://t.co/gtjrzCwqCt #dogecoin",
+            "created_at": "Wed Jul 02 21:18:16 +0000 2014",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 291,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "50 Years After the Civil Rights Act, Our Journey Continues http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 21:17:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 292,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Bringing Truth Back Into the Academic World http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 21:17:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 293,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why 'Love You' Isn't Good Enough http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
+            "created_at": "Wed Jul 02 21:17:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 294,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "China's 'Good Cop, Bad Cop' Strategy Toward Japan http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:17:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 295,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "University Of Utah Tweaks Fight Song Called Sexist http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 21:17:25 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 296,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Border Crisis Linked to Bishops' Crusade Against Contraception http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photogra...",
+            "created_at": "Wed Jul 02 21:17:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 297,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "A Hard Day's Night: From Loophole to Surprise Hit http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:17:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 298,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "What Does 'Put God First' Really Mean? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 21:17:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 299,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Where Is This Generation's Clair Huxtable? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #healt...",
+            "created_at": "Wed Jul 02 21:17:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 300,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "We Need to Set Lower Standards for Positive Body Image http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 21:17:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 301,
             "username": "A-typicalsouthernbel",
             "user_account": "mousemac82",
             "text": "much love thank you hope you have an awesome evening  Share the love @Vegas @redbull @adidasoriginals @HTMLCOIN @@BitPay @dogecoin you rock",
@@ -561,7 +3011,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 57,
+            "tweet_count": 302,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Will Offshore Wind Pick up the Speed? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 21:17:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 303,
             "username": "฿atman",
             "user_account": "CryptoBatman",
             "text": "if you're one of the delusional #reddit losers still holding #dogecoin then you should wake up and cut your losses or get out of #crypto",
@@ -571,7 +3031,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 58,
+            "tweet_count": 304,
             "username": "Colin Ake",
             "user_account": "colinake",
             "text": "@negativereturn Dogecoin, but close enough.",
@@ -581,17 +3041,197 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
-            "username": "dogecoinprice",
-            "user_account": "dogecoinprice",
-            "text": "$1=4433 #dogecoin, 1 #DOGE = $0.0002 or 35 satoshi ( Coin-E:33 BTER:36 Vircurex:35 Cryptsy:35 ), Coinbase BTC:$649",
-            "created_at": "Wed Jul 02 21:02:12 +0000 2014",
+            "tweet_count": 305,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "50 Years After the Civil Rights Act, Our Journey Continues http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 21:12:56 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 60,
+            "tweet_count": 306,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Bringing Truth Back Into the Academic World http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 21:12:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 307,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Why 'Love You' Isn't Good Enough http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #...",
+            "created_at": "Wed Jul 02 21:12:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 308,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "China's 'Good Cop, Bad Cop' Strategy Toward Japan http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:12:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 309,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "University Of Utah Tweaks Fight Song Called Sexist http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 21:12:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 310,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Border Crisis Linked to Bishops' Crusade Against Contraception http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photogra...",
+            "created_at": "Wed Jul 02 21:12:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 311,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "A Hard Day's Night: From Loophole to Surprise Hit http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 21:12:37 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 312,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What Does 'Put God First' Really Mean? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 21:12:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 313,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Where Is This Generation's Clair Huxtable? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #healt...",
+            "created_at": "Wed Jul 02 21:12:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 314,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "We Need to Set Lower Standards for Positive Body Image http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fas...",
+            "created_at": "Wed Jul 02 21:12:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 315,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Will Offshore Wind Pick up the Speed? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 21:12:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 316,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404335433",
+            "created_at": "Wed Jul 02 21:10:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 317,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Doge T-Shirt Design - What do you think? by betty_themoose - http://t.co/c0n8J2K3Hj",
+            "created_at": "Wed Jul 02 21:04:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 318,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - FUD and understanding concern. by ShibeTyler - http://t.co/BfHclE6KFz",
+            "created_at": "Wed Jul 02 21:04:21 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 319,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - about dogetipbot by that_c00l_kid - http://t.co/lJsBLaQUgD",
+            "created_at": "Wed Jul 02 21:04:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 320,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - [Shibe Tribe] My Thoughts on Doge Prices by ChangeChannel - http://t.co/XceTIm3NNP",
+            "created_at": "Wed Jul 02 21:04:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 321,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - [Giveaway] Cryptiv and Youtube by currency4world - http://t.co/zLDvULd5cH",
+            "created_at": "Wed Jul 02 21:04:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 322,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Put the shibe back in tipping dogecoin (ban all autotipping bots) by xarom - http://t.co/8c8Co7s2hr",
+            "created_at": "Wed Jul 02 21:04:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 323,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - As Dogecoin value drops I keep my optimism to the moon by DrJerryrigger - http://t.co/nPa3JvKyQg",
+            "created_at": "Wed Jul 02 21:04:12 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 324,
             "username": "Joey Trend",
             "user_account": "joeytrend",
             "text": "yeah #bitcoin and #dogecoin....... http://t.co/diVlj6O2WU",
@@ -601,17 +3241,217 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.000217259 USD. Dogecoin has decreased by 8.141E-6 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 21:00:12 +0000 2014",
+            "tweet_count": 325,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Modern Day Parenting in Crisis: A British Nanny Explains 5 Reasons Why http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #...",
+            "created_at": "Wed Jul 02 21:00:25 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 326,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Stalling on Salt http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business,...",
+            "created_at": "Wed Jul 02 21:00:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 327,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Cheney's Campaign for Iraq War 3: Shaping the Narrative http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
+            "created_at": "Wed Jul 02 21:00:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 328,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Congressional Hopeful McCline: \"Hastings Is on His Heels\" http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 21:00:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 329,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Life Lessons Through Rock Music http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 20:59:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 330,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "93 Public College Presidents Make More Than President Obama http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 20:59:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 331,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Modern Day Parenting in Crisis: A British Nanny Explains 5 Reasons Why http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #...",
+            "created_at": "Wed Jul 02 20:59:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 332,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Stalling on Salt http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #business,...",
+            "created_at": "Wed Jul 02 20:59:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 333,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Cheney's Campaign for Iraq War 3: Shaping the Narrative http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fa...",
+            "created_at": "Wed Jul 02 20:59:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 334,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Congressional Hopeful McCline: \"Hastings Is on His Heels\" http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#...",
+            "created_at": "Wed Jul 02 20:59:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 335,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Life Lessons Through Rock Music http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #j...",
+            "created_at": "Wed Jul 02 20:59:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 336,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "93 Public College Presidents Make More Than President Obama http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 20:59:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 337,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Over 300 Organizations Write to House Majority Leadership Urging Immigration Reform http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #n...",
+            "created_at": "Wed Jul 02 20:59:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 338,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Same Play, Different Day http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #b...",
+            "created_at": "Wed Jul 02 20:59:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 339,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Groups Want To See Montana Judge's Racist Obama Email http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
+            "created_at": "Wed Jul 02 20:59:41 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 340,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Is Netflix Damaging Its Own Shows? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail...",
+            "created_at": "Wed Jul 02 20:59:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 341,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Schools Should Be Safe Havens and Places of Learning Not Theaters of War http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love,...",
+            "created_at": "Wed Jul 02 20:59:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 342,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Radically Queer Islam: An Interview with the Cast of Coming Out Muslim http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #...",
+            "created_at": "Wed Jul 02 20:59:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 343,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Congress must act to bolster Voting Rights Act http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 20:59:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 344,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Independence Day - a Celebration of Liberty and Justice for All? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photog...",
+            "created_at": "Wed Jul 02 20:59:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 345,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Meet Dia Simms... A Music Executive and Mom at the Top of Her Game http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #phot...",
+            "created_at": "Wed Jul 02 20:59:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 346,
             "username": "Follow The Coin",
             "user_account": "FollowTheCoin",
             "text": "@dennisc111 @dogecoin @expresscoin not anymore!",
@@ -621,7 +3461,97 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 347,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Over 300 Organizations Write to House Majority Leadership Urging Immigration Reform http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #n...",
+            "created_at": "Wed Jul 02 20:59:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 348,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Same Play, Different Day http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #b...",
+            "created_at": "Wed Jul 02 20:59:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 349,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Groups Want To See Montana Judge's Racist Obama Email http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
+            "created_at": "Wed Jul 02 20:59:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 350,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Is Netflix Damaging Its Own Shows? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail...",
+            "created_at": "Wed Jul 02 20:58:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 351,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Schools Should Be Safe Havens and Places of Learning Not Theaters of War http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love,...",
+            "created_at": "Wed Jul 02 20:58:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 352,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Radically Queer Islam: An Interview with the Cast of Coming Out Muslim http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #...",
+            "created_at": "Wed Jul 02 20:58:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 353,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Congress must act to bolster Voting Rights Act http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 20:58:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 354,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Independence Day - a Celebration of Liberty and Justice for All? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photog...",
+            "created_at": "Wed Jul 02 20:58:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 355,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Meet Dia Simms... A Music Executive and Mom at the Top of Her Game http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #phot...",
+            "created_at": "Wed Jul 02 20:58:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 356,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000038\nCryptsy  0.00000035\nCoins-E 0.00000033\nAverage: $0.000229USD per #dogecoin",
@@ -631,7 +3561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 357,
             "username": "BITCOINREGIME.COM",
             "user_account": "coinregime",
             "text": "Who wants a Dogecoin mug? http://t.co/VoLDNTZbsc",
@@ -641,7 +3571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 358,
             "username": "฿ Bitcoin w/♥ ฿",
             "user_account": "bitcoinbase",
             "text": "Dogecoin Takes a Dive as Creator Calls Cryptocurrency’s Community ‘Cult-Like’ (Press Release... http://t.co/hCk0I84VDr\n #bitcoin #news",
@@ -651,7 +3581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 359,
             "username": "Justin Stone-Diaz",
             "user_account": "jstonediaz",
             "text": "@tipdoge tip @DJHarrison20 100 #dogeCoin for being an awesome @twitch #Gentlemaner @James_Paine",
@@ -661,7 +3591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 360,
             "username": "DOGE Value/News",
             "user_account": "DogecoinBot",
             "text": "[01:46 PM PST] 1 #DOGE is worth: \n$0.000233 USD\n฿0.00000036 #BTC\n€0.000170 EUR\n£0.000136 GBP #DogeCoin",
@@ -671,7 +3601,207 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 361,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Understanding Forgiveness with Autism http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 20:44:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 362,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "How to Avoid Unnecessary Drama in Your Life http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 20:44:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 363,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Community Engagement and Higher Education http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
+            "created_at": "Wed Jul 02 20:44:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 364,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "For-Profit Prison Corporations Are at It Again http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 20:44:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 365,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Christian Singers Sue Katy Perry Over 'Dark Horse' http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 20:43:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 366,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "These Male Volunteers Reveal What It's Really Like Outside Abortion Clinics http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #lo...",
+            "created_at": "Wed Jul 02 20:43:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 367,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Boomer Psychology 101: F*cking Up! http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail...",
+            "created_at": "Wed Jul 02 20:43:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 368,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Teacher Claims School Musical Axed Due To Same-Sex Wedding http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 20:43:55 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 369,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Last Thursday, Uncensored http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
+            "created_at": "Wed Jul 02 20:43:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 370,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "You Can't Love the Planet if You're Not Outside Enjoying It http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography...",
+            "created_at": "Wed Jul 02 20:43:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 371,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Understanding Forgiveness with Autism http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #f...",
+            "created_at": "Wed Jul 02 20:43:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 372,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "How to Avoid Unnecessary Drama in Your Life http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #heal...",
+            "created_at": "Wed Jul 02 20:43:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 373,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Community Engagement and Higher Education http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health...",
+            "created_at": "Wed Jul 02 20:43:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 374,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "For-Profit Prison Corporations Are at It Again http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #h...",
+            "created_at": "Wed Jul 02 20:43:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 375,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Christian Singers Sue Katy Perry Over 'Dark Horse' http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 20:43:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 376,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "These Male Volunteers Reveal What It's Really Like Outside Abortion Clinics http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #lo...",
+            "created_at": "Wed Jul 02 20:43:46 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 377,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Best of America: 9 Reasons to Love California http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #he...",
+            "created_at": "Wed Jul 02 20:43:45 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 378,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Boomer Psychology 101: F*cking Up! http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail...",
+            "created_at": "Wed Jul 02 20:43:44 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 379,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Teacher Claims School Musical Axed Due To Same-Sex Wedding http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 20:43:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 380,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Last Thursday, Uncensored http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs, #...",
+            "created_at": "Wed Jul 02 20:43:42 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 381,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000038\nCryptsy  0.00000035\nCoins-E 0.00000033\nAverage: $0.000231USD per #dogecoin",
@@ -681,7 +3811,237 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 382,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Are you a poor Shibe? Check out http://t.co/sfLUrfP0qS by Iamfullyshibe - http://t.co/8ZJYrIwNWx",
+            "created_at": "Wed Jul 02 20:41:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 383,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Shibes, I am building a moon rocket so I can go fast. I promise I know what I'm doing.... http://t.co/87oia0NqX4",
+            "created_at": "Wed Jul 02 20:41:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 384,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Dogecoin vendors at Miami supercon by ekmeh - http://t.co/OL7jSHafkC",
+            "created_at": "Wed Jul 02 20:41:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 385,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Friendly advice by dogedoggerton - http://t.co/9ZKZ5Y8Na5",
+            "created_at": "Wed Jul 02 20:41:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 386,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - [Giveaway] Because I love Shibes by TheLobstrosity - http://t.co/y6wLcRIYOq",
+            "created_at": "Wed Jul 02 20:41:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 387,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - one little bump and shibies are jumping the rocket?! by dbreidsbmw - http://t.co/qORiTVKuZg",
+            "created_at": "Wed Jul 02 20:41:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 388,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Tim Draper also investing in Dogecoin? by rotzoll - http://t.co/RlIMW9VTjb",
+            "created_at": "Wed Jul 02 20:41:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 389,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - The community here is starting to dull down a bit because of all these controversies. ... http://t.co/VUXJkovDbO",
+            "created_at": "Wed Jul 02 20:40:59 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 390,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Dogemining doesn't want to approve me, so I'll try the \"real\" shibes ;) by poolparty_io - http://t.co/e0ZOUfXkgo",
+            "created_at": "Wed Jul 02 20:40:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 391,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Uneducated Shibe Question About Coins Leaving the Economy by ARedditorCalledQuest - http://t.co/0fwPKqH0MU",
+            "created_at": "Wed Jul 02 20:40:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 392,
+            "username": "Dogecoin City Lotto",
+            "user_account": "dogecitylotto",
+            "text": "Not enough people have entered my lotto drawing every 30 minutes :( #dogecoin #comeplay #lotto SUCH TIMESTAMP:1404333633",
+            "created_at": "Wed Jul 02 20:40:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 393,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Understanding Legal Contracts for Entrepreneurs: What Do I Need and Why Do I Need It? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin ...",
+            "created_at": "Wed Jul 02 20:34:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 394,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Life: Just a Game of Monopoly Taken Way Too Seriously http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
+            "created_at": "Wed Jul 02 20:34:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 395,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Our Culture Is Our Survival http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 20:34:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 396,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "NC Rapper King Mez Takes NYC, Discusses Vulnerability [VIDEO] http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Wed Jul 02 20:34:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 397,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "These Vintage Brides And Grooms Are The Epitome Of Old-School Cool http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #phot...",
+            "created_at": "Wed Jul 02 20:34:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 398,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "The Perils of Trusting the Trustworthy http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 20:34:25 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 399,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "3 Points of Hope on Climate Change: Back to the Future 2014 to 2024 http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #pho...",
+            "created_at": "Wed Jul 02 20:34:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 400,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Facebook Plays Short and Long Game with WhatsApp and Oculus Rift http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photog...",
+            "created_at": "Wed Jul 02 20:34:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 401,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Key Steps to Not Fail in the Internationalization of Your Company http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 20:34:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 402,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Let me Help you in Your Online Home Based Business http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 20:34:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 403,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Nurturing Citizen Leaders Starts in Higher Education http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
+            "created_at": "Wed Jul 02 20:34:18 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 404,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Best Romantic Summer Getaways (PHOTOS) http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 20:34:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 405,
             "username": "Gabrielle Dale",
             "user_account": "GabrielleDale13",
             "text": "fastest way to earn #dogecoin? http://t.co/5uJ5HVovhv #mining #doge #vote #reddit",
@@ -691,17 +4051,127 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
-            "username": "DogecoinPrice",
-            "user_account": "DogecoinP",
-            "text": "1 Dogecoin is now 0.0002254 USD. Dogecoin has decreased by 5.6E-7 USD in the last 30 mins #doge #dogecoin",
-            "created_at": "Wed Jul 02 20:30:17 +0000 2014",
+            "tweet_count": 406,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Understanding Legal Contracts for Entrepreneurs: What Do I Need and Why Do I Need It? http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin ...",
+            "created_at": "Wed Jul 02 20:32:09 +0000 2014",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 407,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Life: Just a Game of Monopoly Taken Way Too Seriously http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
+            "created_at": "Wed Jul 02 20:32:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 408,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Our Culture Is Our Survival http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 20:31:54 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 409,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "NC Rapper King Mez Takes NYC, Discusses Vulnerability [VIDEO] http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Wed Jul 02 20:31:53 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 410,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "These Vintage Brides And Grooms Are The Epitome Of Old-School Cool http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #phot...",
+            "created_at": "Wed Jul 02 20:31:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 411,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "The Perils of Trusting the Trustworthy http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 20:31:52 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 412,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "3 Points of Hope on Climate Change: Back to the Future 2014 to 2024 http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #pho...",
+            "created_at": "Wed Jul 02 20:31:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 413,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Facebook Plays Short and Long Game with WhatsApp and Oculus Rift http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photog...",
+            "created_at": "Wed Jul 02 20:31:40 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 414,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Key Steps to Not Fail in the Internationalization of Your Company http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photo...",
+            "created_at": "Wed Jul 02 20:31:38 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 415,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Let me Help you in Your Online Home Based Business http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion...",
+            "created_at": "Wed Jul 02 20:31:37 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 416,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Nurturing Citizen Leaders Starts in Higher Education http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
+            "created_at": "Wed Jul 02 20:31:35 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 417,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Best Romantic Summer Getaways (PHOTOS) http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #...",
+            "created_at": "Wed Jul 02 20:31:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 418,
             "username": "The Price of DOGE",
             "user_account": "PriceOfDogecoin",
             "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000038\nCryptsy  0.00000036\nCoins-E 0.00000033\nAverage: $0.000233USD per #dogecoin",
@@ -711,7 +4181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 419,
             "username": "Me_aBitcoinGirl",
             "user_account": "Me_aBitcoinGirl",
             "text": "Hi y'all!  Do you like handcrafted jewelry. I create my version of Boho Chic!  I accept your bitcoin, dogecoin, litecoin &amp; $$",
@@ -721,7 +4191,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 420,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Californians Are Fed Up With Income Inequality, Poll Shows http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,...",
+            "created_at": "Wed Jul 02 20:20:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 421,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Committing to Action at CGI http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #health, #fail #jobs,...",
+            "created_at": "Wed Jul 02 20:20:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 422,
             "username": "Alene Vincent",
             "user_account": "alenevince",
             "text": "\"A food vendor...sells hamburgers &amp; hot dogs for Bitcoin, Dogecoin, precious metals, or, if you must, dollars.\"     http://t.co/nwHO5GQZxF",
@@ -731,7 +4221,47 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 423,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Marketers \"Secret Sauce\" for Social Media in 2014 http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Wed Jul 02 20:19:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 424,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Pennsylvania Support For Medical Marijuana Reaches Record High, Poll Shows http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #lov...",
+            "created_at": "Wed Jul 02 20:19:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 425,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Rob Ford Says He's Used 'Every Drug' You Can Think Of http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fash...",
+            "created_at": "Wed Jul 02 20:19:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 426,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Making Online Schools Work for Students and Teachers http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashi...",
+            "created_at": "Wed Jul 02 20:19:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 427,
             "username": "crypto nut",
             "user_account": "cryptoreview",
             "text": "Love it! 8-10k all day! Volume moving up! Keep it on the move! #shopcoin @BittrexExchange #btc #ltc #darkcoin #rzr #dogecoin  #altcoins #nxt",

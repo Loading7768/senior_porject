@@ -1,17 +1,7 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
-            "username": "Rick",
-            "user_account": "Rothbardian1627",
-            "text": "@CNBC Prolly more \"like dogecoin\" https://t.co/SAXg2AGOc0",
-            "created_at": "Wed May 30 23:59:25 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 2,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 26683",
@@ -21,7 +11,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 2,
             "username": "Dogecon Vancouver",
             "user_account": "DogeconVan",
             "text": "Take 2: 42.0 Days of Doge Memes for #dogecon! #dogecoin #muchwow #soconvention #decentralizeeverything https://t.co/grCU4CNSGC  Thanks to @CoinCards for handcrafting this dank meme of a #shibe buying tickets on our website! https://t.co/xagC8SIBb0",
@@ -31,7 +21,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 3,
             "username": "Erica Bunnies & Puppies",
             "user_account": "ohemorange",
             "text": "@huertanix dig a hole. gently place a single dogecoin inside and lovingly coat with a layer of topsoil. in five years, harvest your crop. you will have enough to purchase a single avocado toast.\n\nwow.",
@@ -41,11 +31,21 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 4,
             "username": "Wilson",
             "user_account": "WilsonCalvert",
             "text": "@paleofuture @WillOremus @AthertonKD Where would Google get 1/50th of a Dogecoin at that point though 🤷‍♂️",
             "created_at": "Wed May 30 23:45:58 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  97381 https://t.co/erIjwXD0JD",
+            "created_at": "Wed May 30 23:42:04 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -62,26 +62,16 @@
         },
         {
             "tweet_count": 7,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Institutional Interest in Cryptocurrencies is Growing https://t.co/2r3PXUn3J6 #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf",
-            "created_at": "Wed May 30 23:23:07 +0000 2018",
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  24863 https://t.co/HKp2rKScIx",
+            "created_at": "Wed May 30 23:22:04 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
             "tweet_count": 8,
-            "username": "Botty McBotface",
-            "user_account": "AnalysisInChain",
-            "text": "DOGE Current Price (USD): $ 0.003379 Vol: DOGE 125,754,214.4 Change (24h): -2.43% $DOGE #Dogecoin",
-            "created_at": "Wed May 30 23:18:07 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 9,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "#Cyberwar #Anonymous Cryptocurrency: Cryptocurrency Guide To Wealth Building Through Investing In Cryptocurrency  https://t.co/yAmNRCJvQI https://t.co/c9i4MCjOAT",
@@ -91,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 9,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 54913",
@@ -101,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 10,
             "username": "each 1 tweet 1",
             "user_account": "each1tweet1",
             "text": "Claim FREE Status  for watching videos – current returns: 29.4935 $SNT daily\n\nhttps://t.co/wjfW2hnrIk\n\n$FLASH $BSTAR $XTO $CANN $SONG $IMPS $BIGUP $MARX $FLDC $VC $HEAT $MEOW $DBG $PRX $DOGE $GUP $ESP $ITT $HVCO $MNY $BVC $TIX $PART $ZRC",
@@ -111,17 +101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
-            "username": "Guy",
-            "user_account": "GuyCreal",
-            "text": "#DIG When are people going to realize $dig is worth $1. Every coin backed by $1 in gold. Then to boot an air drop this Friday so it’s worth more than $1. $btc $bch $eos $steem $zrx $zec $eth $ltc $ada $xem $xlm $xrp $hmp $dbix $doge $neo $trx $cmpco $rdd $vrc $linda $waves $pot",
-            "created_at": "Wed May 30 23:11:55 +0000 2018",
-            "retweet": 2,
-            "likes": 7,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 13,
+            "tweet_count": 11,
             "username": "Alan Rowe",
             "user_account": "AlanRoweUK",
             "text": "Patches the #JackRussellTerrier checking her #dogecoin on the #coingecko #cryptocurrency",
@@ -131,7 +111,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 12,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  42138 https://t.co/lr3DkPdPXA",
+            "created_at": "Wed May 30 23:02:03 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3320.6265 values from vircurex + coinbase at 05/30/18 18:55 #dogecoin",
@@ -141,7 +131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 14,
             "username": "CaptainAltcoin Research",
             "user_account": "CaptainAltcoin",
             "text": "Gems to look out for in a sea of shitcoins: WAN, ZRX, ICX, EOS | Captain Altcoin https://t.co/9WIfcwjWue\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV",
@@ -151,7 +141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
+            "tweet_count": 15,
             "username": "Matt Novak",
             "user_account": "paleofuture",
             "text": "@WillOremus @AthertonKD 6/18/2032 Google immortality demo data leaked, hackers demand $3 million in Dogecoin to let people die in peace",
@@ -161,11 +151,21 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
+            "tweet_count": 16,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 33137",
             "created_at": "Wed May 30 22:53:25 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  73253 https://t.co/gjuYMMuFgN",
+            "created_at": "Wed May 30 22:42:03 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -212,6 +212,16 @@
         },
         {
             "tweet_count": 22,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  61170 https://t.co/pGay39plBD",
+            "created_at": "Wed May 30 22:22:03 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 23,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 77568",
@@ -221,17 +231,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Headphones Maker Monster Is Quietly Planning A $300 Million ICO https://t.co/SgDRkQ4DMm #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #ae…",
-            "created_at": "Wed May 30 22:01:44 +0000 2018",
+            "tweet_count": 24,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  68351 https://t.co/TuV43JjhT4",
+            "created_at": "Wed May 30 22:02:03 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 25,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3314.988 values from vircurex + coinbase at 05/30/18 17:55 #dogecoin",
@@ -241,23 +251,13 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 26,
             "username": "Bycryp",
             "user_account": "bycryp",
             "text": "This seller accepts Bitcoin, Litecoin, Bitcoin Cash, Dogecoin and Ether. Free Escrow Service.\n\nOLED Color Screen Blood Pressure Heart Rate Smart Watch for Android iOS https://t.co/FSvOmKtoty\n\n#bitcoin #ether #litecoin #dogecoin #bitcoincash #marketplace #goods  #seller",
             "created_at": "Wed May 30 21:58:22 +0000 2018",
             "retweet": 0,
             "likes": 1,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 26,
-            "username": "Honey Singh",
-            "user_account": "honey8776",
-            "text": "@chrishiggins_yt Just WONDERFUL luck &amp;  GREAT STRATEGY..Lucky MAN\nDogecoin= DAE2FF1dGthxwXkqcm3u19wRpHzccxJZdT",
-            "created_at": "Wed May 30 21:58:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
             "retweeted_tweet": null
         },
         {
@@ -282,12 +282,12 @@
         },
         {
             "tweet_count": 29,
-            "username": "♥D.VA♥VIP Pump",
-            "user_account": "kojungh79682718",
-            "text": "☄☄☄\nhttps://t.co/FjKQn0IJtQ       \n☄☄☄\n\n♥https://t.co/KdSeQ3p8CT♥VIP Pump Notifier For Bittrex\n\n☀☀☀\nPRIVATE AND DAILY SIGNALS\nACCCURATELY 80-100%\n☀☀☀\n#Dogecoin",
-            "created_at": "Wed May 30 21:42:50 +0000 2018",
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  4926 https://t.co/4OJOAth1Tp",
+            "created_at": "Wed May 30 21:42:03 +0000 2018",
             "retweet": 0,
-            "likes": 0,
+            "likes": 1,
             "retweeted_tweet": null
         },
         {
@@ -302,16 +302,6 @@
         },
         {
             "tweet_count": 31,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/50FRLfLHvf",
-            "created_at": "Wed May 30 21:30:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 32,
             "username": "Bilo Selhi",
             "user_account": "StocksThatDoubl",
             "text": "Bilo Selhi alerted $SDRL +186% https://t.co/h0RvHOXtno SEE TRACK RECORD https://t.co/W3gditBjAt $TPIV $LPG $NSPR $CVSI $PDVW $UONE $ANY $DOGE $GBYTE $ADA $QTUM $MANA $VTC $NXT $SC $XDN $XEM $BCC $DASH $TRX $SNT $BTG $XVG",
@@ -321,7 +311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 33,
+            "tweet_count": 32,
             "username": "Of-Ar",
             "user_account": "ollyfarren",
             "text": "@dogecoin @DigiByteCoin @jaredctate Such Minting. https://t.co/ofJB9VLxIK",
@@ -331,7 +321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 34,
+            "tweet_count": 33,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 23297",
@@ -341,7 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 35,
+            "tweet_count": 34,
             "username": "CyberWar Books",
             "user_account": "CyberToolsBooks",
             "text": "#Cyberwar #Anonymous Cryptocurrency: Mining, Investing and Trading in Blockchain, including Bitcoin, Ethereum,  https://t.co/yk1aPYzluN https://t.co/nWfM9r24rX",
@@ -351,12 +341,22 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 36,
+            "tweet_count": 35,
             "username": "öküzünbaktığıtren",
             "user_account": "okuzun_treni_",
             "text": "Join the airdrop before its too late\n\n#Airdrop #Airdrops #airdrophunters #bounty #BountyProgram #BountyHunter #ICO #ICOs #Token #cryptocurrency #blockchain #bitcoin #ethereum #BTC #ETH #Stellar #Helbiz #Ripple #XLM #XVG #XRP @Airdropalertcom $iost $dgb $wtc $DOGE $hydro $bnb $hbz https://t.co/Q9xdcBJcj6",
             "created_at": "Wed May 30 21:03:54 +0000 2018",
             "retweet": 1,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 36,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  60815 https://t.co/Jya0a3g2ue",
+            "created_at": "Wed May 30 21:02:03 +0000 2018",
+            "retweet": 0,
             "likes": 1,
             "retweeted_tweet": null
         },
@@ -392,16 +392,6 @@
         },
         {
             "tweet_count": 40,
-            "username": "Mr AzamInspire",
-            "user_account": "azaminspire",
-            "text": "Dogecoin Mining online. Received: 276.2 DOGE - Transaction Receipt (TXID): https://t.co/Zm4w4Imdy7 Earn Dogecoin, visit: https://t.co/B8qMIsxLr9",
-            "created_at": "Wed May 30 20:48:25 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 41,
             "username": "Coach S 🔮🔮🔮🔮🔮",
             "user_account": "NFTUnicorn___",
             "text": "PHEONIX #Airdrop!!!\n20000 PHX(100$) for first 10000. Hurry!!\nhttps://t.co/zfnBKotMcd\n#Freecoin $ETH $snm $TNB $TNT $poe $LTC $VEN $DOGE $icx $icn $wtc $QTUM $zrx $NEO $XMR $xlm $ADA $sngls $iost $BTC $AE $zen $npxs $PPT $ONT $zrx $arn $mlt $BCC $CMT $LUN $ELF $wan",
@@ -411,7 +401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 42,
+            "tweet_count": 41,
             "username": "Pleb Bitcoin",
             "user_account": "ohiobitcoin",
             "text": "iphone X 5 5S 5SE 5C 6 6S 6 Plus 7 8 Samsung Galaxy S5 S6 S7 S8 Edge TPU Soft Silicone Skin Case Cute  https://t.co/h2D4imLUP1 # #pr",
@@ -421,7 +411,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 43,
+            "tweet_count": 42,
             "username": "CryptoTux",
             "user_account": "cryptotux",
             "text": "@dogecoin @DigiByteCoin @jaredctate Four years? Congratulations! You're a prime example of how cryptocurrencies can be fun and popular.\n\nMay you have a prosperous future.",
@@ -431,11 +421,21 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 44,
+            "tweet_count": 43,
             "username": "each 1 tweet 1",
             "user_account": "each1tweet1",
             "text": "Claim FREE Dogecoin for watching videos – current returns: 648.6066 $DOGE daily\n\nhttps://t.co/Mjaz5ZuH1e\n\n$FEDS $FUNC $GAM $BURST $UGT $LMC $FUTC $BITCNY $RNS $MOIN $RSGP $TEAM $BTA $ZENGOLD $GLC $OBITS $UFR $SDRN $GARY $MTLMC3 $XRE $THS $CASH $BRIT",
             "created_at": "Wed May 30 20:43:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 44,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  44351 https://t.co/lFhwU2EGBo",
+            "created_at": "Wed May 30 20:42:02 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
@@ -472,6 +472,26 @@
         },
         {
             "tweet_count": 48,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  46390 https://t.co/OpQ8KiCEVJ",
+            "created_at": "Wed May 30 20:22:03 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 49,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@mehmetdemirturk @lamachamba @dogecoin @DigiByteCoin @jaredctate Define value. Given what we have with the continued growth seems to be doing fairly well for the majority of the communities, the platforms, the exchanges, and the usage outlets to continue to grow. Please tell me you are going to be more original than market price in this.",
+            "created_at": "Wed May 30 20:19:40 +0000 2018",
+            "retweet": 0,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 50,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 10020",
@@ -481,7 +501,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 49,
+            "tweet_count": 51,
             "username": "CaptainAltcoin Research",
             "user_account": "CaptainAltcoin",
             "text": "Gem watchlist: Pay attention to coin with strong fundamentals - Zilliqa (ZIL) | Captain Altcoin https://t.co/eGs7su4wcQ\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc",
@@ -491,7 +511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 50,
+            "tweet_count": 52,
             "username": "Mehmet Demirtürk",
             "user_account": "mehmetdemirturk",
             "text": "@MSingularity @lamachamba @dogecoin @DigiByteCoin @jaredctate When you'll win value?",
@@ -501,7 +521,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 51,
+            "tweet_count": 53,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  50677 https://t.co/3IeWWbmpiL",
+            "created_at": "Wed May 30 20:02:03 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 54,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3305.844 values from vircurex + coinbase at 05/30/18 15:55 #dogecoin",
@@ -511,17 +541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 52,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/tulujlBB8L",
-            "created_at": "Wed May 30 20:00:03 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 53,
+            "tweet_count": 55,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 66984",
@@ -531,33 +551,13 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 54,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "New Zcash Software Sets Stage for 'Sapling' Upgrade https://t.co/xO7LPvQPnl #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #Ne…",
-            "created_at": "Wed May 30 19:51:24 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 55,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/5NLDyc4qwr",
-            "created_at": "Wed May 30 19:45:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
             "tweet_count": 56,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "ABBC Foundation will give out 100ABBC to people who download their Multi Crypto wallet between 15th June to 14th July https://t.co/cGAMfuVOkl #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tr…",
-            "created_at": "Wed May 30 19:33:19 +0000 2018",
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  93076 https://t.co/0BtvZr9YfH",
+            "created_at": "Wed May 30 19:42:03 +0000 2018",
             "retweet": 0,
-            "likes": 0,
+            "likes": 1,
             "retweeted_tweet": null
         },
         {
@@ -572,6 +572,26 @@
         },
         {
             "tweet_count": 58,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  80696 https://t.co/4hebHh1BNb",
+            "created_at": "Wed May 30 19:22:02 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 59,
+            "username": "MovableSingularity",
+            "user_account": "MSingularity",
+            "text": "@lamachamba @dogecoin @DigiByteCoin @jaredctate 1.14 is in public Alpha 3. People who actually care, seem to be aware.",
+            "created_at": "Wed May 30 19:19:04 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
             "username": "🇺🇦 🆃🅴🅺🅺 🜂 🇺🇦 // 8647",
             "user_account": "tekkned",
             "text": "@dogecoin @DigiByteCoin @jaredctate WOOF!",
@@ -581,17 +601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 59,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/e3nht215Ar",
-            "created_at": "Wed May 30 19:15:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 60,
+            "tweet_count": 61,
             "username": "Solava",
             "user_account": "r_avalos",
             "text": "Free 100% with 5GHS mining power...\nFree Dogecoin, BTC, LTC, USD Mining Auto site...\nChange the Language Flag, Select the English Flag upper right side, then click on Registration and Login, after then Click on Mining... \nMinimum Withdraw 1$ ... https://t.co/bVITiN1SQ5",
@@ -601,7 +611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 61,
+            "tweet_count": 62,
             "username": "Blackout",
             "user_account": "Bl4ack0ut",
             "text": "$doge hmmmmmm 🤔🤔🤔 https://t.co/5IVFnhHQNj",
@@ -611,7 +621,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 62,
+            "tweet_count": 63,
+            "username": "Dogecoin",
+            "user_account": "dogecoin",
+            "text": "It has been over 4 years! Never forget! Always thank! Many Wow! https://t.co/IOc5wkYuZQ @DigiByteCoin @jaredctate Such protect!",
+            "created_at": "Wed May 30 19:13:39 +0000 2018",
+            "retweet": 96,
+            "likes": 344,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 64,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 37075",
@@ -621,7 +641,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 63,
+            "tweet_count": 65,
             "username": "BTC",
             "user_account": "0X21BTC",
             "text": "Dot Com Bubble vs Crypto Bubble\n#BTC #Bitcoin #cryptocurrency #ETHEREUM #ripple #ETH #Coinmarketcap #Token #Airdrop #bubble #dogecoin #dash #monero #NEO #IOTA #crypto https://t.co/PNJGTPXaxS",
@@ -631,7 +651,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 64,
+            "tweet_count": 66,
             "username": "rubn(💙,🧡).🐰🛸",
             "user_account": "PfaRuben",
             "text": "Dogecoin Mining online. Received: 363.66 DOGE - Transaction Receipt (TXID): https://t.co/SqPuZJ7lLc Earn Dogecoin, visit: https://t.co/g72pfmmuJX",
@@ -641,7 +661,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 65,
+            "tweet_count": 67,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsUqkAM\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  77974 https://t.co/XZH5NbkI2x",
+            "created_at": "Wed May 30 19:02:02 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 68,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3302.559 values from vircurex + coinbase at 05/30/18 14:55 #dogecoin",
@@ -651,7 +681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 66,
+            "tweet_count": 69,
             "username": "Bilo Selhi",
             "user_account": "StocksThatDoubl",
             "text": "Buy low, sell high with https://t.co/uAcamNRUPt See track record &amp; join today https://t.co/fqtC8LvhLY $TNTR $CRMD $OGEN $NSPR $SUMR $DOGE $GBYTE $ADA $QTUM $MANA $VTC $NXT $SC $XDN $XEM $BCC $DASH $TRX $SNT $BTG $XVG",
@@ -661,7 +691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 67,
+            "tweet_count": 70,
             "username": "🌳 Druid Andrew 🌳",
             "user_account": "andyypants",
             "text": "$DOGE also might be grinding on a floor. I think shorters are still trying to bully the price down though. Looks like about an even battle right here however.",
@@ -671,7 +701,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 68,
+            "tweet_count": 71,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 87677",
@@ -681,7 +711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 69,
+            "tweet_count": 72,
             "username": "Melvin",
             "user_account": "Melvin42905235",
             "text": "Free Dogecoin (DOGE) Faucet and Lottery - https://t.co/bDNaRzhS27 #CoinWhip #Dogecoin #DOGE #Faucet",
@@ -691,7 +721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 70,
+            "tweet_count": 73,
             "username": "Life With Crypto",
             "user_account": "lifewithcrypto",
             "text": "💰 Crypto &amp; Bitcoin - Passive Income Strategy (Wednesday, 30 May 2018) — Steemit https://t.co/pRrsQ4yQWg\n\n#bitcoin #crypto $btc $ltc $doge $dash $bch $steem @steemit",
@@ -701,7 +731,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 71,
+            "tweet_count": 74,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  9483 https://t.co/WRffLkIy84",
+            "created_at": "Wed May 30 18:42:02 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 75,
             "username": "Hodl McHodlface",
             "user_account": "nanjing87",
             "text": "@el33th4xor I'm safe then – DOGECOIN costs a solid $1.132m / day!",
@@ -711,7 +751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 72,
+            "tweet_count": 76,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 38771",
@@ -721,7 +761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 73,
+            "tweet_count": 77,
             "username": "CaptainAltcoin Research",
             "user_account": "CaptainAltcoin",
             "text": "A bear's look on Bitcoin in 2018 - price will be lower by year end | Captain Altcoin https://t.co/R5kdabN3LT\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV",
@@ -731,7 +771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 74,
+            "tweet_count": 78,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 66311",
@@ -741,7 +781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 75,
+            "tweet_count": 79,
             "username": "Toy Vanes",
             "user_account": "ToyVanes",
             "text": "@loomdart @piedpipercoin @crypto_monopoly you have no idea what you're missing. its the next best thing after $doge!",
@@ -751,7 +791,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 76,
+            "tweet_count": 80,
             "username": "DecentralPost",
             "user_account": "DecentralPost",
             "text": "2018 will be the Year of Ethereum (ETH) and here is why\n\nhttps://t.co/RiNJwAIHt8\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV",
@@ -761,7 +801,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 77,
+            "tweet_count": 81,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  56758 https://t.co/k6udEnTNju",
+            "created_at": "Wed May 30 18:02:02 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 82,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3308.1885 values from vircurex + coinbase at 05/30/18 13:55 #dogecoin",
@@ -771,17 +821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 78,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "$30 Million Crypto Startup Fund Launched By Mobile Game Maker https://t.co/KmuZvk4NzF #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf…",
-            "created_at": "Wed May 30 17:56:11 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 79,
+            "tweet_count": 83,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 59668",
@@ -791,7 +831,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 80,
+            "tweet_count": 84,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  30617 https://t.co/bYUoh3wMNg",
+            "created_at": "Wed May 30 17:42:02 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 85,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 28905",
@@ -801,7 +851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 81,
+            "tweet_count": 86,
             "username": "Mother of Money [Drinker Of Pleb Tears]",
             "user_account": "MotherOfMoney",
             "text": "I will be creating a $DOGE fork called $WAMPUM. \n\nAmerica should go back to its first #Native #currency. Wampum will have the lowest transfer fees of any #Crypro asset. It will be fully redeemable for #Quahogs.",
@@ -811,7 +861,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 82,
+            "tweet_count": 87,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  4372 https://t.co/4WxOLNPIbM",
+            "created_at": "Wed May 30 17:22:01 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 88,
             "username": "ProCoinDoctor",
             "user_account": "ProCoinDoc",
             "text": "@jrabbofficial @penskeone @FoxNews @EPN @POTUS Dude probably owns Dogecoin",
@@ -821,7 +881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 83,
+            "tweet_count": 89,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 67466",
@@ -831,7 +891,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 84,
+            "tweet_count": 90,
             "username": "Bilo Selhi",
             "user_account": "StocksThatDoubl",
             "text": "Need help finding momentum stocks? https://t.co/uAcamNRUPt Ranked #1 https://t.co/7uWekI8Rdq $LPG $ORMP $ENT $ASYS $CYTX $SUMR $DOGE $GBYTE $ADA $QTUM $MANA $VTC $NXT $SC $XDN $XEM $BCC $DASH $TRX $SNT $BTG $XVG",
@@ -841,7 +901,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 85,
+            "tweet_count": 91,
             "username": "Berkley R. Bruce",
             "user_account": "DragonShadowLV",
             "text": "Get paid #cryptocurrency for things you already do online! https://t.co/9voz8xrISo   $BTC $LTC $LSK $DGB $ADA $XRP $ETH $MONA $XVG $DASH $TRX $DGB $DOGE $SC $ZEC $RDD $SC $BITB $BAT $LBRY $XLM $XMR $STEEM $WAVES More!",
@@ -851,7 +911,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 86,
+            "tweet_count": 92,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  52330 https://t.co/M4Nn9VR6Vc",
+            "created_at": "Wed May 30 17:02:02 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 93,
             "username": "Denario bot",
             "user_account": "denario_bot",
             "text": "👍Top coins of the last hour👍 \n\n🥇 $GNT $0.580763 📈 1.41% \n🥈 $DCN $0.000649337 📈 0.82% \n🥉 $SOC $0.179396 📈 0.62% \n⚪ $DOGE $0.00337928 📈 0.53% \n⚪ $RHOC $1.27012 📈 0.38% \n\n👉 Trade #crypto on Binance https://t.co/shiUiHPrac",
@@ -861,7 +931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 87,
+            "tweet_count": 94,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3297.8115 values from vircurex + coinbase at 05/30/18 12:55 #dogecoin",
@@ -871,7 +941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 88,
+            "tweet_count": 95,
             "username": "Crypto Stats Bot",
             "user_account": "CryptoStatsBot",
             "text": "📈 Biggest Gainers (1 hr) 📈\nCivic $CVC 2.2% 🔥\nGolem $GNT 1.41% 🔥\nAll Sports $SOC 0.62% \nDogecoin $DOGE 0.53% \nArcblock $ABT 0.38%",
@@ -881,7 +951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 89,
+            "tweet_count": 96,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 8579",
@@ -891,7 +961,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 90,
+            "tweet_count": 97,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  46042 https://t.co/7FL1jxoDYs",
+            "created_at": "Wed May 30 16:42:01 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 98,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 92883",
@@ -901,7 +981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 91,
+            "tweet_count": 99,
             "username": "Marko Omcryptokus",
             "user_account": "omcikusmarko",
             "text": "#CRYPTOCURRENCIES are mooning! With https://t.co/ratc5wg8NO you can FIND where CRYPTOCURRENCIES are moving before others!\n\n#BTC #ETH $THETA $GNT $CNX $SOC $KIN $GXS $NULS $BCN $MITH $MIOTA $MAID $ADA $ZRX $XMR $SNT $GAS $DOGE $HT https://t.co/QagXw6OX2g",
@@ -911,17 +991,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 92,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/stYvmxUjIR",
-            "created_at": "Wed May 30 16:30:02 +0000 2018",
+            "tweet_count": 100,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  60770 https://t.co/VFlPAk0F2H",
+            "created_at": "Wed May 30 16:22:01 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 93,
+            "tweet_count": 101,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 75288",
@@ -931,17 +1011,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 94,
-            "username": "Clara Cantanto",
-            "user_account": "ClaraCantanto",
-            "text": "#Retweet and #Follow @ClaraCantanto to #win 1Ethereum, #bitcoin \n\nhttps://t.co/KvP48lIfWL \n\n#ethereum #Blockchain #ICO #cryptocurrency #crypto #token #Ether #bitcoin #fintech #news #dogecoin #free #airdrops #bounty #pips #trade #forex #tokens #F4F #ETH #btc #finance #money #love https://t.co/hpiQDUYj46",
-            "created_at": "Wed May 30 16:04:36 +0000 2018",
-            "retweet": 3,
-            "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 95,
+            "tweet_count": 102,
             "username": "Global Coin Report",
             "user_account": "Coin_Report",
             "text": "$DOGE The origin of the Doge: Everything a Shiba should know about the meme that made billions https://t.co/b1BTwGkSmC",
@@ -951,7 +1021,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 96,
+            "tweet_count": 103,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  78763 https://t.co/fAGmjrfy74",
+            "created_at": "Wed May 30 16:02:01 +0000 2018",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 104,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3319.0245 values from vircurex + coinbase at 05/30/18 11:55 #dogecoin",
@@ -961,7 +1041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 97,
+            "tweet_count": 105,
             "username": "CaptainAltcoin Research",
             "user_account": "CaptainAltcoin",
             "text": "Chinese Study: Blockchain projects have a short lifespan of only 15 months | Captain Altcoin https://t.co/IjebrPInAy\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB",
@@ -971,7 +1051,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 98,
+            "tweet_count": 106,
             "username": "Jerry The Entrepreneur",
             "user_account": "the_jerry",
             "text": "Replaced the Wobble Head today.. :)\n\n#blockhedge2018bangkok #blockhedge2018bahrain #dogefordogs #charity #startuplife #dogecoin #blockchain #blockhedge #fintech #technology #cryptocommunity #fintechevent  #blockchainevents #cryptocurrency #ico #cryptoevents #Ethereum #bangkok https://t.co/Sj0tEMCkRB",
@@ -981,7 +1061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 99,
+            "tweet_count": 107,
             "username": "BEST BTC FREE",
             "user_account": "CaramenQ",
             "text": "@FreeDogecoin I pulled out dogecoin twice but only showed one withdrawal. Can you check for me, please. ID: lienminhvl11@gmail.com",
@@ -991,37 +1071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 100,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "EOS Lacks Price Direction Ahead of Mainnet Launch https://t.co/1705EfbyTY #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #Nebl…",
-            "created_at": "Wed May 30 15:56:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 101,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Asus' New Crypto Mining Motherboard Has Space for 20 GPUs https://t.co/GwUs698w14 #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LI…",
-            "created_at": "Wed May 30 15:56:04 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 102,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Hackers Demand $1 Million in XRP After Bank Data Theft https://t.co/E9qZBFbM0I #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK …",
-            "created_at": "Wed May 30 15:56:03 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 103,
+            "tweet_count": 108,
             "username": "xxxxru",
             "user_account": "x2youxxx",
             "text": "Tomorrow is a big day for GIVES. Gotta love the community and give back. We appreciate all the support.\n\n#GIVES #DAPS #SHND #CRYPTO #BTC #ETH #LTC #XVG #COLX #NYCOIN #lindacoin #XRP #Cardano #XLM #HTMLCOIN #DASH #XEM #TRXTron #USDA #DGB #RDD #dentacoin #Altcoins #dogecoin https://t.co/f2ejSrJ4Jl",
@@ -1031,7 +1081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 104,
+            "tweet_count": 109,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 11227",
@@ -1041,17 +1091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 105,
-            "username": "Jhon Stratman",
-            "user_account": "JhonStratman",
-            "text": "#Retweet and #Follow @JhonStratman to #win 1Ethereum, #bitcoin \n\nhttps://t.co/3F5TmlmjDK \n\n#ethereum #Blockchain #ICO #cryptocurrency #crypto #token #Ether #bitcoin #fintech #news #dogecoin #free #airdrops #bounty #pips #trade #forex #tokens #F4F #ETH #comp #prize #love #finance https://t.co/aKEwYDkp2D",
-            "created_at": "Wed May 30 15:48:28 +0000 2018",
-            "retweet": 4,
-            "likes": 3,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 106,
+            "tweet_count": 110,
             "username": "Thomas Stevenson",
             "user_account": "thomassteven_81",
             "text": "#EobotMining, #CloudMiningList CheapAir Takes a Flyer With Bitcoin, Litecoin and Dogecoin! https://t.co/2iicT5QQDm https://t.co/r4pjM4EMSb",
@@ -1061,7 +1101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 107,
+            "tweet_count": 111,
             "username": "CaptainAltcoin Research",
             "user_account": "CaptainAltcoin",
             "text": "German bank survey: Every third German considers investing in Bitcoin, Ethereum and Co. | Captain Altcoin https://t.co/gcFexJFi3e\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP",
@@ -1071,7 +1111,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 108,
+            "tweet_count": 112,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  97782 https://t.co/7hqfFCHC8R",
+            "created_at": "Wed May 30 15:42:01 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 113,
             "username": "LucisDollar",
             "user_account": "LucisDollar",
             "text": "Banco Estado, Following Court Order, Welcomes Back Cryptocurrency Firm\n#ethereum #cryptocurrency #eth #bitcoin #btc #altcoin #ltc #dogecoin #doge #Blockchain #Litecoin #ICO https://t.co/ZBHIPC4dXh",
@@ -1081,17 +1131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 109,
-            "username": "Bitcoin Mixer",
-            "user_account": "btcoinmixer",
-            "text": "#Retweet and #Follow us @btcoinmixer to #win 0.1 #bitcoin weakly bonus For limited time our services is 100% FREE https://t.co/E31VhTD9kN    #BTC #blockchain #cryptocurrency #crypto #ethereum #fintech #news #dogecoin #robotcoingame #FreeBitcoin #business #forex #free #money #love https://t.co/U5JfKdK0qV",
-            "created_at": "Wed May 30 15:34:12 +0000 2018",
-            "retweet": 7,
-            "likes": 3,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 110,
+            "tweet_count": 114,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 28340",
@@ -1101,7 +1141,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 111,
+            "tweet_count": 115,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  98326 https://t.co/k73LISjPad",
+            "created_at": "Wed May 30 15:22:01 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 116,
             "username": "Emily Smith",
             "user_account": "Emcrypto_Fox",
             "text": "Market Cap: 320,642,987,628 $\n\nBinance 50% discount on all trades, sign up today &amp; enjoy discounts\n\n➡️https://t.co/hQTdA6fkUo\n\n$LRC $XZC $WAVES $DOGE $LSK $MITH $KIN $ELA $BTM $MYB $XVG $BAT $DCR $MIOTA $USDT $ARK $WAN $XLM $BCD $BNB $NXS $ETC $SKY https://t.co/A6HGnf8b9g",
@@ -1111,7 +1161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 112,
+            "tweet_count": 117,
             "username": "Hank",
             "user_account": "bottybottyhank",
             "text": "Then Morgoth stretching out his arm towards Dor-lómin cursed Húrin and Morwen and their offspring, saying:  ''Much WoW $DOGE mini moon.''",
@@ -1121,7 +1171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 113,
+            "tweet_count": 118,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 14570",
@@ -1131,7 +1181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 114,
+            "tweet_count": 119,
             "username": "DogecoinMultisig",
             "user_account": "DogecoinMulti",
             "text": "#Dogecoin has staying power:\n1) It was initiated December 2013, now nearly 5 years old.\n\n2) Rabidly loyal and growing, fun and helpful community. Over 118K on reddit.\n\n3) Alliances with #Litecoin (merge mining) and #Ethereum (bridges).\n\n4) Fixed rate of production keeps fees low.",
@@ -1141,7 +1191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 115,
+            "tweet_count": 120,
             "username": "Beach Dog",
             "user_account": "BeachDog69420",
             "text": "Good morning Crypto twitter. Crank this up for motivation. \nWake Up nocoiners.  Our time is at hand.  $BTC $DOGE\n#dogecoin. \n\nhttps://t.co/JgviQk8U7u",
@@ -1151,7 +1201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 116,
+            "tweet_count": 121,
             "username": "alotuv",
             "user_account": "idscripsi",
             "text": "https://t.co/tTR2ZPJoQI\nPlay and Win Crypto!\n$HONEY $Btc $Ltc $Doge #altcoins",
@@ -1161,7 +1211,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 117,
+            "tweet_count": 122,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  619 https://t.co/Y8SGSdrbrD",
+            "created_at": "Wed May 30 15:02:01 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 123,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3356.046 values from vircurex + coinbase at 05/30/18 10:55 #dogecoin",
@@ -1171,27 +1231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 118,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/CSvin8XBha",
-            "created_at": "Wed May 30 15:00:18 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 119,
-            "username": "Nhật Phương Vũ Thị",
-            "user_account": "HnkBEBU70NOc1ng",
-            "text": "RT xeonframe: Today’s conference with Fujio shigeo #blockchain#btc#crypto#cryptocurrency#bitcoin#ICO#fintech#Ethereum#IoT#AI#BigData#altcoin#ETH#crowdsale#token#tokens#tokensale#crowdsale#preICO#presale#dogecoin#RealityClash https://t.co/pHA6YpOY3k #airdropalert #airdropbounty …",
-            "created_at": "Wed May 30 14:54:56 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 120,
+            "tweet_count": 124,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 87759",
@@ -1201,17 +1241,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 121,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/1xgasF0yx7",
-            "created_at": "Wed May 30 14:45:04 +0000 2018",
+            "tweet_count": 125,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  79951 https://t.co/01aH0Bvp9F",
+            "created_at": "Wed May 30 14:42:01 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 122,
+            "tweet_count": 126,
             "username": "Cryptosima",
             "user_account": "cryptosima",
             "text": "DecentBET Makes The Switch from Ethereum to VeChainThor (VET) Blockchain\n\nhttps://t.co/frnK4i1DvQ\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV",
@@ -1221,7 +1261,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 123,
+            "tweet_count": 127,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  53916 https://t.co/k0mPbHUzgd",
+            "created_at": "Wed May 30 14:22:01 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 128,
             "username": "John Callison",
             "user_account": "johncallison_85",
             "text": "#CryptoMining, #EtherMiningMac CheapAir Takes a Flyer With Bitcoin, Litecoin and Dogecoin! https://t.co/Uz59O8cMTS https://t.co/HbnOrFDrcW",
@@ -1231,7 +1281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 124,
+            "tweet_count": 129,
             "username": "Hank",
             "user_account": "bottybottyhank",
             "text": "''It is called Cirith Ungol.'' Gollum hissed sharply and began muttering to himself:  ''Many $DOGE. Much affordable. So buy.''",
@@ -1241,17 +1291,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 125,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/pZxKYjnZUx",
-            "created_at": "Wed May 30 14:15:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 126,
+            "tweet_count": 130,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 87719",
@@ -1261,7 +1301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 127,
+            "tweet_count": 131,
             "username": "Viktor Zhuravlov",
             "user_account": "Buratin07",
             "text": "Claim your free dogecoin now \n  https://t.co/tRWcXBt4jU",
@@ -1271,17 +1311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 128,
-            "username": "Bot of Bittrex",
-            "user_account": "Bot_of_Bittrex",
-            "text": "Top 5 #crypto Bittrex buys (1h):\n\n1. $NEOS score: 4.6154\n2. $SYS score: 3.8462\n3. $LSK score: 3.8462\n4. $BTG score: 3.8462\n5. $DOGE score: 3.0769",
-            "created_at": "Wed May 30 14:05:14 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 129,
+            "tweet_count": 132,
             "username": "TheCoinMonitor.com",
             "user_account": "TheCoinMonitor_",
             "text": "Volume changes in last 10 minutes:\nBinance:\n$ENG: 5.49%\n$POE: 4.12%\n$SNT: 3.33%\nBittrex:\n$STRAT: 3.74%\n$RLC: 1.12%\n$DOGE: 0.96%",
@@ -1291,7 +1321,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 130,
+            "tweet_count": 133,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  7714 https://t.co/npFbZa2oBp",
+            "created_at": "Wed May 30 14:02:00 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 134,
             "username": "John Guerriero",
             "user_account": "vulken17",
             "text": "$STORM\nINCREDIBLE BID SUPPORT\n\n$XVG $TRX $XRP $POE $ADA $NEO $MARA $BTC $LTC $BCH $BNB $LEND $ICX $VEN $STRAT $DOGE $ https://t.co/xtpJQbBc4V",
@@ -1301,7 +1341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 131,
+            "tweet_count": 135,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3395.1825 values from vircurex + coinbase at 05/30/18 09:55 #dogecoin",
@@ -1311,7 +1351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 132,
+            "tweet_count": 136,
             "username": "CryptoWorld",
             "user_account": "CryptoWor1d",
             "text": "Best #Dogecoin #faucet of the day, voted 2 times is #Moon DogeCoin https://t.co/ND4YFn5bJn Total votes: 138",
@@ -1321,7 +1361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 133,
+            "tweet_count": 137,
             "username": "BetSwagger Online Casino & Sportsbook",
             "user_account": "bet_swagger",
             "text": "Betswagger now accepting #btc #LTC #BCH #DASH #DCR #DGB #dogecoin , #ETC, #Ethereum  #SIB #XEM #XMR #XZC #ZEC AND #zencash Use Promo Code: WINBIG. Now that's Swagger! #cryptocasino #cryptogames #Crypto #Bitcointalk #casinoslots #casinoonline #SlotMachine #bonuses #ethereum #coin https://t.co/OflDFS1lgs",
@@ -1331,27 +1371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 134,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Tradeshift Plans Blockchain Push After $250 Million Funding https://t.co/Xvhr3CAnIm #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #…",
-            "created_at": "Wed May 30 13:56:21 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 135,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "'Layer 2' Blockchain Tech Is an Even Bigger Deal Than You Think https://t.co/prUiWXp9Yx #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #ae…",
-            "created_at": "Wed May 30 13:56:20 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 136,
+            "tweet_count": 138,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 59877",
@@ -1361,7 +1381,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 137,
+            "tweet_count": 139,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  85090 https://t.co/s57swSt01a",
+            "created_at": "Wed May 30 13:42:00 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 140,
             "username": "Levi Alterman",
             "user_account": "levi_alterman",
             "text": "@Broccolex @grimezCLT @Lew56062054 @loomdart @piedpipercoin Ehi man do you remember Dogecoin? Or Monacoin? I sure do. Don't understand all the hate with $PPI. Oh and the copyright, you can't put copyright on \"piedpiper\" since that name is older than silicon valley and Hbo themselves.",
@@ -1371,7 +1401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 138,
+            "tweet_count": 141,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 16156",
@@ -1381,7 +1411,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 139,
+            "tweet_count": 142,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  17828 https://t.co/OF9lJ19Q2O",
+            "created_at": "Wed May 30 13:22:00 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 143,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 11420",
@@ -1391,17 +1431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 140,
-            "username": "Alee 👾",
-            "user_account": "_Oneec",
-            "text": "#Bitcoin #ICO #Bounty #airdrop #gambling #mining #crypto #trading #ethereum #dogecoin #litecoin #altcoin Just #FollowMe and i will #FollowBa",
-            "created_at": "Wed May 30 13:10:59 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 141,
+            "tweet_count": 144,
             "username": "Blockchain Meetup Switzerland",
             "user_account": "blockchainerCH",
             "text": "Dogecoin’s Creator Jackson Palmer: 2018 Is Shaping Up To Be The ‘Year Of The Fork’  https://t.co/NyPIF9Ut8N Cryptocurrency blockchainers https://t.co/MZ4IhrjVKG",
@@ -1411,7 +1441,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 142,
+            "tweet_count": 145,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  7312 https://t.co/4uS4dtsCWw",
+            "created_at": "Wed May 30 13:02:00 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 146,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3399.111 values from vircurex + coinbase at 05/30/18 08:55 #dogecoin",
@@ -1421,7 +1461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 143,
+            "tweet_count": 147,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 51966",
@@ -1431,7 +1471,37 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 144,
+            "tweet_count": 148,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsUqkAM\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  501 https://t.co/mHpdeQMAZT",
+            "created_at": "Wed May 30 12:42:00 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 149,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "this channel called $DGB before it made 6x. they only share high reward, low risk signals. join:\n\nhttps://t.co/Rb8IjpRhXZ\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $XVG $GRS $AMP $ZCL $DRGN $DCR 86682",
+            "created_at": "Wed May 30 12:41:59 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 150,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  82339 https://t.co/s6KXhxG4jK",
+            "created_at": "Wed May 30 12:39:31 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 151,
             "username": "Osas F. U.",
             "user_account": "dazzthree1",
             "text": "Free Dogecoin Every Hour https://t.co/I40fsirkQl",
@@ -1441,7 +1511,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 145,
+            "tweet_count": 152,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 13512",
@@ -1451,7 +1521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 146,
+            "tweet_count": 153,
             "username": "Enmanuel Oka",
             "user_account": "enmanuel_oka",
             "text": "Dogecoin Mining online. Received: 56.87 DOGE - Transaction Receipt (TXID): https://t.co/o9epyT3R3W Earn Dogecoin, visit: https://t.co/51BiJ8lH8j",
@@ -1461,7 +1531,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 147,
+            "tweet_count": 154,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  16071 https://t.co/FCUVxIjGvX",
+            "created_at": "Wed May 30 12:19:31 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 155,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "this channel called $DGB before it made 6x. they only share high reward, low risk signals. join:\n\nhttps://t.co/Rb8IjpRhXZ\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $XVG $GRS $AMP $ZCL $DRGN $DCR 13511",
+            "created_at": "Wed May 30 12:19:23 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 156,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 77158",
@@ -1471,7 +1561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 148,
+            "tweet_count": 157,
             "username": "Decryptz",
             "user_account": "tokenchatter",
             "text": "Dogecoin social chatter increased 84.86% in the last hour (compared to 24hr avg). #crypto $DOGE $BCH $QTUM $KMD $WAN See more at https://t.co/sUl5bVg6vl",
@@ -1481,17 +1571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 149,
-            "username": "Sorawitch singhasemanont",
-            "user_account": "newsorawitch",
-            "text": "@DOGEMiner \nDogecoin Mining online. Received: 61046.9 DOGE - Transaction Receipt (TXID): https://t.co/M2t25c1EkT Earn Dogecoin, visit: https://t.co/ZB51q17I4a",
-            "created_at": "Wed May 30 12:01:37 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 150,
+            "tweet_count": 158,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3391.9335 values from vircurex + coinbase at 05/30/18 07:55 #dogecoin",
@@ -1501,7 +1581,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 151,
+            "tweet_count": 159,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  44126 https://t.co/1XRUSEJqea",
+            "created_at": "Wed May 30 11:59:30 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 160,
             "username": "Ben Verret",
             "user_account": "verretor",
             "text": "@StephBres @CryptoGoodGuy But I'd say Dogecoin is still better than BCash.",
@@ -1511,7 +1601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 152,
+            "tweet_count": 161,
             "username": "Ben Verret",
             "user_account": "verretor",
             "text": "@Echt_Kain_niaK Wow! Dogecoin mewn! https://t.co/2YgfSxLjlp",
@@ -1521,17 +1611,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 153,
-            "username": "Sorawitch singhasemanont",
-            "user_account": "newsorawitch",
-            "text": "Dogecoin Mining online. Received: 61046.9 DOGE - Transaction Receipt (TXID): https://t.co/M2t25c1EkT Earn Dogecoin, visit: https://t.co/ZB51q17I4a",
-            "created_at": "Wed May 30 11:55:58 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 154,
+            "tweet_count": 162,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 52931",
@@ -1541,27 +1621,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 155,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Korea Seizes Bitcoin Worth $1.4 Million Following Supreme Court Ruling https://t.co/d8wCzhmub8 #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zill…",
-            "created_at": "Wed May 30 11:51:10 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 156,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Bitcoin Fights Back, But Too Early to Call Bull Reversal https://t.co/5CVZNJK9xf #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LIN…",
-            "created_at": "Wed May 30 11:51:10 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 157,
+            "tweet_count": 163,
             "username": "Ben Verret",
             "user_account": "verretor",
             "text": "@BAiub True. I'd rather have Dogecoin than BCash. https://t.co/iYJOI06cYX",
@@ -1571,7 +1631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 158,
+            "tweet_count": 164,
             "username": "Ben Verret",
             "user_account": "verretor",
             "text": "If you want to compare fees in $USD, let me introduce you to Dogecoin. https://t.co/zpidVW73RL",
@@ -1581,17 +1641,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 159,
-            "username": "Mike",
-            "user_account": "Optional_Prime",
-            "text": "@matveevp @wirexapp Dogecoin!",
-            "created_at": "Wed May 30 11:44:36 +0000 2018",
-            "retweet": 0,
+            "tweet_count": 165,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  75669 https://t.co/MSlzwFdVQd",
+            "created_at": "Wed May 30 11:39:31 +0000 2018",
+            "retweet": 1,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 160,
+            "tweet_count": 166,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 69139",
@@ -1601,17 +1661,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 161,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/cS1D7Ww0vE",
-            "created_at": "Wed May 30 11:30:02 +0000 2018",
+            "tweet_count": 167,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  46370 https://t.co/w1U2yHdjlk",
+            "created_at": "Wed May 30 11:19:30 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 162,
+            "tweet_count": 168,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 83269",
@@ -1621,7 +1681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 163,
+            "tweet_count": 169,
             "username": "Decryptz",
             "user_account": "tokenchatter",
             "text": "Dogecoin social chatter increased 86.92% in the last hour (compared to 24hr avg). #crypto $DOGE $LTC $XVG $SPX $ERC See more at https://t.co/sUl5bVg6vl",
@@ -1631,7 +1691,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 164,
+            "tweet_count": 170,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3389.6205 values from vircurex + coinbase at 05/30/18 06:55 #dogecoin",
@@ -1641,7 +1701,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 165,
+            "tweet_count": 171,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  51447 https://t.co/t876UWMg1o",
+            "created_at": "Wed May 30 10:59:30 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 172,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 58831",
@@ -1651,7 +1721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 166,
+            "tweet_count": 173,
             "username": "Bycryp",
             "user_account": "bycryp",
             "text": "This seller accepts Bitcoin, Litecoin, Bitcoin Cash, Dogecoin, Ether and Monero\n\nBe@rbrick Series 35 Pattern Where’s Wally? 100% https://t.co/3ZiovWwBgt\n\n#buybitcoin #bitcoin #litecoin #dogecoin #monero #ether #bitcoincash #buy #marketplace",
@@ -1661,7 +1731,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 167,
+            "tweet_count": 174,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  43721 https://t.co/XzVvABI0Xx",
+            "created_at": "Wed May 30 10:39:33 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 175,
             "username": "crypto money",
             "user_account": "CryptoFastm417",
             "text": "Phoenix Withdrawal Success Dogecoin ₰ Usd | instant payout | Earn 100000 Dogecoin: https://t.co/Fo2xAbCpbk via @YouTube",
@@ -1671,7 +1751,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 168,
+            "tweet_count": 176,
             "username": "crypto money",
             "user_account": "CryptoFastm417",
             "text": "I added a video to a @YouTube playlist https://t.co/Fo2xAbCpbk Phoenix Withdrawal Success Dogecoin ₰ Usd | instant payout | Earn",
@@ -1681,7 +1761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 169,
+            "tweet_count": 177,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 15268",
@@ -1691,7 +1771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 170,
+            "tweet_count": 178,
             "username": "Blockchainchaser",
             "user_account": "Blockchainchase",
             "text": "Be updated @altillycom a new crypto currency exchanges https://t.co/nOVJrD08iE your in the right place. Join us in public beta. #btc #ethereum #bcd #Dogecoin #Blockchain #Cryptocurrency #ICO #Fedoracoin #Tips #Mooncoin",
@@ -1701,7 +1781,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 171,
+            "tweet_count": 179,
             "username": "Decryptz",
             "user_account": "tokenchatter",
             "text": "aelf social chatter increased 90.89% in the last hour (compared to 24hr avg). #crypto $ELF $XVG $XRP $DOGE $ELF See more at https://t.co/sUl5bVg6vl",
@@ -1711,7 +1791,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 172,
+            "tweet_count": 180,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  51268 https://t.co/Gf7cOWmR6z",
+            "created_at": "Wed May 30 10:19:30 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 181,
             "username": "Ben Verret",
             "user_account": "verretor",
             "text": "@CryptoGoodGuy Here's a long term chart of DOGE/BTC. https://t.co/KVWp2pqny0 https://t.co/ES9lo5oWGB",
@@ -1721,7 +1811,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 173,
+            "tweet_count": 182,
             "username": "Ben Verret",
             "user_account": "verretor",
             "text": "@CryptoGoodGuy Dogecoin shouldn't be taken seriously.",
@@ -1731,7 +1821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 174,
+            "tweet_count": 183,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 88712",
@@ -1741,7 +1831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 175,
+            "tweet_count": 184,
             "username": "Decryptz",
             "user_account": "tokenchatter",
             "text": "Dogecoin social chatter increased 86.23% in the last hour (compared to 24hr avg). #crypto $DOGE $XMR $DASH $ELF $TNB See more at https://t.co/sUl5bVg6vl",
@@ -1751,7 +1841,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 176,
+            "tweet_count": 185,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3386.8215 values from vircurex + coinbase at 05/30/18 05:55 #dogecoin",
@@ -1761,7 +1851,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 177,
+            "tweet_count": 186,
             "username": "s vivek (InstaCrypto)",
             "user_account": "viveks64016190",
             "text": "https://t.co/m3UHBarxtd\nBlockchain Adoption Curve.!!\n#bitcoin #blockchain #cryptoassets \n#ethereum #ethereumclassic #litecoin #bitcoincash #bitcoingold #vertcoin #Cryptocurrency #Dogecoin https://t.co/1orK1UvfYs",
@@ -1771,37 +1861,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 178,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/osKyhpFbX7",
-            "created_at": "Wed May 30 10:00:04 +0000 2018",
+            "tweet_count": 187,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  66414 https://t.co/fcu1WfaBGX",
+            "created_at": "Wed May 30 09:59:30 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 179,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Indian Telecoms Watchdog to Combat Nuisance Calls with Blockchain https://t.co/RRHI7NjUu1 #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #…",
-            "created_at": "Wed May 30 09:56:07 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 180,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "EOS Is Coming, If Anyone Can Figure Out How to Vote https://t.co/ojCSIlaLYS #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #Ne…",
-            "created_at": "Wed May 30 09:56:06 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 181,
+            "tweet_count": 188,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 12623",
@@ -1811,7 +1881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 182,
+            "tweet_count": 189,
             "username": "Manto",
             "user_account": "Manto888",
             "text": "Dogecoin Mining online. Received: 30016.9 DOGE - Transaction Receipt (TXID): https://t.co/0G8Hb33k9R Earn Dogecoin, Register visit: https://t.co/jcYRFnwA94\nWd instant to your wallet https://t.co/KZ0hpHY4bz",
@@ -1821,17 +1891,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 183,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/tTXBxTc5g7",
-            "created_at": "Wed May 30 09:45:02 +0000 2018",
+            "tweet_count": 190,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  11660 https://t.co/BZWwg78Btk",
+            "created_at": "Wed May 30 09:39:30 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 184,
+            "tweet_count": 191,
             "username": "Tamer Üçer",
             "user_account": "ucertamer",
             "text": "@altcoinrookie $doge?",
@@ -1841,7 +1911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 185,
+            "tweet_count": 192,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 50768",
@@ -1851,17 +1921,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 186,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/EM4JwYtwVI",
-            "created_at": "Wed May 30 09:15:01 +0000 2018",
+            "tweet_count": 193,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  94521 https://t.co/b5dPXxtB7e",
+            "created_at": "Wed May 30 09:19:30 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 187,
+            "tweet_count": 194,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 61820",
@@ -1871,7 +1941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 188,
+            "tweet_count": 195,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3380.8275 values from vircurex + coinbase at 05/30/18 04:55 #dogecoin",
@@ -1881,7 +1951,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 189,
+            "tweet_count": 196,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  80315 https://t.co/ywroKyaNnR",
+            "created_at": "Wed May 30 08:59:30 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 197,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 90676",
@@ -1891,7 +1971,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 190,
+            "tweet_count": 198,
             "username": "@CRYPTOPAN_Jr",
             "user_account": "CryptopanJr",
             "text": "@Coin_Shark $DOGE",
@@ -1901,7 +1981,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 191,
+            "tweet_count": 199,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  22077 https://t.co/ChAeHeS3Cc",
+            "created_at": "Wed May 30 08:39:29 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 200,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 29192",
@@ -1911,7 +2001,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 192,
+            "tweet_count": 201,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  23558 https://t.co/iopMXCrhfn",
+            "created_at": "Wed May 30 08:19:30 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 202,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 21500",
@@ -1921,7 +2021,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 193,
+            "tweet_count": 203,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3384.639 values from vircurex + coinbase at 05/30/18 03:55 #dogecoin",
@@ -1931,17 +2031,27 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 194,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "China's Xi Endorses Blockchain As 'Breakthrough' in Economic Reform https://t.co/XbuKvaxD6Y #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa…",
-            "created_at": "Wed May 30 07:56:08 +0000 2018",
+            "tweet_count": 204,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  37395 https://t.co/HuT3dwnaL1",
+            "created_at": "Wed May 30 07:59:29 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 195,
+            "tweet_count": 205,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  77116 https://t.co/Vg5VFMbNzy",
+            "created_at": "Wed May 30 07:39:29 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 206,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 9632",
@@ -1951,7 +2061,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 196,
+            "tweet_count": 207,
             "username": "Kolja A. Rafferty",
             "user_account": "KoljaRafferty",
             "text": "7 Cryptocurrency Predictions for the Rest of 2018 - https://t.co/VtcucbM1nM #news #bitcoin #blockchain #fintech #BTC #cryptocurrency #ICO #crypto #ethereum #dogecoin #robotcoingame #IoT #BigData #AI #ethereum https://t.co/GQ0bdwiCpZ",
@@ -1961,7 +2071,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 197,
+            "tweet_count": 208,
             "username": "Peter Todd",
             "user_account": "peterktodd",
             "text": "This is really misleading.\n\nDogecoin is merge-mined, so the marginal cost to attack it is _zero_; attacking Monero is much more expensive than that.\n\nPrior example: Coiled Coin was merge-mined, and years ago one person with no budget 51% attacked it, killing the coin. https://t.co/ksnxF6jPyr",
@@ -1971,7 +2081,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 198,
+            "tweet_count": 209,
             "username": "TradingView Snaps",
             "user_account": "snapsssss",
             "text": "Dogecoin UP OR DOWN ? $DOGEUSD https://t.co/dd32Btqdoc",
@@ -1981,7 +2091,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 199,
+            "tweet_count": 210,
             "username": "Kryptoknico",
             "user_account": "Kryptoknico",
             "text": "#DOGECOIN PREDICTION #DOGEMOON #MOONDOGE #cryptocurrency https://t.co/jaH99tOkLM",
@@ -1991,7 +2101,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 200,
+            "tweet_count": 211,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  56336 https://t.co/asB1dkpaRU",
+            "created_at": "Wed May 30 07:19:29 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 212,
             "username": "Kryptoknico",
             "user_account": "Kryptoknico",
             "text": "#dogecoin #DOGEUSD chart https://t.co/gjIsW2NrTJ via https://t.co/e3WF2iQwxM #cryptocurrency #bitcoin",
@@ -2001,17 +2121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 201,
-            "username": "Mr AzamInspire",
-            "user_account": "azaminspire",
-            "text": "Dogecoin Mining online. Received: 190.23 DOGE - Transaction Receipt (TXID): https://t.co/FxvwYiIaDA Earn Dogecoin, visit: https://t.co/B8qMIsxLr9",
-            "created_at": "Wed May 30 07:17:35 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 202,
+            "tweet_count": 213,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 28531",
@@ -2021,7 +2131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 203,
+            "tweet_count": 214,
             "username": "NuMoney",
             "user_account": "NuMoney_Store",
             "text": "Dumb coins that actually made it!\nRead more here : https://t.co/IAiOy53GyI \n#dumbcoin #cryptocurrency #Crypto #Dogecoin #Blockchain #investments https://t.co/V3yiF35sJC",
@@ -2031,7 +2141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 204,
+            "tweet_count": 215,
             "username": "Fanky",
             "user_account": "ImFanky",
             "text": "Coinpot Dogecoin Faucets at https://t.co/WhRfE05O3E",
@@ -2041,7 +2151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 205,
+            "tweet_count": 216,
             "username": "Fanky",
             "user_account": "ImFanky",
             "text": "Claim free #Dogecoin at https://t.co/OzcaCir8OM Many bonuses and immediate withdrawal. #Doge #SatoshiFinder https://t.co/NxIGKBTFIt",
@@ -2051,7 +2161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 206,
+            "tweet_count": 217,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "#askastoreaday to accept #bitcoin #startcoin #dogecoin https://t.co/KGZTFtHCQz",
@@ -2061,7 +2171,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 207,
+            "tweet_count": 218,
             "username": "Free Audio Books",
             "user_account": "FreeBooksAudio",
             "text": "#Bitcoin dead? Try something different. Use #audible and get your #dogecoin #altcoin #litecoin game up. Don’t get left behind! https://t.co/7KVwfumULB  A $14.95 value #doge #ltc #btc #crypto #passiveincome #investing #eth #invest #money",
@@ -2071,7 +2181,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 208,
+            "tweet_count": 219,
             "username": "PinkExc",
             "user_account": "pinkexc",
             "text": "Now we have Bitcoin, Litecoin and Dogecoin instant buy and sell.\nVisit our website https://t.co/30fQDzAawz\n\n#pinkexconline #btc #ltc #doge https://t.co/qWTxeQlskq",
@@ -2081,7 +2191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 209,
+            "tweet_count": 220,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/RfECfa8KuN #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #DTLV",
@@ -2091,7 +2201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 210,
+            "tweet_count": 221,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/RfECfa8KuN #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #18b https://t.co/L5b3D8PUlW",
@@ -2101,7 +2211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 211,
+            "tweet_count": 222,
             "username": "All Crypto Promo LV",
             "user_account": "CryptocrawlLV",
             "text": "Vote for us on https://t.co/EZPDZoATqV https://t.co/RfECfa8KuN #dogecoin keep voting thanks #Bitcoin #dogecoin #vegas #18b #askastoreaday https://t.co/FqtbG27PNL",
@@ -2111,7 +2221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 212,
+            "tweet_count": 223,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3374.883 values from vircurex + coinbase at 05/30/18 02:55 #dogecoin",
@@ -2121,7 +2231,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 213,
+            "tweet_count": 224,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  93657 https://t.co/E60csozyFj",
+            "created_at": "Wed May 30 06:59:29 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 225,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 63725",
@@ -2131,7 +2251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 214,
+            "tweet_count": 226,
             "username": "Kevin Budd",
             "user_account": "shikikugunsen",
             "text": "Kucoin is 100% OPEN! TRADE BITCOIN here:\n\nCLICK ▶️ https://t.co/Nf3RnZk4tz\n\n✅KUCOIN ($btc #btc #bitcoin)\n❌Poloniex \n❌Bittrex  \n❌Binance \n\n👍🏽  $BTC $DOGE $PPT $EOS $GNO $ADA $LTC $XRP $BCH $ETH https://t.co/B06JEsfr8d",
@@ -2141,7 +2261,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 215,
+            "tweet_count": 227,
             "username": "Berkley R. Bruce",
             "user_account": "DragonShadowLV",
             "text": "Never miss an opportunity to buy the dips with Binance App! https://t.co/LTwONooCDg #tech #mobile #crypto $BTC $LTC $XVG $ZCL $TRX $ETH $ETC $BCH $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $STRAT $NEO $LUX $SC $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $MONA $AMP https://t.co/mttPqpcvLt",
@@ -2151,7 +2271,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 216,
+            "tweet_count": 228,
             "username": "DecentralPost",
             "user_account": "DecentralPost",
             "text": "Cryptocurrency analyst: Bitcoin to test $5,500 – $5,700 – then recovery\n\nhttps://t.co/3g78r3eZrL\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV",
@@ -2161,7 +2281,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 217,
+            "tweet_count": 229,
             "username": "hoatruong29",
             "user_account": "hoatruong29",
             "text": "Dogecoin Go To The Moon: https://t.co/0LCroHavRn qua @YouTube",
@@ -2171,17 +2291,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 218,
-            "username": "Clara Cantanto",
-            "user_account": "ClaraCantanto",
-            "text": "#Retweet and #Follow @ClaraCantanto to #win 1Ethereum, #bitcoin \n\nhttps://t.co/KvP48lIfWL \n\n#ethereum #Blockchain #ICO #cryptocurrency #crypto #token #Ether #bitcoin #fintech #news #dogecoin #free #airdrops #bounty #pips #trade #forex #tokens #F4F #ETH #btc #finance #money #love https://t.co/aPd9Q6QCnU",
-            "created_at": "Wed May 30 06:37:11 +0000 2018",
-            "retweet": 8,
-            "likes": 8,
+            "tweet_count": 230,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  46559 https://t.co/iPuUHhB1m0",
+            "created_at": "Wed May 30 06:39:29 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 219,
+            "tweet_count": 231,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 15351",
@@ -2191,17 +2311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 220,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Get Free Cryptocurrency at EarnCrypto https://t.co/zhprwH9VvF $MYST $VIA $DOGE 🎉🎉FREE COINS! 🎉🎉 https://t.co/8NNYvuBolH",
-            "created_at": "Wed May 30 06:30:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 221,
+            "tweet_count": 232,
             "username": "DIMACRYPTOZ_RN",
             "user_account": "XDIMACX",
             "text": "LOYAL Coin is now in this exchange.\nLYL/BTC\nLYL/LTC\nLYL/DOGE\nRegister &amp; create an account at Cryptopia .\nhttps://t.co/Dmq8tLHFUS\n #LYL #LoyalCoin #BTC #Bitcoin #LTC #LiteCoin #DOGE #DogeCoin https://t.co/34SfzkVZGG",
@@ -2211,17 +2321,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 222,
-            "username": "Jhon Stratman",
-            "user_account": "JhonStratman",
-            "text": "#Retweet and #Follow @JhonStratman to #win 1Ethereum, #bitcoin   \n\nhttps://t.co/3F5TmlmjDK … … … … … … \n\n#ethereum #Blockchain #ICO #cryptocurrency #crypto #token #Ether #bitcoin #fintech #news #dogecoin #free #airdrops #bounty #pips #trade #forex #token #tokens #F4F #ETH https://t.co/OJDEwDGdZu",
-            "created_at": "Wed May 30 06:20:25 +0000 2018",
-            "retweet": 3,
-            "likes": 5,
+            "tweet_count": 233,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  95222 https://t.co/VRNj3rK2ir",
+            "created_at": "Wed May 30 06:19:29 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 223,
+            "tweet_count": 234,
             "username": "Sitaram chettri",
             "user_account": "Sitaram40282917",
             "text": "Dogecoin Mining online. Received: 859.96 DOGE - Transaction Receipt (TXID): https://t.co/NE59UXWIEu Earn Dogecoin",
@@ -2231,7 +2341,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 224,
+            "tweet_count": 235,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 57889",
@@ -2241,7 +2351,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 225,
+            "tweet_count": 236,
             "username": "LuckyAltcoin",
             "user_account": "Lucky_Altcoin",
             "text": "funny #dogecoin and #bitcoin shirts! https://t.co/XfqkT6Snra",
@@ -2251,7 +2361,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 226,
+            "tweet_count": 237,
             "username": "Emily Smith",
             "user_account": "Emcrypto_Fox",
             "text": "Market Cap: 330,139,146,372 $\n\nHURRY! Binance is currently accepting new users\n\n➡️https://t.co/hQTdA6fkUo\n\n$DOGE $BNB $BCN $XZC $SC $SNT $ONT $KMD $BAT $QTUM $NEO $XMR $BCD $XLM $AE $ZIL $ELF $WAVES $RDD $MONA $HT $BNT $THETA https://t.co/Sshsw0b5Zs",
@@ -2261,7 +2371,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 227,
+            "tweet_count": 238,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3390.876 values from vircurex + coinbase at 05/30/18 01:55 #dogecoin",
@@ -2271,7 +2381,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 228,
+            "tweet_count": 239,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  66972 https://t.co/3hVElZXP7v",
+            "created_at": "Wed May 30 05:59:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 240,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 6631",
@@ -2281,17 +2401,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 229,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "6 Outrageous Moments In Crypto Twitter Scam History https://t.co/5O2uUGwUUk #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #Ne…",
-            "created_at": "Wed May 30 05:51:07 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 230,
+            "tweet_count": 241,
             "username": "analyst5",
             "user_account": "analyst5_bot",
             "text": "#crypto mkt cap last hour\n\n🚀\n$BTC +283.794m\n$ETH +250.545m\n$XRP +172.749m\n\n🌧️\n$DOGE -2.386m\n$WAVES -1.692m\n$RLC -1.622m\n\n#bitcoin #cryptocurrency",
@@ -2301,7 +2411,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 231,
+            "tweet_count": 242,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  94813 https://t.co/Pg4n2JtE0D",
+            "created_at": "Wed May 30 05:39:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 243,
             "username": "Cryptosima",
             "user_account": "cryptosima",
             "text": "John McAfee launching “McAfee Coin” – a crypto-backed fiat currency\n\nhttps://t.co/UmTd3sdc0d\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $MED $POWR $VTC $LUX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV",
@@ -2311,7 +2431,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 232,
+            "tweet_count": 244,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 84190",
@@ -2321,7 +2441,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 233,
+            "tweet_count": 245,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  27240 https://t.co/BqdcLaZbtv",
+            "created_at": "Wed May 30 05:19:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 246,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 38426",
@@ -2331,7 +2461,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 234,
+            "tweet_count": 247,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3387.069 values from vircurex + coinbase at 05/30/18 00:55 #dogecoin",
@@ -2341,17 +2471,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 235,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/U26JVpGHNy",
-            "created_at": "Wed May 30 05:00:03 +0000 2018",
+            "tweet_count": 248,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  73161 https://t.co/x3zoR0Gbuy",
+            "created_at": "Wed May 30 04:59:28 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 236,
+            "tweet_count": 249,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 97676",
@@ -2361,17 +2491,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 237,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "🎉🎉Play games,chat with people, claim $btc $blk $ltc $doge $dash and much more!😜😝😉 https://t.co/pzoScXwjs9 https://t.co/tX1CBgZkIy",
-            "created_at": "Wed May 30 04:45:01 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 238,
+            "tweet_count": 250,
             "username": "Alejandro Ortiz Lozano",
             "user_account": "Alejand65759065",
             "text": "Moon Dogecoin - The dogecoin faucet where YOU decide when to claim! https://t.co/48WKfFmx9O #dogecoin #faucet vía @Moon_Dogecoin",
@@ -2381,7 +2501,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 239,
+            "tweet_count": 251,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  66268 https://t.co/AjUepYyEAc",
+            "created_at": "Wed May 30 04:39:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 252,
             "username": "DOGE Economist",
             "user_account": "Dogeeconomist",
             "text": "Doge Coin mining contract @ 24-Hour ! Dogecoin Mined Free USA Shipping and NR | eBay https://t.co/CLgRTO6vGs",
@@ -2391,7 +2521,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 240,
+            "tweet_count": 253,
             "username": "DOGE Economist",
             "user_account": "Dogeeconomist",
             "text": "51.Doge Coin mining contract @ 12-Hour ! Dogecoin Mined Free USA Shipping and NR https://t.co/rJWVuX3nLZ https://t.co/P6d738gmKA",
@@ -2401,7 +2531,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 241,
+            "tweet_count": 254,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 43558",
@@ -2411,7 +2541,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 242,
+            "tweet_count": 255,
             "username": "Nimit Makwana",
             "user_account": "Nimitmak",
             "text": "PHEONIX #Airdrop!!!\n20000 PHX(100$) for first 10000. Hurry!!\n \nhttps://t.co/7A4Tf59wRK\n\n#Freecoin $ETH $snm $TNB $TNT $poe $LTC $VEN $DOGE $icx $icn $wtc $QTUM $zrx $NEO $XMR $xlm $ADA $sngls $iost $BTC $AE $zen $npxs $PPT $ONT $zrx $arn $mlt $BCC $CMT $LUN $ELF $wan",
@@ -2421,7 +2551,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 243,
+            "tweet_count": 256,
             "username": "sudin",
             "user_account": "sudin57652486",
             "text": "@chrishiggins_yt Usefull video thanks dogecoin address DPxscXes5nEXZUdt1jPyunRUv676MGxymq",
@@ -2431,17 +2561,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 244,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "No $$ to invest? NO problem! Free Doge Coin - https://t.co/jUf2MHtUVf https://t.co/n6c6ZVJmCu https://t.co/o9ME5s8dPO https://t.co/c0iJLXL9n1",
-            "created_at": "Wed May 30 04:15:02 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 245,
+            "tweet_count": 257,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 78008",
@@ -2451,7 +2571,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 246,
+            "tweet_count": 258,
             "username": "⚒️ marsh ⚒️",
             "user_account": "dogecoin_trader",
             "text": "@sethdunlap @WWLAMFM Randall cunningham?",
@@ -2461,7 +2581,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 247,
+            "tweet_count": 259,
             "username": "ĘG ❁ I support EUNO",
             "user_account": "EmanuelCoin",
             "text": "@Fullbeerbottle You hide it well.  Is it mostly #dogecoin from internet faucets?",
@@ -2471,17 +2591,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 248,
-            "username": "stout549",
-            "user_account": "stout549",
-            "text": "Cointiply is a premium faucet with high-paying offerwalls where you can earn a lot of Bitcoin or Dogecoin. \nThey have a great Mining Game, too, that makes it fun to earn. Check out my Mine below.\nhttps://t.co/dNQqKYRwSd\nhttps://t.co/bmGNSjp6z3",
-            "created_at": "Wed May 30 04:01:41 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 249,
+            "tweet_count": 260,
             "username": "Decryptz",
             "user_account": "tokenchatter",
             "text": "Verge social chatter increased 47.17% in the last hour (compared to 24hr avg). #crypto $XVG $ICX $LSK $ETN $DOGE See more at https://t.co/sUl5bVg6vl",
@@ -2491,7 +2601,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 250,
+            "tweet_count": 261,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3392.6715 values from vircurex + coinbase at 05/29/18 23:55 #dogecoin",
@@ -2501,7 +2611,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 251,
+            "tweet_count": 262,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  73171 https://t.co/JNrO6LAZl3",
+            "created_at": "Wed May 30 03:59:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 263,
             "username": "Braian",
             "user_account": "Vitao66182257",
             "text": "@chrishiggins_yt Dogecoin andress DAqF2GgYaLw1AaRXoGqS8HHhRArxqMysM6",
@@ -2511,7 +2631,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 252,
+            "tweet_count": 264,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 65360",
@@ -2521,7 +2641,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 253,
+            "tweet_count": 265,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  35714 https://t.co/q5QqG2TWSK",
+            "created_at": "Wed May 30 03:39:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 266,
             "username": "CardboardandCoinscom 🇺🇸",
             "user_account": "CardboardnCoins",
             "text": "NOW YOU'RE TALKING!!   GO #DOGECOIN GO!!  https://t.co/64LmEi4PA1",
@@ -2531,7 +2661,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 254,
+            "tweet_count": 267,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 70795",
@@ -2541,7 +2671,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 255,
+            "tweet_count": 268,
             "username": "Emily Smith",
             "user_account": "Emcrypto_Fox",
             "text": "Market Cap: 330,761,154,410 $\n\nHURRY! Binance is currently accepting new users\n\n➡️https://t.co/hQTdA6fkUo\n\n$BTM $DOGE $ICX $RHOC $ONT $BAT $BCH $BNT $XIN $GNT $EOS $ZIL $ETH $XLM $ELF $NEO $CENNZ $SKY $MAID $BTG $NAS $FUN $LTC https://t.co/MHppNyQBQv",
@@ -2551,7 +2681,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 256,
+            "tweet_count": 269,
             "username": "Bit Brasil",
             "user_account": "brasil_bit",
             "text": "HASHDOGE - PROVA DE PAGAMENTO (PAYMENT PROOF) - NOVA MINERADORA DOGECOIN / DOGE MINING - HASH DOGE: https://t.co/eQtPPeIiyl via",
@@ -2561,7 +2691,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 257,
+            "tweet_count": 270,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  24811 https://t.co/KWTR0gopx5",
+            "created_at": "Wed May 30 03:19:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 271,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 56025",
@@ -2571,7 +2711,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 258,
+            "tweet_count": 272,
             "username": "NgoXuanLoc",
             "user_account": "xuanloc20102001",
             "text": "Update free token everday!!! Join mu channel: https://t.co/z9Tk9okiwY #airdrop #freetokens #btc #ethereum #dogecoin#knc#btg#neo",
@@ -2581,7 +2721,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 259,
+            "tweet_count": 273,
             "username": "harpreet1995",
             "user_account": "hs47641",
             "text": "I liked a @YouTube video https://t.co/lE2L4L9vZg Free 10 DH Mining Bonus | Invesing 400 Dogecoin In https://t.co/mYhKptBsnZ Live | Earn",
@@ -2591,7 +2731,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 260,
+            "tweet_count": 274,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3402.6165 values from vircurex + coinbase at 05/29/18 22:55 #dogecoin",
@@ -2601,7 +2741,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 261,
+            "tweet_count": 275,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  81913 https://t.co/VYtWYFdGE4",
+            "created_at": "Wed May 30 02:59:28 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 276,
             "username": "Emily Smith",
             "user_account": "Emcrypto_Fox",
             "text": "Market Cap: 333,930,481,799 $\n\nBinance - Best Cryptocurrency Exchanges. Register Now!\n\n➡️https://t.co/hQTdA6fkUo\n\n$DGD $RLC $DOGE $DRGN $IOST $GXS $SNT $LSK $MITH $ELF $RHOC $OMG $XZC $ARDR $HT $ZIL $MYB $REP $XRP $POLY $SUB $MAID $ETN https://t.co/060VBbNnRN",
@@ -2611,7 +2761,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 262,
+            "tweet_count": 277,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 37479",
@@ -2621,7 +2771,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 263,
+            "tweet_count": 278,
             "username": "2Sat 🎸",
             "user_account": "onttwiter",
             "text": "@VentureCoinist @TimDraper Wuts this, doge coin?",
@@ -2631,7 +2781,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 264,
+            "tweet_count": 279,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  20130 https://t.co/bbtsa3oMAn",
+            "created_at": "Wed May 30 02:39:28 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 280,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 78608",
@@ -2641,7 +2801,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 265,
+            "tweet_count": 281,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  87566 https://t.co/wVfO2Ol29m",
+            "created_at": "Wed May 30 02:19:27 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 282,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 56978",
@@ -2651,17 +2821,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 266,
-            "username": "Crypto$Panter",
-            "user_account": "panter993",
-            "text": "Ethereum Classic Claims Successful Blockchain Fork https://t.co/pQfmPGB7jR #tron #trx #tron #dogecoin #RDD #IOST #Yee #xvg #vergecurrency #Vergefam #IOTA #XMR #xrp #coinmarketcap #stellar #xlm #ADA #NEO #TRX #tron #RBX #icx #icon #DeepOnion #DGB #Ethos #Zilliqa #aelf #LINK #Neb…",
-            "created_at": "Wed May 30 02:01:18 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 267,
+            "tweet_count": 283,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3396.42 values from vircurex + coinbase at 05/29/18 21:55 #dogecoin",
@@ -2671,7 +2831,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 268,
+            "tweet_count": 284,
             "username": "CryptoWorld",
             "user_account": "CryptoWor1d",
             "text": "Best #Dogecoin #faucet of the day, voted 3 times is #Moon DogeCoin https://t.co/ND4YFn5bJn Total votes: 197",
@@ -2681,17 +2841,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 269,
-            "username": "Mr AzamInspire",
-            "user_account": "azaminspire",
-            "text": "Dogecoin Mining online. Received: 555.99 DOGE - Transaction Receipt (TXID): https://t.co/M9ZwIU0uB2 Earn Dogecoin, visit: https://t.co/B8qMIsxLr9",
-            "created_at": "Wed May 30 01:54:36 +0000 2018",
+            "tweet_count": 285,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  89575 https://t.co/mUzCqTr1eG",
+            "created_at": "Wed May 30 01:59:27 +0000 2018",
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 270,
+            "tweet_count": 286,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 80496",
@@ -2701,7 +2861,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 271,
+            "tweet_count": 287,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  50497 https://t.co/QERfJCSxHR",
+            "created_at": "Wed May 30 01:39:27 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 288,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 4509",
@@ -2711,7 +2881,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 272,
+            "tweet_count": 289,
             "username": "FPOC",
             "user_account": "FPOCrypto",
             "text": "@stunad620 It’s a great way to buy doge coin...",
@@ -2721,7 +2891,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 273,
+            "tweet_count": 290,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  82724 https://t.co/7nuCIft76m",
+            "created_at": "Wed May 30 01:19:27 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 291,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 39748",
@@ -2731,7 +2911,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 274,
+            "tweet_count": 292,
             "username": "Manto",
             "user_account": "Manto888",
             "text": "Dogecoin Mining online. Received: 3042.43 DOGE - Transaction Receipt (TXID): https://t.co/3cGTCdMwL5 Earn Dogecoin, visit: free mining https://t.co/jcYRFnwA94 https://t.co/ix0OpZns8L",
@@ -2741,7 +2921,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 275,
+            "tweet_count": 293,
             "username": "LucisDollar",
             "user_account": "LucisDollar",
             "text": "UK Financial Regulator Launches 24 Cryptocurrency Investigations\n#ethereum #cryptocurrency #eth #bitcoin #btc #altcoin #ltc #dogecoin #doge #Blockchain #Litecoin #ICO https://t.co/Bi9DUNMd4D",
@@ -2751,7 +2931,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 276,
+            "tweet_count": 294,
             "username": "Manto",
             "user_account": "Manto888",
             "text": "Dogecoin Mining online. Received: 3042.43 DOGE - Transaction Receipt (TXID): https://t.co/3cGTCdMwL5 Earn Dogecoin, visit: free mining https://t.co/jcYRFneZhw",
@@ -2761,7 +2941,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 277,
+            "tweet_count": 295,
             "username": "Manto",
             "user_account": "Manto888",
             "text": "Dogecoin Mining online. Received: 57.87 DOGE - Transaction Receipt (TXID): https://t.co/3enwXeaPXk Earn Dogecoin, visit: free mining  https://t.co/jcYRFnwA94",
@@ -2771,7 +2951,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 278,
+            "tweet_count": 296,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3394.134 values from vircurex + coinbase at 05/29/18 20:55 #dogecoin",
@@ -2781,7 +2961,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 279,
+            "tweet_count": 297,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  85515 https://t.co/6uS3btvVw3",
+            "created_at": "Wed May 30 00:59:27 +0000 2018",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 298,
             "username": "Manto",
             "user_account": "Manto888",
             "text": "Dogecoin Mining online. Received: 180.84 DOGE - Transaction Receipt (TXID): https://t.co/NMlqYhPOEu \nFree mining register https://t.co/h5beN858RX",
@@ -2791,7 +2981,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 280,
+            "tweet_count": 299,
             "username": "Emily Smith",
             "user_account": "Emcrypto_Fox",
             "text": "Market Cap: 329,799,565,271 $\n\nWe checked! Binance registration is currently open\n\n➡️https://t.co/hQTdA6fkUo\n\n$BTC $ARDR $ADA $GXS $MAID $XVG $BTG $DOGE $DGD $POLY $NEO $ZRX $QTUM $STORM $ARK $NXS $HOT $ZEC $ETH $QASH $NULS $ETC $SC https://t.co/WmfsMXUVG0",
@@ -2801,7 +2991,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 281,
+            "tweet_count": 300,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 28527",
@@ -2811,17 +3001,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 282,
-            "username": "Lynn",
-            "user_account": "LynnTranxZ",
-            "text": "Ethereum Classic $ETC price: $15.29 \n\nHURRY! Binance is currently accepting new users 🤔 😊  \n\n➡️ https://t.co/25vh9LOPru\n\n$LEND $XP $IOP $PPC $FAIR $MUSIC $NGC $SEND $FLIK $RCT $RIC $BTS $DOGE $STRAT $PAY $OCT $POWR $XCP $ETH $SUB $BTX $ALIS $XBY https://t.co/KsBlrsZB6x",
-            "created_at": "Wed May 30 00:38:42 +0000 2018",
+            "tweet_count": 301,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  21824 https://t.co/R2XWMAU6rT",
+            "created_at": "Wed May 30 00:39:27 +0000 2018",
             "retweet": 0,
-            "likes": 0,
+            "likes": 1,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 283,
+            "tweet_count": 302,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 92070",
@@ -2831,17 +3021,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 284,
-            "username": "Mr AzamInspire",
-            "user_account": "azaminspire",
-            "text": "Dogecoin Mining online. Received: 108.16 DOGE - Transaction Receipt (TXID): https://t.co/su2IKWJfnY Earn Dogecoin, visit: https://t.co/B8qMIsxLr9",
-            "created_at": "Wed May 30 00:22:48 +0000 2018",
+            "tweet_count": 303,
+            "username": "Sarah Janet",
+            "user_account": "sarahjanettweet",
+            "text": "don't miss out on registering on Binance, before they close registrations again\n\n https://t.co/T8ltsU8JJe\n\n $BTC $ZCL $ETH $ETC $BCH $LTC $XRP $DASH $BTG $XLM $XMR $ZEC $ADA $SNT $NEO $NXT $OMG $POWR $VTC $VOX $XEM $LSK $DGB $DOGE $COVAL $XVG $GRS $AMP $strat $sc $XRB $NAV  87327 https://t.co/8epjxIb1gt",
+            "created_at": "Wed May 30 00:19:27 +0000 2018",
             "retweet": 0,
-            "likes": 1,
+            "likes": 0,
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 285,
+            "tweet_count": 304,
             "username": "Chris Jordan",
             "user_account": "ChrisJordanTwit",
             "text": "Looking for honest and profitable trading calls, recommendations and advice, join:\n\nhttps://t.co/yLJvy1pghP\n\n$BTC $ETH $ETC $BCH $LTC $XRP $DASH $XLM $XMR $ZEC $ADA $SYS $NEO $LUX $OMG $POWR $VTC $XEM $LSK $DGB $DOGE $XVG $VEN $ICX $ZCL $DRGN $WTC $IC $TRX $QTUM $LSK $ZRX 28350",
@@ -2851,7 +3041,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 286,
+            "tweet_count": 305,
             "username": "Pleb Bitcoin",
             "user_account": "ohiobitcoin",
             "text": "Dogecoin – Hits $1B – Doge Moon Incoming! https://t.co/7VILy27gaW #bitcoin #bitcoinprice #BTCtoUSD #btcprice",
@@ -2861,23 +3051,13 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 287,
+            "tweet_count": 306,
             "username": "dogecointicker",
             "user_account": "dogecointicker",
             "text": "Current approx. value of 1M DOGE in USD: $3368.25 values from vircurex + coinbase at 05/29/18 19:55 #dogecoin",
             "created_at": "Wed May 30 00:00:31 +0000 2018",
             "retweet": 0,
             "likes": 2,
-            "retweeted_tweet": null
-        },
-        {
-            "tweet_count": 288,
-            "username": "CryptoQueen",
-            "user_account": "CryptoisSexy",
-            "text": "Don't let lack of $$ be an excuse not to enter #crypto 🎉🎉FREE🎉🎉 $doge Blood PackDOGE https://t.co/qRYpLt10GW https://t.co/3k7QNWUQLu",
-            "created_at": "Wed May 30 00:00:03 +0000 2018",
-            "retweet": 0,
-            "likes": 0,
             "retweeted_tweet": null
         }
     ]

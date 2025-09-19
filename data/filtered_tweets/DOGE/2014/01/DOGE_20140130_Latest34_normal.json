@@ -1,7 +1,27 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "Someone asked me to turn Kabosu into a Husky. Challenge accepted - Much disguise, very snow wow http://t.co/0P1sfagXFf r",
+            "created_at": "Thu Jan 30 23:59:11 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "YCN",
+            "user_account": "YourCryptoNews",
+            "text": "#bitcoin Dogecoin Raises $7K for Indian Olympians, But Hurdles Remain http://t.co/3gZD0oZKpS",
+            "created_at": "Thu Jan 30 23:58:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
             "username": "Runa Sandvik",
             "user_account": "runasand",
             "text": "@JoeBeOne @matthew_d_green Raise your hand if you think Dogecoin is the best altcoin ever!",
@@ -11,7 +31,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 2,
+            "tweet_count": 4,
             "username": "Bitcoin Warrior",
             "user_account": "Bitcoin_Win",
             "text": "Dogecoin Raises $7K for Indian Olympians, But Hurdles Remain #ZeroBlock http://t.co/OJ9j6RxmMa",
@@ -21,7 +41,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 3,
+            "tweet_count": 5,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nVircurex 0.00000188\nCryptsy  0.00000186\nCoins-E 0.00000189\nAverage: $0.001773USD per #dogecoin",
+            "created_at": "Thu Jan 30 23:57:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
             "username": "zach sims",
             "user_account": "zsims",
             "text": "@fascinated dogecoin is so…",
@@ -31,7 +61,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 4,
+            "tweet_count": 7,
             "username": "Sahil Khan",
             "user_account": "sahilk",
             "text": "Dogecoin Community Springs into Action to get Indian Luger to Winter Olympics - Raises over $6000 in 20 hrs http://t.co/FD7GJT08na",
@@ -41,7 +71,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 5,
+            "tweet_count": 8,
             "username": "Talkchain App",
             "user_account": "talkchainapp",
             "text": "Paul said “Year of the Doge: 2018” in DOGEcoin group on #bitcoinchat for iPhone https://t.co/KuNqjrZPlI #btc predictions #dogecoin",
@@ -51,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 6,
+            "tweet_count": 9,
             "username": "Reddit The Alien",
             "user_account": "reddit_feed",
             "text": "Today I donated all the pizza 50k Dogecoin could buy to the local homeless shelter:    submitted by  myniga562... http://t.co/u32QWdxZvr",
@@ -61,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 7,
+            "tweet_count": 10,
             "username": "i",
             "user_account": "crispywizard",
             "text": "didn't know dogecoin is an actual currency. wow. much surprise.",
@@ -71,7 +101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 11,
             "username": "🦋@adamtuttle.codes",
             "user_account": "AdamTuttle",
             "text": "@ETDWN doge coin, of course",
@@ -81,7 +111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 12,
             "username": "Diego Basch",
             "user_account": "dbasch",
             "text": "Twitter word cloud for #dogecoin http://t.co/02KJZJTsXi",
@@ -91,7 +121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 13,
             "username": "Alfredo Trabulsi",
             "user_account": "atra_intelexis",
             "text": "Donate some DOGECOIN to help a good cause - copy and paste my address: DSq2LAWsL3g3wY4g7zXxEAirnCmFvS4mRj",
@@ -101,7 +131,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 14,
             "username": "Alfredo Trabulsi",
             "user_account": "atra_intelexis",
             "text": "who is able to help me with some DOGECOIN? here is my address: DSq2LAWsL3g3wY4g7zXxEAirnCmFvS4mRj",
@@ -111,7 +141,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 15,
             "username": "worldnewsplease",
             "user_account": "worldnewsplease",
             "text": "http://t.co/tKBpmzGjLf Dogecoin Community Springs into Action to get Indian Luger to the Winter Olympics - Raises over $6000 in just 2...",
@@ -121,7 +151,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 13,
+            "tweet_count": 16,
             "username": "Mobile Cellphone",
             "user_account": "mobilecell",
             "text": "Dogecoin charity funds another team for 2014 Sochi Winter Olympics http://t.co/a8pjCzZxn2",
@@ -131,7 +161,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 14,
+            "tweet_count": 17,
             "username": "L. Doebler",
             "user_account": "Ldoebs",
             "text": "2mil dogecoins raised to bring pizzas to homeless shelter: http://t.co/fmrlDQnWmj",
@@ -141,7 +171,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 15,
+            "tweet_count": 18,
+            "username": "YCN",
+            "user_account": "YourCryptoNews",
+            "text": "Re: ATI R9 280X GPU Scrypt Mining Server Rig for Litecone Dogecoin, Bitcoin  http://t.co/vThn4NyWxk",
+            "created_at": "Thu Jan 30 23:48:45 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
             "username": "The Bitcoin News 🚀₿",
             "user_account": "TheBitcoinNews",
             "text": "Bitcoin News: Dogecoin Raises $7K for Indian Olympians, But Hurdles Remain http://t.co/3TGfbUU07F",
@@ -151,7 +191,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 16,
+            "tweet_count": 20,
             "username": "Stephen",
             "user_account": "smileysteve",
             "text": "@colinake Then DogeCoin would have to get on the train.",
@@ -161,7 +201,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 17,
+            "tweet_count": 21,
             "username": "Ryan Heil",
             "user_account": "rlheil",
             "text": "@ndavis_28 @BigFun4040 doge coin I think is the frontrunner to follow bitcoin. Coinye is my personal favorite cause of the name.",
@@ -171,7 +211,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 18,
+            "tweet_count": 22,
             "username": "AltCoin Tracker",
             "user_account": "AltCoinTracker",
             "text": "Now providing QR Codes � easy way to add coin to your addresses http://t.co/2eU7TQH5y3 #bitcoin #dogecoin #feathercoin #litecoin",
@@ -181,7 +221,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 19,
+            "tweet_count": 23,
             "username": "treats.io",
             "user_account": "treatsio",
             "text": "Pizzas for charity, all because of #dogecoin http://t.co/lHmsqmrvpd",
@@ -191,7 +231,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 20,
+            "tweet_count": 24,
             "username": "GLCBitcoin",
             "user_account": "glcbitcoin",
             "text": "Dogecoin Raises $7K for Indian Olympians, But Hurdles Remain: Reddit's dogecoin community raised 4.2m dogecoin... http://t.co/UaT0AIy4PC",
@@ -201,7 +241,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 21,
+            "tweet_count": 25,
             "username": "Luke Rudkowski",
             "user_account": "Lukewearechange",
             "text": "just got a @dogecoin wallet so ppl could support real independent media w/ real indie crypto currencies D7DeA1rwQGkpRaMLgQ1Z9jENLnrj6QvJJp",
@@ -211,7 +251,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 22,
+            "tweet_count": 26,
             "username": "Alex_dlc",
             "user_account": "Alex_dlc",
             "text": "@drbarnard if he had said dogecoin instead......",
@@ -221,7 +261,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 23,
+            "tweet_count": 27,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nVircurex 0.00000192\nCryptsy  0.00000186\nCoins-E 0.00000188\nAverage: $0.001775USD per #dogecoin",
+            "created_at": "Thu Jan 30 23:42:26 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
             "username": "Blockchain Cards 👑",
             "user_account": "BlockchainCards",
             "text": "@joeroxor @dogecoin @DogeTheDog Oh crap I gave you the USA price...can you send an extra 3000 Doge for shipping?",
@@ -231,7 +281,17 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 24,
+            "tweet_count": 29,
+            "username": "coinspipe.com",
+            "user_account": "coinspipe",
+            "text": "#bitcoin #dogecoin Mad Money Machine #5 - Role Playing: http://t.co/FVeON0iKAf http://t.co/ASjFlOfWLq",
+            "created_at": "Thu Jan 30 23:38:04 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
             "username": "Toys Games",
             "user_account": "toygamedeal",
             "text": "Dogecoin Raises $7K for Indian Olympians, But Hurdles Remain: as well as the secretary general of the Winter G... http://t.co/qGFKYxOX0F",
@@ -241,7 +301,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 25,
+            "tweet_count": 31,
             "username": "Polo Rocha",
             "user_account": "polorocha18",
             "text": "Dogecoin and Coinye West http://t.co/j2RwUmuIzI",
@@ -251,7 +311,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 26,
+            "tweet_count": 32,
             "username": "Bitcoin Bolt",
             "user_account": "BitcoinBolt",
             "text": "☞ Dogecoin Raises $7K for Indian Olympians, But Hurdles Remain http://t.co/6w4JOYycu0",
@@ -261,7 +321,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 27,
+            "tweet_count": 33,
             "username": "Jᴀᴠɪᴇʀ Aᴘᴀʀɪᴄɪᴏ 🏜️",
             "user_account": "jjaparicio",
             "text": "Dogecoin Community Springs into Action to get Indian Luger to the Winter Olympics http://t.co/vfWiRry0V2",
@@ -271,7 +331,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 28,
+            "tweet_count": 34,
             "username": "Cryptographic Coins",
             "user_account": "CryptoCoinsInfo",
             "text": "Dogecoin cryptocurrency donors help send Indian athletes to Sochi: Dogecoin cryptocurrency donors help send In... http://t.co/Klk69Q5MUK",

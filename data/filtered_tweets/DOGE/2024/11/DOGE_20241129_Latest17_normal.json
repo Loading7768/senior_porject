@@ -1,4 +1,4 @@
-{
+﻿{
     "dogecoin": [
         {
             "tweet_count": 1,
@@ -62,6 +62,16 @@
         },
         {
             "tweet_count": 7,
+            "username": "Ɖｏｇｅ_Ａｌｂ",
+            "user_account": "doge_albania",
+            "text": "Dogecoin 🚀 https://t.co/ty6THyzM2C",
+            "created_at": "Fri Nov 29 23:59:24 +0000 2024",
+            "retweet": 3,
+            "likes": 11,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
             "username": "JoeyT17_Fox",
             "user_account": "Joe_L16528",
             "text": "@doge_mom Dogecoin",
@@ -71,7 +81,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 8,
+            "tweet_count": 9,
             "username": "Matthew Gingell",
             "user_account": "MtGin4",
             "text": "@dogecoin_empire Real you. Color doesn't matter",
@@ -81,7 +91,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 9,
+            "tweet_count": 10,
             "username": "Type1Future",
             "user_account": "Type1Future",
             "text": "I have no doubt those loopholes allowed more illegal migrants to abuse the system under by the Biden/Harris administration in the last 4 years. The IRS will require a serious audit and Elon will be the one to get it done!\n#USA #MAGA #DOGE $DOGE @elonmusk",
@@ -91,7 +101,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 10,
+            "tweet_count": 11,
             "username": "TheMandalorian(BTC/ETH/SOL/QQQ/SPX)",
             "user_account": "ZG121015",
             "text": "First ever long alert on $DOGEUSD #Dogecoin when it was .0299",
@@ -101,7 +111,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 11,
+            "tweet_count": 12,
             "username": "The Under Doge",
             "user_account": "TheUnderDoge3",
             "text": "@dogecoin_empire Idk, they’re both nice. Are you thinking of going blond?! 😍",
@@ -111,7 +121,7 @@
             "retweeted_tweet": null
         },
         {
-            "tweet_count": 12,
+            "tweet_count": 13,
             "username": "DarkSoulja3323",
             "user_account": "DarkSoulja3323",
             "text": "@dogecoin_empire Both look good",
