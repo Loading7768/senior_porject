@@ -29,7 +29,7 @@ DOGE_price.csv：
 '''可修改參數'''
 # === 修改為你的 CSV 檔與 JSON 資料夾路徑 ===
 PRICE_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_price.csv"
-NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*/*/*.json"  # 是針對 normal_tweet 做運算
+NORMAL_TWEETS_JSON_GLOB = f"../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*/*/{COIN_SHORT_NAME}_*_normal.json"  # 是針對 normal_tweet 做運算
 OUTPUT_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_current_tweet_price_output.csv"
 
 # === 自訂時間範圍 (格式：YYYY/MM/DD) ===
@@ -55,6 +55,17 @@ price_df['snapped_at'] = pd.to_datetime(price_df['snapped_at'], format="%Y-%m-%d
 price_df.set_index('snapped_at', inplace=True)
 price_df.index = price_df.index.tz_localize(None)  # 移除時區 只保留日期部分
 
+# === 檢查是否有缺少日期 ===
+all_days = pd.date_range(start=price_df.index.min(), end=price_df.index.max(), freq="D")
+missing_days = all_days.difference(price_df.index)
+
+if len(missing_days) == 0:
+    print("✅ 價格資料完整，沒有缺少日期")
+else:
+    print(f"⚠️ 發現 {len(missing_days)} 天缺少價格資料")
+    print(missing_days[:50])  # 只印出前 50 天，避免太多
+
+
 # 🔹 過濾價格資料到時間範圍內
 price_df = price_df.loc[(price_df.index >= START_DATE_DT) & (price_df.index <= END_DATE_DT + pd.Timedelta(days=1))]
 
@@ -72,6 +83,7 @@ for json_path in tqdm(json_files, desc="正在找尋日期"):
 
     tweets = data[JSON_DICT_NAME]
     if not tweets:
+        print("當天沒有推文：", json_path)
         continue
 
     try:
@@ -84,6 +96,7 @@ for json_path in tqdm(json_files, desc="正在找尋日期"):
 
         # 🔹 過濾掉不在範圍內的推文
         if not (START_DATE_DT <= date_dt <= END_DATE_DT):
+            print("當天不在指定時間範圍內：", json_path)
             continue
 
         # 取得當天推文數量
@@ -201,7 +214,7 @@ for i in range(1, SHIFT + 1):
     # 價差： (i-1) 天前價格 - i 天前價格
     df_output[col_diff] = df_output['price'].shift(i - 1) - df_output['price'].shift(i)
 
-    # 價差變化率：差 ÷ i天前價格
+    # 價差變化率：差 ÷ i 天前價格
     df_output[col_rate] = df_output[col_diff] / df_output['price'].shift(i)
 
 # 移除輔助欄位（所有 shift 出來的 price_*）
