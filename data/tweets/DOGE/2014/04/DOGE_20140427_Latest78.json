@@ -1,0 +1,784 @@
+﻿{
+    "dogecoin": [
+        {
+            "tweet_count": 1,
+            "username": "DogeCoin Highlights",
+            "user_account": "DarkNikkon",
+            "text": "Reddit Just want to say thank you!: I am pumped for this week and hope we represent you all well! Ju... http://t.co/nzYPe7B4rV #DogeCoin",
+            "created_at": "Sun Apr 27 23:58:51 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 2,
+            "username": "DogeCoin Highlights",
+            "user_account": "DarkNikkon",
+            "text": "Reddit Just signed up. This is hilarious and I love it.: That NASCAR thing made me do it. Whoever th... http://t.co/smGCxlMpBA #DogeCoin",
+            "created_at": "Sun Apr 27 23:58:51 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 3,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "Just want to say thank you! http://t.co/xQfTs1apzd r",
+            "created_at": "Sun Apr 27 23:58:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 4,
+            "username": "d o g e b o o s t",
+            "user_account": "dogeboost",
+            "text": "Just signed up. This is hilarious and I love it. http://t.co/tlJt37ZtcP r",
+            "created_at": "Sun Apr 27 23:58:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 5,
+            "username": "DOGE Value/News",
+            "user_account": "DogecoinBot",
+            "text": "[04:57 PM] 1 #DOGE is worth: \n$0.000441 USD \n฿0.00000101 #BTC \n€0.000318 EUR #DogeCoin",
+            "created_at": "Sun Apr 27 23:57:45 +0000 2014",
+            "retweet": 4,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 6,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000103\nCryptsy  0.00000103\nCoins-E 0.00000104\nAverage: $0.000450USD per #dogecoin",
+            "created_at": "Sun Apr 27 23:57:15 +0000 2014",
+            "retweet": 4,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 7,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "Dogecoin, Litecoin, Feathercoin, Novacoin, 13.6 MHS, 48 HR Mining Contract http://t.co/O6pGVr8kbf #feathercoin http://t.co/bhqKJCHUII",
+            "created_at": "Sun Apr 27 23:56:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 8,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "'The Other Woman' Tops 'Captain America' At Weekend Box Office http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photogra...",
+            "created_at": "Sun Apr 27 23:54:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 9,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "This 'What You're Like Drunk Vs. Sober' Video Is Sadly On Point http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photogr...",
+            "created_at": "Sun Apr 27 23:54:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 10,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "What is the Downtown Podcast? An interview with Dylan Jorgensen http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photogr...",
+            "created_at": "Sun Apr 27 23:54:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 11,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "'The Other Woman' Tops 'Captain America' At Weekend Box Office http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photogra...",
+            "created_at": "Sun Apr 27 23:54:31 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 12,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "This 'What You're Like Drunk Vs. Sober' Video Is Sadly On Point http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photogr...",
+            "created_at": "Sun Apr 27 23:54:30 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 13,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "What is the Downtown Podcast? An interview with Dylan Jorgensen http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photogr...",
+            "created_at": "Sun Apr 27 23:54:30 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 14,
+            "username": "coinspipe.com",
+            "user_account": "coinspipe",
+            "text": "#bitcoin #dogecoin [ANN] Bitember Charity!: Bitember is going to have a charity event next Friday! All fees an... http://t.co/Xryxk36tJv",
+            "created_at": "Sun Apr 27 23:54:19 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 15,
+            "username": "Tyler Schultz",
+            "user_account": "SeeSchultzRun",
+            "text": "“The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/6gIpbgtgfQ” this is actually going to be in the race this weekend#suchfast",
+            "created_at": "Sun Apr 27 23:50:07 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 16,
+            "username": "Tony ⚾️",
+            "user_account": "YNOTtheTIGER",
+            "text": "@TheBobtrain Looks like you might need a new paint job for Gen 6. http://t.co/8ESQENPyRg",
+            "created_at": "Sun Apr 27 23:46:36 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 17,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "Just want to say thank you! by dogedriver reached HOT status on /r/dogecoin! http://t.co/OXKcqVEArE",
+            "created_at": "Sun Apr 27 23:45:58 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 18,
+            "username": "Admirals Roundtable",
+            "user_account": "adsroundtable",
+            "text": "Much car. So doge. Wow. RT @NASCARonNBC: The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/efdY9Y2yfb",
+            "created_at": "Sun Apr 27 23:45:02 +0000 2014",
+            "retweet": 1,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 19,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/ee28kJloIQ and LOST with roll: 40185 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:44:53 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 20,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/ee28kJloIQ and LOST with roll: 35567 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:44:49 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 21,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "100,000 INFINITECOIN (Like dogecoin, litecoin, feathercoin,) http://t.co/gslZKYWMGi #feathercoin http://t.co/QVAkyMo4VA",
+            "created_at": "Sun Apr 27 23:44:10 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 22,
+            "username": "Feathercoin For Sale",
+            "user_account": "ftcforsale",
+            "text": "1,000,000 INFINITECOIN (like dogecoin, litecoin, feathercoin) http://t.co/iNtZR18KZP #feathercoin http://t.co/4TpkLmigxS",
+            "created_at": "Sun Apr 27 23:44:09 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 23,
+            "username": "SuchList.com",
+            "user_account": "SuchList",
+            "text": "Such Wow Bumper Sticker: Dogecoin Bumper Stickers For sale http://t.co/Id3pv8ftDL",
+            "created_at": "Sun Apr 27 23:43:00 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 24,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000103\nCryptsy  0.00000102\nCoins-E 0.00000104\nAverage: $0.000455USD per #dogecoin",
+            "created_at": "Sun Apr 27 23:42:14 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 25,
+            "username": "Yuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuyuko",
+            "user_account": "Yuwuyuwukowo",
+            "text": "\"The #DogeCar Is Complete! Check It Out!\" http://t.co/3F6y8rNWBw\n\n#Cars\n#DigitalCurrency\n#Doge\n#DogeCoin\n#Funny\n#Imgur\n#NASCAR\n#ShibaInu",
+            "created_at": "Sun Apr 27 23:41:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 26,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/ee28kJloIQ and WON with roll: 20836 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:40:28 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 27,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/ee28kJloIQ and WON with roll: 25192 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:40:27 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 28,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/ee28kJloIQ and LOST with roll: 35255 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:40:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 29,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/lpD6F9S6gH and WON with roll: 11355 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:40:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 30,
+            "username": "jeffscottworld(🛠️, 🤖, 🏡, 🌎)",
+            "user_account": "jeffscottward",
+            "text": "@dogecoin nascar!! can't. stop. laughing. shibe on the bumper is priceless. http://t.co/P9p46pBUfp",
+            "created_at": "Sun Apr 27 23:39:32 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 31,
+            "username": "Fuck Yeah Dogecoin",
+            "user_account": "FY_Dogecoin",
+            "text": "NASCAR is really stepping up their game now... by penneydude #TLoZ #OcarinaofTime #Dogecoin #NASCAR http://t.co/KnWg49aBC2",
+            "created_at": "Sun Apr 27 23:39:05 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 32,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Ted Cruz Pays Visit To Former New Hampshire Governor John Sununu http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photog...",
+            "created_at": "Sun Apr 27 23:38:51 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 33,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Is the IPCC Government Approval Process Broken? http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #...",
+            "created_at": "Sun Apr 27 23:38:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 34,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Microsoft Rushes To Fix Major Internet Explorer Security Flaw http://t.co/aDp889F9Ch #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Sun Apr 27 23:38:49 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 35,
+            "username": "Click the Life",
+            "user_account": "ClickIndiaLife",
+            "text": "#TravelNews Take a look at the Dogecoin NASCAR paint scheme http://t.co/pgwDPqQBuK SPORTS",
+            "created_at": "Sun Apr 27 23:38:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 36,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Ted Cruz Pays Visit To Former New Hampshire Governor John Sununu http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photog...",
+            "created_at": "Sun Apr 27 23:38:30 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 37,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Is the IPCC Government Approval Process Broken? http://t.co/oIIQswXOpC #money #dogecoin #bitcoin #news, #love, #photography,#fashion, #...",
+            "created_at": "Sun Apr 27 23:38:29 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 38,
+            "username": "Jorge Stolfi",
+            "user_account": "JorgeStolfi",
+            "text": "Extensão de Crome \"Crypsy Dogecoin Live Ticker\"  rouba bitcoins por \"address phishing\": http://t.co/iq3u3oze5S",
+            "created_at": "Sun Apr 27 23:38:01 +0000 2014",
+            "retweet": 2,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 39,
+            "username": "☆Papi Junior☆",
+            "user_account": "Juniormendez06",
+            "text": "#Junior_x6 Take a look at the Dogecoin NASCAR paint scheme: Such car. Much awesome.\n\nPhoto via imgu... http://t.co/iTG2H51rmX @Junior_x6",
+            "created_at": "Sun Apr 27 23:35:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 40,
+            "username": "┌OlivєrMυהdiΛl┐",
+            "user_account": "OliiverDoOW",
+            "text": "Take a look at the Dogecoin NASCAR paint scheme: Such car. Much awesome.\n\nPhoto via imgur\nDogecoin is hitting Talladega and NASCAR wi...",
+            "created_at": "Sun Apr 27 23:35:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 41,
+            "username": "no hay forma",
+            "user_account": "La_sopa06",
+            "text": "Take a look at the Dogecoin NASCAR paint scheme: Such car. Much awesome.\n\nPhoto via imgur\nDogecoin is hitting Talladega and NASCAR wi...",
+            "created_at": "Sun Apr 27 23:35:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 42,
+            "username": "|Ɗɛ ŦαмιℓчИ Ѡαч∞™|",
+            "user_account": "DeFamilyWay",
+            "text": "#Way Take a look at the Dogecoin NASCAR paint scheme: Such car. Much awesome.\n\nPhoto via imgur\nDogecoin is hitting Talladega and NASC...",
+            "created_at": "Sun Apr 27 23:35:16 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 43,
+            "username": "Joseph Shelton",
+            "user_account": "sheltjk",
+            "text": "My neighbor was walking her shiba inus. Being reminded of the #Dogecoin community made my day way better.",
+            "created_at": "Sun Apr 27 23:34:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 44,
+            "username": "Zach Fasbender",
+            "user_account": "zachfasbender",
+            "text": "“@NASCARonNBC: The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/xpbI6T7wVq”@gcornett56",
+            "created_at": "Sun Apr 27 23:32:39 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 45,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - This is a post. by Zowdie99 - http://t.co/3j0xz7SRDz",
+            "created_at": "Sun Apr 27 23:32:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 46,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - MRW I get tipped... by youngnews - http://t.co/Beg79MiLcm",
+            "created_at": "Sun Apr 27 23:32:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 47,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - No Creative shibe in the community? by ccie0007 - http://t.co/hcjPFd0npr",
+            "created_at": "Sun Apr 27 23:32:06 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 48,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Just want to say thank you! by dogedriver - http://t.co/OXKcqVEArE",
+            "created_at": "Sun Apr 27 23:32:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 49,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - And it Keeps going up :) (1.1 mh/s when projected at 300khs) by tylenool - http://t.co/daT3hPpCXe",
+            "created_at": "Sun Apr 27 23:32:05 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 50,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - You'll never guess who I ran into at the airport the other day by monsterlynn - http://t.co/NVCjgchNbJ",
+            "created_at": "Sun Apr 27 23:32:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 51,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Are you new and confused about dogetipbot? Got a tip and don't know what to do? Rea... http://t.co/8fsLNGtcqC",
+            "created_at": "Sun Apr 27 23:32:04 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 52,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Spread the Doge challenge - tip 10 people who commented on the Dogecar picture in /... http://t.co/5O1HHm3toQ",
+            "created_at": "Sun Apr 27 23:32:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 53,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Much Wow, Such ShamWow by shibeKBVE - http://t.co/xrQuyw5Ad5",
+            "created_at": "Sun Apr 27 23:32:03 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 54,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Please explain this, NASCAR and Sprint. The script that pre-selects Danica Patrick ... http://t.co/zFhKXBEh2g",
+            "created_at": "Sun Apr 27 23:32:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 55,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Day 42: They still suspect nothing! by baddogesgotoheaven - http://t.co/ZBBp14CPcF",
+            "created_at": "Sun Apr 27 23:32:02 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 56,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Selling My Mining Rig For DogeCoins! 800kH/s rig by Glitchy647 - http://t.co/2Bkm77RY8b",
+            "created_at": "Sun Apr 27 23:32:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 57,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - such newb wow by Electrodoge - http://t.co/jyJGkFMk9t",
+            "created_at": "Sun Apr 27 23:32:01 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 58,
+            "username": "Kevin",
+            "user_account": "KRDbuckeye",
+            "text": "\"@SBNation: Here it is: NASCAR's Dogecoin car. http://t.co/dw659tTCjj http://t.co/B4EEncMGNP\" ATTN @shoracek @BrianTOsborne",
+            "created_at": "Sun Apr 27 23:29:48 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 59,
+            "username": "Bitcoin",
+            "user_account": "bitcoinpoet",
+            "text": "Here’s a Look at the Completed Dogecoin Race Car, the ‘Dogecar’: Yes, I’m fully aware that our M.O. i... http://t.co/1hcI3RPRjJ #bitcoin",
+            "created_at": "Sun Apr 27 23:28:57 +0000 2014",
+            "retweet": 2,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 60,
+            "username": "Ben",
+            "user_account": "ben_jamin_welch",
+            "text": "“@SBNation: Here it is: NASCAR's Dogecoin car. http://t.co/7r7ty3TE6A http://t.co/xuaqK9UK5X” @rosyposy326",
+            "created_at": "Sun Apr 27 23:28:08 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 61,
+            "username": "Dogecoin",
+            "user_account": "TheRealDogecoin",
+            "text": "Microsoft Rushes To Fix Major Internet Explorer Security Flaw http://t.co/flwwWhjcXY #money #dogecoin #bitcoin #news, #love, #photograp...",
+            "created_at": "Sun Apr 27 23:27:43 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 62,
+            "username": "SweetP Productions",
+            "user_account": "SweetP_Pro",
+            "text": "Doge Convert 1.0.2:\nhttps://t.co/IIo7vnn7bJ\n#dogecoin",
+            "created_at": "Sun Apr 27 23:27:34 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 63,
+            "username": "The Price of DOGE",
+            "user_account": "PriceOfDogecoin",
+            "text": "#DOGE / #BTC on the exchanges:\nBter 0.00000103\nCryptsy  0.00000101\nCoins-E 0.00000100\nAverage: $0.000450USD per #dogecoin",
+            "created_at": "Sun Apr 27 23:27:16 +0000 2014",
+            "retweet": 1,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 64,
+            "username": "DEMIC 🇩🇲🇺🇸",
+            "user_account": "KingDemic",
+            "text": "Take a look at the Dogecoin NASCAR paint scheme http://t.co/yw38TYaHSe",
+            "created_at": "Sun Apr 27 23:25:50 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 65,
+            "username": "DontTreadOnMyVape",
+            "user_account": "DTOM_Vape",
+            "text": "3 votes ANA, 1 vote DAL for the #Dogecoin giveaway.... will allow entries for another hour, then you'll have to wait for the game to end!",
+            "created_at": "Sun Apr 27 23:25:44 +0000 2014",
+            "retweet": 3,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 66,
+            "username": "Brent Drevalas",
+            "user_account": "BDrevalas",
+            "text": "“@NASCARonNBC: The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/JUrPftvP0B” I know @MatthewJamesV is gonna love this",
+            "created_at": "Sun Apr 27 23:25:34 +0000 2014",
+            "retweet": 1,
+            "likes": 2,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 67,
+            "username": "Derek Burgan",
+            "user_account": "derekburgan",
+            "text": "@sotmkblog @easywdw There's only one theme park restaurant that celebrateas the Doge coin car...",
+            "created_at": "Sun Apr 27 23:24:24 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 68,
+            "username": "AltCoin Tracker",
+            "user_account": "AltCoinTracker",
+            "text": "Completely safe way to monitor your various coin addresses http://t.co/2eU7TQq2w3 #bitcoin #dogecoin #feathercoin #litecoin",
+            "created_at": "Sun Apr 27 23:22:29 +0000 2014",
+            "retweet": 0,
+            "likes": 1,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 69,
+            "username": "Božidar Maximilianus",
+            "user_account": "bozhida4",
+            "text": "Why Life May Not Be a Cabaret &amp; More Tony Musings http://t.co/0VBMTFLrDk #money #dogecoin #bitcoin #news, #love, #photography,#fashion,...",
+            "created_at": "Sun Apr 27 23:21:22 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 70,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 1.0 Doge on http://t.co/ee28kJloIQ and WON with roll: 22105 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:20:20 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 71,
+            "username": "DogeOdds",
+            "user_account": "DogeOdds",
+            "text": "Someone just bet 3.0 Doge on http://t.co/lpD6F9S6gH and WON with roll: 16696 #dogeodds #dogecoin",
+            "created_at": "Sun Apr 27 23:20:19 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 72,
+            "username": "Jefe",
+            "user_account": "drhamr",
+            "text": "such beauty, very speed, wow RT “@dogecoin wow\n   Talladega Motorspeedway\n         May 4th http://t.co/X9xkfCc8iW”",
+            "created_at": "Sun Apr 27 23:19:47 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 73,
+            "username": "Chris Gamez",
+            "user_account": "Metsochist4Life",
+            "text": "@xTomatoez RT @NASCARonNBC The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/tNRLh8tWmS",
+            "created_at": "Sun Apr 27 23:18:17 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 74,
+            "username": "Sean",
+            "user_account": "sdthompson29",
+            "text": "\"@NASCARonNBC: The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/8TABVLRxF9\" 😂😂😂😂 wtf. #SuchDoge #MuchTurnLeft #SoCar",
+            "created_at": "Sun Apr 27 23:17:23 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 75,
+            "username": "Garth Shanklin",
+            "user_account": "GarthShanklin",
+            "text": "Oh internet. RT @NASCARonNBC The DogeCoin car is complete (Via reddit /u/caphits) http://t.co/JDQjktNrhm",
+            "created_at": "Sun Apr 27 23:16:33 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 76,
+            "username": "Bitcoin Bolt",
+            "user_account": "BitcoinBolt",
+            "text": "☞ Here’s a Look at the Completed Dogecoin Race Car, the ‘Dogecar’ http://t.co/SSbTU6NzHF",
+            "created_at": "Sun Apr 27 23:15:07 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 77,
+            "username": "Thiago Pimenta🏎🏁🌶️",
+            "user_account": "chilipepperf1",
+            "text": "Wow... Such NASCAR... Very Oval... RT @NASCARonNBC: Here's another angle of @josh_wise's DogeCoin car http://t.co/uIZPaTZpZC",
+            "created_at": "Sun Apr 27 23:14:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 78,
+            "username": "Dogebot",
+            "user_account": "doge_bot",
+            "text": "New Post in /r/dogecoin - Just started Using Dogecoin today! by l33tpiro - http://t.co/HZZayoC1IL",
+            "created_at": "Sun Apr 27 23:14:56 +0000 2014",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
+        }
+    ]
+}
