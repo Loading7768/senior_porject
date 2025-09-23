@@ -9,8 +9,15 @@ import pandas as pd
 from tqdm import tqdm
 import bisect
 
+# --------------------parameters--------------------
+'''
+Whether to only use 'normal tweets' or not.
+'''
+IS_FILTERED = False
+# --------------------parameters--------------------
+
 def load_data(coin_short_name, json_dict_name, total_expansion_rate):
-    TWEET_PATH = f'../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/*.json'
+    TWEET_PATH = f'../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/*.json' if IS_FILTERED else f'../data/tweets/{coin_short_name}/*/*/*.json'
     EXPANSION_PATH = f'../data/tweets/count/estimate/{coin_short_name}_estimate.csv'
 
     tweet_files = glob(TWEET_PATH)
@@ -78,13 +85,13 @@ def compute_df(N, tokenized_tweets, expansion_rates):
     return [i + (i[1] / N,) for i in df]
 
 def filter_and_save(df):
-    UPPER_BOUND = 0.1
+    UPPER_BOUND = 0.05
     LOWER_BOUND = 0.001
 
     upper = bisect.bisect_right([i[2] for i in df], UPPER_BOUND)
     lower = bisect.bisect_left([i[2] for i in df], LOWER_BOUND)
 
-    OUTPUT_PATH = f'../data/keyword/machine_learning/all_keywords.json'
+    OUTPUT_PATH = f'../data/keyword/machine_learning/all_keywords.json' if IS_FILTERED else f'../data/keyword/machine_learning/all_keywords_non_filtered.json'
 
     keywords = [i[0] for i in df[lower:upper]]
 
@@ -92,12 +99,12 @@ def filter_and_save(df):
         json.dump(keywords, file)
 
 def main():
-    COIN_SHORT_NAMES = {'TRUMP', 'PEPE', 'DOGE'}
-    JSON_DICT_NAMES = {
+    COIN_SHORT_NAMES = ['TRUMP', 'PEPE', 'DOGE']
+    JSON_DICT_NAMES = [
         '(officialtrump OR "official trump" OR "trump meme coin" OR "trump coin" OR trumpcoin OR $TRUMP OR "dollar trump")',
         'PEPE', 
-        'dogecoin'}
-    TOTAL_TWEET_EXPANSION_RATES = {11.6778852993119624, 3.10285237528924781, 1}
+        'dogecoin']
+    TOTAL_TWEET_EXPANSION_RATES = [11.6778852993119624, 3.10285237528924781, 1] if IS_FILTERED else [10.672908648, 3.2318801, 1]
 
     tweets, expansion_rates, tweet_count_expanded = [], [], 0
     for csn, jdn, tter in zip(COIN_SHORT_NAMES, JSON_DICT_NAMES, TOTAL_TWEET_EXPANSION_RATES):
@@ -106,7 +113,7 @@ def main():
         expansion_rates += er
         tweet_count_expanded += tce
 
-    print(len(tweets))
+    print(len(tweets), tweet_count_expanded)
     tokens = tokenize_tweets(tweets)
     df = compute_df(tweet_count_expanded, tokens, expansion_rates)
     filter_and_save(df)
