@@ -268,7 +268,7 @@ def train_single_model(texts, labels, num_categories, model_dir=None,
 
     if balanced:
         sampled_texts, sampled_labels = balanced_sampling(
-            texts, labels, n_samples, num_categories=num_categories
+            texts, labels, n_samples, num_categories
         )
     else:
         n = len(texts)
@@ -324,7 +324,7 @@ def train_single_model(texts, labels, num_categories, model_dir=None,
     train_dataset, val_dataset = torch.utils.data.random_split(dataset, [split, len(dataset)-split])
 
     # 模型
-    model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_categories=num_categories)
+    model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=num_categories)
 
     training_args = TrainingArguments(
         output_dir=model_dir,
@@ -407,59 +407,57 @@ def fast_predict_all_models(all_texts, all_Y, tokenized_path=None,
     print("Using device:", device)
 
     # 載入 pre-tokenized
-    tokenizer = BertTokenizerFast.from_pretrained(f"{save_path}/allcoins_y0")  # 用 model0 的 tokenizer
+    tokenizer = BertTokenizerFast.from_pretrained(f"{save_path}/allcoins_y")  # 用 model0 的 tokenizer
     encodings = tokenize_and_save(all_texts, tokenizer, max_len=64, save_path=tokenized_path)
     input_ids = torch.stack([e["input_ids"] for e in encodings]).to(device)
     attention_mask = torch.stack([e["attention_mask"] for e in encodings]).to(device)
     n_samples = input_ids.size(0)
-    n_labels = all_Y.shape[1]
 
     os.makedirs(save_path, exist_ok=True)
 
-    for i in range(n_labels):
-        model_dir = f"{save_path}/allcoins_y{i}"
-        print(f"=== Predicting Y[:, {i}] with model {model_dir} ===")
+    model_dir = f"{save_path}/allcoins_y"
+    print(f"=== Predicting Y with model {model_dir} ===")
 
-        model = BertForSequenceClassification.from_pretrained(model_dir).to(device)
-        model.eval()
+    model = BertForSequenceClassification.from_pretrained(model_dir).to(device)
+    model.eval()
 
-        preds_i = []
+    preds = []
 
-        with torch.no_grad():
-            for start in range(0, n_samples, batch_size):
-                end = min(start + batch_size, n_samples)
-                batch_input_ids = input_ids[start:end]
-                batch_attention_mask = attention_mask[start:end]
+    with torch.no_grad():
+        for start in range(0, n_samples, batch_size):
+            end = min(start + batch_size, n_samples)
+            batch_input_ids = input_ids[start:end]
+            batch_attention_mask = attention_mask[start:end]
 
-                outputs = model(input_ids=batch_input_ids, attention_mask=batch_attention_mask)
-                logits = outputs.logits
-                batch_pred = torch.argmax(logits, dim=-1).cpu().numpy()
-                preds_i.append(batch_pred)
+            outputs = model(input_ids=batch_input_ids, attention_mask=batch_attention_mask)
+            logits = outputs.logits
+            batch_pred = torch.argmax(logits, dim=-1).cpu().numpy()
+            preds.append(batch_pred)
 
-                if (start // batch_size) % 50 == 0:
-                    print(f"  Processed {end}/{n_samples} samples")
+            if (start // batch_size) % 50 == 0:
+                print(f"  Processed {end}/{n_samples} samples")
 
-        preds_i = np.concatenate(preds_i)
+    preds = np.concatenate(preds)
 
-        # 建立 DataFrame，只包含當前 label
-        df = pd.DataFrame({
-            "text": all_texts,
-            f"true_y{i}": all_Y[:, i],
-            f"pred_y{i}": preds_i,
-        })
-        df[f"correct_y{i}"] = df[f"true_y{i}"] == df[f"pred_y{i}"]
+    # 建立 DataFrame，只包含當前 label
+    df = pd.DataFrame({
+        "text": all_texts,
+        f"true_y": all_Y,
+        f"pred_y": preds,
+    })
+    df[f"correct_y"] = df[f"true_y"] == df[f"pred_y"]
 
-        # 存檔（每個 label 獨立檔案）
-        csv_path = os.path.join(save_path, f"predictions_y{i}.csv")
-        json_path = os.path.join(save_path, f"predictions_y{i}.json")
-        df.to_csv(csv_path, index=False, encoding="utf-8-sig")
-        df.to_json(json_path, orient="records", force_ascii=False, indent=4)
+    # 存檔（每個 label 獨立檔案）
+    csv_path = os.path.join(save_path, f"predictions_y.csv")
+    json_path = os.path.join(save_path, f"predictions_y.json")
+    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+    df.to_json(json_path, orient="records", force_ascii=False, indent=4)
 
-        print(f"Saved predictions for label {i} to {csv_path} and {json_path}")
+    print(f"Saved predictions for label to {csv_path} and {json_path}")
 
-        # 清理記憶體
-        del model
-        torch.cuda.empty_cache()
+    # # 清理記憶體
+    # del model
+    # torch.cuda.empty_cache()
 
     print("✅ 全部 label 預測完成！")
 
@@ -484,6 +482,9 @@ def main():
         print(f"=== Loading data for {coin_short_name} ===")
         texts = load_tweets(data_dir, coin_short_name, json_dict_name)
         Y = load_price_diff(price_dir, coin_short_name)  # (N_coin, )
+
+        # print(len(texts))
+        # print(Y.shape[0])
 
         assert len(texts) == Y.shape[0], f"{coin_short_name} texts and Y length mismatch!"
 
