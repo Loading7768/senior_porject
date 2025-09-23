@@ -1,3 +1,4 @@
+from datetime import datetime
 import os
 import json
 import numpy as np
@@ -31,12 +32,20 @@ NUM_CATEGORIES = 5  # 類別數量
 
 EPOCHS = 5
 
+START_DATE = {"DOGE": "2013/12/15", "PEPE": "2024/02/01", "TRUMP": "2025/01/18"}
+
+END_DATE   = {"DOGE": "2025/07/31", "PEPE": "2025/07/31", "TRUMP": "2025/07/31"}
+
 SAVE_PATH = "../data/ml/classification/BERT"
 
 ISTRAIN = False
 '''可修改變數'''
 
 os.makedirs(SAVE_PATH, exist_ok=True)
+
+# 轉成 datetime 方便比較
+START_DATE_DT = {k: pd.to_datetime(v, format="%Y/%m/%d") for k, v in START_DATE.items()}
+END_DATE_DT   = {k: pd.to_datetime(v, format="%Y/%m/%d") for k, v in END_DATE.items()}
 
 
 
@@ -47,14 +56,32 @@ def load_tweets(data_dir, coin_short_name, json_dict_name):
     for f in tqdm(files, desc=f"Loading tweets for {coin_short_name}"):
         with open(f, "r", encoding="utf-8-sig") as fp:
             data = json.load(fp)
-            for tw in data[json_dict_name]:
-                texts.append(tw["text"])
+
+        tweets = data[json_dict_name]
+        if not tweets:
+            print("當天沒有推文：", f)
+            continue
+
+        # 取得日期
+        date_str = datetime.strptime(
+            tweets[0]['created_at'], "%a %b %d %H:%M:%S %z %Y"
+        ).strftime("%Y/%m/%d")
+        date_dt = pd.to_datetime(date_str)
+
+        # 🔹 過濾掉不在範圍內的推文
+        if not (START_DATE_DT[coin_short_name] <= date_dt <= END_DATE_DT[coin_short_name]):
+            print("當天不在指定時間範圍內：", f)
+            continue
+
+        for tw in tweets:
+            texts.append(tw["text"])
+
     return texts
 
 
 
 def load_price_diff(price_path, coin_short_name):
-    """讀取某幣種的價差 (N, 5)"""
+    """讀取某幣種的價差 (N, )"""
     return np.load(os.path.join(price_path, f"{coin_short_name}_price_diff.npy"))
 
 
@@ -443,7 +470,7 @@ def fast_predict_all_models(all_texts, all_Y, tokenized_path=None,
 
 
 def main():
-    data_dir = "../data/filtered_tweets"
+    data_dir = "../data/filtered_tweets/normal_tweets"
     price_dir = "../data/ml/dataset/coin_price"
 
     COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
@@ -456,14 +483,14 @@ def main():
     for coin_short_name, json_dict_name in zip(COIN_SHORT_NAME, JSON_DICT_NAME):
         print(f"=== Loading data for {coin_short_name} ===")
         texts = load_tweets(data_dir, coin_short_name, json_dict_name)
-        Y = load_price_diff(price_dir, coin_short_name)  # (N_coin, 1)
+        Y = load_price_diff(price_dir, coin_short_name)  # (N_coin, )
 
         assert len(texts) == Y.shape[0], f"{coin_short_name} texts and Y length mismatch!"
 
         all_texts.extend(texts)
         all_Y.append(Y)
 
-    all_Y = np.vstack(all_Y)  # shape = (N_total, 1)
+    all_Y = np.concatenate(all_Y)  # shape = (N_total, )
 
     if ISTRAIN:
         print(f"=== Processing Y (all coins combined) ===")
