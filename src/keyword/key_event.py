@@ -21,8 +21,8 @@ sys.path.append(str(parent_dir))
 from config import JSON_DICT_NAME, COIN_SHORT_NAME
 
 # --------------------parameters--------------------
-START_DATE = datetime(2021, 4, 14)
-END_DATE = datetime(2021, 4, 20)
+START_DATE = datetime(2025, 1, 18)
+END_DATE = datetime(2025, 7, 31)
 # --------------------parameters--------------------
 
 def load_data():
@@ -52,9 +52,7 @@ def load_data():
         get_expansion_rate = expansion_data.loc[expansion_data['date'] == formatted_date, 'expansion_ratio']
         expansion_rate = round(get_expansion_rate.iloc[0]) if not get_expansion_rate.empty else 1
 
-        normal_file_path = f'{TWEET_PATH}/{year}/{month}/{COIN_SHORT_NAME}_{date_str}_*_normal.json'
-        normal_tweet_file = glob(normal_file_path)
-        with open(f'{normal_tweet_file[0]}', 'r', encoding='utf-8-sig') as file:
+        with open(f'{TWEET_PATH}/{year}/{month}/{COIN_SHORT_NAME}_{date_str}_normal.json', 'r', encoding='utf-8-sig') as file:
             data = json.load(file)
             content = data.get(JSON_DICT_NAME, [])
             tweets += content
@@ -69,7 +67,7 @@ def load_data():
         year, month = date_str[0:4], date_str[4:6]
         with open(f'{TWEET_PATH}/{year}/{month}/{COIN_SHORT_NAME}_{date_str}_normal.json', 'r', encoding='utf-8-sig') as file:
             data = json.load(file)
-            tweets_from_last_week += data.get(JSON_DICT_NAME, []) 
+            tweets_from_last_week += data.get(JSON_DICT_NAME, [])
     
     return training_keywords, tweets, tweets_from_last_week, expansion_rates, tweet_count_expanded
 
@@ -123,6 +121,8 @@ def main():
     tokens_from_last_week = tokenize_tweets(tweets_from_last_week)
     df = filter_and_compute_df(tweet_count_expanded, training_keywords, tokens, tokens_from_last_week, expansion_rates)
     save_results(df)
+
+    for i in df: print(i)
 
 if __name__ == '__main__':
     main()
