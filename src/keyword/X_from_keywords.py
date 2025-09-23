@@ -36,7 +36,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 
 if IS_FILTERED:
     TWEET_DIR = f"../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*"
-else
+else:
     TWEET_DIR = f"../data/tweets/{COIN_SHORT_NAME}/*"
 
 if IS_RUN_AUGUST:

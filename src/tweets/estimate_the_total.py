@@ -18,7 +18,11 @@ parent_dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(parent_dir))
 from config import COIN_SHORT_NAME, JSON_DICT_NAME
 
+
+
 '''可修改參數'''
+IS_RUN_AUGUST = True  # 看現在是不是要跑 2025/08 的資料  END_DATE 會固定
+
 OUTPUT_FILE = "../data/tweets/count/estimate/"
 
 START_DATE = "2013/12/15"
@@ -27,13 +31,17 @@ END_DATE = "2025/07/31"
 '''可修改參數'''
 os.makedirs(OUTPUT_FILE, exist_ok=True)
 
+if IS_RUN_AUGUST:
+    END_DATE = "2025/08/31"
+
+
+
 hour_counter = []
 partial_json_files = []
 completed_json_files = []
 
 # 所有原始檔案 (把所有結尾是 .json 的檔案抓出來)
 json_files = glob(f'../data/tweets/{COIN_SHORT_NAME}/*/*/{COIN_SHORT_NAME}_*.json')
-
 
 # 轉換開始與結束日期
 START_DT = datetime.strptime(START_DATE, "%Y/%m/%d")
@@ -91,7 +99,10 @@ def hour_distribution():
         print(str(weekday_hour_distribution[weekday]))
 
     # 儲存文字版
-    output_path_completed = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_weekday_hour_distribution.txt"
+    if not IS_RUN_AUGUST:
+        output_path_completed = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_weekday_hour_distribution.txt"
+    else:
+        output_path_completed = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_weekday_hour_distribution_202508.txt"
     with open(output_path_completed, 'w', encoding="utf-8-sig") as txtfile:
         for weekday in sorted(weekday_hour_distribution):
             txtfile.write(f"🗓️ 星期 {weekday} 分佈：\n")
@@ -106,11 +117,17 @@ def estimate(weekday_hour_distribution):
     results = []
 
     # 先清空 txt 內的資料
-    output_path_partial_txt = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_estimate.txt"
+    if not IS_RUN_AUGUST:
+        output_path_partial_txt = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_estimate.txt"
+    else:
+        output_path_partial_txt = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_estimate_202508.txt"
     with open(output_path_partial_txt, 'w', encoding="utf-8-sig") as txtfile:
         txtfile.write("")
 
-    output_path_partial_csv = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_estimate.csv"
+    if not IS_RUN_AUGUST:
+        output_path_partial_csv = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_estimate.csv"
+    else:
+        output_path_partial_csv = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_estimate_202508.csv"
 
     for json_file in tqdm(json_files, desc="估計數量中..."):
         with open(json_file, 'r', encoding="utf-8-sig") as file:
@@ -241,7 +258,10 @@ def accuracy(weekday_hour_distribution):
 
     # 輸出 CSV
     os.makedirs(OUTPUT_FILE, exist_ok=True)
-    output_csv_path = os.path.join(OUTPUT_FILE, f"{COIN_SHORT_NAME}_accuracy_predictions.csv")
+    if not IS_RUN_AUGUST:
+        output_csv_path = os.path.join(OUTPUT_FILE, f"{COIN_SHORT_NAME}_accuracy_predictions.csv")
+    else:
+        output_csv_path = os.path.join(OUTPUT_FILE, f"{COIN_SHORT_NAME}_accuracy_predictions_202508.csv")
 
     # 按日期排序
     results.sort(key=lambda x: x['date'])
@@ -257,7 +277,10 @@ def accuracy(weekday_hour_distribution):
 
 def plot_errors():
     # 假設讀入一個csv，包含日期、真實值、預估值
-    df = pd.read_csv(f"../data/tweets/count/estimate/{COIN_SHORT_NAME}_accuracy_predictions.csv")
+    if not IS_RUN_AUGUST:
+        df = pd.read_csv(f"../data/tweets/count/estimate/{COIN_SHORT_NAME}_accuracy_predictions.csv")
+    else:
+        df = pd.read_csv(f"../data/tweets/count/estimate/{COIN_SHORT_NAME}_accuracy_predictions_202508.csv")
 
     # 計算誤差
     df['abs_error'] = (df['predicted_count'] - df['actual_count']).abs()
@@ -276,8 +299,11 @@ def plot_errors():
     print(f"最大百分比誤差: {max_percentage_error:.2f}% (最嚴重一天預估偏差)")
     print(f"最小百分比誤差: {min_percentage_error:.2f}% (最好的一天預估偏差)")
 
-    output_path_completed = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_hour_distribution_and_errors.txt"
-    with open(output_path_completed, 'a', encoding="utf-8-sig") as txtfile:
+    if not IS_RUN_AUGUST:
+        output_path_completed = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_errors.txt"
+    else:
+        output_path_completed = f"{OUTPUT_FILE}/{COIN_SHORT_NAME}_errors_202508.txt"
+    with open(output_path_completed, 'w', encoding="utf-8-sig") as txtfile:
         txtfile.write(f"平均絕對誤差 (Mean Absolute Error): {mean_abs_error:.2f} (平均一天預估與實際相差推文數)\n")
         txtfile.write(f"平均百分比誤差 (Mean Absolute Percentage Error, MAPE): {mean_percentage_error:.2f}% (預估數量平均偏離真實值)\n")
         txtfile.write(f"中位數百分比誤差: {median_percentage_error:.2f}% (超過一半天的誤差率低於的趴數)\n")
@@ -296,7 +322,10 @@ def plot_errors():
     plt.title('actual_count vs. predicted_count')
     plt.legend()
     plt.tight_layout()
-    plt.savefig(f'{output_figures}/{COIN_SHORT_NAME}_actual_count_vs_predicted_count.png', dpi=300, bbox_inches='tight')
+    if not IS_RUN_AUGUST:
+        plt.savefig(f'{output_figures}/{COIN_SHORT_NAME}_actual_count_vs_predicted_count.png', dpi=300, bbox_inches='tight')
+    else:
+        plt.savefig(f'{output_figures}/{COIN_SHORT_NAME}_actual_count_vs_predicted_count_202508.png', dpi=300, bbox_inches='tight')
     plt.close()  # 關閉圖表，避免佔用記憶體或影響後續繪圖
 
     # 繪製百分比誤差分布圖
@@ -305,7 +334,10 @@ def plot_errors():
     plt.xlabel('Percentage Error (%)')
     plt.ylabel('Number of Days')
     plt.title('Distribution of Estimation Percentage Errors')
-    plt.savefig(f'{output_figures}/{COIN_SHORT_NAME}_percentage_error_distribution.png', dpi=300, bbox_inches='tight')
+    if not IS_RUN_AUGUST:
+        plt.savefig(f'{output_figures}/{COIN_SHORT_NAME}_percentage_error_distribution.png', dpi=300, bbox_inches='tight')
+    else:
+        plt.savefig(f'{output_figures}/{COIN_SHORT_NAME}_percentage_error_distribution_202508.png', dpi=300, bbox_inches='tight')
     plt.close()
 
 
