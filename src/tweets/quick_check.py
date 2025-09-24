@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 parent_dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(parent_dir))
-from config import COIN_SHORT_NAME
+from config import COIN_SHORT_NAME,JSON_DICT_NAME
 
 # === 資料夾設定 ===
 root_folder = f"../data/tweets/{COIN_SHORT_NAME}"   # 掃描整個 PEPE 資料夾
@@ -30,10 +30,10 @@ for dirpath, _, filenames in os.walk(root_folder):
                 print(f"❌ 讀取失敗：{filename}，錯誤：{e}")
                 continue
 
-            if COIN_SHORT_NAME not in data:
+            if JSON_DICT_NAME not in data:
                 continue
 
-            for tweet in data[COIN_SHORT_NAME]:
+            for tweet in data[JSON_DICT_NAME]:
                 created_at = tweet.get("created_at")
                 if created_at:
                     try:
