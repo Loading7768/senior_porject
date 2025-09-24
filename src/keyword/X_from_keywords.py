@@ -18,7 +18,7 @@ from config import JSON_DICT_NAME, COIN_SHORT_NAME
 
 
 '''可修改參數'''
-IS_FILTERED = False  # 看是否有分 normal 與 bot
+IS_FILTERED = True  # 看是否有分 normal 與 bot
 
 IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料  START_DATE, END_DATE 會固定
 
@@ -43,6 +43,9 @@ if IS_RUN_AUGUST:
     START_DATE = "2025/08"
     END_DATE   = "2025/08"
 
+SUFFIX_FILTERED = "" if IS_FILTERED else "_non_filtered"
+SUFFIX_AUGUST   = "_202508" if IS_RUN_AUGUST else ""
+
 
 
 # === 自訂 tokenize 函式 ===
@@ -61,10 +64,7 @@ def tokenize_tweets(tweets):
 
 
 # === 讀取單一幣種的詞彙表 ===
-if IS_FILTERED:
-    json_path = os.path.join(DATA_DIR, "all_keywords.json")
-else:
-    json_path = os.path.join(DATA_DIR, "all_keywords_non_filtered.json")
+json_path = os.path.join(DATA_DIR, f"all_keywords{SUFFIX_FILTERED}.json")
 
 with open(json_path, "r", encoding="utf-8-sig") as f:
     vocab = json.load(f)
@@ -92,11 +92,13 @@ for year_folder in glob(TWEET_DIR):
         # 找出這個月的所有 JSON
         if IS_FILTERED:
             pattern = os.path.join(month_folder, f"{COIN_SHORT_NAME}_*_normal.json")
+            print(pattern)
         else:
             pattern = os.path.join(month_folder, f"{COIN_SHORT_NAME}_*.json")
+            print(pattern)
         all_files.extend(glob(pattern))
 
-json_files = all_files
+json_files = sorted(all_files)
 print(f"找到 {len(json_files)} 個檔案可處理")
 
 # === 用稀疏矩陣的三元組格式 (row, col, data) ===
@@ -137,20 +139,8 @@ X_sparse = X_sparse.tocsr()
 # ============================================================
 # === 存檔 (矩陣 + 日期 + vocab) ===
 # ============================================================
-if IS_FILTERED:
-    if not IS_RUN_AUGUST:
-        X_sparse_output = f"{COIN_SHORT_NAME}_X_sparse.npz"
-        ids_output = f'{COIN_SHORT_NAME}_ids.pkl'
-    else:
-        X_sparse_output = f"{COIN_SHORT_NAME}_X_sparse_202508.npz"
-        ids_output = f'{COIN_SHORT_NAME}_ids_202508.pkl'
-else:
-    if not IS_RUN_AUGUST:
-        X_sparse_output = f"{COIN_SHORT_NAME}_X_sparse_non_filtered.npz"
-        ids_output = f'{COIN_SHORT_NAME}_ids_non_filtered.pkl'
-    else:
-        X_sparse_output = f"{COIN_SHORT_NAME}_X_sparse_non_filtered_202508.npz"
-        ids_output = f'{COIN_SHORT_NAME}_ids_non_filtered_202508.pkl'
+X_sparse_output = f"{COIN_SHORT_NAME}_X_sparse{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npz"
+ids_output = f'{COIN_SHORT_NAME}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl'
 
 save_npz(os.path.join(OUT_DIR, f"{X_sparse_output}"), X_sparse)
 with open(os.path.join(OUT_DIR, f'{ids_output}'), 'wb') as file:
