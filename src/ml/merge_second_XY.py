@@ -12,6 +12,8 @@ INPUT_PATH = "../data/ml/dataset"
 INPUT_FIRST_CLASSIFIER_PATH = "../data/ml/classification/logistic_regression"
 
 OUTPUT_PATH = "../data/ml/dataset"
+
+MERGE_CLASSIFIER_1_RESULT = True
 '''可修改參數'''
 
 def merge():
@@ -54,7 +56,7 @@ def merge():
         current_coin_ids = set([(c, d) for (c, d) in all_coin_dates if c == coin_short_name])
         # ids_all_coin += sorted(current_coin_ids)
         print(f"去掉重複日期後 {coin_short_name} 的 (coin, date) 數量: {len(current_coin_ids)}\n")
-        print(f"{coin_short_name} 的 XGBoost 相關特徵的日期：(用來檢查 X_XGBoost 有沒有取正確 DOGE、TRUMP前面會少 13 天)\n{XGBoost_dates[-10:]}\n")
+        print(f"{coin_short_name} 的 XGBoost 相關特徵日期的後 10 天：(用來檢查 X_XGBoost 有沒有取正確 DOGE、TRUMP前面會少 13 天)\n{XGBoost_dates[-10:]}\n")
 
         # print("X_diff_past.shape:", X_diff_past.shape)
         # print("X_XGBoost.shape:", X_XGBoost.shape)
@@ -93,8 +95,12 @@ def merge():
         print(f"ids_all_coin (要輸出的 ids) 的長度：{len(ids_all_coin)}\n")
 
         # --- 合併特徵 ---
-        X_single_coin = np.hstack([X_diff_past, X_XGBoost, X_first_classifier.reshape(-1, 1)])
-
+        if MERGE_CLASSIFIER_1_RESULT:
+            X_single_coin = np.hstack([X_diff_past, X_XGBoost, X_first_classifier.reshape(-1, 1)])
+        else:
+            X_single_coin = np.hstack([X_diff_past, X_XGBoost])
+        
+    
         # --- 存進總集合 ---
         X.append(X_single_coin)
         Y.append(Y_single_coin)
@@ -107,7 +113,7 @@ def merge():
 
     return X, Y, ids_all_coin
 
-def export_to_csv(X, Y, ids, output_path="merged_dataset.csv"):
+def export_to_csv(X, Y, ids, output_path=f"{MODEL_NAME}_merged_dataset.csv"):
     # 把 ids 拆成 coin / date
     coins = [c for c, d in ids]
     dates = [d for c, d in ids]
@@ -141,7 +147,7 @@ def main():
     print("Y.shape =", Y.shape)
 
     # 用法
-    export_to_csv(X, Y, ids, f"{OUTPUT_PATH}/merged_dataset.csv")
+    export_to_csv(X, Y, ids, f"{OUTPUT_PATH}/{MODEL_NAME}_merged_dataset.csv")
 
     print("🚩 打亂前：")
     print("\nX 預覽：\n", X[:10])
@@ -171,9 +177,9 @@ def main():
     print("\nids 預覽：\n", ids[:10])
 
     # 儲存
-    np.save(f"{OUTPUT_PATH}/X_classifier_2.npy", X)
-    np.save(f"{OUTPUT_PATH}/Y_classifier_2.npy", Y)
-    with open(f"{OUTPUT_PATH}/ids_classifier_2.pkl", 'wb') as file:
+    np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_X_classifier_2.npy", X)
+    np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_Y_classifier_2.npy", Y)
+    with open(f"{OUTPUT_PATH}/{MODEL_NAME}_ids_classifier_2.pkl", 'wb') as file:
         pickle.dump(ids, file)  # 這裡只會存 ('coin', 'date') 且每個日期只有一筆
 
     print(f"\n✅ 已成功儲存至 {OUTPUT_PATH}\n")
