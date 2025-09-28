@@ -1,47 +1,86 @@
 from datetime import datetime
 import os
 import json
+import pickle
 import numpy as np
 from glob import glob
 import random
+from scipy import sparse
+from sklearn.discriminant_analysis import StandardScaler
 from tqdm import tqdm
 import sys
 import math
 import pandas as pd
 
-from collections import Counter
+from collections import Counter, defaultdict
 
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, classification_report
 
 import torch
 from torch.utils.data import Dataset
-
 from transformers import BertTokenizerFast, BertForSequenceClassification, Trainer, TrainingArguments
 import transformers
 
 from sklearn.model_selection import train_test_split
 
+import joblib
 
 
 
 
 '''可修改變數'''
-N_SAMPLES = 250_000  # random sampling 取的數量
+N_SAMPLES = 100  # random sampling 取的數量
+
+N_RUNS = 1
 
 NUM_CATEGORIES = 5  # 類別數量
 
 EPOCHS = 5
 
+T1 = 0.0590 # 0.1
+
+T2 = 0.0102 # 0.00125
+ 
+T3 = 0.0060
+
+T4 = 0.0657
+
 START_DATE = {"DOGE": "2013/12/15", "PEPE": "2024/02/01", "TRUMP": "2025/01/18"}
 
 END_DATE   = {"DOGE": "2025/07/31", "PEPE": "2025/07/31", "TRUMP": "2025/07/31"}
 
-SAVE_PATH = "../data/ml/classification/BERT"
+COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
 
-ISTRAIN = False
+JSON_DICT_NAME = ["dogecoin", "PEPE", "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"]
+
+PRICE_CSV_PATH = "../data/coin_price"
+
+INPUT_PATH = "../data/ml/dataset"
+
+OUTPUT_PATH = "../data/ml/classification/BERT"
+
+SAVE_MODEL_PATH = "../data/ml/models/classification"
+
+MODEL_NAME = "logreg"  # 第二個分類器目前輸入的模型名字
+
+RUN_FIRST_CLASSIFIER = True  # 是否要跑第一個分類器
+
+RUN_SECOND_CLASSIFIER = False  # 是否要跑第二個分類器
+
+IS_GROUPED_CV = False  # 是否要跑第二個分類器的交叉驗證
+
+IS_TRAIN = True  # 看是否要訓練
+
+IS_FILTERED = True  # 看是否有分 normal 與 bot
+
+IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料
 '''可修改變數'''
 
-os.makedirs(SAVE_PATH, exist_ok=True)
+os.makedirs(OUTPUT_PATH, exist_ok=True)
+os.makedirs(SAVE_MODEL_PATH, exist_ok=True)
+
+SUFFIX_FILTERED = "" if IS_FILTERED else "_non_filtered"
+SUFFIX_AUGUST   = "_202508" if IS_RUN_AUGUST else ""
 
 # 轉成 datetime 方便比較
 START_DATE_DT = {k: pd.to_datetime(v, format="%Y/%m/%d") for k, v in START_DATE.items()}
@@ -49,51 +88,214 @@ END_DATE_DT   = {k: pd.to_datetime(v, format="%Y/%m/%d") for k, v in END_DATE.it
 
 
 
-def load_tweets(data_dir, coin_short_name, json_dict_name):
-    """讀取某幣種所有推文，回傳 [list of texts]"""
-    files = glob(os.path.join(data_dir, coin_short_name, "*", "*", f"{coin_short_name}_*_normal.json"))
-    texts = []
-    for f in tqdm(files, desc=f"Loading tweets for {coin_short_name}"):
-        with open(f, "r", encoding="utf-8-sig") as fp:
-            data = json.load(fp)
+# --- 讀取檔案 (只處理 normal, non_filtered) ---
+def load_and_preprocess():
+    if RUN_FIRST_CLASSIFIER:
+        X_train = []
+        X_test = []
+        y_train = []
+        y_test = []
+        ids_train = []
+        ids_test = []
 
-        tweets = data[json_dict_name]
-        if not tweets:
-            print("當天沒有推文：", f)
-            continue
+        for coin_short_name, json_dict_name in zip(COIN_SHORT_NAME, JSON_DICT_NAME):
+            print(f"====== 目前在處理 {coin_short_name} ======")
 
-        # 取得日期
-        date_str = datetime.strptime(
-            tweets[0]['created_at'], "%a %b %d %H:%M:%S %z %Y"
-        ).strftime("%Y/%m/%d")
-        date_dt = pd.to_datetime(date_str)
+            # 讀取 price_diff_original 作為 y
+            y_single_coin = np.load(f"{INPUT_PATH}/coin_price/{coin_short_name}_price_diff{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+            print("y_single_coin.shape[0]:", y_single_coin.shape[0])
 
-        # 🔹 過濾掉不在範圍內的推文
-        if not (START_DATE_DT[coin_short_name] <= date_dt <= END_DATE_DT[coin_short_name]):
-            print("當天不在指定時間範圍內：", f)
-            continue
+            with open(f"{INPUT_PATH}/keyword/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
+                ids_single_coin = pickle.load(f)
+                print("len(ids_single_coin):", len(ids_single_coin))
+            
+            # dates_single_coin = [(c, d) for (c, d, _) in ids_single_coin]  # 只取 date 加入集合
+            # dates_single_coin = pd.to_datetime(dates_single_coin, format="%Y-%m-%d")
 
-        for tw in tweets:
-            texts.append(tw["text"])
-
-    return texts
-
+            # 先把 dates_single_coint 只保留當前幣種的日期
+            # dates_single_coin = set([d for (c, d) in dates_single_coin if c == coin_short_name])
+            # dates_single_coin = sorted(dates_single_coin)
 
 
-def load_price_diff(price_path, coin_short_name):
-    """讀取某幣種的價差 (N, )"""
-    return np.load(os.path.join(price_path, f"{coin_short_name}_price_diff.npy"))
+            print("y_single_coin[:10]\n", y_single_coin[:10])
+            print("dates_single_coin[:10]\n", ids_single_coin[:10])
+            print()
+
+
+            # 讀取 原始推文 text
+            origianl_single_coin_tweet_text = []  # (N, 2) = (樣本數, (text, date))
+            if IS_FILTERED:
+                tweets_path = f"../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/{coin_short_name}_*_normal.json"
+            else:
+                tweets_path = f"../data/tweets/{coin_short_name}/*/*/{coin_short_name}_*.json"
+
+            original_tweets_file = glob(tweets_path)
+            for file in tqdm(original_tweets_file, desc=f"讀取 {coin_short_name} 的原始推文與日期..."):
+                with open(file, "r", encoding="utf-8-sig") as fp:
+                    data = json.load(fp)
+                
+                tweets_single_coin = data[json_dict_name]
+                if not tweets_single_coin:
+                    print("當天沒有推文：", file)
+                    continue
+
+                # 取得日期
+                date_str = datetime.strptime(
+                    tweets_single_coin[0]['created_at'], "%a %b %d %H:%M:%S %z %Y"
+                ).strftime("%Y/%m/%d")
+                date_dt = pd.to_datetime(date_str)
+
+                # 🔹 過濾掉不在範圍內的推文
+                if not (START_DATE_DT[coin_short_name] <= date_dt <= END_DATE_DT[coin_short_name]):
+                    print("當天不在指定時間範圍內：", file)
+                    continue
+
+                # 儲存 原始推文, 日期(datetime)
+                for tweet in tweets_single_coin:
+                    origianl_single_coin_tweet_text.append([tweet["text"], date_dt])
+            
+            print("len(origianl_single_coin_tweet_text):", len(origianl_single_coin_tweet_text))
+                
+            # --- 讀取 merge_and_splitset 中已經切好資料集的 日期 ---
+            # 讀取 Train
+            df_split_train = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_train_dates{SUFFIX_FILTERED}.csv")
+            df_split_train['date'] = pd.to_datetime(df_split_train['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
+
+            # 讀取 Test, Val 並把兩個合併
+            df_split_only_test = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_test_dates{SUFFIX_FILTERED}.csv")
+            df_split_only_test['date'] = pd.to_datetime(df_split_only_test['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
+
+            df_split_val = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_val_dates{SUFFIX_FILTERED}.csv")
+            df_split_val['date'] = pd.to_datetime(df_split_val['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
+
+            df_split_test = pd.concat([df_split_only_test, df_split_val], ignore_index=True)
+
+
+            # 把 train/test/val 的日期集合化，加速查詢  切割資料集
+            train_dates = set(df_split_train["date"])
+            test_dates = set(df_split_test["date"])
+
+            # 切割資料集
+            for (text, tweet_date), price_diff, (coin, ids_date, ids_idx) in zip(origianl_single_coin_tweet_text, y_single_coin, ids_single_coin):
+                if tweet_date in train_dates:
+                    X_train.append(text)
+                    y_train.append(price_diff)  # 這裡要對應 y_single_coin
+                    ids_train.append([coin, ids_date, ids_idx])
+
+                elif tweet_date in test_dates:
+                    X_test.append(text)
+                    y_test.append(price_diff)
+                    ids_test.append([coin, ids_date, ids_idx])
+
+            # mask_train = [date in df_split_train["date"] for date in origianl_single_coin_tweet_text[0]]
+            # mask_test = [date in df_split_test["date"] for date in origianl_single_coin_tweet_text[0]]
+
+            # X_train += origianl_single_coin_tweet_text[mask_train]
+            # X_test += origianl_single_coin_tweet_text[mask_test]
+
+
+
+            print("len(X_train):", len(X_train))
+            print("len(X_test):", len(X_test))
+            print("len(y_train):", len(y_train))
+            print("len(y_test):", len(y_test))
+            print("len(ids_train):", len(ids_train))
+            print("len(ids_test):", len(ids_test))
+
+            print(f"\n已成功切割 {coin_short_name} 的資料集\n")
+
+
+        X_train = np.array(X_train)
+        X_test = np.array(X_test)
+        y_train = np.array(y_train)
+        y_test = np.array(y_test)
+
+        print("\n合併完成後的形狀:")
+        print("X_train.shape:", X_train.shape)
+        print("X_test.shape:", X_test.shape)
+        print("y_train.shape:", y_train.shape)
+        print("y_test.shape:", y_test.shape)
+        print("len(ids_train):", len(ids_train))
+        print("len(ids_test):", len(ids_test))
+
+        input("\n按 Enter 以繼續...")
+        
+    
+    elif RUN_SECOND_CLASSIFIER:
+        # 取得資料
+        X = np.load(f"{INPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+        y = np.load(f"{INPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+        with open(f"{INPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
+            ids = pickle.load(file)
+
+        X_train, X_test, y_train, y_test, ids_train, ids_test = train_test_split(
+            X, y, ids, test_size=0.2, random_state=42, shuffle=True
+        )
+
+        print("X_test shape:", X_test.shape)
+        print("y_test shape:", y_test.shape)
+
+        print("X_train shape:", X_train.shape)
+        print("X_test shape:", X_test.shape)
+        print("y_train shape:", y_train.shape)
+        print("y_test shape:", y_test.shape)
+        print("Train IDs count:", len(ids_train))
+        print("Test IDs count:", len(ids_test))
+
+    else:
+        raise ValueError("必須指定 run_first_classifier 或 run_second_classifier")
+    
+    # 建立 target label：五元分類
+    y_train_categorized = categorize_array_multi(y_train, T1, T2, T3, T4, ids_train)  # shape (N,)
+    y_test_categorized  = categorize_array_multi(y_test, T1, T2, T3, T4, ids_test)   # shape (N,)
+    print("已成功分類別")
+
+    # 統計每個類別數量
+    print(f"大跌：-{T1 * 100:.2f}%以下, 跌：-{T1 * 100:.2f}% ~ -{T2 * 100}%, 持平：-{T2 * 100}% ~ {T3 * 100}%, 漲：{T3 * 100}% ~ {T4 * 100:.2f}%, 大漲：{T4 * 100:.2f}%以上")
+    train_total_row = y_train_categorized.shape[0]
+    test_total_row = y_test_categorized.shape[0]
+    # for col in range(y_train_categorized.shape[1]):
+    counts = np.bincount(y_train_categorized, minlength=5)
+    percentages = counts / train_total_row * 100
+    percentages_str = " ".join([f"{p:.2f}%" for p in percentages])
+    print(f"[TRAIN] column 類別: {percentages_str}")
+
+    counts = np.bincount(y_test_categorized, minlength=5)
+    percentages = counts / test_total_row * 100
+    percentages_str = " ".join([f"{p:.2f}%" for p in percentages])
+    print(f"[TEST]  column 類別: {percentages_str}\n")
+
+    input("pasue...")
+
+    return X_train, X_test, y_train_categorized, y_test_categorized, ids_train, ids_test
 
 
 
 # --- 五元分類 ---
-def categorize_array_multi(Y, t1=0.0590, t2=0.0102, t3=0.0060, t4=0.0657):
+def categorize_array_multi(Y, t1, t2, t3, t4, ids=None):
+    """
+    Y: np.ndarray, shape = (num_labels,), 價格變化率
+    """
+
+    print("Y.shape:", Y.shape)
+    # print(len(ids))
+
     # 五元分類
     labels = np.full_like(Y, 2, dtype=int)  # 預設持平
     labels[Y <= -t1] = 0  # 大跌
     labels[(Y > -t1) & (Y <= -t2)] = 1  # 跌
     labels[(Y >= t3) & (Y < t4)] = 3  # 漲
     labels[Y >= t4] = 4  # 大漲
+
+    if ids is not None:
+        # 找出 Y==0 的索引
+        zero_idx = np.where(Y == 0)[0]
+        # 只取對應的 ids
+        dates_is_0 = set((ids[i][0], ids[i][1]) for i in zero_idx)
+        if len(dates_is_0) > 0:
+            print(f"共有 {len(dates_is_0)} 天 Y==0")
+            for id in sorted(dates_is_0):
+                print(id)
 
     if np.any(Y == 0):  # 檢查是否有任何元素等於 0
         count = np.sum(Y == 0)
@@ -104,414 +306,623 @@ def categorize_array_multi(Y, t1=0.0590, t2=0.0102, t3=0.0060, t4=0.0657):
 
 
 
+def get_random_samples_sparse_stratified(X, y, seed: int = 42):
+    """
+    X: 原始推文 text
+    y: shape=(N,)  多類別標籤
+    """
+    X = np.array(X)  # 強制轉換成 np.array
+    y = np.array(y)
+
+    global N_SAMPLES
+    # global ENABLE_SAMPLING
+    n_total = X.shape[0]
+
+    if N_SAMPLES == 0:
+        print(f"[INFO] 不做 random sampling，使用所有樣本數: {n_total} 筆")
+        # ENABLE_SAMPLING = False
+        return [(X, y)]  # 回傳一個原始數量的 (X, y) tuple
+
+    classes = np.unique(y)
+    n_classes = len(classes)
+    if N_SAMPLES < n_classes:
+        raise ValueError(f"樣本數 {N_SAMPLES} 太少，無法平均分配到每個類別 ({n_classes})")
+    
+    samples_per_class = N_SAMPLES // n_classes
+
+    # 建立索引字典
+    class_indices = defaultdict(list)
+    for idx, label in enumerate(y):
+        class_indices[label].append(idx)
+
+    samples = []
+    for run in range(N_RUNS):
+        np.random.seed(seed + run)
+        selected_indices = []
+
+        for c in classes:
+            idx_list = class_indices[c]
+            if len(idx_list) <= samples_per_class:
+                # 如果該類別數量不夠，就全部拿
+                selected_indices.extend(idx_list)
+            else:
+                selected_indices.extend(np.random.choice(idx_list, samples_per_class, replace=False))
+
+        # 如果總數少於 N_SAMPLES，從剩餘樣本補足
+        if len(selected_indices) < N_SAMPLES:
+            # set(range(n_total)) 是所有樣本索引（0 ~ n_total-1）   set(selected_indices) 是已被選過的索引集合
+            remaining_idx = list(set(range(n_total)) - set(selected_indices))
+            remaining_needed = N_SAMPLES - len(selected_indices)
+            selected_indices.extend(np.random.choice(remaining_idx, remaining_needed, replace=False))
+
+        np.random.shuffle(selected_indices)  # 打亂順序
+        X_sample = X[selected_indices]
+        y_sample = y[selected_indices]
+        samples.append((X_sample, y_sample))
+
+        # === 新增：統計類別數量與比例 ===
+        unique, counts = np.unique(y_sample, return_counts=True)
+        total = len(y_sample)
+        print(f"\n[INFO] Run {run}: Stratified sample X_train={X_sample.shape}, y_train={y_sample.shape}")
+        for cls, cnt in zip(unique, counts):
+            pct = cnt / total * 100
+            print(f"   Class {cls}: {cnt} samples ({pct:.2f}%)")
+
+    return samples
+
+
+
+# 自訂 Dataset 來適配 Hugging Face
 class TweetDataset(Dataset):
-    def __init__(self, texts=None, labels=None, tokenizer=None, max_len=64, pre_tokenized=None):
-        if pre_tokenized is not None:
-            # 已經處理好的 encoding
-            self.encodings = pre_tokenized
-            self.labels = labels
-        else:
-            self.texts = texts
-            self.labels = labels
-            self.tokenizer = tokenizer
-            self.max_len = max_len
-            self.encodings = []
-            print("Tokenizing texts...")
-            for txt in tqdm(self.texts, desc="Tokenizing"):
-                encoding = self.tokenizer(
-                    txt,
-                    truncation=True,
-                    padding="max_length",
-                    max_length=self.max_len,
-                    return_tensors="pt"
-                )
-                self.encodings.append({
-                    "input_ids": encoding["input_ids"].flatten(),
-                    "attention_mask": encoding["attention_mask"].flatten()
-                })
+    def __init__(self, texts, labels, tokenizer, max_length=128):
+        self.texts = texts
+        self.labels = labels
+        self.tokenizer = tokenizer
+        self.max_length = max_length
 
     def __len__(self):
-        return len(self.encodings)
+        return len(self.labels)
 
     def __getitem__(self, idx):
-        item = self.encodings[idx]
-        if hasattr(self, "labels") and self.labels is not None:
-            item["labels"] = torch.tensor(self.labels[idx], dtype=torch.long)
-        return item
+        text = str(self.texts[idx])
+        label = int(self.labels[idx])
 
-
-
-
-
-def compute_metrics(eval_pred):
-    logits, labels = eval_pred
-    preds = np.argmax(logits, axis=-1)
-    acc = accuracy_score(labels, preds)
-    return {"accuracy": acc}
-
-
-
-def balanced_sampling(texts, labels, n_samples, num_categories, random_state=42):
-    """
-    Balanced sampling, with a target total sample count n_samples.
-    Attempts to have roughly equal number of samples per class.
-    
-    texts: list of text samples
-    labels: np.array of shape (N,)
-    n_samples: total number of samples to draw
-    num_categories: number of classes
-    """
-
-    # np.random.seed(random_state)
-    # labels = np.array(labels)
-    # sampled_texts = []
-    # sampled_labels = []
-
-    # # 計算每類目標樣本數
-    # target_per_class = n_samples // num_categories
-    # all_indices = set(range(len(labels)))
-    # sampled_indices_set = set()
-
-    # # 每類抽樣
-    # for cls in range(num_categories):
-    #     cls_indices = np.where(labels == cls)[0]
-    #     n_cls_sample = min(len(cls_indices), target_per_class)
-    #     selected = np.random.choice(cls_indices, size=n_cls_sample, replace=False)
-    #     sampled_indices_set.update(selected)
-
-    # # 剩餘數量
-    # remaining = n_samples - len(sampled_indices_set)
-    # if remaining > 0:
-    #     available_indices = np.array(list(all_indices - sampled_indices_set))
-    #     extra_selected = np.random.choice(available_indices, size=min(len(available_indices), remaining), replace=False)
-    #     sampled_indices_set.update(extra_selected)
-
-    # # 最終抽樣
-    # sampled_indices = np.array(list(sampled_indices_set))
-    # sampled_texts = [texts[i] for i in sampled_indices]
-    # sampled_labels = labels[sampled_indices]
-
-    # # 類別統計
-    # counter_sampled = Counter(sampled_labels)
-    # total = len(sampled_labels)
-    # print("Balanced sampled class distribution (approx):")
-    # for k in range(num_categories):
-    #     print(f"  Class {k}: {counter_sampled[k]} samples, {counter_sampled[k]/total*100:.2f}%")
-    # print(f"  Total sampled: {total} samples\n")
-
-    # return sampled_texts, sampled_labels
-
-
-    np.random.seed(random_state)
-    labels = np.array(labels)
-    sampled_texts = []
-    sampled_labels = []
-
-    # 計算每類目標樣本數
-    target_per_class = n_samples // num_categories
-
-    # 用索引操作，避免重複
-    all_indices = np.arange(len(labels))
-    used_indices = set()
-
-    for cls in range(num_categories):
-        cls_indices = np.where(labels == cls)[0]
-        if len(cls_indices) == 0:
-            continue
-        n_cls_sample = min(len(cls_indices), target_per_class)
-        selected = np.random.choice(cls_indices, size=n_cls_sample, replace=False)
-        sampled_texts.extend([texts[i] for i in selected])
-        sampled_labels.extend(labels[selected])
-        used_indices.update(selected)
-
-    # 剩餘樣本數，從未用過的樣本隨機分配
-    remaining = n_samples - len(sampled_labels)
-    if remaining > 0:
-        available_indices = np.array([i for i in all_indices if i not in used_indices])
-        if len(available_indices) > 0:
-            extra_selected = np.random.choice(
-                available_indices, 
-                size=min(len(available_indices), remaining), 
-                replace=False
-            )
-            sampled_texts.extend([texts[i] for i in extra_selected])
-            sampled_labels.extend(labels[extra_selected])
-
-    sampled_labels = np.array(sampled_labels)
-
-    # 統計抽樣結果
-    counter = Counter(sampled_labels)
-    print("Balanced sampled class distribution (approx):")
-    total = len(sampled_labels)
-    for cls in range(num_categories):
-        print(f"  Class {cls}: {counter[cls]} samples, {counter[cls]/total*100:.2f}%")
-    print(f"  Total sampled: {total} samples")
-
-    return sampled_texts, sampled_labels
-
-
-
-
-def train_single_model(texts, labels, num_categories, model_dir=None,
-                       epochs=3, n_samples=None, balanced=True):
-    """
-    texts: 訓練用的推文
-    labels: 對應標籤
-    all_texts_for_pred: 要全部丟去預測的推文 (包含訓練用的)
-    """
-    labels = np.array(labels)
-    sampled_texts = []
-    sampled_labels = []
-
-    if n_samples is None:
-        n_samples = len(texts)
-
-    if balanced:
-        sampled_texts, sampled_labels = balanced_sampling(
-            texts, labels, n_samples, num_categories
+        encoding = self.tokenizer(
+            text,
+            truncation=True,
+            padding="max_length",   # 可以改成 "longest" 或 "max_length"
+            max_length=self.max_length,
+            return_tensors="pt"
         )
-    else:
-        n = len(texts)
-        sampled_indices = np.random.choice(range(n), size=min(n_samples, n), replace=False)
-        sampled_texts = [texts[i] for i in sampled_indices]
-        sampled_labels = labels[sampled_indices]
 
-    # if balanced:
-    #     # 計算每類目標樣本數
-    #     target_per_class = n_samples // num_categories
-    #     all_indices = set(range(len(labels)))
-    #     sampled_indices_set = set()
+        # squeeze 0 維，變成單筆 tensor
+        item = {key: val.squeeze(0) for key, val in encoding.items()}
+        item["labels"] = torch.tensor(label, dtype=torch.long)
+        return item
+    
 
-    #     # 每類抽樣
-    #     for cls in range(num_categories):
-    #         cls_indices = np.where(labels == cls)[0]
-    #         n_cls_sample = min(len(cls_indices), target_per_class)
-    #         selected = np.random.choice(cls_indices, size=n_cls_sample, replace=False)
-    #         sampled_indices_set.update(selected)
 
-    #     # 剩餘數量
-    #     remaining = n_samples - len(sampled_indices_set)
-    #     if remaining > 0:
-    #         available_indices = np.array(list(all_indices - sampled_indices_set))
-    #         extra_selected = np.random.choice(available_indices, size=min(len(available_indices), remaining), replace=False)
-    #         sampled_indices_set.update(extra_selected)
+def tokenize_and_save(X_train, X_test, y_train, y_test, save_path, model_name="bert-base-uncased"):
+    os.makedirs(save_path, exist_ok=True)
+    tokenizer = BertTokenizerFast.from_pretrained(model_name)
 
-    #     # 最終抽樣
-    #     sampled_indices = np.array(list(sampled_indices_set))
-    #     sampled_texts = [texts[i] for i in sampled_indices]
-    #     sampled_labels = labels[sampled_indices]
-
-    #     # 類別統計
-    #     counter_sampled = Counter(sampled_labels)
-    #     total = len(sampled_labels)
-    #     print("Balanced sampled class distribution (approx):")
-    #     for k in range(num_categories):
-    #         print(f"  Class {k}: {counter_sampled[k]} samples, {counter_sampled[k]/total*100:.2f}%")
-    #     print(f"  Total sampled: {total} samples\n")
-    # else:
-    #     # 普通隨機抽樣
-    #     n = len(texts)
-    #     sampled_indices = np.random.choice(range(n), size=min(n_samples, n), replace=False)
-    #     sampled_texts = [texts[i] for i in sampled_indices]
-    #     sampled_labels = labels[sampled_indices]
-
-    # Tokenizer + Dataset
-    tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
-    dataset = TweetDataset(sampled_texts, sampled_labels, tokenizer)
-
-    # train/val split
-    split = int(0.8 * len(dataset))
-    train_dataset, val_dataset = torch.utils.data.random_split(dataset, [split, len(dataset)-split])
-
-    # 模型
-    model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=num_categories)
-
-    training_args = TrainingArguments(
-        output_dir=model_dir,
-        num_train_epochs=epochs,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
-        eval_strategy="epoch",
-        save_strategy="epoch",
-        logging_dir="./logs",
-        load_best_model_at_end=True,
-        logging_steps=10,
-        report_to="none",
-        remove_unused_columns=False
+    # Tokenize
+    X_train_enc = tokenizer(
+        list(tqdm(X_train, desc="Tokenizing train data")), 
+        truncation=True, padding=True, max_length=128, return_tensors="np"
     )
+
+    X_test_enc = tokenizer(
+        list(tqdm(X_test, desc="Tokenizing test data")), 
+        truncation=True, padding=True, max_length=128, return_tensors="np"
+    )
+
+    # 存檔 (pickle)
+    with open(os.path.join(save_path, f"tokenize_train{SUFFIX_FILTERED}.pkl"), "wb") as f:
+        pickle.dump((X_train_enc, y_train), f)
+    with open(os.path.join(save_path, f"tokenize_test{SUFFIX_FILTERED}.pkl"), "wb") as f:
+        pickle.dump((X_test_enc, y_test), f)
+
+    print(f"✅ Tokenized data saved to {save_path}")
+
+
+
+def load_tokenized_data(save_path):
+    with open(os.path.join(save_path, f"tokenize_train{SUFFIX_FILTERED}.pkl"), "rb") as f:
+        X_train_enc, y_train = pickle.load(f)
+    with open(os.path.join(save_path, f"tokenize_test{SUFFIX_FILTERED}.pkl"), "rb") as f:
+        X_test_enc, y_test = pickle.load(f)
+    return X_train_enc, X_test_enc, y_train, y_test
+
+
+
+def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="bert-base-uncased"):
+
+    all_results = []
+    best_test_acc = -1
+    best_run_info = None
+
+    tokenizer = BertTokenizerFast.from_pretrained(model_name)
+
+    if RUN_FIRST_CLASSIFIER:
+        # 確保是 list，方便 Trainer
+        X_train = list(X_train)
+        X_test  = list(X_test)
+        y_train = list(y_train)
+        y_test  = list(y_test)
+
+
+        # 檢查是否已經有 tokenized data
+        if os.path.exists(f"{OUTPUT_PATH}/tokenize/train{SUFFIX_FILTERED}.pkl"):
+            print("📂 載入已存的 Tokenized Data")
+            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize")
+        else:
+            print("🛠️ 第一次執行，開始 Tokenize 並存檔...")
+            tokenize_and_save(X_train, X_test, y_train, y_test, save_path=f"{OUTPUT_PATH}/tokenize", model_name="bert-base-uncased")
+            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize")
+
+        
+        # --- 取得分層隨機取樣 ---
+        train_sample = get_random_samples_sparse_stratified(X_train_enc, y_train)  # [(X_sample, y_sample), ...]
+        run_count = len(train_sample)
+
+        X_test_enc = list(X_test_enc)
+        y_test = list(y_test)
+
+        # test 包裝成 Dataset
+        test_dataset = TweetDataset(X_test_enc, y_test)
+
+    elif RUN_SECOND_CLASSIFIER:
+        train_sample = [(X_train, y_train)]
+        run_count = 1
+
+        X_test = list(X_test)
+        y_test = list(y_test)
+
+        # test 包裝成 Dataset
+        test_dataset = TweetDataset(X_test, y_test)
+
+    else:
+        raise ValueError("請設定 RUN_FIRST_CLASSIFIER 或 RUN_SECOND_CLASSIFIER")
+
+    # --- 執行 N_RUNS 次 ---
+    for run in range(run_count):
+        print(f"\n===== RUN {run} =====")
+
+        X_train_sample, y_train_sample = train_sample[run]
+        X_train_sample = list(X_train_sample)
+        y_train_sample = list(y_train_sample)
+        train_dataset = TweetDataset(X_train_sample, y_train_sample)
+
+        # 初始化模型
+        num_labels = len(set(y_train_sample))
+        model = BertForSequenceClassification.from_pretrained(model_name, num_labels=num_labels)
+
+        # 訓練參數（這裡你可以隨機抽 hyperparams，模擬 RandomizedSearchCV）
+        training_args = TrainingArguments(
+            output_dir=f"./results_run_{run}",
+            evaluation_strategy="epoch",
+            save_strategy="no",
+            learning_rate=2e-5,
+            per_device_train_batch_size=16,
+            per_device_eval_batch_size=16,
+            num_train_epochs=3,
+            weight_decay=0.01,
+            logging_dir=f"./logs_run_{run}",
+            load_best_model_at_end=False,
+            report_to="none"
+        )
+
+        def compute_metrics(eval_pred):
+            logits, labels = eval_pred
+            preds = np.argmax(logits, axis=-1)
+            acc = accuracy_score(labels, preds)
+            return {"accuracy": acc}
+
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset,
+            eval_dataset=test_dataset,
+            compute_metrics=compute_metrics,
+        )
+
+        trainer.train()
+
+        # 評估
+        train_metrics = trainer.evaluate(train_dataset)
+        test_metrics = trainer.evaluate(test_dataset)
+
+        train_acc = train_metrics["eval_accuracy"]
+        test_acc = test_metrics["eval_accuracy"]
+
+        print(f"[RUN {run}] Train acc={train_acc:.4f}, Test acc={test_acc:.4f}")
+
+        all_results.append({
+            "run": run,
+            "train_acc": train_acc,
+            "test_acc": test_acc,
+        })
+
+        if (RUN_FIRST_CLASSIFIER and test_acc > best_test_acc) or RUN_SECOND_CLASSIFIER:
+            best_test_acc = test_acc
+            best_run_info = {
+                "run": run,
+                "model": model,
+                "tokenizer": tokenizer,
+                "train_acc": train_acc,
+                "test_acc": test_acc,
+            }
+
+    # --- 儲存所有結果 ---
+    results_df = pd.DataFrame(all_results)
+    results_df.to_csv("bert_results.csv", index=False)
+
+    # --- 儲存最佳模型 ---
+    best_model = best_run_info["model"]
+    best_model.save_pretrained(pipeline_path)
+    tokenizer.save_pretrained(pipeline_path)
+
+    print("\n=== 最佳模型 ===")
+    print(f"Run {best_run_info['run']} | Train acc={best_run_info['train_acc']:.4f}, Test acc={best_run_info['test_acc']:.4f}")
+    
+    best_model = best_run_info["model"]
+    best_tokenizer = best_run_info["tokenizer"]
 
     trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=val_dataset,
-        compute_metrics=compute_metrics
+        model=best_model,
+        args=training_args,  # 可以重用最後一個 run 的 training_args
+        eval_dataset=test_dataset,
+        compute_metrics=compute_metrics,
     )
 
-    print(f"=== Training {model_dir} ===")
-    train_result = trainer.train()
-
-    # 儲存模型
-    model.save_pretrained(model_dir)
-    tokenizer.save_pretrained(model_dir)
-
-    # 訓練結果
-    metrics = train_result.metrics
-    print(f"Training metrics for {model_dir}:")
-    print(json.dumps(metrics, indent=4))
-    with open(os.path.join(model_dir, "train_metrics.json"), "w") as f:
-        json.dump(metrics, f, indent=4)
-
-    # 驗證集結果
-    eval_metrics = trainer.evaluate()
-    print(f"Validation metrics for {model_dir}:")
-    print(json.dumps(eval_metrics, indent=4))
-
-    return trainer
+    preds = trainer.predict(test_dataset).predictions
+    preds = np.argmax(preds, axis=-1)
+    print(classification_report(y_test, preds))
 
 
 
-def tokenize_and_save(all_texts, tokenizer, max_len=64, save_path=None): 
-    if os.path.exists(save_path): 
-        print(f"Loading pre-tokenized tweets from {save_path}") 
-        return torch.load(save_path) 
+def evaluate_by_coin_date(ids, y_true, y_pred):
+    LABEL_SYMBOLS = {
+        0: "🔴",  # 大跌
+        1: "🟠",    # 跌
+        2: "⚪",    # 持平
+        3: "🟡",    # 漲
+        4: "🟢"   # 大漲
+    }
+
+    if RUN_FIRST_CLASSIFIER:
+        results = defaultdict(list)
+
+        # 聚合
+        for (coin, date, _), t, p in zip(ids, y_true, y_pred):
+            results[(coin, date)].append((t, p))
+
+        daily_summary = {}
+        for (coin, date), samples in results.items():
+            truths, preds = zip(*samples)
+            truths = np.array(truths)
+            preds  = np.array(preds)
+
+            # 多數決
+            values, counts = np.unique(preds, return_counts=True)
+            majority_pred = values[np.argmax(counts)]
+
+            true_label = truths[0]  # 假設同一天真實標籤一致
+            correct = (majority_pred == true_label)
+
+
+            daily_summary.setdefault(coin, {})
+
+            # 將各類別出現次數轉成 list（保持原本 up_counts/down_counts 的感覺）
+            class_counts = [np.sum(preds == i) for i in range(5)]  # 0~4 五類
+            pred_symbols = [LABEL_SYMBOLS[majority_pred]]           # 單一預測符號
+
+            true_symbols   = [LABEL_SYMBOLS[int(true_label)]]   # 真實符號
+            result_symbols = ["✅" if correct else "❌"]         # 對錯符號
+
+
+            daily_summary[coin][date] = {
+                "true_label": int(true_label),
+                "majority_pred": int(majority_pred),
+                "majority_correct": bool(correct),
+                "class_counts": class_counts,    # 替代 up_counts/down_counts
+                "total_counts": len(preds),      # 原本 total_counts
+                "pred_symbols": pred_symbols,
+                "true_symbols": true_symbols,     # 真實符號
+                "result_symbols": result_symbols  # 對錯符號
+            }
+
+        return daily_summary, len(np.unique(y_true))
     
-    encodings = [] 
-    print("Tokenizing texts...") 
-    for txt in tqdm(all_texts, desc="Tokenizing"): 
-        encoding = tokenizer( 
-            txt, 
-            truncation=True, 
-            padding="max_length", 
-            max_length=max_len, 
-            return_tensors="pt" 
-        ) 
-        encodings.append({ 
-            "input_ids": encoding["input_ids"].flatten(), 
-            "attention_mask": encoding["attention_mask"].flatten() 
-        }) 
-        
-    torch.save(encodings, save_path) 
-    print(f"Saved tokenized tweets to {save_path}") 
+    # --- 未完成 ---
+    elif RUN_SECOND_CLASSIFIER:
+        daily_summary = {}
+
+        for (coin, date), t, p in zip(ids, y_true, y_pred):
+            correct = (p == t)
+
+            # 各類別計數 (這裡因為只有一筆，只有一個類別會是 1，其餘都是 0)
+            class_counts = [1 if p == i else 0 for i in range(5)]
+
+            daily_summary.setdefault(coin, {})
+            daily_summary[coin][date] = {
+                "true_label": int(t),
+                "majority_pred": int(p),
+                "majority_correct": bool(correct),
+                "class_counts": class_counts,
+                "total_counts": 1,
+                "pred_symbols": [LABEL_SYMBOLS[int(p)]],
+                "true_symbols": [LABEL_SYMBOLS[int(t)]],
+                "result_symbols": ["✅" if correct else "❌"]
+            }
+
+        return daily_summary, len(np.unique(y_true))
+
+
+
+def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, model_path, model_name="bert-base-uncased"):
     
-    return encodings
+    tokenizer = BertTokenizerFast.from_pretrained(model_name)
+    model = BertForSequenceClassification.from_pretrained(model_path)
+
+    # 建立 Dataset
+    train_dataset = TweetDataset(X_train, y_train, tokenizer)
+    test_dataset  = TweetDataset(X_test, y_test, tokenizer)
+
+    trainer = Trainer(model=model)  # 只用來做 predict，不需要 training args
+
+    # 預測
+    train_preds = trainer.predict(train_dataset).predictions
+    test_preds  = trainer.predict(test_dataset).predictions
+
+    # 取 argmax
+    train_preds = np.argmax(train_preds, axis=-1)
+    test_preds  = np.argmax(test_preds, axis=-1)
+
+    # 評估分類報告
+    print("\nTrain Classification Report:")
+    print(classification_report(y_train, train_preds, zero_division=0))
+    print("\nTest Classification Report:")
+    print(classification_report(y_test, test_preds, zero_division=0))
+
+    # 套用你原本的 daily aggregation
+    train_daily, _ = evaluate_by_coin_date(ids_train, y_train, train_preds)
+    test_daily, _  = evaluate_by_coin_date(ids_test, y_test, test_preds)
+
+    if RUN_FIRST_CLASSIFIER:
+
+        # === 存成 JSON ===
+        with open(f"{OUTPUT_PATH}/logreg_train_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+            json.dump(train_daily, f, ensure_ascii=False, indent=4, default=int)
+
+        with open(f"{OUTPUT_PATH}/logreg_test_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+            json.dump(test_daily, f, ensure_ascii=False, indent=4, default=int)
+
+        print("已輸出逐日預測結果：")
+        print(f"- train: {OUTPUT_PATH}/logreg_train_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+        print(f"- test:  {OUTPUT_PATH}/logreg_test_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+
+        # === 合併 train + test ===
+        combined_daily = {}
+        for coin, daily in train_daily.items():
+            combined_daily.setdefault(coin, {}).update(daily)
+        for coin, daily in test_daily.items():
+            combined_daily.setdefault(coin, {}).update(daily)
+
+        # === 存成合併後的 TXT ===
+        txt_path = f"{OUTPUT_PATH}/logreg_combined_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
+        with open(txt_path, "w", encoding="utf-8") as f:
+            # === 初始化統計器 ===
+            label_correct = np.zeros(1, dtype=int)
+            label_total   = np.zeros(1, dtype=int)
+
+            for coin, daily in combined_daily.items():
+                f.write(f"\n=== {coin} ===\n")
+
+                # 用來存放每天的 (date, pred_class)
+                records = []
+
+                for date, stats in sorted(daily.items()):
+                    # --- 每日輸出到 TXT ---
+                    class_str = " ".join(f"{x:5d}" for x in stats['class_counts'])
+                    line = (
+                        f"{date} → 📊 {class_str}  "
+                        f"總數: {stats['total_counts']:5d}  "
+                        f"預測: {''.join(stats['pred_symbols'])}  "
+                        f"真實: {''.join(stats['true_symbols'])}  "
+                        f"結果: {''.join(stats['result_symbols'])}\n"
+                    )
+                    f.write(line)
+
+                    # --- 更新累積準確率 ---
+                    label_total[0] += 1
+                    if stats["majority_correct"]:
+                        label_correct[0] += 1
+
+                    # --- 取當天預測類別 (class_counts 最大的 index) ---
+                    pred_class = int(np.argmax(stats["class_counts"]))
+                    records.append((date, pred_class))
+
+                # --- 輸出整體準確率 (百分比) ---
+                accuracy_summary = " ".join(
+                    f"{(c / t * 100):.2f}%" if t > 0 else "N/A"
+                    for c, t in zip(label_correct, label_total)
+                )
+                f.write(f"\n整體準確率: {accuracy_summary}\n")
+
+                # === 存成 .npy (每日預測結果，依日期排序) ===
+                if records:
+                    records.sort(key=lambda x: x[0])
+                    _, preds = zip(*records)
+                    preds = np.array(preds, dtype=np.int32)
+
+                    npy_path = f"{OUTPUT_PATH}/{coin}_logreg_classifier_1_result{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy"
+                    np.save(npy_path, preds)
+                    print(preds[:50])
+                    print(f"{coin} → {npy_path} 已完成, shape={preds.shape}")
 
 
+        print(f"\n合併後的人類可讀版結果已輸出到：{txt_path}")
 
-def fast_predict_all_models(all_texts, all_Y, tokenized_path=None,
-                            save_path=SAVE_PATH, batch_size=512, device=None):
-    """
-    分批預測所有模型，完成一個 label 就單獨存成一個檔案並釋放記憶體
-    """
-    device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-    print("Using device:", device)
+    elif RUN_SECOND_CLASSIFIER:
+        # === 存成 JSON ===
+        with open(f"{OUTPUT_PATH}/logreg_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+            json.dump(train_daily, f, ensure_ascii=False, indent=4, default=int)
 
-    # 載入 pre-tokenized
-    tokenizer = BertTokenizerFast.from_pretrained(f"{save_path}/allcoins_y")  # 用 model0 的 tokenizer
-    encodings = tokenize_and_save(all_texts, tokenizer, max_len=64, save_path=tokenized_path)
-    input_ids = torch.stack([e["input_ids"] for e in encodings]).to(device)
-    attention_mask = torch.stack([e["attention_mask"] for e in encodings]).to(device)
-    n_samples = input_ids.size(0)
+        with open(f"{OUTPUT_PATH}/logreg_test_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+            json.dump(test_daily, f, ensure_ascii=False, indent=4, default=int)
 
-    os.makedirs(save_path, exist_ok=True)
+        print("已輸出逐日預測結果：")
+        print(f"- train: {OUTPUT_PATH}/logreg_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+        print(f"- test:  {OUTPUT_PATH}/logreg_test_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
 
-    model_dir = f"{save_path}/allcoins_y"
-    print(f"=== Predicting Y with model {model_dir} ===")
+        # === 合併 train + test ===
+        combined_daily = {}
+        for coin, daily in train_daily.items():
+            combined_daily.setdefault(coin, {}).update(daily)
+        for coin, daily in test_daily.items():
+            combined_daily.setdefault(coin, {}).update(daily)
 
-    model = BertForSequenceClassification.from_pretrained(model_dir).to(device)
-    model.eval()
+        # === 存成合併後的 TXT ===
+        txt_path = f"{OUTPUT_PATH}/logreg_combined_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
+        with open(txt_path, "w", encoding="utf-8") as f:
+            label_correct = 0
+            label_total = 0
 
-    preds = []
+            for coin, daily in combined_daily.items():
+                f.write(f"\n=== {coin} ===\n")
 
-    with torch.no_grad():
-        for start in range(0, n_samples, batch_size):
-            end = min(start + batch_size, n_samples)
-            batch_input_ids = input_ids[start:end]
-            batch_attention_mask = attention_mask[start:end]
+                records = []
+                for date, stats in sorted(daily.items()):
+                    # --- 每日輸出到 TXT ---
+                    line = (
+                        f"{date} → "
+                        f"預測: {''.join(stats['pred_symbols'])}  "
+                        f"真實: {''.join(stats['true_symbols'])}  "
+                        f"結果: {''.join(stats['result_symbols'])}\n"
+                    )
+                    f.write(line)
 
-            outputs = model(input_ids=batch_input_ids, attention_mask=batch_attention_mask)
-            logits = outputs.logits
-            batch_pred = torch.argmax(logits, dim=-1).cpu().numpy()
-            preds.append(batch_pred)
+                    # --- 更新累積準確率 ---
+                    label_total += 1
+                    if stats["majority_correct"]:
+                        label_correct += 1
 
-            if (start // batch_size) % 50 == 0:
-                print(f"  Processed {end}/{n_samples} samples")
+                    # --- 保存每日預測類別 ---
+                    records.append((date, stats["majority_pred"]))
 
-    preds = np.concatenate(preds)
+                # --- 輸出整體準確率 ---
+                acc = (label_correct / label_total * 100) if label_total > 0 else 0
+                f.write(f"\n整體準確率: {acc:.2f}%\n")
 
-    # 建立 DataFrame，只包含當前 label
-    df = pd.DataFrame({
-        "text": all_texts,
-        f"true_y": all_Y,
-        f"pred_y": preds,
-    })
-    df[f"correct_y"] = df[f"true_y"] == df[f"pred_y"]
-
-    # 存檔（每個 label 獨立檔案）
-    csv_path = os.path.join(save_path, f"predictions_y.csv")
-    json_path = os.path.join(save_path, f"predictions_y.json")
-    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
-    df.to_json(json_path, orient="records", force_ascii=False, indent=4)
-
-    print(f"Saved predictions for label to {csv_path} and {json_path}")
-
-    # # 清理記憶體
-    # del model
-    # torch.cuda.empty_cache()
-
-    print("✅ 全部 label 預測完成！")
-
-
+        print(f"\n合併後的人類可讀版結果已輸出到：{txt_path}")
 
 
 
 
 
 def main():
-    data_dir = "../data/filtered_tweets/normal_tweets"
-    price_dir = "../data/ml/dataset/coin_price"
 
-    COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
-    JSON_DICT_NAME = ["dogecoin", "PEPE", "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"]
+    if RUN_FIRST_CLASSIFIER:
 
-    all_texts = []
-    all_Y = []
+        pipeline_path = f"{SAVE_MODEL_PATH}/BERT_best_pipeline_{N_SAMPLES}{SUFFIX_FILTERED}.joblib"  # 儲存訓練模型的位置
 
-    # 先把三種幣的資料合併
-    for coin_short_name, json_dict_name in zip(COIN_SHORT_NAME, JSON_DICT_NAME):
-        print(f"=== Loading data for {coin_short_name} ===")
-        texts = load_tweets(data_dir, coin_short_name, json_dict_name)
-        Y = load_price_diff(price_dir, coin_short_name)  # (N_coin, )
+        if not IS_RUN_AUGUST:
+            # --- 載入資料 ---
+            X_train, X_test, y_train, y_test, ids_train, ids_test = load_and_preprocess()
 
-        # print(len(texts))
-        # print(Y.shape[0])
+            # for count in range(LABELS):
 
-        assert len(texts) == Y.shape[0], f"{coin_short_name} texts and Y length mismatch!"
+            if IS_TRAIN:
+                # --- 訓練模型 --- 
+                train_function(X_train, X_test, y_train, y_test, pipeline_path)
 
-        all_texts.extend(texts)
-        all_Y.append(Y)
+                # --- 預測模型 ---
+                predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, pipeline_path)
+            else:
+                if not os.path.exists(pipeline_path):
+                    print("找不到已訓練好的 第一個分類器 模型，請先將 IS_TRAIN 設為 True")
 
-    all_Y = np.concatenate(all_Y)  # shape = (N_total, )
+                # --- 預測模型 ---
+                predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, pipeline_path)
 
-    if ISTRAIN:
-        print(f"=== Processing Y (all coins combined) ===")
-        labels = categorize_array_multi(all_Y)
-        model_dir = f"{SAVE_PATH}/allcoins_y"
+        else:
+            # --- 預測 2025-08 ---
+            predict_august_function(pipeline_path)
 
-        # 訓練 + 預測全部推文
-        trainer = train_single_model(
-            all_texts,
-            labels,
-            num_categories=NUM_CATEGORIES,
-            model_dir=model_dir,
-            epochs=EPOCHS,
-            n_samples=N_SAMPLES,
-            balanced=True
-        )
+    elif RUN_SECOND_CLASSIFIER:
+
+        pipeline_path = f"{SAVE_MODEL_PATH}/BERT_classifier_2{SUFFIX_FILTERED}.joblib"  # 儲存訓練模型的位置
+
+        if not IS_RUN_AUGUST:
+            if IS_GROUPED_CV == False:
+                # --- 載入資料 ---
+                X_train, X_test, y_train, y_test, ids_train, ids_test= load_and_preprocess()
+
+                if IS_TRAIN:
+                    # --- 訓練模型 --- 
+                    train_function(X_train, X_test, y_train, y_test, pipeline_path)
+
+                    # --- 預測模型 ---
+                    predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, pipeline_path)
+                else:
+                    if not os.path.exists(pipeline_path):
+                        print("找不到已訓練好的 第二個分類器 模型，請先將 IS_TRAIN 設為 True")
+
+                    # --- 預測模型 ---
+                    predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, pipeline_path)
+
+            else:
+                # 取得資料
+                X = np.load(f"{INPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+                y = np.load(f"{INPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+                with open(f"{INPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
+                    ids = pickle.load(file)
+
+                y_categorized = categorize_array_multi(y, ids, T1, T2, T3, T4)  # shape (N,)
+
+                results_all = coin_month_cv(X, y_categorized, ids, C=C)
+
+        else:
+            # --- 預測 2025-08 ---
+            predict_august_function(pipeline_path)  
+
+
+
+
+    # texts = load_tweets()
+    # Y = load_price_diff(price_dir, coin_short_name)  # (N_coin, )
+
+    # # print(len(texts))
+    # # print(Y.shape[0])
+
+    # assert len(texts) == Y.shape[0], f"{coin_short_name} texts and Y length mismatch!"
+
+    # all_texts.extend(texts)
+    # all_Y.append(Y)
+
+    # all_Y = np.concatenate(all_Y)  # shape = (N_total, )
+
+    # if IS_TRAIN:
+    #     print(f"=== Processing Y (all coins combined) ===")
+    #     labels = categorize_array_multi(all_Y)
+    #     model_dir = f"{SAVE_PATH}/allcoins_y"
+
+    #     # 訓練 + 預測全部推文
+    #     trainer = train_single_model(
+    #         all_texts,
+    #         labels,
+    #         num_categories=NUM_CATEGORIES,
+    #         model_dir=model_dir,
+    #         epochs=EPOCHS,
+    #         n_samples=N_SAMPLES,
+    #         balanced=True
+    #     )
         
-    print("\n開始預測全部推文...")
-    # 預測全部推文 + 輸出 CSV/JSON
-    fast_predict_all_models(all_texts, all_Y, tokenized_path=f"{SAVE_PATH}/tokenized_tweets.pt")
+    # print("\n開始預測全部推文...")
+    # # 預測全部推文 + 輸出 CSV/JSON
+    # fast_predict_all_models(all_texts, all_Y, tokenized_path=f"{SAVE_PATH}/tokenized_tweets.pt")
 
 
 
