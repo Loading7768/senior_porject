@@ -402,37 +402,84 @@ class TweetDataset(Dataset):
     
 
 
-def tokenize_and_save(X_train, X_test, y_train, y_test, save_path, model_name="bert-base-uncased"):
+# ==========================================================
+# 分批 Tokenize + 存檔
+# ==========================================================
+def tokenize_and_save_in_batches(X, y, tokenizer, save_path, prefix, batch_size=5000, max_len=128):
+    os.makedirs(save_path, exist_ok=True)
+
+    total_batches = math.ceil(len(X) / batch_size)
+    print(f"📦 {prefix}: 共需 {total_batches} 個 batch，每個大小 {batch_size}（最後一批可能較少）")
+
+    file_paths = []
+    for batch_idx in tqdm(range(total_batches), desc=f"Tokenizing {prefix}"):
+        start = batch_idx * batch_size
+        end = start + batch_size
+        batch_texts = X[start:end]
+        batch_labels = y[start:end]
+
+        encodings = tokenizer(
+            batch_texts,
+            truncation=True,
+            padding="max_length",
+            max_length=max_len,
+            return_tensors="np"
+        )
+
+        file_path = os.path.join(save_path, f"{prefix}_batch{i//batch_size}{SUFFIX_FILTERED}.pkl")
+        with open(file_path, "wb") as f:
+            pickle.dump((encodings, batch_labels), f)
+        file_paths.append(file_path)
+
+    print(f"✅ {prefix} 全部 {total_batches} 個 batch 已存檔完成")
+
+    return file_paths
+
+
+# ==========================================================
+# 載入分批資料 → 合併成單一 Dataset
+# ==========================================================
+def load_tokenized_batches(save_path, prefix):
+    all_encodings = []
+    all_labels = []
+
+    files = sorted([f for f in os.listdir(save_path) if f.startswith(prefix)])
+    for f_name in files:
+        with open(os.path.join(save_path, f_name), "rb") as f:
+            encodings, labels = pickle.load(f)
+            all_encodings.append(encodings)
+            all_labels.extend(labels)
+
+    # 合併成單一 dict (numpy)
+    merged_encodings = {
+        "input_ids": np.concatenate([e["input_ids"] for e in all_encodings]),
+        "attention_mask": np.concatenate([e["attention_mask"] for e in all_encodings]),
+    }
+
+    return merged_encodings, all_labels
+
+
+# ==========================================================
+# 主要 Tokenize & Save function（改用分批）
+# ==========================================================
+def tokenize_and_save(X_train, X_test, y_train, y_test, save_path, model_name="bert-base-uncased", batch_size=5000):
     os.makedirs(save_path, exist_ok=True)
     tokenizer = BertTokenizerFast.from_pretrained(model_name)
 
-    # Tokenize
-    X_train_enc = tokenizer(
-        list(tqdm(X_train, desc="Tokenizing train data")), 
-        truncation=True, padding=True, max_length=128, return_tensors="np"
-    )
+    print("🛠️ Tokenizing Train Data...")
+    tokenize_and_save_in_batches(X_train, y_train, tokenizer, save_path, prefix="train", batch_size=batch_size)
 
-    X_test_enc = tokenizer(
-        list(tqdm(X_test, desc="Tokenizing test data")), 
-        truncation=True, padding=True, max_length=128, return_tensors="np"
-    )
+    print("🛠️ Tokenizing Test Data...")
+    tokenize_and_save_in_batches(X_test, y_test, tokenizer, save_path, prefix="test", batch_size=batch_size)
 
-    # 存檔 (pickle)
-    with open(os.path.join(save_path, f"tokenize_train{SUFFIX_FILTERED}.pkl"), "wb") as f:
-        pickle.dump((X_train_enc, y_train), f)
-    with open(os.path.join(save_path, f"tokenize_test{SUFFIX_FILTERED}.pkl"), "wb") as f:
-        pickle.dump((X_test_enc, y_test), f)
-
-    print(f"✅ Tokenized data saved to {save_path}")
-
+    print(f"✅ All tokenized data saved to {save_path}")
 
 
 def load_tokenized_data(save_path):
-    with open(os.path.join(save_path, f"tokenize_train{SUFFIX_FILTERED}.pkl"), "rb") as f:
-        X_train_enc, y_train = pickle.load(f)
-    with open(os.path.join(save_path, f"tokenize_test{SUFFIX_FILTERED}.pkl"), "rb") as f:
-        X_test_enc, y_test = pickle.load(f)
+    X_train_enc, y_train = load_tokenized_batches(save_path, prefix="train")
+    X_test_enc, y_test = load_tokenized_batches(save_path, prefix="test")
     return X_train_enc, X_test_enc, y_train, y_test
+
 
 
 
@@ -451,15 +498,19 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="
         y_train = list(y_train)
         y_test  = list(y_test)
 
+        if IS_FILTERED:
+            tokenize_path = "filtered"
+        else:
+            tokenize_path = "non_filtered"
 
         # 檢查是否已經有 tokenized data
-        if os.path.exists(f"{OUTPUT_PATH}/tokenize/train{SUFFIX_FILTERED}.pkl"):
+        if os.path.exists(f"{OUTPUT_PATH}/tokenize/{tokenize_path}/train_batch0{SUFFIX_FILTERED}.pkl"):
             print("📂 載入已存的 Tokenized Data")
-            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize")
+            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
         else:
             print("🛠️ 第一次執行，開始 Tokenize 並存檔...")
-            tokenize_and_save(X_train, X_test, y_train, y_test, save_path=f"{OUTPUT_PATH}/tokenize", model_name="bert-base-uncased")
-            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize")
+            tokenize_and_save(X_train, X_test, y_train, y_test, save_path=f"{OUTPUT_PATH}/tokenize/{tokenize_path}", model_name="bert-base-uncased")
+            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
 
         
         # --- 取得分層隨機取樣 ---
@@ -819,6 +870,161 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
         print(f"\n合併後的人類可讀版結果已輸出到：{txt_path}")
 
 
+# --- 未完成 ---
+def predict_august_function(pipeline_path):
+    combined_daily = {}  # 用來放 合併 三種幣種 的資料 ===
+
+    # --- 載入資料 ---
+    for coin_short_name in ['DOGE', 'PEPE', 'TRUMP']:
+        if RUN_FIRST_CLASSIFIER:
+            X_august = sparse.load_npz(f'{INPUT_PATH}/keyword/{coin_short_name}_X_sparse{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npz')
+            y_august = np.load(f'{INPUT_PATH}/coin_price/{coin_short_name}_price_diff{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy')
+            with open(f'{INPUT_PATH}/keyword/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl', 'rb') as file:
+                ids_august = pickle.load(file)
+
+        elif RUN_SECOND_CLASSIFIER:
+            X_august = np.load(f"{INPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+            y_august = np.load(f"{INPUT_PATH}/coin_price/{coin_short_name}_price_diff_original{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+            with open(f"{INPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
+                ids_august = pickle.load(file)
+
+        y_august_categorized = categorize_array_multi(y_august, T1, T2, T3, T4)
+
+        # === 載入最佳模型 ===
+        pipeline = joblib.load(pipeline_path)
+        model = pipeline["model"]
+        
+        # === 預測所有樣本 ===
+        y_pred_august = model.predict(X_august)
+        print(y_pred_august.shape)
+
+        # 將 ids 轉成 np.array 方便接下來的處理
+        ids_august = np.array(ids_august)
+
+        
+        print(f"\n分類報告 ({coin_short_name} August set):")
+        print(classification_report(y_august_categorized, y_pred_august, zero_division=0))
+
+        # august_score = knn.score(X_august, Y_august)
+        print(f'{coin_short_name} August accuracy')  
+
+        print("ids_august[:5]", ids_august[:5])
+
+        august_daily, _ = evaluate_by_coin_date(ids_august, y_august_categorized, y_pred_august)
+
+        if RUN_FIRST_CLASSIFIER:
+            # === 存成 JSON ===
+            with open(f"{OUTPUT_PATH}/{coin_short_name}_logreg_august_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+                json.dump(august_daily, f, ensure_ascii=False, indent=4, default=int)
+
+            print("已輸出逐日預測結果：")
+            print(f"- august: {OUTPUT_PATH}/{coin_short_name}_logreg_august_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+
+            # === 合併 三種幣種 ===
+            for coin, daily in august_daily.items():
+                combined_daily.setdefault(coin, {}).update(daily)
+
+            # === 存成合併後的 TXT ===
+            txt_path = f"{OUTPUT_PATH}/logreg_combined_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
+            with open(txt_path, "w", encoding="utf-8") as f:
+                # === 初始化統計器 ===
+                label_correct = np.zeros(1, dtype=int)
+                label_total   = np.zeros(1, dtype=int)
+
+                for coin, daily in combined_daily.items():
+                    f.write(f"\n=== {coin} ===\n")
+
+                    # 用來存放每天的 (date, pred_class)
+                    records = []
+
+                    for date, stats in sorted(daily.items()):
+                        # --- 每日輸出到 TXT ---
+                        class_str = " ".join(f"{x:5d}" for x in stats['class_counts'])
+                        line = (
+                            f"{date} → 📊 {class_str}  "
+                            f"總數: {stats['total_counts']:5d}  "
+                            f"預測: {''.join(stats['pred_symbols'])}  "
+                            f"真實: {''.join(stats['true_symbols'])}  "
+                            f"結果: {''.join(stats['result_symbols'])}\n"
+                        )
+                        f.write(line)
+
+                        # --- 更新累積準確率 ---
+                        label_total[0] += 1
+                        if stats["majority_correct"]:
+                            label_correct[0] += 1
+
+                        # --- 取當天預測類別 (class_counts 最大的 index) ---
+                        pred_class = int(np.argmax(stats["class_counts"]))
+                        records.append((date, pred_class))
+
+                    # --- 輸出整體準確率 (百分比) ---
+                    accuracy_summary = " ".join(
+                        f"{(c / t * 100):.2f}%" if t > 0 else "N/A"
+                        for c, t in zip(label_correct, label_total)
+                    )
+                    f.write(f"\n整體準確率: {accuracy_summary}\n")
+
+                    # === 存成 .npy (每日預測結果，依日期排序) ===
+                    if records:
+                        records.sort(key=lambda x: x[0])
+                        _, preds = zip(*records)
+                        preds = np.array(preds, dtype=np.int32)
+
+                        npy_path = f"{OUTPUT_PATH}/{coin}_logreg_classifier_1_result{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy"
+                        np.save(npy_path, preds)
+                        print(preds[:50])
+                        print(f"{coin} → {npy_path} 已完成, shape={preds.shape}")
+
+
+            print(f"\n合併後的人類可讀版結果已輸出到：{txt_path}")
+
+        elif RUN_SECOND_CLASSIFIER:
+
+            # === 存成 JSON ===
+            with open(f"{OUTPUT_PATH}/{coin_short_name}_logreg_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+                json.dump(august_daily, f, ensure_ascii=False, indent=4, default=int)
+
+            print("已輸出逐日預測結果：")
+            print(f"- august: {OUTPUT_PATH}/{coin_short_name}_logreg_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+
+            # === 合併 三種幣種 ===
+            for coin, daily in august_daily.items():
+                combined_daily.setdefault(coin, {}).update(daily)
+
+            # === 存成合併後的 TXT ===
+            txt_path = f"{OUTPUT_PATH}/logreg_combined_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
+            with open(txt_path, "w", encoding="utf-8") as f:
+                label_correct = 0
+                label_total = 0
+
+                for coin, daily in combined_daily.items():
+                    f.write(f"\n=== {coin} ===\n")
+
+                    records = []
+                    for date, stats in sorted(daily.items()):
+                        # --- 每日輸出到 TXT ---
+                        line = (
+                            f"{date} → "
+                            f"預測: {''.join(stats['pred_symbols'])}  "
+                            f"真實: {''.join(stats['true_symbols'])}  "
+                            f"結果: {''.join(stats['result_symbols'])}\n"
+                        )
+                        f.write(line)
+
+                        # --- 更新累積準確率 ---
+                        label_total += 1
+                        if stats["majority_correct"]:
+                            label_correct += 1
+
+                        # --- 保存每日預測類別 ---
+                        records.append((date, stats["majority_pred"]))
+
+                    # --- 輸出整體準確率 ---
+                    acc = (label_correct / label_total * 100) if label_total > 0 else 0
+                    f.write(f"\n整體準確率: {acc:.2f}%\n")
+
+            print(f"\n合併後的人類可讀版結果已輸出到：{txt_path}")
 
 
 
