@@ -17,10 +17,14 @@ MODEL_SHORT_NAME = "logreg"  # "logreg" "rf" "sgd"
 
 MODEL_PATH_NAME = "logistic_regression"  # "logistic_regression" "random_forest" "SGD"
 
-IS_FILTERED = False  # 看是否有分 normal 與 bot
+IS_FILTERED = True  # 看是否有分 normal 與 bot
 '''可修改參數'''
 
 SUFFIX_FILTERED = "" if IS_FILTERED else "_non_filtered"
+LATEX_SUFFIX_FILTERED = "_filtered" if IS_FILTERED else "_non_filtered"
+
+save_json_path = f"../outputs/classification_report/{MODEL_PATH_NAME}"
+os.makedirs(save_json_path, exist_ok=True)
 
 
 
@@ -54,6 +58,58 @@ def categorize_array_multi(Y, t1=-0.0590, t2=-0.0102, t3=0.0060, t4=0.0657, ids=
         labels[Y == 0] = 4  # 為了校正 TRUMP 前兩天的價格相同 第一天設為大漲
 
     return labels
+
+
+
+def Latex(report_train, report_test):
+    classes = ['大跌', '小跌', '持平', '小漲', '大漲']
+
+    latex_str = r"""\begin{table}[H]
+\centering
+{\fontsize{12.5}{16}\selectfont
+\begin{tabular}{c|ccc|ccc}
+& \multicolumn{3}{c|}{Train set} & \multicolumn{3}{c}{Test set} \\
+\hline
+Class & Precision & Recall & F1-score & Precision & Recall & F1-score \\
+\hline
+"""
+
+    for cls in classes:
+        train_prec = report_train[cls]['precision']
+        train_rec = report_train[cls]['recall']
+        train_f1 = report_train[cls]['f1-score']
+        
+        test_prec = report_test[cls]['precision']
+        test_rec = report_test[cls]['recall']
+        test_f1 = report_test[cls]['f1-score']
+        
+        latex_str += f"{cls} & {train_prec:.2f} & {train_rec:.2f} & {train_f1:.2f} & {test_prec:.2f} & {test_rec:.2f} & {test_f1:.2f} \\\\\n"
+
+    # 加上 Macro avg
+    train_macro = report_train['macro avg']
+    test_macro = report_test['macro avg']
+    latex_str += r"\hline" + "\n"
+    latex_str += f"Macro avg & {train_macro['precision']:.2f} & {train_macro['recall']:.2f} & {train_macro['f1-score']:.2f} & {test_macro['precision']:.2f} & {test_macro['recall']:.2f} & {test_macro['f1-score']:.2f} \\\\\n"
+
+    latex_str += r"""\end{tabular}
+}
+\caption{"""
+    latex_str += MODEL_SHORT_NAME.capitalize()
+    
+    latex_str += r""" 以日期為單位的訓練與測試準確度}
+\label{tab:classifier_1_report_"""
+    latex_str += f"{MODEL_SHORT_NAME}{LATEX_SUFFIX_FILTERED}"
+    latex_str += r"""}
+\end{table}"""
+
+    # 印出 LaTeX
+    print(latex_str)
+
+    # 可選：存成檔案
+    with open(f"{save_json_path}/{MODEL_SHORT_NAME}_report{SUFFIX_FILTERED}.tex", "w", encoding="utf-8") as f:
+        f.write(latex_str)
+
+
 
 
 y_true_final, y_pred_final = [], []
@@ -105,6 +161,19 @@ y_true_train, y_true_test, y_pred_train, y_pred_test = train_test_split(
 )
 
 
+print(classification_report(
+    y_true_train, y_pred_train,
+    digits=3,
+    target_names=['大跌', '小跌', '持平', '小漲', '大漲']
+))
+
+print(classification_report(
+    y_true_test, y_pred_test,
+    digits=3,
+    target_names=['大跌', '小跌', '持平', '小漲', '大漲']
+))
+
+
 # --- 生成分類報告 dict ---
 report_train = classification_report(
     y_true_train, y_pred_train,
@@ -120,6 +189,9 @@ report_test = classification_report(
     output_dict=True
 )
 
+Latex(report_train, report_test)
+
+
 # --- 存成 JSON ---
 save_json_path = f"../outputs/classification_report/{MODEL_PATH_NAME}"
 os.makedirs(save_json_path, exist_ok=True)
@@ -130,4 +202,4 @@ with open(f"{save_json_path}/{MODEL_SHORT_NAME}_train_report{SUFFIX_FILTERED}.js
 with open(f"{save_json_path}/{MODEL_SHORT_NAME}_test_report{SUFFIX_FILTERED}.json", "w", encoding="utf-8") as f:
     json.dump(report_test, f, ensure_ascii=False, indent=4)
 
-print("✅ JSON 檔案已存好")
+print("\n✅ JSON 檔案已存好")
