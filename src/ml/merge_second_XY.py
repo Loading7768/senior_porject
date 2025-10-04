@@ -1,6 +1,9 @@
+from pathlib import Path
 import numpy as np
 import pickle
 import pandas as pd
+from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split
 
 '''可修改參數'''
 COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
@@ -13,15 +16,16 @@ INPUT_FIRST_CLASSIFIER_PATH = "../data/ml/classification/logistic_regression"
 
 OUTPUT_PATH = "../data/ml/dataset"
 
-MERGE_CLASSIFIER_1_RESULT = True
+MERGE_CLASSIFIER_1_RESULT = False
 
 IS_FILTERED = False  # 看是否有分 normal 與 bot
 
-IS_RUN_AUGUST = True  # 看現在是不是要跑 2025/08 的資料
+IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料
 '''可修改參數'''
 
 SUFFIX_FILTERED = "" if IS_FILTERED else "_non_filtered"
 SUFFIX_AUGUST   = "_202508" if IS_RUN_AUGUST else ""
+SUFFIX_CLASSIFIER_1 = "" if MERGE_CLASSIFIER_1_RESULT else "_non_classifier_1"
 
 
 
@@ -101,6 +105,7 @@ def merge():
 
         # --- 對齊時間軸（從後面對齊） ---
         min_len = min(len(X_diff_past), len(X_XGBoost), len(X_first_classifier), len(Y_single_coin))
+        print("len(X_diff_past), len(X_XGBoost), len(X_first_classifier), len(Y_single_coin):\n",len(X_diff_past), len(X_XGBoost), len(X_first_classifier), len(Y_single_coin))
         X_diff_past = X_diff_past[-min_len:]
         X_XGBoost = X_XGBoost[-min_len:]
         X_first_classifier = X_first_classifier[-min_len:]
@@ -182,6 +187,49 @@ def export_to_csv(X, Y, ids, output_path):
 
 
 
+# def categorize_array_multi(Y, t1=-0.0590, t2=-0.0102, t3=0.0060, t4=0.0657, ids=None):
+#     """
+#     Y: np.ndarray, shape = (num_labels,), 價格變化率
+#     t1, t2: 五元分類閾值，百分比
+#     """
+
+#     # print("Y.shape:", Y.shape)
+#     # # print(len(ids))
+#     # print("Y type:", type(Y))
+#     # print("Y dtype (if numpy array):", getattr(Y, "dtype", "not a numpy array"))
+#     # print("Y sample:", Y[:10])  # 只印前10個元素
+#     # print("t1 type:", type(t1))
+#     # print("t2 type:", type(t2))
+#     # print("t3 type:", type(t3))
+#     # print("t4 type:", type(t4))
+
+
+#     # 五元分類
+#     labels = np.full_like(Y, 2, dtype=int)  # 預設持平
+#     labels[Y <= t1] = 0  # 大跌
+#     labels[(Y > t1) & (Y <= t2)] = 1  # 跌
+#     labels[(Y >= t3) & (Y < t4)] = 3  # 漲
+#     labels[Y >= t4] = 4  # 大漲
+
+#     if ids is not None:
+#         # 找出 Y==0 的索引
+#         zero_idx = np.where(Y == 0)[0]
+#         # 只取對應的 ids
+#         dates_is_0 = set((ids[i][0], ids[i][1]) for i in zero_idx)
+#         if len(dates_is_0) > 0:
+#             print(f"共有 {len(dates_is_0)} 天 Y==0")
+#             for id in sorted(dates_is_0):
+#                 print(id)
+
+#     if np.any(Y == 0):  # 檢查是否有任何元素等於 0
+#         count = np.sum(Y == 0)
+#         print(f"共有 {count} 個 Y == 0")
+#         labels[Y == 0] = 4  # 為了校正 TRUMP 前兩天的價格相同 第一天設為大漲
+
+#     return labels
+
+
+
 def main():
     if not IS_RUN_AUGUST:
         print("目前沒有跑 august")
@@ -192,7 +240,9 @@ def main():
         print("Y.shape =", Y.shape)
 
         # 輸出 merge 好的資料到 csv 看，用來檢查是否有問題
-        export_to_csv(X, Y, ids, f"{OUTPUT_PATH}/{MODEL_NAME}_merged_dataset{SUFFIX_FILTERED}{SUFFIX_AUGUST}.csv")
+        export_to_csv(X, Y, ids, f"{OUTPUT_PATH}/{MODEL_NAME}_merged_dataset{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.csv")
+
+        # Y = categorize_array_multi(Y)
 
         print("🚩 打亂前：")
         print("\nX 預覽：\n", X[:10])
@@ -214,12 +264,37 @@ def main():
         print("\nids 預覽：\n", ids[:10])
 
         # 儲存
-        np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy", X)
-        np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy", Y)
-        with open(f"{OUTPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'wb') as file:
+        np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.npy", X)
+        np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.npy", Y)
+        with open(f"{OUTPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.pkl", 'wb') as file:
             pickle.dump(ids, file)  # 這裡只會存 ('coin', 'date') 且每個日期只有一筆
 
         print(f"\n✅ 已成功儲存至 {OUTPUT_PATH}\n")
+
+
+
+
+        # Y = categorize_array_multi(Y)
+        # print("Y[:10]:", Y[:30])
+
+        # y_pred = []
+        # for csn, delete in zip(COIN_SHORT_NAME, [13, 0, 12]):
+        #     print(f"目前正在執行 {csn} ...\n")
+        #     Y_PRED_PATH = Path(f'../data/ml/classification/{"logistic_regression"}/{csn}_{MODEL_NAME}_classifier_1_result.npy')
+            
+        #     y_pred += (np.load(Y_PRED_PATH).tolist())[delete:]
+        # y_pred = np.array(y_pred)[indices]
+        # print("y_pred[:10]:", y_pred[:30])
+
+        # y_true_train, y_true_test, y_pred_train, y_pred_test = train_test_split(
+        #     Y, y_pred, test_size=0.2, random_state=42, shuffle=True
+        # )
+
+
+        # print()
+        # print(classification_report(y_true_train, y_pred_train, digits=3, target_names=['大跌', '小跌', '持平', '小漲', '大漲']))
+        # print()
+        # print(classification_report(y_true_test, y_pred_test, digits=3, target_names=['大跌', '小跌', '持平', '小漲', '大漲']))
 
     else:
         print("目前正在跑 august")
@@ -246,10 +321,10 @@ def main():
 
         for coin_short_name, X, ids in zip(COIN_SHORT_NAME, X_list, ids_list):
             # 存 X
-            np.save(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy", X)
+            np.save(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.npy", X)
 
             # 存 ids
-            with open(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "wb") as f:
+            with open(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.pkl", "wb") as f:
                 pickle.dump(ids, f)
 
         print(f"\n✅ 已成功儲存至 {OUTPUT_PATH}/keyword\n")
