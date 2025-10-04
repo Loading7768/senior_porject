@@ -265,8 +265,8 @@ def main():
 
         # 儲存
         np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.npy", X)
-        np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.npy", Y)
-        with open(f"{OUTPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.pkl", 'wb') as file:
+        np.save(f"{OUTPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy", Y)
+        with open(f"{OUTPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'wb') as file:
             pickle.dump(ids, file)  # 這裡只會存 ('coin', 'date') 且每個日期只有一筆
 
         print(f"\n✅ 已成功儲存至 {OUTPUT_PATH}\n")
@@ -324,7 +324,7 @@ def main():
             np.save(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.npy", X)
 
             # 存 ids
-            with open(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}{SUFFIX_CLASSIFIER_1}.pkl", "wb") as f:
+            with open(f"{OUTPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "wb") as f:
                 pickle.dump(ids, f)
 
         print(f"\n✅ 已成功儲存至 {OUTPUT_PATH}/keyword\n")
