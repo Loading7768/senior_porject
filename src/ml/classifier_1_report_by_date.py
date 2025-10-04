@@ -17,7 +17,7 @@ MODEL_SHORT_NAME = "logreg"  # "logreg" "rf" "sgd"
 
 MODEL_PATH_NAME = "logistic_regression"  # "logistic_regression" "random_forest" "SGD"
 
-IS_FILTERED = True  # 看是否有分 normal 與 bot
+IS_FILTERED = False  # 看是否有分 normal 與 bot
 '''可修改參數'''
 
 SUFFIX_FILTERED = "" if IS_FILTERED else "_non_filtered"
@@ -83,13 +83,13 @@ Class & Precision & Recall & F1-score & Precision & Recall & F1-score \\
         test_rec = report_test[cls]['recall']
         test_f1 = report_test[cls]['f1-score']
         
-        latex_str += f"{cls} & {train_prec:.2f} & {train_rec:.2f} & {train_f1:.2f} & {test_prec:.2f} & {test_rec:.2f} & {test_f1:.2f} \\\\\n"
+        latex_str += f"{cls} & {train_prec:.3f} & {train_rec:.3f} & {train_f1:.3f} & {test_prec:.3f} & {test_rec:.3f} & {test_f1:.3f} \\\\\n"
 
     # 加上 Macro avg
     train_macro = report_train['macro avg']
     test_macro = report_test['macro avg']
     latex_str += r"\hline" + "\n"
-    latex_str += f"Macro avg & {train_macro['precision']:.2f} & {train_macro['recall']:.2f} & {train_macro['f1-score']:.2f} & {test_macro['precision']:.2f} & {test_macro['recall']:.2f} & {test_macro['f1-score']:.2f} \\\\\n"
+    latex_str += f"Macro avg & {train_macro['precision']:.3f} & {train_macro['recall']:.3f} & {train_macro['f1-score']:.3f} & {test_macro['precision']:.3f} & {test_macro['recall']:.3f} & {test_macro['f1-score']:.3f} \\\\\n"
 
     latex_str += r"""\end{tabular}
 }
