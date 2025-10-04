@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+{\fontsize{12.5}{16}\selectfont
+\begin{tabular}{c|ccc|ccc}
+& \multicolumn{3}{c|}{Train set} & \multicolumn{3}{c}{Test set} \\
+\hline
+Class & Precision & Recall & F1-score & Precision & Recall & F1-score \\
+\hline
+大跌 & 0.36 & 0.09 & 0.15 & 0.25 & 0.06 & 0.10 \\
+小跌 & 0.46 & 0.09 & 0.15 & 0.39 & 0.07 & 0.12 \\
+持平 & 0.24 & 0.40 & 0.30 & 0.23 & 0.38 & 0.29 \\
+小漲 & 0.38 & 0.17 & 0.24 & 0.31 & 0.14 & 0.20 \\
+大漲 & 0.14 & 0.62 & 0.23 & 0.15 & 0.59 & 0.24 \\
+\hline
+Macro avg & 0.32 & 0.27 & 0.21 & 0.27 & 0.25 & 0.19 \\
+\end{tabular}
+}
+\caption{Sgd 以日期為單位的訓練與測試準確度}
+\label{tab:classifier_1_report_sgd_filtered}
+\end{table}
