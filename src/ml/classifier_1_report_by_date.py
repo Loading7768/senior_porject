@@ -1,4 +1,5 @@
 import json
+import pandas as pd
 from sklearn.metrics import classification_report
 import numpy as np
 from pathlib import Path
@@ -17,7 +18,9 @@ MODEL_SHORT_NAME = "logreg"  # "logreg" "rf" "sgd"
 
 MODEL_PATH_NAME = "logistic_regression"  # "logistic_regression" "random_forest" "SGD"
 
-IS_FILTERED = False  # 看是否有分 normal 與 bot
+IS_FILTERED = True  # 看是否有分 normal 與 bot
+
+IS_BASEON_CLASSIFIER_1 = True  # 看是否要根據原先第一個分類器的 Train、Test 來按日期輸出分類報告
 '''可修改參數'''
 
 SUFFIX_FILTERED = "" if IS_FILTERED else "_non_filtered"
@@ -113,52 +116,97 @@ Class & Precision & Recall & F1-score & Precision & Recall & F1-score \\
 
 
 y_true_final, y_pred_final = [], []
+y_true_train, y_pred_train, y_dates_train, y_true_test, y_pred_test, y_dates_test = [], [], [], [], [], []
 for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
     print(f"\n目前正在執行 {csn} ...\n")
     Y_TRUE_PATH = Path(f'../data/ml/dataset/coin_price/{csn}_price_diff_original{SUFFIX_FILTERED}.npy')
     Y_PRED_PATH = Path(f'../data/ml/classification/{MODEL_PATH_NAME}/{csn}_{MODEL_SHORT_NAME}_classifier_1_result{SUFFIX_FILTERED}.npy')
+    Y_DATE_PATH = Path(f'../data/coin_price/{csn}_current_tweet_price_output{SUFFIX_FILTERED}.csv')
 
     y_true = categorize_array_multi(np.load(Y_TRUE_PATH)).tolist()
     y_pred = np.load(Y_PRED_PATH).tolist()
 
-    print("🚩 刪除資料前")
-    print("len(y_true):", len(y_true))
-    print("len(y_pred):", len(y_pred))
-    print("y_true[:10]:", y_true[:30])
-    print("y_pred[:10]:", y_pred[:30])
+    df = pd.read_csv(Y_DATE_PATH)
+    df_filtered = df[df["has_tweet"] == True]  # 篩選 has_tweet 為 True 的資料
+    y_dates = pd.to_datetime(df_filtered["date"], format="%Y/%m/%d").dt.strftime("%Y-%m-%d").tolist()  # 先轉成 datetime，再轉成 YYYY-MM-DD 字串
 
-    y_true = y_true[delete:]
-    y_pred = y_pred[delete:]
-    y_true_final += y_true
-    y_pred_final += y_pred
-
-    print("🚩 刪除資料後")
-    print("len(y_true):", len(y_true))
-    print("len(y_pred):", len(y_pred))
-    print("y_true[:10]:", y_true[:30])
-    print("y_pred[:10]:", y_pred[:30])
+    print("y_dates[:10]:\n", y_dates[:10])
+    input("按 Enter 以繼續 ...")
 
 
-# --- 打亂 X, Y, ids ---
-rng = np.random.default_rng(42)  # 可自訂種子
-indices = np.arange(len(y_pred_final))
-rng.shuffle(indices)
+    if IS_BASEON_CLASSIFIER_1:
+        # 讀取每個幣種第一個分類的資料集日期
+        single_coin_train_date = pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_train_dates{SUFFIX_FILTERED}.csv")
+        single_coin_test_date_only = pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_test_dates{SUFFIX_FILTERED}.csv")
+        single_coin_val_date_only = pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_val_dates{SUFFIX_FILTERED}.csv")
+        single_coin_test_date = pd.concat([single_coin_test_date_only, single_coin_val_date_only], ignore_index=True)  # 將 test val 合併
+
+        single_coin_train_date = set(single_coin_train_date["date"])
+        # if "2013-12-16" in single_coin_train_date:
+        #     print("Train 有 2013-12-16")
+        # print(single_coin_train_date)
+        # input("按 Enter 以繼續 ...")
+        single_coin_test_date = set(single_coin_test_date["date"])
+        # if "2013-12-16" in single_coin_test_date:
+        #     print("Test 有 2013-12-16")
+        # print(single_coin_train_date)
+
+        # 建立對應 train/test 的 mask（布林列表）
+        train_mask = [d in single_coin_train_date for d in y_dates]
+        test_mask = [d in single_coin_test_date for d in y_dates]
+
+        # 使用 mask 對 y_true, y_pred, y_dates 分割
+        y_true_train += [yt for yt, m in zip(y_true, train_mask) if m]
+        y_pred_train += [yp for yp, m in zip(y_pred, train_mask) if m]
+        y_dates_train += [d for d, m in zip(y_dates, train_mask) if m]
+        print("y_dates_train[:10]:\n", [d for d, m in zip(y_dates, train_mask) if m][:10])
+
+        y_true_test += [yt for yt, m in zip(y_true, test_mask) if m]
+        y_pred_test += [yp for yp, m in zip(y_pred, test_mask) if m]
+        y_dates_test += [d for d, m in zip(y_dates, test_mask) if m]
+        print("y_dates_test[:10]:\n", [d for d, m in zip(y_dates, test_mask) if m][:10])
+        input("按 Enter 以繼續 ...")
+    
+    else:
+        print("🚩 刪除資料前")
+        print("len(y_true):", len(y_true))
+        print("len(y_pred):", len(y_pred))
+        print("y_true[:10]:", y_true[:30])
+        print("y_pred[:10]:", y_pred[:30])
+
+        y_true = y_true[delete:]
+        y_pred = y_pred[delete:]
+        y_true_final += y_true
+        y_pred_final += y_pred
+
+        print("🚩 刪除資料後")
+        print("len(y_true):", len(y_true))
+        print("len(y_pred):", len(y_pred))
+        print("y_true[:10]:", y_true[:30])
+        print("y_pred[:10]:", y_pred[:30])
 
 
-y_true_final = [y_true_final[i] for i in indices]
-y_pred_final = [y_pred_final[i] for i in indices]
+if not IS_BASEON_CLASSIFIER_1:  # 要跟第二個分類器一樣才使用
+    # --- 打亂 X, Y, ids ---
+    rng = np.random.default_rng(42)  # 可自訂種子
+    indices = np.arange(len(y_pred_final))
+    rng.shuffle(indices)
 
 
-print("🚩 打亂後")
-print("len(y_true_final):", len(y_true_final))
-print("len(y_pred_final):", len(y_pred_final))
-print("y_true_final[:10]:", y_true_final[:30])
-print("y_pred_final[:10]:", y_pred_final[:30])
+    y_true_final = [y_true_final[i] for i in indices]
+    y_pred_final = [y_pred_final[i] for i in indices]
 
 
-y_true_train, y_true_test, y_pred_train, y_pred_test = train_test_split(
-    y_true_final, y_pred_final, test_size=0.2, random_state=42, shuffle=True
-)
+    print("🚩 打亂後")
+    print("len(y_true_final):", len(y_true_final))
+    print("len(y_pred_final):", len(y_pred_final))
+    print("y_true_final[:10]:", y_true_final[:30])
+    print("y_pred_final[:10]:", y_pred_final[:30])
+
+
+    y_true_train, y_true_test, y_pred_train, y_pred_test = train_test_split(
+        y_true_final, y_pred_final, test_size=0.2, random_state=42, shuffle=True
+    )
 
 
 print(classification_report(
