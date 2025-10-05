@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+{\fontsize{12.5}{16}\selectfont
+\begin{tabular}{c|ccc|ccc}
+& \multicolumn{3}{c|}{Train set} & \multicolumn{3}{c}{Test set} \\
+\hline
+Class & Precision & Recall & F1-score & Precision & Recall & F1-score \\
+\hline
+大跌 & 0.769 & 0.750 & 0.759 & 0.738 & 0.714 & 0.726 \\
+小跌 & 0.909 & 0.629 & 0.743 & 0.908 & 0.611 & 0.731 \\
+持平 & 0.457 & 0.863 & 0.598 & 0.453 & 0.865 & 0.595 \\
+小漲 & 0.816 & 0.618 & 0.703 & 0.847 & 0.644 & 0.732 \\
+大漲 & 0.656 & 0.738 & 0.694 & 0.705 & 0.797 & 0.748 \\
+\hline
+Macro avg & 0.721 & 0.720 & 0.700 & 0.730 & 0.726 & 0.706 \\
+\end{tabular}
+}
+\caption{Rf 以日期為單位的訓練與測試準確度}
+\label{tab:classifier_1_report_rf_filtered}
+\end{table}
