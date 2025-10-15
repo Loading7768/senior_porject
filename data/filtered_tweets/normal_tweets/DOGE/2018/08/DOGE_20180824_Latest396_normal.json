@@ -2989,6 +2989,16 @@
             "retweet": 0,
             "likes": 0,
             "retweeted_tweet": null
+        },
+        {
+            "tweet_count": 300,
+            "username": "ApocoCrypto",
+            "user_account": "ApocoCrypto",
+            "text": "Cryptopia Market Alert! KAYI/DOGE\nhttps://t.co/VCExmXqPak\n$KAYI $DOGE",
+            "created_at": "Fri Aug 24 01:04:00 +0000 2018",
+            "retweet": 0,
+            "likes": 0,
+            "retweeted_tweet": null
         }
     ]
 }
