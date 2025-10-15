@@ -3,8 +3,12 @@ from datetime import datetime
 import json
 import re
 from collections import defaultdict
+import nltk
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
+from nltk import pos_tag
 import pandas as pd
 from tqdm import tqdm
 import bisect
@@ -13,8 +17,13 @@ import bisect
 '''
 Whether to only use 'normal tweets' or not.
 '''
-IS_FILTERED = False
+IS_FILTERED = True
 # --------------------parameters--------------------
+
+def download_libraries():
+    nltk.download('wordnet')
+    nltk.download('averaged_perceptron_tagger_eng')
+    nltk.download('omw-1.4')
 
 def load_data(coin_short_name, json_dict_name, total_expansion_rate):
     TWEET_PATH = f'../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/*.json' if IS_FILTERED else f'../data/tweets/{coin_short_name}/*/*/*.json'
@@ -48,19 +57,36 @@ def load_data(coin_short_name, json_dict_name, total_expansion_rate):
 
     return tweets, expansion_rates, tweet_count_expanded
 
+def get_wordnet_pos(tag):
+    '''
+    Map POS tag to first character lemmatize() accepts.
+    '''
+    from nltk import pos_tag
+    tag_dict = {'J': wordnet.ADJ,
+                'N': wordnet.NOUN,
+                'V': wordnet.VERB,
+                'R': wordnet.ADV}
+    return tag_dict.get(tag[0].upper(), wordnet.NOUN)
+
 def tokenize_tweets(tweets):
     '''
-    Break every tweets into tokens via tokenizer.
+    Break every tweets into tokens via tokenizer and lemmatize.
     '''
     tokenizer = TweetTokenizer(preserve_case=False, strip_handles=True)
     STOPWORDS = set(stopwords.words('english'))
+    lemmatizer = WordNetLemmatizer()
     tokenized_tweets = []
 
-    for tweet in tqdm(tweets, desc='Tokeninzing...'):
+    for tweet in tqdm(tweets, desc='Tokeninzing and lemmatizing...'):
         tweet_text = tweet.get('text')
         tokens = tokenizer.tokenize(tweet_text)
-        unique_tokens = set(token for token in tokens if token not in STOPWORDS and token.isalpha())
-        tokenized_tweets.append(unique_tokens)
+        tokens = [token for token in tokens if token not in STOPWORDS and token.isalpha()]
+
+        pos_tags = pos_tag(tokens)
+        lemmas = {lemmatizer.lemmatize(token, get_wordnet_pos(tag)) 
+                  for token, tag in pos_tags}
+
+        tokenized_tweets.append(lemmas)
 
     return tokenized_tweets
 
@@ -99,6 +125,8 @@ def filter_and_save(df):
         json.dump(keywords, file)
 
 def main():
+    download_libraries()
+
     COIN_SHORT_NAMES = ['TRUMP', 'PEPE', 'DOGE']
     JSON_DICT_NAMES = [
         '(officialtrump OR "official trump" OR "trump meme coin" OR "trump coin" OR trumpcoin OR $TRUMP OR "dollar trump")',
@@ -113,7 +141,7 @@ def main():
         expansion_rates += er
         tweet_count_expanded += tce
 
-    print(len(tweets), tweet_count_expanded)
+    # print(len(tweets), tweet_count_expanded)
     tokens = tokenize_tweets(tweets)
     df = compute_df(tweet_count_expanded, tokens, expansion_rates)
     filter_and_save(df)
