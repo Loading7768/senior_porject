@@ -24,7 +24,7 @@ IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料  START_DATE,
 
 # === 參數設定 ===
 DATA_DIR = "../data/keyword/machine_learning"
-OUT_DIR = "../data/ml/dataset/keyword"
+OUT_DIR = f"../data/ml/dataset/X_input/keyword_classifier/{COIN_SHORT_NAME}"
 
 # === 自訂時間範圍 (格式：YYYY/MM) ===
 START_DATE = "2013/12"   # 自訂開始年月
