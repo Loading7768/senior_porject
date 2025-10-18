@@ -31,9 +31,9 @@ PRICE_CSV_PATH = f"../data/coin_price/{COIN_SHORT_NAME}_price.csv"
 
 OUTPUT_TWEET_COUNT_PATH = "../data/ml/dataset/y_input"
 
-IS_FILTERED = False  # 看是否有分 normal 與 bot
+IS_FILTERED = True  # 看是否有分 normal 與 bot
 
-IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料  START_DATE, END_DATE 會固定
+IS_RUN_AUGUST = True  # 看現在是不是要跑 2025/08 的資料  START_DATE, END_DATE 會固定
 
 START_DATE = "2013/12/15"
 
@@ -66,7 +66,7 @@ else:
     NORMAL_TWEETS_JSON_GLOB = f"../data/tweets/{COIN_SHORT_NAME}/*/*/{COIN_SHORT_NAME}_*.json"  # 是針對 原始 tweets 做運算
 
 
-os.makedirs(OUTPUT_TWEET_COUNT_PATH, exist_ok=True)
+os.makedirs(f"{OUTPUT_TWEET_COUNT_PATH}/{COIN_SHORT_NAME}", exist_ok=True)
 
 
 
