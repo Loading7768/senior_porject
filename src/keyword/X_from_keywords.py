@@ -20,11 +20,12 @@ from config import JSON_DICT_NAME, COIN_SHORT_NAME
 '''可修改參數'''
 IS_FILTERED = True  # 看是否有分 normal 與 bot
 
-IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料  START_DATE, END_DATE 會固定
+IS_RUN_AUGUST = True  # 看現在是不是要跑 2025/08 的資料  START_DATE, END_DATE 會固定
 
 # === 參數設定 ===
 DATA_DIR = "../data/keyword/machine_learning"
-OUT_DIR = f"../data/ml/dataset/X_input/keyword_classifier/{COIN_SHORT_NAME}"
+OUT_DIR_X = f"../data/ml/dataset/X_input/keyword_classifier/{COIN_SHORT_NAME}"
+OUT_DIR_IDS = f"../data/ml/dataset/ids_input/{COIN_SHORT_NAME}"
 
 # === 自訂時間範圍 (格式：YYYY/MM) ===
 START_DATE = "2013/12"   # 自訂開始年月
@@ -32,7 +33,8 @@ END_DATE   = "2025/07"   # 結束年月
 
 '''可修改參數'''
 
-os.makedirs(OUT_DIR, exist_ok=True)
+os.makedirs(OUT_DIR_X, exist_ok=True)
+os.makedirs(OUT_DIR_IDS, exist_ok=True)
 
 if IS_FILTERED:
     TWEET_DIR = f"../data/filtered_tweets/normal_tweets/{COIN_SHORT_NAME}/*"
@@ -142,8 +144,8 @@ X_sparse = X_sparse.tocsr()
 X_sparse_output = f"{COIN_SHORT_NAME}_X_sparse{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npz"
 ids_output = f'{COIN_SHORT_NAME}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl'
 
-save_npz(os.path.join(OUT_DIR, f"{X_sparse_output}"), X_sparse)
-with open(os.path.join(OUT_DIR, f'{ids_output}'), 'wb') as file:
+save_npz(os.path.join(OUT_DIR_X, f"{X_sparse_output}"), X_sparse)
+with open(os.path.join(OUT_DIR_IDS, f'{ids_output}'), 'wb') as file:
     pickle.dump(ids, file)
 
 print(f"原始矩陣: X.shape = {X_sparse.shape}, 資料量 = {len(ids)}")
