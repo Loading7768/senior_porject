@@ -61,19 +61,19 @@ OUTPUT_PATH = "../data/ml/classification/BERT"
 
 SAVE_MODEL_PATH = "../data/ml/models/classification"
 
-MODEL_NAME = "logreg"  # 第二個分類器目前輸入的模型名字
+MODEL_NAME = "logreg"  # 第二個分類器目前輸入的模型名字(未完成)
 
 RUN_FIRST_CLASSIFIER = True  # 是否要跑第一個分類器
 
-RUN_SECOND_CLASSIFIER = False  # 是否要跑第二個分類器
+RUN_SECOND_CLASSIFIER = False  # 是否要跑第二個分類器(未完成)
 
-IS_GROUPED_CV = False  # 是否要跑第二個分類器的交叉驗證
+IS_GROUPED_CV = False  # 是否要跑第二個分類器的交叉驗證(未完成)
 
 IS_TRAIN = True  # 看是否要訓練
 
 IS_FILTERED = True  # 看是否有分 normal 與 bot
 
-IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料
+IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料(未完成)
 '''可修改變數'''
 
 os.makedirs(OUTPUT_PATH, exist_ok=True)
@@ -426,7 +426,7 @@ def tokenize_and_save_in_batches(X, y, tokenizer, save_path, prefix, batch_size=
             return_tensors="np"
         )
 
-        file_path = os.path.join(save_path, f"{prefix}_batch{i//batch_size}{SUFFIX_FILTERED}.pkl")
+        file_path = os.path.join(save_path, f"{prefix}_batch{batch_idx}{SUFFIX_FILTERED}.pkl")
         with open(file_path, "wb") as f:
             pickle.dump((encodings, batch_labels), f)
         file_paths.append(file_path)
@@ -444,7 +444,7 @@ def load_tokenized_batches(save_path, prefix):
     all_labels = []
 
     files = sorted([f for f in os.listdir(save_path) if f.startswith(prefix)])
-    for f_name in files:
+    for f_name in tqdm(files, desc=f"正在讀取分批的 {prefix} tokenize..."):
         with open(os.path.join(save_path, f_name), "rb") as f:
             encodings, labels = pickle.load(f)
             all_encodings.append(encodings)
@@ -455,6 +455,8 @@ def load_tokenized_batches(save_path, prefix):
         "input_ids": np.concatenate([e["input_ids"] for e in all_encodings]),
         "attention_mask": np.concatenate([e["attention_mask"] for e in all_encodings]),
     }
+
+    print(f"✅ {prefix} 成功合併成單一 tokenize")
 
     return merged_encodings, all_labels
 
@@ -744,15 +746,15 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
     if RUN_FIRST_CLASSIFIER:
 
         # === 存成 JSON ===
-        with open(f"{OUTPUT_PATH}/logreg_train_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+        with open(f"{OUTPUT_PATH}/BERT_train_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
             json.dump(train_daily, f, ensure_ascii=False, indent=4, default=int)
 
-        with open(f"{OUTPUT_PATH}/logreg_test_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+        with open(f"{OUTPUT_PATH}/BERT_test_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
             json.dump(test_daily, f, ensure_ascii=False, indent=4, default=int)
 
         print("已輸出逐日預測結果：")
-        print(f"- train: {OUTPUT_PATH}/logreg_train_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
-        print(f"- test:  {OUTPUT_PATH}/logreg_test_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+        print(f"- train: {OUTPUT_PATH}/BERT_train_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+        print(f"- test:  {OUTPUT_PATH}/BERT_test_daily_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
 
         # === 合併 train + test ===
         combined_daily = {}
@@ -762,7 +764,7 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
             combined_daily.setdefault(coin, {}).update(daily)
 
         # === 存成合併後的 TXT ===
-        txt_path = f"{OUTPUT_PATH}/logreg_combined_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
+        txt_path = f"{OUTPUT_PATH}/BERT_combined_results_{N_SAMPLES}{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
         with open(txt_path, "w", encoding="utf-8") as f:
             # === 初始化統計器 ===
             label_correct = np.zeros(1, dtype=int)
@@ -808,7 +810,7 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
                     _, preds = zip(*records)
                     preds = np.array(preds, dtype=np.int32)
 
-                    npy_path = f"{OUTPUT_PATH}/{coin}_logreg_classifier_1_result{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy"
+                    npy_path = f"{OUTPUT_PATH}/{coin}_BERT_classifier_1_result{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy"
                     np.save(npy_path, preds)
                     print(preds[:50])
                     print(f"{coin} → {npy_path} 已完成, shape={preds.shape}")
@@ -818,15 +820,15 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
 
     elif RUN_SECOND_CLASSIFIER:
         # === 存成 JSON ===
-        with open(f"{OUTPUT_PATH}/logreg_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+        with open(f"{OUTPUT_PATH}/BERT_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
             json.dump(train_daily, f, ensure_ascii=False, indent=4, default=int)
 
-        with open(f"{OUTPUT_PATH}/logreg_test_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
+        with open(f"{OUTPUT_PATH}/BERT_test_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "w", encoding="utf-8") as f:
             json.dump(test_daily, f, ensure_ascii=False, indent=4, default=int)
 
         print("已輸出逐日預測結果：")
-        print(f"- train: {OUTPUT_PATH}/logreg_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
-        print(f"- test:  {OUTPUT_PATH}/logreg_test_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+        print(f"- train: {OUTPUT_PATH}/BERT_train_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
+        print(f"- test:  {OUTPUT_PATH}/BERT_test_daily_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json")
 
         # === 合併 train + test ===
         combined_daily = {}
@@ -836,7 +838,7 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
             combined_daily.setdefault(coin, {}).update(daily)
 
         # === 存成合併後的 TXT ===
-        txt_path = f"{OUTPUT_PATH}/logreg_combined_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
+        txt_path = f"{OUTPUT_PATH}/BERT_combined_classifier_2_results{SUFFIX_FILTERED}{SUFFIX_AUGUST}.txt"
         with open(txt_path, "w", encoding="utf-8") as f:
             label_correct = 0
             label_total = 0
@@ -1088,7 +1090,7 @@ def main():
 
                 y_categorized = categorize_array_multi(y, ids, T1, T2, T3, T4)  # shape (N,)
 
-                results_all = coin_month_cv(X, y_categorized, ids, C=C)
+                # results_all = coin_month_cv(X, y_categorized, ids, C=C)
 
         else:
             # --- 預測 2025-08 ---
