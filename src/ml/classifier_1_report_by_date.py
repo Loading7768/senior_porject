@@ -4,6 +4,7 @@ from sklearn.metrics import classification_report
 import numpy as np
 from pathlib import Path
 import os
+import pickle
 
 from sklearn.model_selection import train_test_split
 
@@ -18,7 +19,7 @@ MODEL_SHORT_NAME = "logreg"  # "logreg" "rf" "sgd"
 
 MODEL_PATH_NAME = "logistic_regression"  # "logistic_regression" "random_forest" "SGD"
 
-IS_FILTERED = True  # 看是否有分 normal 與 bot
+IS_FILTERED = False  # 看是否有分 normal 與 bot
 
 IS_BASEON_CLASSIFIER_1 = True  # 看是否要根據原先第一個分類器的 Train、Test 來按日期輸出分類報告
 '''可修改參數'''
@@ -119,12 +120,39 @@ y_true_final, y_pred_final = [], []
 y_true_train, y_pred_train, y_dates_train, y_true_test, y_pred_test, y_dates_test = [], [], [], [], [], []
 for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
     print(f"\n目前正在執行 {csn} ...\n")
-    Y_TRUE_PATH = Path(f'../data/ml/dataset/coin_price/{csn}_price_diff_original{SUFFIX_FILTERED}.npy')
-    Y_PRED_PATH = Path(f'../data/ml/classification/{MODEL_PATH_NAME}/{csn}_{MODEL_SHORT_NAME}_classifier_1_result{SUFFIX_FILTERED}.npy')
+    Y_TRUE_PATH = Path(f'../data/ml/dataset/y_input/{csn}/{csn}_price_diff_original{SUFFIX_FILTERED}.npy')
+    Y_PRED_PATH = Path(f'../data/ml/classification/{MODEL_PATH_NAME}/keyword_classifier/single_coin_result/{csn}/{csn}_{MODEL_SHORT_NAME}_classifier_1_result{SUFFIX_FILTERED}.npy')
     Y_DATE_PATH = Path(f'../data/coin_price/{csn}_current_tweet_price_output{SUFFIX_FILTERED}.csv')
+ 
+    with open(f"../data/ml/dataset/ids_input/{csn}/{csn}_ids{SUFFIX_FILTERED}.pkl", "rb") as f:   # 讀取最初的 ids 
+        ids_single_coin_original = pickle.load(f)
+        ids_single_coin_original = sorted({(c, d) for (c, d, no) in ids_single_coin_original})
+        print("len(ids_single_coin_original):", len(ids_single_coin_original))
+        print("ids_single_coin_original[:10]:\n", ids_single_coin_original[:10])
+
+    with open(f"../data/ml/dataset/final_input/keyword_classifier/ids_train{SUFFIX_FILTERED}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
+        ids_train_classifier_1 = pickle.load(f)
+        print("len(ids_train_classifier_1):", len(ids_train_classifier_1))
+    with open(f"../data/ml/dataset/final_input/keyword_classifier/ids_test{SUFFIX_FILTERED}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
+        ids_test_classifier_1 = pickle.load(f)
+        print("len(ids_test_classifier_1):", len(ids_test_classifier_1))
+
+    ids_all = ids_train_classifier_1 + ids_test_classifier_1
+    print("全部幣種的 len(ids_all):", len(ids_all))
+    ids_single_coin = {d for c, d, no in ids_all if c == csn}  # 轉成集合 (set)
+    print(f"{csn} 的 len(ids_single_coin):", len(ids_single_coin))
+    print("list(ids_single_coin)[:10]:\n", list(ids_single_coin)[:10])
+
 
     y_true = categorize_array_multi(np.load(Y_TRUE_PATH)).tolist()
     y_pred = np.load(Y_PRED_PATH).tolist()
+
+    # 將 merge_and_splitset 中被過濾掉的資料 這裡也過濾掉
+    ids_mask = np.array([d in ids_single_coin for (_, d) in ids_single_coin_original])
+    ids_single_coin_original = (np.array(ids_single_coin_original))[ids_mask]
+    y_true = (np.array(y_true))[ids_mask]
+    print("過濾完後的 len(ids_single_coin_original):", len(ids_single_coin_original))
+    print("過濾完後的 len(y_true):", len(y_true))
 
     df = pd.read_csv(Y_DATE_PATH)
     df_filtered = df[df["has_tweet"] == True]  # 篩選 has_tweet 為 True 的資料
@@ -137,9 +165,7 @@ for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
     if IS_BASEON_CLASSIFIER_1:
         # 讀取每個幣種第一個分類的資料集日期
         single_coin_train_date = pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_train_dates{SUFFIX_FILTERED}.csv")
-        single_coin_test_date_only = pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_test_dates{SUFFIX_FILTERED}.csv")
-        single_coin_val_date_only = pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_val_dates{SUFFIX_FILTERED}.csv")
-        single_coin_test_date = pd.concat([single_coin_test_date_only, single_coin_val_date_only], ignore_index=True)  # 將 test val 合併
+        single_coin_test_date= pd.read_csv(f"../data/ml/dataset/split_dates/{csn}_test_dates{SUFFIX_FILTERED}.csv")
 
         single_coin_train_date = set(single_coin_train_date["date"])
         # if "2013-12-16" in single_coin_train_date:
@@ -157,13 +183,21 @@ for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
 
         # 使用 mask 對 y_true, y_pred, y_dates 分割
         y_true_train += [yt for yt, m in zip(y_true, train_mask) if m]
+        print("len(y_true_train):", len(y_true_train))
+        
+        # if csn == "TRUMP" and '2025-04-11' in y_true_train
         y_pred_train += [yp for yp, m in zip(y_pred, train_mask) if m]
+        print("len(y_pred_train):", len(y_pred_train))
         y_dates_train += [d for d, m in zip(y_dates, train_mask) if m]
+        print("len(y_dates_train):", len([d for d, m in zip(y_dates, train_mask) if m]))
         print("y_dates_train[:10]:\n", [d for d, m in zip(y_dates, train_mask) if m][:10])
 
         y_true_test += [yt for yt, m in zip(y_true, test_mask) if m]
+        print("len(y_true_test):", len(y_true_test))
         y_pred_test += [yp for yp, m in zip(y_pred, test_mask) if m]
+        print("len(y_pred_test):", len(y_pred_test))
         y_dates_test += [d for d, m in zip(y_dates, test_mask) if m]
+        print("len(y_dates_test):", len([d for d, m in zip(y_dates, test_mask) if m]))
         print("y_dates_test[:10]:\n", [d for d, m in zip(y_dates, test_mask) if m][:10])
         input("按 Enter 以繼續 ...")
     
@@ -208,6 +242,12 @@ if not IS_BASEON_CLASSIFIER_1:  # 要跟第二個分類器一樣才使用
         y_true_final, y_pred_final, test_size=0.2, random_state=42, shuffle=True
     )
 
+
+print("\n🚨 Debug Info")
+print("len(y_true_train):", len(y_true_train))
+print("len(y_pred_train):", len(y_pred_train))
+print("len(y_true_test):", len(y_true_test))
+print("len(y_pred_test):", len(y_pred_test))
 
 print(classification_report(
     y_true_train, y_pred_train,

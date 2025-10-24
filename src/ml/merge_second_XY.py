@@ -16,7 +16,7 @@ INPUT_FIRST_CLASSIFIER_PATH = "../data/ml/classification/logistic_regression"
 
 OUTPUT_PATH = "../data/ml/dataset/final_input/price_classifier"
 
-MERGE_CLASSIFIER_1_RESULT = True  # 看是否要合併第一個分類器的預測結果
+MERGE_CLASSIFIER_1_RESULT = False  # 看是否要合併第一個分類器的預測結果
 
 IS_FILTERED = True  # 看是否有分 normal 與 bot
 
@@ -111,9 +111,19 @@ def merge():
         
         # --- 讀取 X 的日期參考資料 ---
         XGBoost_dates = np.loadtxt(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_XGBoost_dates.txt", dtype=str)  # 讀取 XBGoost 所使用的 dates
-        with open(f"{INPUT_PATH}/ids_input/{coin_short_name}/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
-            ids = pickle.load(f)
-            print(len(ids))
+        with open(f"{INPUT_PATH}/final_input/keyword_classifier/ids_train{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
+            ids_train_classifier_1 = pickle.load(f)
+            print(len(ids_train_classifier_1))
+        with open(f"{INPUT_PATH}/final_input/keyword_classifier/ids_test{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
+            ids_test_classifier_1 = pickle.load(f)
+            print(len(ids_test_classifier_1))
+
+        ids = ids_train_classifier_1 + ids_test_classifier_1
+        print(len(ids))
+        ids = [(c, d, no) for (c, d, no) in ids if c == coin_short_name]
+        print(len(ids))
+        print(ids[:10])
+
         
         all_coin_dates.update([(c, d) for (c, d, _) in ids])  # 只取 (coin, date) 加入集合
 
