@@ -16,9 +16,9 @@ INPUT_FIRST_CLASSIFIER_PATH = "../data/ml/classification/logistic_regression"
 
 OUTPUT_PATH = "../data/ml/dataset/final_input/price_classifier"
 
-MERGE_CLASSIFIER_1_RESULT = False  # 看是否要合併第一個分類器的預測結果
+MERGE_CLASSIFIER_1_RESULT = True  # 看是否要合併第一個分類器的預測結果
 
-IS_FILTERED = True  # 看是否有分 normal 與 bot
+IS_FILTERED = False  # 看是否有分 normal 與 bot
 
 IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料(未完成)
 
@@ -104,7 +104,7 @@ def merge():
     for coin_short_name in COIN_SHORT_NAME:
         print(f"\n🚩 正在處理 {coin_short_name} ...")
 
-        # --- 讀取 X ---
+        # --- 讀取 X ---  -----------------------有問題----------------------------
         X_diff_past = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_past5days{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")  # 讀取 前面幾天 的 價差、價錢變化率
         X_XGBoost = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_XGBoost_features.npy")  # 讀取 XBGoost 所使用的 features
         X_first_classifier = np.load(f"{INPUT_FIRST_CLASSIFIER_PATH}/keyword_classifier/single_coin_result/{coin_short_name}/{coin_short_name}_{MODEL_NAME[1]}_classifier_1_result{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")  # 讀取 第一個分類器 預測的結果
@@ -151,7 +151,7 @@ def merge():
         # print("X_XGBoost.shape:", X_XGBoost.shape)
         # print("X_first_classifier.shape:", X_first_classifier.shape)
 
-        # --- 讀取 Y ---
+        # --- 讀取 Y --- -----------------------有問題----------------------------
         Y_single_coin = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_original{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")  # 讀取 明天 的價錢變化率 (price_diff_rate_tomorrow)
         print("Y_single_coin.shape:", Y_single_coin.shape)
 

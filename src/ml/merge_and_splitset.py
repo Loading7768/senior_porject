@@ -418,7 +418,7 @@ def splitset_dates(COIN_SHORT_NAME):
     os.makedirs(csv_output_path, exist_ok=True)
     df.to_csv(f"{csv_output_path}/{COIN_SHORT_NAME}_confirmed_tweet_count{SUFFIX}.csv", index=False, encoding="utf-8-sig")
 
-    print(f"✅ 已儲存 CSV 至: {csv_output_path}/{COIN_SHORT_NAME}_filtered_tweet_count{SUFFIX}.csv")
+    print(f"✅ 已儲存 CSV 至: {csv_output_path}/{COIN_SHORT_NAME}_confirmed_tweet_count{SUFFIX}.csv")
     # input("pause...")
 
 
@@ -620,8 +620,8 @@ def filter_XY(X_train, X_test, Y_train, Y_test, ids_train, ids_test, all_vocab):
 
     print(f"總共刪除 {total_delete_rows} 個推文 (row), {total_delete_columns} 個關鍵詞 (column)")
     print(f"Train 總共保留 {X_train.shape[0]} 個推文 (row), {X_train.shape[1]} 個關鍵詞 (column)\n")
-    print(f"已輸出所有關鍵詞出現次數統計到 {stats_output_path}")
-    print(f"已輸出所有被過濾的關鍵詞到 {INPUT_PATH}/X_input/keyword_classifier\n")
+    print(f"✅ 已輸出所有關鍵詞出現次數統計到 {stats_output_path}")
+    print(f"✅ 已輸出所有被過濾的關鍵詞到 {INPUT_PATH}/X_input/keyword_classifier\n")
 
     return X_train, X_test, Y_train, Y_test, ids_train, ids_test
 
@@ -671,6 +671,95 @@ def count_per_day(ids, dataset_name):
 
 
 
+def update_single_coin_dataset(X_train, X_test, Y_train, Y_test, ids_train, ids_test):
+    print("\n🚩 開始將過濾後的資料覆寫回原始各幣種的 X, Y, ids\n")
+
+    for coin_short_name in ["DOGE", "PEPE", "TRUMP"]:
+        # 讀取 X, Y
+        X = sparse.load_npz(f"{INPUT_PATH}/X_input/keyword_classifier/{coin_short_name}/{coin_short_name}_X_sparse{SUFFIX}.npz")
+        price_diff = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff{SUFFIX}.npy")
+        price_diff_original = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_original{SUFFIX}.npy")
+        price_diff_past5days = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_past5days{SUFFIX}.npy")
+
+        # 讀取 ids
+        with open(f"{INPUT_PATH}/ids_input/{coin_short_name}/{coin_short_name}_ids{SUFFIX}.pkl", "rb") as f:   # rb = read binary
+            ids = pickle.load(f)  # array[('coin', 'date', 'no.'), (str, '%Y-%m-%d', int)
+        ids = np.array(ids)  # 把 ids 轉成 numpy array
+        print()
+        print(ids[:10])
+
+        print("\n更新前：")
+        print(f"{coin_short_name} X.shape[0]:", X.shape[0])
+        print(f"{coin_short_name} price_diff.shape[0]:", price_diff.shape[0])
+        print(f"{coin_short_name} price_diff_original.shape[0]:", price_diff_original.shape[0])
+        print(f"{coin_short_name} price_diff_past5days.shape[0]:", price_diff_past5days.shape[0])
+        print(f"{coin_short_name} len(ids):", len(ids))
+
+
+        # -------- 開始更新 --------
+        # 將新的資料集 train, test 合併
+        X_new = sparse.vstack([X_train, X_test], format="csr")
+        # Y_new = np.concatenate([Y_train, Y_test])
+        ids_new = np.concatenate([ids_train, ids_test])
+
+        # 只把當前的 coin 資料取出來
+        mask = [c == coin_short_name for (c, d, no) in ids_new]
+        # X_new = X_new[mask]
+        # Y_new = Y_new[mask]
+        ids_new_test = ids_new[mask]
+        print(f"新的 {coin_short_name} ids:\n", ids_new_test[:10])
+        ids_new_set = {(c, d, no) for (c, d, no) in ids_new if c == coin_short_name}
+        # print(f"新的 {coin_short_name} ids:\n", np.array(sorted(list(ids_new_set), key=lambda x: (x[1], int(x[2]))), dtype=str)[:10])
+
+        # 過濾 X 
+        # X_mask = [(c, d, no) in ids_new_set for (c, d, no) in ids]
+        # X = X_new[X_mask]
+        X = X_new[mask]
+
+        # 過濾 Y
+        price_diff_mask = [(c, d, no) in ids_new_set for (c, d, no) in ids]
+        ids_dates = sorted({d for (c, d, no) in ids})  # 轉成只有日期的集合
+        print(np.array(ids_dates, dtype=str)[:10])
+        ids_dates_new = {d for (c, d, no) in ids_new_set}
+        price_diff_original_mask = np.array([d in ids_dates_new for d in ids_dates])
+        price_diff_past5days_mask = np.array([d in ids_dates_new for d in ids_dates[(len(price_diff_original) - len(price_diff_past5days)):]])
+        print("len(price_diff_original), len(price_diff_past5days):",len(price_diff_original), len(price_diff_past5days))
+
+        price_diff = price_diff[price_diff_mask]
+        price_diff_original = price_diff_original[price_diff_original_mask]
+        price_diff_past5days = price_diff_past5days[price_diff_past5days_mask]
+        
+        # 過濾 ids
+        # ids_mask = [(c, d, no) in ids_new_set for (c, d, no) in ids]
+        # ids = ids_new[ids_mask]
+        ids = ids_new[mask]
+        # -------- 更新結束 -----------
+
+        print("更新後：")
+        print(f"{coin_short_name} X.shape[0]:", X.shape[0])
+        print(f"{coin_short_name} price_diff.shape[0]:", price_diff.shape[0])
+        print(f"{coin_short_name} price_diff_original.shape[0]:", price_diff_original.shape[0])
+        print(f"{coin_short_name} price_diff_past5days.shape[0]:", price_diff_past5days.shape[0])
+        print(f"{coin_short_name} len(ids):", len(ids))
+        print()
+        print(ids[:10])
+
+
+        # 將更新好的覆蓋回原本的檔案
+        sparse.save_npz(f"{INPUT_PATH}/X_input/keyword_classifier/{coin_short_name}/{coin_short_name}_X_sparse{SUFFIX}.npz", X)
+        np.save(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_original{SUFFIX}.npy", price_diff_original)
+        np.save(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff{SUFFIX}.npy", price_diff)
+        np.save(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_past5days{SUFFIX}.npy", price_diff_past5days)
+
+        with open(f"{INPUT_PATH}/ids_input/{coin_short_name}/{coin_short_name}_ids{SUFFIX}.pkl", 'wb') as file:
+            pickle.dump(ids.tolist(), file)
+
+    print("\n✅ 已覆寫完成\n")
+
+    return
+
+
+
 # --- 將三種幣種的 X, Y 合併成完整的模型輸入值 (輸出 .npy 檔) ---
 def merge(DOGE_X_train, DOGE_X_test, DOGE_Y_train, DOGE_Y_test,
           PEPE_X_train, PEPE_X_test, PEPE_Y_train, PEPE_Y_test,
@@ -710,6 +799,8 @@ def merge(DOGE_X_train, DOGE_X_test, DOGE_Y_train, DOGE_Y_test,
     X_train, X_test, Y_train, Y_test, ids_train, ids_test = filter_XY(X_train, X_test, Y_train, Y_test, ids_train, ids_test, all_vocab)
     # print(ids_train.shape)
 
+    # 更新每個幣種的 X, Y(price_diff_original, price_diff, price_diff_past5days), ids
+    update_single_coin_dataset(X_train, X_test, Y_train, Y_test, ids_train, ids_test)
 
     # 打亂順序
     X_train, Y_train, ids_train = shuffle_XY(X_train, Y_train, ids_train)
@@ -750,13 +841,13 @@ def merge(DOGE_X_train, DOGE_X_test, DOGE_Y_train, DOGE_Y_test,
 
 
 
-    print(f"Merge{SUFFIX} 完成，資料已輸出到 ../data/ml/dataset\n")
+    print(f"✅ Merge{SUFFIX} 完成，資料已輸出到 ../data/ml/dataset\n")
 
     # 計算每個資料集中每天的推文總數
     count_per_day(ids_train, "train")
     count_per_day(ids_test, "test")
 
-    print("已將不同資料集每天的推文總數輸出為 csv 到 ../data/ml/dataset\n")
+    print("✅ 已將不同資料集每天的推文總數輸出為 csv 到 ../data/ml/dataset\n")
 
 
 

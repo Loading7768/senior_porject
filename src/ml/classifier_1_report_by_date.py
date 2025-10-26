@@ -122,7 +122,7 @@ for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
     print(f"\n目前正在執行 {csn} ...\n")
     Y_TRUE_PATH = Path(f'../data/ml/dataset/y_input/{csn}/{csn}_price_diff_original{SUFFIX_FILTERED}.npy')
     Y_PRED_PATH = Path(f'../data/ml/classification/{MODEL_PATH_NAME}/keyword_classifier/single_coin_result/{csn}/{csn}_{MODEL_SHORT_NAME}_classifier_1_result{SUFFIX_FILTERED}.npy')
-    Y_DATE_PATH = Path(f'../data/coin_price/{csn}_current_tweet_price_output{SUFFIX_FILTERED}.csv')
+    # Y_DATE_PATH = Path(f'../data/coin_price/{csn}_current_tweet_price_output{SUFFIX_FILTERED}.csv')
  
     with open(f"../data/ml/dataset/ids_input/{csn}/{csn}_ids{SUFFIX_FILTERED}.pkl", "rb") as f:   # 讀取最初的 ids 
         ids_single_coin_original = pickle.load(f)
@@ -154,10 +154,11 @@ for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
     print("過濾完後的 len(ids_single_coin_original):", len(ids_single_coin_original))
     print("過濾完後的 len(y_true):", len(y_true))
 
-    df = pd.read_csv(Y_DATE_PATH)
-    df_filtered = df[df["has_tweet"] == True]  # 篩選 has_tweet 為 True 的資料
-    y_dates = pd.to_datetime(df_filtered["date"], format="%Y/%m/%d").dt.strftime("%Y-%m-%d").tolist()  # 先轉成 datetime，再轉成 YYYY-MM-DD 字串
+    # df = pd.read_csv(Y_DATE_PATH)
+    # df_filtered = df[df["has_tweet"] == True]  # 篩選 has_tweet 為 True 的資料
+    # y_dates = pd.to_datetime(df_filtered["date"], format="%Y/%m/%d").dt.strftime("%Y-%m-%d").tolist()  # 先轉成 datetime，再轉成 YYYY-MM-DD 字串
 
+    y_dates = [str(d) for (_, d) in ids_single_coin_original]
     print("y_dates[:10]:\n", y_dates[:10])
     input("按 Enter 以繼續 ...")
 
@@ -184,8 +185,6 @@ for csn, delete in zip(COIN_SHORT_NAME, COIN_DELETE_DATE):
         # 使用 mask 對 y_true, y_pred, y_dates 分割
         y_true_train += [yt for yt, m in zip(y_true, train_mask) if m]
         print("len(y_true_train):", len(y_true_train))
-        
-        # if csn == "TRUMP" and '2025-04-11' in y_true_train
         y_pred_train += [yp for yp, m in zip(y_pred, train_mask) if m]
         print("len(y_pred_train):", len(y_pred_train))
         y_dates_train += [d for d, m in zip(y_dates, train_mask) if m]
