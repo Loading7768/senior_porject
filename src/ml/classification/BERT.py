@@ -1,4 +1,5 @@
 from datetime import datetime
+import gc
 import os
 import json
 import pickle
@@ -53,15 +54,15 @@ COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
 
 JSON_DICT_NAME = ["dogecoin", "PEPE", "(officialtrump OR \"official trump\" OR \"trump meme coin\" OR \"trump coin\" OR trumpcoin OR $TRUMP OR \"dollar trump\")"]
 
-PRICE_CSV_PATH = "../data/coin_price"
+# PRICE_CSV_PATH = "../data/coin_price"
 
 INPUT_PATH = "../data/ml/dataset"
 
 OUTPUT_PATH = "../data/ml/classification/BERT"
 
-SAVE_MODEL_PATH = "../data/ml/models/classification"
+SAVE_MODEL_PATH = "../data/ml/models/BERT"
 
-MODEL_NAME = "logreg"  # 第二個分類器目前輸入的模型名字(未完成)
+MODEL_NAME = ["logistic_regression", "logreg"]  # 第二個分類器目前輸入的模型名字(未完成)
 
 RUN_FIRST_CLASSIFIER = True  # 是否要跑第一個分類器
 
@@ -101,11 +102,11 @@ def load_and_preprocess():
         for coin_short_name, json_dict_name in zip(COIN_SHORT_NAME, JSON_DICT_NAME):
             print(f"====== 目前在處理 {coin_short_name} ======")
 
-            # 讀取 price_diff_original 作為 y
-            y_single_coin = np.load(f"{INPUT_PATH}/coin_price/{coin_short_name}_price_diff{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+            # 讀取 price_diff 作為 y
+            y_single_coin = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
             print("y_single_coin.shape[0]:", y_single_coin.shape[0])
 
-            with open(f"{INPUT_PATH}/keyword/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
+            with open(f"{INPUT_PATH}/ids_input/{coin_short_name}/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
                 ids_single_coin = pickle.load(f)
                 print("len(ids_single_coin):", len(ids_single_coin))
             
@@ -118,41 +119,82 @@ def load_and_preprocess():
 
 
             print("y_single_coin[:10]\n", y_single_coin[:10])
-            print("dates_single_coin[:10]\n", ids_single_coin[:10])
+            print("ids_single_coin[:10]\n", ids_single_coin[:10])
             print()
 
 
             # 讀取 原始推文 text
             origianl_single_coin_tweet_text = []  # (N, 2) = (樣本數, (text, date))
-            if IS_FILTERED:
-                tweets_path = f"../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/{coin_short_name}_*_normal.json"
-            else:
-                tweets_path = f"../data/tweets/{coin_short_name}/*/*/{coin_short_name}_*.json"
+            IS_READ_TWEET = input("是否要重新讀取原始推文❓(Y / N):")
+            if IS_READ_TWEET == "N":
+                origianl_single_coin_tweet_text_path = f"{OUTPUT_PATH}/original_tweets/{coin_short_name}_original_tweets.pkl"
+                if os.path.exists(origianl_single_coin_tweet_text_path):
+                    print(f"✅ {coin_short_name} 的原始推文存在")
+                    with open(origianl_single_coin_tweet_text_path, "rb") as f:   # 讀取一開始訓練用的 ids
+                        origianl_single_coin_tweet_text = pickle.load(f)
+                    # print(origianl_single_coin_tweet_text[:10])
+                else:
+                    print(f"❌ {coin_short_name} 的原始推文不存在，必須要讀取原始推文")
+                    IS_READ_TWEET = "Y"
 
-            original_tweets_file = glob(tweets_path)
-            for file in tqdm(original_tweets_file, desc=f"讀取 {coin_short_name} 的原始推文與日期..."):
-                with open(file, "r", encoding="utf-8-sig") as fp:
-                    data = json.load(fp)
-                
-                tweets_single_coin = data[json_dict_name]
-                if not tweets_single_coin:
-                    print("當天沒有推文：", file)
-                    continue
+            if IS_READ_TWEET == "Y":
+                if IS_FILTERED:
+                    tweets_path = f"../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/{coin_short_name}_*_normal.json"
+                else:
+                    tweets_path = f"../data/tweets/{coin_short_name}/*/*/{coin_short_name}_*.json"
 
-                # 取得日期
-                date_str = datetime.strptime(
-                    tweets_single_coin[0]['created_at'], "%a %b %d %H:%M:%S %z %Y"
-                ).strftime("%Y/%m/%d")
-                date_dt = pd.to_datetime(date_str)
+                original_tweets_file = glob(tweets_path)
+                for file in tqdm(original_tweets_file, desc=f"讀取 {coin_short_name} 的原始推文與日期..."):
+                    with open(file, "r", encoding="utf-8-sig") as fp:
+                        data = json.load(fp)
+                    
+                    tweets_single_coin = data[json_dict_name]
+                    if not tweets_single_coin:
+                        print("當天沒有推文：", file)
+                        continue
 
-                # 🔹 過濾掉不在範圍內的推文
-                if not (START_DATE_DT[coin_short_name] <= date_dt <= END_DATE_DT[coin_short_name]):
-                    print("當天不在指定時間範圍內：", file)
-                    continue
+                    # 取得日期
+                    date_str = datetime.strptime(
+                        tweets_single_coin[0]['created_at'], "%a %b %d %H:%M:%S %z %Y"
+                    ).strftime("%Y-%m-%d")
+                    date_dt = pd.to_datetime(date_str)
 
-                # 儲存 原始推文, 日期(datetime)
-                for tweet in tweets_single_coin:
-                    origianl_single_coin_tweet_text.append([tweet["text"], date_dt])
+                    # 🔹 過濾掉不在範圍內的推文
+                    if not (START_DATE_DT[coin_short_name] <= date_dt <= END_DATE_DT[coin_short_name]):
+                        print("當天不在指定時間範圍內：", file)
+                        continue
+
+                    nos_single_coin_one_day = set([int(item[2]) for item in ids_single_coin if item[0] == coin_short_name and item[1] == date_str])
+                    # print("\nlen(nos_single_coin_one_day):", len(nos_single_coin_one_day))
+                    # print("nos_single_coin_one_day[:10]:\n", sorted(nos_single_coin_one_day)[:1000])
+
+                    # print()
+                    # input()
+                    # 儲存 原始推文, 日期(datetime)
+                    in_count = 0
+                    non_count = 0
+                    for tweet in tweets_single_coin:
+                        if tweet["tweet_count"] in nos_single_coin_one_day:
+                            in_count += 1
+                            origianl_single_coin_tweet_text.append([tweet["text"], date_dt])
+                    #     else:
+                    #         non_count += 1
+                    #         if coin_short_name == "TRUMP":
+                    #             print(f"date: {date_str}, tweet_count: {tweet["tweet_count"]} 的推文不在 ids 中")
+                                
+                    # print("in_count =", in_count)
+                    # print("non_count =", non_count)
+                    
+
+                # print(origianl_single_coin_tweet_text[:10])
+                save_single_original_tweets_path = f"{OUTPUT_PATH}/original_tweets"
+                os.makedirs(save_single_original_tweets_path, exist_ok=True)
+                with open(f"{save_single_original_tweets_path}/{coin_short_name}_original_tweets.pkl", 'wb') as file:
+                    pickle.dump(origianl_single_coin_tweet_text, file)
+                print(f"✅ {coin_short_name} 的原始推文已完成儲存")
+
+            elif IS_READ_TWEET != "N":
+                raise TypeError("輸入錯誤")
             
             print("len(origianl_single_coin_tweet_text):", len(origianl_single_coin_tweet_text))
                 
@@ -162,13 +204,13 @@ def load_and_preprocess():
             df_split_train['date'] = pd.to_datetime(df_split_train['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
 
             # 讀取 Test, Val 並把兩個合併
-            df_split_only_test = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_test_dates{SUFFIX_FILTERED}.csv")
-            df_split_only_test['date'] = pd.to_datetime(df_split_only_test['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
+            df_split_test = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_test_dates{SUFFIX_FILTERED}.csv")
+            df_split_test['date'] = pd.to_datetime(df_split_test['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
 
-            df_split_val = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_val_dates{SUFFIX_FILTERED}.csv")
-            df_split_val['date'] = pd.to_datetime(df_split_val['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
+            # df_split_val = pd.read_csv(f"{INPUT_PATH}/split_dates/{coin_short_name}_val_dates{SUFFIX_FILTERED}.csv")
+            # df_split_val['date'] = pd.to_datetime(df_split_val['date'], format="%Y-%m-%d")  # 把 date 欄位轉成日期格式
 
-            df_split_test = pd.concat([df_split_only_test, df_split_val], ignore_index=True)
+            # df_split_test = pd.concat([df_split_only_test, df_split_val], ignore_index=True)
 
 
             # 把 train/test/val 的日期集合化，加速查詢  切割資料集
@@ -223,9 +265,9 @@ def load_and_preprocess():
     
     elif RUN_SECOND_CLASSIFIER:
         # 取得資料
-        X = np.load(f"{INPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
-        y = np.load(f"{INPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
-        with open(f"{INPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
+        X = np.load(f"{INPUT_PATH}/final_input/price_classifier/{MODEL_NAME[0]}/{MODEL_NAME[1]}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+        y = np.load(f"{INPUT_PATH}/final_input/price_classifier/{MODEL_NAME[0]}/{MODEL_NAME[1]}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+        with open(f"{INPUT_PATH}/final_input/price_classifier/{MODEL_NAME[0]}/{MODEL_NAME[1]}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
             ids = pickle.load(file)
 
         X_train, X_test, y_train, y_test, ids_train, ids_test = train_test_split(
@@ -306,7 +348,7 @@ def categorize_array_multi(Y, t1, t2, t3, t4, ids=None):
 
 
 
-def get_random_samples_sparse_stratified(X, y, seed: int = 42):
+# def get_random_samples_sparse_stratified(X, y, seed: int = 42):
     """
     X: 原始推文 text
     y: shape=(N,)  多類別標籤
@@ -316,7 +358,13 @@ def get_random_samples_sparse_stratified(X, y, seed: int = 42):
 
     global N_SAMPLES
     # global ENABLE_SAMPLING
-    n_total = X.shape[0]
+    # n_total = X.shape[0]
+
+    print(X)
+    input()
+
+    n_total = len(X['input_ids'])
+
 
     if N_SAMPLES == 0:
         print(f"[INFO] 不做 random sampling，使用所有樣本數: {n_total} 筆")
@@ -372,33 +420,121 @@ def get_random_samples_sparse_stratified(X, y, seed: int = 42):
 
 
 
+def get_random_samples_sparse_stratified(X, y, seed: int = 42):
+    """
+    X: dict, {'input_ids': np.array, 'attention_mask': np.array}
+    y: shape=(N,)  多類別標籤
+    """
+    # 不要轉成 np.array，保持 dict
+    y = np.array(y)
+
+    global N_SAMPLES, N_RUNS
+
+    n_total = X['input_ids'].shape[0]
+
+    if N_SAMPLES == 0:
+        print(f"[INFO] 不做 random sampling，使用所有樣本數: {n_total} 筆")
+        return [(X, y)]  # 回傳原始數量的 (X, y) tuple
+
+    classes = np.unique(y)
+    n_classes = len(classes)
+    if N_SAMPLES < n_classes:
+        raise ValueError(f"樣本數 {N_SAMPLES} 太少，無法平均分配到每個類別 ({n_classes})")
+    
+    samples_per_class = N_SAMPLES // n_classes
+
+    # 建立索引字典
+    class_indices = defaultdict(list)
+    for idx, label in enumerate(y):
+        class_indices[label].append(idx)
+
+    samples = []
+    for run in range(N_RUNS):
+        np.random.seed(seed + run)
+        selected_indices = []
+
+        for c in classes:
+            idx_list = class_indices[c]
+            if len(idx_list) <= samples_per_class:
+                selected_indices.extend(idx_list)
+            else:
+                selected_indices.extend(np.random.choice(idx_list, samples_per_class, replace=False))
+
+        # 如果總數少於 N_SAMPLES，從剩餘樣本補足
+        if len(selected_indices) < N_SAMPLES:
+            remaining_idx = list(set(range(n_total)) - set(selected_indices))
+            remaining_needed = N_SAMPLES - len(selected_indices)
+            selected_indices.extend(np.random.choice(remaining_idx, remaining_needed, replace=False))
+
+        np.random.shuffle(selected_indices)  # 打亂順序
+
+        # ⚡ 對每個 key 分別索引
+        X_sample = {k: v[selected_indices] for k, v in X.items()}
+        y_sample = y[selected_indices]
+        samples.append((X_sample, y_sample))
+
+        # === 統計類別數量與比例 ===
+        unique, counts = np.unique(y_sample, return_counts=True)
+        total = len(y_sample)
+        print(f"\n[INFO] Run {run}: Stratified sample X_train keys={list(X_sample.keys())}, y_train={y_sample.shape}")
+        for cls, cnt in zip(unique, counts):
+            pct = cnt / total * 100
+            print(f"   Class {cls}: {cnt} samples ({pct:.2f}%)")
+
+    return samples
+
+
+
+
 # 自訂 Dataset 來適配 Hugging Face
+# class TweetDataset(Dataset):
+#     def __init__(self, texts, labels, tokenizer, max_length=128):
+#         self.texts = texts
+#         self.labels = labels
+#         self.tokenizer = tokenizer
+#         self.max_length = max_length
+
+#     def __len__(self):
+#         return len(self.labels)
+
+#     def __getitem__(self, idx):
+#         text = str(self.texts[idx])
+#         label = int(self.labels[idx])
+
+#         encoding = self.tokenizer(
+#             text,
+#             truncation=True,
+#             padding="max_length",   # 可以改成 "longest" 或 "max_length"
+#             max_length=self.max_length,
+#             return_tensors="pt"
+#         )
+
+#         # squeeze 0 維，變成單筆 tensor
+#         item = {key: val.squeeze(0) for key, val in encoding.items()}
+#         item["labels"] = torch.tensor(label, dtype=torch.long)
+#         return item
+
 class TweetDataset(Dataset):
-    def __init__(self, texts, labels, tokenizer, max_length=128):
-        self.texts = texts
+    def __init__(self, encodings, labels):
+        """
+        encodings: dict, 包含 'input_ids', 'attention_mask', (optional: 'token_type_ids')
+        labels: shape=(N,)
+        """
+        self.encodings = encodings
         self.labels = labels
-        self.tokenizer = tokenizer
-        self.max_length = max_length
 
     def __len__(self):
         return len(self.labels)
 
     def __getitem__(self, idx):
-        text = str(self.texts[idx])
-        label = int(self.labels[idx])
-
-        encoding = self.tokenizer(
-            text,
-            truncation=True,
-            padding="max_length",   # 可以改成 "longest" 或 "max_length"
-            max_length=self.max_length,
-            return_tensors="pt"
-        )
-
-        # squeeze 0 維，變成單筆 tensor
-        item = {key: val.squeeze(0) for key, val in encoding.items()}
-        item["labels"] = torch.tensor(label, dtype=torch.long)
+        if idx >= len(self.encodings['input_ids']):
+            print(f"[ERROR] idx={idx} 超出範圍，dataset 長度={len(self.encodings['input_ids'])}")
+            raise IndexError
+        # 每個 sample 已經是 dict
+        item = {key: torch.tensor(self.encodings[key][idx]) for key in self.encodings}
+        item["labels"] = torch.tensor(self.labels[idx])
         return item
+
     
 
 
@@ -415,8 +551,13 @@ def tokenize_and_save_in_batches(X, y, tokenizer, save_path, prefix, batch_size=
     for batch_idx in tqdm(range(total_batches), desc=f"Tokenizing {prefix}"):
         start = batch_idx * batch_size
         end = start + batch_size
-        batch_texts = X[start:end]
+
+        batch_texts = X[start:end].astype(str).tolist() if isinstance(X, np.ndarray) else [str(x) for x in X[start:end]]
         batch_labels = y[start:end]
+
+        # print(f"🔍 batch {batch_idx} 型態：", type(batch_texts))
+        # print(f"🔍 第一個元素型態：", type(batch_texts[0]))
+        # print(f"🔍 第一個元素內容：", batch_texts[0])
 
         encodings = tokenizer(
             batch_texts,
@@ -439,26 +580,82 @@ def tokenize_and_save_in_batches(X, y, tokenizer, save_path, prefix, batch_size=
 # ==========================================================
 # 載入分批資料 → 合併成單一 Dataset
 # ==========================================================
+# def load_tokenized_batches(save_path, prefix):
+#     all_encodings = []
+#     all_labels = []
+
+#     files = sorted([f for f in os.listdir(save_path) if f.startswith(prefix)])
+#     for f_name in tqdm(files, desc=f"正在讀取分批的 {prefix} tokenize..."):
+#         with open(os.path.join(save_path, f_name), "rb") as f:
+#             encodings, labels = pickle.load(f)
+#             all_encodings.append(encodings)
+#             all_labels.extend(labels)
+
+#     # 合併成單一 dict (numpy)
+#     merged_encodings = {
+#         "input_ids": np.concatenate([e["input_ids"] for e in all_encodings]),
+#         "attention_mask": np.concatenate([e["attention_mask"] for e in all_encodings]),
+#     }
+
+#     print(f"✅ {prefix} 成功合併成單一 tokenize")
+
+#     return merged_encodings, all_labels
+
 def load_tokenized_batches(save_path, prefix):
-    all_encodings = []
-    all_labels = []
+    merged_path = f"../data/ml/classification/BERT/tokenize/{prefix}_token_merged{SUFFIX_FILTERED}.pkl"
+
+    # 🔹 若合併檔已存在，直接載入
+    if os.path.exists(merged_path):
+        print(f"📂 偵測到已存在的合併檔：{merged_path}")
+        input("❓ 是否要使用這份 合併的 Token? (按 Enter 以繼續 或 Ctrl + C ...)")
+        with open(merged_path, "rb") as f:
+            merged_encodings, labels_all = pickle.load(f)
+        print(f"✅ 已直接載入 {prefix}_merged.pkl")
+        return merged_encodings, labels_all
+
+    # 🔹 否則就進行合併
+    input_ids_list = []
+    attention_mask_list = []
+    labels_all = []
 
     files = sorted([f for f in os.listdir(save_path) if f.startswith(prefix)])
     for f_name in tqdm(files, desc=f"正在讀取分批的 {prefix} tokenize..."):
-        with open(os.path.join(save_path, f_name), "rb") as f:
-            encodings, labels = pickle.load(f)
-            all_encodings.append(encodings)
-            all_labels.extend(labels)
+        file_path = os.path.join(save_path, f_name)
 
-    # 合併成單一 dict (numpy)
+        # 讀取單一檔案
+        with open(file_path, "rb") as f:
+            encodings, labels = pickle.load(f)
+
+        # 合併
+        input_ids_list.append(encodings["input_ids"])
+        attention_mask_list.append(encodings["attention_mask"])
+        labels_all.extend(labels)
+
+        # 清理暫存
+        del encodings, labels
+        gc.collect()
+
+    labels_all = np.array(labels_all)  #------------------------------------------------------
+
+
+    # 🔹 合併為單一陣列
     merged_encodings = {
-        "input_ids": np.concatenate([e["input_ids"] for e in all_encodings]),
-        "attention_mask": np.concatenate([e["attention_mask"] for e in all_encodings]),
+        "input_ids": np.concatenate(input_ids_list, axis=0),
+        "attention_mask": np.concatenate(attention_mask_list, axis=0),
     }
+
+    # 清理暫存
+    del input_ids_list, attention_mask_list
+    gc.collect()
 
     print(f"✅ {prefix} 成功合併成單一 tokenize")
 
-    return merged_encodings, all_labels
+    # 🔹 將結果快取下來，下次就能直接載入
+    with open(merged_path, "wb") as f:
+        pickle.dump((merged_encodings, labels_all), f)
+    print(f"💾 已將合併結果存成 {merged_path}")
+
+    return merged_encodings, labels_all
 
 
 # ==========================================================
@@ -487,6 +684,8 @@ def load_tokenized_data(save_path):
 
 def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="bert-base-uncased"):
 
+    print("transformers.__version__:", transformers.__version__)
+
     all_results = []
     best_test_acc = -1
     best_run_info = None
@@ -494,33 +693,61 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="
     tokenizer = BertTokenizerFast.from_pretrained(model_name)
 
     if RUN_FIRST_CLASSIFIER:
-        # 確保是 list，方便 Trainer
-        X_train = list(X_train)
-        X_test  = list(X_test)
-        y_train = list(y_train)
-        y_test  = list(y_test)
+        # 確保是 list，方便 Trainer   #------------------------------------------------------
+        # X_train = list(X_train)
+        # X_test  = list(X_test)
+        # y_train = list(y_train)
+        # y_test  = list(y_test)
 
         if IS_FILTERED:
             tokenize_path = "filtered"
         else:
             tokenize_path = "non_filtered"
 
-        # 檢查是否已經有 tokenized data
-        if os.path.exists(f"{OUTPUT_PATH}/tokenize/{tokenize_path}/train_batch0{SUFFIX_FILTERED}.pkl"):
-            print("📂 載入已存的 Tokenized Data")
-            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
+        # # 檢查是否已經有 tokenized data -------------------- 要修改 -------------------------------
+        # input("有重新改過程式了嗎，要是先判斷有沒有 merge 的檔案，再看看需不需要 tokenize，還是只要 merge 就好")
+        # if os.path.exists(f"{OUTPUT_PATH}/tokenize/{tokenize_path}/train_batch0{SUFFIX_FILTERED}.pkl"):
+        #     print("📂 載入已存的 Tokenized Data")
+        #     input("❓ 是否要使用這份 Tokenized Data? (按 Enter 以繼續 或 Ctrl + C ...)")
+        #     X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
+        # else:
+        #     print("🛠️ 第一次執行，開始 Tokenize 並存檔...")
+        #     tokenize_and_save(X_train, X_test, y_train, y_test, save_path=f"{OUTPUT_PATH}/tokenize/{tokenize_path}", model_name="bert-base-uncased")
+        #     X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
+
+
+        merge_path_train = f"{OUTPUT_PATH}/tokenize/train_token_merged{SUFFIX_FILTERED}.pkl"
+        merge_path_test  = f"{OUTPUT_PATH}/tokenize/test_token_merged{SUFFIX_FILTERED}.pkl"
+
+        # 1️⃣ 先檢查 merge 檔案
+        if os.path.exists(merge_path_train) and os.path.exists(merge_path_test):
+            X_train_enc, y_train = load_tokenized_batches(f"{OUTPUT_PATH}/tokenize/{tokenize_path}", prefix="train")
+            X_test_enc, y_test   = load_tokenized_batches(f"{OUTPUT_PATH}/tokenize/{tokenize_path}", prefix="test")
         else:
-            print("🛠️ 第一次執行，開始 Tokenize 並存檔...")
-            tokenize_and_save(X_train, X_test, y_train, y_test, save_path=f"{OUTPUT_PATH}/tokenize/{tokenize_path}", model_name="bert-base-uncased")
-            X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
+            # 2️⃣ 檢查是否已經有 batch tokenize 檔案
+            first_batch_train = f"{OUTPUT_PATH}/tokenize/{tokenize_path}/train_batch0{SUFFIX_FILTERED}.pkl"
+            first_batch_test  = f"{OUTPUT_PATH}/tokenize/{tokenize_path}/test_batch0{SUFFIX_FILTERED}.pkl"
+
+            if os.path.exists(first_batch_train) and os.path.exists(first_batch_test):
+                print("📂 偵測到已有 batch tokenize 檔案，但 merge 檔案不存在，開始 merge...")
+                X_train_enc, y_train = load_tokenized_batches(f"{OUTPUT_PATH}/tokenize/{tokenize_path}", prefix="train")
+                X_test_enc, y_test   = load_tokenized_batches(f"{OUTPUT_PATH}/tokenize/{tokenize_path}", prefix="test")
+            else:
+                # 3️⃣ 第一次執行，需要 tokenize
+                print("🛠️ 第一次執行，開始 Tokenize 並存檔...")
+                tokenize_and_save(X_train, X_test, y_train, y_test,
+                                save_path=f"{OUTPUT_PATH}/tokenize/{tokenize_path}",
+                                model_name="bert-base-uncased")
+                # Tokenize 完再 merge
+                X_train_enc, X_test_enc, y_train, y_test = load_tokenized_data(f"{OUTPUT_PATH}/tokenize/{tokenize_path}")
 
         
         # --- 取得分層隨機取樣 ---
         train_sample = get_random_samples_sparse_stratified(X_train_enc, y_train)  # [(X_sample, y_sample), ...]
         run_count = len(train_sample)
 
-        X_test_enc = list(X_test_enc)
-        y_test = list(y_test)
+        # X_test_enc = list(X_test_enc)  #-----------------------------
+        # y_test = list(y_test)
 
         # test 包裝成 Dataset
         test_dataset = TweetDataset(X_test_enc, y_test)
@@ -529,8 +756,8 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="
         train_sample = [(X_train, y_train)]
         run_count = 1
 
-        X_test = list(X_test)
-        y_test = list(y_test)
+        # X_test = list(X_test)  #---------------------------------
+        # y_test = list(y_test)
 
         # test 包裝成 Dataset
         test_dataset = TweetDataset(X_test, y_test)
@@ -543,8 +770,8 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="
         print(f"\n===== RUN {run} =====")
 
         X_train_sample, y_train_sample = train_sample[run]
-        X_train_sample = list(X_train_sample)
-        y_train_sample = list(y_train_sample)
+        # X_train_sample = list(X_train_sample)    # -----------------------------------------------
+        # y_train_sample = list(y_train_sample)
         train_dataset = TweetDataset(X_train_sample, y_train_sample)
 
         # 初始化模型
@@ -554,11 +781,11 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="
         # 訓練參數（這裡你可以隨機抽 hyperparams，模擬 RandomizedSearchCV）
         training_args = TrainingArguments(
             output_dir=f"./results_run_{run}",
-            evaluation_strategy="epoch",
+            # evaluation_strategy="epoch",
             save_strategy="no",
             learning_rate=2e-5,
             per_device_train_batch_size=16,
-            per_device_eval_batch_size=16,
+            per_device_eval_batch_size=64,
             num_train_epochs=3,
             weight_decay=0.01,
             logging_dir=f"./logs_run_{run}",
@@ -720,8 +947,8 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
     model = BertForSequenceClassification.from_pretrained(model_path)
 
     # 建立 Dataset
-    train_dataset = TweetDataset(X_train, y_train, tokenizer)
-    test_dataset  = TweetDataset(X_test, y_test, tokenizer)
+    train_dataset = TweetDataset(X_train, y_train)
+    test_dataset  = TweetDataset(X_test, y_test)
 
     trainer = Trainer(model=model)  # 只用來做 predict，不需要 training args
 
@@ -872,6 +1099,7 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
         print(f"\n合併後的人類可讀版結果已輸出到：{txt_path}")
 
 
+
 # --- 未完成 ---
 def predict_august_function(pipeline_path):
     combined_daily = {}  # 用來放 合併 三種幣種 的資料 ===
@@ -879,15 +1107,15 @@ def predict_august_function(pipeline_path):
     # --- 載入資料 ---
     for coin_short_name in ['DOGE', 'PEPE', 'TRUMP']:
         if RUN_FIRST_CLASSIFIER:
-            X_august = sparse.load_npz(f'{INPUT_PATH}/keyword/{coin_short_name}_X_sparse{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npz')
-            y_august = np.load(f'{INPUT_PATH}/coin_price/{coin_short_name}_price_diff{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy')
-            with open(f'{INPUT_PATH}/keyword/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl', 'rb') as file:
+            X_august = sparse.load_npz(f'{INPUT_PATH}/X_input/keyword_classifier/{coin_short_name}/{coin_short_name}_X_sparse{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npz')
+            y_august = np.load(f'{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy')
+            with open(f'{INPUT_PATH}/ids_input/{coin_short_name}/{coin_short_name}_ids{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl', 'rb') as file:
                 ids_august = pickle.load(file)
 
         elif RUN_SECOND_CLASSIFIER:
-            X_august = np.load(f"{INPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
-            y_august = np.load(f"{INPUT_PATH}/coin_price/{coin_short_name}_price_diff_original{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
-            with open(f"{INPUT_PATH}/keyword/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
+            X_august = np.load(f"{INPUT_PATH}/X_input/keyword_classifier/{coin_short_name}/{coin_short_name}_{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+            y_august = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_original{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+            with open(f"{INPUT_PATH}/ids_input/{coin_short_name}/{coin_short_name}_{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
                 ids_august = pickle.load(file)
 
         y_august_categorized = categorize_array_multi(y_august, T1, T2, T3, T4)
@@ -1083,9 +1311,9 @@ def main():
 
             else:
                 # 取得資料
-                X = np.load(f"{INPUT_PATH}/{MODEL_NAME}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
-                y = np.load(f"{INPUT_PATH}/{MODEL_NAME}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
-                with open(f"{INPUT_PATH}/{MODEL_NAME}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
+                X = np.load(f"{INPUT_PATH}/final_input/price_classifier/{MODEL_NAME[0]}/{MODEL_NAME[1]}_X_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+                y = np.load(f"{INPUT_PATH}/final_input/price_classifier/{MODEL_NAME[0]}/{MODEL_NAME[1]}_Y_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")
+                with open(f"{INPUT_PATH}/final_input/price_classifier/{MODEL_NAME[0]}/{MODEL_NAME[1]}_ids_classifier_2{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", 'rb') as file:
                     ids = pickle.load(file)
 
                 y_categorized = categorize_array_multi(y, ids, T1, T2, T3, T4)  # shape (N,)
