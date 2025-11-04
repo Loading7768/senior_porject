@@ -30,7 +30,7 @@ import joblib
 
 
 '''可修改變數'''
-N_SAMPLES = 1000  # 1_000_000  # random sampling 取的數量
+N_SAMPLES = 100  # 1_000_000  # random sampling 取的數量
 
 N_RUNS = 1
 
@@ -819,9 +819,11 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name="
         # 用 predict，只對小批量資料跑
         np.random.seed(42)
         print("len(train_dataset), len(test_dataset):", len(train_dataset), len(test_dataset))
-        train_subset_indices = np.random.choice(len(train_dataset), size=1000, replace=False)
+        train_subset_size = min(1000, len(train_dataset))
+        train_subset_indices = np.random.choice(len(train_dataset), size=train_subset_size, replace=False)
         small_train_dataset = Subset(train_dataset, train_subset_indices)
-        test_subset_indices = np.random.choice(len(test_dataset), size=1000, replace=False)
+        test_subset_size = min(1000, len(test_dataset))
+        test_subset_indices = np.random.choice(len(test_dataset), size=test_subset_size, replace=False)
         small_test_dataset = Subset(test_dataset, test_subset_indices)
 
         preds_train = trainer.predict(small_train_dataset)
