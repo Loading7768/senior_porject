@@ -49,23 +49,31 @@ def load_tweets(coin_short_name, json_dict_name):
 
 def process_sentiments(tweet_by_date):
     voted_results = []
+
     for date, tweets in tqdm(tweet_by_date.items(), desc='processing...'):
         if not tweets: continue
-        sents = defaultdict(lambda: {'votes': 0, 'score': 0.0})
+        tweet_count = len(tweets)
+        sents = {
+            "admiration": 0.0, "amusement": 0.0, "anger": 0.0, "annoyance": 0.0, "approval": 0.0,
+            "caring": 0.0, "confusion": 0.0, "curiosity": 0.0, "desire": 0.0, "disappointment": 0.0,
+            "disapproval": 0.0, "disgust": 0.0, "embarrassment": 0.0, "excitement": 0.0, "fear": 0.0,
+            "gratitude": 0.0, "grief": 0.0, "joy": 0.0, "love": 0.0, "nervousness": 0.0,
+            "optimism": 0.0, "pride": 0.0, "realization": 0.0, "relief": 0.0, "remorse": 0.0,
+            "sadness": 0.0, "surprise": 0.0, "neutral": 0.0, "worry": 0.0, "happiness": 0.0,
+            "fun": 0.0, "hate": 0.0, "autonomy": 0.0, "safety": 0.0, "understanding": 0.0,
+            "empty": 0.0, "enthusiasm": 0.0, "recreation": 0.0, "sense of belonging": 0.0,
+            "meaning": 0.0, "sustenance": 0.0, "creativity": 0.0, "boredom": 0.0
+        }
+
         results = nlp(tweets)
         for r in results:
-            sents[r['label']]['votes'] += 1
-            sents[r['label']]['score'] += r['score']
+            sents[r['label']] += 1
 
-        for label, val in sents.items():
-            if val['votes'] > 0: val['score'] /= val['votes']
-        sorted_sents = sorted(
-            sents.items(),
-            key=lambda item: (item[1]['votes'], item[1]['score']),
-            reverse=True
-        )
+        for key, value in sents.items():
+            if value > 0.0:
+                sents[key] /= tweet_count
 
-        voted_results.append(sorted_sents[0][0])
+        voted_results.append(list(sents.values()))
 
     return voted_results
 
@@ -82,7 +90,7 @@ def main():
         '(officialtrump OR "official trump" OR "trump meme coin" OR "trump coin" OR trumpcoin OR $TRUMP OR "dollar trump")',
         'PEPE', 
         'dogecoin']
-    for csm, jdn in zip(COIN_SHORT_NAMES[1:2], JSON_DICT_NAMES[1:2]):
+    for csm, jdn in zip(COIN_SHORT_NAMES, JSON_DICT_NAMES):
         print(csm)
         tweet_by_date = load_tweets(csm, jdn)
         voted_results = process_sentiments(tweet_by_date)
