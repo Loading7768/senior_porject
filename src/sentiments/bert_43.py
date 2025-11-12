@@ -61,7 +61,7 @@ def process_sentiments(tweet_by_date):
             "optimism": 0.0, "pride": 0.0, "realization": 0.0, "relief": 0.0, "remorse": 0.0,
             "sadness": 0.0, "surprise": 0.0, "neutral": 0.0, "worry": 0.0, "happiness": 0.0,
             "fun": 0.0, "hate": 0.0, "autonomy": 0.0, "safety": 0.0, "understanding": 0.0,
-            "empty": 0.0, "enthusiasm": 0.0, "recreation": 0.0, "sense of belonging": 0.0,
+            "empty": 0.0, "enthusiasm": 0.0, "recreation": 0.0, "sense_of_belonging": 0.0,
             "meaning": 0.0, "sustenance": 0.0, "creativity": 0.0, "boredom": 0.0
         }
 
@@ -79,7 +79,9 @@ def process_sentiments(tweet_by_date):
 
 
 def save_results(coin_short_name, results):
-    OUTPUT_PATH = Path(f'../data/sentiments/{coin_short_name}_bert_43.npy')
+    OUTPUT_PATH = Path(
+        f'../data/ml/dataset/X_input/price_classifier/sentiments/bert_43/{coin_short_name}_bert_43.npy'
+    )
     os.makedirs(OUTPUT_PATH.parent, exist_ok=True)
     np.save(OUTPUT_PATH, results)
 
