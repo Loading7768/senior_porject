@@ -30,7 +30,7 @@ import joblib
 
 
 '''可修改變數'''
-N_SAMPLES = 100  # 1_000_000  # random sampling 取的數量
+N_SAMPLES = 1000000  # 1_000_000  # random sampling 取的數量
 
 N_RUNS = 1
 
