@@ -1,24 +1,26 @@
+from datetime import datetime
 from pathlib import Path
 import numpy as np
 import pickle
 import pandas as pd
+import json
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 
 '''可修改參數'''
 COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
 
-MODEL_NAME = ["logistic_regression", "logreg"]
+MODEL_NAME = ["logistic_regression", "logreg"]  # ["logistic_regression", "logreg"] ["random_forest", "rf"] ["SGD", "sgd"]    
 
 INPUT_PATH = "../data/ml/dataset"
 
-INPUT_FIRST_CLASSIFIER_PATH = "../data/ml/classification/logistic_regression"
+INPUT_FIRST_CLASSIFIER_PATH = f"../data/ml/classification/{MODEL_NAME[0]}"
 
 OUTPUT_PATH = "../data/ml/dataset/final_input/price_classifier"
 
 MERGE_CLASSIFIER_1_RESULT = True  # 看是否要合併第一個分類器的預測結果
 
-IS_FILTERED = False  # 看是否有分 normal 與 bot
+IS_FILTERED = True  # 看是否有分 normal 與 bot
 
 IS_RUN_AUGUST = False  # 看現在是不是要跑 2025/08 的資料(未完成)
 
@@ -104,25 +106,30 @@ def merge():
     for coin_short_name in COIN_SHORT_NAME:
         print(f"\n🚩 正在處理 {coin_short_name} ...")
 
-        # --- 讀取 X ---  -----------------------有問題----------------------------
+        # --- 讀取 X ---
         X_diff_past = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_past5days{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")  # 讀取 前面幾天 的 價差、價錢變化率
         X_XGBoost = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_XGBoost_features.npy")  # 讀取 XBGoost 所使用的 features
         X_first_classifier = np.load(f"{INPUT_FIRST_CLASSIFIER_PATH}/keyword_classifier/single_coin_result/{coin_short_name}/{coin_short_name}_{MODEL_NAME[1]}_classifier_1_result{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")  # 讀取 第一個分類器 預測的結果
-        
+        X_sentiment_1 = np.load(f"{INPUT_PATH}/X_input/price_classifier/sentiments/bert_43/{coin_short_name}_bert_43.npy")  # 讀取以天為單位情緒分析的結果 (model: bert-43)
+        # X_sentiment_2 = np.load(f"{INPUT_PATH}/X_input/price_classifier/sentiments/")  # 讀取以天為單位情緒分析的結果 (model: cardiffnlp)
+
+        print("X_sentiment_1.shape:", X_sentiment_1.shape)
+
+
         # --- 讀取 X 的日期參考資料 ---
         XGBoost_dates = np.loadtxt(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_XGBoost_dates.txt", dtype=str)  # 讀取 XBGoost 所使用的 dates
         with open(f"{INPUT_PATH}/final_input/keyword_classifier/ids_train{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
             ids_train_classifier_1 = pickle.load(f)
-            print(len(ids_train_classifier_1))
+            print("len(ids_train_classifier_1):", len(ids_train_classifier_1))
         with open(f"{INPUT_PATH}/final_input/keyword_classifier/ids_test{SUFFIX_FILTERED}{SUFFIX_AUGUST}.pkl", "rb") as f:   # 讀取一開始訓練用的 ids
             ids_test_classifier_1 = pickle.load(f)
-            print(len(ids_test_classifier_1))
+            print("len(ids_test_classifier_1):", len(ids_test_classifier_1))
 
         ids = ids_train_classifier_1 + ids_test_classifier_1
-        print(len(ids))
+        print("len(ids):", len(ids))
         ids = [(c, d, no) for (c, d, no) in ids if c == coin_short_name]
-        print(len(ids))
-        print(ids[:10])
+        print("len(ids):", len(ids))
+        print("ids[:10]:\n", ids[:10])
 
         
         all_coin_dates.update([(c, d) for (c, d, _) in ids])  # 只取 (coin, date) 加入集合
@@ -135,12 +142,38 @@ def merge():
         # print("current_coin_dates：", sorted(current_coin_dates))
         # print("len(current_coin_dates)：", len(current_coin_dates))
 
+
+        # --- 讀取 現在幣種 的 merge 過濾前 日期 ---
+        with open(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_current_tweet_count{SUFFIX_FILTERED}{SUFFIX_AUGUST}.json", "r", encoding="utf-8") as f:
+            single_coin_original_dates = json.load(f)
+        single_coin_original_dates = np.array(list(single_coin_original_dates.keys()))  # 取出所有日期（也就是 key）
+        single_coin_original_dates = np.array([
+            datetime.strptime(d, "%Y/%m/%d").strftime("%Y-%m-%d")
+            for d in single_coin_original_dates
+        ])  # 把 "%Y/%m/%d" 轉成 "%Y-%m-%d"
+        print("len(single_coin_original_dates):", len(single_coin_original_dates))
+        print("single_coin_original_dates[:10]:\n", single_coin_original_dates[:10])
+        
+
         # 建立 mask，只保留在 all_coin_dates 裡的日期
-        mask = [d in current_coin_dates for d in XGBoost_dates]
+        mask_XGBoost = [d in current_coin_dates for d in XGBoost_dates]
+        print("len(mask):", len(mask_XGBoost))
 
         # 用 mask 過濾 X_XGBoost 與 XGBoost_dates
-        X_XGBoost = X_XGBoost[mask]
-        XGBoost_dates = XGBoost_dates[mask]  # 為了看 X_XGBoost 有沒有刪正確
+        X_XGBoost = X_XGBoost[mask_XGBoost]
+        XGBoost_dates = XGBoost_dates[mask_XGBoost]  # 為了看 X_XGBoost 有沒有刪正確
+        print("XGBoost_dates.shape:", XGBoost_dates.shape)
+        print("XGBoost_dates[:10]:\n", XGBoost_dates[:10])
+
+        # 用 mask 過濾 X_sentiment
+        print("set(XGBoost_dates) - set(single_coin_original_dates):", set(XGBoost_dates) - set(single_coin_original_dates))
+        mask_sentiment = [d in XGBoost_dates for d in single_coin_original_dates]
+        X_sentiment_1 = X_sentiment_1[mask_sentiment]
+        # X_sentiment_2 = X_sentiment_2[mask]
+        single_coin_original_dates = single_coin_original_dates[mask_sentiment]  # 為了看 X_sentiment 有沒有刪正確
+        print("X_sentiment_1.shape:", X_sentiment_1.shape)
+        print("single_coin_original_dates.shape:", single_coin_original_dates.shape)
+        print("single_coin_original_dates[:10]:\n", single_coin_original_dates[:10])
 
         current_coin_ids = set([(c, d) for (c, d) in all_coin_dates if c == coin_short_name])
         # ids_all_coin += sorted(current_coin_ids)
@@ -151,7 +184,7 @@ def merge():
         # print("X_XGBoost.shape:", X_XGBoost.shape)
         # print("X_first_classifier.shape:", X_first_classifier.shape)
 
-        # --- 讀取 Y --- -----------------------有問題----------------------------
+        # --- 讀取 Y ---
         Y_single_coin = np.load(f"{INPUT_PATH}/y_input/{coin_short_name}/{coin_short_name}_price_diff_original{SUFFIX_FILTERED}{SUFFIX_AUGUST}.npy")  # 讀取 明天 的價錢變化率 (price_diff_rate_tomorrow)
         print("Y_single_coin.shape:", Y_single_coin.shape)
 
@@ -177,6 +210,8 @@ def merge():
         print("len(X_diff_past), len(X_XGBoost), len(X_first_classifier), len(Y_single_coin):",len(X_diff_past), len(X_XGBoost), len(X_first_classifier), len(Y_single_coin))
         X_diff_past = X_diff_past[-min_len:]
         X_XGBoost = X_XGBoost[-min_len:]
+        X_sentiment_1 = X_sentiment_1[-min_len:]
+        # X_sentiment_2 = X_sentiment_2[-min_len:]
         X_first_classifier = X_first_classifier[-min_len:]
         Y_single_coin = Y_single_coin[-min_len:]
         single_coin_ids = (sorted(current_coin_ids)[-min_len:])
@@ -188,9 +223,9 @@ def merge():
 
         # --- 合併特徵 ---
         if MERGE_CLASSIFIER_1_RESULT:
-            X_single_coin = np.hstack([X_diff_past, X_XGBoost, X_first_classifier.reshape(-1, 1)])
+            X_single_coin = np.hstack([X_diff_past, X_XGBoost, X_first_classifier.reshape(-1, 1), X_sentiment_1])  # , X_sentiment_2
         else:
-            X_single_coin = np.hstack([X_diff_past, X_XGBoost])
+            X_single_coin = np.hstack([X_diff_past, X_XGBoost, X_sentiment_1])  # , X_sentiment_2
 
         X_single_coin_dict[coin_short_name] = X_single_coin
         # Y_single_coin_dict[coin_short_name] = Y_single_coin
