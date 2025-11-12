@@ -30,7 +30,7 @@ import joblib
 
 
 '''可修改變數'''
-N_SAMPLES = 1_000_000  # 1_000_000  # random sampling 取的數量
+N_SAMPLES = 100  # 1_000_000  # random sampling 取的數量
 
 N_RUNS = 1
 
@@ -891,9 +891,9 @@ def train_function(X_train, X_test, y_train, y_test, pipeline_path, model_name=B
         compute_metrics=compute_metrics,
     )
 
-    preds = trainer.predict(test_dataset).predictions
-    preds = np.argmax(preds, axis=-1)
-    print(classification_report(y_test, preds))
+    # preds = trainer.predict(test_dataset).predictions
+    # preds = np.argmax(preds, axis=-1)
+    # print(classification_report(y_test, preds))
 
 
 
@@ -981,6 +981,11 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("💻 Using device:", device)
 
+    torch.set_num_threads(16)  # 使用 16 個 CPU threads（依你機器核心數調整）
+    torch.set_num_interop_threads(16)
+    print("CPU threads:", torch.get_num_threads())
+    print("Interop threads:", torch.get_num_interop_threads())
+
     # tokenizer = BertTokenizerFast.from_pretrained(model_name)
     # model = BertForSequenceClassification.from_pretrained(model_path)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -1040,11 +1045,25 @@ def predict_function(X_train, X_test, y_train, y_test, ids_train, ids_test, mode
     train_preds = np.argmax(train_preds, axis=-1)
     test_preds  = np.argmax(test_preds, axis=-1)
 
+    train_report = classification_report(y_train, train_preds, zero_division=0)
+    test_report = classification_report(y_test, test_preds, zero_division=0)
+
     # 評估分類報告
     print("\nTrain Classification Report:")
-    print(classification_report(y_train, train_preds, zero_division=0))
+    print(train_report)
     print("\nTest Classification Report:")
-    print(classification_report(y_test, test_preds, zero_division=0))
+    print(test_report)
+
+    # 指定輸出檔案名稱
+    output_path = "classification_report.txt"
+
+    with open(f"{OUTPUT_PATH}/classification_report_{N_SAMPLES}.txt", "w", encoding="utf-8") as f:
+        f.write("=== Train Classification Report ===\n")
+        f.write(train_report)
+        f.write("\n\n=== Test Classification Report ===\n")
+        f.write(test_report)
+
+    print(f"分類報告已儲存至：{output_path}")
 
     # 套用你原本的 daily aggregation
     train_daily, _ = evaluate_by_coin_date(ids_train, y_train, train_preds)
