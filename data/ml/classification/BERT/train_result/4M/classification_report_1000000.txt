@@ -1,0 +1,26 @@
+=== Train Classification Report ===
+              precision    recall  f1-score   support
+
+           0       0.33      0.42      0.37    627819
+           1       0.43      0.18      0.26    960573
+           2       0.19      0.40      0.26    415400
+           3       0.35      0.36      0.35    897718
+           4       0.46      0.39      0.42    882029
+
+    accuracy                           0.34   3783539
+   macro avg       0.35      0.35      0.33   3783539
+weighted avg       0.37      0.34      0.34   3783539
+
+
+=== Test Classification Report ===
+              precision    recall  f1-score   support
+
+           0       0.24      0.25      0.24    173291
+           1       0.29      0.12      0.17    235686
+           2       0.13      0.30      0.18     97260
+           3       0.32      0.35      0.33    225142
+           4       0.36      0.31      0.33    215573
+
+    accuracy                           0.26    946952
+   macro avg       0.26      0.27      0.25    946952
+weighted avg       0.28      0.26      0.26    946952
