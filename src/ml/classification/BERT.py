@@ -64,7 +64,7 @@ SAVE_MODEL_PATH = "../data/ml/models/BERT"
 
 MODEL_NAME = ["logistic_regression", "logreg"]  # 第二個分類器目前輸入的模型名字(未完成)
 
-BERT_MODEL_NAME = ["google/bert_uncased_L-2_H-128_A-2", "4M"]           
+BERT_MODEL_NAME = ["bert-base-uncased", "110M"]           
 # "bert-base-uncased"                   110M
 # "distilbert-base-uncased",            66M
 # "google/bert_uncased_L-2_H-128_A-2"   4M
