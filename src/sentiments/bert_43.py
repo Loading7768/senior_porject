@@ -20,9 +20,19 @@ tokenizer = 'borisn70/bert-43-multilabel-emotion-detection'
 nlp = pipeline('sentiment-analysis', model=model, tokenizer=tokenizer)
 # ---------------------------------------------------------------------------
 
+# --------------------parameters--------------------
+'''
+Whether to only use 'normal tweets' or not.
+'''
+IS_FILTERED = False
+# --------------------parameters--------------------
+
 
 def load_tweets(coin_short_name, json_dict_name):
-    TWEET_PATH = f'../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/*.json'
+    if IS_FILTERED:
+        TWEET_PATH = f'../data/filtered_tweets/normal_tweets/{coin_short_name}/*/*/*.json'
+    else: 
+        TWEET_PATH = f'../data/tweets/{coin_short_name}/*/*/*.json'
 
     tweet_files = glob(TWEET_PATH)
     tweet_files = sorted(tweet_files)
@@ -81,12 +91,15 @@ def process_sentiments(tweet_by_date):
 def save_results(coin_short_name, results):
     OUTPUT_PATH = Path(
         f'../data/ml/dataset/X_input/price_classifier/sentiments/bert_43/{coin_short_name}_bert_43.npy'
+    ) if IS_FILTERED else Path(
+        f'../data/ml/dataset/X_input/price_classifier/sentiments/bert_43/{coin_short_name}_bert_43_non_filtered.npy'
     )
     os.makedirs(OUTPUT_PATH.parent, exist_ok=True)
     np.save(OUTPUT_PATH, results)
 
 
 def main():
+    print("Processing NORMAL tweets." if IS_FILTERED else "Processing non filtered tweets.")
     COIN_SHORT_NAMES = ['TRUMP', 'PEPE', 'DOGE']
     JSON_DICT_NAMES = [
         '(officialtrump OR "official trump" OR "trump meme coin" OR "trump coin" OR trumpcoin OR $TRUMP OR "dollar trump")',
