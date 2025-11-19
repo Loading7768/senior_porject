@@ -18,7 +18,7 @@ INPUT_FIRST_CLASSIFIER_PATH = f"../data/ml/classification/{MODEL_NAME[0]}"
 
 OUTPUT_PATH = "../data/ml/dataset/final_input/price_classifier"
 
-MERGE_CLASSIFIER_1_RESULT = True  # 看是否要合併第一個分類器的預測結果
+MERGE_CLASSIFIER_1_RESULT = False  # 看是否要合併第一個分類器的預測結果
 
 IS_FILTERED = True  # 看是否有分 normal 與 bot
 
