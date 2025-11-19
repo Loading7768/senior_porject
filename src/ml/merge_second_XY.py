@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 '''可修改參數'''
 COIN_SHORT_NAME = ["DOGE", "PEPE", "TRUMP"]
 
-MODEL_NAME = ["logistic_regression", "logreg"]  # ["logistic_regression", "logreg"] ["random_forest", "rf"] ["SGD", "sgd"]    
+MODEL_NAME = ["random_forest", "rf"]  # ["logistic_regression", "logreg"] ["random_forest", "rf"] ["SGD", "sgd"]    
 
 INPUT_PATH = "../data/ml/dataset"
 
