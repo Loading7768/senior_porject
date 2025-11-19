@@ -17,8 +17,8 @@ LABEL_SYMBOLS = {
 
 # === 設定參數 ===
 MODEL_NAME = "rf"              # 'rf', 'logreg', 'sgd' 可選
-TRAIN_TYPE = "filtered"        # 'filtered' or 'non_filtered'
-USE_CLASSIFIER_1 = False       # True = 有用 classifier_1 篩特徵；False = 沒用
+TRAIN_TYPE = "non_filtered"        # 'filtered' or 'non_filtered'
+USE_CLASSIFIER_1 = True       # True = 有用 classifier_1 篩特徵；False = 沒用
 
 # === 模型名稱轉換 ===
 if MODEL_NAME == "logreg":

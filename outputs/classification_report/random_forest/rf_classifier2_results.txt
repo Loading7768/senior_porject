@@ -1,0 +1,31 @@
+=== 訓練報告 (Training Report) ===
+模型參數: n_estimators=400, max_depth=40, min_samples_leaf=5, class_weight=balanced
+訓練準確率 (Train) = 0.9881
+測試準確率 (Test) = 0.2989
+
+=== Train Classification Report ===
+              precision    recall  f1-score   support
+
+        🔴 大跌      0.980     1.000     0.990       244
+        🟠 小跌      1.000     0.978     0.989       642
+        ⚪ 持平      0.970     1.000     0.985       355
+        🟡 小漲      1.000     0.982     0.991       626
+        🟢 大漲      0.964     1.000     0.982       242
+
+    accuracy                          0.988      2109
+   macro avg      0.983     0.992     0.987      2109
+weighted avg      0.989     0.988     0.988      2109
+
+
+=== Test Classification Report ===
+              precision    recall  f1-score   support
+
+        🔴 大跌      0.179     0.119     0.143        59
+        🟠 小跌      0.325     0.340     0.332       156
+        ⚪ 持平      0.265     0.180     0.214       100
+        🟡 小漲      0.318     0.420     0.362       150
+        🟢 大漲      0.281     0.269     0.275        67
+
+    accuracy                          0.299       532
+   macro avg      0.274     0.265     0.265       532
+weighted avg      0.290     0.299     0.290       532
